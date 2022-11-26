@@ -1,0 +1,196 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "71805",
+			"name": "U.S.S. Dauntless",
+			"releaseDate": "2015-07-01",
+			"parentSet": "Wave 16"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_dauntless_71805",
+			"set": ["71805"],
+			"name": "U.S.S. Dauntless",
+			"class": "Dauntless Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","tech","tech","tech"],
+			"attack": 2,
+			"agility": 2,
+			"hull": 4,
+			"shields": 5,
+			"cost": 26,
+			"text": "Each time you perform an Action or use an ability on any of your [tech] Upgrades, place 1 Mission Token on this card. During the Roll Attack Dice step, you may spend up to 2 of these tokens to gain +1 attack die for that attack for each token spent.",
+			"unique": true,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} },
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "independent_starship_71805",
+			"set": ["71805"],
+			"name": "Independent Starship",
+			"class": "Dauntless Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","tech","tech"],
+			"attack": 2,
+			"agility": 2,
+			"hull": 4,
+			"shields": 4,
+			"cost": 24,
+			"text": "",
+			"unique": false,
+			"factions": ["independent"],
+			"squadron": false
+		}
+	],
+	
+	"shipClasses": [
+	
+		{
+			"type": "ship-class",
+			"id": "dauntless_class",
+			"name": "Dauntless Class",
+			"frontArc": "90",
+			"rearArc": "",
+			"maneuvers": {
+				"5": {
+					"straight": "white"
+				},
+				"4": {
+					"straight": "white"
+				},
+				"3": {
+					"straight": "white",
+					"bank": "white",
+					"turn": "red"
+				},
+				"2": {
+					"straight": "green",
+					"bank": "white",
+					"turn": "white"
+				},
+				"1": {
+					"straight": "green",
+					"bank": "green"
+				},
+				"min": 1,
+				"max": 5
+			}
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "arturis_71805",
+			"set": ["71805"],
+			"name": "Arturis",
+			"cost": 5,
+			"skill": 3,
+			"talents": 1,
+			"text": "Arturis' Captain Skill is +5 if he is assigned to a Dauntless class ship.\n\nACTION: Target a ship at Range 2-3. disable either the Captain Card or up to 2 [crew] Upgrades on the target ship (your choice). Place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "tech",
+			"id": "auto_navigation_71805",
+			"set": ["71805"],
+			"name": "Auto-Navigation",
+			"cost": 2,
+			"text": "Add 1 [tech] Upgrade to your Upgrade Bar.\n\nWhile this card is assigned to your ship, you do not need to have a Captain Card assigned to your ship and your ship has a Skill Number of 2.\n\nWhen you reveal your chosen maneuver, you may disable this card to change that maneuver to any Green Maneuver on your ship's dial.",
+			"unique": true,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "quantum_slipstream_drive_71805",
+			"set": ["71805"],
+			"name": "Quantum Slipstream Drive",
+			"cost": 6,
+			"text": "If you reveal an maneuver with a speed of 5 or greater, before performing the maneuver, you may discard this card to remove your ship from the play area and discard all tokens from beside your ship except for Auxiliary Power Tokens. Then, immediately place it back in the play area, but not within Range 1-3 of any other ship. You cannot attack during the round you use this ability.",
+			"unique": true,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "power_distribution_grid_71805",
+			"set": ["71805"],
+			"name": "Power Distribution Grid",
+			"cost": 2,
+			"text": "During the Activation Phase, before you move, you may discard this card to disregard your chosen Maneuver and perform one of the [turn-left] or [turn-right] Maneuvers on your Maneuver dial instead. Treat this as a red maneuver.",
+			"unique": false,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "force_field_71805",
+			"set": ["71805"],
+			"name": "Force Field",
+			"cost": 3,
+			"text": "If an enemy ship causes one of your Upgrades to be disabled or discarded, you may disable this card to roll 1 defense die. If you roll an [evade] result, the targeted Upgrade is not disabled or discarded.\n\nThis upgrade costs +5 SP for any ship other than a Dauntless class ship.",
+			"unique": false,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "navigational_deflector_71805",
+			"set": ["71805"],
+			"name": "Navigational Deflector",
+			"cost": 4,
+			"text": "When taking damage this round, you may discard this card to cancel 1 [hit] result. If the damage is from a minefield or an obstacle, disable this card instead of discarding it. You may roll defense dice against obstacles or minefields. No ship may be equipped with more than one Navigational Deflector Upgrade.",
+			"unique": false,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "particle_synthesis_71805",
+			"set": ["71805"],
+			"name": "Particle Synthesis",
+			"cost": 5,
+			"text": "ACTION: Disable this card and discard one of your [tech] Upgrades to repair either 1 damage to your Hull or up to 2 of your Shield Tokens.\n\nThis Upgrade may only be purchased for a Dauntless class ship.",
+			"unique": false,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "talent",
+			"id": "emergency_shutdown_71805",
+			"set": ["71805"],
+			"name": "Emergency Shutdown",
+			"cost": 3,
+			"text": "During the Activation Phase, before you move, you may discard this card to disregard your chosen Maneuver and not move. If you do so, you lose your Perform Action step for that round.",
+			"unique": true,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "talent",
+			"id": "lure_71805",
+			"set": ["71805"],
+			"name": "Lure",
+			"cost": 5,
+			"text": "During the Planning Phase, after all ships have chosen their maneuvers, you may discard this card to target an enemy ship that is not within Range 1-3 of your ship. If you do this, change that ship's chosen Maneuver. The target ship cannot look at or change their dial after you reset it. If the new maneuver would cause the ship to exit the play area or overlap another ship, the target ship may disregard the maneuver and not move that turn.",
+			"unique": true,
+			"factions": ["independent"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	]
+
+}

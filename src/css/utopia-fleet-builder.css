@@ -1,0 +1,129 @@
+.fleet-ship-container {
+	margin-bottom: 0em;
+}
+
+.fleet-ship-top {
+	height: 3em;
+}
+
+.fleet-ship-top-left {
+	float: left;
+	background: #999;
+	height: 100%;
+	width: 6em;
+}
+
+.fleet-ship-top-left-first {
+	border-top-left-radius: 6em;
+}
+
+.fleet-ship-title {
+	float: left;
+	padding: 0 0.1em;
+	font-size: 2.6em;
+	height: inherit;
+	padding-top: 0.1em;
+}
+
+.fleet-ship-title-long {
+	font-size: 2.5em;
+	padding-top: 0.1em;
+}
+
+.fleet-ship-title-longer {
+	font-size: 2em;
+	padding-top: 0.25em;
+}
+
+.fleet-ship-cost {
+	background: #ddd;
+}
+
+.fleet-ship-top-spacer {
+	float: left;
+	background: #999;
+	height: 100%;
+	width: 2em;
+}
+
+.fleet-ship-top-right {
+	float: left;
+	background: #999;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	height: 100%;
+	width: 3em;
+}
+
+.fleet-ship-middle {
+	display: flex;
+	background: #999;
+	clear: both;
+}
+
+.fleet-ship-left {
+	width: 1em;
+	background: #999;
+}
+
+.fleet-ship-inner {
+	border: 0.5em solid #eee;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	background: #eee;
+	width: 100%;
+}
+
+.fleet-ship-bottom {
+	height: 3em;
+}
+
+.fleet-ship-bottom-left {
+	float: left;
+	background: #999;
+	border-bottom-left-radius: 6em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	height: 100%;
+	width: 23em;
+}
+
+.fleet-ship-bottom-left-long {
+	width: 43em;
+}
+
+.fleet-open-search {
+	font-size: 2em;
+	position: relative;
+	top: -1.7em;
+	left: -0.2em;	
+	margin-bottom: -1em;
+}
+
+.fleet-search-bigger {
+	background: #ddd;
+	border: none;
+	padding: 0 1em;
+	font-family: STAWSwiss;
+
+}
+
+.fleet-open-search .fleet-search-bigger {
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+
+.fleet-open-export {
+	font-size: 2em;
+	position: relative;
+	top: -1.7em;
+	right: -0.2em;
+	margin-bottom: -1.5em;
+	float: right;
+	z-index: 10;
+}
+
+.fleet-open-export .fleet-search-bigger {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}

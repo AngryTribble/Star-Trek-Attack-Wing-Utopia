@@ -1,0 +1,25 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72003r",
+			"name": "Protocol Resource",
+			"releaseDate": "2016-01-01",
+			"parentSet": "Temporal Cold War"
+		}
+	],
+	
+	"resources": [
+		{
+			"type": "resource",
+			"id": "protocol_72003r",
+			"set": ["72003r"],
+			"name": "Protocol",
+			"cost": 5,
+			"text": "Once per round, one of your ships may use one of the following abilities:\n\n1) When performing an [evade], a [scan], or a [battlestations] Action from your Action Bar, place 2 of the appropriate type Tokens beside your ship instead of 1.\n\nOR\n\n2) When performing a [cloak] Action from your Action Bar, place your [cloak] Token beside your ship instead of on your ship's base. That ship cannot be target locked that round.\n\nOR\n\n3) When performing a [sensor-echo] Action from your Action Bar, you may use a 1[forward], 2[forward], or 3[forward] Maneuver Template."
+		}
+
+	]
+
+}

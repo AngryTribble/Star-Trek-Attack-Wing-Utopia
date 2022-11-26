@@ -1,0 +1,25 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72221r",
+			"name": "Tactics",
+			"releaseDate": "2016-03-01",
+			"parentSet": "The Void OP"
+		}
+	],
+	
+	"resources": [
+		{
+			"type": "resource",
+			"id": "tactics_72221r",
+			"set": ["72221r"],
+			"name": "TACTICS",
+			"cost": 5,
+			"text": "At the start of the battle, place 2 [evade] Tokens, 2 [scan] Tokens and 2 [battlestations] Tokens on top of this card. /n/n Each round, during the Activation Phase, one ship in your fleet may choose on of the Tokens form on top of this card and place it beside its base. Treat this as if that ship performed a free Action of the appropriate type. /n/n If the ship performing this Action does not have the Action listed on its Action Bar, it may still perform the Action, but it is considered a Standard Action instead of a free Action. in Addition, place an Auxiliary Power Token beside that ship."
+		}
+
+	]
+
+}

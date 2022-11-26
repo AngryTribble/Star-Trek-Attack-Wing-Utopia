@@ -1,0 +1,136 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "71008",
+			"name": "Xindi Weapon Zero",
+			"releaseDate": "2016-03-1",
+			"parentSet": "Wave 22.5"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "weapon_0_72008",
+			"set": ["71008"],
+			"name": "Weapon Zero",
+			"class": "Xindi Weapon",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","weapon","weapon","crew"],
+			"attack": 6,
+			"agility": 0,
+			"hull": 8,
+			"shields": 0,
+			"cost": 30,
+			"text": "When defending, during the Roll Defence Dice step yuo may roll 1 defence die for each [hit] or [crit] result rolled by the attacking ship. If you do so, Place and Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["xindi"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "xindi_starship_72008",
+			"set": ["71008"],
+			"name": "Xindi Starship",
+			"class": "Xindi Weapon",
+			"actions": ["evade","target-lock","scan"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 6,
+			"agility": 0,
+			"hull": 8,
+			"shields": 0,
+			"cost": 28,
+			"text": "",
+			"unique": false,
+			"factions": ["xindi"],
+			"squadron": false
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "dolim_weapon_zero",
+			"set": ["71008"],
+			"name": "DOLIM",
+			"cost": 5,
+			"skill": 8,
+			"talents": 1,
+			"text": "ACTION: if your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard 1 [crew] Upgrade on the target ship. You ship has a Captain Skill of 1 until the End Phase of this round.",
+			"unique": true,
+			"factions": ["xindi"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "arming_sequence_weapon_zero",
+			"set": ["71008"],
+			"name": "ARMING SEQUENCE",
+			"cost": 8,
+			"text": "ACTION: Place 1 Mission Token on this card. During the Activation Phase of each subsequent round place 1 additional Mission Token on this card. (max 3). While there are Mission Tokens on this card your ship cannot perform any Actions and my only execute maneuvers with a speed of 1. /n/n While attacking with a 'Destructive Blast' [weapon] Upgrade or your Primary Weapon during the Roll Attack Dice Step you may discard this card to gain a number of attack dice equal to the number of Mission Tokens on this card. This Upgrade may only be purchased for a Xindi Weapon.",
+			"unique": true,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "crew",
+			"id": "degra_weapon_zero",
+			"set": ["71008"],
+			"name": "DEGRA",
+			"cost": 4,
+			"text": "All of your [weapon] Upgrades cost -1 SP. /n/n When attacking during the Declare Target step of if your ship does not already have another ship target locked. You may discard this card to acquire a target lock on a ship within Range 1-3 of your ship.",
+			"unique": true,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "weapon",
+			"id": "destructive_blast_weapon_zero",
+			"set": ["71008"],
+			"name": "DESTRUCTIVE BLAST",
+			"cost": 6,
+			"attack": 5,
+			"range": "*",
+			"text": "ATTACK: Discard this card to perform this attack. This attack targets all ships in a straight line up to Range 3 from your ship. Perform one attack against each ship in the line. Each attack beyond the first is at a cumulative -1 attack die (ie -1 attack die against the 2nd ship, -2 attack die against the 3rd etc.) This Upgrade can only be purchased for a Xindi Weapon.",
+			"unique": true,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "weapon",
+			"id": "rotating_emitters_weapon_zero",
+			"set": ["71008"],
+			"name": "ROTATING EMITTERS",
+			"cost": 4,
+			"attack": 4,
+			"range": "1",
+			"text": "ATTACK: Disable this card to perform this attack. /n/n You may fire this weapon in any direction. /n/n This Upgrade may only be purchased for a Xindi Weapon.",
+			"unique": false,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "tech",
+			"id": "subspace_vortex_weapon_zero",
+			"set": ["71008"],
+			"name": "SUBSPACE VORTEX",
+			"cost": 6,
+			"text": "ACTION: Discard this card to remove your ship from the play area and discard all Tokens that are beside your ship except for Auxiliary Power Tokens. Immediately place your ship back anywhere in the play area but not within Range 1-3 of any enemy ship. You cannot attack during the round that you use this Action. /n/n This Upgrade can only be purchased for a Xindi ship.",
+			"unique": true,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "tech",
+			"id": "self_destruct_weapon_zero",
+			"set": ["71008"],
+			"name": "SELF-DESTRUCT",
+			"cost": 5,
+			"text": "ACTION: Target all ships within range 1 of your ship and destroy your ship. Each target suffers 1 damage and must discard a Token ([evade], [scan], [battlestations], or [target-lock]) that is beside it. /n/n This Upgrade may only be purchased for a Xindi Weapon.",
+			"unique": true,
+			"factions": ["xindi"]
+		}
+
+	]
+
+}

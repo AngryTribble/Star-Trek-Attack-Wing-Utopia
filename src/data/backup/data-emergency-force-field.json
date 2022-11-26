@@ -1,0 +1,25 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72001r",
+			"name": "Emergency Force Field Resource",
+			"releaseDate": "2015-09-01",
+			"parentSet": "Year of Hell"
+		}
+	],
+	
+	"resources": [
+		{
+			"type": "resource",
+			"id": "emergency_force_field_72001r",
+			"set": ["72001r"],
+			"name": "Emergency Force Field",
+			"cost": 0,
+			"text": "Each time a ship in your fleet defends, during the Compare Results step, you may:\n\n1) Disable 1 of that ship's Active Shields to cancel 1 of the attacking ship's [hit] results.\n\nOR\n\n2) Disable 2 of that ship's Active Shields to cancel 1 of the attacking ship's [crit] results.\n\nIf a ship uses either ability, place an Auxiliary Power Token beside that ship.\n\nThe cost of this resource is a number of SP equal to the total combined starting Shield Values of all ships in your fleet divided by 2 (round up). For example, if your fleet has a total combined Shield Value of 15, the cost of this resource would be 8."
+		}
+
+	]
+
+}

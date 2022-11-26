@@ -1,0 +1,12 @@
+
+{
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72239p",
+			"name" : "I.R.W. Rateg",
+			"releaseDate" : "2016-08-02",
+			"parentSet" : "The Corbomite Maneuver"
+		}
+	]
+}

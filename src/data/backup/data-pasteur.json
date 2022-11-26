@@ -1,0 +1,223 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "71807",
+			"name": "U.S.S. Pasteur",
+			"releaseDate": "2015-07-01",
+			"parentSet": "Wave 16"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_pasteur_71807",
+			"set": ["71807"],
+			"name": "U.S.S. Pasteur",
+			"class": "Olympic Class",
+			"actions": ["evade","scan","battlestations"],
+			"upgrades": ["tech","tech","crew","crew"],
+			"attack": 1,
+			"agility": 1,
+			"hull": 5,
+			"shields": 4,
+			"cost": 22,
+			"text": "After you perform a maneuver with a speed of 5 or greater, you may immediately perform an [evade] Action as a free Action.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} },
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "mirror_universe_starship_71807",
+			"set": ["71807"],
+			"name": "Mirror Universe Starship",
+			"class": "Olympic Class",
+			"actions": ["evade","scan","battlestations"],
+			"upgrades": ["tech","tech","crew"],
+			"attack": 1,
+			"agility": 1,
+			"hull": 5,
+			"shields": 3,
+			"cost": 20,
+			"text": "",
+			"unique": false,
+			"factions": ["mirror-universe"],
+			"squadron": false
+		}
+	],
+	
+	"shipClasses": [
+	
+		{
+			"type":"ship-class",
+			"id":"olympic_class",
+			"name":"Olympic Class",
+			"frontArc":"90",
+			"rearArc":"",
+			"maneuvers": {
+				"6":{
+					"straight":"red"
+				},
+				"5":{
+					"straight":"white"
+				},
+				"4":{
+					"straight":"white"
+				},
+				"3":{
+					"straight":"white",
+					"bank":"white",
+					"turn":"red"
+				},
+				"2":{
+					"straight":"green",
+					"bank":"white"
+				},
+				"1":{
+					"straight":"green",
+					"bank":"green"
+				},
+				"-1":{
+					"straight":"red"
+				},
+				"min":-1,
+				"max":6
+			}
+		}
+
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "william_t_riker_71807",
+			"set": ["71807"],
+			"name": "William T. Riker",
+			"cost": 4,
+			"skill": 1,
+			"talents": 1,
+			"text": "FLEET ACTION: Place a [scan] Token beside your ship. You may then perform 1 Action from your Upgrade bar as a free Action. You cannot perform the [scan] Action as a free Action this round.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "william_t_riker_cap_71807",
+			"set": ["71807"],
+			"name": "William T. Riker",
+			"cost": 4,
+			"skill": 7,
+			"talents": 1,
+			"text": "ACTION: Place a [scan] Token beside your ship. You may then perform 1 Action from your Upgrade bar as a free Action. You cannot perform the [scan] Action as a free Action this round.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "captain",
+			"id": "beverly_crusher_71807",
+			"set": ["71807"],
+			"name": "Beverly Crusher",
+			"cost": 3,
+			"skill": 5,
+			"talents": 1,
+			"text": "If you performed a Green Maneuver this round, each time you defend this round, you may convert 1 of your [battlestations] results into an [evade] result.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "captain",
+			"id": "worf_71807",
+			"set": ["71807"],
+			"name": "Worf",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "ACTION: Roll +1 attack die and +1 defense die this round. Place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+
+	],
+	
+	"upgrades": [
+
+		{
+			"type": "crew",
+			"id": "nell_chilton_71807",
+			"set": ["71807"],
+			"name": "Nell Chilton",
+			"cost": 3,
+			"text": "When defending, during the Deal Damage step, after your ship suffers at least 1 damage to its Hull, you may discard this card to immediately perform an additional Green Maneuver.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "crew",
+			"id": "alyssa_ogawa_71807",
+			"set": ["71807"],
+			"name": "Alyssa Ogawa",
+			"cost": 2,
+			"text": "ACTION: Remove 1 Disabled Upgrade Token from 1 of your [tech] or [crew] Upgrades and then perform a [scan] or [evade] Action as a free Action.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "impulse_drive_71807",
+			"set": ["71807"],
+			"name": "Impulse Drive",
+			"cost": 3,
+			"text": "During the Activation Phase, if you reveal a 1, 2 or 3 Maneuver (Straight or Bank), before you move you may disable this card. If you do so, and the maneuver is a white maneuver, treat it as a green maneuver. If the maneuver is a red maneuver, treat it as a white maneuver.",
+			"unique": false,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "inverse_tachyon_pulse_71807",
+			"set": ["71807"],
+			"name": "Inverse Tachyon Pulse",
+			"cost": 2,
+			"text": "When you initiate an attack while there is a [scan] token beside your ship, you may disable this card. If you do so, the defending shiph rolls -1 defense die against that attack.\n\nNo ship may be equipped with more than 1 Inverse Tachyon Pulse Upgrade.",
+			"unique": false,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "talent",
+			"id": "yellow_alert_71807",
+			"set": ["71807"],
+			"name": "Yellow Alert",
+			"cost": 2,
+			"text": "At the start of the Combat Phase, before any attacks are made, you may discard this card. If you do so, place either 1 [evade] or 1 [battlestations] Token beside your ship (even if there is already one there).",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "talent",
+			"id": "starfleet_intelligence_71807",
+			"set": ["71807"],
+			"name": "Starfleet Intelligence",
+			"cost": 3,
+			"text": "When defending, during the Modify Defense Dice step, you may discard this card to re-roll any number of your defense dice.\nOR\nWhen attacking, during the Modify Attack Dice step, you may discard this card to re-roll any number of your attack dice.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	]
+
+}

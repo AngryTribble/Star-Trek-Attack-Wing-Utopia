@@ -1,0 +1,228 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72008",
+			"name": "U.S.S. Thunderchild",
+			"releaseDate": "2015-08-01",
+			"parentSet": "Wave 17"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_thunderchild_72008",
+			"set": ["72008"],
+			"name": "U.S.S. Thunderchild",
+			"class": "Akira Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["weapon","weapon","weapon","crew"],
+			"attack": 4,
+			"agility": 2,
+			"hull": 5,
+			"shields": 3,
+			"cost": 28,
+			"text": "Each time you defend, if you take no damage from an attack, you may immediately roll 1 attack die. A [hit] or [crit] result damages the attacking ship.",
+			"unique": true,
+			"factions": ["federation"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "federation_starship_72008",
+			"set": ["72008"],
+			"name": "Federation Starship",
+			"class": "Akira Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["weapon","weapon","crew"],
+			"attack": 4,
+			"agility": 2,
+			"hull": 5,
+			"shields": 2,
+			"cost": 26,
+			"text": "",
+			"unique": false,
+			"factions": ["federation"],
+			"squadron": false
+		}
+
+	],
+	
+	"shipClasses": [
+	
+		{
+			"type": "ship-class",
+			"id": "akira_class",
+			"name": "Akira Class",
+			"frontArc": "90",
+			"rearArc": "",
+			"maneuvers": {
+				"4": {
+					"straight": "white"
+				},
+				"3": {
+					"straight": "white",
+					"bank": "white",
+					"turn": "red",
+					"about": "red"
+				},
+				"2": {
+					"straight": "green",
+					"bank": "white",
+					"turn": "white"
+				},
+				"1": {
+					"straight": "green",
+					"bank": "green"
+				},
+				"min": 1,
+				"max": 4
+			}
+		}
+
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "hayes_72008",
+			"set": ["72008"],
+			"name": "Hayes",
+			"cost": 3,
+			"skill": 1,
+			"talents": 1,
+			"text": "FLEET ACTION: All friendly ships within Range 1 of your ship gain +1 attack die this round\n(+2 attack dice against Borg ships).",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "admiral",
+			"id": "shanthi_72008",
+			"set": ["72008"],
+			"name": "Shanthi",
+			"cost": 2,
+			"skill": 1,
+			"talents": 1,
+			"text": "FLEET ACTION: Target a ship at Range 1-2. When attacking that ship this round, you may re-roll all of your blank results once. In addition, if the target ship is Cloaked, immediately flip that ship's [cloak] Token over to its red side.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "shanthi_cap_72008",
+			"set": ["72008"],
+			"name": "Shanthi",
+			"cost": 2,
+			"skill": 4,
+			"talents": 1,
+			"text": "ACTION: Target a ship at Range 1-2. When attacking that ship this round, you may re-roll all of your blank results once. In addition, if the target ship is Cloaked, immediately flip that ship's [cloak] Token over to its red side.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "captain",
+			"id": "hayes_cap_72008",
+			"set": ["72008"],
+			"name": "Hayes",
+			"cost": 3,
+			"skill": 5,
+			"talents": 1,
+			"text": "ACTION: All friendly ships within Range 1 of your ship gain +1 attack die this round\n(+2 attack dice against Borg ships).",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "persistence_72008",
+			"set": ["72008"],
+			"name": "Persistence",
+			"cost": 5,
+			"text": "When you attack with your Primary Weapon, during the Roll Attack Dice step, if you roll a [hit] or [crit] result on each one of your dice, you may discard this card to roll +2 additional attack dice (+4 against Borg ships). Add all [hit] and [crit] results from the additional dice to your total for that attack. Any Blank or [battlestations] results from the additional dice are not added.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "talent",
+			"id": "federation_task_force_72008",
+			"set": ["72008"],
+			"name": "Federation Task Force",
+			"cost": 5,
+			"text": "ACTION: Discard this card to target up to 2 friendly ships within Range 1-2. Your ship and the target ships may immediately perform a [target-lock] Action as a free Action, if possible.\n\nThis Upgrade may only be purchased for a Federation ship with a Federation Captain.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "talent",
+			"id": "intercept_72008",
+			"set": ["72008"],
+			"name": "Intercept",
+			"cost": 5,
+			"text": "If a friendly ship within Range 1 of your ship is attacked, and your ship is also in the attacking ship's firing arc, you may discard this card to force the attacking ship to perform its attack against your ship instead of the target ship. After the attack is complete, you may perform an additional green maneuver.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "photon_torpedoes_72008",
+			"set": ["72008"],
+			"name": "Photon Torpedoes",
+			"cost": 5,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\nYou may convert 1 of your [battlestations] results into 1 [crit] result.\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "quantum_torpedoes_72008",
+			"set": ["72008"],
+			"name": "Quantum Torpedoes",
+			"cost": 6,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\nIf the target ship is hit, add 1 [hit] result to your total damage.\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "rapid_reload_c_72008",
+			"set": ["72008"],
+			"name": "Rapid Reload",
+			"cost": 2,
+			"text": "This Upgrade counts as a [crew], [tech] or [weapon] Upgrade (your choice).\n\nWhen you are instructed to place Time Tokens on one of your [weapon] Upgrades, you may disable this card to place only 1 Time Token instead of the required amount.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "rapid_reload_t_72008",
+			"set": ["72008"],
+			"name": "Rapid Reload",
+			"cost": 2,
+			"text": "This Upgrade counts as a [crew], [tech] or [weapon] Upgrade (your choice).\n\nWhen you are instructed to place Time Tokens on one of your [weapon] Upgrades, you may disable this card to place only 1 Time Token instead of the required amount.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "rapid_reload_w_72008",
+			"set": ["72008"],
+			"name": "Rapid Reload",
+			"cost": 2,
+			"text": "This Upgrade counts as a [crew], [tech] or [weapon] Upgrade (your choice).\n\nWhen you are instructed to place Time Tokens on one of your [weapon] Upgrades, you may disable this card to place only 1 Time Token instead of the required amount.",
+			"unique": false,
+			"factions": ["federation"]
+		}
+	]
+
+}

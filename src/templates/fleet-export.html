@@ -1,0 +1,13 @@
+<div class="fleet-close-export" ng-show="searchOptions.showExport">
+	<button class="fleet-search-bigger" ng-click="searchOptions.showExport = false"><i class="fa fa-chevron-right"></i> Export</button>
+</div>
+
+<div class="export-container">
+	<div class="u-search-header"><div class="u-search-header-text">Copy Text Listing</div></div>
+	<label class="export-option"><input type="checkbox" ng-model="showSetNames">Include Expansion Names</label>
+	<!-- New checkbox here for the table-top simulator option. -->
+	<label class="export-option"><input type="radio" ng-model="exportType" value="traditional">Traditional Export</label>
+	<label class="export-option"><input type="radio" ng-model="exportType" value="tts">Table-Top Sim Export</label>
+	<!-- <label class="export-option"><input type="radio" ng-model="exportType" value="fleetSheet">Export JSON for Fleet Sheet</label> -->
+	<textarea class="export-text" ng-model="fleetText"></textarea>
+</div>

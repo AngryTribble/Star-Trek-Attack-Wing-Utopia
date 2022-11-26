@@ -1,0 +1,111 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72221p",
+			"name": "I.R.W. T'Met",
+			"releaseDate": "2016-03-02",
+			"parentSet": "The Void OP"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "i_r_w_tmet",
+			"set": ["72221p"],
+			"name": "I,R.W. T'MET",
+			"class": "D'DERIDEX CLASS",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["tech","tech","weapon","weapon","crew"],
+			"attack": 3,
+			"agility": 2,
+			"hull": 6,
+			"shields": 4,
+			"cost": 30,
+			"text": "ACTION: If your ship is not Cloaked, when attacking with your Primary Weapon at Range 1 this round, gain +1 attack die and roll -1 defence die.",
+			"unique": true,
+			"factions": ["romulan"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "romulan_starship_tmet",
+			"set": ["72221p"],
+			"name": "ROMULAN STARSHIP",
+			"class": "D'DERIDEX CLASS",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 3,
+			"agility": 2,
+			"hull": 6,
+			"shields": 3,
+			"cost": 28,
+			"text": "",
+			"unique": false,
+			"factions": ["romulan"],
+			"squadron": false
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "tebok_tmet",
+			"set": ["72221p"],
+			"name": "TEBOK",
+			"cost": 2,
+			"skill": 3,
+			"talents": 0,
+			"text": "During the Gather Forces step, if there is at least one other Romulan Ship in your starting fleet, Tebok my field 1 Romulan [talent] at a cost of -1 SP.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "intercept_tmet",
+			"set": ["72221p"],
+			"name": "INTERCEPT",
+			"cost": 5,
+			"text": "During the Activation Phase, if an opposing ship ends it move within your forward firing arc, before that ship performs its Action you may discard this card to immediately perform an attack with 3 attack dice against that ship. The Defending ship my roll defense dice against this attack, but the attack dice cannot be modified in any way.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "crew",
+			"id": "thei_tmet",
+			"set": ["72221p"],
+			"name": "THEI",
+			"cost": 1,
+			"text": "During the Activation Phase, after you move, if you have the [cloak] Action on your Action Bar, you may discard this card to perform a [cloak] Action as a free Action.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "weapon",
+			"id": "charging_Weapons_tmet",
+			"set": ["72221p"],
+			"name": "CHARGING WEAPONS",
+			"cost": 1,
+			"text": "When attacking with your Primary Weapon, you may disable this card to re-roll one of your blank results. /n/n No ship may be equipped with more than one 'Charging Weapons' Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "self_repair_technology_tmet",
+			"set": ["72221p"],
+			"name": "SELF REPAIR TECHNOLOGY",
+			"cost": 4,
+			"text": "After your ship performs a green maneuver, you may disable this card to repair 1 damage to your ship's Hull. /n/n This Upgrade may only be purchased for a Romulan ship and no ship may be equipped with more than 1 'Self Repair Technology' Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		}
+	]
+
+}

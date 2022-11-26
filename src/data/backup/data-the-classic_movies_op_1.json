@@ -1,0 +1,118 @@
+
+{
+
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72235p",
+			"name" : "U.S.S. Reliant",
+			"releaseDate" : "2016-04-02",
+			"parentSet" : "The Classic Movies"
+		},
+		{
+			"type" : "set",
+			"id" : "72235r",
+			"name" : "General Orders",
+			"releaseDate" : "2016-04-01",
+			"parentSet" : "The Classic Movies"
+		}
+	],
+
+	"resources" : [
+		{
+			"type" : "resource",
+			"id" : "the_classic_movies_general_orders_resource",
+			"set" : ["72235r"],
+			"name" : "General Orders",
+			"text" : "At the start of the game, place 5 [battlestations] Tokens on this card.\n\nDuring the Activation Phase, if a ship in your fleet is within Range 1-3 and in the firing arc (forward or rear) of an opposing ship after the opposing ship ends its move, you may choose to immediately remove 1 [battlestations] Token from this card and place it beside your ship, even if there is already a [battlestations] Token beside that ship.\n\nRemvoe this card from the game when there are no [battlestations] Tokens left on this card.",
+			"cost" : 5,
+			"showShipResourceSlot" : false
+		}
+
+	],
+
+	"ships" : [
+		{
+			"type" : "ship",
+			"id" : "the_classic_movies_u_s_s_reliant",
+			"set" : ["72235p"],
+			"name" : "U.S.S. Reliant",
+			"class" : "Miranda Class",
+			"actions" : ["evade", "target-lock", "scan", "battlestations"],
+			"upgrades" : ["weapon", "weapon", "crew", "crew"],
+			"attack" : 2,
+			"agility" : 2,
+			"hull" : 3,
+			"shields" : 3,
+			"cost" : 20,
+			"text" : "When attacking with your Primary Weapon, during the Modify Attack Dice step, you may disable any number of your Active Shields to re-roll a number of your attack dice equal to the number of Shields you disabled.",
+			"unique" : true,
+			"factions" : ["independent"],
+			"intercept" :
+			{
+				"ship" : {},
+				"fleet" : {}
+
+			},
+			"squadron" : false
+		}
+	],
+
+	"captains" : [
+		{
+			"type" : "captain",
+			"id" : "the_classic_movies_khan_singh",
+			"set" : ["72235p"],
+			"name" : "Khan Singh",
+			"unique" : true,
+			"text" : "You may use any Upgrades without paying a Faction penalty. Up to 3 of the Upgrades you purchase for your ship cost exactly 4 SP each and are placed face down beside your Ship Card. Each Upgrade remains face down until you decide to use it, and then it is turned face up for the rest of the game. The printed cost on those Upgrades cannot be greater than 6.",
+			"factions" : ["independent"],
+			"cost" : 4,
+			"skill" : 7,
+			"talents" : 1
+		}
+	],
+
+	"upgrades" : [
+		{
+			"type" : "talent",
+			"id" : "the_classic_movies_ceti_eel",
+			"set" : ["72235p"],
+			"name" : "Ceti Eel",
+			"cost" : 6,
+			"text" : "During the Combat Phase, you may discard this card to target a ship within Range 1-3 when it is that ship's turn to attack and force that ship to either; 1) attack any ship of your choice in its firing arc and within range, if possible, 2) not perform its attack and disable the Captain Card, or 3) perform its attack as normal and discard its Captain Card. The target ship must choose one of these options.",
+			"unique" : true,
+			"factions" : ["independent"]
+		},
+		{
+			"type" : "talent",
+			"id" : "the_classic_movies_fire",
+			"set" : ["72235p"],
+			"name" : "Fire!",
+			"cost" : 6,
+			"text" : "When attacking with your Primary Weapon, during the Roll Attack Dice step, you may discard this card to gain +2 attack dice. If you do so, during the Modify Attack Dice step, you may re-roll up to 2 of your attack dice and then place an Auxiliary Power Token beside your ship.",
+			"unique" : true,
+			"factions" : ["independent"]
+		},
+		{
+			"type" : "crew",
+			"id" : "the_classic_movies_joachim",
+			"set" : ["72235p"],
+			"name" : "Joachim",
+			"cost" : 5,
+			"text" : "<b>ACTION:</b> Discard this card to add +3 to your Captain Skill Number until the End Phase of this round. If you attack first in the Combat Phase as a result of this, during the Compare Results step, you may convert 1 of your [hit] results into a [crit] result.",
+			"unique" : true,
+			"factions" : ["independent"]
+		},
+		{
+			"type" : "weapon",
+			"id" : "the_classic_movies_all_power_to_phasers",
+			"set" : ["72235p"],
+			"name" : "All Power To Phasers",
+			"cost" : 5,
+			"text" : "When attacking with your Primary Weapon, during the Roll Attack Dice step, you may discard this card to gain +2 attack dice. If you do this you must disable all of your remaining Shields.",
+			"unique" : false,
+			"factions" : ["independent"]
+		}
+	]
+}

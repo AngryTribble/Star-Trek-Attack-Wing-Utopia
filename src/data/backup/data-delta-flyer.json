@@ -1,0 +1,199 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72014",
+			"name": "Delta Flyer",
+			"releaseDate": "2015-10-02",
+			"parentSet": "Wave 19"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "delta_flyer_72014",
+			"set": ["72014"],
+			"name": "Delta Flyer",
+			"class": "Delta Flyer Class Shuttlecraft",
+			"actions": ["evade","target-lock","scan"],
+			"upgrades": ["tech","weapon","crew","crew"],
+			"attack": 3,
+			"agility": 2,
+			"hull": 2,
+			"shields": 3,
+			"cost": 20,
+			"text": "You may deploy [weapon] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may fire your Primary Weapon from your rear firing arc at -1 attack die.",
+			"unique": true,
+			"factions": ["federation"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "federation_starship_72014",
+			"set": ["72014"],
+			"name": "Federation Starship",
+			"class": "Delta Flyer Class Shuttlecraft",
+			"actions": ["evade","target-lock","scan"],
+			"upgrades": ["tech","weapon","crew"],
+			"attack": 3,
+			"agility": 2,
+			"hull": 2,
+			"shields": 2,
+			"cost": 18,
+			"text": "You may deploy [weapon] Upgrades with a cost of 4 SP or less to this ship.",
+			"unique": false,
+			"factions": ["federation"],
+			"squadron": false
+		}
+
+	],
+	
+	"shipClasses": [
+	
+		{
+			"type": "ship-class",
+			"id": "delta_flyer_class_shuttlecraft",
+			"name": "Delta Flyer Class Shuttlecraft",
+			"frontArc": "90",
+			"rearArc": "90",
+			"maneuvers": {
+				"3": {
+					"straight": "white",
+					"bank": "white"
+				},
+				"2": {
+					"straight": "green",
+					"bank": "green",
+					"turn": "white",
+					"about": "white"
+				},
+				"1": {
+					"straight": "green",
+					"bank": "green",
+					"turn": "white",
+					"about": "white"
+				},
+				"min": 1,
+				"max": 3
+			}
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "tom_paris_72014",
+			"set": ["72014"],
+			"name": "Tom Paris",
+			"cost": 2,
+			"skill": 4,
+			"talents": 0,
+			"text": "If you reveal a 3[straight] Maneuver, you may perform a 4[straight] Maneuver instead. If you do so, place an Auxiliary Power Token beside your ship. If this card is assigned to a shuttlecraft, you cannot perform a Docking Action on the round you use this ability.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "captain",
+			"id": "tuvok_72014",
+			"set": ["72014"],
+			"name": "Tuvok",
+			"cost": 3,
+			"skill": 5,
+			"talents": 0,
+			"text": "Add 1 [tech] Upgrade slot to your Upgrade Bar. That Upgrade costs -1 SP.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "crew",
+			"id": "b_elanna_torres_72014",
+			"set": ["72014"],
+			"name": "B'Elanna Torres",
+			"cost": 4,
+			"text": "When defending, during the Compare Results step, you may disable this card and 1 of your Active Shields to cancel 1 [hit] or [crit] result.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "harry_kim_72014",
+			"set": ["72014"],
+			"name": "Harry Kim",
+			"cost": 3,
+			"text": "ACTION: Disable this card to place 2 [evade] Tokens beside your ship. You cannot roll any defense dice this round. You cannot perform an [evade] Action this round, even as a free Action.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "seven_of_nine_72014",
+			"set": ["72014"],
+			"name": "Seven of Nine",
+			"cost": 4,
+			"text": "During the Activation Phase, you may disable this card to perform a [battlestations] Action as a free Action.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "parametallic_hull_plating_72014",
+			"set": ["72014"],
+			"name": "Parametallic Hull Plating",
+			"cost": 2,
+			"text": "During the Compare Results step, you may discard this card to cancel 1 [hit] or [crit] result.\n\nThis Upgrade costs +3 SP for any non-Federation ship and no ship may be equipped with more than 1 Parametallic Hull Plating Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "immersion_shielding_72014",
+			"set": ["72014"],
+			"name": "Immersion Shielding",
+			"cost": 3,
+			"text": "Add +1 to your ship's Shield value. In addition, you may re-roll the attack die wihen your ship overlaps an Obstacle.\n\nThis Upgrade costs +3 SP for any non-Federation ship and no ship may be equipped with more than 1 Immersion Shielding Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "unimatrix_shielding_72014",
+			"set": ["72014"],
+			"name": "Unimatrix Shielding",
+			"cost": 5,
+			"text": "Add +2 to your ship's Shield value. When defending against an attack from a Borg ship, during the Compare Results step, you may disable up to 2 of your Active Shields to cancel an equal number of [hit] or [crit] results.\n\nThis Upgrade costs +5 SP for any non-Federation ship and no ship may be equipped with more than 1 Unimatrix Shielding Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "photonic_missiles_72014",
+			"set": ["72014"],
+			"name": "Photonic Missiles",
+			"cost": 3,
+			"attack": 3,
+			"range": "1 - 2",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\nIf this attack hits, in addition to normal damage, place an Auxiliary Power Token beside the defending ship.\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "photon_torpedoes_72014",
+			"set": ["72014"],
+			"name": "Photon Torpedoes",
+			"cost": 4,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\nIf fired from a shuttlecraft, discard this card instead of placing the Time Tokens and the Range is 1-2.\n\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["federation"]
+		}
+	]
+
+}

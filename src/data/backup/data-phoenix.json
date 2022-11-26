@@ -1,0 +1,158 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72011",
+			"name": "U.S.S. Phoenix",
+			"releaseDate": "2015-09-09",
+			"parentSet": "Wave 18"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_phoenix_72011",
+			"set": ["72011"],
+			"name": "U.S.S. Phoenix",
+			"class": "Nebula Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","weapon","crew","crew"],
+			"attack": 4,
+			"agility": 1,
+			"hull": 4,
+			"shields": 4,
+			"cost": 26,
+			"text": "Before you move, you may change your maneuver to another maneuver on your Maneuver Dial with the same speed. If you do so, place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["federation"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "federation_starship_72011",
+			"set": ["72011"],
+			"name": "Federation Starship",
+			"class": "Nebula Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","crew","crew"],
+			"attack": 4,
+			"agility": 1,
+			"hull": 4,
+			"shields": 3,
+			"cost": 24,
+			"text": "",
+			"unique": false,
+			"factions": ["federation"],
+			"squadron": false
+		}
+
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "haden_72011",
+			"set": ["72011"],
+			"name": "Haden",
+			"cost": 1,
+			"skill": 1,
+			"talents": 0,
+			"text": "FLEET ACTION: Target a ship at Range 1-2 that does not have your ship in its forward firing arc. If you attack that ship this round, gain +1 attack die and roll 1 less defense die.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "haden_cap_72011",
+			"set": ["72011"],
+			"name": "Haden",
+			"cost": 1,
+			"skill": 2,
+			"talents": 0,
+			"text": "ACTION: Target a ship at Range 1-2 that does not have your ship in its forward firing arc. If you attack that ship this round, gain +1 attack die and roll 1 less defense die.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "captain",
+			"id": "benjamin_maxwell_72011",
+			"set": ["72011"],
+			"name": "Benjamin Maxwell",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "When attacking a ship with one of your secondary weapons, during the Modify Attack Dice step, you may re-roll any 1 of your Attack dice.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "prefix_code_72011",
+			"set": ["72011"],
+			"name": "Prefix Code",
+			"cost": 5,
+			"text": "ACTION: Discard this card to target a ship at Range 1-2 of your ship. Disable up to 2 Shield Tokens on the target ship. Place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "elizabeth_lense_72011",
+			"set": ["72011"],
+			"name": "Elizabeth Lense",
+			"cost": 1,
+			"text": "At any time, you may discard this card to remove 1 Disabled Upgrade Token from one of your [crew] or [tech] Upgrades and then place 2 Time Tokens on that Upgrade.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "terry_72011",
+			"set": ["72011"],
+			"name": "Terry",
+			"cost": 4,
+			"text": "ACTION: Disable this card and 2 of your Active Shields to repair 1 damage to your ship's Hull.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "high_energy_sensor_sweep_72011",
+			"set": ["72011"],
+			"name": "High Energy Sensor Sweep",
+			"cost": 5,
+			"text": "After you move, you may disable 1 Active Shield to perform a free [scan] Action.\n\nNo ship may be equipped with more than 1 High Energy Sensor Sweep Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "arsenal_72011",
+			"set": ["72011"],
+			"name": "Arsenal",
+			"cost": 4,
+			"text": "Add 2 [weapon] Upgrades to your Upgrade Bar.\n\nWhen placing Time Tokens on one of your other [weapon] Upgrades, you may place 1 of those tokens on this card.\n\nNo ship may be equipped with more than 1 Arsenal Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "question",
+			"id": "aft_torpedo_launcher_72011",
+			"set": ["72011"],
+			"name": "Aft Torpedo Launcher",
+			"cost": 3,
+			"text": "You may fill one of your [crew], [tech] or [weapon] Upgrade slots with this card.\nWhen attacking with a Photon Torpedoes Upgrade, you may disable this card to target a ship that is not in your forward firing arc.\nThis Upgrade may only be purchased for a ship with a Hull of 4 or greater that does not have a rear firing arc and costs +5 SP if purchased for any non-Federation ship.",
+			"unique": false,
+			"factions": ["federation"]
+		}
+	]
+
+}

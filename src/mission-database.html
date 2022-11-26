@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="utopia-missions" ng-controller="UtopiaSetCtrl">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.powertip.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utopia.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utopia-print.css" media="print">
+		
+        <title>Utopia Missions</title>
+
+		<script type="text/javascript" src="js/lib/jquery.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.powertip.min.js"></script>
+        <script type="text/javascript" src="js/lib/angular.js"></script>
+        <script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
+        <script type="text/javascript" src="js/utopia.min.js"></script>
+
+    </head>
+    <body>
+
+		<div class="u-container">
+
+			<div class="u-search-results u-search-cols-1">
+			
+				<div class="u-title"><i class="fs fs-unique"></i>Utopia Missions</div>
+				
+				<div class="text-center">Build your fleet with <a href="./index.html">Utopia</a></div>
+				<div class="text-center">Browse all sets with the <a href="./set-viewer.html">Utopia Set Viewer</a></div><br />
+			
+				<ul class="mission-list">
+					<li ng-repeat="missionSet in missionList | orderBy:'orderDate'" ng-click="viewer.missionSets = missionSet" ng-class="{'missionSet-selected': viewer.missionSet == missionSet}">-{{missionSet.name}}</li>
+				</ul>
+			</div>
+			
+			<div class="u-fleet missionSet-cards">
+			
+				<div class="mission-header" ng-show="mission.name">{{viewer.mission.name}}</div>
+				<div class="mission-header" ng-show="mission.description">{{viewer.mission.description}}</div>
+							
+			</div>
+		
+		</div>
+
+		<!--<script src="js/analytics.js"></script>-->
+		
+    </body>
+</html>

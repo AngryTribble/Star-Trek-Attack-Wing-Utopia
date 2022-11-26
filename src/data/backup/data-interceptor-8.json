@@ -1,0 +1,101 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "blind_interceptor8",
+			"name": "Interceptor 8",
+			"releaseDate": "2015-11-07",
+			"parentSet": "Blind Boosters"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "interceptor_8_blind_interceptor8",
+			"set": ["blind_interceptor8"],
+			"name": "Interceptor 8",
+			"class": "Bajoran Interceptor",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","crew"],
+			"attack": 2,
+			"agility": 3,
+			"hull": 3,
+			"shields": 0,
+			"cost": 16,
+			"text": "When attacking, if your ship is not in the target ship's forward firing arc, add +1 attack die.",
+			"unique": true,
+			"factions": ["bajoran"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "bajoran_interceptor_71445",
+			"set": ["blind_interceptor8"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "shakaar_edon_blind_interceptor8",
+			"set": ["blind_interceptor8"],
+			"name": "Shakaar Edon",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "When attacking, you may re-roll all of your blank results.",
+			"unique": true,
+			"factions": ["bajoran"]
+		}
+	],
+	
+	"upgrades": [
+	
+		{
+			"type": "talent",
+			"id": "pursuit_blind_interceptor8",
+			"set": ["blind_interceptor8"],
+			"name": "Pursuit",
+			"cost": 5,
+			"text": "When attacking a ship that you already have target locked, during the Roll Attack Dice step, you may discard this card to roll +2 attack dice.\n\nThis Upgrade may only be purchased for a ship with a Hull value of 3 or less.",
+			"unique": true,
+			"factions": ["bajoran"]
+		},
+		{
+			"type": "crew",
+			"id": "ro_laren_blind_interceptor8",
+			"set": ["blind_interceptor8"],
+			"name": "Ro Laren",
+			"cost": 5,
+			"text": "When attacking, during the Roll Attack Dice step, you may discard this card to roll +2 attack dice for that attack. In addition, if this Upgrade is deployed to a Bajoran ship, during the Modify Attack Dice step, you may re-roll all of your [battlestations] results for that attack.\n\nThis Upgrade may only be purchased for a Bajoran or Federation ship.",
+			"unique": true,
+			"factions": ["bajoran"]
+		},
+		{
+			"type": "weapon",
+			"id": "phaser_strike_blind_interceptor8",
+			"set": ["blind_interceptor8"],
+			"name": "Phaser Strike",
+			"cost": 5,
+			"attack": 4,
+			"range": "1 - 3",
+			"text": "ACTION: During the Combat Phase, you may attack with this Weapon as if you had a Captain Skill of 10.\n\nATTACK: Disable this card to perform this attack. Range combat bonuses apply to this attack. This Upgrade may only be purchased for a ship with a Hull value of 3 or less and costs +5 SP for any ship other than a Bajoran Interceptor.",
+			"unique": false,
+			"factions": ["bajoran"]
+		},
+		{
+			"type": "tech",
+			"id": "navigational_sensors_blind_interceptor8",
+			"set": ["blind_interceptor8"],
+			"name": "Navigational Sensors",
+			"cost": 5,
+			"text": "After performing a Come About [come-about] Maneuver, you may disable this card to immediately perform an additional maneuver.\n\nThis Upgrade may only be purchased for a Bajoran Interceptor and no ship may be equipped with more than 1 Navigational Sensors Upgrade.",
+			"unique": false,
+			"factions": ["bajoran"]
+		}
+
+	]
+
+}

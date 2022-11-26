@@ -1,0 +1,291 @@
+* {
+	box-sizing: border-box;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+body {
+	background: #eee;
+	font-family: STAWAlternate;
+	font-size: 14px;
+	color: #333;
+	margin: 0;
+	line-height: 1;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	line-height: 1.4;
+}
+
+input, select, textarea {
+	font: inherit;
+	line-height: inherit;
+}
+
+textarea {
+	line-height: 1.4;
+}
+
+.u-title {
+	font-size: 3em;
+	margin: 7px;
+	text-align: center;
+}
+
+.u-title i {
+	font-size: 1em;
+}
+
+.u-search {
+	text-align: left;
+	padding: 0.2em 0.6em;
+	font-size: 1.5em;
+	margin-bottom: 8px;
+}
+
+.u-search .search-query-container {
+	text-align: center;
+}
+
+.u-search .u-faction {
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	background-size: contain;
+	position: relative;
+	top: 0.15em;
+	background-repeat: no-repeat;
+}
+
+.u-search .u-label {
+	font-weight: normal;
+	text-transform: capitalize;
+	min-width: 7em;
+	margin: 0.4em 0.2em;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+
+.u-search i.fs {
+	font-size: 1em;
+}
+
+.u-container {
+	display: flex;
+	overflow: hidden;
+	height: 100vh;
+	position: relative;
+	backface-visibility: hidden;
+}
+
+.u-search-results, .u-fleet, .u-export {
+	overflow: auto;
+	height: auto;
+	padding: 5px;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none;
+}
+
+.u-search-results::-webkit-scrollbar,
+.u-fleet::-webkit-scrollbar {
+	display: none;
+}
+
+.u-search-results {
+	width: 330px;
+}
+
+.u-search-results.u-search-cols-0 {
+	width: 0;
+	padding: 0;
+}
+
+.u-search-results.u-search-cols-1 {
+	width: 330px;
+}
+
+.u-search-results.u-search-cols-2 {
+	width: 630px;
+}
+
+.u-search-results.u-search-cols-3 {
+	width: 930px;
+}
+
+.u-search-results.u-search-cols-4 {
+	width: 1240px;
+}
+
+.u-search-results.u-search-cols-5 {
+	width: 1540px;
+}
+
+
+.u-search-query {
+	font-weight: normal;
+	padding: 0 0.2em;
+	width: 6.5em;
+	line-height: 1.4;
+}
+
+.u-fleet {
+	flex: 1;
+	padding-top: 4.6em;
+}
+
+.u-search-header {
+	background: #999;
+	border-radius: 0.5em;
+	padding-left: 1em;
+	margin-top: 0.4em;
+	text-align: left;
+	height: 1.4em;
+	cursor: pointer;
+}
+
+.u-search-header-text {
+	background: #eee;
+	padding: 0.2em;
+	float: left;
+}
+
+.u-search-content {
+	padding: 0.1em;
+}
+
+.u-show-more {
+	font-size: 1.5em;
+	margin: 1em;
+}
+
+.u-loading {
+	font-size: 2em;
+}
+
+.title-button {
+	line-height: 0.8em;
+	border: none;
+	font-size: 0.7em;
+	vertical-align: middle;
+	background: none;
+}
+
+.toggle-button-value {
+	width: 15px;
+	height: inherit;
+	background: #dd6666;
+}
+
+.toggle-button-value-active {
+	background: #66dd66;
+}
+
+.u-search-size {
+	border-radius: 1em;
+	margin: 0.5em 0;
+}
+
+.u-search-size-text {
+	float: left;
+	background: #eee;
+	padding: 0.2em;
+	margin: 0 0.3em;
+}
+
+.u-search-smaller {
+	float: left;
+	background: #ddd;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border: none;
+	padding: 0 1em;
+}
+
+.u-search-bigger {
+	background: #ddd;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border: none;
+	padding: 0 1em;
+}
+
+
+@-moz-document url-prefix() {
+    .u-search-results {
+		margin-right: -17px;
+		overflow-x: hidden;
+		width: 347px;
+		padding-left: 9px;
+	}
+	
+	.u-search-results.u-search-cols-0 {
+		margin-right: 0;
+	}
+	
+	.u-search-results.u-search-cols-1 {
+		width: 347px;
+	}
+
+	.u-search-results.u-search-cols-2 {
+		width: 647px;
+	}
+
+	.u-search-results.u-search-cols-3 {
+		width: 957px;
+	}
+
+	.u-search-results.u-search-cols-4 {
+		width: 1257px;
+	}
+
+	.u-search-results.u-search-cols-5 {
+		width: 1567px;
+	}
+	.u-fleet {
+		background: #eee;
+	}
+}
+
+.u-export {
+	width: 300px;
+	overflow-x: hidden;
+}
+
+.u-search-filter-comment {
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+.u-order-default {
+	display: inline;
+}
+
+.u-order-default button {
+	margin: 5px;
+}

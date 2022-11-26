@@ -1,0 +1,8 @@
+root: true
+extends: fnd
+rules:
+    max-len: off
+    no-var: off
+    quote-props:
+    - error
+    - as-needed

@@ -1,0 +1,112 @@
+
+{
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72236p",
+			"name" : "Kruge's Bird-of-Prey",
+			"releaseDate" : "2016-05-14",
+			"parentSet" : "The Classic Movies"
+		},
+		{
+			"type" : "set",
+			"id" : "72236r",
+			"name" : "Emergency Power",
+			"releaseDate" : "2016-05-13",
+			"parentSet" : "The Classic Movies"
+		}
+	],
+	"ships" : [
+		{
+			"type" : "ship",
+			"id" : "the_classic_movies_kruges_bird_of_prey",
+			"set" : ["72236p"],
+			"name" : "Kruge's Bird-of-Prey",
+			"class" : "B'Rel Class",
+			"actions" : ["evade", "target-lock", "cloak", "sensor-echo"],
+			"upgrades" : ["weapon", "weapon", "crew", "crew"],
+			"attack" : 4,
+			"agility" : 1,
+			"hull" : 3,
+			"shields" : 3,
+			"cost" : 22,
+			"text" : "<b>ACTION:</b> Once this round, if you inflict a critical damage on an enemy ship's Hull, you may search the Damaage Deck for a \"Direct Hit\" damage card and place it beside the enemy's Ship Card. Shuffle the Damaage Deck when you are done.",
+			"unique" : true,
+			"factions" : ["klingon"],
+			"intercept" :
+			{
+				"ship" : {},
+				"fleet" : {}
+
+			},
+			"squadron" : false
+		}
+	],
+	"captains" : [
+		{
+			"type" : "captain",
+			"id" : "the_classic_movies_kruge",
+			"set" : ["72236p"],
+			"name" : "Kruge",
+			"cost" : 4,
+			"skill" : 7,
+			"talents" : 1,
+			"text" : "Add 1 [crew] Upgrade slot to your Upgrade Bar.\n\nWhen attacking with your Primary Weapon, during the Deal Damage step, you may discard one of your [crew] Upgrades to inflict 1 additional damage to the defending ship.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		}
+	],
+	"upgrades" : [
+		{
+			"type" : "talent",
+			"id" : "the_classic_movies_retaliatory_strike",
+			"set" : ["72236p"],
+			"name" : "Retaliatory Strike",
+			"cost" : 5,
+			"text" : "If your ship was just damaged and the attacking ship is in your forward firing arc and within Range 2-3 of your ship, you may discard this card to immediately perform an attack against the attacking ship with one of your Photon Torpedoes Upgrades. You must discard the Photon Torpedoes Upgrade when your attack is completed. This attack is in addition to your normal attack for the round.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		},
+		{
+			"type" : "crew",
+			"id" : "the_classic_movies_valkris",
+			"set" : ["72236p"],
+			"name" : "Valkris",
+			"cost" : 5,
+			"text" : "<b>ACTION:</b> Target a ship at Range 1-3. Discard this card and disable 1 Upgrade on the target ship ([crew], [tech], or [weapon]). You may immediately use the Action listed on the Upgrade you disabled with this Action as if it were assigned to your ship.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		},
+		{
+			"type" : "crew",
+			"id" : "the_classic_movies_torg",
+			"set" : ["72236p"],
+			"name" : "Torg",
+			"cost" : 6,
+			"text" : "<b>ACTION:</b> If your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard this card and disable all Upgrades on the target ship. The target ship rolls -1 attack die and -1 defense die while any of its Upgrades remain disabled. Once there are no disabled Upgrades on the target ship, remove Torg's Continuous Effect Token from beside the target ship.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		},
+		{
+			"type" : "crew",
+			"id" : "the_classic_movies_maltz",
+			"set" : ["72236p"],
+			"name" : "Maltz",
+			"cost" : 5,
+			"text" : "<b>ACTION:</b> If your ship is not Cloaked, discard this card to target a friendly ship within Range 1-2 of your ship. Take up to 3 [crew] Upgrades from that ship and deploy them to your ship, even if it exceeds your ship's restrictions, OR take up to 3 [crew] Upgrades from your ship and deploy them to the target ship, even if it exceeds that ship's restrictions.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		}
+	],
+	"resources" : [
+		{
+			"type" : "resource",
+			"id" : "the_classic_movies_emergency_power_resource",
+			"set" : ["72236r"],
+			"name" : "Emergency Power",
+			"text" : "At the start of the game, place 5 Mission Tokens on this card.\n\nDuring the Execute Maneuver step of the Activation Phase, after a ship in your fleet performs a green or white maneuver, that ship may immediately perform an additional maneuver from its Maneuver Dial with speed of 1 or 2. Treat this additional maneuver as a red maneuver.\n\nYou may only use this ability once per round and each time you do this, remove 1 Mission Token from this card from the game.\n\nRemove this card from the game when there are no Mission Tokens left on this card.",
+			"cost" : 5,
+			"showShipResourceSlot" : false
+		}
+	]
+}

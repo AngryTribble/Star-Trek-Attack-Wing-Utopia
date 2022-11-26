@@ -1,0 +1,9 @@
+<div ng-if="card" ng-switch on="card.type">
+	<card-ship 			ng-switch-when="ship" ship="card" drag-store="dragStore" drag-source="dragSource" fleet="fleet"></card-ship>
+	<card-ship 			ng-switch-when="flagship" ship="card" drag-store="dragStore" drag-source="dragSource" fleet="fleet"></card-ship>
+	<card-ship-class	ng-switch-when="ship-class" ship-class="card" ship="ship" fleet="fleet"></card-ship-class>
+	<card-resource 		ng-switch-when="resource" resource="card" drag-store="dragStore" drag-source="dragSource" ship="ship" fleet="fleet"></card-resource>
+	<card-token 		ng-switch-when="token" token="card" drag-store="dragStore" drag-source="dragSource" ship="ship" fleet="fleet"></card-token>
+	<card-faction 		ng-switch-when="faction" faction="card" drag-store="dragStore" drag-source="dragSource" ship="ship" fleet="fleet"></card-faction>
+	<card-upgrade 		ng-switch-default upgrade="card" drag-store="dragStore" drag-source="dragSource" ship="ship" fleet="fleet"></card-upgrade>
+</div>

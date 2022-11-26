@@ -1,0 +1,112 @@
+.u-search-results, .u-export, .fleet-open-search, .fleet-open-export, .title-button, .card-drop-target-type, .card-drop-target-title, .card-drop-target-subtitle {
+	display: none;
+}
+
+.u-fleet {
+	padding: 0;
+}
+
+@page {
+	margin: 0;
+}
+
+body, .fleet-ship-inner, .card-corner-inner, .u-fleet, .fleet-ship-left, .fleet-ship-top-left, 
+.fleet-ship-middle, .fleet-ship-top-spacer, .fleet-ship-top-right, .toggle-button-value,
+.fleet-ship-title, .fleet-ship-bottom-left, .card-weapon-attack {
+	background-color: #fff;
+}
+
+.fleet-ship-left {
+	width: 0;
+}
+
+.fleet-ship-inner {
+	border-width: 0 2px;
+}
+
+.fleet-ship-top-left {
+	width: 1.5em;
+}
+
+.fleet-ship-top {
+	height: 2em;
+}
+
+.fleet-ship-title {
+	font-size: 2em;
+}
+
+.fleet-ship-title-long {
+	padding: 0;
+}
+
+.fleet-ship-top-spacer {
+	width: 1em;
+}
+
+.u-container {
+	display: inherit;
+	overflow: inherit;
+}
+
+.fleet-ship-inner {
+	border-color: #fff;
+}
+
+.card-outer, .card-outer[draggable]:hover {
+	font-size: 24px;
+	background-color: #fff;
+	color: black;
+	box-shadow: none;
+}
+
+.card-outer[draggable] {
+	box-shadow: none;
+}
+
+.card-container {
+	font-size: 24px;
+}
+
+.card-drop-target {
+	display: none;
+}
+
+.fleet-ship-container {
+	page-break-after: always;
+}
+.card-title, .card-text, .card-ship-upgrade-bar, .card-ship-cost, .card-ship-class, .card-faction-name, .card-shipclass-title {
+	background-color: white;
+	color: black;
+}
+
+.card-text {
+	background: white;
+	border: 1px solid #a8b6bf;
+}
+
+.card-upgrade-cost-value, .card-ship-stat {
+	background-color: black;
+}
+
+.card-ship-action-bar {
+	background: white;
+	border: 1px solid #a8b6bf;
+}
+
+.card-captain {
+	color: black;
+	text-shadow: none;
+}
+
+.card-class-maneuvers {
+	color: black;
+}
+
+.card-maneuver-box {
+	border-color: black;
+}
+
+.card-maneuver-box-highlight {
+	background: white;
+}

@@ -1,0 +1,118 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72000p",
+			"name": "I.R.W. Terix",
+			"releaseDate": "2015-08-01",
+			"parentSet": "Q Continuum"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "i_r_w_terix_72000p",
+			"set": ["72000p"],
+			"name": "I.R.W. Terix",
+			"class": "D'deridex Class",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["tech","tech","weapon","weapon","crew"],
+			"attack": 3,
+			"agility": 2,
+			"hull": 6,
+			"shields": 4,
+			"cost": 30,
+			"text": "After you perform a Green Maneuver, you may immediately perform a [scan] Action as a free Action.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} },
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "mirror_universe_starship_72000p",
+			"set": ["72000p"],
+			"name": "Mirror Universe Starship",
+			"class": "D'deridex Class",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 3,
+			"agility": 2,
+			"hull": 6,
+			"shields": 3,
+			"cost": 28,
+			"text": "",
+			"unique": false,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} },
+			"squadron": false
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "tomalak_72000p",
+			"set": ["72000p"],
+			"name": "Tomalak",
+			"cost": 3,
+			"skill": 4,
+			"talents": 1,
+			"text": "When attacking with your Primary Weapon, if there is a [scan] Token beside your ship, during the Modify Attack Dice step, you may re-roll all of your blank results once.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "deception_72000p",
+			"set": ["72000p"],
+			"name": "Deception",
+			"cost": 5,
+			"text": "At the start of the Combat Phase, before any ships have attacked, if there is not a [battlestations] Token beside your ship, you may discard this card to place 1 [battlestations] Token beside your ship. In addition, if your ship is Cloaked, you may place 1 [evade] Token beside your ship (even if there is one there already).",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "crew",
+			"id": "taibak_72000p",
+			"set": ["72000p"],
+			"name": "Taibak",
+			"cost": 4,
+			"text": "ACTION: If your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard this card to steal 1 [crew] Upgrade on the target ship, even if it exceeds your ship's restrictions.",
+			"unique": true,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "long_range_scanners_72000p",
+			"set": ["72000p"],
+			"name": "Long Range Scanners",
+			"cost": 3,
+			"text": "ACTION: Perform a [scan] Action and then place an Auxiliary Power Token beside your ship.\n\nDuring the End Phase if there is a [scan] Token beside your ship, you may Discard this card to leave that Token beside your ship instead of removing it.\n\nThis Upgrade costs +3 SP for any ship other than a D'Deridex class ship.",
+			"unique": false,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "weapon",
+			"id": "additional_phaser_array_72000p",
+			"set": ["72000p"],
+			"name": "Additional Phaser Array",
+			"cost": 2,
+			"text": "When attacking with your Primary Weapon at a ship in your forward firing arc, gain +1 attack die.\n\nThis Upgrade may only be purchased for a D'Deridex class ship and no ship may be equipped with more than 1 Additional Phaser Array Upgrade.",
+			"unique": false,
+			"factions": ["mirror-universe"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	]
+
+}

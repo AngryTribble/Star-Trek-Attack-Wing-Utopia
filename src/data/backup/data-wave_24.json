@@ -1,0 +1,164 @@
+
+{
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72241",
+			"name" : "I.K.S. Drovana",
+			"releaseDate" : "2016-05-11",
+			"parentSet" : "Wave 24"
+		},
+		{
+			"type" : "set",
+			"id" : "72242",
+			"name" : "I.R.W. Algeron",
+			"releaseDate" : "2016-05-12",
+			"parentSet" : "Wave 24"
+		}
+	],
+	"ships" : [
+		{
+			"type" : "ship",
+			"id" : "drovana_72241",
+			"set" : ["72241"],
+			"name" : "I.K.S. Drovana",
+			"class" : "Vor'cha Class",
+			"actions" : ["evade", "target-lock", "cloak", "sensor-echo"],
+			"upgrades" : ["tech", "weapon", "weapon", "crew"],
+			"attack" : 5,
+			"agility" : 1,
+			"hull" : 5,
+			"shields" : 3,
+			"cost" : 28,
+			"text" : "When defending, during the Compare Results step, you may discard 1 of your non-disabled Upgrades to cancel 1 [hit] or [crit] result.",
+			"unique" : true,
+			"factions" : ["klingon"],
+			"intercept" :
+			{
+				"ship" : {},
+				"fleet" : {}
+
+			},
+			"squadron" : false
+		},
+		{
+			"type" : "copy",
+			"of" : "1006",
+			"set" : ["72241"]
+		}
+	],
+	"captains" : [
+		{
+			"type" : "captain",
+			"id" : "kurn_72241",
+			"set" : ["72241"],
+			"name" : "Kurn",
+			"unique" : true,
+			"text" : "During the Combat Phase, each time you defend, you may re-roll 1 of your [battlestations] results. If this card is assigned to a Klingon ship, you may re-roll up to 2 of your [battlestations] results.\n\nKurn may field 1 Klingon [talent] Upgrade.",
+			"factions" : ["klingon"],
+			"cost" : 3,
+			"skill" : 5,
+			"talents" : 0
+		},
+		{
+			"type" : "captain",
+			"id" : "gowron_72241",
+			"set" : ["72241"],
+			"name" : "Gowron",
+			"unique" : true,
+			"text" : "<b>ACTION:</b> If there is not already a [battlestations] Token beside your ship, place 1 [battlestations] Token beside your ship. In addition, if your ship is a Klingon ship with a Klingon Captain assigned to it, you may immediately perform an additional Action from your Action Bar as a free Action.",
+			"factions" : ["klingon"],
+			"cost" : 3,
+			"skill" : 5,
+			"talents" : 1
+		},
+		{
+			"type" : "copy",
+			"of" : "2005",
+			"set" : ["72241"]
+		}
+	],
+	"admirals" : [
+		{
+			"type" : "admiral",
+			"id" : "gowron_admiral_72241",
+			"set" : ["72241"],
+			"name" : "Gowron",
+			"unique" : true,
+			"text" : "<b>FLEET ACTION:</b> If there is not already a [battlestations] Token beside your ship, place 1 [battlestations] Token beside your ship. In addition, if your ship is a Klingon ship with a Klingon Captain assigned to it, you may immediately perform an additional Action from your Action Bar as a free Action.",
+			"factions" : ["klingon"],
+			"cost" : 3,
+			"skill" : 0,
+			"talents" : 1
+		}
+	],	
+	"upgrades" : [
+		{
+			"type" : "talent",
+			"id" : "detonation_codes_72241",
+			"set" : ["72241"],
+			"name" : "Detonation Codes",
+			"cost" : 4,
+			"text" : "<b>ACTION:</b> Discard this card to target a Minefield Token within Range 1-3. Roll the number of attack dice listed on the mine's Upgrade Card minus 1. All ships within Range 1 of that Minefield Token suffer damage as normal from any [hit] or [crit] results. The affected ships do not roll any defense dice. Remove the Minefield Token after it is detonated.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		},
+		{
+			"type" : "copy",
+			"of" : "cloaked_mines_71999p",
+			"set" : ["72241"]
+		},
+		{
+			"type" : "tech",
+			"id" : "emergency_power_72241",
+			"set" : ["72241"],
+			"name" : "Emergency Power",
+			"unique" : false,
+			"text" : "During the Activation Phase, if there is an Auxiliary Power Token beside your ship, you may disable this card to either perform a Red Manveuer or perform an Action.\n\nNo ship may be equipped with more than 1 \"Emergency Power\" Upgrade.",
+			"factions" : ["klingon"],
+			"cost" : 4,
+			"skill" : 0,
+			"talents" : 0,
+			"attack" : 0,
+			"range" : ""
+		},
+		{
+			"type" : "tech",
+			"id" : "security_sensors_72241",
+			"set" : ["72241"],
+			"name" : "Security Sensors",
+			"unique" : false,
+			"text" : "If an enemy Upgrade or Captain targets your ship, immediately place an [evade] Token beside your ship, even if there is already one there.",
+			"factions" : ["klingon"],
+			"cost" : 5,
+			"skill" : 0,
+			"talents" : 0,
+			"attack" : 0,
+			"range" : ""
+		},
+		{
+			"type" : "crew",
+			"id" : "borak_72241",
+			"set" : ["72241"],
+			"name" : "Bo'Rak",
+			"cost" : 5,
+			"text" : "When attacking, during he Modify Defense Dice step, you may disable this card to force the defending ship to re-roll 1 of its defense dice of your choice.\n\nWhen defending, you may roll your full defense dice in spite of the presence of an opposing ship's [scan] Token.",
+			"unique" : true,
+			"factions" : ["klingon"]
+		},
+		{
+			"type" : "weapon",
+			"id" : "photon_torpedoes_72241",
+			"set" : ["72241"],
+			"name" : "Photon Torpedoes",
+			"unique" : false,
+			"text" : "<b>ATTACK: (Target Lock)</b> Spend your target lock and place 3 Time Tokens on this card to perform this attack. \n\nIf fired from a Vor'cha class ship add +1 attack die. ",
+			"factions" : ["klingon"],
+			"cost" : 5,
+			"skill" : 0,
+			"talents" : 0,
+			"attack" : 5,
+			"range" : "2 - 3"
+		}
+	]	
+}

@@ -1,0 +1,47 @@
+<div class="card-outer card-ship font-staw" ng-class="{ 'card-unique': ship.unique, 'card-mirror': ship.mirror, 'dragging': ship == dragStore.item }" draggable drag-item="ship" drag-store="dragStore" drag-source="dragSource">
+
+	<div class="card-image"></div>
+
+	<div class="card-corner-top-left pull-left"><i ng-if="ship.unique" class="card-unique-icon fs fs-unique pull-left"></i>
+		<div class="card-corner-inner pull-right"></div>
+	</div>
+	<div class="card-corner-top-right pull-right"><i ng-repeat="faction in ship|valueOf:'factions':ship:fleet" class="card-ship-faction card-faction-{{faction}} card-faction-{{$index}} fs fs-empty" ng-class="{'card-factions-multiple': (ship|valueOf:'factions':ship:fleet).length > 1}"></i>
+		<div class="card-corner-inner card-corner-inner-faction"></div>
+	</div>
+	<div class="card-title-container text-center">
+		<span class="card-title" ng-class="{'card-title-long': ship.name.length >= 20 }">{{ship.name | uppercase}}</span>
+	</div>
+
+	<div class="card-ship-stats pull-left">
+		<div class="card-ship-stat card-ship-stat-attack text-right" tooltip-show="fleet" tooltip="ship|valueOf:'attack':ship:fleet:false:{modifiers:true}" tooltip-position="e"><span class="card-skill-plus" ng-show="ship.isShipModifier">+</span>{{ship|valueOf:'attack':ship:fleet}}</div>
+		<div class="card-ship-stat card-ship-stat-agility text-right" tooltip-show="fleet" tooltip="ship|valueOf:'agility':ship:fleet:false:{modifiers:true}" tooltip-position="e"><span class="card-skill-plus" ng-show="ship.isShipModifier">+</span>{{ship|valueOf:'agility':ship:fleet}}</div>
+		<div class="card-ship-stat card-ship-stat-hull text-right" tooltip-show="fleet" tooltip="ship|valueOf:'hull':ship:fleet:false:{modifiers:true}" tooltip-position="e"><span class="card-skill-plus" ng-show="ship.isShipModifier">+</span>{{ship|valueOf:'hull':ship:fleet}}</div>
+		<div class="card-ship-stat card-ship-stat-shields text-right" tooltip-show="fleet" tooltip="ship|valueOf:'shields':ship:fleet:false:{modifiers:true}" tooltip-position="e"><span class="card-skill-plus" ng-show="ship.isShipModifier">+</span>{{ship|valueOf:'shields':ship:fleet}}</div>
+	</div>
+
+	<div class="card-border-right pull-right"></div>
+
+	<div class="card-ship-silhouette pull-left"><i ng-if="ship.faq" class="card-faq-icon fs fs-faq pull-left"></i></div>
+
+	<div class="card-ship-class-container text-center">
+		<span class="card-ship-class" ng-class="{'card-ship-class-long': ship.class.length >= 25 }">{{ship.class | uppercase}}</span>
+	</div>
+
+	<div class="card-text font-staw-alt"><div class="card-text-inner" ng-bind-html="ship.text | icons" ng-class="{'card-text-inner-long': ship.text.length > 230 }"></div></div>
+
+	<div class="card-ship-action-bar text-center">
+		<i ng-repeat="action in ship.actions" class="fs fs-{{action}}"></i>
+	</div>
+
+	<div class="card-corner-bottom-right pull-right">
+		<div class="card-corner-inner"></div>
+	</div>
+
+	<div class="card-ship-cost pull-right">{{ship|valueOf:'cost':ship:fleet}}</div>
+
+	<div class="card-ship-upgrade-bar">
+		<i ng-repeat="upgrade in ship.upgrades track by $index" class="fs fs-{{upgrade.type[0]}}" ng-class="{'card-ship-upgrade-occupied': upgrade.occupant}"></i>
+	</div>
+	<div style="clear: both"></div>
+
+</div>

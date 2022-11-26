@@ -1,0 +1,12 @@
+
+{
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72238p",
+			"name" : "U.S.S. Cairo",
+			"releaseDate" : "2016-07-02",
+			"parentSet" : "Tin Man"
+		}
+	]
+}

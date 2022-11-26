@@ -1,0 +1,212 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72013",
+			"name": "Quark's Treasure",
+			"releaseDate": "2015-09-09",
+			"parentSet": "Wave 18"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "quark_s_treasure_72013",
+			"set": ["72013"],
+			"name": "Quark's Treasure",
+			"class": "Ferengi Shuttle",
+			"actions": ["evade","scan"],
+			"upgrades": ["tech","crew","crew"],
+			"attack": 2,
+			"agility": 2,
+			"hull": 2,
+			"shields": 2,
+			"cost": 16,
+			"text": "You do not pay a faction penalty when assigning any [crew] or [tech] Upgrades to this ship.\nYou do not place an Auxiliary Power Token beside your ship when using the Docking or Launching Actions.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "ferengi_starship_72013",
+			"set": ["72013"],
+			"name": "Ferengi Starship",
+			"class": "Ferengi Shuttle",
+			"actions": ["evade","scan"],
+			"upgrades": ["tech","crew"],
+			"attack": 2,
+			"agility": 2,
+			"hull": 2,
+			"shields": 1,
+			"cost": 14,
+			"text": "",
+			"unique": false,
+			"factions": ["ferengi"],
+			"squadron": false
+		}
+	],
+	
+	"shipClasses": [
+	
+		{
+			"type":"ship-class",
+			"id":"ferengi_shuttle",
+			"name":"Ferengi Shuttle",
+			"frontArc":"90",
+			"rearArc":"",
+			"maneuvers": {
+				"3": {
+					"straight":"white"
+				},
+				"2": {
+					"straight": "green",
+					"bank": "white",
+					"turn": "white",
+					"about": "white"
+				},
+				"1": {
+					"straight": "green",
+					"bank": "green",
+					"turn": "white",
+					"about": "white"
+				},
+				"min": 1,
+				"max": 3
+			}
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "quark_72013",
+			"set": ["72013"],
+			"name": "Quark",
+			"cost": 2,
+			"skill": 3,
+			"talents": 1,
+			"text": "ACTION: Discard all of your Upgrades to target a ship at Range 1-2. Target ship cannot attack your ship this round. You must discard at least 1 Upgrade to use this Action. You cannot attack or perform any free Actions this round.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "captain",
+			"id": "zek_cap_72013",
+			"set": ["72013"],
+			"name": "Zek",
+			"cost": 1,
+			"skill": 2,
+			"talents": 1,
+			"text": "ACTION: Target a ship at Range 1. Disable 1 of your Upgrades and 1 Upgrade (your choice) on the target ship.\n\nThis card may only be purchased for a Ferengi ship.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "captain",
+			"id": "brunt_72013",
+			"set": ["72013"],
+			"name": "Brunt",
+			"cost": 3,
+			"skill": 4,
+			"talents": 0,
+			"text": "ACTION: When defending this round, during the Modify Attack Dice step, you may force 1 opposing ship to re-roll 1 of its attack dice (your choice).\n\nYou may field the Grand Nagus [talent] Upgrade. If you use the Action listed on it, you must discard this card as well.",
+			"unique": true,
+			"factions": ["ferengi"]
+		}
+
+	],
+
+	"admirals": [	
+		{
+			"type": "admiral",
+			"id": "zek_72013",
+			"set": ["72013"],
+			"name": "Zek",
+			"cost": 1,
+			"skill": 0,
+			"talents": 1,
+			"text": "FLEET ACTION: Target a ship at Range 1. Disable 1 of your Upgrades and 1 Upgrade (your choice) on the target ship.\n\n\nThis card may only be purchased for a Ferengi ship.",
+			"unique": true,
+			"factions": ["ferengi"]
+		}
+	],
+	
+	"upgrades": [
+	
+		{
+			"type": "talent",
+			"id": "grand_nagus_72013",
+			"set": ["72013"],
+			"name": "Grand Nagus",
+			"cost": 5,
+			"text": "ACTION: Discard this card to target every friendly Ferengi ship within Range 1-3. Each target ship may immediately perform an additional green maneuver.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "talent",
+			"id": "smugglers_72013",
+			"set": ["72013"],
+			"name": "Smugglers",
+			"cost": 5,
+			"text": "ACTION: Target a ship at Range 1-3. Discard this card to steal 1 [tech] or [weapon] Upgrade from the target ship, even if it exceeds your ship's restrictions. If the Smugglers Upgrade is assigned to a Ferengi Shuttle, the stolen Upgrade is flipped face down and cannot be used by your ship. The shuttle may exchange the stolen Upgrade with a docking ship. The docking ship may then flip the stolen Upgrade face up and use it. This Upgrade may only be purchased for a Ferengi Captain assigned to a Ferengi ship.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "crew",
+			"id": "odo_72013",
+			"set": ["72013"],
+			"name": "Odo",
+			"cost": 5,
+			"text": "During the Planning Phase, you may target a ship within Range 1-3 and choose 1 [crew] Upgrade on the target ship. If you do so, treat this card as an exact copy of the chosen Upgrade until the end of the End Phase in which you use this ability. If the chosen Upgrade's Action or ability requires it to be disabled or discarded, you must disable or discard this card to use it.",
+			"unique": true,
+			"factions": ["independent"]
+		},
+		{
+			"type": "crew",
+			"id": "nog_72013",
+			"set": ["72013"],
+			"name": "Nog",
+			"cost": 3,
+			"text": "When defending, during the Roll Attack Dice step, you may discard this card to force the attacking ship to roll -2 attack dice for that attack.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "crew",
+			"id": "rom_72013",
+			"set": ["72013"],
+			"name": "Rom",
+			"cost": 3,
+			"text": "ACTION: Repair 1 Shield Token. If this card is assigned to a Ferengi ship, you may repair up to 2 Shield Tokens instead of 1.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "tech",
+			"id": "cargo_hold_72013",
+			"set": ["72013"],
+			"name": "Cargo Hold",
+			"cost": 1,
+			"text": "Add 2 Upgrade slots ([crew] or [tech]) to your Upgrade Bar. These Upgrades cannot have a cost greater than 4 SP.\n\nThis Upgrade may only be purchased for a Ferengi ship and no ship may be equipped with more than 1 Cargo Hold Upgrade.",
+			"unique": false,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "tech",
+			"id": "inversion_wave_72013",
+			"set": ["72013"],
+			"name": "Inversion Wave",
+			"cost": 4,
+			"text": "Instead of making a normal move, you may discard this card to place your ship anywhere in the play area within Range 1-3 of your current position. Remove all Tokens (except Critical Hit Tokens) from beside your ship and place an Auxiliary Power Token beside your ship. You cannot attack on the round you use this ability.\nNo ship may be equipped with more than 1 Inversion Wave Upgrade.",
+			"unique": false,
+			"factions": ["ferengi"]
+		}
+	]
+
+}

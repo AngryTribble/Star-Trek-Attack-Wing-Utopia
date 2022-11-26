@@ -1,0 +1,26 @@
+
+{
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72237gp",
+			"name" : "U.S.S. Enterprise-A",
+			"releaseDate" : "2016-06-03",
+			"parentSet" : "The Classic Movies"
+		},
+		{
+			"type" : "set",
+			"id" : "72237p",
+			"name" : "H.M.S. Bounty",
+			"releaseDate" : "2016-06-02",
+			"parentSet" : "The Classic Movies"
+		},
+		{
+			"type" : "set",
+			"id" : "72237r",
+			"name" : "Improved Hull",
+			"releaseDate" : "2016-06-01",
+			"parentSet" : "The Classic Movies"
+		}
+	]
+}

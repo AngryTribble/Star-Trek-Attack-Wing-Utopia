@@ -1,0 +1,77 @@
+.set-header {
+	font-size: 2em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.u-fleet.set-cards {
+	padding-top: 0;
+}
+
+.set-list {
+	list-style: none;
+	margin-left: 1em;
+	margin-top: 1em;
+	padding-left: 0;
+	width: 300px;
+}
+
+.set-list li {
+	font-size: 1.5em;
+	padding: 0.2em;
+	color: #8888ff;
+	cursor: pointer;
+}
+
+.set-list li:hover {
+	background: #ddd;
+}
+
+.set-selected {
+	background: #ccc;
+}
+
+a {
+	color: #8888ff;
+	text-decoration: none;
+}
+
+
+
+
+.mission-header {
+	font-size: 2em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.u-fleet.mission-cards {
+	padding-top: 0;
+}
+
+.mission-list {
+	list-style: none;
+	margin-left: 1em;
+	margin-top: 1em;
+	padding-left: 0;
+	width: 300px;
+}
+
+.mission-list li {
+	font-size: 1.5em;
+	padding: 0.2em;
+	color: #8888ff;
+	cursor: pointer;
+}
+
+.mission-list li:hover {
+	background: #ddd;
+}
+
+.missionSet-selected {
+	background: #ccc;
+}
+
+.dummy-class {
+	
+}

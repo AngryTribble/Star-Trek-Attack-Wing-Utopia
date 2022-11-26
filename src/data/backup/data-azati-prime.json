@@ -1,0 +1,155 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72004p",
+			"name": "Azati Prime",
+			"releaseDate": "2016-02-01",
+			"parentSet": "Temporal Cold War"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "azati_prime_72004p",
+			"set": ["72004p"],
+			"name": "Azati Prime",
+			"class": "Xindi Aquatic Cruiser",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","tech","weapon","weapon","crew"],
+			"attack": 4,
+			"agility": 1,
+			"hull": 6,
+			"shields": 3,
+			"cost": 28,
+			"text": "When defending, during the Roll Attack Dice step, you may discard a Token from beside your ship ( [evade], [scan], or [battlestations] ) to force the attacking ship to roll 1 less attack die.",
+			"unique": true,
+			"factions": ["xindi"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "xindi_starship_72004p",
+			"set": ["72004p"],
+			"name": "Xindi Starship",
+			"class": "Xindi Aquatic Cruiser",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 4,
+			"agility": 1,
+			"hull": 6,
+			"shields": 2,
+			"cost": 26,
+			"text": "",
+			"unique": false,
+			"factions": ["xindi"],
+			"squadron": false
+		}
+	],
+	
+	"shipClasses": [
+	
+		{
+			"type":"ship-class",
+			"id":"xindi_aquatic",
+			"name":"Xindi Aquatic Cruiser",
+			"frontArc":"180",
+			"rearArc":"",
+			"maneuvers": {
+				"4": {
+					"straight": "white"
+				},
+				"3": {
+					"straight": "white",
+					"bank": "white",
+					"turn": "red"
+				},
+				"2": {
+					"straight": "green",
+					"bank": "white",
+					"turn": "red"
+				},
+				"1": {
+					"straight": "green",
+					"bank": "green"
+				},
+				"-1": {
+					"straight": "red"
+				},
+				"min": -1,
+				"max": 4
+			}
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "kaiphet_amman_sor_72004p",
+			"set": ["72004p"],
+			"name": "Kaiphet Amman'sor",
+			"cost": 3,
+			"skill": 5,
+			"talents": 1,
+			"text": "When defending, during the Modify Defense Dice step, you may re-roll one of your blank results. If your ship's Hull value is greater than the attacking ship's Hull value, you may re-roll all of your blank results.",
+			"unique": true,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "copy",
+			"of": "xindi_captain_72003p",
+			"set": ["72004p"]
+		}
+	],
+	
+	"upgrades": [
+	
+		{
+			"type": "talent",
+			"id": "ibix_dynasty_72004p",
+			"set": ["72004p"],
+			"name": "Ibix Dynasty",
+			"cost": 5,
+			"text": "Add 2 [weapon] Upgrade slots to your Upgrade Bar. If this card is discarded, your ship loses these Upgrade slots.\n\nWhen defending, before any dice are rolled, you may discard this card and 1 of your [weapon] Upgrades to cancel the attack.",
+			"unique": true,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "crew",
+			"id": "aquatic_councilor_72004p",
+			"set": ["72004p"],
+			"name": "Aquatic Councilor",
+			"cost": 5,
+			"text": "When defending, during the Roll Defense Dice step, you may disable this card to roll 1 additional defense die.\nOR\nWhen defending, during the Roll Defense Dice step, you may discard this card to roll 2 additional defense dice.",
+			"unique": false,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "weapon",
+			"id": "prototype_weapon_72004p",
+			"set": ["72004p"],
+			"name": "Prototype Weapon",
+			"cost": 5,
+			"attack": 5,
+			"range": "1",
+			"text": "ATTACK: Discard this card and your Captain Card to perform this attack. Place a Mission Token in the play area, in your forward firing arc, within Range 1 of your ship that is not on top of another ship's base. Using a 360 arc from the Mission Token, target all ships in a line up to Range 2 and make a separate attack againts each ship in the line (at -1 attack die for each ship past the first). Remove the Mission Token from the play area after the attack. This Upgrade may only be purchased for a Xindi ship.",
+			"unique": false,
+			"factions": ["xindi"]
+		},
+		{
+			"type": "tech",
+			"id": "escape_pod_72004p",
+			"set": ["72004p"],
+			"name": "Escape Pod",
+			"cost": 1,
+			"text": "Whenever one of your [crew] Upgrades is supposed to be discarded, you may place that Upgrade beneath this card instead. While an Upgrade is beneath this card it cannot be targeted or used in any way.\n\nIf your ship is destroyed, you may remove the [crew] Upgrade from beneath this card and deploy it to a friendly ship within Range 1-3 of your ship.",
+			"unique": false,
+			"factions": ["xindi"]
+		}
+
+	]
+
+}

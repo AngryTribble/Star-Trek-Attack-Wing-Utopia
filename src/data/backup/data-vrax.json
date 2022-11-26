@@ -1,0 +1,150 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72010",
+			"name": "I.R.W. Vrax",
+			"releaseDate": "2015-08-01",
+			"parentSet": "Wave 17"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "i_r_w_vrax_72010",
+			"set": ["72010"],
+			"name": "I.R.W. Vrax",
+			"class": "Valdore Class",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["weapon","weapon","crew","crew"],
+			"attack": 4,
+			"agility": 2,
+			"hull": 6,
+			"shields": 3,
+			"cost": 30,
+			"text": "If you reveal a 4 [forward] maneuver, immediately before you move, you may change it to a 4 Bank maneuver. Treat this as a Red Maneuver.",
+			"unique": true,
+			"factions": ["romulan"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1012",
+			"set": ["72010"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "suran_72010",
+			"set": ["72010"],
+			"name": "Suran",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "ACTION: When attacking this round, during the Roll Attack Dice step, if you are within range 1 of a friendly ship, set 1 of your attack dice on the result of your choice. This die cannot be rolled or re-rolled.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "captain",
+			"id": "velal_cap_72010",
+			"set": ["72010"],
+			"name": "Velal",
+			"cost": 3,
+			"skill": 5,
+			"talents": 1,
+			"text": "ACTION: Each time you defend this round, during the Roll Defense Dice step, you may choose to roll 2 less defense dice. If you do so, add 1 [evade] result to your roll.",
+			"unique": true,
+			"factions": ["romulan"]
+		}
+	],
+
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "velal_72010",
+			"set": ["72010"],
+			"name": "Velal",
+			"cost": 3,
+			"skill": 1,
+			"talents": 1,
+			"text": "FLEET ACTION: Each time you defend this round, during the Roll Defense Dice step, you may choose to roll 2 less defense dice. If you do so, add 1 [evade] result to your roll.",
+			"unique": true,
+			"factions": ["romulan"]
+		}
+	],
+
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "coordinated_attack_72010",
+			"set": ["72010"],
+			"name": "Coordinated Attack",
+			"cost": 5,
+			"text": "If your ship has not already attacked this round, you may discard this card to perform an attack with your Primary Weapon at -1 attack dice immediately after a friendly ship attacks, regardless of initiative order.\n\nThis Upgrade may only be purchased for a Romulan Captain on a Romulan ship.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "crew",
+			"id": "bridge_officer_72010",
+			"set": ["72010"],
+			"name": "Bridge Officer",
+			"cost": 3,
+			"text": "When you are instructed to place Time Tokens on one of your [weapon] Upgrades, place 1 less Time Token than required.\n\nThis Upgrade costs +2 SP for any non-Romulan ship and no ship may be equipped with more than 1 Bridge Officer Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "crew",
+			"id": "tal_aura_72010",
+			"set": ["72010"],
+			"name": "Tal'aura",
+			"cost": 5,
+			"text": "ACTION: Discard this card to target a ship at Range 3. Discard 1 [crew] Upgrade of your choice on the target ship.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "weapon",
+			"id": "photon_torpedoes_72010",
+			"set": ["72010"],
+			"name": "Photon Torpedoes",
+			"cost": 5,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\n\nYou may convert 1 of your [battlestations] results into 1 [crit] result.\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "weapon",
+			"id": "plasma_torpedoes_72010",
+			"set": ["72010"],
+			"name": "Plasma Torpedoes",
+			"cost": 5,
+			"attack": 5,
+			"range": "1 - 2",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\n\nYou may re-roll all of your blank results one time.\n\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "weapon",
+			"id": "flanking_attack_72010",
+			"set": ["72010"],
+			"name": "Flanking Attack",
+			"cost": 6,
+			"attack": 6,
+			"range": "2 - 3",
+			"text": "ATTACK: Discard this card to perform this attack.\nThe defending ship rolls -1 defense die against this attack.\nYou may only fire this weapon from your forward firing arc and you may only perform this attack if your ship is not within the forward or rear firing arc of the defending ship.",
+			"unique": false,
+			"factions": ["romulan"]
+		}
+	]
+
+}

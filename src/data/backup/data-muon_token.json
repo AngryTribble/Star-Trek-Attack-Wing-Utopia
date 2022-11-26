@@ -1,0 +1,12 @@
+
+{
+
+	"others" : [
+		{
+			"type" : "token",
+			"id" : "muon_token",
+			"name" : "Muon Token",
+			"text" : "This card explains the rules for a Muon Token and serves as a reference to remind players of its effect.\n\nA ship with a Muon Token assigned to it follows these special rules:\n\n1. A Muon Token stays wih a ship until it is removed.\n\n2. During the Activation Phase, after the ship moves, the ship takes damage to its Hull equal to the number of its current Maneuver -1. The type of Maneuver does not matter, just the number.\n\n3. After the ship performs a Green or White Maneuver, it can spend an Action to remove the Muon Token."
+		}
+	]
+}

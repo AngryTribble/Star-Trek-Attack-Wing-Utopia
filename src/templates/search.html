@@ -1,0 +1,108 @@
+<div class="u-search">
+
+	<div class="search-query-container">
+		<input class="u-search-query" ng-model="search.query" placeholder="Search" spellcheck="false" autocorrect="off">
+		<button ng-click="resetSearch()">Reset</button>
+		<button ng-click="showAdvanced = !showAdvanced">Advanced</button>
+	</div>
+
+	<div ng-show="showAdvanced && (!dragStore.item || dragStore.source == 'search')">
+
+		<div class="u-search-size">
+			<button class="u-search-smaller" ng-click="modifySearchColumns(-1)"><i class="fa fa-chevron-left"></i></button>
+			<div class="u-search-size-text">Resize Search Results</div>
+			<button class="u-search-bigger" ng-click="modifySearchColumns(1)"><i class="fa fa-chevron-right"></i></button>
+		</div>
+
+		<search-filter-group title="Faction" open>
+			<span ng-repeat="(faction,data) in search.factions">
+				<label class="u-label"><input type="checkbox" ng-model="data.search" > <div class="u-faction card-faction-{{faction}}"></div> {{faction|removeDashes}}</label>
+			</span>
+		</search-filter-group>
+
+		<search-filter-group title="Type" open>
+			<span class="u-search-type" ng-repeat="(type,data) in search.types">
+				<label class="u-label"><input type="checkbox" ng-model="data.search" > <i class="fs fs-{{type}}"></i> {{type|removeDashes}}</label>
+			</span>
+		</search-filter-group>
+
+		<search-filter-group title="Uniqueness" open>
+			<span>
+				<label class="u-label"><input type="checkbox" ng-model="search.unique"> <i class="fs fs-unique"></i> Unique</label>
+			</span>
+			<span>
+				<label class="u-label"><input type="checkbox" ng-model="search.generic"> <i class="fs"></i> Generic</label>
+			</span>
+		</search-filter-group>
+
+		<search-filter-group title="Order By" open>
+			<div class="u-search-filter-comment">
+				Order results by <select ng-model="search.sortBy" ng-options="sortable.value as sortable.name for sortable in sortables"></select>
+				<select ng-model="search.ascending"><option value="true">Ascending</option><option value="false">Descending</option></select>
+				<div class="u-order-default" ng-show="search.sortBy != defaults.search.sortBy || search.ascending != defaults.search.ascending">
+					<button ng-click="defaults.search.sortBy = search.sortBy; defaults.search.ascending = search.ascending">Set as Default</button>
+					<div>Default order is saved in browser for future sessions.</div>
+				</div>
+			</div>
+		</search-filter-group>
+
+		<search-filter-group title="Custom Filter" open>
+			<div class="u-search-filter-comment" ng-init="search.filterOperator = '<'">
+				<select ng-model="search.filterField"><option value="">- No Filter -</option><option ng-repeat="sortable in sortables" value="{{sortable.value}}">{{sortable.name}}</option></select>
+				<select ng-model="search.filterOperator"><option value="<">&lt;</option><option value="<=">&lt;=</option><option value="=">=</option><option value=">=">&gt;=</option><option value=">">&gt;</option></select>
+				<input ng-model="search.filterValue" placeholder="Value"></input>
+			</div>
+			<div class="u-search-filter-comment">
+				Filter On Maneuver: <select ng-model="search.maneuverType"><option value="">Any</option><option ng-repeat="maneuver in maneuvers" value="{{maneuver.value}}">{{maneuver.name}}</option></select>
+				<select ng-model="search.maneuverDifficulty"><option value="">Any</option><option ng-repeat="difficulty in difficulty_list" value="{{difficulty.value}}">{{difficulty.name}}</option></select>
+			</div>
+		</search-filter-group>
+
+		<search-filter-group title="Owned Expansions">
+			<div class="u-search-filter-comment">
+				Expansion filter settings are stored in your browser for future sessions. Uncheck the expansions you don't own. New expansions are automatically checked. These settings are not affected by the "Reset" button.
+			</div>
+			<div class="u-search-filter-comment">
+				<label class="u-label"><input type="checkbox" ng-model="search.ignoreSetsFilter"> Temporarily show all cards</label>
+			</div>
+			<button ng-click="uncheckAllSets()">Uncheck all sets</button>
+			<button ng-click="checkAllSets()">Check all sets</button>
+			<button ng-click="exportSets()">Export Sets</button>
+			<div class="u-search-filter-comment">Import Sets...</div>
+			<input type="file" multiple onchange="angular.element(this).scope().importSets(this)">
+			<div ng-repeat="set in setList | orderBy:'-releaseDate'" class="u-search-set" ng-hide="search.ignoreSetsFilter">
+				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search"> {{set.parentSet}}: {{set.name}}</label>
+			</div>
+		</search-filter-group>
+
+	</div>
+
+</div>
+
+<div ng-init="resultLimit = 10>
+
+	<div class="u-loading" ng-show="loading">Loading cards...</div>
+
+	<div class="card-container" ng-show="dragStore.item && dragStore.source != 'search'" droppable can-drop="true" drop="$emit('removeFromFleetDropped',$item)" drag-store="dragStore">
+		<div class="card-outer card-drop-target font-staw">
+			<div class="card-drop-target-inner">
+				<div class="card-drop-target-type">
+					<i class="fs fs-captain"></i><br/>Remove From Fleet
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-hide="dragStore.item && dragStore.source != 'search'">
+
+		<div class="card-container" ng-repeat="card in cards | cardFilter:search | sortBy:search.sortBy:search.ascending | limitTo:resultLimit*search.columns">
+			<card card="card" drag-store="dragStore" drag-source="search"></card>
+		</div>
+
+		<div>
+			<button class="u-show-more" ng-hide="loading" ng-click="resultLimit = resultLimit + 10">Show More</button>
+		</div>
+
+	</div>
+
+</div>

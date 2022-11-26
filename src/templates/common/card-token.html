@@ -1,0 +1,11 @@
+<div class="card-outer card-token font-staw">
+
+	<div class="card-token-header">
+		<span class="card-title" ng-class="{'card-title-long': token.name.length > 20}">{{token.name | uppercase}}</span>
+	</div>
+
+	<div class="card-text">
+		<div class="card-text-inner font-staw-alt" ng-bind-html="token.text | icons"></div>
+	</div>
+
+</div>

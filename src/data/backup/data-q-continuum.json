@@ -1,0 +1,132 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72000b",
+			"name": "Q Continuum Cards",
+			"releaseDate": "2015-08-01",
+			"parentSet": "Q Continuum"
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "q_female__72000b",
+			"set": ["72000b"],
+			"name": "Q (Female)",
+			"cost": 7,
+			"skill": 10,
+			"talents": 1,
+			"text": "ACTION: Place 1 additional Shield Token beside your ship. When taking damage this round, remove this Shield Token first. If all of your Shields are destroyed by a single attack this round and your ship suffers any damage to it's Hull from that attack, the damage is increased by +1 normal damage. If the Shield Token is unused remove it during the End Phase.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0,
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "captain",
+			"id": "q_cap_72000b",
+			"set": ["72000b"],
+			"name": "Q",
+			"cost": 1,
+			"skill": 2,
+			"talents": 1,
+			"text": "ACTION: Rotate your ship 180-degrees. Place a number of Auxiliary Power tokens beside your ship equal to the speed of the maneuver you revealed this round.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0,
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "q_72000b",
+			"set": ["72000b"],
+			"name": "Q",
+			"cost": 1,
+			"skill": -1,
+			"talents": 1,
+			"text": "FLEET ACTION: Rotate your ship 180-degrees. Place a number of Auxiliary Power tokens beside your ship equal to the speed of the maneuver you revealed this round.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0,
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "crew",
+			"id": "quinn_72000b",
+			"set": ["72000b"],
+			"name": "Quinn",
+			"cost": 2,
+			"text": "When your ship is defending, during the Compare Results step, you may discard this card to cancel 1 [hit] or [crit] result.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0,
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "talent",
+			"id": "think_fast_72000b",
+			"set": ["72000b"],
+			"name": "Think Fast",
+			"cost": 1,
+			"text": "During the Roll Attack Dice step, when attacking with a Primary Weapon, you may discard this card and disable 1 of your other Upgrades to gain +1 attack die for that attack.\nOR\nDuring the Roll Defense Dice step, you may discard this card and disable 1 of your other Upgrades to roll +1 defense die.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0,
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "crew",
+			"id": "q2_c_72000b",
+			"set": ["72000b"],
+			"name": "Q2",
+			"cost": 5,
+			"text": "This Upgrade counts as either a [crew], an [talent], a [tech], or a [weapon] Upgrade (your choice).\n\nWhenever a friendly ship within Range 1 of your ship receives damage, you may discard this card to transfer all of that damage to your ship.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0
+		},
+		{
+			"type": "talent",
+			"id": "q2_ta_72000b",
+			"set": ["72000b"],
+			"name": "Q2",
+			"cost": 5,
+			"text": "This Upgrade counts as either a [crew], an [talent], a [tech], or a [weapon] Upgrade (your choice).\n\nWhenever a friendly ship within Range 1 of your ship receives damage, you may discard this card to transfer all of that damage to your ship.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0
+		},
+		{
+			"type": "tech",
+			"id": "q2_t_72000b",
+			"set": ["72000b"],
+			"name": "Q2",
+			"cost": 5,
+			"text": "This Upgrade counts as either a [crew], an [talent], a [tech], or a [weapon] Upgrade (your choice).\n\nWhenever a friendly ship within Range 1 of your ship receives damage, you may discard this card to transfer all of that damage to your ship.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0
+		},
+		{
+			"type": "weapon",
+			"id": "q2_w_72000b",
+			"set": ["72000b"],
+			"name": "Q2",
+			"cost": 5,
+			"text": "This Upgrade counts as either a [crew], an [talent], a [tech], or a [weapon] Upgrade (your choice).\n\nWhenever a friendly ship within Range 1 of your ship receives damage, you may discard this card to transfer all of that damage to your ship.",
+			"unique": true,
+			"factions": ["q-continuum"],
+			"factionPenalty": 0
+		}
+	]
+
+}

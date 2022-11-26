@@ -1,0 +1,127 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72001p",
+			"name": "U.S.S. Bellerophon",
+			"releaseDate": "2015-09-01",
+			"parentSet": "Year of Hell"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_bellerophon_72001p",
+			"set": ["72001p"],
+			"name": "U.S.S. Bellerophon",
+			"class": "Intrepid Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","weapon","crew","crew"],
+			"attack": 4,
+			"agility": 2,
+			"hull": 4,
+			"shields": 5,
+			"cost": 30,
+			"text": "When defending, during the Compare Results step, you may disable 2 of your Active Shields to cancel 1 of the attacking ship's [hit] results.",
+			"unique": true,
+			"factions": ["federation"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "federation_starship_72001p",
+			"set": ["72001p"],
+			"name": "Federation Starship",
+			"class": "Intrepid Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 4,
+			"agility": 2,
+			"hull": 4,
+			"shields": 4,
+			"cost": 28,
+			"text": "",
+			"unique": false,
+			"factions": ["federation"],
+			"squadron": false
+		}
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "william_ross_72001p",
+			"set": ["72001p"],
+			"name": "William Ross",
+			"cost": 4,
+			"skill": 2,
+			"talents": 1,
+			"text": "FLEET ACTION: Target a ship within Range 1-2 that is in your forward firing arc. If the target ship attacks this round, that ship rolls 1 less attack die this round.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "william_ross_cap_72001p",
+			"set": ["72001p"],
+			"name": "William Ross",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "ACTION: Target a ship within Range 1-2 that is in your forward firing arc. If the target ship attacks this round, that ship rolls 1 less attack die this round.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "section_31_72001p",
+			"set": ["72001p"],
+			"name": "Section 31",
+			"cost": 3,
+			"text": "At any time, you may discard this card to achieve the effect of spending either a [battlestations], an [evade], or a [target-lock] Token as if you spent the appropriate Token from beside your ship. You may only use the [target-lock] effect for re-rolling your dice.",
+			"unique": true,
+			"factions": ["independent"]
+		},
+		{
+			"type": "crew",
+			"id": "luther_sloan_72001p",
+			"set": ["72001p"],
+			"name": "Luther Sloan",
+			"cost": 3,
+			"text": "You do not pay a faction penalty when assigning this card to a Federation ship.\n\nDuring the Planning Phase, after all ships have been assigned a Maneuver Dial, you may discard this card to look at up to 3 ships' Maneuver Dials. You may then change your chosen Maneuver.",
+			"unique": true,
+			"factions": ["independent"]
+		},
+		{
+			"type": "weapon",
+			"id": "tricobalt_device_72001p",
+			"set": ["72001p"],
+			"name": "Tricobalt Device",
+			"cost": 6,
+			"attack": 6,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and discard this card to perform this attack.\n\nYou may only fire this weapon from your forward firing arc.\nThis Upgrade costs +4 SP if purchased for any ship other than an Intrepid-class ship.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "variable_geometry_pylons_72001p",
+			"set": ["72001p"],
+			"name": "Variable Geometry Pylons",
+			"cost": 5,
+			"text": "Before you move, you may disable this card to increase your speed by 1 or decrease your speed by 1. If you do this, treat the maneuver as a White Maneuver. You cannot perform any Actions on the round you use this ability.\n\nThis Upgrade may only be purchased for an Intrepid-class ship and no ship may be equipped with more than 1 Variable Geometry Pylons Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		}
+	]
+
+}

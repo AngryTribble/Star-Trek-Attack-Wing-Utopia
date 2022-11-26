@@ -1,0 +1,1470 @@
+.card-container {
+	margin: 0.1em;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	font-size: 30px;
+	width: 10em;
+	height: 14em;
+}
+
+.card-container.zoom {
+	font-size: 20px;
+}
+
+.card-container.zoom:hover {
+	font-size: 20px;
+}
+
+.card-outer {
+	border-radius: 0.3em;
+	background: #000;
+	padding: 0.1em;
+	border: 0.1em solid black;
+	width: 10em;
+	height: 14em;
+	position: absolute;
+	cursor: pointer;
+}
+
+.card-outer[draggable] {
+	cursor: pointer;
+	box-shadow: 0 0 0.4em #999;
+}
+
+.card-outer[draggable]:hover {
+	box-shadow: 0 0 0.4em #333;
+}
+
+.card-image {
+	height: 4em;
+}
+
+.card-image-large {
+	height: 2em;
+}
+
+.card-corner-top-left {
+	background: #a8b6bf;
+	height: 1.6em;
+	width: 1em;
+	border-top-left-radius: 1em;
+}
+
+.card-corner-inner {
+	background: black;
+	width: 0.2em;
+	height: 0.6em;
+	position: relative;
+}
+
+.card-corner-top-left .card-corner-inner {
+	border-top-left-radius: 0.2em;
+	top: 1em;
+}
+
+.card-unique .card-corner-top-left .card-corner-inner {
+	top: -0.3em;
+}
+
+.card-OnePerShip .card-corner-top-left .card-corner-inner {
+	top: -0.3em;
+}
+
+.card-corner-top-right .card-corner-inner {
+	border-top-right-radius: 0.2em;
+	top: 1em;
+}
+
+.card-corner-top-right .card-corner-inner-faction {
+	top: -0.6em;
+}
+
+.card-ship-faction {
+	font-size: 1.4em;
+	width: 1.1em;
+	height: 1.1em;
+	border: 0.05em solid #a8b6bf;
+	border-radius: 1em;
+	background-color: black;
+	--background-size: contain;
+	background-size: 0.95em;
+	background-position: 0.05em 0.05em;
+	background-repeat: no-repeat;
+	color: #e1a825;
+	position: relative;
+	left: -0.5em;
+	top: -0.1em;
+	z-index: 1;
+	padding: 0.5em;
+}
+
+.card-title-container {
+	background: #a8b6bf;
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+}
+
+.card-title {
+	color: white;
+	background: black;
+	padding: 0.2em 0.2em 0;
+	position: relative;
+	top: 0.05em;
+	height: 1.2em;
+}
+
+.card-title-long {
+	top: 0;
+	font-size: 0.8em;
+	padding-top: 0.3em;
+	padding-bottom: 0.1em;
+}
+
+.card-title-super-long {
+	font-size: 0.5em;
+	padding-top: 0.4em;
+	padding-bottom: 0.3em;
+	top: -0.2em;
+}
+
+.card-corner-top-right {
+	background: #a8b6bf;
+	height: 1.6em;
+	width: 1em;
+	border-top-right-radius: 1em;
+}
+
+.card-unique-icon {
+	font-size: 1.3em;
+	border: 0.05em solid #a8b6bf;
+	border-radius: 1em;
+	background: black;
+	color: #e1a825;
+	position: relative;
+	left: 0.1em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-OnePerShip-icon {
+	font-size: 1.15em;
+	border: 0.05em solid #a8b6bf;
+	border-radius: 1em;
+	background: black;
+	color: #a8b6bf;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-FrontArc-icon {
+	background: url("../img/restrictions/upgrade-forward-arc.png")no-repeat;
+	background-size: 1em;
+	color: red;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-RearArc-icon {
+	background: url("../img/restrictions/upgrade-rear-arc.png")no-repeat;
+	background-size: 1em;
+	color: red;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-360Arc-icon {
+	background: url("../img/restrictions/upgrade-360-arc.png")no-repeat;
+	background-size: 1em;
+	color: red;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-specialization-icon {
+	background: url("../img/restrictions/upgrade-specialization.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: gray;
+	padding: 0.5em;
+	position: relative;
+	bottom: 6em;
+	left: 0em;
+	margin-top:0.5em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-attackConstraint-icon {
+	background: url("../img/restrictions/upgrade-attack-limit.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: gray;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-hullConstraint-icon {
+	background: url("../img/restrictions/upgrade-hull-limit.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-shipLimit-icon {
+	background: url("../img/restrictions/upgrade-ship-limit.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-faq-icon {
+	background: url("../img/restrictions/upgrade-ruling.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-OP-banned-icon {
+	background: url("../img/restrictions/upgrade-OP-banned.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-alliance-icon {
+	background: url(../img/restrictions/alliance.png) no-repeat;
+    font-size: .5em;
+    background-size: 1em;
+    width: 1em;
+    position: relative;
+    left: 0;
+    float: right;
+    top: -1.25em;
+    z-index: 1;
+    text-align: center;
+}
+
+
+.card-captainFederation-icon {
+	background: url("../img/restrictions/card-captainFederation-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipFederation-icon {
+	background: url("../img/restrictions/card-shipFederation-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costFederation-icon {
+	background: url("../img/restrictions/card-shipFederation-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+.card-captainKlingon-icon {
+	background: url("../img/restrictions/card-captainKlingon-icon.png")no-repeat;
+	background-size: 1em;
+	color: red;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipKlingon-icon {
+	background: url("../img/restrictions/card-shipKlingon-icon.png")no-repeat;
+	background-size: 1em;
+	color: red;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costKlingon-icon {
+	background: url("../img/restrictions/card-shipKlingon-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+.card-captainRomulan-icon {
+	background: url("../img/restrictions/card-captainRomulan-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipRomulan-icon {
+	background: url("../img/restrictions/card-shipRomulan-icon.png") no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costRomulan-icon {
+	background: url("../img/restrictions/card-shipRomulan-icon.png") no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainDominion-icon {
+	background: url("../img/restrictions/card-captainDominion-icon.png") no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipDominion-icon {
+	background: url("../img/restrictions/card-shipDominion-icon.png") no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costDominion-icon {
+	background: url("../img/restrictions/card-shipDominion-icon.png") no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainIndependent-icon {
+	background: url("../img/restrictions/card-captainIndependent-icon.png") no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: yellow;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-shipIndependent-icon {
+	background: url("../img/restrictions/card-shipIndependent-icon.png") no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costIndependent-icon {
+	background: url("../img/restrictions/card-shipIndependent-icon.png") no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainBorg-icon {
+	background: url("../img/restrictions/card-captainBorg-icon.png") no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipBorg-icon {
+	background: url("../img/restrictions/card-shipBorg-icon.png") no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-captainMirror-icon {
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainFerengi-icon {
+	background: url("../img/restrictions/card-captainFerengi-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipFerengi-icon {
+	background: url("../img/restrictions/card-shipFerengi-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costFerengi-icon {
+	background: url("../img/restrictions/card-shipFerengi-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captain8472-icon {
+	background: url("../img/restrictions/card-captain8472-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-ship8472-icon {
+	background: url("../img/restrictions/card-faction8472-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-cost8472-icon {
+	background: url("../img/restrictions/card-faction8472-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainBajoren-icon {
+	background: url("../img/restrictions/card-captainBajoren-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipBajoren-icon {
+	background: url("../img/restrictions/card-factionBajoren-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costBajoren-icon {
+	background: url("../img/restrictions/card-factionBajoren-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainKazon-icon {
+	background: url("../img/restrictions/card-captainKazon-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipKazon-icon {
+	background: url("../img/restrictions/card-factionKazon-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costKazon-icon {
+	background: url("../img/restrictions/card-factionKazon-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainMU-icon {
+	background: url("../img/restrictions/card-captainMU-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipMU-icon {
+	background: url("../img/restrictions/card-factionMU-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costMU-icon {
+	background: url("../img/restrictions/card-factionMU-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainVulcan-icon {
+	background: url("../img/restrictions/card-captainVulcan-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipVulcan-icon {
+	background: url("../img/restrictions/card-factionVulcan-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costVulcan-icon {
+	background: url("../img/restrictions/card-factionVulcan-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-captainXindi-icon {
+	background: url("../img/restrictions/card-captainMU-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-shipXindi-icon {
+	background: url("../img/restrictions/card-factionMU-icon.png")no-repeat;
+	background-size: 1em;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-costXindi-icon {
+	background: url("../img/restrictions/card-factionMU-icon.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: red;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-mirror .card-unique-icon {
+	color: black;
+	background: #e1a825;
+	border-color: black;
+}
+
+.card-ship-class-container {
+	margin-right: 2.2em;
+	margin-bottom: 0.2em;
+}
+
+.card-ship-class {
+	font-size: 0.6em;
+	color: white;
+	border: 0.15em solid #a8b6bf;
+	padding: 0.1em 0.4em 0 0.4em;
+	border-radius: 0.8em;
+}
+
+.card-ship-class-long {
+	font-size: 0.5em;
+}
+
+.card-ship-stats {
+	clear: left;
+	margin-top: 0.1em;
+}
+
+.card-ship-stat {
+	border: 0.1em solid white;
+	border-radius: 0.1em 0.6em 0.6em 0.1em;
+	padding: 0.1em 0.25em 0 0.1em;
+	margin-top: 0.1em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 2.3em;
+}
+
+.card-ship-stat-attack {
+	color: #ed1b24;
+	border-color: #ed1b24;
+	background-image: url("../img/ship-stat-attack.png");
+}
+
+.card-ship-stat-agility {
+	color: #00a650;
+	border-color: #00a650;
+	background-image: url("../img/ship-stat-agility.png");
+}
+
+.card-ship-stat-hull {
+	color: #fef200;
+	border-color: #fef200;
+	background-image: url("../img/ship-stat-hull.png");
+}
+
+.card-ship-stat-shields {
+	color: #4dc4e2;
+	border-color: #4dc4e2;
+	background-image: url("../img/ship-stat-shields.png");
+}
+
+.card-text {
+	background: #f7f3e7;
+	color: black;
+	border-radius: 0.3em;
+	margin-top: 0.2em;
+	margin-left: 4.5em;
+	margin-right: 2em;
+	padding: 0.3em;
+	font-size: 0.6em;
+	height: 7em;
+	text-align: center;
+}
+
+.card-text-inner {
+	font-size: 0.8em;
+	line-height: 1.2em !important;
+}
+
+.card-text-inner i.fs {
+	font-size: 1.2em;
+}
+
+.card-text-inner-long {
+	line-height: 1em !important;
+}
+
+.card-text-inner-long i.fs {
+	font-size: 1em;
+}
+
+.card-text-inner-super-long {
+	font-size: 0.7em;
+}
+
+
+.card-border-right {
+	background: #a8b6bf;
+	width: 0.8em;
+	height: 6.3em;
+	margin-top: 0.2em;
+}
+
+.card-border-right-tall {
+	background: #a8b6bf;
+	width: 0.8em;
+	height: 8.35em;
+	margin-top: 0.2em;
+}
+
+.card-faction-federation {
+	background-image: url("../img/faction-federation.png");
+}
+
+.card-faction-romulan {
+	background-image: url("../img/faction-romulan.png");
+}
+
+.card-faction-klingon {
+	background-image: url("../img/faction-klingon.png");
+}
+
+.card-faction-dominion {
+	background-image: url("../img/faction-dominion.png");
+}
+
+.card-faction-ferengi {
+	background-image: url("../img/faction-ferengi.png");
+}
+
+.card-faction-independent {
+	background-image: url("../img/faction-independent.png");
+}
+
+.card-faction-bajoran {
+	background-image: url("../img/faction-bajoran.png");
+}
+
+.card-faction-borg {
+	background-image: url("../img/faction-borg.png");
+}
+
+.card-faction-kazon {
+	background-image: url("../img/faction-kazon.png");
+}
+
+.card-faction-xindi {
+	background-image: url("../img/faction-xindi.png");
+}
+
+.card-faction-species-8472 {
+	background-image: url("../img/faction-species-8472.png");
+}
+
+.card-faction-vulcan {
+	background-image: url("../img/faction-vulcan.png");
+}
+
+.card-faction-mirror-universe {
+	background-image: url("../img/faction-mirror.png");
+}
+
+.card-faction-q-continuum {
+	background-image: url("../img/faction-q-continuum.png");
+}
+
+.card-ship .card-factions-multiple {
+	left: -0.25em;
+	top: -0.45em;
+}
+
+.card-ship .card-factions-multiple.card-faction-0 {
+	left: -0.85em;
+	top: -0.15em;
+}
+
+.card-ship-action-bar {
+	background: #f7f3e7;
+	color: black;
+	border-radius: 0.3em;
+	margin-top: 0.4em;
+	margin-left: 4.5em;
+	margin-right: 2em;
+	padding: 0.2em;
+	font-size: 0.6em;
+}
+
+.card-ship-action-bar i {
+	font-size: 1.6em;
+	margin: 0.2em 0.15em;
+}
+
+.card-ship-silhouette {
+	width: 1.85em;
+	height: 1.95em;
+	border: 0.05em solid #a8b6bf;
+	border-radius: 0.1em;
+	clear: left;
+	margin-top: 0.1em;
+}
+
+.card-ship-upgrade-bar {
+	border: 0.1em solid #a8b6bf;
+	border-radius: 0.5em;
+	margin-left: 3.2em;
+	margin-top: 0.3em;
+	text-align: right;
+	padding: 0.2em 0.4em;
+	color: white;
+	margin-right: 4.2em;
+	font-size: 0.6em;
+}
+
+.card-ship-upgrade-bar i {
+	font-size: 1em;
+	margin: 0 0.02em;
+}
+
+.card-ship-upgrade-occupied {
+	color: #777;
+}
+
+.card-ship-cost {
+	border: 0.1em solid #a8b6bf;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.1em 0.4em 0;
+	margin-top: 0.2em;
+	margin-right: 0.2em;
+	font-size: 0.8em;
+}
+
+.card-corner-bottom-right {
+	background: #a8b6bf;
+	height: 1em;
+	width: 1em;
+	margin-top: 0.1em;
+	border-bottom-right-radius: 1em;
+}
+
+.card-corner-bottom-right .card-corner-inner {
+	border-bottom-right-radius: 0.2em;
+	height: 0.2em;
+}
+
+
+/* UPGRADES */
+
+.card-upgrade .card-image {
+	height: 6em;
+}
+
+.card-upgrade .card-title-container {
+	margin-right: 0;
+	margin-left: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+
+.card-upgrade.card-unique .card-title-container {
+	padding-left: 0.4em;
+	margin-left: 1.2em;
+}
+
+.card-upgrade.card-OnePerShip .card-title-container {
+	padding-left: 0.4em;
+	margin-left: 1.2em;
+}
+
+.card-border-left {
+	background: #a8b6bf;
+	width: 0.8em;
+	height: 4.11em;
+	margin-top: 0.2em;
+	clear: left;
+}
+
+.card-border-left-tall {
+	background: #a8b6bf;
+	width: 0.8em;
+	height: 8.31em;
+	margin-top: 0.2em;
+	clear: left;
+}
+
+.card-upgrade.card-unique-icon .card-border-left {
+	padding-left: 0.5em;
+}
+
+.card-upgrade.card-OnePerShip-icon .card-border-left {
+	padding-left: 0.5em;
+	margin-left: 0.5em;
+}
+
+.card-upgrade .card-text {
+	margin-left: 1.7em;
+	margin-right: 0.5em;
+	height: 8em;
+}
+
+.card-captain {
+	font-size: 0.8em;
+	color: #e1a825;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding: 0.15em 0.3em;
+}
+
+.card-skill-container {
+	border-radius: 0.35em;
+	font-size: 1.4em;
+	width: 1.3em;
+	height: 1.3em;
+	background: black;
+	clear: left;
+	position: relative;
+	top: -0.2em;
+	left: -0.05em;
+	padding: 0.05em;
+}
+
+.card-skill {
+	color: #e1a825;
+	border: 0.1em solid #3486cf;
+	text-align: center;
+	border-radius: 0.3em;
+	background: black;
+}
+
+.card-skill-plus {
+	font-size: 0.5em;
+	vertical-align: middle;
+	margin-left: -0.2em;
+}
+
+.card-border-bottom {
+	background: #a8b6bf;
+	width: 8em;
+	height: 0.8em;
+	margin-top: 0.2em;
+	text-align: center;
+}
+
+.card-border-bottom i {
+	font-size: 2em;
+	position: relative;
+	top: -0.3em;
+	left: 0.2em;
+	color: white;
+	background: black;
+	border-radius: 1em;
+}
+
+.card-border-bottom i.card-upgrades-long {
+	font-size: 1.5em;
+}
+
+.card-upgrade-faction {
+	background: black;
+	border: 0.08em solid #3486cf;
+	left: 1em;
+	font-size: 1em;
+	float: left;
+	width: 1.3em;
+	height: 1.3em;
+	border-radius: 1em;
+	position: relative;
+	top: -0.05em;
+	margin-left: -1em;
+}
+
+.card-upgrade-faction-black {
+	background: black;
+	position: relative;
+	top: 0.13em;
+	left: 0.55em;
+	width: 0.7em;
+	height: 0.92em;
+	z-index: 10;
+}
+
+.card-faction-2 .card-upgrade-faction-black {
+	top: 0.17em;
+	height: 0.81em;
+}
+
+.card-upgrade-faction-icon {
+	position: absolute;
+	left: 0.05em;
+	top: 0.07em;
+	width: 1em;
+	height: 1em;
+	background-size: contain;
+	z-index: 11;
+}
+
+.card-upgrade-cost-value {
+	color: white;
+	float: right;
+	padding: 0.1em 0.3em 0.05em 1em;
+	margin-top: 0.1em;
+	margin-right: 0.1em;
+	font-size: 0.8em;
+	border: 0.1em solid #3486cf;
+	border-radius: 1em;
+	width: 2.8em;
+	text-align: center;
+}
+
+.card-upgrade-cost-free {
+	color: #777;
+}
+
+.card-value-modified:before {
+	content: "*";
+}
+
+.card-upgrade-cost .card-ship-faction {
+	left: 1em;
+	border-color: #3486cf;
+	font-size: 1em;
+	border-width: 0.07em;
+	top: 0.05em;
+	--margin-left: -1em;
+}
+
+.card-upgrade-cost .card-faction-2 {
+	left: 0.35em;
+}
+
+.card-upgrade-type {
+	color: white;
+	font-size: 1.7em;
+	background: black;
+	border-radius: 1em;
+	border: 0.05em solid black;
+	position: relative;
+	top: -0.2em;
+	left: -0.1em;
+	width: 1.1em;
+	height: 1.1em;
+	text-align: center;
+}
+
+.card-weapon-range {
+	color: white;
+	background: black;
+	clear: right;
+	font-size: 1.2em;
+	padding: 0 0.5em;
+	border: 0.2em solid #3486cf;
+	border-radius: 0.7em;
+	position: relative;
+	left: 0.5em;
+	top: -0.2em;
+}
+
+.card-weapon-attack {
+	color: #ed1b24;
+	padding: 0 0.3em;
+	font-size: 1.5em;
+	border: 0.1em solid #3486cf;
+	border-radius: 0.2em;
+	background: black;
+	position: relative;
+	top: -0.2em;
+}
+
+/* Dragdrop */
+
+.card-drop-target {
+	background-color: transparent;
+	border: 0.1em dotted #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.card-drop-target-type {
+	display: inline-block;
+	margin: 0 0.3em;
+}
+
+.card-drop-target i {
+	font-size: 2em;
+	margin: 0.2em;
+}
+
+.card-drop-target.drag-over , .drag-over .card-drop-target {
+	border-color: #555;
+}
+
+.card-drop-target-subtitle {
+	color: #888;
+	font-size: 0.8em;
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	padding-right: 0.5em;
+}
+
+.card-drop-target-title {
+	color: #888;
+	font-size: 0.8em;
+	position: absolute;
+	top: 1em;
+	width: 100%;
+	padding-right: 0.5em;
+}
+
+.card-drop-target-title-hover {
+	z-index: 1;
+}
+
+.card-drop-target-inner {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.card-outer.dragging {
+	--opacity: 0.8;
+	border-color: red;
+}
+
+.fleet-ship-inner .drag-over  .card-outer[draggable] {
+	opacity: 0.2;
+}
+
+.card-resource-header {
+	background: #ba9604;
+	border-radius: 0.4em;
+	text-align: center;
+}
+
+.card-resource .card-title {
+	padding-top: 0.1em;
+}
+.card-resource .card-title-long {
+	padding-top: 0.25em;
+}
+
+.card-resource .card-text {
+	margin: 0;
+	margin-top: 0.2em;
+	height: 20.7em;
+	text-align: left;
+	overflow: auto;
+}
+
+.card-token-header {
+	background: #a8b6bf;
+	border-radius: 0.4em;
+	text-align: center;
+}
+
+.card-token .card-title {
+	padding-top: 0.1em;
+}
+.card-token .card-title-long {
+	padding-top: 0.25em;
+}
+
+.card-token .card-text {
+	margin: 0;
+	margin-top: 0.2em;
+	height: 20.7em;
+	text-align: left;
+	overflow: auto;
+}
+
+ .drag-over.card-resource[draggable] {
+	opacity: 0.2;
+}
+
+.card-faction-image {
+	width: 5em;
+	height: 5em;
+	background-size: contain;
+	margin: 2.3em;
+}
+
+.card-faction-name {
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+}
+
+.card-text .fs-forward {
+	margin: 0 -0.2em;
+}
+
+.card-tooltip td {
+	text-align: right;
+}
+
+
+.card-shipclass .card-border-left {
+	width: 0.8em;
+	height: 6.3em;
+	margin-top: 0.2em;
+	background: #a8b6bf;
+}
+
+.card-shipclass-title {
+	font-size: 0.6em;
+	color: #fff;
+	padding: 0.1em 0.4em 0;
+	border-radius: 0.8em;
+	background-color: black;
+	position: relative;
+	top: -0.2em;
+}
+
+.card-shipclass .card-corner-top-right .card-corner-inner-faction {
+	top: 1em;
+}
+
+.card-class-maneuvers {
+	color: white;
+	margin: 0.2em 1em 0em 1em;
+	height: 7em;
+	position: relative;
+	top: -0.35em;
+	padding: 0 0.3em;
+}
+
+.card-class-maneuvers-tall {
+	color: white;
+	margin: 0.2em 1em 0em 1em;
+	height: 9em;
+	position: relative;
+	top: -0.35em;
+	padding: 0 0.3em;
+}
+
+.card-maneuver-row {
+	--font-size: 0.9em;
+}
+
+.card-maneuver-box {
+	width: 1em;
+	height: 1em;
+	border: 1px solid white;
+	text-align: center;
+	float: left;
+}
+
+.card-maneuver-box i.fs {
+	position: relative;
+	top: -0.2em;
+	font-size: 0.5em;
+}
+
+.card-maneuver-box i.fs-forward,.card-maneuver-box i.fs-reverse,.card-maneuver-box i.fs-left-flank,.card-maneuver-box i.fs-right-flank {
+	font-size: 0.7em;
+}
+
+.card-maneuver-box i.fs-45-rotate-left, .card-maneuver-box i.fs-45-rotate-right, .card-maneuver-box i.fs-90-rotate-left, .card-maneuver-box i.fs-90-rotate-right, .card-maneuver-box i.fs-stop {
+	top: -0.3em;
+}
+
+.card-maneuver-box i.fs-spin-left,.card-maneuver-box i.fs-spin-right {
+	top: 0;
+	font-size: 0.7em;
+}
+
+.speed-reverse {
+	color: #555;
+}
+.speed-red {
+	color: red;
+}
+.speed-green {
+	color: green;
+}
+
+.card-corner-bottom-left {
+	background: #a8b6bf;
+	height: 1em;
+	width: 1em;
+	margin-top: -0.3em;
+	border-bottom-left-radius: 1em;
+	clear: left;
+}
+
+.card-corner-bottom-left .card-corner-inner {
+	left: 0.8em;
+	top: -0.4em;
+	border-bottom-left-radius: 1em;
+}
+
+.card-shipclass .card-corner-bottom-right {
+	margin-top: -0.3em;
+}
+
+.card-shipclass .card-border-bottom {
+	margin-top: 0.3em;
+	margin-left: 1.2em;
+	width: 7.2em;
+}
+
+.card-maneuver-box span {
+	font-size: 0.8em;
+	position: relative;
+	top: -0.1em;
+}
+
+.card-maneuver-box-highlight {
+	background: #333;
+}

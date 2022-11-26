@@ -1,0 +1,131 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72012",
+			"name": "Bioship Beta",
+			"releaseDate": "2015-09-09",
+			"parentSet": "Wave 18"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "bioship_beta_72012",
+			"set": ["72012"],
+			"name": "Bioship Beta",
+			"class": "Species 8472 Bioship",
+			"actions": ["evade","target-lock","scan","regenerate"],
+			"upgrades": ["tech","tech","tech","weapon","weapon"],
+			"attack": 6,
+			"agility": 2,
+			"hull": 5,
+			"shields": 6,
+			"cost": 38,
+			"text": "When defending, during the Compare Results step, you may cancel 1 [hit] result. If you do so, place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["species-8472"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "species_8472_bioship_71281",
+			"set": ["72012"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "bioship_beta_pilot_72012",
+			"set": ["72012"],
+			"name": "Bioship Beta Pilot",
+			"cost": 6,
+			"skill": 8,
+			"talents": 1,
+			"text": "When attacking, during the Modify Attack Dice step, you may re-roll 1 of your blank results.\n\nIf your ship was just destroyed and another friendly ship is within Range 1-2 of your ship, you may replace that ship's Captain Card with this card. If this Captain Card fielded an [talent] Upgrade, you may assign that Upgrade to the new ship as well, if possible.",
+			"unique": true,
+			"factions": ["species-8472"]
+		}
+	],
+
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "telepathy_72012",
+			"set": ["72012"],
+			"name": "Telepathy",
+			"cost": 4,
+			"text": "You may discard this card immediately before you move in order to change your Maneuver for that round.",
+			"unique": true,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "weapon",
+			"id": "biological_weapon_72012",
+			"set": ["72012"],
+			"name": "Biological Weapon",
+			"cost": 6,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: Discard this card to perform this attack.\nIf this attack hits, in addition to normal damage, discard 1 [crew] Upgrade of your choice on the defending ship for each [battlestations] result (max 2).\n\nThis Upgrade may only be purchased for a Species 8472 Bioship.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "weapon",
+			"id": "energy_blast_72012",
+			"set": ["72012"],
+			"name": "Energy Blast",
+			"cost": 8,
+			"attack": 8,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and discard this card to perform this attack.\n\nThis Upgrade may only be purchased for a Species 8472 Bioship.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "biological_technology_72012",
+			"set": ["72012"],
+			"name": "Biological Technology",
+			"cost": 5,
+			"text": "Place 1 Mission Token on this card at the start of each Planning Phase. When attacking, you may spend up to 2 of these tokens to add an equal number of attack dice. When defending, you may spend up to 2 of these tokens to add an equal number of defense dice.\nThis Upgrade may only be purchased for a Species 8472 Bioship and no ship may be equipped with more than 1 Biological Technology Upgrade.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "biogenic_field_72012",
+			"set": ["72012"],
+			"name": "Biogenic Field",
+			"cost": 6,
+			"text": "When defending, you roll +1 defense die (+3 vs a Borg ship). In addition, when an enemy card ability affects one of your cards, roll 1 attack die (3 against a Borg card ability). If you roll a [battlestations] result, the card effect is cancelled.\n\nThis Upgrade may only be purchased for a Species 8472 Bioship and no ship may be equipped with more than 1 Biogenic Field Upgrade.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "electrodynamic_fluid_72012",
+			"set": ["72012"],
+			"name": "Electrodynamic Fluid",
+			"cost": 5,
+			"text": "ACTION: Discard this card to immediately perform a 2nd maneuver from your Maneuver Dial with a speed of 3 or less.\nOR\nACTION: Disable this card to perform a [sensor-echo] Action even if your ship is not cloaked.\nThis Upgrade may only be purchased for a Species 8472 Bioship.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "fluidic_space_72012",
+			"set": ["72012"],
+			"name": "Fluidic Space",
+			"cost": 6,
+			"text": "Instead of making a normal move, you may discard this card to remove your ship from the play area and immediately place it back anywhere in the play area, but not within Range 1-2 of any other ship. You cannot attack or perform any Actions on the round you use this ability.\nThis Upgrade costs +5SP if purchased for a non-Species 8472 ship and no ship may be equipped with more than 1 Fluidic Space Upgrade.",
+			"unique": false,
+			"factions": ["species-8472"]
+		}
+	]
+
+}

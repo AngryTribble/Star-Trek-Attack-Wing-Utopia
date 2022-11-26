@@ -1,0 +1,101 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "blind_nunks_marauder",
+			"name": "Nunk's Marauder",
+			"releaseDate": "2015-11-10",
+			"parentSet": "Blind Boosters"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "nunks_marauder_blind_nunks_marauder",
+			"set": ["blind_nunks_marauder"],
+			"name": "Nunk's Marauder",
+			"class": "D'Kora Class",
+			"actions": ["evade","target-lock","scan"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 3,
+			"agility": 1,
+			"hull": 4,
+			"shields": 3,
+			"cost": 22,
+			"text": "During the Activation Phase, you may perform a [scan] Action as a free Action. If you do so, place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1024",
+			"set": ["blind_nunks_marauder"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "nunk_blind_nunks_marauder",
+			"set": ["blind_nunks_marauder"],
+			"name": "Nunk",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "After you move, if an opposing ship within Range 1-3 of your ship has a [scan] Token beside it, you may perform a [battlestations] Action as a free Action.",
+			"unique": true,
+			"factions": ["ferengi"]
+		}
+	],
+	
+	"upgrades": [
+	
+		{
+			"type": "talent",
+			"id": "kidnap_blind_nunks_marauder",
+			"set": ["blind_nunks_marauder"],
+			"name": "Kidnap",
+			"cost": 5,
+			"text": "ACTION: Disable all of your remaining Shields and target a ship at Range 1-2 that is not cloaked and has no Active Shields. Discard this card to steal 1 [crew] Upgrade on the target ship. If the stolen Upgrade exceeds your ship's restrictions, discard that Upgrade instead of stealing it.\n\nThis Upgrade may only be purchased for a Ferengi Captain assigned to a Ferengi ship.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "crew",
+			"id": "omag_blind_nunks_marauder",
+			"set": ["blind_nunks_marauder"],
+			"name": "Omag",
+			"cost": 5,
+			"text": "Between any of the Phases, you may discard this card to remove a Disabled Upgrade Token from 1 of your [weapon] Upgrades.\nOR\nWhen attacking, during the Declare Target step, you may discard this card to target a ship at Range 1-3. Choose 1 non-Borg [weapon] Upgrade on the target ship with a printed cost of 4 or less and disable it to perform its attack as if it were deployed to your ship.",
+			"unique": true,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "weapon",
+			"id": "weapon_ports_blind_nunks_marauder",
+			"set": ["blind_nunks_marauder"],
+			"name": "Weapon Ports",
+			"cost": 4,
+			"attack": 4,
+			"range": "1 - 3",
+			"text": "ATTACK: Disable this card to perform this attack. While this card is disabled, you roll 1 less defense die.\nIf you hit an Attack Squadron with this attack, during the Deal Damage step, discard 1 Attack Squadron Token for each uncanceled [hit] or [crit] result (max 3).\nYou may only fire this weapon from your forward firing arc.",
+			"unique": false,
+			"factions": ["ferengi"]
+		},
+		{
+			"type": "tech",
+			"id": "geodesic_pulse_blind_nunks_marauder",
+			"set": ["blind_nunks_marauder"],
+			"name": "Geodesic Pulse",
+			"cost": 5,
+			"text": "ACTION: Immediately perform an additional maneuver with a speed of 2 or less. You do not lose your Perform Action step if your ship's base overlaps another ship's base with this maneuver. In addition, you do not suffer any damage from Obstacles. You cannot attack this round.",
+			"unique": false,
+			"factions": ["ferengi"]
+		}
+
+	]
+
+}

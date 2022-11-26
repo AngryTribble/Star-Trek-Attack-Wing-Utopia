@@ -1,0 +1,25 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72000r",
+			"name": "Ready Room Resource",
+			"releaseDate": "2015-08-01",
+			"parentSet": "Q Continuum"
+		}
+	],
+	
+	"resources": [
+		{
+			"type": "resource",
+			"id": "ready_room_72000r",
+			"set": ["72000r"],
+			"name": "Ready Room",
+			"cost": 5,
+			"text": "At the start of the battle, place 4 Mission Tokens on this card.\n\nOnce per round, one of your ships may spend 1 of these Mission Tokens (i.e., remove it from the game to achieve the following effects.\n\n1) During the Activation Phase, when you reveal your maneuver, before you move, you may add up to +2 to your speed.\n\n2) At the start of the Combat Phase, increase your Captain Skill Number by +2 until the End Phase.\n\n3) At any time, you may replace 1 [evade], [scan], or [battlestations] Token that is beside your ship with 1 [evade], [scan], or [battlestations] Token. OR\n\n4) Prevent your Captain Card from being disabled or discard by an enemy ship's Captain or Upgrade Card.\n\nA player cannot use these abilities for a ship that has no Captain Card or whose Captain Card is disabled."
+		}
+
+	]
+
+}

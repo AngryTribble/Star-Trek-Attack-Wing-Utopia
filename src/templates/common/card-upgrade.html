@@ -1,0 +1,99 @@
+<div class="card-outer card-upgrade font-staw" ng-class="{ 'card-unique': upgrade.unique, 'card-OnePerShip': upgrade.OnePerShip, 'card-factionFederation': upgrade.factionFederation, 'card-FrontArc': upgrade.FrontArc, 'card-RearArc': upgrade.RearArc, 'card-Hull': upgrade.Hull, 'card-mirror': upgrade.mirror, 'dragging': upgrade == dragStore.item }" draggable drag-item="upgrade" drag-store="dragStore" drag-source="dragSource">
+
+	<div class="card-image"></div>
+
+
+
+	<div class="card-corner-top-left pull-left">
+		<i ng-if="upgrade.unique" class="card-unique-icon fs fs-unique pull-left"></i>
+		<i ng-if="upgrade.OnePerShip" class="card-OnePerShip-icon fs fs-OnePerShip pull-left"></i>
+		<i ng-if="upgrade.specialization" class="card-specialization-icon fs fs-specialization pull-left"></i>
+		<div class="card-corner-inner pull-right"></div>
+	</div>
+
+	<div class="card-title-container text-left">
+		<span ng-if="upgrade.showType" class="card-captain pull-right">{{upgrade.type|uppercase|removeDashes}}</span>
+		<span ng-if="upgrade|valueOf:'attack':ship:fleet" class="card-weapon-attack pull-right" tooltip-show="ship" tooltip="upgrade|valueOf:'attack':ship:fleet:false:{modifiers:true}">{{upgrade|valueOf:'attack':ship:fleet}}</span>
+		<span class="card-title"
+			ng-class="{ 'card-title-long': upgrade.name.length >= 24 || (upgrade.showType && upgrade.name.length + upgrade.type.length >= 24) || (upgrade.attack && upgrade.name.length >= 20),
+						'card-title-super-long': upgrade.name.length >= 31 || upgrade.showType && upgrade.name.length + upgrade.type.length >= 31,
+			}">{{upgrade.name | uppercase}}</span>
+	</div>
+
+	<div class="card-border-left pull-left">
+		<i ng-if="upgrade.captainFederation" class="card-captainFederation-icon fs fs-captainFederation"></i>
+		<i ng-if="upgrade.captainBajoren" class="card-captainBajoren-icon fs fs-captainBajoren"></i>
+		<i ng-if="upgrade.captainVulcan" class="card-captainVulcan-icon fs fs-captainVulcan"></i>
+		<i ng-if="upgrade.captainKlingon"  class="card-captainKlingon-icon fs fs-captainKlingon"></i>
+		<i ng-if="upgrade.captainRomulan" class="card-captainRomulan-icon fs fs-captainRomulan"></i>
+		<i ng-if="upgrade.captainDominion" class="card-captainDominion-icon fs fs-captainDominion"></i>
+		<i ng-if="upgrade.captainIndependent" class="card-captainIndependent-icon fs fs-captainIndependent"></i>
+		<i ng-if="upgrade.captainFerengi" class="card-captainFerengi-icon fs fs-captainFerengi"></i>
+		<i ng-if="upgrade.captainKazon" class="card-captainKazon-icon fs fs-captainKazon"></i>
+		<i ng-if="upgrade.captainXindi" class="card-captainFerengi-icon fs fs-captainFerengi"></i>
+		<i ng-if="upgrade.captainBorg" class="card-captainBorg-icon fs fs-captainBorg"></i>
+		<i ng-if="upgrade.captain8472" class="card-captain8472-icon fs fs-captain8472"></i>
+		<i ng-if="upgrade.captainMU" class="card-captainMU-icon fs fs-captainMU"></i>
+
+		<i ng-if="upgrade.shipFederation" class="card-shipFederation-icon fs fs-card-shipFederation"></i>
+		<i ng-if="upgrade.shipBajoren" class="card-shipBajoren-icon fs fs-card-shipBajoren"></i>
+		<i ng-if="upgrade.shipVulcan" class="card-shipVulcan-icon fs fs-card-shipVulcan"></i>
+		<i ng-if="upgrade.shipKlingon" class="card-shipKlingon-icon fs fs-shipKlingon"></i>
+		<i ng-if="upgrade.shipRomulan" class="card-shipRomulan-icon fs fs-shipRomulan"></i>
+		<i ng-if="upgrade.shipDominion" class="card-shipDominion-icon fs fs-shipDominion"></i>
+		<i ng-if="upgrade.shipIndependent" class="card-shipIndependent-icon fs fs-shipIndependent"></i>
+		<i ng-if="upgrade.shipFerengi" class="card-shipFerengi-icon fs fs-shipFerengi"></i>
+		<i ng-if="upgrade.shipKazon" class="card-shipKazon-icon fs fs-shipKazon"></i>
+		<i ng-if="upgrade.shipXindi" class="card-shipXindi-icon fs fs-shipXindi"></i>
+		<i ng-if="upgrade.shipBorg" class="card-shipBorg-icon fs fs-shipBorg"></i>
+		<i ng-if="upgrade.ship8472" class="card-ship8472-icon fs fs-ship8472"></i>
+		<i ng-if="upgrade.shipMU" class="card-shipMU-icon fs fs-shipMU"></i>
+
+		<i ng-if="upgrade.costFederation" class="card-costFederation-icon">{{upgrade|valueOf:'costFederation':ship:fleet}}</i>
+		<i ng-if="upgrade.costBajoren" class="card-costBajoren-icon">{{upgrade|valueOf:'costFederation':ship:fleet}}</i>
+		<i ng-if="upgrade.costVulcan" class="card-costVulcan-icon">{{upgrade|valueOf:'costVulcan':ship:fleet}}</i>
+		<i ng-if="upgrade.costKlingon" class="card-costKlingon-icon">{{upgrade|valueOf:'costKlingon':ship:fleet}}</i>
+		<i ng-if="upgrade.costRomulan" class="card-costRomulan-icon">{{upgrade|valueOf:'costRomulan':ship:fleet}}</i>
+		<i ng-if="upgrade.costDominion" class="card-costDominion-icon">{{upgrade|valueOf:'costDominion':ship:fleet}}</i>
+		<i ng-if="upgrade.costIndependent" class="card-costIndependent-icon">{{upgrade|valueOf:'costIndependent':ship:fleet}}</i>
+		<i ng-if="upgrade.costFerengi" class="card-costFerengi-icon">{{upgrade|valueOf:'costFerengi':ship:fleet}}</i>
+		<i ng-if="upgrade.costKazon" class="card-costKazon-icon">{{upgrade|valueOf:'costKazon':ship:fleet}}</i>
+		<i ng-if="upgrade.costXindi" class="card-costXindi-icon">{{upgrade|valueOf:'costXindi':ship:fleet}}</i>
+		<i ng-if="upgrade.costBorg" class="card-costBorg-icon">{{upgrade|valueOf:'costBorg':ship:fleet}}</i>
+		<i ng-if="upgrade.cost8472" class="card-cost8472-icon">{{upgrade|valueOf:'cost8472':ship:fleet}}</i>
+		<i ng-if="upgrade.costMU" class="card-costMU-icon">{{upgrade|valueOf:'costMU':ship:fleet}}</i>
+
+		<i ng-if="upgrade.attackConstraint" class="card-attackConstraint-icon">{{upgrade|valueOf:'attackConstraint':ship:fleet}}</i>
+		<i ng-if="upgrade.hullConstraint" class="card-hullConstraint-icon">{{upgrade|valueOf:'hullConstraint':ship:fleet}}</i>
+		<i ng-if="upgrade.FrontArc" class="card-FrontArc-icon fs fs-FrontArc"></i>
+		<i ng-if="upgrade.RearArc" class="card-RearArc-icon fs fs-RearArc"></i>
+		<i ng-if="upgrade.arc360" class="card-360Arc-icon fs fs-360Arc"></i>
+		<i ng-if="upgrade.shipLimit" class="card-shipLimit-icon fs fs-shipLimit"></i>
+		<i ng-if="upgrade.faq" class="card-faq-icon fs fs-faq"></i>
+		<i ng-if="upgrade.opBanned" class="card-OP-banned-icon fs fs-opBanned"></i>
+
+	</div>
+
+	<div class="card-text">
+		<div ng-if="upgrade.range" class="card-weapon-range pull-right">{{upgrade|valueOf:'range':ship:fleet}}</div>
+		<div class="card-text-inner font-staw-alt" ng-bind-html="upgrade.text | icons" ng-class="{'card-text-inner-long': upgrade.text.length > 300, 'card-text-inner-super-long': upgrade.text.length > 530, 'text-left': upgrade.range }"></div>
+	</div>
+
+	<div class="card-upgrade-cost pull-right"><div ng-repeat="faction in upgrade|valueOf:'factions':ship:fleet" class="card-upgrade-faction card-faction-{{ (upgrade|valueOf:'factions':ship:fleet).length - $index}}"><div class="card-upgrade-faction-black"></div><div class="card-upgrade-faction-icon card-faction-{{faction}}"></div></div><div class="card-upgrade-cost-value" ng-class="{'card-upgrade-cost-free': '{{upgrade|valueOf:'free':ship:fleet}}' }" tooltip-show="ship" tooltip="upgrade|valueOf:'cost':ship:fleet:false:{modifiers:true}">{{upgrade|valueOf:'cost':ship:fleet}}</div></div>
+
+	<div ng-if="upgrade.type == 'captain' || upgrade.type == 'admiral' || (upgrade|valueOf:'skill':ship:fleet)" class="card-skill-container pull-left">
+		<div class="card-skill" tooltip-show="ship" tooltip="upgrade|valueOf:'skill':ship:fleet:false:{modifiers:true}" tooltip-position="nw-alt"><span class="card-skill-plus" ng-show="upgrade.isSkillModifier && upgrade.skill >= 0">+</span>{{upgrade|valueOf:'skill':ship:fleet}}</div>
+	</div>
+
+	<div ng-if="!(upgrade|valueOf:'skill':ship:fleet) && upgrade.type != 'captain' && upgrade.type != 'admiral' " class="card-upgrade-type pull-left fs fs-{{upgrade.type}}"></div>
+
+	<div class="card-border-bottom">
+		<i ng-if="upgrade.talents" ng-repeat="talent in range(upgrade.talents) track by $index" class="fs fs-talent"></i>
+		<i ng-repeat="slot in upgrade.upgradeSlots track by $index" ng-if="slot.showOnCard" class="fs fs-{{slot.type[0]}}" ng-class="{'card-upgrades-long': upgrade.upgradeSlots.length > 2}"></i>
+	</div>
+
+<i ng-if="upgrade.alliance" class="card-alliance-icon fs fs-alliance">
+
+	<div style="clear: both"></div>
+
+</div>

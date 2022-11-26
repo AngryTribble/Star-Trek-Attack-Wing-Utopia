@@ -1,0 +1,20 @@
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.card-container * {
+	box-sizing: border-box;
+	line-height: 1;
+}

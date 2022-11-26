@@ -1,0 +1,61 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72002h",
+			"name": "Balance of Terror OP Special Build Cards",
+			"comment": "These faux-cards cover the special rules for the Balance of Terror OP",
+			"releaseDate": "2015-10-01",
+			"parentSet": "Balance of Terror"
+		}
+	],
+
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "balance_of_terror_e_72002h",
+			"set": ["72002h"],
+			"name": "Balance of Terror",
+			"cost": 3,
+			"factionPenalty": 0,
+			"text": "This card adds an extra [talent] slot which applies the special rules from the Balance of Terror OP.\n\nThe chosen Upgrade will be placed face down below your ship card for a cost of exactly 3 SP. The Upgrade must be of the same faction as the ship and have an SP cost of 5 or less.",
+			"unique": false,
+			"factions": ["no-faction"]
+		},
+		{
+			"type": "crew",
+			"id": "balance_of_terror_c_72002h",
+			"set": ["72002h"],
+			"name": "Balance of Terror",
+			"cost": 3,
+			"factionPenalty": 0,
+			"text": "This card adds an extra [crew] slot which applies the special rules from the Balance of Terror OP.\n\nThe chosen Upgrade will be placed face down below your ship card for a cost of exactly 3 SP. The Upgrade must be of the same faction as the ship and have an SP cost of 5 or less.",
+			"unique": false,
+			"factions": ["no-faction"]
+		},
+		{
+			"type": "tech",
+			"id": "balance_of_terror_t_72002h",
+			"set": ["72002h"],
+			"name": "Balance of Terror",
+			"cost": 3,
+			"factionPenalty": 0,
+			"text": "This card adds an extra [tech] slot which applies the special rules from the Balance of Terror OP.\n\nThe chosen Upgrade will be placed face down below your ship card for a cost of exactly 3 SP. The Upgrade must be of the same faction as the ship and have an SP cost of 5 or less.",
+			"unique": false,
+			"factions": ["no-faction"]
+		},
+		{
+			"type": "weapon",
+			"id": "balance_of_terror_w_72002h",
+			"set": ["72002h"],
+			"name": "Balance of Terror",
+			"cost": 3,
+			"factionPenalty": 0,
+			"text": "This card adds an extra [weapon] slot which applies the special rules from the Balance of Terror OP.\n\nThe chosen Upgrade will be placed face down below your ship card for a cost of exactly 3 SP. The Upgrade must be of the same faction as the ship and have an SP cost of 5 or less.",
+			"unique": false,
+			"factions": ["no-faction"]
+		}
+	]
+
+}

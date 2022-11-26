@@ -1,0 +1,155 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72016",
+			"name": "R.I.S. Talvath",
+			"releaseDate": "2015-10-02",
+			"parentSet": "Wave 19"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "r_i_s_talvath_72016",
+			"set": ["72016"],
+			"name": "R.I.S. Talvath",
+			"class": "Romulan Science Vessel",
+			"actions": ["evade","cloak","sensor-echo"],
+			"upgrades": ["tech","tech","tech"],
+			"attack": 1,
+			"agility": 2,
+			"hull": 2,
+			"shields": 2,
+			"cost": 14,
+			"text": "ACTION: If you are within Range 1-3 of at least 1 enemy ship, roll 3 defense dice. For every [evade] result, place 1 [evade] Token beside your ship. You cannot perform any free Actions this round.",
+			"unique": true,
+			"factions": ["romulan"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1014",
+			"set": ["72016"]
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "telek_r_mor_72016",
+			"set": ["72016"],
+			"name": "Telek R'Mor",
+			"cost": 2,
+			"skill": 3,
+			"talents": 0,
+			"text": "Each time you defend, if you have at least 1 [scan] Token beside your ship, roll +1 defense die.\n\nYou may field the Secret Research [talent] Upgrade.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "captain",
+			"id": "alidar_jarok_cap_72016",
+			"set": ["72016"],
+			"name": "Alidar Jarok",
+			"cost": 4,
+			"skill": 6,
+			"talents": 1,
+			"text": "ACTION: Target a ship within Range 1 and remove 1 Token ([evade], [scan], [battlestations], or [target-lock]) from beside that ship. If you remove a [target-lock] Token with this ability, also remove the corresponding [target-lock] Token.",
+			"unique": true,
+			"factions": ["romulan"]
+		}
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "alidar_jarok_72016",
+			"set": ["72016"],
+			"name": "Alidar Jarok",
+			"cost": 4,
+			"skill": 2,
+			"talents": 1,
+			"text": "FLEET ACTION: Target a ship within Range 1 and remove 1 Token ([evade], [scan], [battlestations], or [target-lock]) from beside that ship. If you remove a [target-lock] Token with this ability, also remove the corresponding [target-lock] Token.",
+			"unique": true,
+			"factions": ["romulan"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "secret_research_72016",
+			"set": ["72016"],
+			"name": "Secret Research",
+			"cost": 5,
+			"text": "Add the [scan] Action to your Action Bar. If this card is discarded, you no longer have the [scan] Action on your Action Bar.\n\nDuring the Activation Phase, you may discard this card to perform a [scan] Action as a free Action.\n\nThis card costs +5 SP if purchased for any ship other than a Romulan Science Vessel.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "warp_core_ejection_system_72016",
+			"set": ["72016"],
+			"name": "Warp Core Ejection System",
+			"cost": 4,
+			"text": "ACTION: Discard this card to repair 1 damage to your Hull and flip any Warp Core Breach critical damage cards assigned to your ship face down. For the rest of the game, you cannot perform any maneuvers with a speed greater than 1 and you cannot receive a Warp Core Breach critical damage card. If you do, immediately flip the card face down and treat it as normal damage.\nNo ship may be equipped with more than one Warp Core Ejection System Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "test_cylinder_72016",
+			"set": ["72016"],
+			"name": "Test Cylinder",
+			"cost": 3,
+			"text": "ACTION: If your ship is not Cloaked, disable all of your remaining Shields and target a ship at any Range. Disable this card and 1 [crew] Upgrade of your choice on the target ship.\n\nThis Upgrade may only be purchased for a Romulan Science Vessel.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "temporal_displacement_72016",
+			"set": ["72016"],
+			"name": "Temporal Displacement",
+			"cost": 5,
+			"text": "When defending, during the Compare Results step, you may discard this card to cancel all of the attacking ship's [hit] and [crit] results. All cards that were used during the attack are returned to the state that they were in prior to the attack. The attacking ship cannot perform any more attacks during the round this ability is used. This card may only be purchased for a Romulan Science Vessel.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "advanced_scanning_72016",
+			"set": ["72016"],
+			"name": "Advanced Scanning",
+			"cost": 5,
+			"text": "Add the [scan] Action to your Action Bar. If this card is discarded, you no longer have the [scan] Action on your Action Bar.\nWhenever your perform the [scan] Action, you may place 1 additional [scan] Token beside your ship. If you do so, place an Auxiliary Power Token beside your ship.\n\nThis card costs +5 SP for any ship other than a Romulan Science Vessel.",
+			"unique": true,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "signal_amplifier_72016",
+			"set": ["72016"],
+			"name": "Signal Amplifier",
+			"cost": 5,
+			"text": "You may discard this card and spend 1 [scan] Token to add +2 attack dice or +2 defense dice.\n\n\nThis Upgrade costs +5 SP for any ship other than a Romulan Science Vessel and no ship may be equipped with more than 1 Signal Amplifier Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "tech",
+			"id": "graviton_field_generator_72016",
+			"set": ["72016"],
+			"name": "Graviton Field Generator",
+			"cost": 5,
+			"text": "ACTION: Disable this card and up to 2 of your Active Shields to immediately perform an additional [straight] maneuver with a speed equal to the number of shields you disabled with this Action.\nOR\nACTION: If you performed a green maneuver this round, discard this card to place 2 Shield Tokens beside your ship. When suffering damage this round, remove those Shield Tokens first.",
+			"unique": false,
+			"factions": ["romulan"]
+		}
+	]
+
+}

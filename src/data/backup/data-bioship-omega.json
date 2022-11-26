@@ -1,0 +1,97 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "blind_bioship",
+			"name": "Bioship Omega",
+			"releaseDate": "2015-11-02",
+			"parentSet": "Blind Boosters"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "bioship_omega_blind_bioship",
+			"set": ["blind_bioship"],
+			"name": "Bioship Omega",
+			"class": "Species 8472 Bioship",
+			"actions": ["evade","target-lock","scan","regenerate"],
+			"upgrades": ["tech","tech","tech","weapon","weapon"],
+			"attack": 6,
+			"agility": 2,
+			"hull": 5,
+			"shields": 6,
+			"cost": 38,
+			"text": "During the Deal Damage step, if you inflict 2 critical damage to an enemy ship's hull, you may immediately flip those damage cards face down and rotate the damaged ship's facing by 90 degrees (right or left).",
+			"unique": true,
+			"factions": ["species-8472"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "species_8472_bioship_71281",
+			"set": ["blind_bioship"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "bioship_omega_pilot_blind_bioship",
+			"set": ["blind_bioship"],
+			"name": "Bioship Omega Pilot",
+			"cost": 1,
+			"skill": 2,
+			"talents": 0,
+			"text": "ACTION: Disable this card and 2 of your Active Shields to target a ship at Range 1. Inflict 1 critical damage to the target ship's hull.\n\nThis card may only be purchased for a Species 8472 ship.",
+			"unique": true,
+			"factions": ["species-8472"]
+		}
+	],
+
+	"upgrades": [
+		{
+			"type": "weapon",
+			"id": "energy_weapon_blind_bioship",
+			"set": ["blind_bioship"],
+			"name": "Energy Weapon",
+			"cost": 4,
+			"text": "During the Activation Phase, if an enemy ship ends its move in your forward firing arc, you may discard this card to immediately perform an additional attack against that ship with your Primary Weapon at -3 attack dice. If you do so, place an Auxiliary Power Token beside your ship.\n\nThis Upgrade may only be purchased for a Species 8472 Bioship and no ship may be equipped with more than 1 Energy Weapon Upgrade.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "neuro_peptides_blind_bioship",
+			"set": ["blind_bioship"],
+			"name": "Neuro Peptides",
+			"cost": 2,
+			"text": "During the Activation Phase, you may discard this card to perform an Action from your Action Bar as a free Action.\n\nThis Upgrade may only be purchased for a Species 8472 Bioship and no ship may be equipped with more than 1 Neuro Peptides Upgrade.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "organic_conduits_blind_bioship",
+			"set": ["blind_bioship"],
+			"name": "Organic Conduits",
+			"cost": 1,
+			"text": "When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver.\n\nThis Upgrade may only be purchased for a Species 8472 Bioship.",
+			"unique": false,
+			"factions": ["species-8472"]
+		},
+		{
+			"type": "tech",
+			"id": "resisitant_hull_blind_bioship",
+			"set": ["blind_bioship"],
+			"name": "Resistant Hull",
+			"cost": 1,
+			"text": "You may roll your full defense dice in spite of the presence of an opposing ship's [scan] Token. In addition, if a [borg] Upgrade affects your ship Captain or one of your Upgrades, roll 1 defense die. If your roll an [evade] result, the effect is cancelled.\n\nThis Upgrade may only be purchased for a Species 8472 Bioship and no ship may be equipped with more than 1 Resistant Hull Upgrade.",
+			"unique": false,
+			"factions": ["species-8472"]
+		}
+	]
+
+}

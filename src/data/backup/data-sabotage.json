@@ -1,0 +1,25 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72002r",
+			"name": "Sabotage Resource",
+			"releaseDate": "2015-10-01",
+			"parentSet": "Balance of Terror"
+		}
+	],
+	
+	"resources": [
+		{
+			"type": "resource",
+			"id": "sabotage_72002r",
+			"set": ["72002r"],
+			"name": "Sabotage",
+			"cost": 5,
+			"text": "At the start of the battle, place 5 Mission Tokens on top of this card.\n\nOnce per round, one of your ships may:\n\n1) When attacking, spend 1 Mission Token from this card to force the defending ship to re-roll up to 2 dice of your choice. OR\n\n2) When attacking, spend 1 Mission Token from this card to force the defending ship to roll 1 less defense die. OR\n\n3) When defending, spend 1 Mission Token from this card to force the attacking ship to re-roll up to 2 dice of your choice. OR\n\n4) When defending, spend 1 Mission Token from this card to force the attacking ship to roll 1 less attack die.\n\nWhen there are no more Mission Tokens left on this card, remove it from the game."
+		}
+
+	]
+
+}

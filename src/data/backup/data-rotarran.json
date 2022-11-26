@@ -1,0 +1,143 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72015",
+			"name": "I.K.S. Rotarran",
+			"releaseDate": "2015-10-02",
+			"parentSet": "Wave 19"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "i_k_s_rotarran_72015",
+			"set": ["72015"],
+			"name": "I.K.S. Rotarran",
+			"class": "B'Rel Class",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["tech","weapon","crew","crew"],
+			"attack": 4,
+			"agility": 1,
+			"hull": 3,
+			"shields": 3,
+			"cost": 22,
+			"text": "ACTION: Perform a 2nd maneuver on your maneuver dial with a speed of 1 or 2. Place an Auxiliary Power Token beside your ship. You cannot attack this round.",
+			"unique": true,
+			"factions": ["klingon"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1029",
+			"set": ["72015"]
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "martok_72015",
+			"set": ["72015"],
+			"name": "Martok",
+			"cost": 4,
+			"skill": 7,
+			"talents": 1,
+			"text": "All of your Klingon Upgrades cost -1 SP.\n\nACTION: When attacking this round, during the Roll Attack Dice step, you may roll 2 less attack dice to add 1 [hit] result to your roll. If you have only Klingon cards assigned to your ship, roll 1 less attack die, instead of 2.",
+			"unique": true,
+			"factions": ["klingon"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "the_day_is_ours_72015",
+			"set": ["72015"],
+			"name": "The Day is Ours!",
+			"cost": 4,
+			"text": "During the Roll Attack Dice step, you may discard this card to add 1 [crit] result to your roll.\n\nThis card may only be purchased for a Klingon Captain assigned to a Klingon ship.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "talent",
+			"id": "alert_status_one_72015",
+			"set": ["72015"],
+			"name": "Alert Status One",
+			"cost": 3,
+			"text": "ACTION: Discard this card to place a [battlestations] Token beside your ship. You cannot perform a [battlestations] Action as a free Action this round.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "talent",
+			"id": "supreme_commander_72015",
+			"set": ["72015"],
+			"name": "Supreme Commander",
+			"cost": 5,
+			"text": "ACTION: Discard this card to target 1 friendly ship within Range 1-3. The target ship immediately performs a free Action from its Action Bar. If the target ship is a Klingon ship, it may perform any Action as a free Action.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "crew",
+			"id": "worf_72015",
+			"set": ["72015"],
+			"name": "Worf",
+			"cost": 2,
+			"text": "Increase your Captain's Skill by +1 (+3 for a Klingon Captain). This ability cannot be used on this card.\n\nIf your Captain is disabled, discarded, or affected by a critical damage card, treat this card as your Captain Card with a Skill of 5. If your Captain becomes non-disabled or unaffected by the critical damage card, that Captain Card is restored.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "crew",
+			"id": "jadzia_dax_72015",
+			"set": ["72015"],
+			"name": "Jadzia Dax",
+			"cost": 5,
+			"text": "You do not pay a faction penalty when assigning this card to a Klingon ship.\n\nYou may disable this card and spend your [scan] Token to convert 1 of your [battlestations] results into a [hit] or an [evade] result.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "leskit_72015",
+			"set": ["72015"],
+			"name": "Leskit",
+			"cost": 3,
+			"text": "After you reveal a red maneuver, before you move, you may discard this card to treat the maneuver as a green maneuver. If your ship is cloaked when you do this, you may immediately perform a [sensor-echo] Action as a free Action.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "crew",
+			"id": "tavana_72015",
+			"set": ["72015"],
+			"name": "Tavana",
+			"cost": 5,
+			"text": "ACTION: Disable this card to repair 1 Shield Token. In addition, if your ship is cloaked, you may repair 1 damage to your Hull. You roll -2 attack dice on all of your attacks this round.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "crew",
+			"id": "kornan_72015",
+			"set": ["72015"],
+			"name": "Kornan",
+			"cost": 5,
+			"text": "ACTION: Discard this card to acquire a target lock on a ship within Range 1-3 of your ship and then perform an Action from your Action Bar (not [target-lock]) as a free Action.",
+			"unique": true,
+			"factions": ["klingon"]
+		},
+		{
+			"type": "copy",
+			"of": "photon_torpedoes_72009",
+			"set": ["72015"]
+		}
+	]
+
+}

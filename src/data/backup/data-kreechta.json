@@ -1,0 +1,167 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "71806",
+			"name": "Kreechta",
+			"releaseDate": "2015-07-01",
+			"parentSet": "Wave 16"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "kreechta_71806",
+			"set": ["71806"],
+			"name": "Kreechta",
+			"class": "D'Kora Class",
+			"actions": ["evade","target-lock","scan"],
+			"upgrades": ["tech","tech","weapon","crew"],
+			"attack": 3,
+			"agility": 1,
+			"hull": 4,
+			"shields": 3,
+			"cost": 22,
+			"text": "When attacking a ship that has damaged Shields, during the Modify Attack Dice step, you may re-roll a number of your Attack dice up to the number of the defending ship's damaged Shields.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} },
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1024",
+			"set": ["71806"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "tarr_71806",
+			"set": ["71806"],
+			"name": "Tarr",
+			"cost": 2,
+			"skill": 3,
+			"talents": 0,
+			"text": "At the start of the Combat Phase, if your ship is in the forward arc of an enemy ship and you do not have a [battlestations] Token beside your ship, you may place a [battlestations] Token beside your ship.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "captain",
+			"id": "bractor_71806",
+			"set": ["71806"],
+			"name": "Bractor",
+			"cost": 3,
+			"skill": 4,
+			"talents": 1,
+			"text": "When attacking a ship that has an Auxiliary Power Token beside it, gain +1 attack die.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+
+	],
+	
+	"upgrades": [
+	
+		{
+			"type": "talent",
+			"id": "marauder_71806",
+			"set": ["71806"],
+			"name": "Marauder",
+			"cost": 2,
+			"text": "After you move, you may disable this card to perform a [battlestations] Action as a free Action.\n\nThis Upgrade may only be purchased for a Ferengi ship with a Ferengi Captain.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "talent",
+			"id": "acquisition_71806",
+			"set": ["71806"],
+			"name": "Acquisition",
+			"cost": 4,
+			"text": "ACTION: Discard this card to target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Steal 1 non-Borg [tech] or [weapon] Upgrade of your choice on the target ship, even if the Upgrade exceeds your ship's restrictions.\n\nThis Upgrade may only be purchased for a Ferengi ship with a Ferengi Captain.",
+			"unique": true,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		
+		{
+			"type": "weapon",
+			"id": "photon_torpedoes_71806",
+			"set": ["71806"],
+			"name": "Photon Torpedoes",
+			"cost": 5,
+			"text": "ATTACK: (Target Lock) Spend your target lock and disable this card to perform this attack.\nYou may convert 1 of your [battlestations] results into a [crit] result.\n\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["ferengi"],
+			"attack": 5,
+			"range": "2 - 3",
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "weapon",
+			"id": "missile_launchers_71806",
+			"set": ["71806"],
+			"name": "Missile Launchers",
+			"cost": 3,
+			"text": "ATTACK: Disable this card to perform this attack. Make 2 attacks against ship(s) in your forward firing arc. Roll separate dice for each of these attacks. Any [crit] results that would damage an opponent's Shields inflict critical damage to that ship's Hull instead.",
+			"unique": false,
+			"factions": ["ferengi"],
+			"attack": 2,
+			"range": "1 - 2",
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "crew",
+			"id": "tactical_officer_71806",
+			"set": ["71806"],
+			"name": "Tactical Officer",
+			"cost": 4,
+			"text": "At the end of the Activation Phase, if you are in the forward firing arc of an enemy ship, you may discard this card to immediately perform a 3 [forward] or 4 [forward] Maneuver. You cannot attack on the round you use this ability.\n\nNo ship may be equipped with more than 1 Tactical Officer Upgrade.",
+			"unique": false,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "em_pulse_71806",
+			"set": ["71806"],
+			"name": "EM Pulse",
+			"cost": 4,
+			"text": "ACTION: Disable this card to target a ship at Range 1-2 that is not in your forward firing arc. Place an Auxiliary Power Token beside the target ship. The target ship rolls 2 less attack dice this round.",
+			"unique": false,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "maximum_shields_71806",
+			"set": ["71806"],
+			"name": "Maximum Shields",
+			"cost": 4,
+			"text": "ACTION: Discard this card to place 2 additional Shield Tokens beside your ship. When taking damage this round, remove these tokens first. You cannot attack this round. If either or both of these Tokens are unused, discard them during the End Phase.",
+			"unique": false,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "ferengi_probe_71806",
+			"set": ["71806"],
+			"name": "Ferengi Probe",
+			"cost": 4,
+			"text": "If there is a [scan] Token beside your ship, you may disable this card to double your Range Combat Bonuses.\n\nThis Upgrade may only be purchased for a Ferengi ship and no ship may be equipped with more than 1 Ferengi Probe Upgrade",
+			"unique": false,
+			"factions": ["ferengi"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	]
+
+}

@@ -1,0 +1,113 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72002p",
+			"name": "U.S.S. Intrepid",
+			"releaseDate": "2015-10-01",
+			"parentSet": "Balance of Terror"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_intrepid_72002p",
+			"set": ["72002p"],
+			"name": "U.S.S. Intrepid",
+			"class": "Constitution Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["weapon","weapon","crew","crew"],
+			"attack": 3,
+			"agility": 1,
+			"hull": 4,
+			"shields": 3,
+			"cost": 22,
+			"text": "When attacking a ship at Range 3, if there is a [scan] Token beside your ship, the defending ship rolls -2 defense dice instead of -1.",
+			"unique": true,
+			"factions": ["federation"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1010",
+			"set": ["72002p"]
+		}
+
+	],
+	
+	"admirals": [
+		{
+			"type": "admiral",
+			"id": "matt_decker_72002p",
+			"set": ["72002p"],
+			"name": "Matt Decker",
+			"cost": 1,
+			"skill": -1,
+			"talents": 1,
+			"text": "FLEET ACTION: Target a ship within Range 1 of your ship (including your ship). Target ship gains +1 attack die this round and suffers 1 damage to its Hull.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "matt_decker_cap_72002p",
+			"set": ["72002p"],
+			"name": "Matt Decker",
+			"cost": 1,
+			"skill": 2,
+			"talents": 1,
+			"text": "ACTION: Target a ship within Range 1 of your ship (including your ship). Target ship gains +1 attack die this round and suffers 1 damage to its Hull.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "flag_officer_72002p",
+			"set": ["72002p"],
+			"name": "Flag Officer",
+			"cost": 4,
+			"text": "After you move, you may discard this card to target 1 friendly ship within Range 1-2 of your ship. The target ship may immediately perform 1 free Action.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "vulcan_engineer_72002p",
+			"set": ["72002p"],
+			"name": "Vulcan Engineer",
+			"cost": 3,
+			"text": "ACTION: If there are no enemy ships within Range 1-3 of your ship, repair 1 of your Shield Tokens.\n\nYou do not pay a faction penalty when assigning this card to a Vulcan ship.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "dual_phaser_banks_72002p",
+			"set": ["72002p"],
+			"name": "Dual Phaser Banks",
+			"cost": 3,
+			"text": "When attacking with your Primary Weapon, during the Roll Attack Dice step, you may disable this card to gain +1 attack die.\n\nThis Upgrade may only be purchased for a Federation ship and costs +3 SP for any ship other than a Constitution Class ship.\nNo ship may be equipped with more than 1 Dual Phaser Banks Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "question",
+			"id": "astrogator_72002p",
+			"set": ["72002p"],
+			"name": "Astrogator",
+			"cost": 3,
+			"text": "ACTION: Discard this card to perform an additional non-red maneuver on your Maneuver Dial with a speed of 1 or 2.\n\nThis Upgrade may only be purchased for a Constitution Class ship and you may fill a [crew] or [weapon] slot on your Upgrade Bar with this Upgrade.\nNo ship may be equipped with more than 1 Astrogator Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		}
+	]
+
+}

@@ -1,0 +1,91 @@
+
+{
+
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72224gp",
+			"name" : "Temporal Cold War Cards",
+			"releaseDate" : "2016-02-02",
+			"parentSet" : "Temporal Cold War"
+		}
+	],
+
+	"captains" : [
+		{
+			"type" : "captain",
+			"id" : "temporal_cold_war_vosk",
+			"set" : ["72224gp"],
+			"name" : "Vosk",
+			"unique" : true,
+			"text" : "Vosk does not pay a faction penalty when fielding an [talent] Upgrade.\n\nOnce per game, when an opposing Upgrade causes one of your Upgrades to be discarded, you may place 3 Time Tokens on that card instead.",
+			"factions" : ["mirror-universe"],
+			"cost" : 4,
+			"skill" : 7,
+			"talents" : 1
+		}
+	],
+
+	"upgrades" : [
+		{
+			"type" : "talent",
+			"id" : "temporal_cold_war_the_benefactor",
+			"set" : ["72224gp"],
+			"name" : "The Benefactor",
+			"cost" : 5,
+			"text" : "At the start of the game, place 3 Mission Tokens on this card.\n\nWhen you are required to place Time Tokens on one of your Upgrades, you may discard any number of Mission Tokens from this card to place 1 less Time Token for each Mission Token discarded. When there are no more Mission Tokens on this card, discard it.",
+			"unique" : true,
+			"factions" : ["mirror-universe"]
+		},
+		{
+			"type" : "crew",
+			"id" : "temporal_cold_war_daniels",
+			"set" : ["72224gp"],
+			"name" : "Daniels",
+			"cost" : 5,
+			"text" : "Whenever an opposing ship is required to place Time Tokens on one of its Upgrades, you may discard this card to force that ship to place 1 additional Time Token on that Upgrade.\nOR\nDuring the Combat Phase, you may discard this card to chose any number of dice and re-roll them.",
+			"unique" : true,
+			"factions" : ["mirror-universe"]
+		},
+		{
+			"type" : "tech",
+			"id" : "temporal_cold_war_temporal_conduit",
+			"set" : ["72224gp"],
+			"name" : "Temporal Conduit",
+			"cost" : 5,
+			"text" : "<b>ACTION:</b> Discard this card to redeploy one of your previously discarded Upgrade cards with a cost of 4 SP or less to your ship. Place 3 Time Tokens on that Upgrade.\n\nThis Upgrade costs +5 SP for any non-Mirror Universe ship.",
+			"unique" : true,
+			"factions" : ["mirror-universe"]
+		},
+		{
+			"type" : "crew",
+			"id" : "temporal_cold_war_temporal_temporal_observatory_crew",
+			"set" : ["72224gp"],
+			"name" : "Temporal Observatory",
+			"cost" : 6,
+			"text" : "You may fill a [crew], [tech] or [weapon] Upgrade slot with his Upgrade.\n\n<b>ACTION:</b> Place 3 Time Tokens on this card. During the Planning Phase, after all ships have chosen their maneuvers, you may peek at a number of opposing maneuver dials equal to the number of Time Tokens on this card. You may then change your chosen maneuver. Discard this card after the last Time Token is removed.",
+			"unique" : true,
+			"factions" : ["mirror-universe"]
+		},
+		{
+			"type" : "tech",
+			"id" : "temporal_cold_war_temporal_temporal_observatory_tech",
+			"set" : ["72224gp"],
+			"name" : "Temporal Observatory",
+			"cost" : 6,
+			"text" : "You may fill a [crew], [tech] or [weapon] Upgrade slot with his Upgrade.\n\n<b>ACTION:</b> Place 3 Time Tokens on this card. During the Planning Phase, after all ships have chosen their maneuvers, you may peek at a number of opposing maneuver dials equal to the number of Time Tokens on this card. You may then change your chosen maneuver. Discard this card after the last Time Token is removed.",
+			"unique" : true,
+			"factions" : ["mirror-universe"]
+		},
+		{
+			"type" : "weapon",
+			"id" : "temporal_cold_war_temporal_temporal_observatory_weapon",
+			"set" : ["72224gp"],
+			"name" : "Temporal Observatory",
+			"cost" : 6,
+			"text" : "You may fill a [crew], [tech] or [weapon] Upgrade slot with his Upgrade.\n\n<b>ACTION:</b> Place 3 Time Tokens on this card. During the Planning Phase, after all ships have chosen their maneuvers, you may peek at a number of opposing maneuver dials equal to the number of Time Tokens on this card. You may then change your chosen maneuver. Discard this card after the last Time Token is removed.",
+			"unique" : true,
+			"factions" : ["mirror-universe"]
+		}
+	]
+}

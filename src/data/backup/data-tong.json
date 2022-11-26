@@ -1,0 +1,143 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72009",
+			"name": "I.K.S. T'Ong",
+			"releaseDate": "2015-08-01",
+			"parentSet": "Wave 17"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "i_k_s_t_ong_72009",
+			"set": ["72009"],
+			"name": "I.K.S. T'Ong",
+			"class": "K'T'Inga Class",
+			"actions": ["evade","target-lock","cloak","sensor-echo"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 4,
+			"agility": 1,
+			"hull": 4,
+			"shields": 3,
+			"cost": 24,
+			"text": "When attacking a ship with your Primary Weapon that has a larger Hull value and/or Primary Weapon value than your ship, gain +1 attack die.",
+			"unique": true,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} },
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "1033",
+			"set": ["72009"]
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "k_temoc_72009",
+			"set": ["72009"],
+			"name": "K'Temoc",
+			"cost": 3,
+			"skill": 5,
+			"talents": 1,
+			"text": "All of your Klingon Upgrades cost -1 SP. The faction penalty is doubled for any non-Klingon Upgrades assigned to your ship.\n\nK'Temoc may only field Klingon [talent] Upgrades.",
+			"unique": true,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "captain",
+			"id": "morag_72009",
+			"set": ["72009"],
+			"name": "Morag",
+			"cost": 2,
+			"skill": 3,
+			"talents": 0,
+			"text": "ACTION: If your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Disable 1 Upgrade of your choice on the target ship and place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "devotion_to_duty_72009",
+			"set": ["72009"],
+			"name": "Devotion to Duty",
+			"cost": 4,
+			"text": "ACTION: When attacking with your Primary Weapon this round, during the Roll Attack Dice step, you may discard this card to gain +1 attack die for every damage card assigned to your ship (max +2).\n\nThis Upgrade may only be purchased for a Klingon Captain assigned to a Klingon ship.",
+			"unique": true,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "crew",
+			"id": "tactical_officer_72009",
+			"set": ["72009"],
+			"name": "Tactical Officer",
+			"cost": 2,
+			"text": "If your ship is not Cloaked, during the Modify Attack Dice step, you may disable this card to re-roll all of your blank results once.\n\nThis Upgrade costs +3 SP for any non-Klingon ship and no ship may be equipped with more than 1 Tactical Officer Upgrade.",
+			"unique": false,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "crew",
+			"id": "k_ehleyr_72009",
+			"set": ["72009"],
+			"name": "K'Ehleyr",
+			"cost": 5,
+			"text": "ACTION: Discard this card to target a ship at Range 1. Your ship cannot attack the target ship and the target ship cannot attack your ship this round.",
+			"unique": true,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "weapon",
+			"id": "concussive_charges_72009",
+			"set": ["72009"],
+			"name": "Concussive Charges",
+			"cost": 4,
+			"attack": 4,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\n\nFor every uncancelled [hit] or [crit] result, the target ship loses 1 token of your choice that has been placed beside it in the play area.\n\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "weapon",
+			"id": "photon_torpedoes_72009",
+			"set": ["72009"],
+			"name": "Photon Torpedoes",
+			"cost": 5,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock) Spend your target lock and place 3 Time Tokens on this card to perform this attack.\n\nYou may convert 1 of your [battlestations] results into 1 [crit] result.\nYou may fire this weapon from your forward or rear firing arcs.",
+			"unique": false,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		},
+		{
+			"type": "tech",
+			"id": "cryogenic_stasis_72009",
+			"set": ["72009"],
+			"name": "Cryogenic Stasis",
+			"cost": 5,
+			"text": "At the start of the game, place 2 non-Borg [crew] Upgrades with a cost of 5 or less face down beneath this card.\nACTION: Flip one of the Upgrades that is beneath this card face up (your choice) and deploy it to your ship, even if it exceeds your ship's restrictions. Then place 2 Time Tokens on that Upgrade.\nDiscard this card when there are no more Upgrades beneath it.",
+			"unique": true,
+			"factions": ["klingon"],
+			"intercept": { "ship":{}, "fleet":{} }
+		}
+	]
+
+}

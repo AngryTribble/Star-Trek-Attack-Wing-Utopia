@@ -1,0 +1,12 @@
+
+{
+	"sets" : [
+		{
+			"type" : "set",
+			"id" : "72244",
+			"name" : "U.S.S. Venture",
+			"releaseDate" : "2016-07-10",
+			"parentSet" : "Wave 25"
+		}
+	]
+}

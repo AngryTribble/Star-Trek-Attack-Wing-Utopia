@@ -1,0 +1,101 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "blind_seleya",
+			"name": "Seleya",
+			"releaseDate": "2015-11-09",
+			"parentSet": "Blind Boosters"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "seleya_blind_seleya",
+			"set": ["blind_seleya"],
+			"name": "Seleya",
+			"class": "D'Kyr Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","weapon","crew"],
+			"attack": 3,
+			"agility": 1,
+			"hull": 5,
+			"shields": 4,
+			"cost": 26,
+			"text": "When defending, if you have a [scan] Token beside your ship, roll +1 defense die.",
+			"unique": true,
+			"factions": ["vulcan"],
+			"squadron": false
+		},
+		{
+			"type": "copy",
+			"of": "d_kyr_class_71446",
+			"set": ["blind_seleya"]
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "tavin_blind_seleya",
+			"set": ["blind_seleya"],
+			"name": "Tavin",
+			"cost": 3,
+			"skill": 4,
+			"talents": 1,
+			"text": "At any time, you may replace 1 [evade], [scan] or [battlestations] Token beside your ship for 1 [evade], [scan] or [battlestations] Token. If you do so, place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["vulcan"]
+		}
+	],
+	
+	"upgrades": [
+	
+		{
+			"type": "talent",
+			"id": "v_tosh_ka_tur_blind_seleya",
+			"set": ["blind_seleya"],
+			"name": "V'Tosh Ka'Tur",
+			"cost": 5,
+			"text": "When attacking, during the Roll Attack Dice step, you may discard this card and up to 3 of your other Upgrades and/or Active Shields. Gain +1 attack die for that attack for each Upgrade or Shield you discarded with this ability.\n\nThis Upgrade may only be purchased for a Vulcan Captain assigned to a Vulcan ship.",
+			"unique": true,
+			"factions": ["vulcan"]
+		},
+		{
+			"type": "crew",
+			"id": "solin_blind_seleya",
+			"set": ["blind_seleya"],
+			"name": "Solin",
+			"cost": 4,
+			"text": "ACTION: Discard this card to repair up to 2 Shield Tokens.\n\nThis Upgrade costs +4 SP if purchased for any non-Vulcan ship.",
+			"unique": true,
+			"factions": ["vulcan"]
+		},
+		{
+			"type": "weapon",
+			"id": "aft_particle_beam_blind_seleya",
+			"set": ["blind_seleya"],
+			"name": "Aft Particle Beam",
+			"cost": 3,
+			"attack": 4,
+			"range": "1 - 3",
+			"text": "ATTACK: Disable this card to perform this attack.\n\nYou may only fire this weapon from your rear firing arc.",
+			"unique": false,
+			"factions": ["vulcan"]
+		},
+		{
+			"type": "tech",
+			"id": "power_distribution_net_blind_seleya",
+			"set": ["blind_seleya"],
+			"name": "Power Distribution Net",
+			"cost": 5,
+			"text": "ACTION: Disable this card and up to 3 of your Active Shields to immediately perform a green or white maneuver with a speed equal to the number of Shields you disabled with this Action.\n\nThis upgrade may only be purchased for a Vulcan ship and no ship may be equipped with more than 1 Power Distribution Net Upgrade.",
+			"unique": false,
+			"factions": ["vulcan"]
+		}
+
+	]
+
+}

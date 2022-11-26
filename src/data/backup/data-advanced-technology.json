@@ -1,0 +1,25 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "72004r",
+			"name": "Advanced Technology Resource",
+			"releaseDate": "2016-02-01",
+			"parentSet": "Temporal Cold War"
+		}
+	],
+	
+	"resources": [
+		{
+			"type": "resource",
+			"id": "advanced_technology_72004r",
+			"set": ["72004r"],
+			"name": "Advanced Technology",
+			"cost": 5,
+			"text": "During the Activation Phase, any ship in your fleet may:\n\n1) Disable one of its [tech] Upgrades to use an Action from its Action Bar as a free Action.\n\nOR\n\n2) Discard one of its already disabled [tech] Upgrades to use an Action from its Action Bar as a free Action.\n\nA ship cannot perform any other free Actions on the round that it uses either of these abilities."
+		}
+
+	]
+
+}
