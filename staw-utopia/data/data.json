@@ -1879,9 +1879,43 @@
   "ships": [
     {
       "type": "ship",
-      "id": "S341",
+      "id": "S343",
       "set": [
         "75013"
+      ],
+      "name": "Romulan Starship",
+      "class": "D'Deridex Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "cloak",
+        "sensor-echo"
+      ],
+      "upgrades": [
+        "tech",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 3,
+      "agility": 2,
+      "hull": 6,
+      "shields": 3,
+      "cost": 25,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "romulan"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+    {
+      "type": "ship",
+      "id": "S342",
+      "set": [
+        "75012"
       ],
       "name": "Scimitar",
       "class": "Reman Warbird",
@@ -1938,7 +1972,7 @@
       "shields": 3,
       "cost": 32,
       "text": "",
-      "unique": true,
+      "unique": false,
       "factions": [
         "romulan"
       ],
