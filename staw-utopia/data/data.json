@@ -1903,7 +1903,7 @@
       "hull": 7,
       "shields": 4,
       "cost": 34,
-      "text": "[b]WHEN ATTACKING[/b]: If this ship is cloaked: Place an [aux] Token beside this ship. Do not flip your [cloak] Token to its red side.",
+      "text": "<b>WHEN ATTACKING:</b> If this ship is cloaked: Place an [aux] Token beside this ship. Do not flip your [cloak] Token to its red side.",
       "unique": true,
       "factions": [
         "romulan"
