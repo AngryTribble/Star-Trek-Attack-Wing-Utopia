@@ -1865,6 +1865,43 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S341",
+      "set": [
+        "90000"
+      ],
+      "name": "Scimitar",
+      "class": "Reman Warbird",
+      "actions": [
+        "evade",
+        "target-lock",
+        "cloak",
+        "sensor-echo"
+      ],
+      "upgrades": [
+        "tech",
+        "tech",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 6,
+      "agility": 2,
+      "hull": 7,
+      "shields": 4,
+      "cost": 34,
+      "text": "WHEN ATTACKING: If this ship is cloaked: Place an [aux] Token beside this ship. Do not flip your [cloak] Token to its red side.",
+      "unique": true,
+      "factions": [
+        "romulan"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S340",
       "set": [
         "75011"
