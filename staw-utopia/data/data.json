@@ -1879,41 +1879,7 @@
   "ships": [
     {
       "type": "ship",
-      "id": "S343",
-      "set": [
-        "75013"
-      ],
-      "name": "Romulan Starship",
-      "class": "D'Deridex Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "cloak",
-        "sensor-echo"
-      ],
-      "upgrades": [
-        "tech",
-        "weapon",
-        "crew",
-        "crew"
-      ],
-      "attack": 3,
-      "agility": 2,
-      "hull": 6,
-      "shields": 3,
-      "cost": 25,
-      "text": "",
-      "unique": false,
-      "factions": [
-        "romulan"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-    {
-      "type": "ship",
-      "id": "S342",
+      "id": "S341",
       "set": [
         "75012"
       ],
@@ -1939,40 +1905,6 @@
       "cost": 34,
       "text": "WHEN ATTACKING: If this ship is cloaked: Place an [aux] Token beside this ship. Do not flip your [cloak] Token to its red side.",
       "unique": true,
-      "factions": [
-        "romulan"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-    {
-      "type": "ship",
-      "id": "S341",
-      "set": [
-        "75012"
-      ],
-      "name": "Reman Starship",
-      "class": "Reman Warbird",
-      "actions": [
-        "evade",
-        "target-lock",
-        "cloak",
-        "sensor-echo"
-      ],
-      "upgrades": [
-        "tech",
-        "tech",
-        "weapon",
-        "crew"
-      ],
-      "attack": 6,
-      "agility": 2,
-      "hull": 7,
-      "shields": 3,
-      "cost": 32,
-      "text": "",
-      "unique": false,
       "factions": [
         "romulan"
       ],
