@@ -23036,6 +23036,20 @@
   "upgrades": [
     {
       "type": "crew",
+      "id": "C384",
+      "set": [
+        "75012"
+      ],
+      "name": "T'Rul",
+      "cost": 2,
+      "text": "You may equip the 'Romulan Cloaking Device' Upgrade to this ship for 0 SP even if it exceeds its restrictions. \n---------------------------------------\n <b>WHENEVER YOU WOULD PERFORM THE [cloak] ACTION:</b> \n\n Place an [evade] Token beside this ship. If equipped to a Defiant Class, you may place a [battlestations] Token instead.",
+      "Unique": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "crew",
       "id": "C383",
       "set": [
         "75012"
