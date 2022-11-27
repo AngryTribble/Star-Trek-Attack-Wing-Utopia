@@ -1879,6 +1879,39 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S348",
+      "set": [
+        "75012"
+      ],
+      "name": "Romulan Starship",
+      "class": "Romulan Scout Vessel",
+      "actions": [
+        "evade",
+        "target-lock",
+        "cloak",
+        "sensor-echo"
+      ],
+      "upgrades": [
+        "weapon"
+      ],
+      "attack": 1,
+      "agility": 3,
+      "hull": 2,
+      "shields": 1,
+      "cost": 12,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "romulan"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S347",
       "set": [
         "75012"
