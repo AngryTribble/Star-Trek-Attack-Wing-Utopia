@@ -1920,12 +1920,6 @@
       "set": [
         "75011"
       ],
-      {
-        "type": "ship",
-        "id": "S340",
-        "set": [
-          "75011"
-        ],
       "name": "U.S.S. Tian An Men",
       "class": "Miranda Class",
       "actions": [
