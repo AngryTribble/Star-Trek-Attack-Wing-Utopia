@@ -1922,42 +1922,6 @@
       ],
       {
         "type": "ship",
-        "id": "S341",
-        "set": [
-          "75012"
-        ],
-        "name": "Reman Starship",
-        "class": "Reman Warbird",
-        "actions": [
-          "evade",
-          "target-lock",
-          "cloak",
-          "sensor-echo"
-        ],
-        "upgrades": [
-          "tech",
-          "tech",
-          "weapon",
-          "crew"
-        ],
-        "attack": 6,
-        "agility": 2,
-        "hull": 7,
-        "shields": 3,
-        "cost": 32,
-        "text": "",
-        "unique": false,
-        "factions": [
-          "romulan"
-        ],
-        "intercept": {
-          "ship": {},
-          "fleet": {}
-        },
-        "squadron": false
-      },
-      {
-        "type": "ship",
         "id": "S340",
         "set": [
           "75011"
