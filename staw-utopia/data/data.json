@@ -16706,7 +16706,7 @@
       ],
       "name": "Donatra",
       "unique": true,
-      "text": "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friend ship is either a Valdore Class or a Sovereign Class it may aslo convert 1 [blank] into 1 [hit].",
+      "text": "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a Valdore Class or a Sovereign Class it may also convert 1 [blank] into 1 [hit].",
       "factions": [
         "romulan"
       ],
