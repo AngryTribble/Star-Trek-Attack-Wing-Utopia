@@ -23036,6 +23036,36 @@
   "upgrades": [
     {
       "type": "talent",
+      "id": "E212",
+      "set": [
+        "75012"
+      ],
+      "name": "Fire Everything!",
+      "cost": 4,
+      "text": "<b> WHENEVER ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a Romulan [weapon] Upgrade equipped to this ship against the same target.",
+      "unique": true,
+      "captainRomulan": true,
+      "shipRomulan": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "talent",
+      "id": "E211",
+      "set": [
+        "75012"
+      ],
+      "name": "Outflank",
+      "cost": 2,
+      "text": "<b> WHENEVER YOU WOULD PERFORM A [sensor-echo] ACTION:</b> If this ship is Cloaked: Discard this card. \n\n Place a [battlestations] and [evade] Token beside your ship. ",
+      "oneperShip": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "talent",
       "id": "E210",
       "set": [
         "75012"
