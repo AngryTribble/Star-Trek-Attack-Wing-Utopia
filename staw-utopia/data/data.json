@@ -1919,32 +1919,6 @@
       "set": [
         "75011"
       ],
-      "name": "U.S.S. Tian An Men",
-      "class": "Miranda Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "tech",
-        "weapon",
-        "crew",
-        "crew"
-      ],
-      "text": "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew] Upgrade equipped to this ship.\nThe target ship does not skip its Perform Action Step this game round.",
-      "attack": 2,
-      "agility": 2,
-      "hull": 3,
-      "shields": 3,
-      "cost": 14,
-      "unique": true,
-      "factions": [
-        "federation"
-      ],
-      "squadron": false
-    },
     {
       "type": "ship",
       "id": "S341",
@@ -1971,7 +1945,7 @@
       "hull": 7,
       "shields": 4,
       "cost": 34,
-      "text": "<b>WHEN ATTACKING:</b> If this ship is cloaked: Place an [aux] Token beside this ship. Do not flip your [cloak] Token to its red side.",
+      "text": "<b>WHEN ATTACKING:</b> If this ship is cloaked: Place an [aux] Token beside this ship. \nDo not flip your [cloak] Token to its red side.",
       "unique": true,
       "factions": [
         "romulan"
