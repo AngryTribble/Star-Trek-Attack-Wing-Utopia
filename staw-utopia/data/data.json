@@ -23036,21 +23036,6 @@
   "upgrades": [
     {
       "type": "weapon",
-      "id": "W221",
-      "set": [
-        "75012"
-      ],
-      "name": "Flanking Attack",
-      "cost": 3,
-      "text": "<font size ='-1'>The Attack Value of this [weapon] is this ship's Primary Attack Value. \n----------------------------------------\n <b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship. If this is equipped to a Valdore Class, this ship rolls +2 Attack dice. n\----------------------------------------\n If this ship is not in the front arc of the defending ship, the defending ship also rolls -2 defense dice.</font>",
-      "range": "1 - 2",
-      "attack": "3",
-      "factions": [
-        "romulan"
-      ]
-    },
-    {
-      "type": "weapon",
       "id": "W220",
       "set": [
         "75012"
@@ -23088,7 +23073,7 @@
       ],
       "name": "Thalaron Weapon",
       "cost": 5,
-      "text": "<font size ='-1'><b>ATTACK:</b> Discard this card and target an opposing ship. \n\n Your opponent must discard either their Captain, Admiral, Ambassador, or a [crew] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, Ambassador, or [crew] Upgrade equipped to the defending ship. \n\n<i> Reman Warbird Only </i></font>",
+      "text": "<font size ='-1'><b>ATTACK:</b> Discard this card and target an opposing ship. \n\n Your opponent must discard either their Captain, Admiral, Ambassador, or a [crew] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, Ambassador, or [crew] Upgrade equipped to the defending ship. \n\n<i> Reman Warbird Only </i></font",
       "range": "1 - 3",
       "unique": true,
       "frontarc": true,
