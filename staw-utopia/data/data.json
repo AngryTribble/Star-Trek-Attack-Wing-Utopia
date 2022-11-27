@@ -23036,6 +23036,20 @@
   "upgrades": [
     {
       "type": "crew",
+      "id": "C385",
+      "set": [
+        "75012"
+      ],
+      "name": "Nevala",
+      "cost": 3,
+      "text": "Increase the Captain Skill of the Captain equipped to this ship by 1 (By 3 for a Romulan Captain instead). \n---------------------------------------\n <b>WHEN DEFENDING:</b> Spend an [evade] Token beside this ship. \n\n Place a [battlestations] Token beside this ship.",
+      "Unique": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "crew",
       "id": "C384",
       "set": [
         "75012"
