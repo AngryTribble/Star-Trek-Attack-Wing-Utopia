@@ -23036,6 +23036,37 @@
   "upgrades": [
     {
       "type": "weapon",
+      "id": "W220",
+      "set": [
+        "75012"
+      ],
+      "name": "Disruptor Pulse",
+      "cost": 3,
+      "text": "<b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n\n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your [frontarc] and in range. \n\n Perform a separate attack against each target with this attack. \n\n <i>+3 SP for Non-Romulan Ships</i>",
+      "range": "1 - 2",
+      "attack": "3",
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "weapon",
+      "id": "W219",
+      "set": [
+        "75012"
+      ],
+      "name": "Aft Disruptor Emitters",
+      "cost": 2,
+      "text": "<b>ATTACK:</b> Place 2 [time] Tokens on this card and target an opposing ship not in your [frontarc]. \n\n <i> +2 SP for Non-Romulan Ships </i>",
+      "range": "1 - 3",
+      "oneperShip": true,
+      "attack": "3",
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "weapon",
       "id": "W218",
       "set": [
         "75012"
