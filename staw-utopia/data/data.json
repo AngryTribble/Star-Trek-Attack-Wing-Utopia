@@ -23035,6 +23035,20 @@
   ],
   "upgrades": [
     {
+      "type": "tech",
+      "id": "T274",
+      "set": [
+        "75012"
+      ],
+      "name": "Improved Cloaking",
+      "cost": 3,
+      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak].",
+      "oneperShip": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
       "type": "weapon",
       "id": "W221",
       "set": [
