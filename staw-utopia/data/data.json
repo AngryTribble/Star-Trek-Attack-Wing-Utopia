@@ -23035,6 +23035,24 @@
   ],
   "upgrades": [
     {
+      "type": "weapon",
+      "id": "W218",
+      "set": [
+        "75012"
+      ],
+      "name": "Thalaron Weapon",
+      "cost": 5,
+      "text": "<b>ATTACK:</b> Discard this card and target an opposing ship. \n\n Your opponent must discard either their Captain, Admiral, Ambassador, or a [crew] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, Ambassador, or [crew] Upgrade equipped to the defending ship. \n\n<i> Reman Warbird Only </i>",
+      "range": "1 - 3",
+      "unique": true,
+      "frontarc": true,
+      "shipLimit": true,
+      "attack": "6",
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
       "type": "talent",
       "id": "E212",
       "set": [
