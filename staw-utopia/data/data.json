@@ -16664,7 +16664,7 @@
       ],
       "cost": 6,
       "skill": 9,
-      "talents": 2,
+      "talents": 2
     },
     {
       "type": "captain",
@@ -22259,6 +22259,22 @@
     }
   ],
   "admirals": [
+    {
+      "type": "admiral",
+      "id": "A038",
+      "set": [
+        "75012"
+      ],
+      "name": "Shinzon",
+      "unique": true,
+      "text": "Add the [battlestations] Action to this ship's Action Bar. \n----------------------------------------\n <b>FLEET ACTION:</b>\n Remove all [time] Tokens and/or [disabled] Tokens from a [weapon] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
+      "factions": [
+        "romulan"
+      ],
+      "cost": 6,
+      "skill": 2,
+      "talents": 1
+    },
     {
       "type": "admiral",
       "id": "A037",
