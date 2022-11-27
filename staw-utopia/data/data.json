@@ -16658,7 +16658,7 @@
       ],
       "name": "Rekar",
       "unique": true,
-      "text": "You do not pay faction penalty when equipping this card or any Romulan [crew] Upgrades to this Federation ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon] UPGRADE:</b> \n\n You may re-roll up to 2 [blank]. If that Upgrade is a non-Romulan [weapon], roll +1 Attack die.",
+      "text": "You do not pay faction penalty when equipping this card or any Romulan [crew] Upgrades to this Federation ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon] UPGRADE:</b> \n You may re-roll up to 2 [blank]. If that Upgrade is a non-Romulan [weapon], roll +1 Attack die.",
       "factions": [
         "romulan"
       ],
