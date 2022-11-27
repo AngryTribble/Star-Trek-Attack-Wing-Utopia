@@ -23035,20 +23035,6 @@
   ],
   "upgrades": [
     {
-      "type": "tech",
-      "id": "T274",
-      "set": [
-        "75012"
-      ],
-      "name": "Improved Cloaking",
-      "cost": 3,
-      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak].",
-      "oneperShip": true,
-      "factions": [
-        "romulan"
-      ]
-    },
-    {
       "type": "weapon",
       "id": "W221",
       "set": [
@@ -23086,7 +23072,7 @@
       ],
       "name": "Aft Disruptor Emitters",
       "cost": 2,
-      "text": "<b>ATTACK:</b> Place 2 [time] Tokens on this card and target an opposing ship not in your front arc. \n\n\n\n <i> +2 SP for Non-Romulan Ships </i>",
+      "text": "<b>ATTACK:</b> Place 2 [time] Tokens on this card and target an opposing ship not in your front arc. \n\n <i> +2 SP for Non-Romulan Ships </i>",
       "range": "1 - 3",
       "oneperShip": true,
       "attack": "3",
