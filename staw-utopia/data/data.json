@@ -1879,11 +1879,11 @@
   "ships": [
     {
       "type": "ship",
-      "id": "S342",
+      "id": "S341",
       "set": [
         "75012"
       ],
-      "name": "Scimitar",
+      "name": "Reman Starship",
       "class": "Reman Warbird",
       "actions": [
         "evade",
