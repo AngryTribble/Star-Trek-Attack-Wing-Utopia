@@ -1879,6 +1879,77 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S350",
+      "set": [
+        "75012"
+      ],
+      "name": "Romulan Starship",
+      "class": "Valdore Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "cloak",
+        "sensor-echo"
+      ],
+      "upgrades": [
+        "tech",
+        "weapon",
+        "crew"
+      ],
+      "attack": 4,
+      "agility": 2,
+      "hull": 6,
+      "shields": 2,
+      "cost": 24,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "romulan"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
+      "id": "S349",
+      "set": [
+        "75012"
+      ],
+      "name": "I.R.W. Soterus",
+      "class": "Valdore Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "cloak",
+        "sensor-echo"
+      ],
+      "upgrades": [
+        "tech",
+        "tech",
+        "weapon",
+        "crew"
+      ],
+      "attack": 4,
+      "agility": 2,
+      "hull": 6,
+      "shields": 3,
+      "cost": 27,
+      "text": "<b>REVEAL DIAL STEP:</b> If this ship reveals a 3 Speed Maneuver. \n You may change your Maneuver to any Maneuver of the same speed on this ship's dial.",
+      "unique": true,
+      "factions": [
+        "romulan"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S348",
       "set": [
         "75012"
