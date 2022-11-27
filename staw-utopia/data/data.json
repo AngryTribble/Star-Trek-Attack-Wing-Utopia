@@ -16652,6 +16652,22 @@
   "captains": [
     {
       "type": "captain",
+      "id": "Cap011",
+      "set": [
+        "75012"
+      ],
+      "name": "Shinzon",
+      "unique": true,
+      "text": "Add the [battlestations] Action to this ship's Action Bar. \n----------------------------------------\n <b>FREE ACTION:</b> If this ship is cloaked. \n\n Perform an Action on this ship's Action Bar as a Free Action.",
+      "factions": [
+        "romulan"
+      ],
+      "cost": 6,
+      "skill": 9,
+      "talents": 2,
+    },
+    {
+      "type": "captain",
       "id": "Cap010",
       "set": [
         "75011"
