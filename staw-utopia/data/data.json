@@ -1884,7 +1884,7 @@
         "75012"
       ],
       "name": "Tal Shair Scout",
-      "class": "Romulan Scout Ship",
+      "class": "Romulan Scout Vessel",
       "actions": [
         "evade",
         "target-lock",
