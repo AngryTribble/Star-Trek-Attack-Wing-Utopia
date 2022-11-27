@@ -1879,7 +1879,42 @@
   "ships": [
     {
       "type": "ship",
-      "id": "S345",
+      "id": "S347",
+      "set": [
+        "75012"
+      ],
+      "name": "Tal Shair Scout",
+      "class": "Romulan Scout Ship",
+      "actions": [
+        "evade",
+        "target-lock",
+        "cloak",
+        "sensor-echo"
+      ],
+      "upgrades": [
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 1,
+      "agility": 3,
+      "hull": 2,
+      "shields": 2,
+      "cost": 12,
+      "text": "<b>COMBAT PHASE:</b> Target an opposing ship and a friendly ship each within Range 1-2. \n You may discard a [battlestations], [evade], or [scan] Token beside the target opposing ship, then place a Token of the same type beside the target friendly ship.",
+      "unique": true,
+      "factions": [
+        "romulan"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
+      "id": "S346",
       "set": [
         "75012"
       ],
