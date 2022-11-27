@@ -23035,6 +23035,21 @@
   ],
   "upgrades": [
     {
+      "type": "crew",
+      "id": "C380",
+      "set": [
+        "75012"
+      ],
+      "name": "Varak",
+      "cost": 3,
+      "text": "Add 1 [crew] upgrade to this Ship's Upgrade Bar. \n----------------------------------------\n \n <b>ACTION:</b> Place 2 [time] Tokens on this card and target this ship or a friendly ship within Range. \n <b>CONTINUOUS EFFECT:</b> \n The Captain and other [crew] Upgrades equipped to the target ship cannot be affected by opposing cards. ",
+      "range": "1-2",
+      "unique": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
       "type": "weapon",
       "id": "W217",
       "set": [
