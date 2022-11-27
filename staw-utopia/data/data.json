@@ -23042,7 +23042,7 @@
       ],
       "name": "Covert Research",
       "cost": 3,
-      "text": "Add the [scan] Action to this ship's Action Bar. \n----------------------------------------\n <b> END PHASE:</b> \n Place 1 [scan] Token from beside this ship onto this card (max 3). \n----------------------------------------\n <b> ACTION:</b> Remove any number of [scan] Tokens on this card. \n Gain +1 attack dice for each [scan] Token removed this game round. ",
+      "text": "<font size ='-1'>Add the [scan] Action to this ship's Action Bar. \n----------------------------------------\n <b> END PHASE:</b> \n Place 1 [scan] Token from beside this ship onto this card (max 3). \n----------------------------------------\n <b> ACTION:</b> Remove any number of [scan] Tokens on this card. \n Gain +1 attack dice for each [scan] Token removed this game round.</font> ",
       "unique": true,
       "captainRomulan": true,
       "factions": [
