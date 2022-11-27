@@ -16652,6 +16652,22 @@
   "captains": [
     {
       "type": "captain",
+      "id": "Cap015",
+      "set": [
+        "75012"
+      ],
+      "name": "Lovok",
+      "unique": true,
+      "text": "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank]. If equipped to a D'Deridex Class, you may also add 1 [hit].",
+      "factions": [
+        "romulan"
+      ],
+      "cost": 3,
+      "skill": 5,
+      "talents": 1
+    },
+    {
+      "type": "captain",
       "id": "Cap014",
       "set": [
         "75012"
