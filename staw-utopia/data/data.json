@@ -16652,6 +16652,22 @@
   "captains": [
     {
       "type": "captain",
+      "id": "Cap013",
+      "set": [
+        "75012"
+      ],
+      "name": "Koval",
+      "unique": true,
+      "text": "<b>WHEN ATTACKING: DECLARE TARGET STEP:</b>\n If this ship is Cloaked. \n\n Place 2 [time] Tokens on a [crew] Upgrade equipped to the defending ship.",
+      "factions": [
+        "romulan"
+      ],
+      "cost": 3,
+      "skill": 5,
+      "talents": 1
+    },
+    {
+      "type": "captain",
       "id": "Cap012",
       "set": [
         "75012"
