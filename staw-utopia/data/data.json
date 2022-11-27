@@ -23036,6 +23036,20 @@
   "upgrades": [
     {
       "type": "crew",
+      "id": "C383",
+      "set": [
+        "75012"
+      ],
+      "name": "Reman Helmsman",
+      "cost": 2,
+      "text": "<b>REVEAL DIAL STEP:</b> Disable this card. \n\n Disregard your revealed Maneuver and perform a 1 red [reverse] Maneuver instead. If equipped to a D'Deridex Class ship, treat this as a white Maneuver instead. \n\n <i>+2 SP on Non-Romulan Ships</i>",
+      "onepership": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "crew",
       "id": "C382",
       "set": [
         "75012"
