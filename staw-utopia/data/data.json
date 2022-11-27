@@ -23036,6 +23036,22 @@
   "upgrades": [
     {
       "type": "crew",
+      "id": "C381",
+      "set": [
+        "75012"
+      ],
+      "name": "B-4",
+      "cost": 5,
+      "text": "<b>ACTION:</b>: Disable this card and target an opposing ship within Range. \n\n The target ship either executes a 1 [bank-left], 1 [bank-right], or 1 [straight] Maneuver of the opponent's choice. If the target ship is also a Federation ship, it rolls -1 attack die this game round. If the target ship also has 'Enterprise' in it's name, place 2 [time] Tokens on the Captain equipped to that ship.",
+      "range": "2-3",
+      "unique": true,
+      "factions": [
+        "romulan",
+        "independent"
+      ]
+    },
+    {
+      "type": "crew",
       "id": "C380",
       "set": [
         "75012"
