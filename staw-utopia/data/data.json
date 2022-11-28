@@ -2154,7 +2154,7 @@
       "hull": 5,
       "shields": 5,
       "cost": 29,
-      "text": "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. \n----------------------------------------\n If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. \n----------------------------------------\n If equipped with the 'Federation Prototype' (hook) - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+      "text": "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. \n----------------------------------------\n If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. \n----------------------------------------\n If equipped with the 'Federation Prototype' - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
       "unique": true,
       "factions": [
         "federation"
@@ -2450,7 +2450,7 @@
       "hull": 4,
       "shields": 5,
       "cost": 28,
-      "text": "If this ship is equipped with the 'Federation Prototype' (hook), Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+      "text": "If this ship is equipped with the 'Federation Prototype', Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
       "unique": true,
       "factions": [
         "federation"
@@ -23769,7 +23769,7 @@
       ],
       "name": "Geordi La Forge",
       "cost": 2,
-      "text": "<b>REVEAL DIAL STEP:</b> When this ship reveals a [straight] Maneuver: Place 2 [time] Tokens on this card and choose 1 of the listed effects. \n\n *Treat the revealed Maneuver as a Green Maneuver. \n\n *Increase the speed of the revealed Maneuver by 1. The color of the Maneuver remains the same as the revealed Maneuver. \n\n If this ship has the 'Federation Prototype' 'hook' equipped, you may choose both effects.",
+      "text": "<b>REVEAL DIAL STEP:</b> When this ship reveals a [straight] Maneuver: Place 2 [time] Tokens on this card and choose 1 of the listed effects. \n\n *Treat the revealed Maneuver as a Green Maneuver. \n\n *Increase the speed of the revealed Maneuver by 1. The color of the Maneuver remains the same as the revealed Maneuver. \n\n If this ship has the 'Federation Prototype' equipped, you may choose both effects.",
       "Unique": true,
       "factions": [
         "federation"
@@ -23783,7 +23783,7 @@
       ],
       "name": "Lasca",
       "cost": 1,
-      "text": "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target this ship or a friendly Federation ship within range. \n\n Flip 1 face-up damage card on the target ship facedown. If the target ship has the 'Federation Prototype' 'hook' equipped, repair 1 Hull on the target ship.",
+      "text": "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target this ship or a friendly Federation ship within range. \n\n Flip 1 face-up damage card on the target ship facedown. If the target ship has the 'Federation Prototype' equipped, repair 1 Hull on the target ship.",
       "Unique": true,
       "shipFederation": true,
       "range": "1",
@@ -23799,7 +23799,7 @@
       ],
       "name": "Montgomery Scott",
       "cost": 3,
-      "text": "<b>WHENEVER YOU WOULD PLACE AN [aux] TOKEN BESIDE THIS SHIP:</b> \n\n Place that Token on this card (max 2). \n-----------------------------------\n <b>ACTION:</b> Place 2 [time] Tokens on this card and target a ship with a (hook) equipped within range. \n\n If that ship is this ship or a friendly ship, it performs a 2 [straight] . If that ship is an opposing ship, Place any [aux] Tokens from on this card beside the target ship.",
+      "text": "<b>WHENEVER YOU WOULD PLACE AN [aux] TOKEN BESIDE THIS SHIP:</b> \n\n Place that Token on this card (max 2). \n-----------------------------------\n <b>ACTION:</b> Place 2 [time] Tokens on this card and target a ship with a 'hook' equipped within range. \n\n If that ship is this ship or a friendly ship, it performs a 2 [straight] . If that ship is an opposing ship, Place any [aux] Tokens from on this card beside the target ship.",
       "Unique": true,
       "range": "1 - 2",
       "factions": [
@@ -23814,7 +23814,7 @@
       ],
       "name": "Harry Kim",
       "cost": 2,
-      "text": "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' (hook) equipped, repair 1 Hull on this ship.",
+      "text": "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' equipped, repair 1 Hull on this ship.",
       "Unique": true,
       "factions": [
         "federation"
@@ -23828,7 +23828,7 @@
       ],
       "name": "Benjamin Sisko",
       "cost": 3,
-      "text": "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a Federation Weapon Upgrade equipped to this ship. If this ship has the 'Federation Prototype' (hook) equipped place a [battlestations] Token beside this ship.",
+      "text": "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a Federation Weapon Upgrade equipped to this ship. If this ship has the 'Federation Prototype' equipped place a [battlestations] Token beside this ship.",
       "Unique": true,
       "factions": [
         "federation"
