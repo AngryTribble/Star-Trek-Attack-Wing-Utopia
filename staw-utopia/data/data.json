@@ -2010,7 +2010,7 @@
       "hull": 5,
       "shields": 5,
       "cost": 29,
-      "text": "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> That friendly ship may roll +1 attack die. If that friendly ship is a Sovereign Class it may also add 1 [hit]. If the defending ship is a Borg ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].",
+      "text": "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> \n <font size ='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a Sovereign Class it may also add 1 [hit]. If the defending ship is a Borg ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
       "unique": true,
       "factions": [
         "federation"
