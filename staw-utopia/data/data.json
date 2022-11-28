@@ -23036,6 +23036,20 @@
   "upgrades": [
     {
       "type": "tech",
+      "id": "T276",
+      "set": [
+        "75012"
+      ],
+      "name": "Romulan Cloaking Device",
+      "cost": 2,
+      "text": "Add the [cloak] Action to this ship's Action Bar. \n----------------------------------------\n This ship may use either the 1 [bank-left], 1 [bank-right], 2 [bank-left], or 2 [bank-right] template when performing a [sensor-echo] Action instead. \n----------------------------------------\n ",
+      "oneperShip": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "tech",
       "id": "T275",
       "set": [
         "75012"
@@ -23055,7 +23069,7 @@
       ],
       "name": "Improved Cloaking",
       "cost": 3,
-      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak]. \n\n Reman Warbird Only",
+      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak]. \n\n <i>Reman Warbird Only</i>",
       "oneperShip": true,
       "shipLimit": true,
       "factions": [
