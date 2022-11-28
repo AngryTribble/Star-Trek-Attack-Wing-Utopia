@@ -24064,7 +24064,7 @@
       ],
       "name": "Romulan Ale",
       "cost": 1,
-      "text": "<font size='-1.5'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n-----------------------------------\n<b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n-----------------------------------\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] int 1 [blank]</font>",
+      "text": "<font size='-1.75'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n <b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] int 1 [blank]</font>",
       "OnePerShip": true,
       "costRomulan": "+3",
       "factions": [
@@ -24236,7 +24236,7 @@
       "name": "Nevala",
       "cost": 3,
       "text": "Increase the Captain Skill of the Captain equipped to this ship by 1 (By 3 for a Romulan Captain instead). \n---------------------------------------\n <b>WHEN DEFENDING:</b> Spend an [evade] Token beside this ship. \n\n Place a [battlestations] Token beside this ship.",
-      "Unique": true,
+      "unique": true,
       "factions": [
         "romulan"
       ]
@@ -24250,7 +24250,7 @@
       "name": "T'Rul",
       "cost": 2,
       "text": "You may equip the 'Romulan Cloaking Device' Upgrade to this ship for 0 SP even if it exceeds its restrictions. \n---------------------------------------\n <b>WHENEVER YOU WOULD PERFORM THE [cloak] ACTION:</b> \n\n Place an [evade] Token beside this ship. If equipped to a Defiant Class, you may place a [battlestations] Token instead.",
-      "Unique": true,
+      "unique": true,
       "factions": [
         "romulan"
       ]
