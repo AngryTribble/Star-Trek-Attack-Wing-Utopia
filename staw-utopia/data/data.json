@@ -23763,6 +23763,20 @@
   "upgrades": [
     {
       "type": "question",
+      "id": "Q021",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Prototype",
+      "cost": 1,
+      "text": "This card can only be equipped to a Unique ship whose name (ignoring registry number) listed after 'U.S.S.' is the same as the ship class. \n Add 1 [tech], [weapon], or [crew] to this ship's Updgrade Bar. \n <b>WHEN DEFENDING: MODIFY DEFENSE DICE STEP:</b> n\ You may re-roll 1 [blank] or [battlestations] .",
+      "OnePerShip": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "question",
       "id": "Q020",
       "set": [
         "75013"
