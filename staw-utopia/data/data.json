@@ -1879,6 +1879,43 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S363",
+      "set": [
+        "75013"
+      ],
+      "name": "U.S.S. Musashi",
+      "class": "Sovereign Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "weapon",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 5,
+      "shields": 5,
+      "cost": 29,
+      "text": "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> That friendly ship may roll +1 attack die. If that friendly ship is a Sovereign Class it may also add 1 [hit]. If the defending ship is a Borg ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].",
+      "unique": true,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S362",
       "set": [
         "75013"
@@ -1901,7 +1938,7 @@
       "agility": 1,
       "hull": 5,
       "shields": 4,
-      "cost": 29,
+      "cost": 25,
       "text": "",
       "unique": false,
       "factions": [
