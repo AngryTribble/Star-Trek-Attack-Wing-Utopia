@@ -12,6 +12,7 @@ var data = {
 	admirals: require("./admirals"),
 	ambassadors: require("./ambassadors"),
 	upgrades: require("./upgrades"),
+	starship_construction: require("./starship_construction"),
 	resources: require("./resources"),
 	others: require("./others")
 };
