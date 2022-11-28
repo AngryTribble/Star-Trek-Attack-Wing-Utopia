@@ -43253,6 +43253,16 @@
   "others": [
     {
       "type": "token",
+      "id": "rule_starshipconstruction",
+      "set": [
+        "AdditionalRules",
+        "75013"
+      ],
+      "name": "Starship Construction",
+      "text": "Starship Construction Cards are cards featuring the (hook) symbol. \n\n (hook) Card's do not count as Upgrades. \n\n A ship may only have one (hook) card equipped. \n\n You do not pay a Faction Penalty when equipping a (hook) card to a ship. \n\n (hook) Cards represent various versions of ships such as Prototypes, Refits, Retrofits, and Mission Specific alterations."
+    },
+    {
+      "type": "token",
       "id": "rule_love_crysatal",
       "set": [
         "AdditionalRules",
