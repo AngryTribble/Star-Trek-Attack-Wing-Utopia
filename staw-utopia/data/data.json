@@ -1879,6 +1879,115 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S360",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Starship",
+      "class": "Akira Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "weapon",
+        "weapon",
+        "weapon",
+        "crew"
+      ],
+      "attack": 4,
+      "agility": 2,
+      "hull": 5,
+      "shields": 2,
+      "cost": 21,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
+      "id": "S359",
+      "set": [
+        "75013"
+      ],
+      "name": "U.S.S. Geronimo",
+      "class": "Akira Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "weapon",
+        "weapon",
+        "weapon",
+        "crew"
+      ],
+      "attack": 4,
+      "agility": 2,
+      "hull": 5,
+      "shields": 3,
+      "cost": 23,
+      "text": "<font size ='-1'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n----------------------------------------\n <b>WHEN ATTACKING A FEDERATION SHIP:</b>\n You may roll -2 attack dice. \n Place 1 [aux] Token beside the defending ship.</font>",
+      "unique": true,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
+      "id": "S358",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Starship",
+      "class": "Akira Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "weapon",
+        "weapon",
+        "weapon",
+        "crew"
+      ],
+      "attack": 4,
+      "agility": 2,
+      "hull": 5,
+      "shields": 2,
+      "cost": 21,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S357",
       "set": [
         "75013"
@@ -1901,7 +2010,7 @@
       "attack": 4,
       "agility": 2,
       "hull": 5,
-      "shields": 2,
+      "shields": 3,
       "cost": 23,
       "text": "<font size='-1'><b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n-----------------------------------\n <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.</font>",
       "unique": true,
