@@ -17291,7 +17291,7 @@
       ],
       "name": "Rekar",
       "unique": true,
-      "text": "You do not pay faction penalty when equipping this card or any Romulan [crew] Upgrades to this Federation ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon] UPGRADE:</b> \n You may re-roll up to 2 [blank]. If that Upgrade is a non-Romulan [weapon], roll +1 Attack die.",
+      "text": "You do not pay faction penalty when equipping this card or any Romulan [crew] Upgrades to this Federation ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon] UPGRADE:</b> \n You may re-roll up to 2 [blank] . If that Upgrade is a non-Romulan [weapon], roll +1 Attack die.",
       "factions": [
         "romulan"
       ],
@@ -23588,7 +23588,7 @@
       ],
       "name": "Kimara Cretak",
       "cost": 3,
-      "text": "<font size='-1'><b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this SHip.' \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> \n All Romulan ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon] Upgrade equipped to this ship.'</font>",
+      "text": "<font size='-1'><b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this Ship.' \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> \n All Romulan ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon] Upgrade equipped to this ship.'</font>",
       "unique": true,
       "factions": [
         "romulan"
@@ -23703,7 +23703,7 @@
       ],
       "name": "Romulan Ale",
       "cost": 1,
-      "text": "<font size='-2'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n-----------------------------------\n<b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n-----------------------------------\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must conver 1 [hit] int 1 [blank] \n\n <i>+3 SP for Non-Romulan Ships</i></font>",
+      "text": "<font size='-2'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n-----------------------------------\n<b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n-----------------------------------\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] int 1 [blank] \n\n <i>+3 SP for Non-Romulan Ships</i></font>",
       "OnePerShip": true,
       "factions": [
         "romulan"
