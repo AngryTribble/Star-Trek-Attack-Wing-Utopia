@@ -31,14 +31,14 @@
     {
       "type": "set",
       "id": "75011",
-      "name": "Federation 'Boldly Go'",
+      "name": "To Boldly Go",
       "releaseDate": "2021-06-31",
       "parentSet": "Faction Pack"
     },
     {
       "type": "set",
       "id": "75010",
-      "name": "Klingon 'Blood Oath'",
+      "name": "Blood Oath",
       "releaseDate": "2021-06-31",
       "parentSet": "Faction Pack"
     },
@@ -52,7 +52,7 @@
     {
       "type": "set",
       "id": "75008",
-      "name": "Vulcan 'Live Long and Prosper'",
+      "name": "Live Long and Prosper",
       "releaseDate": "2021-03-17",
       "parentSet": "Faction Pack"
     },
