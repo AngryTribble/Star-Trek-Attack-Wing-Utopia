@@ -17236,6 +17236,22 @@
   "captains": [
     {
       "type": "captain",
+      "id": "Cap017",
+      "set": [
+        "75013"
+      ],
+      "name": "Strickler",
+      "unique": true,
+      "text": "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an Independent ship or has an Independent Captain equipped to it, add 1 [crit] instead.",
+      "factions": [
+        "federation"
+      ],
+      "cost": 2,
+      "skill": 4,
+      "talents": 1
+    },
+    {
+      "type": "captain",
       "id": "Cap016",
       "set": [
         "75013"
