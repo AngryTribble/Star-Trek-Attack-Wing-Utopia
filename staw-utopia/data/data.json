@@ -17236,6 +17236,22 @@
   "captains": [
     {
       "type": "captain",
+      "id": "Cap016",
+      "set": [
+        "75013"
+      ],
+      "name": "George Sanders",
+      "unique": true,
+      "text": "<b>AFTER A FRIENDLY FEDERATION SHIP WITHIN RANGE IS HIT:</b> \n\n You may perform a 1 [bank-left], 1 [straight], or a 1 [bank-right] Maneuver. If this ship has the 'Federation Prototype' Starship Construction Upgrade equipped, you may perform a 1 [turn-left] or 1 [turn-right] Maneuver instead.",
+      "factions": [
+        "federation"
+      ],
+      "cost": 3,
+      "skill": 7,
+      "talents": 1
+    },
+    {
+      "type": "captain",
       "id": "Cap015",
       "set": [
         "75012"
