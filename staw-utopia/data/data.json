@@ -1937,7 +1937,7 @@
       "hull": 3,
       "shields": 3,
       "cost": 16,
-      "text": "This ship and each other friendly ship within Range 1 gane the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n <b>1</b> - Re-roll 1 [blank]. \n <b>2</b> - Convert 1 [blank] into 1 [battlestations]. \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade].",
+      "text": "<font size ='-1'>This ship and each other friendly ship within Range 1 gane the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n <b>1</b> - Re-roll 1 [blank]. \n <b>2</b> - Convert 1 [blank] into 1 [battlestations]. \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade].</font>",
       "unique": true,
       "factions": [
         "federation"
