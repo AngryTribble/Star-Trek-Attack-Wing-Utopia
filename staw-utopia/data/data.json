@@ -23042,7 +23042,7 @@
       ],
       "name": "Romulan Cloaking Device",
       "cost": 2,
-      "text": "Add the [cloak] Action to this ship's Action Bar. \n----------------------------------------\n This ship may use either the 1 [bank-left], 1 [bank-right], 2 [bank-left], or 2 [bank-right] template when performing a [sensor-echo] Action instead. \n----------------------------------------\n ",
+      "text": "Add the [cloak] Action to this ship's Action Bar. \n----------------------------------------\n This ship may use either the 1 [bank-left], 1 [bank-right], 2 [bank-left], or 2 [bank-right] template when performing a [sensor-echo] Action instead. \n----------------------------------------\n If equipped to a Romulan ship, this ship may perform the [sensor-echo] Action as a Free Action. \n +2 SP for Non-Romulan Ships.",
       "oneperShip": true,
       "factions": [
         "romulan"
