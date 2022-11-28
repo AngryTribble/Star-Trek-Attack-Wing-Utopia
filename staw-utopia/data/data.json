@@ -2008,7 +2008,7 @@
       "hull": 3,
       "shields": 3,
       "cost": 16,
-      "text": "<font size=\"-1\">This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n</font><font size ='-2'> <b>1</b> - Re-roll 1 [blank]. \n <b>2</b> - Convert 1 [blank] into 1 [battlestations]. \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade].</font>",
+      "text": "<font size=\"-1\">This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n</font><font size ='-2'> <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .</font>",
       "unique": true,
       "factions": [
         "federation"
@@ -2154,7 +2154,7 @@
       "hull": 5,
       "shields": 5,
       "cost": 29,
-      "text": "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. \n----------------------------------------\n If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. \n----------------------------------------\n If equipped with the 'Federation Prototype' Starship Construction Upgrade - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+      "text": "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. \n----------------------------------------\n If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. \n----------------------------------------\n If equipped with the 'Federation Prototype' (hook) - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
       "unique": true,
       "factions": [
         "federation"
@@ -22981,7 +22981,7 @@
       ],
       "name": "Alynna Nechayev",
       "unique": true,
-      "text": "<font size ='-1'><b>FLEET ACTION:</b> Target this ship and each other friendly ship within Range that has a Captain equipped with a printed Captain Skill number of 5 or less. \n\n Increase the Captain Skill of each target ship by up to 3 (You may choose a different value for each ship) until the end of the round. </font>",
+      "text": "<font size ='-.5'><b>FLEET ACTION:</b> Target this ship and each other friendly ship within Range that has a Captain equipped with a printed Captain Skill number of 5 or less. \n\n Increase the Captain Skill of each target ship by up to 3 (You may choose a different value for each ship) until the end of the round. </font>",
       "factions": [
         "federation"
       ],
@@ -22998,7 +22998,7 @@
       ],
       "name": "Theoderich Patterson",
       "unique": true,
-      "text": "<font size ='-.5'><b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repart 1 Hull on the target ship. If the target ship has a Starship Construction Upgrade equipped, you may aslo remove an [aux] Token from beside that ship.</font>",
+      "text": "<font size ='-.5'><b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repart 1 Hull on the target ship. If the target ship has a (hook) equipped, you may aslo remove an [aux] Token from beside that ship.</font>",
       "factions": [
         "federation"
       ],
@@ -23763,13 +23763,27 @@
   "upgrades": [
     {
       "type": "crew",
+      "id": "C388",
+      "set": [
+        "75013"
+      ],
+      "name": "Harry Kim",
+      "cost": 2,
+      "text": "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' (hook) equipped, repair 1 Hull on this ship.",
+      "Unique": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "crew",
       "id": "C387",
       "set": [
         "75013"
       ],
       "name": "Harry Kim",
       "cost": 2,
-      "text": "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' Starship Construction Upgrade equipped, repair 1 Hull on this ship.",
+      "text": "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' (hook) equipped, repair 1 Hull on this ship.",
       "Unique": true,
       "factions": [
         "federation"
@@ -23783,7 +23797,7 @@
       ],
       "name": "Benjamin Sisko",
       "cost": 3,
-      "text": "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a Federation Weapon Upgrade equipped to this ship. If this ship has the 'Federation Prototype' Starship Construction Upgrade equipped place a [battlestations] Token beside this ship.",
+      "text": "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a Federation Weapon Upgrade equipped to this ship. If this ship has the 'Federation Prototype' (hook) equipped place a [battlestations] Token beside this ship.",
       "Unique": true,
       "factions": [
         "federation"
