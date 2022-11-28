@@ -23770,9 +23770,6 @@
       "name": "Type 10 Phasers",
       "cost": 3,
       "text": "<font size ='-1'> This card fills 2 [weapon] Upgrade slots. \n------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.</font>",
-      "range": "2 - 3",
-      "attack": "*",
-      "frontarc": true,
       "shipFedeation": true,
       "factions": [
         "federation"
