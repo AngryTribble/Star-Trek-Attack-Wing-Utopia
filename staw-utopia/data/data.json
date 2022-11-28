@@ -1879,6 +1879,43 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S354",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Class",
+      "class": "Prometheus Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "tech",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 4,
+      "shields": 4,
+      "cost": 24,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S353",
       "set": [
         "75013"
@@ -1904,7 +1941,7 @@
       "hull": 4,
       "shields": 5,
       "cost": 28,
-      "text": "If this ship is equipped with the 'Federation Prototype' Starship Construction, Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+      "text": "If this ship is equipped with the 'Federation Prototype' Starship Construction Upgrade, Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
       "unique": true,
       "factions": [
         "federation"
