@@ -23069,7 +23069,7 @@
       ],
       "name": "Improved Cloaking",
       "cost": 3,
-      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak].",
+      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak]. \n\n Reman Warbird Only",
       "oneperShip": true,
       "shipLimit": true,
       "factions": [
