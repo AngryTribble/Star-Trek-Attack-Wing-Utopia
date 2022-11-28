@@ -23762,6 +23762,34 @@
   ],
   "upgrades": [
     {
+      "type": "crew",
+      "id": "C387",
+      "set": [
+        "75013"
+      ],
+      "name": "Harry Kim",
+      "cost": 2,
+      "text": "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' Starship Construction Upgrade equipped, repair 1 Hull on this ship.",
+      "Unique": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "crew",
+      "id": "C386",
+      "set": [
+        "75013"
+      ],
+      "name": "Benjamin Sisko",
+      "cost": 3,
+      "text": "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a Federation Weapon Upgrade equipped to this ship. If this ship has the 'Federation Prototype' Starship Construction Upgrade equipped place a [battlestations] Token beside this ship.",
+      "Unique": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
       "type": "question",
       "id": "Q019",
       "set": [
