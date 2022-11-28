@@ -23763,6 +23763,35 @@
   "upgrades": [
     {
       "type": "tech",
+      "id": "T280",
+      "set": [
+        "75013"
+      ],
+      "name": "Multi-Spectrum Shielding",
+      "cost": 3,
+      "text": "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, oppsoing [tech] Upgrades cannot target this ship.",
+      "OnePerShip": true,
+      "costFederation": "+1",
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "tech",
+      "id": "T279",
+      "set": [
+        "75013"
+      ],
+      "name": "Multiphasic Shielding",
+      "cost": 3,
+      "text": "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, [crew] Upgrades and the Captain equipped to this ship cannot be affected by opposing Upgrades.",
+      "unique": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "tech",
       "id": "T278",
       "set": [
         "75013"
@@ -23799,7 +23828,7 @@
       ],
       "name": "Multi-Vector Assault Mode",
       "cost": 6,
-      "text": "<b>ATTACK (BATTLESTATIONS):</b> Disable this card and target an opposing ship. \n <b>AFTER ATTACKING:</b> Place 2 Mission Tokens within range. You may make an additional attack with this weapon from each Mission Token placed by this card in any direction. Remove all Mission Tokens placed by this card from play after attacking. \n\n <font size ='-1'><i>Prometheus Class Only</i></font>",
+      "text": "<b>ATTACK (BATTLESTATIONS):</b> Disable this card and target an opposing ship. \n <b>AFTER ATTACKING:</b> Place 2 Mission Tokens within range. You may make an additional attack with this weapon from each Mission Token placed by this card in any direction. Remove all Mission Tokens placed by this card from play after attacking. \n <font size ='-1'><i>Prometheus Class Only</i></font>",
       "attack": "4",
       "range": "1",
       "OnePerShip": true,
