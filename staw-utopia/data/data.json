@@ -1879,6 +1879,81 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S355",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Class",
+      "class": "Prometheus Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "tech",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 4,
+      "shields": 4,
+      "cost": 24,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
+      "id": "S355",
+      "set": [
+        "75013"
+      ],
+      "name": "U.S.S. Cerberus",
+      "class": "Prometheus Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "tech",
+        "weapon",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 4,
+      "shields": 5,
+      "cost": 27,
+      "text": "<b>WHEN ATTACKING WITH A FEDERATION [weapon] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a Dominion ship, convert 1 [battlestations] into 1 [crit] instead.",
+      "unique": true,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S354",
       "set": [
         "75013"
