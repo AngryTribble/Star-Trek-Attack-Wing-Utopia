@@ -2450,7 +2450,7 @@
       "hull": 4,
       "shields": 5,
       "cost": 28,
-      "text": "If this ship is equipped with the 'Federation Prototype' Starship Construction Upgrade, Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+      "text": "If this ship is equipped with the 'Federation Prototype' (hook), Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
       "unique": true,
       "factions": [
         "federation"
