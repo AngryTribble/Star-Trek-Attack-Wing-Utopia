@@ -23769,13 +23769,13 @@
       ],
       "name": "Type 10 Phasers",
       "cost": 3,
-      "text": "<font size ='-1.65'> This card fills 2 [weapon] Upgrade slots. \n------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.</font>",
+      "text": "<font size ='-1'> This card fills 2 [weapon] Upgrade slots. \n------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.</font>",
       "range": "2 - 3",
       "attack": "*",
       "frontarc": true,
-      "shipRomulan": true,
+      "shipFedeation": true,
       "factions": [
-        "romulan"
+        "federation"
       ]
     },
     {
@@ -23786,7 +23786,7 @@
       ],
       "name": "Shakedown Cruise Commander",
       "cost": 4,
-      "text": "<font size ='-1.5'><b>WHEN YOU WOULD REVEAL A SPEED 4 OR HIGHER MANEUVER:</b> Place 3 [time] Tokens on this card. If this ship has a 'hook' equipped, place only 2 [time] Tokens instead. \n Perform either a 4 [left-bank] or a 4 [right-bank] Maneuver instead and rotate this ship 90°.</font>",
+      "text": "<b>WHEN YOU WOULD REVEAL A SPEED 4 OR HIGHER MANEUVER:</b> Place 3 [time] Tokens on this card. If this ship has a 'hook' equipped, place only 2 [time] Tokens instead. \n Perform either a 4 [bank-left] or a 4 [bank-right] Maneuver instead and rotate this ship 90°.",
       "oneperShip": true,
       "captainFederation": true,
       "factions": [
@@ -23801,7 +23801,7 @@
       ],
       "name": "Task Force Commander",
       "cost": 4,
-      "text": "<font size ='-1'><b>SETUP:</b> Choose Faction. \n----------------------------------------\n <b>ACTION:</b> Target up to 2 friendly ships within range: \n This ship and the target ships gain +1 attack and defense die against ships of the chosen faction this game round. If the target ships are Federation, this ship and the target ships may perform the [target-lock] Action as a Free Action.</font>",
+      "text": "<font size ='-.5'><b>SETUP:</b> Choose Faction. \n----------------------------------------\n <b>ACTION:</b> Target up to 2 friendly ships within range: \n This ship and the target ships gain +1 attack and defense die against ships of the chosen faction this game round. If the target ships are Federation, this ship and the target ships may perform the [target-lock] Action as a Free Action.</font>",
       "unique": true,
       "captainFederation": true,
       "shipFederation": true,
