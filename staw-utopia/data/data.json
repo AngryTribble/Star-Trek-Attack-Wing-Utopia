@@ -23762,6 +23762,40 @@
   ],
   "upgrades": [
     {
+      "type": "talent",
+      "id": "E214",
+      "set": [
+        "75013"
+      ],
+      "name": "Task Force Commander",
+      "cost": 4,
+      "text": "<font size ='-1'><b>SETUP:</b> Choose Faction. \n----------------------------------------\n <b>ACTION:</b> Target up to 2 friendly ships within range: \n This ship and the target ships gain +1 attack and defense die against ships of the chosen faction this game round. If the target ships are Federation, this ship and the target ships may perform the [target-lock] Action as a Free Action.</font>",
+      "unique": true,
+      "captainFederation": true,
+      "shipFederation": true,
+      "range": "1 - 2",
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "talent",
+      "id": "E213",
+      "set": [
+        "75013"
+      ],
+      "name": "Fleet Coordination",
+      "cost": 3,
+      "text": "Treat friendly Federation ships at Range as though they were at Range 2 for the effects of cards equipped to this ship.",
+      "unique": true,
+      "captainFederation": true,
+      "shipFederation": true,
+      "range": "3",
+      "factions": [
+        "federation"
+      ]
+    },
+    {
   "type": "crew",
   "id": "C390",
   "set": [
