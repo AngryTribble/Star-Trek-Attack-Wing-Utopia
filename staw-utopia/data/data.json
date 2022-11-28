@@ -23769,7 +23769,7 @@
       ],
       "name": "Lasca",
       "cost": 1,
-      "text": "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target this ship or a friendly Federation ship within range. \n\n Flip 1 face-up damage card on the target ship facedown. If the target ship has the 'Federation Prototype' (hook) equipped, repair 1 Hull on the target ship.",
+      "text": "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target this ship or a friendly Federation ship within range. \n\n Flip 1 face-up damage card on the target ship facedown. If the target ship has the 'Federation Prototype' 'hook' equipped, repair 1 Hull on the target ship.",
       "Unique": true,
       "shipFederation": true,
       "range": "1",
