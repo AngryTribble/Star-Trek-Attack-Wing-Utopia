@@ -23762,6 +23762,40 @@
   ],
   "upgrades": [
     {
+      "type": "tech",
+      "id": "T277",
+      "set": [
+        "75013"
+      ],
+      "name": "Ablative Hull Armor",
+      "cost": 6,
+      "text": "<b>WHEN DEFENDING: MODIFY ATTACK DICE STEP:</b> \n Convert all [crit] to [hit] . \n----------------------------------------\n <b>WHEN DEFENDING: DEAL DAMAGE STEP:</b> \n Place damage cards this ship would receive under this card (Max 3) instead of beside this ship.",
+      "onePerShip": true,
+      "shipLimit": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "weapon",
+      "id": "W227",
+      "set": [
+        "75013"
+      ],
+      "name": "Multi-Vector Assault Mode",
+      "cost": 6,
+      "text": "<b>ATTACK (BATTLESTATIONS):</b> Disable this card and target an opposing ship. \n <b>AFTER ATTACKING:<\b> Place 2 Mission Tokens within range. You may make an additional attack with this weapon from each Mission Token placed by this card in any direction. Remove all Mission Tokens placed by this card from play after attacking. \n\n <i>Prometheus Class Only</i>",
+      "attack": "4",
+      "range": "1",
+      "OnePerShip": true,
+      "shipLimit": true,
+      "FrontArc": true,
+      "RearArc": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
       "type": "weapon",
       "id": "W226",
       "set": [
