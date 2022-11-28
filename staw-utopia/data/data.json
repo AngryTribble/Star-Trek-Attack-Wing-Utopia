@@ -23803,7 +23803,7 @@
       ],
       "name": "Quantum Torpedoes",
       "cost": 3,
-      "text": "The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n <b>ATTACK:</b> Spend this ship's [target-lock] Token, disable this card, and target an opposing ship. \n <b>DECLARE TARGET STEP:</b> Place an [aux] Token beside the defending ship. \n <b>ROLL ATTACK DICE STEP:</b> For each [crit] rolled. Add 1 [hit] . \n This upgrade costs +2 SP if not equipped to a Sovereign Class, Defiant Class, ? Class, or Akira Class ship.",
+      "text": "<font size ='-1'>The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n <b>ATTACK:</b> Spend this ship's [target-lock] Token, disable this card, and target an opposing ship. \n <b>DECLARE TARGET STEP:</b> Place an [aux] Token beside the defending ship. \n <b>ROLL ATTACK DICE STEP:</b> For each [crit] rolled. Add 1 [hit] . \n This upgrade costs +2 SP if not equipped to a Sovereign Class, Defiant Class, ? Class, or Akira Class ship.</font>",
       "attack": "*",
       "range": "2 - 3",
       "OnePerShip": true,
