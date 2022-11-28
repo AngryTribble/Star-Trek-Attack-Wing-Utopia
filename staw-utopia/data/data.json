@@ -23763,6 +23763,23 @@
   "upgrades": [
     {
       "type": "weapon",
+      "id": "W224",
+      "set": [
+        "75013"
+      ],
+      "name": "Photon Torpedoes",
+      "cost": 2,
+      "text": "The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> Spend this ship's [target-lock] Token, place 2 [time] Tokens on this card, and target an opposing ship. \n This ship may convert all [blank] into [battlestations] .",
+      "attack": "*",
+      "FrontArc": true,
+      "RearArc": true,
+      "range": "2 - 3",
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "weapon",
       "id": "W223",
       "set": [
         "75013"
