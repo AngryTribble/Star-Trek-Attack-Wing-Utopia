@@ -1879,6 +1879,44 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S353",
+      "set": [
+        "75013"
+      ],
+      "name": "U.S.S. Prometheus",
+      "class": "Prometheus Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "tech",
+        "weapon",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 4,
+      "shields": 5,
+      "cost": 28,
+      "text": "If this ship is equipped with the 'Federation Prototype' Starship Construction, Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+      "unique": true,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S352",
       "set": [
         "75012"
