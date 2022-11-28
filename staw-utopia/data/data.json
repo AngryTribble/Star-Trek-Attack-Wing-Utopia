@@ -23042,7 +23042,7 @@
       ],
       "name": "Disruptor Pulse",
       "cost": 3,
-      "text": "<b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n\n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your front arc and in range. \n\n Perform a separate attack against each target with this attack. \n\n <i>+3 SP for Non-Romulan Ships</i>",
+      "text": "<font size ='-1'><b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n\n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your front arc and in range. \n\n Perform a separate attack against each target with this attack. \n\n <i>+3 SP for Non-Romulan Ships</i></font>",
       "range": "1 - 2",
       "attack": "3",
       "factions": [
@@ -23073,7 +23073,7 @@
       ],
       "name": "Thalaron Weapon",
       "cost": 5,
-      "text": "<font size ='-2'><b>ATTACK:</b> Discard this card and target an opposing ship. \n\n Your opponent must discard either their Captain, Admiral, Ambassador, or a [crew] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, Ambassador, or [crew] Upgrade equipped to the defending ship. \n\n<i> Reman Warbird Only </i></font",
+      "text": "<font size ='-1.5'><b>ATTACK:</b> Discard this card and target an opposing ship. \n\n Your opponent must discard either their Captain, Admiral, Ambassador, or a [crew] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, Ambassador, or [crew] Upgrade equipped to the defending ship. \n\n<i> Reman Warbird Only </i></font",
       "range": "1 - 3",
       "unique": true,
       "frontarc": true,
