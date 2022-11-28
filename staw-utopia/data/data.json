@@ -23771,7 +23771,7 @@
       "cost": 0,
       "text": "<font size ='-.5'> The Attack Value of this [weapon] is equal to this ship's Primary Weapon Value and the cost of this [weapon] is equal to this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> You may fire this weapon in any direction.</font>",
       "shipFedeation": true,
-      "onePerShip": true,
+      "OnePerShip": true,
       "range": "1 - 2",
       "hullConstraint": "4+",
       "factions": [
@@ -23801,7 +23801,7 @@
       "name": "Shakedown Cruise Commander",
       "cost": 4,
       "text": "<b>WHEN YOU WOULD REVEAL A SPEED 4 OR HIGHER MANEUVER:</b> Place 3 [time] Tokens on this card. If this ship has a 'hook' equipped, place only 2 [time] Tokens instead. \n\n Perform either a 4 [bank-left] or a 4 [bank-right] Maneuver instead and rotate this ship 90°.",
-      "onePerShip": true,
+      "OnePerShip": true,
       "captainFederation": true,
       "factions": [
         "federation"
