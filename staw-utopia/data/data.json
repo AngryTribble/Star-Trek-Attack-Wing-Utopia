@@ -23763,6 +23763,23 @@
   "upgrades": [
     {
       "type": "weapon",
+      "id": "W223",
+      "set": [
+        "75013"
+      ],
+      "name": "Dorsal Phaser Array",
+      "cost": 0,
+      "text": "<font size ='-.5'> The Attack Value of this [weapon] is equal to this ship's Primary Weapon Value and the cost of this [weapon] is equal to this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> You may fire this weapon in any direction.</font>",
+      "shipFedeation": true,
+      "oneperShip": true,
+      "range": "1 - 2",
+      "hullConstraint": "4+",
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "weapon",
       "id": "W222",
       "set": [
         "75013"
