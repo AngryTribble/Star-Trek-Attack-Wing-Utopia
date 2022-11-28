@@ -1879,6 +1879,43 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S361",
+      "set": [
+        "75013"
+      ],
+      "name": "U.S.S. Sovereign",
+      "class": "Sovereign Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "weapon",
+        "crew",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 5,
+      "shields": 5,
+      "cost": 29,
+      "text": "<font size ='-1'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. \n----------------------------------------\n If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. \n----------------------------------------\n If equipped with the 'Federation Prototype' Starship Construction Upgrade - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+      "unique": true,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S360",
       "set": [
         "75013"
