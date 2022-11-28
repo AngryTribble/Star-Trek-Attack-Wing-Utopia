@@ -23070,7 +23070,7 @@
       ],
       "name": "Romulan Ale",
       "cost": 1,
-      "text": "This upgrade can be equipped to a ship without requiring an Upgrade Slot\n-----------------------------------\n<b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n-----------------------------------\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must conver 1 [hit] int 1 [blank] \n\n <i>+3 SP for Non-Romulan Ships</i>",
+      "text": "<font size='-1'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n-----------------------------------\n<b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n-----------------------------------\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must conver 1 [hit] int 1 [blank] \n\n <i>+3 SP for Non-Romulan Ships</i></font>",
       "OnePerShip": true,
       "factions": [
         "romulan"
