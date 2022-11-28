@@ -23035,6 +23035,21 @@
   ],
   "upgrades": [
     {
+      "type": "tech",
+      "id": "T274",
+      "set": [
+        "75012"
+      ],
+      "name": "Improved Cloaking",
+      "cost": 3,
+      "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak].",
+      "oneperShip": true,
+      "shipLimit": true,
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
       "type": "weapon",
       "id": "W221",
       "set": [
@@ -23045,6 +23060,7 @@
       "text": "<font size ='-1.5'> The Attack Value of this [weapon] is this ship's Primary Attack Value. \n----------------------------------------\n <b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship. \n If this is equipped to a Valdore Class, this ship rolls +2 Attack dice.\n----------------------------------------\n If this ship is not in the front arc of the defending ship, the defending ship also rolls -2 defense dice.</font>",
       "range": "2 - 3",
       "attack": "*",
+      "frontarc": true,
       "shipRomulan": true,
       "factions": [
         "romulan"
@@ -23058,7 +23074,7 @@
       ],
       "name": "Disruptor Pulse",
       "cost": 3,
-      "text": "<font size ='-1.5'><b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n\n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your front arc and in range. \n\n Perform a separate attack against each target with this attack. \n\n <i>+3 SP for Non-Romulan Ships</i></font>",
+      "text": "<font size ='-1.5'><b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your front arc and in range. \n Perform a separate attack against each target with this attack. \n\n <i>+3 SP for Non-Romulan Ships</i></font>",
       "range": "1 - 2",
       "attack": "3",
       "factions": [
