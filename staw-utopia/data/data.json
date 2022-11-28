@@ -23771,7 +23771,7 @@
       "cost": 0,
       "text": "<font size ='-.5'> The Attack Value of this [weapon] is equal to this ship's Primary Weapon Value and the cost of this [weapon] is equal to this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> You may fire this weapon in any direction.</font>",
       "shipFedeation": true,
-      "oneperShip": true,
+      "onePerShip": true,
       "range": "1 - 2",
       "hullConstraint": "4+",
       "factions": [
@@ -23801,7 +23801,7 @@
       "name": "Shakedown Cruise Commander",
       "cost": 4,
       "text": "<b>WHEN YOU WOULD REVEAL A SPEED 4 OR HIGHER MANEUVER:</b> Place 3 [time] Tokens on this card. If this ship has a 'hook' equipped, place only 2 [time] Tokens instead. \n\n Perform either a 4 [bank-left] or a 4 [bank-right] Maneuver instead and rotate this ship 90°.",
-      "oneperShip": true,
+      "onePerShip": true,
       "captainFederation": true,
       "factions": [
         "federation"
@@ -23937,7 +23937,7 @@
       "name": "Romulan Cloaking Device",
       "cost": 2,
       "text": "Add the [cloak] Action to this ship's Action Bar. \n----------------------------------------\n This ship may use either the 1 [bank-left], 1 [bank-right], 2 [bank-left], or 2 [bank-right] template when performing a [sensor-echo] Action instead. \n----------------------------------------\n If equipped to a Romulan ship, this ship may perform the [sensor-echo] Action as a Free Action. \n\n <i>+2 SP for Non-Romulan Ships</i>",
-      "oneperShip": true,
+      "onePerShip": true,
       "factions": [
         "romulan"
       ]
@@ -23964,7 +23964,7 @@
       "name": "Improved Cloaking",
       "cost": 3,
       "text": "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak]. \n\n <i>Reman Warbird Only</i>",
-      "oneperShip": true,
+      "onePerShip": true,
       "shipLimit": true,
       "factions": [
         "romulan"
