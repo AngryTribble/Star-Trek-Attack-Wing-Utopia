@@ -1879,6 +1879,41 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S368",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Starship",
+      "class": "Saber Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "weapon",
+        "weapon",
+        "crew"
+      ],
+      "attack": 3,
+      "agility": 2,
+      "hull": 3,
+      "shields": 2,
+      "cost": 12,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S367",
       "set": [
         "75013"
