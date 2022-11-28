@@ -23825,7 +23825,7 @@
       ],
       "name": "Flanking Attack",
       "cost": 3,
-      "text": "<font size ='-1.5'> The Attack Value of this [weapon] is this ship's Primary Attack Value. \n----------------------------------------\n <b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship. \n If this is equipped to a Valdore Class, this ship rolls +2 Attack dice.\n----------------------------------------\n If this ship is not in the front arc of the defending ship, the defending ship also rolls -2 defense dice.</font>",
+      "text": "<font size ='-1.65'> The Attack Value of this [weapon] is this ship's Primary Attack Value. \n----------------------------------------\n <b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship. \n If this is equipped to a Valdore Class, this ship rolls +2 Attack dice.\n----------------------------------------\n If this ship is not in the front arc of the defending ship, the defending ship also rolls -2 defense dice.</font>",
       "range": "2 - 3",
       "attack": "*",
       "frontarc": true,
