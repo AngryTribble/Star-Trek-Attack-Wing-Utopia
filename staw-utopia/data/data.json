@@ -23036,6 +23036,19 @@
   "upgrades": [
     {
       "type": "tech",
+      "id": "T275",
+      "set": [
+        "75012"
+      ],
+      "name": "Advanced Cloaking",
+      "cost": 4,
+      "text": "<b>WHEN ATTACKING:</b> If this ship is Cloaked and does not have an [aux] Token beside it, place an [aux] Token beside this ship. \n\n This ship's [cloak] Token does not flip to its red side this attack.",
+      "factions": [
+        "romulan"
+      ]
+    },
+    {
+      "type": "tech",
       "id": "T274",
       "set": [
         "75012"
