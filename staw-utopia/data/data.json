@@ -23762,6 +23762,20 @@
   ],
   "upgrades": [
     {
+      "type": "question",
+      "id": "Q020",
+      "set": [
+        "75013"
+      ],
+      "name": "EMH Mark I",
+      "cost": 3,
+      "text": "This card counts as a [crew] Upgrade or a [tech] Upgrade. \n----------------------------------------\n <b>ACTION:</b> Disable this card. \n Remove all [time] Tokens from each [crew] Upgrade equipped to this ship.",
+      "OnePerShip": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
       "type": "tech",
       "id": "T280",
       "set": [
