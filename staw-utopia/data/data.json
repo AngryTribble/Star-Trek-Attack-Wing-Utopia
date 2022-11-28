@@ -1879,6 +1879,42 @@
   "ships": [
     {
       "type": "ship",
+      "id": "S362",
+      "set": [
+        "75013"
+      ],
+      "name": "Federation Starship",
+      "class": "Sovereign Class",
+      "actions": [
+        "evade",
+        "target-lock",
+        "scan",
+        "battlestations"
+      ],
+      "upgrades": [
+        "tech",
+        "weapon",
+        "crew",
+        "crew"
+      ],
+      "attack": 5,
+      "agility": 1,
+      "hull": 5,
+      "shields": 4,
+      "cost": 29,
+      "text": "",
+      "unique": false,
+      "factions": [
+        "federation"
+      ],
+      "intercept": {
+        "ship": {},
+        "fleet": {}
+      },
+      "squadron": false
+    },
+    {
+      "type": "ship",
       "id": "S361",
       "set": [
         "75013"
