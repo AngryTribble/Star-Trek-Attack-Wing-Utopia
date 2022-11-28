@@ -17242,7 +17242,7 @@
       ],
       "name": "Alynna Nechayev",
       "unique": true,
-      "text": "<b>WHEN ATTACKING:</b> \n\n You may re-roll al [blank] . If the defending ship is either a Dominion ship or a Borg ship, roll +1 attack die.",
+      "text": "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank] . If the defending ship is either a Dominion ship or a Borg ship, roll +1 attack die.",
       "factions": [
         "federation"
       ],
@@ -22998,7 +22998,8 @@
       ],
       "name": "Theoderich Patterson",
       "unique": true,
-      "text": "<font size ='-.5'><b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repart 1 Hull on the target ship. If the target ship has a (hook) equipped, you may aslo remove an [aux] Token from beside that ship.</font>",
+      "text": "<font size ='-.5'><b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repair 1 Hull on the target ship. If the target ship has a (hook) equipped, you may also remove an [aux] Token from beside that ship.</font>",
+      "range": "1 - 2",
       "factions": [
         "federation"
       ],
@@ -23016,6 +23017,7 @@
       "name": "Strickler",
       "unique": true,
       "text": "<b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Target ship performs either a 1 [bank-left] or 1 [bank-right] Maneuver. If the target ship has the 'Federation Prototype' Starship Construction Upgrade, you may remove an [aux] Token from beside that ship.",
+      "range": "1 - 2",
       "factions": [
         "federation"
       ],
@@ -23783,7 +23785,7 @@
       ],
       "name": "Multi-Spectrum Shielding",
       "cost": 3,
-      "text": "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, oppsoing [tech] Upgrades cannot target this ship.",
+      "text": "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, opposing [tech] Upgrades cannot target this ship.",
       "OnePerShip": true,
       "costFederation": "+1",
       "factions": [
