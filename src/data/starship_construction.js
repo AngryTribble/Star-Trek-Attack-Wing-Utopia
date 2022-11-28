@@ -1,5 +1,5 @@
 module.exports = [{
-	type: "starshipconstruction",
+	type: "starship_construction",
 	id: "Con001",
 	set: ["75013"],
 	name: "Federation Prototype",

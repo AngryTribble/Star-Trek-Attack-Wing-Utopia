@@ -42734,9 +42734,9 @@
       ]
     }
   ],
-  "starshipconstruction": [
+  "starship_construction": [
     {
-      "type": "starshipconstruction",
+      "type": "starship_construction",
       "id": "Con001",
       "set": [
         "75013"
