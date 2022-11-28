@@ -17236,6 +17236,22 @@
   "captains": [
     {
       "type": "captain",
+      "id": "Cap019",
+      "set": [
+        "75013"
+      ],
+      "name": "Alynna Nechayev",
+      "unique": true,
+      "text": "<b>WHEN ATTACKING:</b> \n\n You may re-roll al [blank] . If the defending ship is either a Dominion ship or a Borg ship, roll +1 attack die.",
+      "factions": [
+        "federation"
+      ],
+      "cost": 4,
+      "skill": 6,
+      "talents": 1
+    },
+    {
+      "type": "captain",
       "id": "Cap018",
       "set": [
         "75013"
@@ -22957,6 +22973,23 @@
     }
   ],
   "admirals": [
+    {
+      "type": "admiral",
+      "id": "A041",
+      "set": [
+        "75013"
+      ],
+      "name": "Alynna Nechayev",
+      "unique": true,
+      "text": "<font size ='-1'><b>FLEET ACTION:</b> Target this ship and each other friendly ship within Range that has a Captain equipped with a printed Captain Skill number of 5 or less. \n\n Increase the Captain Skill of each target ship by up to 3 (You may choose a different value for each ship) until the end of the round. </font>",
+      "factions": [
+        "federation"
+      ],
+      "cost": 4,
+      "skill": 1,
+      "talents": 1,
+      "range": "1 - 2"
+    },
     {
       "type": "admiral",
       "id": "A040",
