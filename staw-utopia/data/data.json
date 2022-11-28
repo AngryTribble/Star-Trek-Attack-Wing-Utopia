@@ -22955,7 +22955,7 @@
       ],
       "name": "Kimara Cretak",
       "cost": 3,
-      "text": "<b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this SHip.' \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> \n All Romulan ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon] Upgrade equipped to this ship.'",
+      "text": "<font size='-1'><b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this SHip.' \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> \n All Romulan ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon] Upgrade equipped to this ship.'</font>",
       "unique": true,
       "factions": [
         "romulan"
@@ -22969,7 +22969,7 @@
       ],
       "name": "Vreenak",
       "cost": 3,
-      "text": "<b>NEGOTIATIONS ACCEPTED:</b> \n Discard an Upgrade of the opponent's choice equipped to this ship, and an Upgrade of your choice equipped to the target ship. \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> \n All Romulan ships (Friendly and opposing) gain +1 attack die <b>WHEN ATTACKING</b> with Romulan [weapon] Upgradess and their Primary Weapon for the rest of the game.",
+      "text": "<font size='-1'><b>NEGOTIATIONS ACCEPTED:</b> \n Discard an Upgrade of the opponent's choice equipped to this ship, and an Upgrade of your choice equipped to the target ship. \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> \n All Romulan ships (Friendly and opposing) gain +1 attack die <b>WHEN ATTACKING</b> with Romulan [weapon] Upgradess and their Primary Weapon for the rest of the game.</font>",
       "unique": true,
       "factions": [
         "romulan"
