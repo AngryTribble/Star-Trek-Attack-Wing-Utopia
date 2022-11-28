@@ -23763,6 +23763,20 @@
   "upgrades": [
     {
       "type": "crew",
+      "id": "C390",
+      "set": [
+        "75013"
+      ],
+      "name": "Geordi La Forge",
+      "cost": 2,
+      "text": "<b>REVEAL DIAL STEP:</b> When this ship reveals a [straight] Maneuver: Place 2 [time] Tokens on this card and choose 1 of the listed effects. \n\n *Treat the revealed Maneuver as a Green Maneuver. \n\n *Increase the speed of the revealed Maneuver by 1. The color of the Maneuver remains the same as the revealed Maneuver. \n\n If this ship has the 'Federation Prototype' 'hook' equipped, you may choose both effects.",
+      "Unique": true,
+      "factions": [
+        "federation"
+      ]
+    },
+    {
+      "type": "crew",
       "id": "C389",
       "set": [
         "75013"
