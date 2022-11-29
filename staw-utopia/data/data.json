@@ -17307,7 +17307,7 @@
       ],
       "name": "Lovok",
       "unique": true,
-      "text": "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank]. If equipped to a D'Deridex Class, you may also add 1 [hit].",
+      "text": "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a D'Deridex Class, you may also add 1 [hit].",
       "factions": [
         "romulan"
       ],
@@ -24066,7 +24066,7 @@
       ],
       "name": "Romulan Ale",
       "cost": 1,
-      "text": "<font size='-1.75'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n <b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] int 1 [blank]</font>",
+      "text": "<font size='-1.75'>This upgrade can be equipped to a ship without requiring an Upgrade Slot\n <b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] into 1 [blank]</font>",
       "OnePerShip": true,
       "costRomulan": "+3",
       "factions": [
