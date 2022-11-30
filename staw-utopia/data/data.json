@@ -1879,41 +1879,6 @@
   "ships": [
     {
       "type": "ship",
-      "id": "S378",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Starship",
-      "class": "Saber Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "weapon",
-        "weapon",
-        "crew"
-      ],
-      "attack": 3,
-      "agility": 2,
-      "hull": 3,
-      "shields": 2,
-      "cost": 12,
-      "text": "",
-      "unique": false,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
       "id": "S377",
       "set": [
         "75013"
@@ -1939,41 +1904,6 @@
       "cost": 15,
       "text": "<font size ='-1'><b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon] Upgrade equipped to the target ship.</font>",
       "unique": true,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
-      "id": "S376",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Starship",
-      "class": "Saber Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "weapon",
-        "weapon",
-        "crew"
-      ],
-      "attack": 3,
-      "agility": 2,
-      "hull": 3,
-      "shields": 2,
-      "cost": 12,
-      "text": "",
-      "unique": false,
       "factions": [
         "federation"
       ],
