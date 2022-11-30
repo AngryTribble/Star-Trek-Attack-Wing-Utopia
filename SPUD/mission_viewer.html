@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="utopia-set-viewer" ng-controller="UtopiaSetCtrl">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.powertip.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utopia.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utopia-print.css" media="print">
+
+        <title>Utopia Mission Viewer</title>
+
+		<script type="text/javascript" src="js/lib/jquery.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.powertip.min.js"></script>
+        <script type="text/javascript" src="js/lib/angular.js"></script>
+        <script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
+        <script type="text/javascript" src="js/utopia.min.js"></script>
+
+    </head>
+    <style>
+    .collapsible {
+      background-color: #777;
+      color: White;
+      cursor: pointer,
+      padding: 2px;
+      width: 100%;
+      border-style: solid;
+      border-width: 1px;
+      border-color: white;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .active, .collapsilbe.hover {
+      background-color: #555;
+    }
+
+    .collapsible:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #f1f1f1;
+    }
+    </style>
+    <body>
+
+		<div class="u-container">
+
+			<div class="u-search-results u-search-cols-1">
+
+				<div class="u-title"><i class="fs fs-unique"></i><b><mark> Utopia Mission Viewer - Under Construction! </mark></b></div>
+
+				<div class="text-center">Build your fleet with <a href="./index.html">Utopia</a></div>
+				<div class="text-center">Broswe all sets with the <a href="./set-viewer.html">Utopia Set Viewer</a></div>
+
+        <h1> Missions: </h1>
+        <button class="collapsible">The Human From Remus </button>
+        <div class="content">
+          <p><h2>Test</h2></p>
+        </div>
+
+			</div>
+
+		</div>
+
+    </body>
+</html>
