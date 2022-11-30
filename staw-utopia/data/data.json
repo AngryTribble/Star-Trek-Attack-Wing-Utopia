@@ -10411,7 +10411,7 @@
       "agility": 2,
       "hull": 3,
       "shields": 2,
-      "cost": 20,
+      "cost": 12,
       "unique": false,
       "factions": [
         "federation"
@@ -11711,7 +11711,7 @@
       "agility": 1,
       "hull": 5,
       "shields": 4,
-      "cost": 30,
+      "cost": 25,
       "unique": false,
       "factions": [
         "federation"
@@ -13464,7 +13464,7 @@
       "agility": 1,
       "hull": 4,
       "shields": 4,
-      "cost": 28,
+      "cost": 24,
       "unique": false,
       "factions": [
         "federation"
