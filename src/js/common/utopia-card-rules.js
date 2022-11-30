@@ -246,8 +246,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			ship: {
 				// Prometheus Class Restricted Upgrades -2SP
 				cost: function(upgrade, ship, fleet, cost) {
-					if( upgrade.name == "Ablative Hull Armor") || upgrade.name == "Regenerative Shields" || upgrade.name == "Multi-Vector Assault Mode")
-						return -2;
+					if( upgrade.name == "Ablative Hull Armor" || upgrade.name == "Regenerative Shields" || upgrade.name == "Multi-Vector Assault Mode")
+						return - 2;
 					return cost;
 				}
 			}
