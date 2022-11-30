@@ -2099,43 +2099,6 @@
     },
     {
       "type": "ship",
-      "id": "S365",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Class",
-      "class": "Prometheus Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "tech",
-        "tech",
-        "weapon",
-        "crew",
-        "crew"
-      ],
-      "attack": 5,
-      "agility": 1,
-      "hull": 4,
-      "shields": 4,
-      "cost": 24,
-      "text": "",
-      "unique": false,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
       "id": "S364",
       "set": [
         "75013"
