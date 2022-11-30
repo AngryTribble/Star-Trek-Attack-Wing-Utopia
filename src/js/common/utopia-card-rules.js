@@ -238,6 +238,22 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 				return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "independent", ship, fleet ) ? 0 : 1;
 			}
 		},
+//Ships of the Line
+
+//U.S.S. Prometheus
+  "ship:S362": {
+		intercept: {
+			ship: {
+				// Prometheus Class Restricted Upgrades -2SP
+				cost: function(upgrade, ship, fleet, cost) {
+					if( upgrade.name == "Ablative Hull Armor") || upgrade.name == "Regenerative Shields" || upgrade.name == "Multi-Vector Assault Mode")
+						return -2;
+					return cost;
+				}
+			}
+		}
+	},
+
 //Klingon Blood Oath Pack
 
 //Dahar Master
