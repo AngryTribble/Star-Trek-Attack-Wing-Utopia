@@ -2021,42 +2021,6 @@
     },
     {
       "type": "ship",
-      "id": "S374",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Starship",
-      "class": "Sovereign Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "tech",
-        "weapon",
-        "crew",
-        "crew"
-      ],
-      "attack": 5,
-      "agility": 1,
-      "hull": 5,
-      "shields": 4,
-      "cost": 25,
-      "text": "",
-      "unique": false,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
       "id": "S372",
       "set": [
         "75013"
@@ -2083,42 +2047,6 @@
       "cost": 29,
       "text": "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> \n <font size ='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a Sovereign Class it may also add 1 [hit]. If the defending ship is a Borg ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
       "unique": true,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
-      "id": "S371",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Starship",
-      "class": "Sovereign Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "tech",
-        "weapon",
-        "crew",
-        "crew"
-      ],
-      "attack": 5,
-      "agility": 1,
-      "hull": 5,
-      "shields": 4,
-      "cost": 25,
-      "text": "",
-      "unique": false,
       "factions": [
         "federation"
       ],
