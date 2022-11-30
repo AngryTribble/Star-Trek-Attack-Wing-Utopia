@@ -2095,42 +2095,6 @@
     },
     {
       "type": "ship",
-      "id": "S369",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Starship",
-      "class": "Akira Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "weapon",
-        "weapon",
-        "weapon",
-        "crew"
-      ],
-      "attack": 4,
-      "agility": 2,
-      "hull": 5,
-      "shields": 2,
-      "cost": 21,
-      "text": "",
-      "unique": false,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
       "id": "S368",
       "set": [
         "75013"
@@ -2157,42 +2121,6 @@
       "cost": 23,
       "text": "<font size ='-1.75'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n <b>WHEN ATTACKING A FEDERATION SHIP:</b>\n You may roll -2 attack dice. \n Place 1 [aux] Token beside the defending ship.</font>",
       "unique": true,
-      "factions": [
-        "federation"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
-      "id": "S367",
-      "set": [
-        "75013"
-      ],
-      "name": "Federation Starship",
-      "class": "Akira Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "scan",
-        "battlestations"
-      ],
-      "upgrades": [
-        "weapon",
-        "weapon",
-        "weapon",
-        "crew"
-      ],
-      "attack": 4,
-      "agility": 2,
-      "hull": 5,
-      "shields": 2,
-      "cost": 21,
-      "text": "",
-      "unique": false,
       "factions": [
         "federation"
       ],
