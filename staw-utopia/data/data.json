@@ -2673,42 +2673,6 @@
     },
     {
       "type": "ship",
-      "id": "S355",
-      "set": [
-        "75012"
-      ],
-      "name": "Romulan Starship",
-      "class": "D'deridex Class",
-      "actions": [
-        "evade",
-        "target-lock",
-        "cloak",
-        "sensor-echo"
-      ],
-      "upgrades": [
-        "tech",
-        "weapon",
-        "crew",
-        "crew"
-      ],
-      "attack": 3,
-      "agility": 2,
-      "hull": 6,
-      "shields": 3,
-      "cost": 25,
-      "text": "",
-      "unique": false,
-      "factions": [
-        "romulan"
-      ],
-      "intercept": {
-        "ship": {},
-        "fleet": {}
-      },
-      "squadron": false
-    },
-    {
-      "type": "ship",
       "id": "S354",
       "set": [
         "75012"
