@@ -24,7 +24,9 @@
 				<div class="u-title"><i class="fs fs-unique"></i>Utopia Set Viewer</div>
 
 				<div class="text-center">Build your fleet with <a href="./index.html">Utopia</a></div>
+        <div class="text-center">Browse all missions with the <a href="./mission_viewer.html">Utopia Mission Viewer</a></div><br />
         <div class="text-center">Official Rules <a href="./FAQ.html">FAQ</a> with sources.</div><br />
+        <div class="text-center">Find a Bug? <a href="mailto:antaresshipyard@gmail.com" > Alert Security Here</a></div><br>
 
 				<ul class="set-list">
 					<li ng-repeat="set in setList | orderBy:'-releaseDate'" ng-click="viewer.set = set" ng-class="{'set-selected': viewer.set == set}">{{set.parentSet}}: {{set.name}}</li>
