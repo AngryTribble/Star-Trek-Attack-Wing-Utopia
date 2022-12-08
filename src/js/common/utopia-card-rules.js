@@ -248,7 +248,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 					ship: {
 						shields: function(card,ship,fleet,shields) {
 							if( card == ship )
-								return resolve(card,ship,fleet,shields) 1;
+								return resolve(card,ship,fleet,shields) +1;
 							return shields;
 					}
 				}
