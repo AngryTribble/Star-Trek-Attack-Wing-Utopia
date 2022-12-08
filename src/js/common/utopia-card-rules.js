@@ -243,7 +243,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 //Renenerative Shields
   "tech:T278": {
 			canEquip: function(upgrade,ship,fleet) {
-				return ship.class == "Prometheus Class" && onePerShip("Regenerative Shields");
+				return ship.id == "S363" && onePerShip("Regenerative Shields");
 			}
 		},
 
