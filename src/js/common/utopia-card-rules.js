@@ -240,19 +240,13 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		},
 //Ships of the Line
 
-//U.S.S. Prometheus
-  "ship:S362": {
-		intercept: {
-			ship: {
-				// Prometheus Class Restricted Upgrades -2SP
-				cost: function(upgrade, ship, fleet, cost) {
-					if( upgrade.name == "Ablative Hull Armor" || upgrade.name == "Regenerative Shields" || upgrade.name == "Multi-Vector Assault Mode")
-						return - 2;
-					return cost;
-				}
-			}
+//Renenerative Shields
+  "tech:T278": {
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Regenerative Shields") && (ship.class == "Prometheus Class");
 		}
 	},
+
 
 //Klingon Blood Oath Pack
 
