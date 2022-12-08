@@ -243,10 +243,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 //Renenerative Shields
   "tech:T278": {
 			canEquip: function(upgrade,ship,fleet) {
-				return ship.class == "Prometheus Class";
+				return onePerShip("Prometheus Class") && (ship.class == "Prometheus Class");
 			}
 		},
-
 
 //Klingon Blood Oath Pack
 
