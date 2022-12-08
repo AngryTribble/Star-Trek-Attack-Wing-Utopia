@@ -242,27 +242,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Renenerative Shields
   "tech:T278": {
-		factionPenalty: function(upgrade, ship, fleet) {
-			return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-		},
-		type: "question",
-		isSlotCompatible: function(slotTypes) {
-			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
-		},
-		upgradeSlots: [
-			{
-				type: ["tech"]
+			canEquip: function(upgrade,ship,fleet) {
+				return ship.class == "Prometheus Class" && onePerShip("Regenerative Shields");
 			}
-		],
-		intercept: {
-			ship: {
-				shields: function(card,ship,fleet,shields) {
-					if( card == ship )
-						return resolve(card,ship,fleet,shields) + 1;
-					return shields;
-				}
-			}
-		}
 		},
 
 
