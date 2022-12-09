@@ -243,7 +243,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 //George Sanders
 "captain:Cap016":{
 	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factoins.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
 	}
 },
 
