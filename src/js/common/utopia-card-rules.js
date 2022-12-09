@@ -240,6 +240,13 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		},
 //Ships of the Line
 
+//George Sanders
+"captain:Cap016":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factoins.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
 //Renenerative Shields
   "tech:T278": {
 			canEquip: function(upgrade,ship,fleet) {
