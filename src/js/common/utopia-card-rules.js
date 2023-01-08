@@ -284,6 +284,15 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			}
 		},
 
+//Secrets of the Tal Shiar
+
+//Rekar
+"captain:Cap014":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "federation", ship, fleet ) ? 0 : 1;
+	}
+},
+
 //Klingon Blood Oath Pack
 
 //Dahar Master
