@@ -284,6 +284,29 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			}
 		},
 
+//Federation Prototype
+ "question:Q024":{
+ 	factionPenalty: function(upgrade, ship, fleet) {
+ 		return ship && $factions.hasFaction( ship, "federation", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "klingon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "romulan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "dominion", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "borg", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "independent", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "mirror universe", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "8472", ship, fleet ) ? 0 : 1;
+ 	},
+ 	canEquip: function(upgrade,ship,fleet) {
+ 		return (ship.name && (ship.name == "U.S.S. Prometheus" || ship.name == "U.S.S. Sovereign" || ship.name == "U.S.S. Akira" || ship.name == "U.S.S. Saber" || ship.name == "U.S.S. Excelsior" || ship.name == "U.S.S. Defiant" || ship.name == "U.S.S. Dauntless")) && onePerShip("Federation Prototype");
+ 	},
+ 	isSlotCompatible: function(slotTypes) {
+ 		return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
+ 	},
+ 	upgradeSlots: [
+		{
+			type: function(upgrade,ship) {
+				return getSlotType(upgrade,ship)
+			}
+		},
+		{
+			type: ["tech","weapon","crew"]
+		}
+	]
+},
+
 //Secrets of the Tal Shiar
 
 //Rekar
@@ -8823,6 +8846,7 @@ intercept: {
 			factionPenalty: function(upgrade, ship, fleet) {
 				return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet ) ? 0 : 1;
 			}},
+	 //Meridor - Gorn Ale
 		"question:Q013":{
 			factionPenalty: function(upgrade, ship, fleet) {
 				return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet ) ? 0 : 1;
