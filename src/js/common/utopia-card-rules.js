@@ -238,6 +238,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 				return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "independent", ship, fleet ) ? 0 : 1;
 			}
 		},
+
 //Ships of the Line
 
 //George Sanders
@@ -247,7 +248,21 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
-//George Sanders
+//Strickler
+"captain:Cap017":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Theoderich Patterson
+"captain:Cap018":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Alynna Nechayev
 "captain:Cap019":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
@@ -262,7 +277,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 					ship: {
 						shields: function(card,ship,fleet,shields) {
 							if( card == ship )
-								return resolve(card,ship,fleet,shields) +5;
+								return resolve(card,ship,fleet,shields) +1;
 							return shields;
 					}
 				}
