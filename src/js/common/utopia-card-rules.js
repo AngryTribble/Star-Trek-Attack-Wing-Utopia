@@ -605,6 +605,121 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	} ]
 },
 
+//Nevala
+"crew:C385":{
+	intercept: {
+		ship: {
+			skill: function(card,ship,fleet,skill) {
+				if( card == ship.captain )
+					return resolve(card,ship,fleet,skill) + ( hasFaction(card,"romulan",ship,fleet) ? 3 : 1 );
+				return skill;
+			}
+		}
+	}
+},
+
+// Covert Research
+"talent:E210": {
+	canEquipFaction: function(card,ship,fleet) {
+		return hasFaction(ship.captain,"romulan", ship, fleet);
+	}
+},
+
+//Outflank
+"talent:E211": {
+	canEquip: onePerShip("Outflank")
+},
+
+//Fire Everything!
+"talent:E212":{
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship,"romulan", ship, fleet) && hasFaction(ship.captain,"romulan", ship, fleet);
+	}
+},
+
+// Thalaron Weapon
+"weapon:W218": {
+	canEquip: function(upgrade,ship,fleet) {
+		return ship.class == "Reman Warbird";
+	}
+},
+
+//Aft Disruptor Emitters
+"weapon:W219": {
+	canEquip: onePerShip("Aft Disruptor Emitters"),
+	intercept: {
+		self: {
+			cost: function(upgrade,ship,fleet,cost) {
+				if( ship && !$factions.hasFaction( ship, "romulan", ship, fleet ) )
+					return resolve(upgrade,ship,fleet,cost) + 2;
+				return cost;
+			}
+		}
+	}
+},
+
+//Disruptor Pulse
+"weapon:W220": {
+	intercept: {
+		self: {
+			cost: function(upgrade,ship,fleet,cost) {
+				if( ship && !$factions.hasFaction( ship, "romulan", ship, fleet ) )
+					return resolve(upgrade,ship,fleet,cost) + 2;
+				return cost;
+			}
+		}
+	}
+},
+
+//Flanking Attack
+"weapon:W221": {
+	canEquip: function(card,ship,fleet) {
+		if( !hasFaction(ship,"romulan", ship, fleet) )
+			return false;
+	}
+},
+
+//Improved Cloaking Device
+"tech:T274": {
+	canEquip: function(upgrade,ship,fleet) {
+		return ship.class == "Reman Warbird";
+	}
+},
+
+// Romulan Cloaking Device
+	"tech:T121": {
+		intercept: {
+			self: {
+				cost: function(upgrade,ship,fleet,cost) {
+					if( ship && !$factions.hasFaction(ship,"romulan", ship, fleet))
+						return resolve(upgrade,ship,fleet,cost) + 2;
+					return cost;
+				},
+				canEquip: function(upgrade,ship,fleet) {
+					return onePerShip("Romulan Cloaking Device")(upgrade,ship,fleet);
+				}
+			}
+		}
+	},
+
+// Romulan Ale
+// TODO: Need to add +3 Non-Romulan Code
+	"question:Q022": {
+ 	 canEquip: function(upgrade,ship,fleet) {
+ 		 return onePerShip("Romulan Ale")(upgrade,ship,fleet);
+ 	 },
+ 	 isSlotCompatible: function(slotTypes) {
+ 		 return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
+ 	 },
+ 	 upgradeSlots: [
+ 		 {
+ 			 type: function(upgrade,ship) {
+ 				 return getSlotType(upgrade,ship);
+ 			 }
+ 		 }
+ 	 ],
+  },
+
 //Klingon Blood Oath Pack
 
 //Dahar Master
