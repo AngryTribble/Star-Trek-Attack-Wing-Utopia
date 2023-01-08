@@ -571,6 +571,40 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
+//Varak
+"crew:C380":{
+	upgradeSlots: [ { type: ["crew"] } ]
+},
+
+//Reman Helmsman
+"crew:C383":{
+	intercept: {
+		self: {
+			cost: function(upgrade,ship,fleet,cost) {
+				if (ship && !hasFaction(ship,"romulan",ship,fleet) )
+				return resolve(upgrade,ship,fleet,cost) +2;
+				return cost;
+			}
+		}
+	}
+},
+
+//T'Rul
+"crew:C384":{
+	upgradeSlots: [ {
+		type: ["tech"],
+		rules: "Free Romulan Cloaking Device Only",
+		canEquip: function(upgrade) {
+			return upgrade.name == "Romulan Cloaking Device";
+		},
+		intercept: {
+			ship: {
+				cost: function() {return 0; }
+			}
+		}
+	} ]
+},
+
 //Klingon Blood Oath Pack
 
 //Dahar Master
