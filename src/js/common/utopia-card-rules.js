@@ -673,10 +673,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Flanking Attack
 "weapon:W221": {
-	canEquip: function(card,ship,fleet) {
-		if( !hasFaction(ship,"romulan", ship, fleet) )
-			return false;
-	}
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship,"romulan", ship, fleet);
+  }
 },
 
 //Improved Cloaking Device
