@@ -320,6 +320,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 },
 
 //Type 10 Phasers
+// TODO: Need to figure out how to occupy 2 weapon slots
 "weapon:W222":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
@@ -445,6 +446,52 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		}
 	},
 
+//Multi-Spectrum Shielding
+	"tech:T280": {
+		factionPenalty: function(upgrade,ship,fleet) {
+			return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+		},
+		intercept: {
+			ship: {
+				shields: function(card,ship,fleet,shields) {
+					if( card == ship)
+					return resolve(card,ship,fleet,shields) +1;
+					return shields;
+				},
+				cost: function(card,ship,fleet,cost) {
+					if( ship && (!hasFaction(ship,"federation",ship,fleet) && !hasFaction(ship,"bajoran",ship,fleet) && !hasFaction(ship,"vulcan",ship,fleet) ) )
+						return resolve(card,ship,fleet,cost) + 1;
+					return cost;
+				}
+			}
+		}
+	},
+
+//EMH Mark I
+"question:Q023":{
+	factionPenalty: function(upgrade,ship,fleet) {
+		return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+	},
+	canEquip: onePerShip("EMH Mark I"),
+	isSlotCompatible: function(slotTypes) {
+		return $.inArray("tech", slotTypes) >= 0 || $.inArray("crew", slotTypes) >=0;
+	}
+},
+
+	//Repurposed Cargo Hold
+	"question:Q015":{
+		factionPenalty: function(upgrade, ship, fleet) {
+			return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet ) ? 0 : 1;
+		},
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "independent", ship, fleet ) || onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "ferengi", ship, fleet ) || onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "kazon", ship, fleet ) || onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "xindi", ship, fleet );
+		},
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
+		},
+		upgradeSlots: [ { type: ["tech", "weapon"] } ]
+	},
+
 //Geordi La Forge
 "crew:C390":{
 	factionPenalty: function(upgrade, ship, fleet) {
@@ -512,6 +559,15 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 "captain:Cap014":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "federation", ship, fleet ) ? 0 : 1;
+	},
+	intercept: {
+		ship: {
+			factionPenalty: function(card,ship,fleet,factionPenalty) {
+				if( card.type == "crew" && hasFaction(card,"romulan",ship,fleet) && hasFaction(ship,"federation",ship,fleet) )
+					return 0;
+				return factionPenalty;
+			}
+		}
 	}
 },
 
