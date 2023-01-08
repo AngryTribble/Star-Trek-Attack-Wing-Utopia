@@ -261,7 +261,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 "admiral:A039":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
-	}},
+	}
+},
 
 //Theoderich Patterson
 "captain:Cap018":{
@@ -274,7 +275,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 "admiral:A040":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
-	}},
+	}
+},
 
 //Alynna Nechayev
 "captain:Cap019":{
@@ -287,7 +289,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 "admiral:A041":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
-	}},
+	}
+},
 
 //Fleet Coordination
 "talent:E213":{
@@ -296,7 +299,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet);
-	}},
+	}
+},
 
 //Task Force Commander
 "talent:E214":{
@@ -305,10 +309,15 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet);
-	}},
+	}
+},
 
 //Shakedown Cruise Commander
-// TODO: Need Code
+"talent:E215":{
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship.captain,"federation", ship, fleet) && onePerShip("Shakedown Cruise Commander");
+	}
+},
 
 //Type 10 Phasers
 "weapon:W222":{
@@ -317,7 +326,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return hasFaction(ship,"federation", ship, fleet) && onePerShip("Type 10 Phasers");
-  },
+  }
 },
 
 // Dorsal Phaser Array
@@ -344,6 +353,97 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		}
 	}
 },
+
+//Photon Torpedoes
+"weapon:W224":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
+	attack: 0,
+	intercept: {
+		self: {
+			// Attack is same as ship primary + 1
+			attack: function(upgrade,ship,fleet,attack) {
+				if( ship )
+					return valueOf(ship,"attack",ship,fleet) + 1;
+				return attack;
+			}
+		}
+	}
+},
+
+// Dorsal Torpedo Pod
+"weapon:W225": {
+	canEquip: function(upgrade,ship,fleet) {
+		return ship.class.indexOf( "Akira Class" ) >= 0 && onePerShip("Dorsal Torpedo Pod");
+	},
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Quantum Torpedoes
+"weapon:W226":{
+	factionPenalty: function(upgrade,ship,fleet) {
+		return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+	},
+	canEquip: onePerShip("Quantum Torpedoes"),
+	attack: 0,
+		intercept: {
+			self: {
+				attack: function(upgrade,ship,fleet,attack) {
+					if( ship )
+						return valueOf(ship,"attack",ship,fleet) + 1;
+						return attack;
+				}
+			}
+		}
+},
+
+//Multi-Vector Assault Mode
+	"weapon:W227":{
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Prometheus Class" && onePerShip("Multi-Vector Assault Mode")
+		}
+	},
+
+//Ablative Hull Armor
+	"tech:T277":{
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Prometheus Class" && onePerShip("Ablative Hull Armor")
+		}
+	},
+
+//Regenerative Shields
+  "tech:T278": {
+			canEquip: function(upgrade,ship,fleet) {
+				return ship.class == "Prometheus Class"} && onePerShip("Regenerative Shields"),
+				intercept: {
+					ship: {
+						shields: function(card,ship,fleet,shields) {
+							if( card == ship )
+								return resolve(card,ship,fleet,shields) +1;
+							return shields;
+					}
+				}
+			}
+		},
+
+//Multiphasic Shielding
+	"tech:T279": {
+		factionPenalty: function(upgrade,ship,fleet) {
+			return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+		},
+		intercept: {
+			ship: {
+				shields: function(card,ship,fleet,shields) {
+					if( card == ship)
+					return resolve(card,ship,fleet,shields) +1;
+					return shields;
+				}
+			}
+		}
+	},
 
 //Geordi La Forge
 "crew:C390":{
@@ -382,21 +482,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
 	}
 },
-
-//Renenerative Shields
-  "tech:T278": {
-			canEquip: function(upgrade,ship,fleet) {
-				return ship.class == "Prometheus Class"},
-				intercept: {
-					ship: {
-						shields: function(card,ship,fleet,shields) {
-							if( card == ship )
-								return resolve(card,ship,fleet,shields) +1;
-							return shields;
-					}
-				}
-			}
-		},
 
 //Federation Prototype
  "question:Q024":{
