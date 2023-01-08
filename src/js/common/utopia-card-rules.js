@@ -241,6 +241,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Ships of the Line
 
+//U.S.S. Prometheus
+
 //George Sanders
 "captain:Cap016":{
 	factionPenalty: function(upgrade, ship, fleet) {
@@ -255,6 +257,12 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
+//Strickler - Admiral
+"admiral:A039":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
+	}},
+
 //Theoderich Patterson
 "captain:Cap018":{
 	factionPenalty: function(upgrade, ship, fleet) {
@@ -262,8 +270,114 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
+//Theoderich Patterson - Admiral
+"admiral:A040":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
+	}},
+
 //Alynna Nechayev
 "captain:Cap019":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Alynna Nechayev - Admiral
+"admiral:A041":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
+	}},
+
+//Fleet Coordination
+"talent:E213":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet);
+	}},
+
+//Task Force Commander
+"talent:E214":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet);
+	}},
+
+//Shakedown Cruise Commander
+// TODO: Need Code
+
+//Type 10 Phasers
+"weapon:W222":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	},
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship,"federation", ship, fleet) && onePerShip("Type 10 Phasers");
+  },
+},
+
+// Dorsal Phaser Array
+// TODO: Need to work on One Per Ship Rule
+"weapon:W223": {
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship,"federation", ship, fleet) && onePerShip("Dorsal Phaser Array") && ship.hull >= 4;
+  },
+	intercept: {
+		self: {
+			attack: function(upgrade,ship,fleet,attack) {
+				if ( ship )
+					return valueOf(ship,"attack",ship,fleet);
+				return attack;
+			},
+			cost: function(upgrade,ship,fleet,cost) {
+				if ( ship )
+					return resolve(upgrade,ship,fleet,cost) + valueOf(ship,"attack",ship,fleet) +1;
+					return cost;
+			}
+		}
+	}
+},
+
+//Geordi La Forge
+"crew:C390":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Lasca
+"crew:C389":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	},
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship,"federation", ship, fleet);
+  },
+},
+
+//Montgomery Scott
+"crew:C388":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Harry Kim
+"crew:C387":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Benjamin Sisko
+"crew:C386":{
 	factionPenalty: function(upgrade, ship, fleet) {
 		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
 	}
