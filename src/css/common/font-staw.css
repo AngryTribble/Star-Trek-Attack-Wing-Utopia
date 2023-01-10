@@ -341,6 +341,10 @@
   content: "A";
 }
 
+.fs-starship_construction:before {
+  content: "A";
+}
+
 .fs-resource:before {
   content: "A";
 }

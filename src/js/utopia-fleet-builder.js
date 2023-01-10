@@ -216,6 +216,23 @@ module.directive( "fleetBuilder", [ "$filter", function($filter) {
 
 			};
 
+			$scope.setShipConstruction = function(fleet, ship, construction) {
+				if( construction.type != "starship_construction" ) {
+					console.log("card is not a starship_construction");
+					return false;
+				}
+
+				// Check interceptors
+				var canEquip = valueOf(construction,"canEquipConstruction",ship,fleet);
+				if( !canEquip ) {
+					console.log("equip stopped by interceptor");
+					return false;
+				}
+
+				ship.construction = angular.copy(construction);
+				return ship.construction;
+			};
+
 			$scope.fleetHasAdmiral = function( fleet ) {
 
 				var hasAdmiral = false;
@@ -423,6 +440,14 @@ module.directive( "fleetBuilder", [ "$filter", function($filter) {
 						return false;
 					}
 
+					if( card == ship.construction ) {
+						if( replaceWith && replaceWith.type == "construction" )
+							ship.construction = replaceWith;
+						else
+							delete ship.construction;
+						return false;
+					}
+
 					var found = false;
 
 					$.each( $scope.getUpgradeSlots(ship), function(j,slot) {
@@ -466,6 +491,9 @@ module.directive( "fleetBuilder", [ "$filter", function($filter) {
 				if( ship.ambassador )
 					if( !valueOf(ship.ambassador,"free",ship,fleet) )
 						cost += valueOf(ship.ambassador,"cost",ship,fleet);
+				
+				if( ship.construction && !valueOf(ship.construction,"free",ship,fleet) )
+						cost += valueOf(ship.construction,"cost",ship,fleet);
 
 				$.each( $scope.getUpgradeSlots(ship), function(i,slot) {
 					if( slot.occupant )
@@ -536,6 +564,9 @@ module.directive( "fleetBuilder", [ "$filter", function($filter) {
 
 				if( card.ambassador )
 					saved.ambassador = saveCard(card.ambassador);
+				
+				if( card.construction )
+					saved.construction = saveCard(card.construction);
 
 				var upgrades = [];
 				// TODO Consider switching ship.upgrades to .upgradeSlots
@@ -621,6 +652,15 @@ module.directive( "fleetBuilder", [ "$filter", function($filter) {
 							var ambassador = $scope.setShipAmbassador( fleet, card, result.card );
 							if( ambassador )
 								result.promulgate(ambassador);
+						}
+					}
+
+					if( savedCard.construction ) {
+						var result = loadCard(fleet, cards, savedCard.construction, card);
+						if( result ) {
+							var construction = $scope.setShipConstruction( fleet, card, result.card );
+							if( construction )
+								result.promulgate(construction);
 						}
 					}
 
