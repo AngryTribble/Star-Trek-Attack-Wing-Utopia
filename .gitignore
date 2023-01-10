@@ -43,4 +43,3 @@ node_modules/*
 #package-lock.json
 **/debug.log
 **/npm-debug.log
-src/index.html
