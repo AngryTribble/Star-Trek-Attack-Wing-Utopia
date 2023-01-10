@@ -7246,6 +7246,16 @@ intercept: {
 
 
 	// I.R.W. Jazkal :72233
+
+	//Vrax
+	"captain:Cap331": {
+		upgradeSlots: [ {
+			type: ["crew"],
+			rules: "Reman Bodyguards Only",
+	}
+]
+},
+
 	// Prototype Cloaking Device - +5 SP for any non-Romulan ship, one per ship only
 		"tech:T121": {
 			intercept: {
