@@ -218,6 +218,38 @@ module.factory( "cardLoader", [ "$http", "$filter", "cardRules", "$factions", fu
 
 		}
 
+		var constructionDefaults = {
+			intercept: { ship: {}, fleet: {} },
+			canEquipConstruction: true,
+		};
+
+		function loadConstruction(construction) {
+      console.log(`Load construction card: ${construction.type}:${construction.id}`);
+			console.dir(construction);
+			$.extend(true, construction, constructionDefaults);
+
+			if(construction.factionPenalty == undefined )
+				construction.factionPenalty = 0;
+
+			// Set mirror flag
+			construction.mirror = $factions.hasFaction(construction, "mirror-universe");
+
+			construction.upgradeSlots = [];
+
+			// Apply specific card rules
+			if( cardRules[construction.type+":"+construction.id] )
+				$.extend( true, construction, cardRules[construction.type+":"+construction.id] );
+
+			// Set the source of any special upgrade slots
+			$.each( construction.upgradeSlots || [], function(i,slot) {
+				if( !slot.source )
+					slot.source = construction.name;
+			} );
+
+			cards.push( construction );
+
+		}
+
 		var upgradeDefaults = {
 			intercept: { ship: {}, fleet: {} },
 			canEquip: true,
@@ -240,9 +272,9 @@ module.factory( "cardLoader", [ "$http", "$filter", "cardRules", "$factions", fu
 			upgrade.mirror = $factions.hasFaction(upgrade, "mirror-universe");
 
 			// Apply specific card rules
-			if( cardRules[upgrade.type+":"+upgrade.id] )
+			if( cardRules[upgrade.type+":"+upgrade.id] ) 
 				$.extend( true, upgrade, cardRules[upgrade.type+":"+upgrade.id] );
-
+			
 			// Set the source of any special upgrade slots
 			$.each( upgrade.upgradeSlots || [], function(i,slot) {
 				if( !slot.source )
@@ -446,6 +478,13 @@ module.factory( "cardLoader", [ "$http", "$filter", "cardRules", "$factions", fu
 					copies.push(ambassador);
 				else
 					loadAmbassador(ambassador);
+			});
+
+			$.each( data.starship_construction || [], function(i, construction) {
+				if( construction.type == "copy" )
+					copies.push(construction);
+				else
+					loadConstruction(construction);
 			});
 
 			$.each( data.upgrades || [], function(i,upgrade) {

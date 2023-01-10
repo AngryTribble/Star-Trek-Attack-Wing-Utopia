@@ -106,7 +106,7 @@ module.exports = function(grunt) {
 				src: [ "jquery.powertip.min.css" ],
 				dest: "staw-utopia/css/",
 			}
-		}
+		},
 	
 	});
 
@@ -137,7 +137,7 @@ module.exports = function(grunt) {
 			done();
 		});
 	})
-	
+
 	//grunt.registerTask('default', ["clean","build-js","build-css","build-index","build-data","copy","clean:templates"]);
 	grunt.registerTask('default', ["build-js","build-css","build-index","build-data","copy","clean:templates"]);
 };

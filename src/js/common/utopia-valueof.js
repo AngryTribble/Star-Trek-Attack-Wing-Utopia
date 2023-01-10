@@ -36,6 +36,8 @@ module.filter( "upgradeSlots", function() {
 			toCheck = toCheck.concat(ship.admiral.upgradeSlots);
 		if( ship.ambassador && ship.ambassador.upgradeSlots )
 			toCheck = toCheck.concat(ship.ambassador.upgradeSlots);
+		if( ship.construction && ship.construction.upgradeSlots)
+			toCheck = toCheck.concat(ship.construction.upgradeSlots);
 
 		toCheck = toCheck.concat( ship.upgrades ).concat( ship.upgradeSlots );
 
@@ -108,6 +110,9 @@ module.filter( "shipInterceptors", [ "$filter", function($filter) {
 
 		if( ship.ambassador && ship.ambassador.intercept[type][field] )
 				wrapInterceptors( ship.ambassador.intercept[type][field], ship.ambassador, interceptors );
+
+		if( ship.construction && ship.construction.intercept[type][field] )
+				wrapInterceptors( ship.construction.intercept[type][field], ship.construction, interceptors );
 
 		if( ship.intercept && ship.intercept[type][field] )
 			wrapInterceptors( ship.intercept[type][field], ship, interceptors );
