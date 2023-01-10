@@ -10276,7 +10276,7 @@ intercept: {
 		//Photonic Auto-Cannon
 		"weapon:W212":{
 			canEquipFaction: function(upgrade,ship,fleet) {
-				return hasFaction(ship,"vulcan", ship, fleet);
+				return hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Photonic Auto-Cannon");
 		}},
 
 		//Aft Particle Beam
@@ -10516,7 +10516,7 @@ intercept: {
 
 
 
-	
+
 	// RESOURCES
 
 	//Sickbay

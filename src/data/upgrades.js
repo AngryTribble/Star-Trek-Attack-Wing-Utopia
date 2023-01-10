@@ -1513,6 +1513,7 @@ module.exports = [
 		name: "Photonic Auto-Cannon",
 		text: "<b>ATTACK:</b> If this ship has a [scan] Token beside it, place 3 [time] Tokens on this card and target an opposing ship.\n\nConvert all [battlestations] into [hit].",
 		cost: 3,
+		OnePerShip: true,
 		attack: "5",
 		range: "2 - 3",
 		shipVulcan: true,
