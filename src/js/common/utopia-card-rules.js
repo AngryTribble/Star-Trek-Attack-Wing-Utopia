@@ -8050,11 +8050,12 @@ intercept: {
 			factionPenalty: function(upgrade, ship, fleet) {
 				return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "independent", ship, fleet ) ? 0 : 1;
 			},
-			// Only one per ship
-			canEquip: onePerShip("Biometric Hologram"),
+			// One Per Ship & Xindi Ship Only
 			canEquipFaction: function(upgrade,ship,fleet) {
-				return ship.captain &&  $factions.hasFaction(ship,"xindi", ship, fleet) &&  $factions.hasFaction(ship.captain,"xindi", ship, fleet);
-		}},
+				return $factions.hasFaction(ship,"xindi", ship, fleet);
+			},
+			canEquip: onePerShip("Biometric Hologram")
+				},
 		//Subspace Vortex
 		"tech:T144":{
 			factionPenalty: function(upgrade, ship, fleet) {
