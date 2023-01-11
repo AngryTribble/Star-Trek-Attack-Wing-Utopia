@@ -93,6 +93,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 				if( slot.occupant && slot.occupant != upgrade && slot.occupant.name == name ) {
 					alreadyEquipped = true;
 				}
+				if(slot.occupant)
+					console.log(`${slot.occupant} && ${slot.occupant} != ${upgrade} && ${slot.occupant.name} == ${name}`);
+
 			});
 			return !alreadyEquipped;
 
@@ -193,6 +196,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return returnValue;
 	}
 
+	// the following return object represents a massive lookup table to resolve special card rules by a key of "cardType:cardId"
 	return {
 
 	//Generic Captains
@@ -5256,7 +5260,7 @@ intercept: {
 		// Multi-Vector Assault Mode
 		"weapon:W030": {
 			canEquip: function(card,ship,fleet) {
-				return ship.class == "Prometheus Class";
+				return ship.class == "Prometheus Class" && onePerShip("Multi-Vector Assault Mode");
 			},
 		},
 
@@ -11481,6 +11485,20 @@ intercept: {
 					}
 				}
 			} ]
+		},
+
+		"ship:S362": {
+				intercept: {
+					ship: {
+						cost: function(upgrade, ship, fleet, cost) {
+							// if starship_construction 'Federation Prototype' equipped then -2 SP for all 'prometheus restricted' upgrades
+							if( ship && ship.construction && ship.construction.id == "Con001" 
+								&& (upgrade.text.includes('may only be purchased for a Prometheus Class ship') || upgrade.text.includes('Prometheus Class Only') ) )
+								return resolve(upgrade, ship, fleet, cost) - 2;
+							return cost;
+						}
+					}
+				}	
 		}
 	};
 }]);
