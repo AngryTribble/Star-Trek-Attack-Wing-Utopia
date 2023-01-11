@@ -93,9 +93,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 				if( slot.occupant && slot.occupant != upgrade && slot.occupant.name == name ) {
 					alreadyEquipped = true;
 				}
-				if(slot.occupant)
-					console.log(`${slot.occupant} && ${slot.occupant} != ${upgrade} && ${slot.occupant.name} == ${name}`);
-
 			});
 			return !alreadyEquipped;
 
