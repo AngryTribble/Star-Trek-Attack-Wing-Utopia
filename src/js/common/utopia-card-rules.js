@@ -10002,18 +10002,19 @@ intercept: {
 		},
 		//Borg Queen
 		"captain:Cap911":{
-			canEquipFaction: function(card,ship,fleet) {
-				return $factions.hasFaction( card, "borg", ship, fleet )
-			}},
+				canEquipCaptain: function(card,ship,fleet) {
+					return hasFaction(ship,"borg", ship, fleet);
+				}
+			},
 		// Locutus
 		"captain:Cap910":{
 			// Can't equip if fleet contains Jean-Luc Picard
 			canEquipCaptain: function(upgrade, ship, fleet) {
 				return !$filter("fleetCardNamed")(fleet, "Jean-Luc Picard");
 			},
-			canEquipFaction: function(card,ship,fleet) {
-				return $factions.hasFaction( card, "borg", ship, fleet )
-			},
+				canEquipCaptain: function(card,ship,fleet) {
+					return hasFaction(ship,"borg", ship, fleet);
+				},
 			upgradeSlots: [
 				{
 					type: ["talent"]
@@ -10381,9 +10382,11 @@ intercept: {
 	//Dominion Cardassian Faction Pack
 		//Gul Dukat
 		"captain:Cap826":{
-			canEquipFaction: function(upgrade,ship,fleet) {
+			canEquipCaptain: function(card,ship,fleet) {
 				return hasFaction(ship,"dominion", ship, fleet);
-			}},
+			}
+		},
+
 		//Kanar
 		"question:Q018":{
 			canEquip: onePerShip("Kanar"),
