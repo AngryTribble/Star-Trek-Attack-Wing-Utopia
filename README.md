@@ -1,4 +1,4 @@
-[Utopia: A Fleet Builder for Star Trek Attack Wing](https://kfnexus.github.io/staw-utopia/index.html)
+[Utopia: A Fleet Builder for Star Trek Attack Wing](https://angrytribble.github.io/Star-Trek-Attack-Wing-Utopia)
 =====================================================================================================
 
 
