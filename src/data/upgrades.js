@@ -50,7 +50,7 @@ module.exports = [
 		],
 		name: "Regenerative Shields",
 		cost: 4,
-		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n <b>END PHASE</b>: \n Repair 1 Shield on this ship. If there are no [aux] Tokens beside this ship, you may repair 2 Shields on this ship instead. \n<i>Prometheus Class</i>",
+		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n <b>END PHASE</b>: \n Repair 1 Shield on this ship. If there are no [aux] Tokens beside this ship, you may repair 2 Shields on this ship instead. \n<i>Prometheus Class Only</i>",
 		OnePerShip: true,
 		shipLimit: true,
 		factions: [
