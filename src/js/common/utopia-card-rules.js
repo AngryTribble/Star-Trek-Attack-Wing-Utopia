@@ -299,7 +299,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
-		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet);
+		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet) && hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain,"bajoran", ship, fleet) || hasFaction(ship.captain,"vulcan", ship, fleet);
 	}
 },
 
@@ -309,14 +309,14 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
-		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet);
+		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet) && hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain,"bajoran", ship, fleet) || hasFaction(ship.captain,"vulcan", ship, fleet);
 	}
 },
 
 //Shakedown Cruise Commander
 "talent:E215":{
 	canEquipFaction: function(upgrade,ship,fleet) {
-		return hasFaction(ship.captain,"federation", ship, fleet) && onePerShip("Shakedown Cruise Commander");
+		return hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain,"bajoran", ship, fleet) || hasFaction(ship.captain,"vulcan", ship, fleet) && onePerShip("Shakedown Cruise Commander");
 	}
 },
 
@@ -327,7 +327,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
-		return hasFaction(ship,"federation", ship, fleet) && onePerShip("Type 10 Phasers");
+		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Type 10 Phasers");
   }
 },
 
