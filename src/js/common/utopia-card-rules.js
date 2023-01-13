@@ -911,7 +911,11 @@ intercept: {
 			},
 			intercept: {
 				ship: {
-					cost: function() { return 0; }
+					cost: function(upgrade, ship, fleet, cost) {
+						if(upgrade.title.includes('Photon Torpedoes') || upgrade.text.includes('Quantum Torpedoes') )
+						return 0;
+					return cost;
+					}
 				}
 			}
  	} ]
@@ -3069,12 +3073,12 @@ intercept: {
 							},
 							free: function() {
 								return true;
-							}
-						}
-					}
+							},
 				}
-			]
-		},
+		}
+	}
+]
+},
 		//Odo
 		"crew:C113":{
 			factionPenalty: function(upgrade, ship, fleet) {
