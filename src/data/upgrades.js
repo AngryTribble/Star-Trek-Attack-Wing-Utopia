@@ -167,7 +167,7 @@ module.exports = [
 		cost: 3,
 		text: "This card fills 2 [weapon] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.",
 		OnePerShip: true,
-		shipFederation:true,
+		shipFederation: true,
 		factions: [
 			"federation"
 		]
