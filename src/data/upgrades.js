@@ -149,7 +149,7 @@ module.exports = [
 		name: "Dorsal Phaser Array",
 		cost: 0,
 		text: "<font size ='-.5'> The Attack Value of this [weapon] is equal to this ship's Primary Weapon Value and the cost of this [weapon] is equal to this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> You may fire this weapon in any direction.</font>",
-		shipFedeation: true,
+		shipFederation: true,
 		OnePerShip: true,
 		range: "1 - 2",
 		hullConstraint: "4+",
@@ -167,7 +167,7 @@ module.exports = [
 		cost: 3,
 		text: "This card fills 2 [weapon] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.",
 		OnePerShip: true,
-		shipFedeation: true,
+		shipFederation:true,
 		factions: [
 			"federation"
 		]

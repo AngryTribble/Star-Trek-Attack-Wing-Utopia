@@ -338,7 +338,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
-		return hasFaction(ship,"federation", ship, fleet) && onePerShip("Dorsal Phaser Array") && ship.hull >= 4;
+		return ship && ( $factions.hasFaction(ship,"federation", ship, fleet) || $factions.hasFaction(ship,"bajoran", ship, fleet) || $factions.hasFaction(ship,"vulcan", ship, fleet) ) && ship.hull >= 4 && onePerShip("Dorsal Phaser Array");
   },
 	intercept: {
 		self: {
