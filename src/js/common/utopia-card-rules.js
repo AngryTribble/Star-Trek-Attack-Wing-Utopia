@@ -397,7 +397,12 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 					if( ship )
 						return valueOf(ship,"attack",ship,fleet) + 1;
 						return attack;
-				}
+				},
+			cost: function(upgrade,ship,fleet,cost) {
+				if( ship.class == "Galaxy Class" || ship.class == "Constitution Class" || ship.class =="Miranda Class" || ship.class =="Nor Class Orbital Space Station" || ship.class == "Vor'cha Class" || ship.class =="D'Deridex Class" || ship.class == "Breen Battle Cruiser" || ship.class == "Cardassian Galor Class" || ship.class == "Negh'Var Class" || ship.class == "D7 Class" || ship.class == "Romulan Science Vessel" || ship.class == "Valdore Class" || ship.class == "D'Kora Class" || ship.class == "Jem'Hadar Attack Ship" || ship.class == "Romulan Bird-Of-Prey" || ship.class == "K't'inga Class" || ship.class == "B'Rel Class" || ship.class == "Cardassian Keldon Class" || ship.class == "Romulan Scout Ship" || ship.class == "K'Vort Class" || ship.class == "Excelsior Class" || ship.class == "Nebula Class" || ship.class == "Raptor Class" || ship.class == "Jem'Hadar Battleship" || ship.class == "Nova Class" || ship.class == "Bajoran Scout Ship" || ship.class == "Borg Sphere" || ship.class == "Kazon Raider" || ship.class == "Species 8472 Bioship" || ship.class == "Intrepid Class" || ship.class == "Tholian Vessel" || ship.class == "Gorn Raider" || ship.class == "D'Kyr Class" || ship.class == "Bajoran Interceptor" || ship.class == "Borg Tactical Cube" || ship.class == "Maquis Raider" || ship.class == "Saber Class" || ship.class == "Suurok Class" || ship.class == "Jem'Hadar Battle Cruiser" || ship.class == "Constitution Refit Class" || ship.class == "Borg Type 03" || ship.class == "Aerie Class" || ship.class == "Constellation Class" || ship.class == "Federation NX Class" || ship.class == "Borg Scout Cube" || ship.class == "Predator Class" || ship.class == "Borg Octahedron" || ship.class == "Reman Warbird" || ship.class == "Klingon Bird-Of-Prey" || ship.class == "Borg Cube" || ship.class == "Vidiian Battle Cruiser" || ship.class == "Hirogen Warship" || ship.class == "Romulan Drone Ship" || ship.class == "Type 7 Shuttlecraft" || ship.class == "Oberth class" || ship.class == "Terran NX Class" || ship.class == "Krenim Weapon Ship" || ship.class == "Prometheus Class" || ship.class == "Olympic Class" || ship.class == "Dauntless Class" || ship.class == "Ferengi Shuttle" || ship.class == "Delta Flyer Class Shuttlecraft" || ship.class == "Scorpion Class Attack Squadron" || ship.class == "Cardassian ATR-4107" || ship.class == "Bajoran Solar Sailor" || ship.class == "Xindi Insectoid Starship" || ship.class == "Xindi Aquatic Cruiser" || ship.class == "Xindi Reptilian Warship" || ship.class == "Andorian Battle Cruiser" || ship.class == "Xindi Weapon")
+					return resolve(upgrade,ship,fleet,cost) +2;
+				return cost;
+			}
 			}
 		}
 },
@@ -2677,7 +2682,7 @@ intercept: {
 						priority: 100,
 						fn: function(upgrade,ship,fleet,cost) {
 							if( checkUpgrade("weapon", upgrade, ship)
-							     && upgrade.name != "Torpedo Fusillade" && upgrade.id != "W057" && upgrade.name != "Aft Phaser Emitters" && upgrade.id != "W156" && upgrade.id != "W199") {
+							     && upgrade.name != "Torpedo Fusillade" && upgrade.id != "W057" && upgrade.name != "Aft Phaser Emitters" && upgrade.id != "W156" && upgrade.id != "W199" && upgrade.id !="W223") {
 								cost = resolve(upgrade,ship,fleet,cost);
 								if( cost <= 5 )
 									cost -= 2;
