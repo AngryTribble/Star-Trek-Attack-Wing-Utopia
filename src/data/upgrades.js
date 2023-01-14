@@ -760,7 +760,7 @@ module.exports = [
 			"75011"
 		],
 		name: "Experimental Torpedo Bay",
-		text: "<b>START OF THE GAME:</b> Place a Torpedo [weapon] Upgrade with a printed SP cost of 5 or less face down beneath this card.\n----------------------------------------\n<b>COMBAT PHASE:</b> Discard this card.\n\nFlip the card beneath this card face up and equip it to this ship, ignoring restrictions. (Utopia Note: Code still in progress)",
+		text: "<b>START OF THE GAME:</b> Place a Torpedo [weapon] Upgrade with a printed SP cost of 5 or less face down beneath this card.\n----------------------------------------\n<b>COMBAT PHASE:</b> Discard this card.\n\nFlip the card beneath this card face up and equip it to this ship, ignoring restrictions.",
 		cost: 2,
 		unique: true,
 		factions: [

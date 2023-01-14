@@ -551,13 +551,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
-//B-4
-"crew:C381":{
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "independent", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet) ? 0 : 1 && $factions.hasFaction( ship, "ferengi", ship, fleet) ? 0 : 1;
-	}
-},
-
 // Covert Research
 "talent:E210": {
 	canEquipFaction: function(card,ship,fleet) {
@@ -642,7 +635,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	},
 
 // Romulan Ale
-// TODO: Need to add +3 Non-Romulan Code
 	"question:Q022": {
  	 canEquip: function(upgrade,ship,fleet) {
  		 return onePerShip("Romulan Ale")(upgrade,ship,fleet);
@@ -774,13 +766,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Federation Boldly Go Pack
 
-//Leyton
-"admiral:A037":{
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
-	}},
-
-// Keogh
+// U.S.S. Spector
 "ship:S342": {
 intercept: {
 	ship: {
@@ -794,38 +780,8 @@ intercept: {
 }
 },
 
-// Keogh
-"captain:Cap007": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	}
-},
-
-// Worf
-"captain:Cap009": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	}
-},
-
-// Leyton
-"captain:Cap010": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	}
-},
-
-// Ben Sisko
-"captain:Cap006": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	}
-},
 // Jadzia Dax
 "captain:Cap008": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	},
 	// No faction penalty for Klingon Talent.
 	upgradeSlots: cloneSlot( 1 ,
 		{
@@ -849,66 +805,40 @@ intercept: {
 
 // Experimental Torpedo Bay
 "weapon:W215": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	},
 	// Upgrade slot for torpedo only of printed cost 5 or less
 	upgradeSlots: [ {
  	 type: ["weapon"],
  	 rules: "Torpedo Upgrade with Printed Cost 5 or less.",
 	 faceDown: true,
- 	 canEquip: function(upgrade) {
-		 	return (upgrade.id == "W204" || upgrade.id == "W192" || upgrade.id == "W191" || upgrade.id == "W183" || upgrade.id == "W177" || upgrade.id == "W161" || upgrade.id == "W160" || upgrade.id == "W158" || upgrade.id == "W157"  || upgrade.id == "W008" || upgrade.id == "W004" || upgrade.id == "W003" || upgrade.id == "W002" || upgrade.id == "W009" || upgrade.id == "W154" || upgrade.id == "W152" || upgrade.id == "W145" || upgrade.id == "W142" || upgrade.id == "W141" || upgrade.id == "W137" || upgrade.id == "W128" || upgrade.id == "W122" || upgrade.id == "W120" || upgrade.id == "W119" || upgrade.id == "W118" || upgrade.id == "W117" || upgrade.id == "W116" || upgrade.id == "W114" || upgrade.id == "W112" || upgrade.id == "W105" || upgrade.id == "W100" || upgrade.id == "W088" || upgrade.id == "W082" || upgrade.id == "W081" || upgrade.id == "W079" || upgrade.id == "W078" || upgrade.id == "W074" || upgrade.id == "W072" || upgrade.id == "W067" || upgrade.id == "W059" || upgrade.id == "W050" || upgrade.id == "W039" || upgrade.id == "W038" || upgrade.id == "W031" || upgrade.id == "W195" || upgrade.id == "W016" || upgrade.id == "W119");
-			},
- 	} ]
+	 canEquip: function(upgrade) {
+			 return (upgrade.id == "W204" || upgrade.id == "W192" || upgrade.id == "W191" || upgrade.id == "W183" || upgrade.id == "W177" || upgrade.id == "W161" || upgrade.id == "W160" || upgrade.id == "W158" || upgrade.id == "W157"  || upgrade.id == "W008" || upgrade.id == "W004" || upgrade.id == "W003" || upgrade.id == "W002" || upgrade.id == "W009" || upgrade.id == "W154" || upgrade.id == "W152" || upgrade.id == "W145" || upgrade.id == "W142" || upgrade.id == "W141" || upgrade.id == "W137" || upgrade.id == "W128" || upgrade.id == "W122" || upgrade.id == "W120" || upgrade.id == "W119" || upgrade.id == "W118" || upgrade.id == "W117" || upgrade.id == "W116" || upgrade.id == "W114" || upgrade.id == "W112" || upgrade.id == "W105" || upgrade.id == "W100" || upgrade.id == "W088" || upgrade.id == "W082" || upgrade.id == "W081" || upgrade.id == "W079" || upgrade.id == "W078" || upgrade.id == "W074" || upgrade.id == "W072" || upgrade.id == "W067" || upgrade.id == "W059" || upgrade.id == "W050" || upgrade.id == "W039" || upgrade.id == "W038" || upgrade.id == "W031" || upgrade.id == "W195" || upgrade.id == "W016" || upgrade.id == "W119" || upgrade.id == "W226" || upgrade.id == "W224")
+		 },
+	 intercept: {
+		 ship: {
+			 canEquip: function(upgrade,ship,fleet) {
+				 var cost = valueOf(upgrade,"cost",ship,fleet);
+				 return cost <= 5;
+
+			return canEquip;
+		},
+		free: function() {
+			return true;
+		}
+			 }
+		 }
+	 }
+ ]
 },
 
-// Metaphasic Sweep
-"tech:T272": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	}
-},
 // Ablative Armor
 "tech:T271": {
 	canEquip: function(upgrade,ship,fleet) {
 		return ship.class.indexOf( "Defiant Class" ) >= 0;
-	},
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	}
 },
-// Experimental Torpedo Bay
-"weapon:W215": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	},
-	upgradeSlots: [
-		{
-			type: ["weapon"],
-			rules: "Torpedo, 5 SP of less",
-			faceDown: true,
-			intercept: {
-				ship: {
-					canEquip: function(upgrade,ship,fleet) {
-						// TODO Prevent use of upgrades without a defined cost (e.g. Dorsal Phaser Array)
-						var cost = valueOf(upgrade,"cost",ship,fleet);
-						return cost <= 5;
-					return canEquip;
-					},
-					free: function() {
-						return true;
-					}
-				}
-			}
-		}
-	]
-},
+
 // Advanced Shields
 "tech:T270": {
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return hasFaction(ship,"federation", ship, fleet) && ship.hull >= 5;
   },
@@ -926,50 +856,18 @@ intercept: {
 "weapon:W214": {
 	canEquip: function(upgrade,ship,fleet) {
 		return ship.class.indexOf( "Akira Class" ) >= 0;
-	},
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	}
 },
 // Phaser Cannons
 "weapon:W213": {
 	canEquip: function(upgrade,ship,fleet) {
 		return ship.class.indexOf( "Defiant Class" ) >= 0;
-	},
-	factionPenalty: function(upgrade, ship, fleet) {
-		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	}
 },
-	//Enrique Muniz
-	"crew:C374":{
-		factionPenalty: function(upgrade, ship, fleet) {
-			return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-		}
-	},
-	//Sarita Carson
-	"crew:C373":{
-		factionPenalty: function(upgrade, ship, fleet) {
-			return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-		}
-	},
+
 	//Ezri Dax
 	"crew:C372":{
-		factionPenalty: function(upgrade, ship, fleet) {
-			return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-		},
 		upgradeSlots: [	{ type: ["crew"] } ]
-	},
-	//Julian Bashir
-	"crew:C371":{
-		factionPenalty: function(upgrade, ship, fleet) {
-			return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-		}
-	},
-	//Kira Nerys
-	"crew:C370":{
-		factionPenalty: function(upgrade, ship, fleet) {
-			return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-		}
 	},
 
 //Alliance
