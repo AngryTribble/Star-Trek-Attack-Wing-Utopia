@@ -424,7 +424,8 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 //Regenerative Shields
   "tech:T278": {
 			canEquip: function(upgrade,ship,fleet) {
-				return ship.class == "Prometheus Class"} && onePerShip("Regenerative Shields"),
+				return ship.class == "Prometheus Class" && onePerShip("Regenerative Shields")
+			},
 				intercept: {
 					ship: {
 						shields: function(card,ship,fleet,shields) {
@@ -511,7 +512,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
 	},
 	canEquipFaction: function(upgrade,ship,fleet) {
-		return hasFaction(ship,"federation", ship, fleet);
+		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
   },
 },
 
