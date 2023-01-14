@@ -823,11 +823,14 @@ intercept: {
 		},
 		free: function() {
 			return true;
-		}
+		},
+		factionPenalty: function(upgrade, ship, fleet) {
+			return ship && $factions.hasFaction(ship, "federation", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "klingon", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "romulan", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "bajoran", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "vulcan", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "dominion", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "borg", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "independent", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "ferengi", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "xindi", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "kazon", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "mirror-universe", ship, fleet) ? 0 : 1 && $factions.hasFaction(ship, "species-8472", ship, fleet) ? 0 : 1;
 			 }
 		 }
 	 }
- ]
+ }
+]
 },
 
 // Ablative Armor
@@ -873,9 +876,6 @@ intercept: {
 //Alliance
 		//Photon Torpedoes
 		"weapon:W204":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			},
 			attack: 0,
 			intercept: {
 				self: {
@@ -891,93 +891,54 @@ intercept: {
 
     //Battle-Hardened
 		"talent:E202":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			},
 			canEquip: onePerShip("Battle-Hardened")},
 
 		//Calculating
 	   "talent:E200":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Calculating")},
 
 		//Full Spread
 	   "weapon:W201":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Full Spread")},
 
 		//Enhanced Targeting
 		 "weapon:W207":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Enhanced Targeting")},
 
 		//Overcharged Phasers
 		 "weapon:W205":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Overcharged Phasers")},
 
 	  //Dorsal Phaser Array
 		 "weapon:W203":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Dorsal Phaser Array")},
 
 		//Detection Grid
 		 "tech:T255":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Detection Grid")},
 
 		//Reinforced Shielding
 		 "tech:T253":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Reinforced Shielding")},
 
 		//Commander
 		 "crew:C362":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Commander")},
 
 		//Tactical Officer
 		 "crew:C360":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Tactical Officer")},
 
 		//Helmsman
 		 "crew:C361":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Helmsman")},
 
 		//Science Officer
 		 "crew:C358":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Science Officer")},
 
 	  //Operations Officer
 		 "crew:C359":{
-			 factionPenalty: function(upgrade, ship, fleet) {
-				 return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			 },
 			canEquip: onePerShip("Operations Officer")},
 
 		//Generic Captain 0 XP
@@ -1239,60 +1200,6 @@ intercept: {
 							}
 						},
 	//Core Starter Set :71120
-		//Will Riker 6
-		"captain:Cap646":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Jean-Luc Picard 9
-		"captain:Cap906":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Engage
-		"talent:E132":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Worf
-		"crew:3002":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Miles O'Brien
-		"crew:3003":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Geordi La Forge
-		"crew:3004":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Data
-		"crew:3005":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Photon Torpedoes
-		"weapon:W122":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
-		//Antimatter Mines
-		"weapon:W121":{
-			factionPenalty: function(upgrade, ship, fleet) {
-				return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
-			}
-		},
 		// Photon Torpedoes (Vor'cha Bonus)
 		"weapon:W120": {
 			intercept: {
@@ -1321,6 +1228,7 @@ intercept: {
 				}
 			}
 		},
+
 		//Energy Dissipator
 		"weapon:W111": {
 			intercept: {
@@ -1333,9 +1241,6 @@ intercept: {
 				}
 			}
 		},
-
-
-	//Kraxon :71127
 
 	//IKS Negh'var :71126
 		// Photon Torpedoes (Negh'var Bonus)
@@ -1351,7 +1256,8 @@ intercept: {
 			}
 		},
 
-	//IKS Gr'oth :71125
+//IKS Gr'oth :71125
+		//Cyrano Jones
 		"crew:C191":{
 			factionPenalty: function(upgrade, ship, fleet) {
 				return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet ) ? 0 : 1;
