@@ -9726,41 +9726,23 @@ module.exports = [
 		range: ""
 	},
 	{
-		type: "crew",
-		id: "C163",
-		set: [
-			"71276"
-		],
-		name: "Emergency Medical Hologram",
-		unique: true,
-		text: "This Upgrade counts as either a [crew] Upgrade or a [tech] Upgrade (your choice). \n\nWhen you use a [tech] Upgrade that requires you to disable it, you may disable this card instead of that [tech] Upgrade.",
-		factions: [
-			"federation"
-		],
-		cost: 2,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
-	},
-	{
-		type: "tech",
-		id: "T227",
-		set: [
-			"71276"
-		],
-		name: "Emergency Medical Hologram",
-		unique: true,
-		text: "This Upgrade counts as either a [crew] Upgrade or a [tech] Upgrade (your choice). \n\nWhen you use a [tech] Upgrade that requires you to disable it, you may disable this card instead of that [tech] Upgrade.",
-		factions: [
-			"federation"
-		],
-		cost: 2,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
-	},
+	type: "question",
+	id: "Q024",
+	set: [
+		"71276"
+	],
+	name: "Emergency Medical Hologram",
+	unique: true,
+	text: "This Upgrade counts as either a [crew] Upgrade or a [tech] Upgrade (your choice). \n\nWhen you use a [tech] Upgrade that requires you to disable it, you may disable this card instead of that [tech] Upgrade.",
+	factions: [
+		"federation"
+	],
+	cost: 2,
+	skill: 0,
+	talents: 0,
+	attack: 0,
+	range: ""
+},
 	{
 		type: "tech",
 		id: "T226",
@@ -10465,28 +10447,10 @@ module.exports = [
 		attack: 0,
 		range: ""
 	},
+
 	{
-		type: "crew",
-		id: "C147",
-		set: [
-			"71280",
-			"72261"
-		],
-		name: "The Doctor",
-		unique: true,
-		text: "The Doctor counts as either a [crew] Upgrade or a [tech] Upgrade (your choice). \n\n<b>ACTION:</b> Remove all Disabled Upgrade tokens from your [crew] Upgrades.",
-		factions: [
-			"federation"
-		],
-		cost: 3,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
-	},
-	{
-		type: "tech",
-		id: "T215",
+		type: "question",
+		id: "Q025",
 		set: [
 			"71280",
 			"72261"
@@ -16453,26 +16417,8 @@ module.exports = [
 		range: "1 - 2"
 	},
 	{
-		type: "crew",
-		id: "C040",
-		set: [
-			"71802"
-		],
-		name: "EMH Mark II",
-		unique: true,
-		text: "This Upgrade counts as either a [crew] Upgrade or a [tech] Upgrade (your choice).\n\n<b>ACTION:</b> Discard this card to target a ship at Range 1. Disable all [crew] Upgrades on the target ship.",
-		factions: [
-			"federation"
-		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
-	},
-	{
-		type: "tech",
-		id: "T051",
+		type: "question",
+		id: "Q026",
 		set: [
 			"71802"
 		],
@@ -18658,36 +18604,8 @@ module.exports = [
 		]
 	},
 	{
-		type: "crew",
-		id: "C006",
-		set: [
-			"72008"
-		],
-		name: "Rapid Reload",
-		cost: 2,
-		text: "This Upgrade counts as a [crew], [tech] or [weapon] Upgrade (your choice).\n\nWhen you are instructed to place Time Tokens on one of your [weapon] Upgrades, you may disable this card to place only 1 Time Token instead of the required amount.",
-		unique: false,
-		factions: [
-			"federation"
-		]
-	},
-	{
-		type: "weapon",
-		id: "W007",
-		set: [
-			"72008"
-		],
-		name: "Rapid Reload",
-		cost: 2,
-		text: "This Upgrade counts as a [crew], [tech] or [weapon] Upgrade (your choice).\n\nWhen you are instructed to place Time Tokens on one of your [weapon] Upgrades, you may disable this card to place only 1 Time Token instead of the required amount.",
-		unique: false,
-		factions: [
-			"federation"
-		]
-	},
-	{
-		type: "tech",
-		id: "T003",
+		type: "question",
+		id: "Q027",
 		set: [
 			"72008"
 		],
