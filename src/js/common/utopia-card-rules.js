@@ -52,96 +52,32 @@ module.filter( "fleetCardNamed", [ "$filter", function($filter) {
 
 module.factory( "$factions", [ "$filter", function($filter) {
 	var valueOf = $filter("valueOf");
-
-	    // "Game elements(implied any) of a sub-faction also count as their corresponding prime faction. This means that a Vulcan ship also counts
-	    //  as a Federation ship, but a Federation ship does not count as a Vulcan ship."
-
-	    // each faction paired with either itself or it's prime faction as a lookup solves this particular check
-			// and continues to check all 'factions' as they should
-			// because if they have a prime faction they are considered as that prime by the game rules
-			// and if they are not they are their own 'prime faction'
-
-			// this also has huge savings on code and complexity by handling the game's rule here as the $factions.hasFaction() func
-			// is called less frequently and leaving the exceptional situations more to the indvidual card rules instead of implementing
-			// a global game rule one card at a time
-	    let primeFactionLookup = {
-	            'federation': 'federation',
-	                'vulcan': "federation",
-	                'bajoran': "federation",
-	                'klingon': 'klingon',
-	                'romulan': 'romulan',
-	                'dominion': 'dominion',
-	                'indpendent': 'independent',
-	                'ferengi': 'independent',
-	                'kazon': 'independent',
-	                'xindi': 'independent',
-	                'borg' :'borg',
-	                'mirror-universe': 'mirror-universe',
-	                'species-8472': 'species-8472',
-	                'q-continuum': 'q-continuum'
-	            };
-
-	    // get an array of the prime factions for the set of cardFactions as an array of strings
-	    let getPrimeFactions = (cardFactions) => cardFactions.reduce(
-	                (primeFactions, cardFaction) => {
-	                    let primeFaction = primeFactionLookup[cardFaction];
-	                    if (!primeFactions.includes(primeFaction))
-	                        primeFactions.push(primeFaction);
-
-	                    return primeFactions;
-	              }, []);
-
-	    // returns true when Card A's prime factions and Card B's prime factions intersect and therefore have the same 'prime faction' for card rules
-	    let primeFactionMatch = (cardFaction, otherFaction) => {
-	        return getPrimeFactions([cardFaction]).some(cardPrimeFaction => getPrimeFactions([otherFaction]).includes(cardPrimeFaction) );
-	    }
-
-	    var factions = {
-	        hasFaction: function(card, faction, ship, fleet) {
-	            if( !card )
-	                return false;
-	            let factions =  valueOf(card,"factions",ship,fleet);
-	            let primeFactions = getPrimeFactions(factions);
-
-	            // true if it's the faction of the card OR any of the card's faction's 'prime faction'
-	            let isConsideredInFaction = valueOf(card,"factions",ship,fleet).includes(faction) || primeFactions.includes(faction);
-	            return isConsideredInFaction;
-	        },
-	        match: function(card, other, ship, fleet) {
-	            var match = false;
-	            $.each( valueOf(card,"factions",ship,fleet), function(i, cardFaction) {
-	                $.each( valueOf(other,"factions",ship,fleet), function(i, otherFaction) {
-	                    //console.debug(`${card.id}:${card.name}:${cardFaction} -- ${other.id}:${other.name}:${otherFaction} ${card.name} prime factions match(${primeFactionMatch(cardFaction,  otherFaction)}): ${getPrimeFactions([cardFaction])}; ${other.id}:${other.name} prime factions: ${getPrimeFactions([otherFaction])}`);
-	                    if( cardFaction == otherFaction || primeFactionMatch(cardFaction,  otherFaction) ) {
-	                        match = true;
-	                        return false;
-	                    }
-	                });
-	                if( match )
-	                    return false;
-	            });
-	            return match;
-	        },
-	        matchByPrimeFaction: function(card, other, ship, fleet) {
-	            var match = false;
-	            $.each( valueOf(card,"factions",ship,fleet), function(i, cardFaction) {
-	                $.each( valueOf(other,"factions",ship,fleet), function(i, otherFaction) {
-	                    if( primeFactionMatch(cardFaction,  otherFaction) ) {
-	                        match = true;
-	                        return false;
-	                    }
-	                });
-	                if( match )
-	                    return false;
-	            });
-	            return match;
-	        },
-	        list: [ "Federation", "Klingon", "Vulcan", "Romulan", "Bajoran", "Dominion", "Independent", "Borg", "Ferengi", "Species 8472", "Kazon", "Mirror Universe", "Xindi", "Q Continuum" ],
-	    }
-	    factions.listCodified = $.map( factions.list, function(name) {
-	        return name.toLowerCase().replace(/ /g,"-");
-	    } );
-	    return factions;
+	var factions = {
+		hasFaction: function(card, faction, ship, fleet) {
+			if( !card )
+				return false;
+			return $.inArray( faction, valueOf(card,"factions",ship,fleet) ) >= 0;
+		},
+		match: function(card, other, ship, fleet) {
+			var match = false;
+			$.each( valueOf(card,"factions",ship,fleet), function(i, cardFaction) {
+				$.each( valueOf(other,"factions",ship,fleet), function(i, otherFaction) {
+					if( cardFaction == otherFaction ) {
+						match = true;
+						return false;
+					}
+				});
+				if( match )
+					return false;
+			});
+			return match;
+		},
+		list: [ "Federation", "Klingon", "Vulcan", "Romulan", "Bajoran", "Dominion", "Independent", "Borg", "Ferengi", "Species 8472", "Kazon", "Mirror Universe", "Xindi", "Q Continuum" ],
+	}
+	factions.listCodified = $.map( factions.list, function(name) {
+		return name.toLowerCase().replace(/ /g,"-");
+	} );
+	return factions;
 }]);
 
 module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factions) {
@@ -306,8 +242,62 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Ships of the Line
 
+//U.S.S. Prometheus
+
+//George Sanders
+"captain:Cap016":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Strickler
+"captain:Cap017":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Strickler - Admiral
+"admiral:A039":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
+	}
+},
+
+//Theoderich Patterson
+"captain:Cap018":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Theoderich Patterson - Admiral
+"admiral:A040":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
+	}
+},
+
+//Alynna Nechayev
+"captain:Cap019":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Alynna Nechayev - Admiral
+"admiral:A041":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 3 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 3;
+	}
+},
+
 //Fleet Coordination
 "talent:E213":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet) && hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain,"bajoran", ship, fleet) || hasFaction(ship.captain,"vulcan", ship, fleet);
 	}
@@ -315,6 +305,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Task Force Commander
 "talent:E214":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return ship.captain && $factions.hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet) && hasFaction(ship.captain,"federation", ship, fleet) || hasFaction(ship.captain,"bajoran", ship, fleet) || hasFaction(ship.captain,"vulcan", ship, fleet);
 	}
@@ -327,15 +320,23 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
-//Type 10 Phasers - Issue #4 on github
+//Type 10 Phasers
+// TODO: Need to figure out how to occupy 2 weapon slots
 "weapon:W222":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Type 10 Phasers");
   }
 },
 
 // Dorsal Phaser Array
+// TODO: Need to work on One Per Ship Rule
 "weapon:W223": {
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return ship && ( $factions.hasFaction(ship,"federation", ship, fleet) || $factions.hasFaction(ship,"bajoran", ship, fleet) || $factions.hasFaction(ship,"vulcan", ship, fleet) ) && ship.hull >= 4 && onePerShip("Dorsal Phaser Array");
   },
@@ -357,6 +358,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Photon Torpedoes
 "weapon:W224":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
+	},
 	attack: 0,
 	intercept: {
 		self: {
@@ -374,11 +378,17 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 "weapon:W225": {
 	canEquip: function(upgrade,ship,fleet) {
 		return ship.class.indexOf( "Akira Class" ) >= 0 && onePerShip("Dorsal Torpedo Pod");
+	},
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1;
 	}
 },
 
 //Quantum Torpedoes
 "weapon:W226":{
+	factionPenalty: function(upgrade,ship,fleet) {
+		return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+	},
 	canEquip: onePerShip("Quantum Torpedoes"),
 	attack: 0,
 		intercept: {
@@ -429,6 +439,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Multiphasic Shielding
 	"tech:T279": {
+		factionPenalty: function(upgrade,ship,fleet) {
+			return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+		},
 		intercept: {
 			ship: {
 				shields: function(card,ship,fleet,shields) {
@@ -442,6 +455,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Multi-Spectrum Shielding
 	"tech:T280": {
+		factionPenalty: function(upgrade,ship,fleet) {
+			return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+		},
 		intercept: {
 			ship: {
 				shields: function(card,ship,fleet,shields) {
@@ -460,17 +476,65 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //EMH Mark I
 "question:Q023":{
+	factionPenalty: function(upgrade,ship,fleet) {
+		return ship && $factions.hasFaction(ship,"bajoran",ship,fleet) ? 0 : 1 && $factions.hasFaction(ship,"vulcan",ship,fleet) ? 0 : 1;
+	},
 	canEquip: onePerShip("EMH Mark I"),
 	isSlotCompatible: function(slotTypes) {
 		return $.inArray("tech", slotTypes) >= 0 || $.inArray("crew", slotTypes) >=0;
 	}
 },
 
+	//Repurposed Cargo Hold
+	"question:Q015":{
+		factionPenalty: function(upgrade, ship, fleet) {
+			return ship && $factions.hasFaction( ship, "ferengi", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "kazon", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "xindi", ship, fleet ) ? 0 : 1;
+		},
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "independent", ship, fleet ) || onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "ferengi", ship, fleet ) || onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "kazon", ship, fleet ) || onePerShip("Repurposed Cargo Hold")(upgrade,ship,fleet) && $factions.hasFaction( ship, "xindi", ship, fleet );
+		},
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
+		},
+		upgradeSlots: [ { type: ["tech", "weapon"] } ]
+	},
+
+//Geordi La Forge
+"crew:C390":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
 //Lasca
 "crew:C389":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	},
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
   },
+},
+
+//Montgomery Scott
+"crew:C388":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Harry Kim
+"crew:C387":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
+},
+
+//Benjamin Sisko
+"crew:C386":{
+	factionPenalty: function(upgrade, ship, fleet) {
+		return ship && $factions.hasFaction( ship, "vulcan", ship, fleet ) ? 0 : 1 && $factions.hasFaction( ship, "bajoran", ship, fleet ) ? 0 : 1;
+	}
 },
 
 //Federation Prototype
