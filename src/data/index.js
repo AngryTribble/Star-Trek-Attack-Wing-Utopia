@@ -17,5 +17,10 @@ var data = {
 	others: require("./others")
 };
 
-var filepath = path.resolve(__dirname, "../../staw-utopia/data/data.json");
+let dataDir = path.resolve(__dirname, "../../staw-utopia/data");
+let filepath = path.resolve(__dirname, `${dataDir}/data.json`);
+// create the folder if it isn't there - todo: must be a better way to do this step in the build
+if(!fs.existsSync(dataDir)) {
+	fs.mkdirSync(dataDir, { recursive: true });
+}
 fs.writeFileSync(filepath, JSON.stringify(data));

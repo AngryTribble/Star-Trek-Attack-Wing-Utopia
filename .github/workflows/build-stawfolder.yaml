@@ -28,7 +28,7 @@ jobs:
         skipIfNodeModulesExists: false
 
     - name: Build staw-utopia folder
-      run: npm run start
+      run: npm run build
 
     - name: deploy to site branch
       uses: s0/git-publish-subdir-action@develop
