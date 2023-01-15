@@ -37,3 +37,4 @@ jobs:
         BRANCH: site # the branch we deploy to
         FOLDER: staw-utopia
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # git auto populated variable with token for authenticated actions on the repo
+        CLEAR_GLOBS_FILE: ".clear_globs_file" # prevent deletes in site branch based on glob file rules
