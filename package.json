@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "grunt",
+    "build": "grunt",
     "watch": "grunt watch",
     "data": "npm run lint-data && npm run generate-data",
     "generate-data": "node ./src/data/index.js",

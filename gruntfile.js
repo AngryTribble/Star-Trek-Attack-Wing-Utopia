@@ -73,7 +73,7 @@ module.exports = function(grunt) {
 			misc: {
 				expand: true,
 				cwd: "src",
-				src: [ "js/lib/*", "fonts/*", "img/*" ],
+				src: [ "js/lib/*", "fonts/*", "img/*", "assets/**"],
 				dest: "staw-utopia/",
 			},
 			css: {
