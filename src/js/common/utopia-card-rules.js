@@ -71,7 +71,7 @@ module.factory( "$factions", [ "$filter", function($filter) {
 	                'klingon': 'klingon',
 	                'romulan': 'romulan',
 	                'dominion': 'dominion',
-	                'indpendent': 'independent',
+	                'independent': 'independent',
 	                'ferengi': 'independent',
 	                'kazon': 'independent',
 	                'xindi': 'independent',
