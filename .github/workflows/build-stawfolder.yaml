@@ -36,9 +36,3 @@ jobs:
         name: build
         path: build
 
-    - name: Create or Update Branch
-      uses: actions/create-or-update-branch@v1
-      with:
-        branch: site-test
-        create-pull-request: false
-        commit-message: "build artifacts"
