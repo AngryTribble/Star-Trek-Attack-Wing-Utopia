@@ -1,0 +1,44 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+    - name: npm install
+      uses: Jaid/action-npm-install@v1.2.4
+      with:
+        # NODE_ENV setting for installing execution (affects the amount of dependencies installed, but I would recommend keeping development in any case).
+        nodeEnv: prod
+        # Can be "npm", "yarn", "pnpm" or "auto". "auto" will determine the package manager by looking into the repo's files. This is very accurate, so you normally don't want to change this.
+        packageManager: auto
+        # If true and node_modules folder already exists, this action will be skipped assuming npm install is not required.
+        skipIfNodeModulesExists: false
+
+    - name: Build staw-utopia folder
+      run: npm run start
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: build
+        path: build
+
+    - name: Create or Update Branch
+      uses: actions/create-or-update-branch@v1
+      with:
+        branch: site-test
+        create-pull-request: false
+        commit-message: "build artifacts"
