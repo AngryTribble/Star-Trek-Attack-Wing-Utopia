@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
 	grunt.initConfig({
-	
+
 		watch: {
 			grunt: {
 				files: "Gruntfile.js",
@@ -28,12 +28,12 @@ module.exports = function(grunt) {
 				tasks: ["build-data"],
 			}
 		},
-		
+
 		clean: {
 			build: ["staw-utopia/*"],
 			templates: ["staw-utopia/utopia-templates.js"],
 		},
-		
+
 		ngtemplates: {
 			utopia: {
 				cwd: "src/templates",
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		uglify: {
 			js: {
 				files: {
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		cssmin: {
 			css: {
 				files: {
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		copy: {
 			misc: {
 				expand: true,
@@ -94,6 +94,13 @@ module.exports = function(grunt) {
 				src: [ "*.html" ],
 				dest: "staw-utopia/",
 			},
+			// See https://github.com/AngryTribble/Star-Trek-Attack-Wing-Utopia/issues/46
+			urlChange: {
+				expand: true,
+				cwd: "src",
+				src: [ "staw-utopia/index.html" ],
+				dest: "staw-utopia/staw-utopia",
+			},
 			powertip: {
 				expand: true,
 				cwd: "node_modules/jquery-powertip/dist",
@@ -107,7 +114,7 @@ module.exports = function(grunt) {
 				dest: "staw-utopia/css/",
 			}
 		},
-	
+
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
@@ -117,7 +124,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	
+
 	grunt.registerTask('build-js', ["ngtemplates","uglify"]);
 	grunt.registerTask('build-css', ["cssmin","copy:css"]);
 	grunt.registerTask('build-index', ["copy:index"]);
