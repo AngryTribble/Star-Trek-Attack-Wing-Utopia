@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="utopia-set-viewer" ng-controller="UtopiaSetCtrl">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.powertip.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utopia.min.css">
+		<link rel="stylesheet" type="text/css" href="css/utopia-print.css" media="print">
+
+        <title>Utopia Set Viewer</title>
+
+		<script type="text/javascript" src="js/lib/jquery.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.powertip.min.js"></script>
+        <script type="text/javascript" src="js/lib/angular.js"></script>
+        <script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
+        <script type="text/javascript" src="js/utopia.min.js"></script>
+
+    </head>
+    <body>
+
+		<div class="u-container">
+
+			<div class="u-search-results u-search-cols-1">
+
+				<div class="u-title"><i class="fs fs-unique"></i><b>Utopia Set Viewer<i class="fs fs-unique"></i></b></div><br>
+
+				<div class="text-center">Build your fleet with <a href="./index.html">Utopia</a></div><br>
+        <div class="text-center">Browse All Missions With The <a href="./mission_viewer.html">Utopia Mission Viewer</a></div><br>
+        <div class="text-center">Attack Wing <a href="./FAQ.html">FAQ</a></div><br>
+        <div class="text-center">Find a Bug? <a href="mailto:antaresshipyard@gmail.com" > Alert Security Here</a></div><br>
+
+				<ul class="set-list">
+					<li ng-repeat="set in setList | orderBy:'-releaseDate'" ng-click="viewer.set = set" ng-class="{'set-selected': viewer.set == set}">{{set.parentSet}}: {{set.name}}</li>
+				</ul>
+			</div>
+
+			<div class="u-fleet set-cards">
+
+				<div class="set-header" ng-show="viewer.set">{{viewer.set.parentSet}}: {{viewer.set.name}}</div>
+
+				<ngRepeat ng-repeat="card in setCards">
+					<div class="card-container">
+						<card card="card"></card>
+					</div>
+					<div class="card-container" ng-if="card.type == 'ship' && card.unique">
+						<card card="card.classData" ship="card"></card>
+					</div>
+					<div class="card-container" ng-if="card.hasTokenInfo">
+						<card card="card.tokenData"></card>
+					</div>
+				</ngRepeat>
+
+			</div>
+
+		</div>
+
+		<!--<script src="js/analytics.js"></script>-->
+
+    </body>
+</html>
