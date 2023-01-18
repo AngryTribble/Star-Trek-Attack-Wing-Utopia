@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 				tasks: ["build-css"],
 			},
 			index: {
-				files: "src/*.html",
+				files: ["src/*.html", "src/staw-utopia/*.html"],
 				tasks: ["build-index"],
 			},
 			data: {
@@ -91,7 +91,7 @@ module.exports = function(grunt) {
 			index: {
 				expand: true,
 				cwd: "src",
-				src: [ "*.html" ],
+				src: [ "*.html", "staw-utopia/*.html" ],
 				dest: "staw-utopia/",
 			},
 			// See https://github.com/AngryTribble/Star-Trek-Attack-Wing-Utopia/issues/46
@@ -99,7 +99,7 @@ module.exports = function(grunt) {
 				expand: true,
 				cwd: "src",
 				src: [ "staw-utopia/index.html" ],
-				dest: "staw-utopia/staw-utopia",
+				dest: "staw-utopia/",
 			},
 			powertip: {
 				expand: true,
