@@ -24,6 +24,7 @@
     "start": "grunt",
     "build": "grunt",
     "watch": "grunt watch",
+    "dev": "npm run start && npm run watch",
     "data": "npm run lint-data && npm run generate-data",
     "generate-data": "node ./src/data/index.js",
     "lint-data": "eslint 'src/data/*.js' --fix"
