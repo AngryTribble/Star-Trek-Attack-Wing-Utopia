@@ -100,11 +100,11 @@ module.factory( "$factions", [ "$filter", function($filter) {
 	        hasFaction: function(card, faction, ship, fleet) {
 	            if( !card )
 	                return false;
-	            let factions =  valueOf(card,"factions",ship,fleet);
+	            let factions =  valueOf(card,"factions",ship,fleet) || [];
 	            let primeFactions = getPrimeFactions(factions);
 
 	            // true if it's the faction of the card OR any of the card's faction's 'prime faction'
-	            let isConsideredInFaction = valueOf(card,"factions",ship,fleet).includes(faction) || primeFactions.includes(faction);
+	            let isConsideredInFaction = factions.includes(faction) || primeFactions.includes(faction);
 	            return isConsideredInFaction;
 	        },
 	        match: function(card, other, ship, fleet) {

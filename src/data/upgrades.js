@@ -167,7 +167,7 @@ module.exports = [
 		cost: 3,
 		text: "This card fills 2 [weapon] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.",
 		OnePerShip: true,
-		shipFederation:true,
+		shipFederation: true,
 		factions: [
 			"federation"
 		]
@@ -9726,23 +9726,23 @@ module.exports = [
 		range: ""
 	},
 	{
-	type: "question",
-	id: "Q024",
-	set: [
-		"71276"
-	],
-	name: "Emergency Medical Hologram",
-	unique: true,
-	text: "This Upgrade counts as either a [crew] Upgrade or a [tech] Upgrade (your choice). \n\nWhen you use a [tech] Upgrade that requires you to disable it, you may disable this card instead of that [tech] Upgrade.",
-	factions: [
-		"federation"
-	],
-	cost: 2,
-	skill: 0,
-	talents: 0,
-	attack: 0,
-	range: ""
-},
+		type: "question",
+		id: "Q024",
+		set: [
+			"71276"
+		],
+		name: "Emergency Medical Hologram",
+		unique: true,
+		text: "This Upgrade counts as either a [crew] Upgrade or a [tech] Upgrade (your choice). \n\nWhen you use a [tech] Upgrade that requires you to disable it, you may disable this card instead of that [tech] Upgrade.",
+		factions: [
+			"federation"
+		],
+		cost: 2,
+		skill: 0,
+		talents: 0,
+		attack: 0,
+		range: ""
+	},
 	{
 		type: "tech",
 		id: "T226",

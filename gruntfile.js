@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
 	grunt.initConfig({
-	
+
 		watch: {
 			grunt: {
 				files: "Gruntfile.js",
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 				tasks: ["build-css"],
 			},
 			index: {
-				files: "src/*.html",
+				files: ["src/*.html", "src/staw-utopia/*.html"],
 				tasks: ["build-index"],
 			},
 			data: {
@@ -28,12 +28,12 @@ module.exports = function(grunt) {
 				tasks: ["build-data"],
 			}
 		},
-		
+
 		clean: {
 			build: ["staw-utopia/*"],
 			templates: ["staw-utopia/utopia-templates.js"],
 		},
-		
+
 		ngtemplates: {
 			utopia: {
 				cwd: "src/templates",
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		uglify: {
 			js: {
 				files: {
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		cssmin: {
 			css: {
 				files: {
@@ -68,12 +68,12 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		copy: {
 			misc: {
 				expand: true,
 				cwd: "src",
-				src: [ "js/lib/*", "fonts/*", "img/*" ],
+				src: [ "js/lib/*", "fonts/*", "img/**/*", "assets/**"],
 				dest: "staw-utopia/",
 			},
 			css: {
@@ -91,7 +91,14 @@ module.exports = function(grunt) {
 			index: {
 				expand: true,
 				cwd: "src",
-				src: [ "*.html" ],
+				src: [ "*.html", "staw-utopia/*.html" ],
+				dest: "staw-utopia/",
+			},
+			// See https://github.com/AngryTribble/Star-Trek-Attack-Wing-Utopia/issues/46
+			urlChange: {
+				expand: true,
+				cwd: "src",
+				src: [ "staw-utopia/index.html" ],
 				dest: "staw-utopia/",
 			},
 			powertip: {
@@ -107,7 +114,7 @@ module.exports = function(grunt) {
 				dest: "staw-utopia/css/",
 			}
 		},
-	
+
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
@@ -117,7 +124,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	
+
 	grunt.registerTask('build-js', ["ngtemplates","uglify"]);
 	grunt.registerTask('build-css', ["cssmin","copy:css"]);
 	grunt.registerTask('build-index', ["copy:index"]);
