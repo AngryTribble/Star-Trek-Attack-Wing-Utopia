@@ -528,22 +528,25 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		type: ["tech"],
 		rules: "May equip Romulan Cloaking Decice for 0 SP",
 		canEquip: function(upgrade) {
-			return upgrade.name == "Romulan Cloaking Device";
+			return upgrade.id == "T276";
 		},
 		intercept: {
 			ship: {
-				cost: function(upgrade, ship, fleet, cost) {
-					if( upgrade.name == "Romulan Cloaking Device" )
-							return 0;
-						return cost;
+				factionPenalty: {
+					priority: 100,
+					fn: function(card,ship,fleet,factionPenalty) {
+						if( ship.factions == "federation")
+							return +1;
+						return factionPenalty;
+					}
 				},
-				cost:  function(upgrade, ship, fleet, cost) {
-					if( ( $factions.hasFaction(upgrade,"federation",ship,fleet)) && upgrade.name == "Romulan Cloaking Device" )
-						return resolve (upgrade, ship, fleet, cost) +1;
-						return cost;
+				cost: function(upgrade, ship, fleet, cost) {
+					if(upgrade.id == "T276")
+						return 0;
+					return cost;
+				}
 				}
 			}
-		}
 	} ]
 },
 
