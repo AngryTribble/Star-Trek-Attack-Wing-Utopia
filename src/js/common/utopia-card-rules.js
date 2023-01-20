@@ -526,15 +526,27 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 "crew:C384":{
 	upgradeSlots: [ {
 		type: ["tech"],
-		rules: "Free Romulan Cloaking Device Only",
+		rules: "May equip Romulan Cloaking Decice for 0 SP",
 		canEquip: function(upgrade) {
-			return upgrade.name == "Romulan Cloaking Device";
+			return upgrade.id == "T276";
 		},
 		intercept: {
 			ship: {
-				cost: function() {return 0; }
+				factionPenalty: {
+					priority: 100,
+					fn: function(card,ship,fleet,factionPenalty) {
+						if( ship.factions == "federation")
+							return +1;
+						return factionPenalty;
+					}
+				},
+				cost: function(upgrade, ship, fleet, cost) {
+					if(upgrade.id == "T276")
+						return 0;
+					return cost;
+				}
+				}
 			}
-		}
 	} ]
 },
 
@@ -619,7 +631,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 },
 
 // Romulan Cloaking Device
-	"tech:T121": {
+	"tech:T276": {
 		intercept: {
 			self: {
 				cost: function(upgrade,ship,fleet,cost) {
