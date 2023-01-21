@@ -1621,18 +1621,25 @@ intercept: {
 					intercept: {
 						ship: {
 							//Upgrades cost 3 SP
-							cost: function(card,ship,fleet,cost) {
-							if( !$factions.match( card, ship, ship, fleet ) )
-								return 4;
-							else if( $factions.match( card, ship, ship, fleet ) )
-								return 3;
-							return cost;
-							}
+							canEquip: function(upgrade,ship,fleet) {
+								var cost = valueOf(upgrade,"cost",ship,fleet);
+								return cost <= 3;
+							},
+							canEquip: function(upgrade,ship,fleet) {
+							if (upgrade.id == "T271" || upgrade.id == "T261" || upgrade.id == "T165" || upgrade.id == "T036" || upgrade.id == "T035" || upgrade.id == "T013" || upgrade.id == "T276" || upgrade.id == "T263" || upgrade.id == "T264" || upgrade.id == "T265" || upgrade.id == "T179" || upgrade.id == "T139" || upgrade.id == "T225" || upgrade.id == "T072" || upgrade.id == "T065" || upgrade.id == "T064" || upgrade.id == "T037" || upgrade.id == "T274" || upgrade.id == "T177" || upgrade.id == "T173" || upgrade.id == "T168" || upgrade.id == "T166" || upgrade.id == "T159" || upgrade.id == "T148" || upgrade.id == "T147" || upgrade.id == "T108" || upgrade.id == "T217" || upgrade.id == "T073" || upgrade.id == "T018" || upgrade.id == "T009")
+								return false;
+							return canEquip;
+						},
+						canEquip: function(upgrade,ship,fleet) {
+							if (upgrade.id == "T272" || upgrade.id == "T254" || upgrade.id == "T252" || upgrade.id == "T223" || upgrade.id == "T094" || upgrade.id == "T091" || upgrade.id == "T054" || upgrade.id == "T045" || upgrade.id == "T258" || upgrade.id == "T256" || upgrade.id == "T260" || upgrade.id == "T269" || upgrade.id == "T182" || upgrade.id == "T181" || upgrade.id == "T175" || upgrade.id == "T172" || upgrade.id == "T171" || upgrade.id == "T150" || upgrade.id == "T138" || upgrade.id == "T136" || upgrade.id == "127" || upgrade.id == "T103" || upgrade.id == "T102" || upgrade.id == "T238" || upgrade.id == "T237" || upgrade.id == "T232" || upgrade.id == "T230" || upgrade.id == "T212" || upgrade.id == "T208" || upgrade.id == "T204" || upgrade.id == "T200" || upgrade.id == "T088" || upgrade.id == "T087" || upgrade.id == "T086" || upgrade.id == "T033" || upgrade.id == "T031" || upgrade.id == "T027" || upgrade.id == "T015" || upgrade.id == "T002" || upgrade.id == "T280" || upgrade.id == "T279" || upgrade.id == "T255" || upgrade.id == "T253" || upgrade.id == "T268" || upgrade.id == "T267" || upgrade.id == "T180" || upgrade.id == "T178" || upgrade.id == "T167" || upgrade.id == "T164" || upgrade.id == "T162" || upgrade.id == "T161" || upgrade.id == "T157" || upgrade.id == "T156" || upgrade.id == "T153" || upgrade.id == "T151" || upgrade.id == "T146" || upgrade.id == "T130" || upgrade.id == "T129" || upgrade.id == "T122" || upgrade.id == "T118" || upgrade.id == "T106" || upgrade.id == "T101" || upgrade.id == "T100" || upgrade.id == "T249" || upgrade.id == "T248" || upgrade.id == "T242" || upgrade.id == "T241" || upgrade.id == "T239" || upgrade.id == "T234" || upgrade.id == "T231" || upgrade.id == "T214" || upgrade.id == "T202" || upgrade.id == "T084" || upgrade.id == "T083" || upgrade.id == "T077" || upgrade.id == "T076" || upgrade.id == "T074" || upgrade.id == "T071" || upgrade.id == "T069" || upgrade.id == "T066" || upgrade.id == "T052" || upgrade.id == "T030" || upgrade.id == "T026" || upgrade.id == "T019" || upgrade.id == "T016" || upgrade.id == "T004")
+								return true;
+							return;
 						}
 					}
 				}
-			]
-		},
+			}
+		]
+	},
 
 	//Borg Sphere 4270 :71283
 		// Cutting Beam
