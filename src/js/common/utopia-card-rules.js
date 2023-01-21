@@ -829,7 +829,7 @@ intercept: {
 		 ship: {
 			 canEquip: function(upgrade,ship,fleet) {
 				 var cost = valueOf(upgrade,"cost",ship,fleet);
-				 return cost <= 5;
+				 return cost <= 6;
 
 			return canEquip;
 		},
