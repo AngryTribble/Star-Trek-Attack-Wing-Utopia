@@ -75,7 +75,7 @@ module.exports = [
 		],
 		name: "Leyton",
 		unique: true,
-		text: "FLEET ACTION:</b> Target a ship and place 2 [time] Tokens on this card.\n\nThe target ship attacks last this turn.",
+		text: "<b>FLEET ACTION:</b> Target a ship and place 2 [time] Tokens on this card.\n\nThe target ship attacks last this turn.",
 		factions: [
 			"federation"
 		],
