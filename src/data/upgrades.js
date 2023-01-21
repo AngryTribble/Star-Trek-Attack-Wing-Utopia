@@ -6381,13 +6381,13 @@ module.exports = [
 	},
 	{
 		type: "weapon",
-		id: "W141",
+		id: "W144",
 		set: [
 			"72224p"
 		],
 		name: "Photon Torpedoes",
-		attack: 4,
 		cost: 3,
+		attack: 4,
 		range: "2 - 3",
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and place 3 Time Tokens on this card to perform this attack\r\n\r\nIf fired from a Xindi Reptilian warship add +1 attack die.",
 		unique: false,
@@ -7031,7 +7031,7 @@ module.exports = [
 		],
 		name: "Photonic Charges",
 		cost: 3,
-		attack: 0,
+		attack: 3,
 		range: "1 - 2",
 		text: "<b>ATTACK: </b>Place 3 Time Tokens on this card to perform this attack. \n\nPlace an Auxiliary Power Token beside the target ship if there if there is at lease one uncancelled [hit] or [crit] result.",
 		unique: false,
