@@ -476,7 +476,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 //Federation Prototype
  "starship_construction:Con001":{
  	canEquipConstruction: function(upgrade,ship,fleet) {
-		return ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,"")
+		return ship.name.startsWith("U.S.S. ") && (ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,""))
  	},
 
  	upgradeSlots: [
