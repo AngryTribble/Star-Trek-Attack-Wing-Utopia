@@ -512,7 +512,7 @@ module.exports = [
 		cost: 4,
 		skill: 2,
 		talents: 1,
-		text: "<b>FLEET ACTION:</b> Target a ship within Range 1-2 that is in your forward firing arc. If the target ship attacks this round, that ship rolls 1 less attack die this round.\n\n<b>( ERRATA )</b>",
+		text: "<b>FLEET ACTION:</b> Target a ship within Range 1-2 that is in your forward firing arc. If the target ship attacks this round, that ship rolls 1 less attack die this round.",
 		unique: true,
 		factions: [
 			"federation"
@@ -544,7 +544,7 @@ module.exports = [
 		cost: 4,
 		skill: 1,
 		talents: 1,
-		text: "<b>FLEET ACTION:</b> Place a [scan] Token beside your ship. You may then perform 1 Action from your Action bar as a free Action. You cannot perform the [scan] Action as a free Action this round.",
+		text: "<b>FLEET ACTION:</b> Place a [scan] Token beside your ship. You may then perform 1 Action from your Action bar as a free Action. You cannot perform the [scan] Action as a free Action this round.\n\n<b>( ERRATA )</b>",
 		unique: true,
 		factions: [
 			"mirror-universe"
