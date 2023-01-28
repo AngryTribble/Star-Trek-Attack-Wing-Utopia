@@ -5188,7 +5188,10 @@ intercept: {
 	//Vrax
 	"captain:Cap331": {
 		upgradeSlots: [ {
-			type: ["crew"],
+			type: ["talent"]
+		},
+		{
+			type:	["crew"],
 			rules: "Reman Bodyguards Only",
 	}
 ]
