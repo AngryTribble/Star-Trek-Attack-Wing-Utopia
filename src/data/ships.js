@@ -1101,7 +1101,7 @@ module.exports = [
 		upgrades: [
 			"tech",
 			"weapon",
-			"weapon",
+			"crew",
 			"crew"
 		],
 		attack: 4,
