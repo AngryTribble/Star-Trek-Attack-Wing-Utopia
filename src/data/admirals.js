@@ -31,8 +31,7 @@ module.exports = [
 		],
 		cost: 3,
 		skill: 1,
-		talents: 1,
-		range: "1 - 2"
+		talents: 1
 	},
 	{
 		type: "admiral",
