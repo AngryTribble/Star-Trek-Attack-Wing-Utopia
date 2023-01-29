@@ -1890,7 +1890,7 @@ module.exports = [
 		name: "Crosis",
 		cost: 3,
 		unique: true,
-		text: "Increase the Captain Skill of the Captain equiped to this ship by 1. If the Captain is a Borg Captain increase its Captain Skill by 3 instead.\n-----------------------------------\n<b>ONCE PER GAME, WHEN THE CAPTAIN OF THIS SHIP IS DISCSARDED:</b>\n\nThis Card becomes this ship's Captain. Place 5 Drone Tokens on this card.",
+		text: "Increase the Captain Skill of the Captain equiped to this ship by 1. If the Captain is a Borg Captain increase its Captain Skill by 3 instead.\n-----------------------------------\n<b>ONCE PER GAME, WHEN THE CAPTAIN OF THIS SHIP IS DISCARDED:</b>\n\nThis Card becomes this ship's Captain. Place 5 Drone Tokens on this card.",
 		factions: [
 			"borg"
 		]
@@ -2270,7 +2270,8 @@ module.exports = [
 		shipIndependent: true,
 		factions: [
 			"independent"
-		]
+		],
+		countsAsUpgrade: true
 	},
 	{
 		type: "crew",
@@ -2833,7 +2834,8 @@ module.exports = [
 		factions: [
 			"federation",
 			"independent"
-		]
+		],
+		countsAsUpgrade: true
 	},
 	{
 		type: "talent",
@@ -5352,7 +5354,7 @@ module.exports = [
 		],
 		name: "Xindi Council",
 		cost: 4,
-		text: "Place 1 Mission Token on this card for each damage your ship suffers to its Hull or Shields (max 4).\nWhen attacking or defending, you may discard this card to re-roll a number of Mission Tokens on this card.\nThis card may only be fielded by a Xindi Captain assigned to a Xindi Ship.",
+		text: "Place 1 Mission Token on this card for each damage your ship suffers to its Hull or Shields (max 4).\nWhen attacking or defending, you may discard this card to re-roll a number of your attack or defense dice up to the number of Mission Tokens on this card.\nThis card may only be fielded by a Xindi Captain assigned to a Xindi Ship.",
 		unique: true,
 		factions: [
 			"xindi"
@@ -9741,7 +9743,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "tech",
@@ -10465,7 +10468,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "talent",
@@ -12219,7 +12223,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "crew",
@@ -16432,7 +16437,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "tech",
@@ -18615,7 +18621,8 @@ module.exports = [
 		unique: false,
 		factions: [
 			"federation"
-		]
+		],
+		countsAsUpgrade: true
 	},
 	{
 		type: "talent",

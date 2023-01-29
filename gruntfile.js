@@ -132,10 +132,10 @@ module.exports = function(grunt) {
 		var done = this.async();
 		var exec = require('child_process').exec;
 
-		exec('npm run data --force', function(err, stdout, stderr) {
+		exec('npm run data', function(err, stdout, stderr) {
 			if(err) {
 				grunt.warn('Failed generating Utopia data.');
-				console.error(err);
+				grunt.log.writeln(err);
 				done(false);
 				return;
 			}
