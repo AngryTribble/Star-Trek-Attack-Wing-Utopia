@@ -2270,7 +2270,8 @@ module.exports = [
 		shipIndependent: true,
 		factions: [
 			"independent"
-		]
+		],
+		countsAsUpgrade: true
 	},
 	{
 		type: "crew",
@@ -2833,7 +2834,8 @@ module.exports = [
 		factions: [
 			"federation",
 			"independent"
-		]
+		],
+		countsAsUpgrade: true
 	},
 	{
 		type: "talent",
@@ -9741,7 +9743,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "tech",
@@ -10465,7 +10468,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "talent",
@@ -12219,7 +12223,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "crew",
@@ -16432,7 +16437,8 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: ""
+		range: "",
+		countsAsUpgrade: true
 	},
 	{
 		type: "tech",
@@ -18615,7 +18621,8 @@ module.exports = [
 		unique: false,
 		factions: [
 			"federation"
-		]
+		],
+		countsAsUpgrade: true
 	},
 	{
 		type: "talent",
