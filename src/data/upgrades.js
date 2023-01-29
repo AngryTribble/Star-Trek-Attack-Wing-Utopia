@@ -12223,8 +12223,7 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: "",
-		countsAsUpgrade: true
+		range: ""
 	},
 	{
 		type: "crew",
