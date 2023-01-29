@@ -1612,11 +1612,12 @@ intercept: {
 				{
 					type: ["tech"],
 					rules: "Costs exactly 3 SP",
+					faceDown: true,
 					//Adds check for specific ship or class
 					canEquip: function(upgrade,ship,fleet) {
-						if( upgrade.id == "T222")
+						if (upgrade.text.includes('may only be purchased for the U.S.S. Voyager.'))
 							return false;
-						else if( upgrade.id == "T272")
+						else if(upgrade.id == 'T272')
 							return true;
 					},
 					intercept: {
@@ -7444,7 +7445,8 @@ intercept: {
 		"crew:C369":{
 				upgradeSlots: [ {
 					type: ["tech"],
-					rules: "Free Stone of Gol Only",
+					rules: "0 SP Stone of Gol",
+					faceDown: true,
 					canEquip: function(upgrade) {
 						return upgrade.name == "Stone of Gol";
 					},
