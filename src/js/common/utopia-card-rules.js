@@ -678,7 +678,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			// Add Skill to Kor, Koloth and Kang
 			skill: function(card,ship,fleet,skill) {
 				if( card == ship.captain && ((card.name == "Kor") || (card.name == "Kang") || (card.name == "Koloth")))
-					return resolve(card,ship,fleet,skill) + 1;
+					return resolve(card,ship,fleet,skill) +1;
 				return skill;
 			}
 		}
@@ -689,7 +689,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	"captain:Cap004": {
 		upgradeSlots: [ {
 			type: ["talent"],
-			rules: "May equip Dahar Master Elite Talent for 0 SP",
+			rules: "Equip Dahar Master for 0 SP",
 			intercept: {
 				ship: {
 					// Dahar Master for free
@@ -1382,7 +1382,6 @@ intercept: {
 							cost = candCost - 2;
 
 						return cost;
-
 					}
 				}
 			}

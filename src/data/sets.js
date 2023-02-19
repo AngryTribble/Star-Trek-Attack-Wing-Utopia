@@ -23,9 +23,9 @@ module.exports = [
 	{
 		type: "set",
 		id: "80001",
-		name: "Alliance",
+		name: "Part I",
 		releaseDate: "2020-01-31",
-		parentSet: "Core"
+		parentSet: "Alliance"
 	},
 	{
 		type: "set",

@@ -3745,7 +3745,7 @@ module.exports = [
 		set: [
 			"75002"
 		],
-		name: "Engery Dissipator",
+		name: "Energy Dissipator",
 		cost: 2,
 		range: "1 - 2",
 		attack: 3,
