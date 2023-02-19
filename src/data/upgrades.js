@@ -159,21 +159,6 @@ module.exports = [
 	},
 	{
 		type: "weapon",
-		id: "W999",
-		set: [
-			"75013"
-		],
-		name: "Type 10 Phasers (2nd Slot)",
-		cost: 0,
-		text: "<b>(NOT A PHSICAL CARD, USED INTERNALLY ON UTOPIA ONLY)</b> \n\n This card is to represent the 2nd weapon slot being used to equip the Type 10 Phaser Array upgrade.",
-		OnePerShip: true,
-		shipFederation: true,
-		factions: [
-			"federation"
-		]
-	},
-	{
-		type: "weapon",
 		id: "W222",
 		set: [
 			"75013"
