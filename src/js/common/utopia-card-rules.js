@@ -327,10 +327,17 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
-//Type 10 Phasers - Issue #4 on github
+//Type 10 Phasers
 "weapon:W222":{
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Type 10 Phasers");
+  }
+},
+
+//Type 10 Phasers - 2nd Slot Card
+"weapon:W999":{
+	canEquipFaction: function(upgrade,ship,fleet) {
+		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Type 10 Phasers 2nd slot");
   }
 },
 
