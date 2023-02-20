@@ -7,7 +7,7 @@ module.exports = [
 		],
 		name: "Alynna Nechayev",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank] . If the defending ship is either a <img src='https://i.imgur.com/QKqthve.png' width='20' height='20';'> ship or a <img src='https://i.imgur.com/tZbY5gi.png' width='20' height='20';'> ship, roll +1 attack die.",
+		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank]. If the defending ship is either a <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ship or a <img src='https://i.imgur.com/tZbY5gi.png' width='20' height='20'> ship, roll +1 attack die.",
 		factions: [
 			"federation"
 		],
@@ -39,7 +39,7 @@ module.exports = [
 		],
 		name: "Strickler",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an <style='text-align: center'><img src='https://i.imgur.com/QhlAiYf.png' width='20' height='20';'></style> ship or has an <img src='https://i.imgur.com/QhlAiYf.png' width='20' height='20';'> Captain equipped to it, add 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an <img class='centered' src='https://i.imgur.com/QhlAiYf.png' width='20' height='20'> ship or has an <img class='centered' src='https://i.imgur.com/QhlAiYf.png' width='20' height='20'> Captain equipped to it, add 1 [crit] instead.",
 		factions: [
 			"federation"
 		],
