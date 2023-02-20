@@ -134,7 +134,7 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+		text: "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
 		unique: true,
 		factions: [
 			"federation"
@@ -171,7 +171,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<font size ='-1.75'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n <b>WHEN ATTACKING A FEDERATION SHIP:</b>\n You may roll -2 attack dice. \n Place 1 [aux] Token beside the defending ship.</font>",
+		text: "<font size ='-1.75'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n <b>WHEN ATTACKING A <img class='top' src='../img/faction-federation.png' width='20' height='20';> SHIP:</b>\n You may roll -2 attack dice. \n Place 1 [aux] Token beside the defending ship.</font>",
 		unique: true,
 		factions: [
 			"federation"
@@ -321,7 +321,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 28,
-		text: "If this ship is equipped with the 'Federation Prototype', Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='https://imgur.com/0QLkrIf' width='20' height='20';'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
 		unique: true,
 		factions: [
 			"federation"
