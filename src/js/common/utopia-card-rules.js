@@ -327,17 +327,10 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	}
 },
 
-//Type 10 Phasers
+//Type 10 Phasers - Issue #4 on github
 "weapon:W222":{
 	canEquipFaction: function(upgrade,ship,fleet) {
 		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Type 10 Phasers");
-  }
-},
-
-//Type 10 Phasers - 2nd Slot Card
-"weapon:W999":{
-	canEquipFaction: function(upgrade,ship,fleet) {
-		return hasFaction(ship,"federation", ship, fleet) || hasFaction(ship,"bajoran", ship, fleet) || hasFaction(ship,"vulcan", ship, fleet) && onePerShip("Type 10 Phasers 2nd slot");
   }
 },
 
@@ -483,7 +476,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 //Federation Prototype
  "starship_construction:Con001":{
  	canEquipConstruction: function(upgrade,ship,fleet) {
-		return ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,"")
+		return ship.name.startsWith("U.S.S. ") && (ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,""))
  	},
 
  	upgradeSlots: [

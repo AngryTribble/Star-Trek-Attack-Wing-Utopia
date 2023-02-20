@@ -165,7 +165,7 @@ module.exports = [
 		],
 		name: "Type 10 Phasers",
 		cost: 3,
-		text: "This card fills 2 [weapon] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead. \n\n <i>(Equip 'Type 10 Phasers (2nd Slot)' to accurately reflect equip rule)</i>",
+		text: "This card fills 2 [weapon] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.",
 		OnePerShip: true,
 		shipFederation: true,
 		factions: [
@@ -12238,8 +12238,7 @@ module.exports = [
 		skill: 0,
 		talents: 0,
 		attack: 0,
-		range: "",
-		countsAsUpgrade: true
+		range: ""
 	},
 	{
 		type: "crew",
