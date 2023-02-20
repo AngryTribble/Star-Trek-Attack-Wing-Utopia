@@ -338,11 +338,11 @@
 }
 
 .fs-ambassador:before {
-  content: "A";
+  content: "a";
 }
 
 .fs-starship_construction:before {
-  content: "A";
+  content: "c";
 }
 
 .fs-resource:before {

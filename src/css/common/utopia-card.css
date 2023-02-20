@@ -275,7 +275,7 @@
 }
 
 .card-alliance-icon {
-	background: url(../img/restrictions/alliance.png) no-repeat;
+	background: url("../img/restrictions/alliance.png") no-repeat;
     font-size: .5em;
     background-size: 1em;
     width: 1em;

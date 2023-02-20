@@ -84,13 +84,13 @@
 			<div class="card-outer card-drop-target font-staw" ng-click="setSearchTypes(['starship_construction'])">
 				<div class="card-drop-target-inner">
 					<div class="card-drop-target-type">
-						<i class="fs fs-construction"></i><br/>Starship Construction
+						<i class="fs fs-starship_construction"></i><br/>Starship Construction
 					</div>
 				</div>
 			</div>
 			<card card="ship.construction" ship="ship" fleet="fleet" drag-store="dragStore"></card>
 		</div><!--
-		 
+
 		--><div class="card-container" ng-class="{'zoom':zoom}" ng-mouseenter="hover = true" ng-mouseleave="hover = false"
 				ng-repeat="upgradeSlot in ship|upgradeSlots" ng-hide="!upgradeSlot.occupant && (ship.hideEmptySlots || (upgradeSlot|valueOf:'hide':ship:fleet))"
 				droppable can-drop="isUpgradeCompatible($item, upgradeSlot, ship, fleet)" drop="setUpgrade(fleet,ship,upgradeSlot,$item)" drag-store="dragStore">
