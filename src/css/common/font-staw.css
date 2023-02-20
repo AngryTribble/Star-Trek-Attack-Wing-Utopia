@@ -27,6 +27,7 @@
   font-style: normal;
 }
 
+
 .fs {
   display: inline-block;
   font-family: FontSTAWIcons !important;
@@ -341,8 +342,16 @@
   content: "a";
 }
 
+.fs-ambassador_text:before {
+  content: "b";
+}
+
 .fs-starship_construction:before {
   content: "c";
+}
+
+.fs-starship_construction_text:before {
+  content: "d";
 }
 
 .fs-resource:before {
