@@ -3252,6 +3252,7 @@ intercept: {
 				return $factions.hasFaction( ship, "romulan", ship, fleet );
 			}
 		},
+
 		// Romulan Security Officer
 		// TODO Limit to max +3
 		"crew:C058": {
@@ -3265,6 +3266,7 @@ intercept: {
 				}
 			}
 		},
+
 		// Disruptor Pulse
 		"weapon:W044": {
 			intercept: {
