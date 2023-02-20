@@ -24,7 +24,7 @@ module.exports = [
 		],
 		name: "Theoderich Patterson",
 		unique: true,
-		text: "<font size ='-.5'><b>FLEET ACTION:</b> <img src='https://i.imgur.com/dCPJQ1Y.png' style="width: 50px; height: auto;"> Target this ship or a friendly ship within Range. \n\n Place a [hook] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repair 1 Hull on the target ship. If the target ship has a (hook) equipped, you may also remove an [aux] Token from beside that ship.</font>",
+		text: "<font size ='-.5'><b>FLEET ACTION:</b> <img src='https://i.imgur.com/dCPJQ1Y.png' style="width: 50px; height: auto;"> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repair 1 Hull on the target ship. If the target ship has a (hook) equipped, you may also remove an [aux] Token from beside that ship.</font>",
 		range: "1 - 2",
 		factions: [
 			"federation"
