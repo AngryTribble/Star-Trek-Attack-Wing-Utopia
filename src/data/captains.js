@@ -7,7 +7,7 @@ module.exports = [
 		],
 		name: "Alynna Nechayev",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank] . If the defending ship is either a Dominion ship or a Borg ship, roll +1 attack die.",
+		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank] . If the defending ship is either a <img class='top' src='../img/faction-dominion.png' width='20' height='20'; margin-right: 5px;'> ship or a <img class='top' src='../img/faction-borg.png' width='20' height='20'; margin-right: 5px;'> ship, roll +1 attack die.",
 		factions: [
 			"federation"
 		],
@@ -39,7 +39,7 @@ module.exports = [
 		],
 		name: "Strickler",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an Independent ship or has an Independent Captain equipped to it, add 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an <style='text-align: center'><img class='top' src='../img/faction-independent.png' width='20' height='20'; margin-right: 5px;'></style> ship or has an <img src='../img/faction-independent.png' width='20' height='20'; margin-right: 5px;'> Captain equipped to it, add 1 [crit] instead.",
 		factions: [
 			"federation"
 		],

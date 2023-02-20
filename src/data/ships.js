@@ -97,7 +97,7 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> \n <font size ='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a Sovereign Class it may also add 1 [hit]. If the defending ship is a Borg ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
+		text: "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> \n <font size ='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a <img class='top' src='../img/sil-fedsovereign.png' width='20' height='20'; margin-right: 5px;'> it may also add 1 [hit]. If the defending ship is a <img class='top' src='../img/faction-borg.png' width='20' height='20'; margin-right: 5px;'> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
 		unique: true,
 		factions: [
 			"federation"
@@ -246,7 +246,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 27,
-		text: "<b>WHEN ATTACKING WITH A FEDERATION [weapon] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a Dominion ship, convert 1 [battlestations] into 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING WITH A <img class='top' src='../img/faction-federation.png' width='20' height='20'; margin-right: 5px;'> [weapon] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img class='top' src='../img/faction-dominion.png' width='20' height='20'; margin-right: 5px;'> ship, convert 1 [battlestations] into 1 [crit] instead.",
 		unique: true,
 		factions: [
 			"federation"

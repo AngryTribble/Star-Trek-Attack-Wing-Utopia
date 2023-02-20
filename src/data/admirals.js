@@ -41,7 +41,7 @@ module.exports = [
 		],
 		name: "Strickler",
 		unique: true,
-		text: "<b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Target ship performs either a 1 [bank-left] or 1 [bank-right] Maneuver. If the target ship has the 'Federation Prototype' Starship Construction Upgrade, you may remove an [aux] Token from beside that ship.",
+		text: "<b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Target ship performs either a 1 [bank-left] or 1 [bank-right] Maneuver. If the target ship has the 'Federation Prototype' [hook], you may remove an [aux] Token from beside that ship.",
 		range: "1 - 2",
 		factions: [
 			"federation"
