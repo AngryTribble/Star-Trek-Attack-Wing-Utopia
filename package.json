@@ -28,7 +28,7 @@
     "dev": "npm run start && npm run watch",
     "data": "npm run lint-data && npm run generate-data",
     "generate-data": "node ./src/data/index.js",
-    "lint-data": "eslint 'src/data/*.js' --fix"
+    "lint-data": "eslint src/data/*.js --fix"
   },
   "devDependencies": {
     "eslint-config-fnd": "^1.13.0",
