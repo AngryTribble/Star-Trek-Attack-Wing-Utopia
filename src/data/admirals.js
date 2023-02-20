@@ -17,23 +17,19 @@ module.exports = [
 		range: "1 - 2"
 	},
 	{
-		type: "admiral",
-		id: "A040",
-		set: [
-			"75013"
-		],
-		name: "Theoderich Patterson",
-		unique: true,
-		text: "<font size ='-.5'><b>FLEET ACTION:</b> <img src='https://i.imgur.com/dCPJQ1Y.png" width="20" height="20" style="display: block; margin: 0 auto; vertical-align: middle;'> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repair 1 Hull on the target ship. If the target ship has a (hook) equipped, you may also remove an [aux] Token from beside that ship.</font>",
-		range: "1 - 2",
-		factions: [
-			"federation"
-		],
-		cost: 3,
-		skill: 1,
-		talents: 1,
-		range: "1 - 2"
-	},
+	  type: "admiral",
+	  id: "A040",
+	  set: ["75013"],
+	  name: "Theoderich Patterson",
+	  unique: true,
+	  text: "<font size='-.5'><b>FLEET ACTION:</b> <img src='https://i.imgur.com/dCPJQ1Y.png' width='20' height='20' style='display: block; margin: 0 auto; vertical-align: middle;'> Target this ship or a friendly ship within Range. \n\n Place a [scan] Token beside the target ship. If the target ship is within Range 1 of a Non-Planet Obstacle, you may also repair 1 Hull on the target ship. If the target ship has a (hook) equipped, you may also remove an [aux] Token from beside that ship.</font>",
+	  range: "1 - 2",
+	  factions: ["federation"],
+	  cost: 3,
+	  skill: 1,
+	  talents: 1
+	}
+
 	{
 		type: "admiral",
 		id: "A039",
