@@ -28,8 +28,7 @@ module.exports = [
 	  cost: 3,
 	  skill: 1,
 	  talents: 1
-	}
-
+	},
 	{
 		type: "admiral",
 		id: "A039",
