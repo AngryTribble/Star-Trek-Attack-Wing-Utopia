@@ -67,7 +67,7 @@ module.exports = [
 		cost: 6,
 		text: "<b>WHEN DEFENDING: MODIFY ATTACK DICE STEP:</b> \n Convert all [crit] to [hit] . \n----------------------------------------\n <b>WHEN DEFENDING: DEAL DAMAGE STEP:</b> \n Place damage cards this ship would receive under this card (Max 3) instead of beside this ship. \n<i>Prometheus Class Only</i>",
 		OnePerShip: true,
-		shipLimit: true,
+		prometheusLimit: true,
 		factions: [
 			"federation"
 		]
