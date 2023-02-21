@@ -201,6 +201,10 @@
   content: "V";
 }
 
+.fs-borg_text:before {
+  content: "v";
+}
+
 .fs-tech:before {
   content: "W";
 }
@@ -228,6 +232,11 @@
 .fs-talent:before {
   content: "Z";
 }
+
+.fs-talent_text:before {
+  content: "z";
+}
+
 .fs-refit:before {
   content: "a";
 }

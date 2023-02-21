@@ -321,7 +321,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 28,
-		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='https://i.imgur.com/0QLkrIf.png' width='20' height='20'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='https://i.imgur.com/0QLkrIf.png' width='10' height='10'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
 		unique: true,
 		factions: [
 			"federation"
@@ -606,7 +606,7 @@ module.exports = [
 		hull: 6,
 		shields: 4,
 		cost: 28,
-		text: "<font size='-1'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a Dominion ship, you may do both.</font>",
+		text: "<font size='-1'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ship, you may do both.</font>",
 		unique: true,
 		factions: [
 			"romulan"
@@ -710,7 +710,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew] Upgrade equipped to this ship.\nThe target ship does not skip its Perform Action Step this game round.",
+		text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew_text] Upgrade equipped to this ship.\nThe target ship does not skip its Perform Action Step this game round.",
 		attack: 2,
 		agility: 2,
 		hull: 3,
@@ -743,7 +743,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly Federation ships with a Hull Value of 3 or less within Range 1-2.\nThe target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
+		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ships with a Hull Value of 3 or less within Range 1-2.\nThe target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
 		attack: 4,
 		agility: 1,
 		hull: 5,
@@ -776,7 +776,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Federation [weapon] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN ATTACKING WITH A PHOTON TORPEDOS UPGRADE, DURING THE MODIFY ATTACK DICE STEP:</b>\nDestroy 1 Active Shield on the defending ship.",
+		text: "<img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> [weapon_text] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN ATTACKING WITH A PHOTON TORPEDOS UPGRADE, DURING THE MODIFY ATTACK DICE STEP:</b>\nDestroy 1 Active Shield on the defending ship.",
 		attack: 4,
 		agility: 2,
 		hull: 5,
@@ -878,7 +878,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "You may equip a Klingon [tech] Upgrade with a printed cost of 4 SP or less to this ship for free, even if it exceeds this ship's retrictions.",
+		text: "You may equip a <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [tech_text] Upgrade with a printed cost of 4 SP or less to this ship for free, even if it exceeds this ship's retrictions.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -910,7 +910,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 16,
-		text: "<b>WHEN ATTACKING A SHIP WITH A HULL OF 4 OR GREATER:</b> Steal a [scan] Token, a [battlestations] Token, or an [evade] Token from beside the defending ship and place it beside this ship.\n<b>WHEN ATTACKING A KLINGON SHIP OR A SHIP WITH A KLINGON CAPTAIN EQUIPPED TO IT:</b> Add 1 [hit]. ",
+		text: "<b>WHEN ATTACKING A SHIP WITH A HULL OF 4 OR GREATER:</b> Steal a [scan] Token, a [battlestations] Token, or an [evade] Token from beside the defending ship and place it beside this ship.\n<b>WHEN ATTACKING A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> SHIP OR A SHIP WITH A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> CAPTAIN EQUIPPED TO IT:</b> Add 1 [hit]. ",
 		unique: true,
 		factions: [
 			"klingon",
@@ -976,7 +976,7 @@ module.exports = [
 		hull: 6,
 		shields: 3,
 		cost: 28,
-		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, disable a Klingon [crew] Upgrade equipped to this ship\n\nDo not flip this ship's [cloak] Token to its red side and place a [battlestations] Token beside this ship.",
+		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, disable a <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [crew_text] Upgrade equipped to this ship\n\nDo not flip this ship's [cloak] Token to its red side and place a [battlestations] Token beside this ship.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -1109,7 +1109,7 @@ module.exports = [
 		hull: 4,
 		shields: 4,
 		cost: 22,
-		text: "<b>ACTION:</b> \nAll other friendly Dominion ships within Range 1-2 may perform an Action on their Action Bar as a Free Action.",
+		text: "<b>ACTION:</b> \nAll other friendly <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ships within Range 1-2 may perform an Action on their Action Bar as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1146,7 +1146,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 22,
-		text: "If there are only Dominion and/or Romulan cards equipped to this ship, add the [cloak] and [sensor-echo] Actions to this ship's Action Bar.\n<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 PERFORMS THE CLOAK ACTION:</b> This ship may perform the [cloak] Action as a Free Action.",
+		text: "If there are only <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> and/or <img src='https://i.imgur.com/BpbvTHt.png' width='20' height='20'> cards equipped to this ship, add the [cloak] and [sensor-echo] Actions to this ship's Action Bar.\n<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 PERFORMS THE CLOAK ACTION:</b> This ship may perform the [cloak] Action as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1183,7 +1183,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 24,
-		text: "All friendly Dominion ships within Range 1 roll +1 attack die.",
+		text: "All friendly <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ships within Range 1 roll +1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1365,7 +1365,7 @@ module.exports = [
 		hull: 4,
 		shields: 4,
 		cost: 22,
-		text: "All Vulcan Captains, Admirals, and [crew] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN THIS SHIP PERFORMS A [scan] ACTION:</b> \nPlace an additional [scan] Token beside this ship.",
+		text: "All <img src='https://i.imgur.com/Bz5pgGG.png' width='20' height='20'> Captains, Admirals, and [crew_text] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN THIS SHIP PERFORMS A [scan] ACTION:</b> \nPlace an additional [scan] Token beside this ship.",
 		unique: true,
 		factions: [
 			"federation",
@@ -1495,7 +1495,7 @@ module.exports = [
 		hull: 5,
 		shields: 4,
 		cost: 30,
-		text: "You do not pay a faction penalty for cards equipped to this ship.\n-----------------------------------\nAll [tech] Upgrades equipped to this ship cost -1 SP.",
+		text: "You do not pay a faction penalty for cards equipped to this ship.\n-----------------------------------\nAll [tech_text] Upgrades equipped to this ship cost -1 SP.",
 		unique: true,
 		factions: [
 			"borg"
