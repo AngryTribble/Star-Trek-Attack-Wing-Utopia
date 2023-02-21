@@ -24,8 +24,9 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 15,
-		text: "<font size ='-1'><b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon] Upgrade equipped to the target ship.</font>",
+		text: "<font size ='-1'><b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon_text] Upgrade equipped to the target ship.</font>",
 		unique: true,
+		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -62,6 +63,7 @@ module.exports = [
 		cost: 16,
 		text: "<font size=\"-1\">This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n</font><font size ='-2'> <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .</font>",
 		unique: true,
+		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -97,8 +99,9 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<b>WHEN A FRIENDLY FEDERATION SHIP WITHIN RANGE 1 IS ATTACKING:</b> \n <font size ='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a Sovereign Class it may also add 1 [hit]. If the defending ship is a Borg ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
+		text: "<b>WHEN A FRIENDLY <img src='../img/faction_fed.png' width='20' height='20'> SHIP WITHIN RANGE 1 IS ATTACKING:</b>\n<font size='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a <img src='../img/Ships/fed-sil-fedsovereign.png' width='10' height='10';> it may also add 1 [hit]. If the defending ship is a <img src='../img/faction-borg.png' width='20' height='20';> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
 		unique: true,
+		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -134,8 +137,9 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an Ambassador - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+		text: "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
 		unique: true,
+		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -171,8 +175,9 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<font size ='-1.75'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n <b>WHEN ATTACKING A FEDERATION SHIP:</b>\n You may roll -2 attack dice. \n Place 1 [aux] Token beside the defending ship.</font>",
+		text: "<font size='-1.5'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade].\n<b>WHEN ATTACKING A <img src='../img/faction_fed.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
 		unique: true,
+		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -210,6 +215,7 @@ module.exports = [
 		cost: 23,
 		text: "<font size='-1'><b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n-----------------------------------\n <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.</font>",
 		unique: true,
+		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -246,8 +252,9 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 27,
-		text: "<b>WHEN ATTACKING WITH A FEDERATION [weapon] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a Dominion ship, convert 1 [battlestations] into 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING WITH A <img src='../img/faction_fed.png' width='20' height='20';'> [weapon_text] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img src='../img/faction-dominion.png' width='20' height='20';'> ship, convert 1 [battlestations] into 1 [crit] instead.",
 		unique: true,
+		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -285,6 +292,7 @@ module.exports = [
 		cost: 24,
 		text: "",
 		unique: false,
+		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -321,8 +329,9 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 28,
-		text: "If this ship is equipped with the 'Federation Prototype', Prometheus Class Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='https://i.imgur.com/0QLkrIf.png' width='10' height='10'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
 		unique: true,
+		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -606,7 +615,7 @@ module.exports = [
 		hull: 6,
 		shields: 4,
 		cost: 28,
-		text: "<font size='-1'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a Dominion ship, you may do both.</font>",
+		text: "<font size='-1'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ship, you may do both.</font>",
 		unique: true,
 		factions: [
 			"romulan"
@@ -710,7 +719,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew] Upgrade equipped to this ship.\nThe target ship does not skip its Perform Action Step this game round.",
+		text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew_text] Upgrade equipped to this ship.\nThe target ship does not skip its Perform Action Step this game round.",
 		attack: 2,
 		agility: 2,
 		hull: 3,
@@ -743,7 +752,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly Federation ships with a Hull Value of 3 or less within Range 1-2.\nThe target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
+		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ships with a Hull Value of 3 or less within Range 1-2.\nThe target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
 		attack: 4,
 		agility: 1,
 		hull: 5,
@@ -776,13 +785,14 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Federation [weapon] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN ATTACKING WITH A PHOTON TORPEDOS UPGRADE, DURING THE MODIFY ATTACK DICE STEP:</b>\nDestroy 1 Active Shield on the defending ship.",
+		text: "<img src='../img/faction_fed.png' width='20' height='20'> [weapon_text] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN ATTACKING WITH A PHOTON TORPEDOS UPGRADE, DURING THE MODIFY ATTACK DICE STEP:</b>\nDestroy 1 Active Shield on the defending ship.",
 		attack: 4,
 		agility: 2,
 		hull: 5,
 		shields: 3,
 		cost: 24,
 		unique: true,
+		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -848,6 +858,7 @@ module.exports = [
 		shields: 2,
 		cost: 21,
 		unique: false,
+		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -878,7 +889,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "You may equip a Klingon [tech] Upgrade with a printed cost of 4 SP or less to this ship for free, even if it exceeds this ship's retrictions.",
+		text: "You may equip a <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [tech_text] Upgrade with a printed cost of 4 SP or less to this ship for free, even if it exceeds this ship's retrictions.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -910,7 +921,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 16,
-		text: "<b>WHEN ATTACKING A SHIP WITH A HULL OF 4 OR GREATER:</b> Steal a [scan] Token, a [battlestations] Token, or an [evade] Token from beside the defending ship and place it beside this ship.\n<b>WHEN ATTACKING A KLINGON SHIP OR A SHIP WITH A KLINGON CAPTAIN EQUIPPED TO IT:</b> Add 1 [hit]. ",
+		text: "<b>WHEN ATTACKING A SHIP WITH A HULL OF 4 OR GREATER:</b> Steal a [scan] Token, a [battlestations] Token, or an [evade] Token from beside the defending ship and place it beside this ship.\n<b>WHEN ATTACKING A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> SHIP OR A SHIP WITH A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> CAPTAIN EQUIPPED TO IT:</b> Add 1 [hit]. ",
 		unique: true,
 		factions: [
 			"klingon",
@@ -976,7 +987,7 @@ module.exports = [
 		hull: 6,
 		shields: 3,
 		cost: 28,
-		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, disable a Klingon [crew] Upgrade equipped to this ship\n\nDo not flip this ship's [cloak] Token to its red side and place a [battlestations] Token beside this ship.",
+		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, disable a <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [crew_text] Upgrade equipped to this ship\n\nDo not flip this ship's [cloak] Token to its red side and place a [battlestations] Token beside this ship.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -1109,7 +1120,7 @@ module.exports = [
 		hull: 4,
 		shields: 4,
 		cost: 22,
-		text: "<b>ACTION:</b> \nAll other friendly Dominion ships within Range 1-2 may perform an Action on their Action Bar as a Free Action.",
+		text: "<b>ACTION:</b> \nAll other friendly <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ships within Range 1-2 may perform an Action on their Action Bar as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1146,7 +1157,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 22,
-		text: "If there are only Dominion and/or Romulan cards equipped to this ship, add the [cloak] and [sensor-echo] Actions to this ship's Action Bar.\n<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 PERFORMS THE CLOAK ACTION:</b> This ship may perform the [cloak] Action as a Free Action.",
+		text: "If there are only <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> and/or <img src='https://i.imgur.com/BpbvTHt.png' width='20' height='20'> cards equipped to this ship, add the [cloak] and [sensor-echo] Actions to this ship's Action Bar.\n<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 PERFORMS THE CLOAK ACTION:</b> This ship may perform the [cloak] Action as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1183,7 +1194,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 24,
-		text: "All friendly Dominion ships within Range 1 roll +1 attack die.",
+		text: "All friendly <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ships within Range 1 roll +1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1365,7 +1376,7 @@ module.exports = [
 		hull: 4,
 		shields: 4,
 		cost: 22,
-		text: "All Vulcan Captains, Admirals, and [crew] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN THIS SHIP PERFORMS A [scan] ACTION:</b> \nPlace an additional [scan] Token beside this ship.",
+		text: "All <img src='https://i.imgur.com/Bz5pgGG.png' width='20' height='20'> Captains, Admirals, and [crew_text] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN THIS SHIP PERFORMS A [scan] ACTION:</b> \nPlace an additional [scan] Token beside this ship.",
 		unique: true,
 		factions: [
 			"federation",
@@ -1495,7 +1506,7 @@ module.exports = [
 		hull: 5,
 		shields: 4,
 		cost: 30,
-		text: "You do not pay a faction penalty for cards equipped to this ship.\n-----------------------------------\nAll [tech] Upgrades equipped to this ship cost -1 SP.",
+		text: "You do not pay a faction penalty for cards equipped to this ship.\n-----------------------------------\nAll [tech_text] Upgrades equipped to this ship cost -1 SP.",
 		unique: true,
 		factions: [
 			"borg"
@@ -1752,7 +1763,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 23,
-		text: "You may equip a [crew] Upgrade as the Captain of this ship. If you do, it counts as a Captain instead of a [crew] Upgrade and its Captain Skill is its Printed SP Cost +3.\n----------------------------------\nYou may not equip an Admiral Card to this ship.",
+		text: "You may equip a [crew_text] Upgrade as the Captain of this ship. If you do, it counts as a Captain instead of a [crew_text] Upgrade and its Captain Skill is its Printed SP Cost +3.\n----------------------------------\nYou may not equip an Admiral Card to this ship.",
 		unique: true,
 		factions: [
 			"independent"
@@ -1824,7 +1835,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "<b><font size=\"-1\">WHEN A FRIENDLY SHIP WITHIN RANGE 1 IS DEFENDING:</font></b> The friendly ship may roll +1 defense die. If that friendly ship is an (<i>Andorian Battle Cruiser</i>), it may also convert one [blank] result into one [evade] result. If the attacking ship is a Vulcan Ship, that friendly ship may also add one [evade].",
+		text: "<b><font size=\"-1\">WHEN A FRIENDLY SHIP WITHIN RANGE 1 IS DEFENDING:</font></b> The friendly ship may roll +1 defense die. If that friendly ship is an <img src='https://i.imgur.com/gYAWL0N.png' width='10' height='10'>, it may also convert one [blank] result into one [evade] result. If the attacking ship is a <img src='https://i.imgur.com/89QK4SA.png' width='20' height='20'> Ship, that friendly ship may also add one [evade].",
 		unique: true,
 		factions: [
 			"independent"
@@ -1837,7 +1848,7 @@ module.exports = [
 		set: [
 			"75004"
 		],
-		name: "Guinguin",
+		name: "Guingouin",
 		class: "Maquis Raider",
 		actions: [
 			"evade",
@@ -2120,7 +2131,7 @@ module.exports = [
 		hull: 1,
 		shields: 1,
 		cost: 24,
-		text: "ATTACK SQUADRON TOKENS: 5\r\n<b>ACTION:</b> Place 3 [time] Tokens on this card.\n\nEquip a [squadron] Upgrade that was discarded from this Attack Squadron to this Attack Squadron.",
+		text: "ATTACK SQUADRON TOKENS: 5\r\n<b>ACTION:</b> Place 3 [time] Tokens on this card.\n\nEquip a [squadron_text] Upgrade that was discarded from this Attack Squadron to this Attack Squadron.",
 		unique: true,
 		factions: [
 			"federation"
@@ -2317,7 +2328,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 18,
-		text: "<font size=\"-1\"><b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another Ferengi ship with a Ferengi Captain equipped to it, target that friendly ship.  This ship attack first this game round and the target ship attacks second this game round.</font>",
+		text: "<font size=\"-1\"><b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> ship with a <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> Captain equipped to it, target that friendly ship.  This ship attack first this game round and the target ship attacks second this game round.</font>",
 		unique: true,
 		factions: [
 			"ferengi",
@@ -2388,7 +2399,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "<b>ACTION:</b> Target a [tech] or [weapon] Upgrade equipped to an opposing ship within Range 1-2.\nEach player rolls 5 attack dice. If you roll more [battlestations] than the controller of the target Upgrade, steal the target Upgrade even if it exceeds this ships restrictions.",
+		text: "<b>ACTION:</b> Target a [tech_text] or [weapon_text] Upgrade equipped to an opposing ship within Range 1-2.\nEach player rolls 5 attack dice. If you roll more [battlestations] than the controller of the target Upgrade, steal the target Upgrade even if it exceeds this ships restrictions.",
 		unique: true,
 		factions: [
 			"ferengi"
@@ -2589,7 +2600,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 20,
-		text: "<b>ACTIVATION PHASE:</b> After this ship executes a Green Maneuver, place 2 [time] Tokens on this card.\nRemove a Disable Token from 1 Upgrade equipped to this ship or equip a Ferengi Upgrade that was discarded from this ship to this ship.",
+		text: "<b>ACTIVATION PHASE:</b> After this ship executes a Green Maneuver, place 2 [time] Tokens on this card.\nRemove a Disable Token from 1 Upgrade equipped to this ship or equip a <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> Upgrade that was discarded from this ship to this ship.",
 		unique: true,
 		factions: [
 			"ferengi"
@@ -2943,7 +2954,7 @@ module.exports = [
 		hull: 6,
 		shields: 3,
 		cost: 28,
-		text: "\n<b>COMBAT PHASE:</b> After this ship attacks:\n\nThis ship may perform a Green 2 [bank-left] or Green 2 [bank-right] Maneuver.",
+		text: "<b>COMBAT PHASE:</b> After this ship attacks:\n\nThis ship may perform a Green 2 [bank-left] or Green 2 [bank-right] Maneuver.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -3450,7 +3461,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 19,
-		text: "<b>PLANNING PHASE:</b> Place an [aux] Token beside this ship.\nRemove 1 [time] Token from each [tech] Upgrade equipped to this ship.\nThis ship may only be assigned Gareb or a Romulan Drone Pilot as its Captain.",
+		text: "<b>PLANNING PHASE:</b> Place an [aux] Token beside this ship.\nRemove 1 [time] Token from each [tech_text] Upgrade equipped to this ship.\nThis ship may only be assigned Gareb or a Romulan Drone Pilot as its Captain.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -3650,7 +3661,7 @@ module.exports = [
 		hull: 3,
 		shields: 2,
 		cost: 14,
-		text: "<b>WHEN THIS SHIP WOULD BE DESTROYED:</b> \n\nThe attacking ship must discard one [crew] Upgrade. If it can't, place an [aux] Token beside it.",
+		text: "<b>WHEN THIS SHIP WOULD BE DESTROYED:</b> \n\nThe attacking ship must discard one [crew_text] Upgrade. If it can't, place an [aux] Token beside it.",
 		unique: true,
 		factions: [
 			"federation"
@@ -3723,7 +3734,7 @@ module.exports = [
 		hull: 2,
 		shields: 3,
 		cost: 20,
-		text: "You may deploy [weapon] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may place an Auxiliary Power Token next to your ship to perform an [battlestations] Action.",
+		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may place an Auxiliary Power Token next to your ship to perform an [battlestations] Action.",
 		unique: true,
 		factions: [
 			"federation"
@@ -4651,7 +4662,7 @@ module.exports = [
 		hull: 3,
 		shields: 0,
 		cost: 14,
-		text: "While there is a [scan] Token beside your ship, you cannot be targeted by any [talent] Upgrades and you roll +1 defense die against all attacks made with [weapon] Upgrades.",
+		text: "While there is a [scan] Token beside your ship, you cannot be targeted by any [talent_text] Upgrades and you roll +1 defense die against all attacks made with [weapon_text] Upgrades.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -4717,6 +4728,7 @@ module.exports = [
 		cost: 22,
 		text: "If your ship has an opposing ship target locked, during the Activation Phase, you may switch the target lock to a different ship within Range 1-3 as a free Action.",
 		unique: true,
+		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -7708,7 +7720,7 @@ module.exports = [
 		hull: 9,
 		shields: 8,
 		cost: 46,
-		text: "The Borg Ablative Hull Armor [borg] Upgrade costs -3 SP to equip to this ship.",
+		text: "The Borg Ablative Hull Armor [borg_text] Upgrade costs -3 SP to equip to this ship.",
 		unique: true,
 		factions: [
 			"borg"
@@ -7852,7 +7864,7 @@ module.exports = [
 		hull: 3,
 		shields: 4,
 		cost: 22,
-		text: "When attacking with your Primary Weapon, if you inflict at least 1 Critical Damage to the enemy ship's hull, that ship must also discard 1 [crew] Upgrade (of its choice).",
+		text: "When attacking with your Primary Weapon, if you inflict at least 1 Critical Damage to the enemy ship's hull, that ship must also discard 1 [crew_text] Upgrade (of its choice).",
 		unique: true,
 		factions: [
 			"independent"
@@ -7995,7 +8007,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 22,
-		text: "<b>ACTION:</b> Disable up to 2 of your [crew] Upgrades and add +1 attack die to each of your attacks this round for each [crew] Upgrade you disabled with this Action.",
+		text: "<b>ACTION:</b> Disable up to 2 of your [crew_text] Upgrades and add +1 attack die to each of your attacks this round for each [crew_text] Upgrade you disabled with this Action.",
 		unique: true,
 		factions: [
 			"independent"
@@ -8137,7 +8149,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 22,
-		text: "When attacking with your Primary Weapon, during the Roll Attack Dice step of the Combat Phase you may disable one of your [crew] Upgrades to add +1 attack die to your attack.",
+		text: "When attacking with your Primary Weapon, during the Roll Attack Dice step of the Combat Phase you may disable one of your [crew_text] Upgrades to add +1 attack die to your attack.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -8175,6 +8187,7 @@ module.exports = [
 		cost: 22,
 		text: "When attacking with Photon Torpedoes, you do not need to disable the Photon Torpedoes.",
 		unique: true,
+		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -8213,6 +8226,7 @@ module.exports = [
 		shields: 2,
 		cost: 12,
 		unique: false,
+		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -8429,7 +8443,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 20,
-		text: "Whenever you initiate an attack, you may disable one of your non-disabled [tech] Upgrades to add +1 attack die.",
+		text: "Whenever you initiate an attack, you may disable one of your non-disabled [tech_text] Upgrades to add +1 attack die.",
 		unique: true,
 		factions: [
 			"vulcan"
@@ -8565,7 +8579,7 @@ module.exports = [
 		hull: 3,
 		shields: 0,
 		cost: 16,
-		text: "You may equip the Enhanced Hull Plating [tech] Upgrade to your ship for free even if it exceeds your ship's restrictions.",
+		text: "You may equip the Enhanced Hull Plating [tech_text] Upgrade to your ship for free even if it exceeds your ship's restrictions.",
 		unique: true,
 		factions: [
 			"federation"
@@ -8636,7 +8650,7 @@ module.exports = [
 		hull: 2,
 		shields: 4,
 		cost: 24,
-		text: "After you move, you may discard one of your Upgrades to perform an additional Green or White Maneuver.  You cannot deploy a [borg] Upgrade with a cost greater than 5 to this ship.",
+		text: "After you move, you may discard one of your Upgrades to perform an additional Green or White Maneuver.  You cannot deploy a [borg_text] Upgrade with a cost greater than 5 to this ship.",
 		unique: true,
 		factions: [
 			"borg"
@@ -8741,7 +8755,7 @@ module.exports = [
 		hull: 2,
 		shields: 3,
 		cost: 17,
-		text: "You cannot deploy a [borg] Upgrade with a cost greater than 5 to this ship.",
+		text: "You cannot deploy a [borg_text] Upgrade with a cost greater than 5 to this ship.",
 		unique: false,
 		factions: [
 			"borg"
@@ -9174,7 +9188,7 @@ module.exports = [
 		hull: 2,
 		shields: 4,
 		cost: 24,
-		text: "If there is a [scan] Token beside your ship during the Modify Defense Dice step of the Combat Phase, roll +1 defense die. \nYou cannot deploy a [borg] Upgrade with a cost greater than 5 to this ship.",
+		text: "If there is a [scan] Token beside your ship during the Modify Defense Dice step of the Combat Phase, roll +1 defense die. \nYou cannot deploy a [borg_text] Upgrade with a cost greater than 5 to this ship.",
 		unique: true,
 		factions: [
 			"borg"
@@ -9474,6 +9488,7 @@ module.exports = [
 		cost: 32,
 		text: "You may fire a Torpedo at an enemy ship without needing a Target Lock.  If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
+		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -9513,6 +9528,7 @@ module.exports = [
 		shields: 4,
 		cost: 25,
 		unique: false,
+		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -9659,7 +9675,7 @@ module.exports = [
 		hull: 9,
 		shields: 8,
 		cost: 46,
-		text: "When defending, during the Compare Results step, you may discard up to 3 of your [borg] Upgrades.  Cancel 1 [hit] or [crit] result for each Upgrade you discard with this card.",
+		text: "When defending, during the Compare Results step, you may discard up to 3 of your [borg_text] Upgrades.  Cancel 1 [hit] or [crit] result for each Upgrade you discard with this card.",
 		unique: true,
 		factions: [
 			"borg"
@@ -10906,7 +10922,7 @@ module.exports = [
 		hull: 2,
 		shields: 2,
 		cost: 14,
-		text: "At the start of the game, during the Gather Forces Step, you may purchase 1 additional [crew] or [tech] Upgrade for this ship.  This Upgrade may exceed the ship's restrictions and cost -2 SP (min 0).",
+		text: "At the start of the game, during the Gather Forces Step, you may purchase 1 additional [crew_text] or [tech_text] Upgrade for this ship.  This Upgrade may exceed the ship's restrictions and cost -2 SP (min 0).",
 		unique: true,
 		factions: [
 			"federation"
@@ -11050,7 +11066,7 @@ module.exports = [
 		hull: 3,
 		shields: 2,
 		cost: 20,
-		text: "All of your [tech] Upgrades cost -1 SP.",
+		text: "All of your [tech_text] Upgrades cost -1 SP.",
 		unique: true,
 		factions: [
 			"federation"
@@ -11266,6 +11282,7 @@ module.exports = [
 		shields: 4,
 		cost: 24,
 		unique: false,
+		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -11340,6 +11357,7 @@ module.exports = [
 		cost: 30,
 		text: "<b>ACTION:</b> If you performed a [forward] Maneuver this round, immediately perform an additional 1 [forward] or 2 [forward] Maneuver.",
 		unique: true,
+		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -11668,7 +11686,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 26,
-		text: "Each time you perform an Action or use an ability on any of your [tech] Upgrades, place 1 Mission Token on this card. During the Roll Attack Dice step, you may spend up to 2 of these tokens to gain +1 attack die for that attack for each token spent.",
+		text: "Each time you perform an Action or use an ability on any of your [tech_text] Upgrades, place 1 Mission Token on this card. During the Roll Attack Dice step, you may spend up to 2 of these tokens to gain +1 attack die for that attack for each token spent.",
 		unique: true,
 		factions: [
 			"independent"
@@ -11735,7 +11753,7 @@ module.exports = [
 		hull: 2,
 		shields: 3,
 		cost: 20,
-		text: "You may deploy [weapon] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may fire your Primary Weapon from your rear firing arc at -1 attack die.",
+		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may fire your Primary Weapon from your rear firing arc at -1 attack die.",
 		unique: true,
 		factions: [
 			"federation"
@@ -11766,7 +11784,7 @@ module.exports = [
 		hull: 2,
 		shields: 2,
 		cost: 18,
-		text: "You may deploy [weapon] Upgrades with a cost of 4 SP or less to this ship.",
+		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.",
 		unique: false,
 		factions: [
 			"federation"
@@ -12147,7 +12165,7 @@ module.exports = [
 		hull: 2,
 		shields: 2,
 		cost: 16,
-		text: "You do not pay a faction penalty when assigning any [crew] or [tech] Upgrades to this ship.\nYou do not place an Auxiliary Power Token beside your ship when using the \"Docking\" or \"Launching\" Actions.",
+		text: "You do not pay a faction penalty when assigning any [crew_text] or [tech_text] Upgrades to this ship.\nYou do not place an Auxiliary Power Token beside your ship when using the \"Docking\" or \"Launching\" Actions.",
 		unique: true,
 		factions: [
 			"ferengi"
@@ -12348,6 +12366,7 @@ module.exports = [
 		cost: 28,
 		text: "Each time you defend, if you take no damage from an attack, you may immediately roll 1 attack die. A [hit] or [crit] result damages the attacking ship.",
 		unique: true,
+		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -12381,6 +12400,7 @@ module.exports = [
 		shields: 2,
 		cost: 21,
 		unique: false,
+		silhouetteakira: true,
 		factions: [
 			"federation"
 		],

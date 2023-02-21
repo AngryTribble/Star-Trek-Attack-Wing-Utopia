@@ -169,7 +169,7 @@
 	position: relative;
 	left: 0em;
 	top: -0.1em;
-	z-index: 1;
+	z-index: 4;
 	text-align: center;
 }
 
@@ -249,6 +249,42 @@
 	top: -0.1em;
 	z-index: 1;
 	text-align: center;
+}
+
+.card-akiraLimit-icon {
+	background: url("../img/restrictions/fedAkira.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-prometheusLimit-icon {
+	background: url("../img/restrictions/fedPrometheus.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-constitutionLimit-icon {
+	background: url("../img/restrictions/fedConstitution.png") no-repeat;
+	background: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center,
 }
 
 .card-faq-icon {
@@ -958,6 +994,46 @@
 	border-radius: 0.1em;
 	clear: left;
 	margin-top: 0.1em;
+}
+
+.card-ship-silhouetteakira-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.25em;
+  height: 2.25em;
+  background: url("../img/ships/sil_fedakira.png") no-repeat center;
+  background-size: cover;
+}
+
+.card-ship-silhouetteprometheus-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.25em;
+  height: 2.25em;
+  background: url("../img/ships/sil_fedprometheus.png") no-repeat center;
+  background-size: cover;
+}
+
+.card-ship-silhouettesaber-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.25em;
+  height: 2.25em;
+  background: url("../img/ships/sil_fedsaber.png") no-repeat center;
+  background-size: cover;
+}
+
+.card-ship-silhouettesovereign-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.25em;
+  height: 2.25em;
+  background: url("../img/ships/sil_fedsovereign.png") no-repeat center;
+  background-size: cover;
 }
 
 .card-ship-upgrade-bar {

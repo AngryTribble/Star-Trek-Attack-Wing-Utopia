@@ -76,12 +76,20 @@
   content: "F";
 }
 
+.fs-squadron_text:before {
+  content: "f";
+}
+
 .fs-fortress:before {
   content: "G";
 }
 
 .fs-hit:before {
   content: "H";
+}
+
+.fs-question_text:before {
+  content: "h";
 }
 
 .fs-crit:before {
@@ -201,20 +209,42 @@
   content: "V";
 }
 
+.fs-borg_text:before {
+  content: "v";
+}
+
 .fs-tech:before {
   content: "W";
+}
+
+.fs-tech_text:before {
+  content: "w";
 }
 
 .fs-weapon:before {
   content: "X";
 }
 
+.fs-weapon_text:before {
+  content: "x";
+}
+
 .fs-crew:before {
   content: "Y";
 }
+
+.fs-crew_text:before {
+  content: "y";
+}
+
 .fs-talent:before {
   content: "Z";
 }
+
+.fs-talent_text:before {
+  content: "z";
+}
+
 .fs-refit:before {
   content: "a";
 }
@@ -310,6 +340,14 @@
   content: ".";
 }
 
+.fs-akiraLimit:before {
+  content: ".";
+}
+
+.fs-prometheusLimit:before {
+  content: ".";
+}
+
 .fs-faq:before {
   content: ".";
 }
@@ -376,4 +414,20 @@
 
 .fs-ship-resource:before {
   content: "A";
+}
+
+.fs-silhouetteakira:before {
+  content: ".";
+}
+
+.fs-silhouetteprometheus:before {
+  content: ".";
+}
+
+.fs-silhouettesovereign:before {
+  content: ".";
+}
+
+.fs-silhouettesaber:before {
+  content: ".";
 }
