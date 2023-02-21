@@ -211,7 +211,7 @@
 	text-align: center;
 }
 
-.card-attack-icon {
+.card-attackConstraint-icon {
 	background: url("../img/restrictions/upgrade-attack-limit.png")no-repeat;
 	font-size: 0.5em;
 	background-size: 2em;
@@ -240,7 +240,7 @@
 }
 
 .card-shipLimit-icon {
-	background: url("../img/restrictions/fedAkira.png")no-repeat;
+	background: url("../img/restrictions/upgrade-ship-limit.png")no-repeat;
 	background-size: 1em;
 	color: gray;
 	width: 1.2em;
@@ -252,7 +252,7 @@
 }
 
 .card-akiraLimit-icon {
-	background: url("../img/restrictions/upgrade-ship-limit.png")no-repeat;
+	background: url("../img/restrictions/fedAkira.png")no-repeat;
 	background-size: 1em;
 	color: gray;
 	width: 1.2em;
@@ -264,7 +264,7 @@
 }
 
 .card-promethuesLimit-icon {
-	background: url("../img/restrictions/upgrade-ship-limit.png")no-repeat;
+	background: url("../img/restrictions/fedPrometheus.png")no-repeat;
 	background-size: 1em;
 	color: gray;
 	width: 1.2em;
