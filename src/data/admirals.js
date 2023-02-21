@@ -58,7 +58,7 @@ module.exports = [
 		],
 		name: "Shinzon",
 		unique: true,
-		text: "Add the [battlestations] Action to this ship's Action Bar. \n----------------------------------------\n <b>FLEET ACTION:</b>\n Remove all [time] Tokens and/or Disable Tokens from a [weapon] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
+		text: "Add the [battlestations] Action to this ship's Action Bar. \n----------------------------------------\n <b>FLEET ACTION:</b>\n Remove all [time] Tokens and/or Disable Tokens from a [weapon_text] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
 		factions: [
 			"romulan"
 		],
@@ -109,7 +109,7 @@ module.exports = [
 		cost: 5,
 		skill: 2,
 		talents: 1,
-		text: "You do not pay a faction penalty when equipping this card to a Romulan ship.\n<b>FREE FLEET ACTION:</b> Discard 1 Dominion [crew] Upgrade equipped to this ship and place 2 [time] Tokens on this card.\nPerform an attack with this ship's Primary Weapon with -1 attack die.",
+		text: "You do not pay a faction penalty when equipping this card to a <img src='https://i.imgur.com/BpbvTHt.png' width='20' height='20'> ship.\n<b>FREE FLEET ACTION:</b> Discard 1 <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> [crew_text] Upgrade equipped to this ship and place 2 [time] Tokens on this card.\nPerform an attack with this ship's Primary Weapon with -1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"

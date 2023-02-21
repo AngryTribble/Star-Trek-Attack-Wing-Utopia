@@ -72,7 +72,7 @@ module.exports = [
 		],
 		name: "Lovok",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a D'Deridex Class, you may also add 1 [hit].",
+		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='https://i.imgur.com/SIfvr8Q.png' width='10' height='10'>, you may also add 1 [hit].",
 		factions: [
 			"romulan"
 		],
@@ -88,7 +88,7 @@ module.exports = [
 		],
 		name: "Rekar",
 		unique: true,
-		text: "You do not pay faction penalty when equipping this card or any Romulan [crew] Upgrades to this Federation ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon] UPGRADE:</b> \n You may re-roll up to 2 [blank] . If that Upgrade is a non-Romulan [weapon], roll +1 Attack die.",
+		text: "You do not pay faction penalty when equipping this card or any <img src='https://i.imgur.com/PPAyFME.png' width='20' height='20'> [crew_text] Upgrades to this <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon_text] UPGRADE:</b> \n You may re-roll up to 2 [blank] . If that Upgrade is a non-<img src='https://i.imgur.com/PPAyFME.png' width='20' height='20'> [weapon_text], roll +1 Attack die.",
 		factions: [
 			"romulan"
 		],
@@ -104,7 +104,7 @@ module.exports = [
 		],
 		name: "Koval",
 		unique: true,
-		text: "<b>WHEN ATTACKING: DECLARE TARGET STEP:</b>\n If this ship is Cloaked. \n\n Place 2 [time] Tokens on a [crew] Upgrade equipped to the defending ship.",
+		text: "<b>WHEN ATTACKING: DECLARE TARGET STEP:</b>\n If this ship is Cloaked. \n\n Place 2 [time] Tokens on a [crew_text] Upgrade equipped to the defending ship.",
 		factions: [
 			"romulan"
 		],
@@ -120,7 +120,7 @@ module.exports = [
 		],
 		name: "Donatra",
 		unique: true,
-		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a Valdore Class or a Sovereign Class it may also convert 1 [blank] into 1 [hit].",
+		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='https://i.imgur.com/NmMc0CX.png' width='10' height='10'> or a <img src='https://i.imgur.com/fEuOpVX.png' width='10' height='10'> it may also convert 1 [blank] into 1 [hit].",
 		factions: [
 			"romulan"
 		],
@@ -187,7 +187,7 @@ module.exports = [
 		],
 		name: "Jadzia Dax",
 		unique: true,
-		text: "You do not pay a faction penalty when equipping Klingon [talent] Upgrade to this card.\n----------------------------------------\n<b>ACTIVATION PHASE:</b> \n\nThis ship may perform a white 1 [bank-left] or white 1 [bank-right].",
+		text: "You do not pay a faction penalty when equipping <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [talent_text] Upgrade to this card.\n----------------------------------------\n<b>ACTIVATION PHASE:</b> \n\nThis ship may perform a white 1 [bank-left] or white 1 [bank-right].",
 		factions: [
 			"federation"
 		],
@@ -203,7 +203,7 @@ module.exports = [
 		],
 		name: "Keogh",
 		unique: true,
-		text: "<b>MODIFY ATTACK DICE STEP:</b> When a friendly Federation ship in range is defending and the attacking ship is in this ship's Primary Arc and in range:\n\nConvert 1 [hit] into [blank].",
+		text: "<b>MODIFY ATTACK DICE STEP:</b> When a friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ship in range is defending and the attacking ship is in this ship's <img src='https://i.imgur.com/5JGmN4o.png' width='10' height='10'> and in range:\n\nConvert 1 [hit] into [blank].",
 		factions: [
 			"federation"
 		],
@@ -220,7 +220,7 @@ module.exports = [
 		],
 		name: "Benjamin Sisko",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a Dominion ship or has a Dominion Captain equipped to it:\nAdd 1 [crit]\n----------------------------------------\n<b>END PHASE:</b>\nRemove one [aux] Token beside this ship.",
+		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a <img src='https://i.imgur.com/l7seIMt.png' width='20' height='20'> ship or has a <img src='https://i.imgur.com/l7seIMt.png' width='20' height='20'> Captain equipped to it:\nAdd 1 [crit]\n----------------------------------------\n<b>END PHASE:</b>\nRemove one [aux] Token beside this ship.",
 		factions: [
 			"federation"
 		],
@@ -236,7 +236,7 @@ module.exports = [
 		],
 		name: "The Albino",
 		unique: true,
-		text: "<b>WHEN ATTACKING A KLINGON SHIP OR A SHIP WITH A KLINGON CAPTAIN EQUIPPED TO IT:</b>\nRoll +1 attack die.\n----------------------------------------\n<b>WHEN ATTACKING:</b> Once per game, if this attack hits:\nDiscard 1 [crew] Upgrade equipped to the defending ship.\n----------------------------------------\n<b>ACTIVIATION PHASE:</b> Once per game:\nThis ship may activate last.",
+		text: "<b>WHEN ATTACKING A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> SHIP OR A SHIP WITH A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> CAPTAIN EQUIPPED TO IT:</b>\nRoll +1 attack die.\n----------------------------------------\n<b>WHEN ATTACKING:</b> Once per game, if this attack hits:\nDiscard 1 [crew_text] Upgrade equipped to the defending ship.\n----------------------------------------\n<b>ACTIVIATION PHASE:</b> Once per game:\nThis ship may activate last.",
 		factions: [
 			"klingon",
 			"independent"
@@ -253,7 +253,7 @@ module.exports = [
 		],
 		name: "Kor",
 		unique: true,
-		text: "You may equip the Dahar Master [talent] Upgrade to this card for 0 SP.\n----------------------------------------\n<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly Klingon ships.\n\nRemove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
+		text: "You may equip the Dahar Master [talent_text] Upgrade to this card for 0 SP.\n----------------------------------------\n<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> ships.\n\nRemove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
 		factions: [
 			"klingon"
 		],
@@ -5054,7 +5054,7 @@ module.exports = [
 		cost: 3,
 		skill: 7,
 		talents: 1,
-		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if there is a [scan] Token beside this ship:\n\nConvert 1 [blank] into 1 [hit].  If the defending ship has an independent Captain equipped to it, convert 1 [blank] into 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if there is a [scan] Token beside this ship:\n\nConvert 1 [blank] into 1 [hit].  If the defending ship has an <img src='https://i.imgur.com/QhlAiYf.png' width='20' height='20'> Captain equipped to it, convert 1 [blank] into 1 [crit] instead.",
 		unique: true,
 		factions: [
 			"vulcan"
@@ -5137,7 +5137,7 @@ module.exports = [
 		cost: 5,
 		skill: 8,
 		talents: 1,
-		text: "You do not pay a faction penalty when equipping this card to a Romulan ship.\n<b>FREE ACTION:</b> Discard 1 Dominion [crew] Upgrade equipped to this ship and place 2 [time] Tokens on this card.\nPerform an attack with this ship's Primary Weapon with -1 attack die.",
+		text: "You do not pay a faction penalty when equipping this card to a <img src='https://i.imgur.com/BpbvTHt.png' width='20' height='20'> ship.\n<b>FREE ACTION:</b> Discard 1 <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> [crew_text] Upgrade equipped to this ship and place 2 [time] Tokens on this card.\nPerform an attack with this ship's Primary Weapon with -1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -5599,7 +5599,7 @@ module.exports = [
 		cost: 4,
 		skill: 9,
 		talents: 1,
-		text: "Cannot be equipped to a ship in the same fleet as that has Jean-Luc Picard equipped to a ship.\n----------------------------------------\n<b>SETUP:</b> Place 9 Drone Tokens on this card.\n----------------------------------------\nAdd two [crew] to this ship's Upgrade Bar.\n----------------------------------------\nYou do not pay a faction penalty when equipping a [crew] Upgrades to this ship.",
+		text: "Cannot be equipped to a ship in the same fleet as that has Jean-Luc Picard equipped to a ship.\n----------------------------------------\n<b>SETUP:</b> Place 9 Drone Tokens on this card.\n----------------------------------------\nAdd two [crew_text] to this ship's Upgrade Bar.\n----------------------------------------\nYou do not pay a faction penalty when equipping a [crew_text] Upgrades to this ship.",
 		unique: true,
 		shipBorg: true,
 		factions: [
