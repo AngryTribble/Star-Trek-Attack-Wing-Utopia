@@ -76,12 +76,20 @@
   content: "F";
 }
 
+.fs-squadron_text:before {
+  content: "f";
+}
+
 .fs-fortress:before {
   content: "G";
 }
 
 .fs-hit:before {
   content: "H";
+}
+
+.fs-question_text:before {
+  content: "h";
 }
 
 .fs-crit:before {
