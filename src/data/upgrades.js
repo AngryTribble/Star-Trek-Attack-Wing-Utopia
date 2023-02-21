@@ -7,7 +7,7 @@ module.exports = [
 		],
 		name: "EMH Mark I",
 		cost: 3,
-		text: "This card counts as a [crew] Upgrade or a [tech] Upgrade. \n----------------------------------------\n <b>ACTION:</b> Disable this card. \n Remove all [time] Tokens from each [crew] Upgrade equipped to this ship.",
+		text: "This card counts as a [crew_text] Upgrade or a [tech_text] Upgrade. \n----------------------------------------\n <b>ACTION:</b> Disable this card. \n Remove all [time] Tokens from each [crew_text] Upgrade equipped to this ship.",
 		OnePerShip: true,
 		factions: [
 			"federation"
@@ -21,7 +21,7 @@ module.exports = [
 		],
 		name: "Multi-Spectrum Shielding",
 		cost: 3,
-		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, opposing [tech] Upgrades cannot target this ship.",
+		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, opposing [tech_text] Upgrades cannot target this ship.",
 		OnePerShip: true,
 		costFederation: "+1",
 		factions: [
@@ -36,7 +36,7 @@ module.exports = [
 		],
 		name: "Multiphasic Shielding",
 		cost: 3,
-		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, [crew] Upgrades and the Captain equipped to this ship cannot be affected by opposing Upgrades.",
+		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n As long as this ship has Active Shields, [crew_text] Upgrades and the Captain equipped to this ship cannot be affected by opposing Upgrades.",
 		unique: true,
 		factions: [
 			"federation"
@@ -99,7 +99,7 @@ module.exports = [
 		],
 		name: "Quantum Torpedoes",
 		cost: 3,
-		text: "<font size ='-1'>The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n <b>ATTACK:</b> Spend this ship's [target-lock] Token, disable this card, and target an opposing ship. \n <b>DECLARE TARGET STEP:</b> Place an [aux] Token beside the defending ship. \n <b>ROLL ATTACK DICE STEP:</b> For each [crit] rolled. Add 1 [hit] . \n This upgrade costs +2 SP if not equipped to a Sovereign Class, Defiant Class, ? Class, or Akira Class ship.</font>",
+		text: "<font size ='-1'>The Attack Value of this [weapon_text] is this ship's Primary Weapon Value +1. \n <b>ATTACK:</b> Spend this ship's [target-lock] Token, disable this card, and target an opposing ship. \n <b>DECLARE TARGET STEP:</b> Place an [aux] Token beside the defending ship. \n <b>ROLL ATTACK DICE STEP:</b> For each [crit] rolled. Add 1 [hit] . \n This upgrade costs +2 SP if not equipped to a <img src='https://i.imgur.com/fEuOpVX.png' width='10' height='10'>, <img src='https://i.imgur.com/wyGHYPH.png' width='10' height='10'>, <img src='https://i.imgur.com/5f83K8Z.png' width='10' height='10'>, or <img src='https://i.imgur.com/K43kuLG.png' width='10' height='10'> ship.</font>",
 		attack: "*",
 		range: "2 - 3",
 		OnePerShip: true,
@@ -116,7 +116,7 @@ module.exports = [
 		],
 		name: "Dorsal Torpedo Pod",
 		cost: 3,
-		text: "<b>WHEN ATTACKING WITH A FEDERATION TORPEDOES UPGRADE:</b> \n You may target an opposing ship with that Torpedoes Upgrade ignoring any Firing Arcs. \n\n <i>Akira Class Only</i>",
+		text: "<b>WHEN ATTACKING WITH A <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> TORPEDOES UPGRADE:</b> \n You may target an opposing ship with that Torpedoes Upgrade ignoring any Firing Arcs. \n\n <i>Akira Class Only</i>",
 		OnePerShip: true,
 		shipLimit: true,
 		factions: [
@@ -131,7 +131,7 @@ module.exports = [
 		],
 		name: "Photon Torpedoes",
 		cost: 2,
-		text: "The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> Spend this ship's [target-lock] Token, place 2 [time] Tokens on this card, and target an opposing ship. \n This ship may convert all [blank] into [battlestations] .",
+		text: "The Attack Value of this [weapon_text] is this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> Spend this ship's [target-lock] Token, place 2 [time] Tokens on this card, and target an opposing ship. \n This ship may convert all [blank] into [battlestations] .",
 		attack: "*",
 		FrontArc: true,
 		RearArc: true,
@@ -148,7 +148,7 @@ module.exports = [
 		],
 		name: "Dorsal Phaser Array",
 		cost: 0,
-		text: "<font size ='-.5'> The Attack Value of this [weapon] is equal to this ship's Primary Weapon Value and the cost of this [weapon] is equal to this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> You may fire this weapon in any direction.</font>",
+		text: "<font size ='-.5'> The Attack Value of this [weapon_text] is equal to this ship's Primary Weapon Value and the cost of this [weapon_text] is equal to this ship's Primary Weapon Value +1. \n----------------------------------------\n <b>ATTACK:</b> You may fire this weapon in any direction.</font>",
 		shipFederation: true,
 		OnePerShip: true,
 		range: "1 - 2",
@@ -165,7 +165,7 @@ module.exports = [
 		],
 		name: "Type 10 Phasers",
 		cost: 3,
-		text: "This card fills 2 [weapon] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.",
+		text: "This card fills 2 [weapon_text] Upgrade slots. \n----------------------------------------\n <b>WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n Roll +1 attack die and re-roll up to 2 [blank] . If the defending ship has no Active Shields, you may convert up to 2 [blank] into [battlestations] instead.",
 		OnePerShip: true,
 		shipFederation: true,
 		factions: [
@@ -195,7 +195,7 @@ module.exports = [
 		],
 		name: "Shakedown Cruise Commander",
 		cost: 4,
-		text: "<b>WHEN YOU WOULD REVEAL A SPEED 4 OR HIGHER MANEUVER:</b> Place 3 [time] Tokens on this card. If this ship has a 'hook' equipped, place only 2 [time] Tokens instead. \n\n Perform either a 4 [bank-left] or a 4 [bank-right] Maneuver instead and rotate this ship 90°.",
+		text: "<b>WHEN YOU WOULD REVEAL A SPEED 4 OR HIGHER MANEUVER:</b> Place 3 [time] Tokens on this card. If this ship has a [hook] equipped, place only 2 [time] Tokens instead. \n\n Perform either a 4 [bank-left] or a 4 [bank-right] Maneuver instead and rotate this ship 90°.",
 		OnePerShip: true,
 		captainFederation: true,
 		factions: [
@@ -210,7 +210,7 @@ module.exports = [
 		],
 		name: "Task Force Commander",
 		cost: 4,
-		text: "<font size ='-.5'><b>SETUP:</b> Choose Faction. \n----------------------------------------\n <b>ACTION:</b> Target up to 2 friendly ships within range: \n This ship and the target ships gain +1 attack and defense die against ships of the chosen faction this game round. If the target ships are Federation, this ship and the target ships may perform the [target-lock] Action as a Free Action.</font>",
+		text: "<font size ='-.5'><b>SETUP:</b> Choose Faction. \n----------------------------------------\n <b>ACTION:</b> Target up to 2 friendly ships within range: \n This ship and the target ships gain +1 attack and defense die against ships of the chosen faction this game round. If the target ships are <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'>, this ship and the target ships may perform the [target-lock] Action as a Free Action.</font>",
 		unique: true,
 		captainFederation: true,
 		shipFederation: true,
@@ -227,7 +227,7 @@ module.exports = [
 		],
 		name: "Fleet Coordination",
 		cost: 3,
-		text: "Treat friendly Federation ships at Range as though they were at Range 2 for the effects of cards equipped to this ship.",
+		text: "Treat friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ships at Range as though they were at Range 2 for the effects of cards equipped to this ship.",
 		unique: true,
 		captainFederation: true,
 		shipFederation: true,
@@ -244,7 +244,7 @@ module.exports = [
 		],
 		name: "Geordi La Forge",
 		cost: 2,
-		text: "<font size ='-1.5'><b>REVEAL DIAL STEP:</b> When this ship reveals a [straight] Maneuver: Place 2 [time] Tokens on this card and choose 1 of the listed effects. \n *Treat the revealed Maneuver as a Green Maneuver. \n *Increase the speed of the revealed Maneuver by 1. The color of the Maneuver remains the same as the revealed Maneuver. \n If this ship has the 'Federation Prototype' equipped, you may choose both effects.</font>",
+		text: "<font size ='-1.5'><b>REVEAL DIAL STEP:</b> When this ship reveals a [straight] Maneuver: Place 2 [time] Tokens on this card and choose 1 of the listed effects. \n *Treat the revealed Maneuver as a Green Maneuver. \n *Increase the speed of the revealed Maneuver by 1. The color of the Maneuver remains the same as the revealed Maneuver. \n If this ship has the 'Federation Prototype' [hook] equipped, you may choose both effects.</font>",
 		unique: true,
 		factions: [
 			"federation"
@@ -258,7 +258,7 @@ module.exports = [
 		],
 		name: "Lasca",
 		cost: 1,
-		text: "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target this ship or a friendly Federation ship within range. \n\n Flip 1 face-up damage card on the target ship facedown. If the target ship has the 'Federation Prototype' equipped, repair 1 Hull on the target ship.",
+		text: "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target this ship or a friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ship within range. \n\n Flip 1 face-up damage card on the target ship facedown. If the target ship has the 'Federation Prototype' [hook] equipped, repair 1 Hull on the target ship.",
 		unique: true,
 		shipFederation: true,
 		range: "1",
@@ -274,7 +274,7 @@ module.exports = [
 		],
 		name: "Montgomery Scott",
 		cost: 3,
-		text: "<font size ='-1.5'><b>WHENEVER YOU WOULD PLACE AN [aux] TOKEN BESIDE THIS SHIP:</b> \n Place that Token on this card (max 2). \n-----------------------------------\n <b>ACTION:</b> Place 2 [time] Tokens on this card and target a ship with a 'hook' equipped within range. \n If that ship is this ship or a friendly ship, it performs a 2 [straight] . If that ship is an opposing ship, Place any [aux] Tokens from on this card beside the target ship.</font>",
+		text: "<font size ='-1.5'><b>WHENEVER YOU WOULD PLACE AN [aux] TOKEN BESIDE THIS SHIP:</b> \n Place that Token on this card (max 2). \n-----------------------------------\n <b>ACTION:</b> Place 2 [time] Tokens on this card and target a ship with a [hook] equipped within range. \n If that ship is this ship or a friendly ship, it performs a 2 [straight] . If that ship is an opposing ship, Place any [aux] Tokens from on this card beside the target ship.</font>",
 		unique: true,
 		range: "1 - 2",
 		factions: [
@@ -289,7 +289,7 @@ module.exports = [
 		],
 		name: "Harry Kim",
 		cost: 2,
-		text: "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' equipped, repair 1 Hull on this ship.",
+		text: "<b>END PHASE:</b> Spend a [scan] Token beside this ship. \n\n Remove an [aux] Token beside this ship. If this ship has a the 'Federation Prototype' [hook] equipped, repair 1 Hull on this ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -303,7 +303,7 @@ module.exports = [
 		],
 		name: "Benjamin Sisko",
 		cost: 3,
-		text: "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a Federation Weapon Upgrade equipped to this ship. If this ship has the 'Federation Prototype' equipped place a [battlestations] Token beside this ship.",
+		text: "<b>COMBAT PHASE:</b> Place an [aux] Token beside this ship. \n\n Remove either 2 [time] Tokens or a Disabled Token from a <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> [weapon_text] Upgrade equipped to this ship. If this ship has the 'Federation Prototype' [hook] equipped place a [battlestations] Token beside this ship.",
 		unique: true,
 		factions: [
 			"federation"
