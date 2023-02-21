@@ -50,9 +50,9 @@ module.exports = [
 		],
 		name: "Regenerative Shields",
 		cost: 4,
-		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n <b>END PHASE</b>: \n Repair 1 Shield on this ship. If there are no [aux] Tokens beside this ship, you may repair 2 Shields on this ship instead. \n<i>Prometheus Class Only</i>",
+		text: "Increase this ship's Shield Value by 1. \n----------------------------------------\n <b>END PHASE</b>: \n Repair 1 Shield on this ship. If there are no [aux] Tokens beside this ship, you may repair 2 Shields on this ship instead.",
 		OnePerShip: true,
-		shipLimit: true,
+		prometheusLimit: true,
 		factions: [
 			"federation"
 		]
@@ -65,7 +65,7 @@ module.exports = [
 		],
 		name: "Ablative Hull Armor",
 		cost: 6,
-		text: "<b>WHEN DEFENDING: MODIFY ATTACK DICE STEP:</b> \n Convert all [crit] to [hit] . \n----------------------------------------\n <b>WHEN DEFENDING: DEAL DAMAGE STEP:</b> \n Place damage cards this ship would receive under this card (Max 3) instead of beside this ship. \n<i>Prometheus Class Only</i>",
+		text: "<b>WHEN DEFENDING: MODIFY ATTACK DICE STEP:</b> \n Convert all [crit] to [hit] . \n----------------------------------------\n <b>WHEN DEFENDING: DEAL DAMAGE STEP:</b> \n\n Place damage cards this ship would receive under this card (Max 3) instead of beside this ship.",
 		OnePerShip: true,
 		prometheusLimit: true,
 		factions: [
@@ -80,11 +80,11 @@ module.exports = [
 		],
 		name: "Multi-Vector Assault Mode",
 		cost: 6,
-		text: "<b>ATTACK (BATTLESTATIONS):</b> Disable this card and target an opposing ship. \n <b>AFTER ATTACKING:</b> Place 2 Mission Tokens within range. You may make an additional attack with this weapon from each Mission Token placed by this card in any direction. Remove all Mission Tokens placed by this card from play after attacking. \n <font size ='-1'><i>Prometheus Class Only</i></font>",
+		text: "<b>ATTACK (BATTLESTATIONS):</b> Disable this card and target an opposing ship. \n----------------------------------\n <b>AFTER ATTACKING:</b> Place 2 Mission Tokens within range. You may make an additional attack with this weapon from each Mission Token placed by this card in any direction. Remove all Mission Tokens placed by this card from play after attacking.",
 		attack: "4",
 		range: "1",
 		OnePerShip: true,
-		shipLimit: true,
+		prometheusLimit: true,
 		FrontArc: true,
 		RearArc: true,
 		factions: [
@@ -116,9 +116,9 @@ module.exports = [
 		],
 		name: "Dorsal Torpedo Pod",
 		cost: 3,
-		text: "<b>WHEN ATTACKING WITH A <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> TORPEDOES UPGRADE:</b> \n You may target an opposing ship with that Torpedoes Upgrade ignoring any Firing Arcs. \n\n <i>Akira Class Only</i>",
+		text: "<b>WHEN ATTACKING WITH A <img src='../img/faction_fed.png' width='20' height='20'> TORPEDOES UPGRADE:</b> \n\n You may target an opposing ship with that Torpedoes Upgrade ignoring any Firing Arcs.",
 		OnePerShip: true,
-		shipLimit: true,
+		akiraLimit: true,
 		factions: [
 			"federation"
 		]

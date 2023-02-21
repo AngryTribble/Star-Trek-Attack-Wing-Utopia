@@ -340,6 +340,14 @@
   content: ".";
 }
 
+.fs-akiraLimit:before {
+  content: ".";
+}
+
+.fs-prometheusLimit:before {
+  content: ".";
+}
+
 .fs-faq:before {
   content: ".";
 }
