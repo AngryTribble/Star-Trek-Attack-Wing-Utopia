@@ -415,3 +415,19 @@
 .fs-ship-resource:before {
   content: "A";
 }
+
+.fs-silhouetteakira:before {
+  content: ".";
+}
+
+.fs-silhouetteprometheus:before {
+  content: ".";
+}
+
+.fs-silhouettesovereign:before {
+  content: ".";
+}
+
+.fs-silhouettesaber:before {
+  content: ".";
+}
