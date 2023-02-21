@@ -205,13 +205,26 @@
   content: "W";
 }
 
+.fs-tech_text:before {
+  content: "w";
+}
+
 .fs-weapon:before {
   content: "X";
+}
+
+.fs-weapon_text:before {
+  content: "x";
 }
 
 .fs-crew:before {
   content: "Y";
 }
+
+.fs-crew_text:before {
+  content: "y";
+}
+
 .fs-talent:before {
   content: "Z";
 }
