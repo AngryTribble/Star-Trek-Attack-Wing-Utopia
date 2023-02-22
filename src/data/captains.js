@@ -2,7 +2,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap019",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -19,7 +19,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap018",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -36,7 +36,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap017",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -53,7 +53,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap016",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -71,7 +71,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap015",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -88,7 +88,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap014",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -105,7 +105,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap013",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -122,7 +122,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap012",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -140,7 +140,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap011",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -157,7 +157,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap010",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -175,7 +175,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap009",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -193,7 +193,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap008",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -210,7 +210,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap007",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -228,7 +228,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap006",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -245,7 +245,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap005",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -263,7 +263,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap004",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -281,7 +281,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap003",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -299,7 +299,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap002",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -316,7 +316,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap001",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -333,7 +333,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap128",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -351,7 +351,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap127",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -369,7 +369,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap126",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -387,7 +387,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap125",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -405,7 +405,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap124",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -423,7 +423,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap123",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -441,7 +441,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap122",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -459,7 +459,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap121",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -477,7 +477,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap120",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -495,7 +495,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap119",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -513,7 +513,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap118",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -531,7 +531,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap117",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71281",
 			"72291",
@@ -550,7 +550,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap116",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72003p",
 			"71225",
@@ -571,7 +571,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap115",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71446",
 			"71508",
@@ -591,7 +591,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap114",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP1Prize",
 			"71646a",
@@ -611,7 +611,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap113",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71282",
 			"71646c",
@@ -631,7 +631,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap112",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP6Prize",
 			"71445",
@@ -651,7 +651,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap111",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71522",
 			"71223",
@@ -677,7 +677,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap110",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71799"
 		],
@@ -695,7 +695,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap109",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b",
 			"71646b",
@@ -719,7 +719,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap108",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b"
 		],
@@ -737,7 +737,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap107",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71283",
 			"71444",
@@ -763,7 +763,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap106",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71128",
 			"OP5Prize",
@@ -789,7 +789,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap105",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71536"
 		],
@@ -806,7 +806,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap104",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71536",
 			"72014wp"
@@ -824,7 +824,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap103",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120",
 			"71123",
@@ -858,7 +858,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap102",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120",
 			"71125",
@@ -892,7 +892,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap101",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72300p",
 			"71120",
@@ -940,7 +940,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap223",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -957,7 +957,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap222",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72012wp"
 		],
@@ -974,7 +974,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap221",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72281"
 		],
@@ -991,7 +991,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap220",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72263"
 		],
@@ -1008,7 +1008,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap219",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71211"
 		],
@@ -1025,7 +1025,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap218",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71222"
 		],
@@ -1042,7 +1042,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap217",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71121"
 		],
@@ -1059,7 +1059,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap216",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71128"
 		],
@@ -1076,7 +1076,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap215",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71276"
 		],
@@ -1093,7 +1093,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap214",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71282"
 		],
@@ -1110,7 +1110,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap213",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71525"
 		],
@@ -1127,7 +1127,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap212",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646d"
 		],
@@ -1144,7 +1144,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap211",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71533",
 			"72252"
@@ -1162,7 +1162,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap210",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71795"
 		],
@@ -1179,7 +1179,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap209",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71794"
 		],
@@ -1196,7 +1196,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap208",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71801"
 		],
@@ -1213,7 +1213,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap207",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71803"
 		],
@@ -1230,7 +1230,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap206",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71802"
 		],
@@ -1247,7 +1247,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap205",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_bioship"
 		],
@@ -1264,7 +1264,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap204",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72002p"
 		],
@@ -1281,7 +1281,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap203",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011"
 		],
@@ -1298,7 +1298,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap202",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72000b"
 		],
@@ -1320,7 +1320,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap201",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013"
 		],
@@ -1337,7 +1337,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap339",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73042"
 		],
@@ -1354,7 +1354,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap338",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -1371,7 +1371,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap337",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -1388,7 +1388,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap336",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014wp"
 		],
@@ -1408,7 +1408,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap335",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011wp"
 		],
@@ -1425,7 +1425,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap334",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72242"
 		],
@@ -1442,7 +1442,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap333",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72270p"
 		],
@@ -1459,7 +1459,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap332",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72234p"
 		],
@@ -1476,7 +1476,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap331",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72233"
 		],
@@ -1493,7 +1493,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap330",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72232"
 		],
@@ -1510,7 +1510,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap329",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72221p"
 		],
@@ -1527,7 +1527,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap328",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71123"
 		],
@@ -1544,7 +1544,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap327",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71127"
 		],
@@ -1561,7 +1561,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap326",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71268",
 			"72282"
@@ -1579,7 +1579,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap325",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71271"
 		],
@@ -1596,7 +1596,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap324",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71273"
 		],
@@ -1613,7 +1613,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap323",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71272",
 			"72292"
@@ -1631,7 +1631,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap322",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71446"
 		],
@@ -1648,7 +1648,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap321",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71445"
 		],
@@ -1665,7 +1665,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap320",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71523"
 		],
@@ -1682,7 +1682,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap319",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71509"
 		],
@@ -1699,7 +1699,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap318",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71526"
 		],
@@ -1716,7 +1716,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap317",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71525"
 		],
@@ -1733,7 +1733,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap316",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646b"
 		],
@@ -1750,7 +1750,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap315",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646c"
 		],
@@ -1767,7 +1767,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap314",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71532"
 		],
@@ -1784,7 +1784,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap313",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71535"
 		],
@@ -1801,7 +1801,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap312",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71797"
 		],
@@ -1818,7 +1818,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap311",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71798"
 		],
@@ -1835,7 +1835,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap310",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71997p"
 		],
@@ -1852,7 +1852,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap309",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -1869,7 +1869,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap308",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71801"
 		],
@@ -1886,7 +1886,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap307",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_belak"
 		],
@@ -1903,7 +1903,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap306",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71805"
 		],
@@ -1924,7 +1924,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap305",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71806"
 		],
@@ -1945,7 +1945,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap304",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013"
 		],
@@ -1962,7 +1962,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap303",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72016"
 		],
@@ -1979,7 +1979,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap302",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -1996,7 +1996,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap301",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72009"
 		],
@@ -2017,7 +2017,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap448",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -2035,7 +2035,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap447",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73031"
 		],
@@ -2053,7 +2053,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap446",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -2070,7 +2070,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap445",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -2087,7 +2087,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap444",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -2104,7 +2104,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap443",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -2122,7 +2122,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap442",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -2139,7 +2139,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap441",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72293"
 		],
@@ -2156,7 +2156,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap440",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72281"
 		],
@@ -2173,7 +2173,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap439",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282p"
 		],
@@ -2190,7 +2190,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap438",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282p"
 		],
@@ -2207,7 +2207,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap437",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72262p"
 		],
@@ -2224,7 +2224,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap436",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72253"
 		],
@@ -2241,7 +2241,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap435",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72255"
 		],
@@ -2258,7 +2258,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap434",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71221"
 		],
@@ -2275,7 +2275,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap433",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71124"
 		],
@@ -2292,7 +2292,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap432",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71125",
 			"72272"
@@ -2310,7 +2310,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap431",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71275",
 			"72262"
@@ -2328,7 +2328,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap430",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP4Prize"
 		],
@@ -2345,7 +2345,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap429",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71276"
 		],
@@ -2362,7 +2362,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap428",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71283",
 			"72283"
@@ -2380,7 +2380,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap427",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71282"
 		],
@@ -2397,7 +2397,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap426",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OPWebPrize",
 			"71795"
@@ -2415,7 +2415,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap425",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OPArenaPrize"
 		],
@@ -2432,7 +2432,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap424",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71522"
 		],
@@ -2449,7 +2449,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap423",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71524"
 		],
@@ -2466,7 +2466,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap422",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71526"
 		],
@@ -2483,7 +2483,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap421",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71527"
 		],
@@ -2500,7 +2500,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap420",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71531",
 			"72271"
@@ -2518,7 +2518,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap419",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71529"
 		],
@@ -2535,7 +2535,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap418",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71532"
 		],
@@ -2552,7 +2552,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap417",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71535"
 		],
@@ -2569,7 +2569,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap416",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71798"
 		],
@@ -2586,7 +2586,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap415",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -2603,7 +2603,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap414",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -2620,7 +2620,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap413",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71799"
 		],
@@ -2638,7 +2638,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap412",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71998p"
 		],
@@ -2655,7 +2655,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap411",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71803"
 		],
@@ -2672,7 +2672,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap410",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71999p"
 		],
@@ -2689,7 +2689,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap409",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71804"
 		],
@@ -2706,7 +2706,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap408",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72300p"
 		],
@@ -2723,7 +2723,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap407",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014"
 		],
@@ -2740,7 +2740,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap406",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71806"
 		],
@@ -2761,7 +2761,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap405",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_lakota"
 		],
@@ -2778,7 +2778,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap404",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013"
 		],
@@ -2795,7 +2795,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap403",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_seleya"
 		],
@@ -2812,7 +2812,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap402",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72000p"
 		],
@@ -2833,7 +2833,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap401",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72008"
 		],
@@ -2850,7 +2850,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap545",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73042"
 		],
@@ -2867,7 +2867,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap544",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73032"
 		],
@@ -2884,7 +2884,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap543",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -2901,7 +2901,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap542",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282gp"
 		],
@@ -2918,7 +2918,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap541",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72280p"
 		],
@@ -2935,7 +2935,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap540",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72242"
 		],
@@ -2952,7 +2952,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap539",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72241"
 		],
@@ -2969,7 +2969,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap538",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72241"
 		],
@@ -2986,7 +2986,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap537",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72224p"
 		],
@@ -3003,7 +3003,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap536",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72231"
 		],
@@ -3020,7 +3020,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap535",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71192"
 		],
@@ -3037,7 +3037,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap534",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -3054,7 +3054,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap533",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71127"
 		],
@@ -3071,7 +3071,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap532",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73001"
 		],
@@ -3089,7 +3089,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap531",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP1Prize"
 		],
@@ -3106,7 +3106,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap530",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71269"
 		],
@@ -3123,7 +3123,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap529",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71270"
 		],
@@ -3140,7 +3140,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap528",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71273"
 		],
@@ -3157,7 +3157,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap527",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71448"
 		],
@@ -3174,7 +3174,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap526",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71279"
 		],
@@ -3191,7 +3191,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap525",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP6Prize"
 		],
@@ -3208,7 +3208,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap524",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP6Prize"
 		],
@@ -3225,7 +3225,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap523",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71280",
 			"72261"
@@ -3243,7 +3243,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap522",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71508"
 		],
@@ -3260,7 +3260,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap521",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71526"
 		],
@@ -3277,7 +3277,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap520",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71527"
 		],
@@ -3294,7 +3294,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap519",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71511"
 		],
@@ -3311,7 +3311,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap518",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71528"
 		],
@@ -3328,7 +3328,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap517",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71530"
 		],
@@ -3345,7 +3345,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap516",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71529"
 		],
@@ -3362,7 +3362,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap515",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71533",
 			"72252"
@@ -3380,7 +3380,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap514",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513b"
 		],
@@ -3397,7 +3397,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap513",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71793"
 		],
@@ -3414,7 +3414,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap512",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71794"
 		],
@@ -3431,7 +3431,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap511",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71797"
 		],
@@ -3448,7 +3448,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap510",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71802"
 		],
@@ -3465,7 +3465,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap509",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_aldara"
 		],
@@ -3482,7 +3482,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap508",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72004p"
 		],
@@ -3499,7 +3499,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap507",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014"
 		],
@@ -3516,7 +3516,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap506",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71807"
 		],
@@ -3537,7 +3537,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap505",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72008"
 		],
@@ -3554,7 +3554,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap504",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72009"
 		],
@@ -3575,7 +3575,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap503",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72010"
 		],
@@ -3592,7 +3592,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap502",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -3611,7 +3611,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap501",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -3629,7 +3629,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap662",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -3646,7 +3646,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap661",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -3663,7 +3663,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap660",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73002"
 		],
@@ -3679,7 +3679,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap659",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73002"
 		],
@@ -3696,7 +3696,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap658",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -3713,7 +3713,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap657",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -3731,7 +3731,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap656",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -3748,7 +3748,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap655",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -3766,7 +3766,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap654",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -3784,7 +3784,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap653",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -3802,7 +3802,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap652",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -3820,7 +3820,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap651",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72281p"
 		],
@@ -3837,7 +3837,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap650",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72012wp"
 		],
@@ -3855,7 +3855,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap649",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72261p"
 		],
@@ -3872,7 +3872,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap648",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72255"
 		],
@@ -3889,7 +3889,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap647",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71223"
 		],
@@ -3906,7 +3906,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap646",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -3923,7 +3923,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap645",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"GenCon2013Promo"
 		],
@@ -3940,7 +3940,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap644",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71122",
 			"72240"
@@ -3958,7 +3958,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap643",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71123"
 		],
@@ -3975,7 +3975,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap642",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71126",
 			"72251"
@@ -3993,7 +3993,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap641",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71128"
 		],
@@ -4010,7 +4010,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap640",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP3Prize"
 		],
@@ -4027,7 +4027,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap639",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71268",
 			"72282"
@@ -4045,7 +4045,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap638",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71269"
 		],
@@ -4062,7 +4062,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap637",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71271"
 		],
@@ -4079,7 +4079,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap636",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71272",
 			"72292"
@@ -4097,7 +4097,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap635",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71444"
 		],
@@ -4114,7 +4114,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap634",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -4131,7 +4131,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap633",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"gavroche"
 		],
@@ -4148,7 +4148,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap632",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"3rd_wing_attack_ship"
 		],
@@ -4165,7 +4165,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap631",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71523"
 		],
@@ -4182,7 +4182,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap630",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71527"
 		],
@@ -4199,7 +4199,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap629",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510"
 		],
@@ -4216,7 +4216,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap628",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646a"
 		],
@@ -4233,7 +4233,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap627",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646e"
 		],
@@ -4250,7 +4250,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap626",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71528"
 		],
@@ -4267,7 +4267,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap625",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71512"
 		],
@@ -4284,7 +4284,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap624",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71512"
 		],
@@ -4301,7 +4301,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap623",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513b"
 		],
@@ -4318,7 +4318,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap622",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71808"
 		],
@@ -4335,7 +4335,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap621",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71536"
 		],
@@ -4352,7 +4352,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap620",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71996"
 		],
@@ -4369,7 +4369,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap619",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71793"
 		],
@@ -4386,7 +4386,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap618",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71794"
 		],
@@ -4403,7 +4403,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap617",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71796"
 		],
@@ -4420,7 +4420,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap616",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71803"
 		],
@@ -4437,7 +4437,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap615",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71804"
 		],
@@ -4455,7 +4455,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap614",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72001p"
 		],
@@ -4472,7 +4472,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap613",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_buruk"
 		],
@@ -4489,7 +4489,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap612",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72003p"
 		],
@@ -4506,7 +4506,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap611",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_interceptor8"
 		],
@@ -4523,7 +4523,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap610",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_nistrim_culluh"
 		],
@@ -4540,7 +4540,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap609",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -4558,7 +4558,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap608",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_nunks_marauder"
 		],
@@ -4575,7 +4575,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap607",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72290p"
 		],
@@ -4596,7 +4596,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap606",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71807"
 		],
@@ -4617,7 +4617,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap605",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011"
 		],
@@ -4634,7 +4634,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap604",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72016"
 		],
@@ -4651,7 +4651,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap603",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -4669,7 +4669,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap602",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72010"
 		],
@@ -4686,7 +4686,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap601",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -4705,7 +4705,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap736",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -4722,7 +4722,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap735",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -4739,7 +4739,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap734",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -4757,7 +4757,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap733",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -4776,7 +4776,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap732",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73031"
 		],
@@ -4793,7 +4793,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap731",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73032"
 		],
@@ -4811,7 +4811,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap730",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73001"
 		],
@@ -4828,7 +4828,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap729",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282gp"
 		],
@@ -4845,7 +4845,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap728",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72273"
 		],
@@ -4862,7 +4862,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap727",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72236p"
 		],
@@ -4879,7 +4879,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap726",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72224gp"
 		],
@@ -4896,7 +4896,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap725",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72235p"
 		],
@@ -4913,7 +4913,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap724",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71201"
 		],
@@ -4930,7 +4930,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap723",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -4947,7 +4947,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap722",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71125",
 			"72272"
@@ -4965,7 +4965,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap721",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71275",
 			"72262"
@@ -4983,7 +4983,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap720",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71274"
 		],
@@ -5000,7 +5000,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap719",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP5Prize"
 		],
@@ -5017,7 +5017,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap718",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71278"
 		],
@@ -5034,7 +5034,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap717",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71279"
 		],
@@ -5051,7 +5051,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap716",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71281",
 			"72291"
@@ -5069,7 +5069,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap715",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71446"
 		],
@@ -5086,7 +5086,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap714",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71445"
 		],
@@ -5103,7 +5103,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap713",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"i_k_s_b_moth"
 		],
@@ -5120,7 +5120,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap712",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"u_s_s_yaeger"
 		],
@@ -5137,7 +5137,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap711",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71522"
 		],
@@ -5154,7 +5154,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap710",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71786",
 			"71810"
@@ -5172,7 +5172,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap709",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b"
 		],
@@ -5189,7 +5189,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap708",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71530"
 		],
@@ -5206,7 +5206,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap707",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71532"
 		],
@@ -5223,7 +5223,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap706",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71534"
 		],
@@ -5240,7 +5240,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap705",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71798"
 		],
@@ -5257,7 +5257,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap704",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71796"
 		],
@@ -5274,7 +5274,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap703",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71804"
 		],
@@ -5291,7 +5291,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap702",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71807"
 		],
@@ -5312,7 +5312,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap701",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72015"
 		],
@@ -5329,7 +5329,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap824",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -5348,7 +5348,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap830",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -5365,7 +5365,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap832",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -5382,7 +5382,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap831",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -5401,7 +5401,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap828",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -5418,7 +5418,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap829",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -5436,7 +5436,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap827",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -5453,7 +5453,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap826",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -5471,7 +5471,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap825",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -5488,7 +5488,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap823",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -5505,7 +5505,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap822",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -5522,7 +5522,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap821",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72260p"
 		],
@@ -5539,7 +5539,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap820",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -5557,7 +5557,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap819",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -5575,7 +5575,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap818",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -5593,7 +5593,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap817",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -5610,7 +5610,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap816",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71225"
 		],
@@ -5627,7 +5627,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap815",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71213"
 		],
@@ -5644,7 +5644,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap814",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71121"
 		],
@@ -5661,7 +5661,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap813",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71126",
 			"72251"
@@ -5679,7 +5679,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap812",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71280",
 			"72261"
@@ -5697,7 +5697,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap811",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71444"
 		],
@@ -5714,7 +5714,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap810",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71524"
 		],
@@ -5731,7 +5731,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap809",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71523"
 		],
@@ -5748,7 +5748,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap808",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71524"
 		],
@@ -5765,7 +5765,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap807",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71531",
 			"72271"
@@ -5783,7 +5783,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap806",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71808"
 		],
@@ -5800,7 +5800,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap805",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71799"
 		],
@@ -5818,7 +5818,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap804",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71804"
 		],
@@ -5835,7 +5835,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap803",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72284p"
 		],
@@ -5852,7 +5852,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap802",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72012"
 		],
@@ -5869,7 +5869,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap801",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72293"
 		],
@@ -5886,7 +5886,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap10",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72000b"
 		],
@@ -5908,7 +5908,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap911",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -5926,7 +5926,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap910",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -5944,7 +5944,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap908",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -5961,7 +5961,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap907",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72260gp"
 		],
@@ -5978,7 +5978,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap906",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -5995,7 +5995,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap905",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71122",
 			"72240"
@@ -6013,7 +6013,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap904",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP2Prize"
 		],
@@ -6030,7 +6030,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap903",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71533",
 			"72252"
@@ -6048,7 +6048,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap902",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513a"
 		],
@@ -6065,7 +6065,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap901",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71792"
 		],
