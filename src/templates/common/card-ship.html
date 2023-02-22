@@ -22,11 +22,7 @@
 	<div class="card-border-right pull-right"></div>
 
 	<div class="card-ship-silhouette pull-left">
-	  <i ng-if="ship.faq" class="card-faq-icon fs fs-faq pull-left"></i>
-	  <i ng-if="ship.silhouetteakira" class="card-ship-silhouetteakira-icon fs fs-silhouetteakira"></i>
-	  <i ng-if="ship.silhouetteprometheus" class="card-ship-silhouetteprometheus-icon fs fs-silhouetteprometheus"></i>
-		<i ng-if="ship.silhouettesovereign" class="card-ship-silhouettesovereign-icon fs fs-silhouettesovereign"></i>
-		<i ng-if="ship.silhouettesaber" class="card-ship-silhouettesaber-icon fs fs-silhouettesaber"></i>
+	  <i class="card-ship-silhouette-icon" style="background-image: url(../img/ships/sil_{{ship.classId}}.png)"></i>
 	</div>
 
 	<div class="card-ship-class-container text-center">

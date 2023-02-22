@@ -996,44 +996,15 @@
 	margin-top: 0.1em;
 }
 
-.card-ship-silhouetteakira-icon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 2.25em;
-  height: 2.25em;
-  background: url("../img/ships/sil_fedakira.png") no-repeat center;
-  background-size: cover;
-}
-
-.card-ship-silhouetteprometheus-icon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 2.25em;
-  height: 2.25em;
-  background: url("../img/ships/sil_fedprometheus.png") no-repeat center;
-  background-size: cover;
-}
-
-.card-ship-silhouettesaber-icon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 2.25em;
-  height: 2.25em;
-  background: url("../img/ships/sil_fedsaber.png") no-repeat center;
-  background-size: cover;
-}
-
-.card-ship-silhouettesovereign-icon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 2.25em;
-  height: 2.25em;
-  background: url("../img/ships/sil_fedsovereign.png") no-repeat center;
-  background-size: cover;
+/* placeholder for ship silhouette, icon added by angular style attribute binding*/
+.card-ship-silhouette-icon {
+	width: 1.75em;
+    height: 1.75em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+	display: inline-block;
 }
 
 .card-ship-upgrade-bar {

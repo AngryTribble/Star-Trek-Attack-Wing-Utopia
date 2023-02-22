@@ -26,7 +26,6 @@ module.exports = [
 		cost: 15,
 		text: "<font size ='-1'><b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon_text] Upgrade equipped to the target ship.</font>",
 		unique: true,
-		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -63,7 +62,6 @@ module.exports = [
 		cost: 16,
 		text: "<font size=\"-1\">This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n</font><font size ='-2'> <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .</font>",
 		unique: true,
-		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -101,7 +99,6 @@ module.exports = [
 		cost: 29,
 		text: "<b>WHEN A FRIENDLY <img src='../img/faction_fed.png' width='20' height='20'> SHIP WITHIN RANGE 1 IS ATTACKING:</b>\n<font size='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a <img src='../img/Ships/fed-sil-fedsovereign.png' width='10' height='10';> it may also add 1 [hit]. If the defending ship is a <img src='../img/faction-borg.png' width='20' height='20';> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
 		unique: true,
-		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -139,7 +136,6 @@ module.exports = [
 		cost: 29,
 		text: "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
 		unique: true,
-		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -177,7 +173,6 @@ module.exports = [
 		cost: 23,
 		text: "<font size='-1.5'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade].\n<b>WHEN ATTACKING A <img src='../img/faction_fed.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
 		unique: true,
-		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -215,7 +210,6 @@ module.exports = [
 		cost: 23,
 		text: "<font size='-1'><b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n-----------------------------------\n <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.</font>",
 		unique: true,
-		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -254,7 +248,6 @@ module.exports = [
 		cost: 27,
 		text: "<b>WHEN ATTACKING WITH A <img src='../img/faction_fed.png' width='20' height='20';'> [weapon_text] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img src='../img/faction-dominion.png' width='20' height='20';'> ship, convert 1 [battlestations] into 1 [crit] instead.",
 		unique: true,
-		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -292,7 +285,6 @@ module.exports = [
 		cost: 24,
 		text: "",
 		unique: false,
-		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -331,7 +323,6 @@ module.exports = [
 		cost: 28,
 		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='https://i.imgur.com/0QLkrIf.png' width='10' height='10'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
 		unique: true,
-		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -792,7 +783,6 @@ module.exports = [
 		shields: 3,
 		cost: 24,
 		unique: true,
-		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -858,7 +848,6 @@ module.exports = [
 		shields: 2,
 		cost: 21,
 		unique: false,
-		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -4728,7 +4717,6 @@ module.exports = [
 		cost: 22,
 		text: "If your ship has an opposing ship target locked, during the Activation Phase, you may switch the target lock to a different ship within Range 1-3 as a free Action.",
 		unique: true,
-		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -8187,7 +8175,6 @@ module.exports = [
 		cost: 22,
 		text: "When attacking with Photon Torpedoes, you do not need to disable the Photon Torpedoes.",
 		unique: true,
-		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -8226,7 +8213,6 @@ module.exports = [
 		shields: 2,
 		cost: 12,
 		unique: false,
-		silhouettesaber: true,
 		factions: [
 			"federation"
 		],
@@ -9488,7 +9474,6 @@ module.exports = [
 		cost: 32,
 		text: "You may fire a Torpedo at an enemy ship without needing a Target Lock.  If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
-		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -9528,7 +9513,6 @@ module.exports = [
 		shields: 4,
 		cost: 25,
 		unique: false,
-		silhouettesovereign: true,
 		factions: [
 			"federation"
 		],
@@ -11282,7 +11266,6 @@ module.exports = [
 		shields: 4,
 		cost: 24,
 		unique: false,
-		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -11357,7 +11340,6 @@ module.exports = [
 		cost: 30,
 		text: "<b>ACTION:</b> If you performed a [forward] Maneuver this round, immediately perform an additional 1 [forward] or 2 [forward] Maneuver.",
 		unique: true,
-		silhouetteprometheus: true,
 		factions: [
 			"federation"
 		],
@@ -12366,7 +12348,6 @@ module.exports = [
 		cost: 28,
 		text: "Each time you defend, if you take no damage from an attack, you may immediately roll 1 attack die. A [hit] or [crit] result damages the attacking ship.",
 		unique: true,
-		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
@@ -12400,7 +12381,6 @@ module.exports = [
 		shields: 2,
 		cost: 21,
 		unique: false,
-		silhouetteakira: true,
 		factions: [
 			"federation"
 		],
