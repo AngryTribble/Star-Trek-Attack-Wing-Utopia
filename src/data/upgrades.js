@@ -2,6 +2,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q023",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -16,6 +17,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T280",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -31,6 +33,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T279",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -45,6 +48,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T278",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -60,6 +64,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T277",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -75,6 +80,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W227",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -94,6 +100,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W226",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -111,6 +118,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W225",
+		gameId:1,
 		set: [
 			"75013",
 			"75011"
@@ -127,6 +135,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W224",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -144,6 +153,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W223",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -161,6 +171,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W222",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -176,6 +187,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W999",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -191,6 +203,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E215",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -206,6 +219,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E214",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -223,6 +237,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E213",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -240,6 +255,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C390",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -254,6 +270,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C389",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -270,6 +287,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C388",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -285,6 +303,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C387",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -299,6 +318,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C386",
+		gameId:1,
 		set: [
 			"75013"
 		],
@@ -313,6 +333,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q022",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -328,6 +349,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T276",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -343,6 +365,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T275",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -356,6 +379,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T274",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -371,6 +395,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W221",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -388,6 +413,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W220",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -404,6 +430,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W219",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -421,6 +448,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W218",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -439,6 +467,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E212",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -455,6 +484,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E211",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -469,6 +499,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E210",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -484,6 +515,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C385",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -498,6 +530,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C384",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -512,6 +545,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C383",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -527,6 +561,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C382",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -542,6 +577,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C381",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -558,6 +594,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C380",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -573,6 +610,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W217",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -590,6 +628,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W216",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -609,6 +648,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T273",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -624,6 +664,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C379",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -638,6 +679,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C378",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -652,6 +694,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C377",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -666,6 +709,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C376",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -680,6 +724,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C375",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -696,6 +741,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E209",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -712,6 +758,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E208",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -727,6 +774,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T272",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -741,6 +789,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T271",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -756,6 +805,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T270",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -772,6 +822,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W215",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -786,6 +837,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W213",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -804,6 +856,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C374",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -819,6 +872,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C373",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -833,6 +887,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C372",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -847,6 +902,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C371",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -862,6 +918,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C370",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -877,6 +934,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T259",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -892,6 +950,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T258",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -906,6 +965,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T257",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -920,6 +980,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T256",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -934,6 +995,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W207",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -949,6 +1011,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W205",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -965,6 +1028,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W204",
+		gameId:1,
 		set: [
 			"80001",
 			"2017core",
@@ -984,6 +1048,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C362",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -999,6 +1064,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C361",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1014,6 +1080,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C360",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1029,6 +1096,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C359",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1044,6 +1112,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E203",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1060,6 +1129,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E202",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1075,6 +1145,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E201",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1090,6 +1161,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E200",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1105,6 +1177,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W203",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1122,6 +1195,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W202",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1142,6 +1216,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C358",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1157,6 +1232,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T255",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1173,6 +1249,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E199",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1189,6 +1266,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T254",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1203,6 +1281,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T253",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1218,6 +1297,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W201",
+		gameId:1,
 		set: [
 			"80001"
 		],
@@ -1233,6 +1313,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q018",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1248,6 +1329,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C363",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1264,6 +1346,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C365",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1280,6 +1363,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C366",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1295,6 +1379,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E204",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1311,6 +1396,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E205",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1326,6 +1412,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E206",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1341,6 +1428,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W208",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1359,6 +1447,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W209",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1373,6 +1462,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W210",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1389,6 +1479,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C364",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1404,6 +1495,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T260",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1418,6 +1510,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T261",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1433,6 +1526,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T262",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1448,6 +1542,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T263",
+		gameId:1,
 		set: [
 			"75009"
 		],
@@ -1463,6 +1558,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C369",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1478,6 +1574,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C368",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1493,6 +1590,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C367",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1508,6 +1606,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W212",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1527,6 +1626,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W211",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1544,6 +1644,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E207",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1561,6 +1662,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T269",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1575,6 +1677,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T268",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1589,6 +1692,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T264",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1604,6 +1708,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T267",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1620,6 +1725,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T266",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1636,6 +1742,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T265",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1652,6 +1759,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E198",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -1669,6 +1777,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E195",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1684,6 +1793,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E194",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1700,6 +1810,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E193",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1715,6 +1826,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B023",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1730,6 +1842,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B022",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1745,6 +1858,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B021",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1760,6 +1874,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B020",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1775,6 +1890,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B019",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1790,6 +1906,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T252",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1804,6 +1921,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W200",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1823,6 +1941,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W199",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1843,6 +1962,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C357",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1858,6 +1978,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C352",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1873,6 +1994,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C350",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1888,6 +2010,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C345",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1902,6 +2025,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C351",
+		gameId:1,
 		set: [
 			"75007"
 		],
@@ -1916,6 +2040,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E197",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -1932,6 +2057,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E196",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -1948,6 +2074,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W198",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -1966,6 +2093,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W197",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -1983,6 +2111,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W196",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2000,6 +2129,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C355",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2014,6 +2144,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C348",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2028,6 +2159,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C347",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2042,6 +2174,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C353",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2056,6 +2189,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C354",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2070,6 +2204,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C346",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2085,6 +2220,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C356",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2100,6 +2236,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C344",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2115,6 +2252,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C349",
+		gameId:1,
 		set: [
 			"75006"
 		],
@@ -2130,6 +2268,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E192",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2146,6 +2285,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E191",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2159,6 +2299,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E190",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2173,6 +2314,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T251",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2188,6 +2330,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T184",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2203,6 +2346,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T183",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2218,6 +2362,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T182",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2233,6 +2378,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W194",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2247,6 +2393,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W193",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2264,6 +2411,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q015",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2280,6 +2428,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C340",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2296,6 +2445,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C339",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2311,6 +2461,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C338",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2326,6 +2477,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C337",
+		gameId:1,
 		set: [
 			"75004"
 		],
@@ -2341,6 +2493,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C336",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2358,6 +2511,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C335",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2375,6 +2529,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C334",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2391,6 +2546,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C333",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2407,6 +2563,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C332",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2423,6 +2580,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C331",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2439,6 +2597,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C330",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2455,6 +2614,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C329",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2471,6 +2631,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C328",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2488,6 +2649,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C327",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2504,6 +2666,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C326",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2521,6 +2684,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E189",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2537,6 +2701,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T181",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2552,6 +2717,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T180",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2566,6 +2732,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T179",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2582,6 +2749,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C325",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2597,6 +2765,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C324",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2613,6 +2782,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C323",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2629,6 +2799,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C322",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2645,6 +2816,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W192",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2663,6 +2835,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W191",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2680,6 +2853,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W190",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2697,6 +2871,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W189",
+		gameId:1,
 		set: [
 			"75005"
 		],
@@ -2713,6 +2888,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D032",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2727,6 +2903,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D033",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2742,6 +2919,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D031",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2756,6 +2934,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D030",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2769,6 +2948,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D029",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2784,6 +2964,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D028",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2799,6 +2980,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D027",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2813,6 +2995,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D026",
+		gameId:1,
 		set: [
 			"73041"
 		],
@@ -2828,6 +3011,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q014",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2844,6 +3028,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E188",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2858,6 +3043,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E187",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2871,6 +3057,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T178",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2886,6 +3073,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T177",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2901,6 +3089,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W188",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2917,6 +3106,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C321",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2932,6 +3122,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C320",
+		gameId:1,
 		set: [
 			"73042"
 		],
@@ -2946,6 +3137,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E186",
+		gameId:1,
 		set: [
 			"72321"
 		],
@@ -2961,6 +3153,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E185",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -2976,6 +3169,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T176",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -2991,6 +3185,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T175",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -3006,6 +3201,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C319",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -3021,6 +3217,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C318",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -3035,6 +3232,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C317",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -3049,6 +3247,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W187",
+		gameId:1,
 		set: [
 			"73032"
 		],
@@ -3064,6 +3263,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E184",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3078,6 +3278,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q013",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3093,6 +3294,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C316",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3109,6 +3311,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C315",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3123,6 +3326,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C314",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3137,6 +3341,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W186",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3151,6 +3356,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T174",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3166,6 +3372,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T173",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3181,6 +3388,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W185",
+		gameId:1,
 		set: [
 			"73031"
 		],
@@ -3198,6 +3406,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E183",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3214,6 +3423,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T172",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3228,6 +3438,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T171",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3242,6 +3453,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W184",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3258,6 +3470,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W183",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3274,6 +3487,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W182",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3288,6 +3502,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C313",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3303,6 +3518,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C312",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3317,6 +3533,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C311",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3331,6 +3548,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C310",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3346,6 +3564,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C309",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3361,6 +3580,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C308",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3375,6 +3595,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q012",
+		gameId:1,
 		set: [
 			"75003"
 		],
@@ -3391,6 +3612,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E182",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3408,6 +3630,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T190",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3423,6 +3646,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W181",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3439,6 +3663,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B018",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3452,6 +3677,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C307",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3466,6 +3692,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C306",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3480,6 +3707,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C305",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3494,6 +3722,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C304",
+		gameId:1,
 		set: [
 			"73002"
 		],
@@ -3508,6 +3737,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E181",
+		gameId:1,
 		set: [
 			"73001",
 			"75003"
@@ -3524,6 +3754,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C303",
+		gameId:1,
 		set: [
 			"73001"
 		],
@@ -3539,6 +3770,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C302",
+		gameId:1,
 		set: [
 			"73001"
 		],
@@ -3553,6 +3785,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C301",
+		gameId:1,
 		set: [
 			"73001"
 		],
@@ -3569,6 +3802,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W180",
+		gameId:1,
 		set: [
 			"73001"
 		],
@@ -3586,6 +3820,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T170",
+		gameId:1,
 		set: [
 			"73001"
 		],
@@ -3601,6 +3836,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W179",
+		gameId:1,
 		set: [
 			"72311p"
 		],
@@ -3617,6 +3853,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E180",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3633,6 +3870,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E179",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3648,6 +3886,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T169",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3663,6 +3902,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T168",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3677,6 +3917,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W178",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3695,6 +3936,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W177",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3712,6 +3954,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W176",
+		gameId:1,
 		set: [
 			"75002",
 			"73032"
@@ -3731,6 +3974,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W175",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3746,6 +3990,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W174",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3764,6 +4009,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C300",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3777,6 +4023,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C299",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3790,6 +4037,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C298",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3804,6 +4052,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C297",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3820,6 +4069,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C296",
+		gameId:1,
 		set: [
 			"75002"
 		],
@@ -3834,6 +4084,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T167",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3849,6 +4100,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T166",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3865,6 +4117,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T165",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3880,6 +4133,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E178",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3894,6 +4148,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E177",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3910,6 +4165,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W173",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3925,6 +4181,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W172",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3938,6 +4195,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W171",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3953,6 +4211,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C295",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3967,6 +4226,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C294",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3981,6 +4241,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C293",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -3995,6 +4256,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C292",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -4009,6 +4271,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C291",
+		gameId:1,
 		set: [
 			"75001"
 		],
@@ -4023,6 +4286,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E176",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4037,6 +4301,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E175",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4051,6 +4316,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T164",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4064,6 +4330,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T163",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4077,6 +4344,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W170",
+		gameId:1,
 		set: [
 			"2017core",
 			"71510"
@@ -4092,6 +4360,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W168",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4108,6 +4377,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W167",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4124,6 +4394,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C290",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4139,6 +4410,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C289",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4153,6 +4425,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C288",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4166,6 +4439,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C287",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4180,6 +4454,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C286",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4193,6 +4468,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C285",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4207,6 +4483,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C284",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4221,6 +4498,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C283",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4236,6 +4514,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C282",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4250,6 +4529,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C281",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4264,6 +4544,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E174",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4280,6 +4561,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E173",
+		gameId:1,
 		set: [
 			"2017core"
 		],
@@ -4294,6 +4576,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T162",
+		gameId:1,
 		set: [
 			"72302p"
 		],
@@ -4309,6 +4592,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C280",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4324,6 +4608,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W166",
+		gameId:1,
 		set: [
 			"72014wp"
 		],
@@ -4340,6 +4625,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T161",
+		gameId:1,
 		set: [
 			"72014wp"
 		],
@@ -4354,6 +4640,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T160",
+		gameId:1,
 		set: [
 			"72014wp"
 		],
@@ -4369,6 +4656,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W165",
+		gameId:1,
 		set: [
 			"72014wp"
 		],
@@ -4385,6 +4673,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T159",
+		gameId:1,
 		set: [
 			"72014wp"
 		],
@@ -4400,6 +4689,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T158",
+		gameId:1,
 		set: [
 			"72014wp"
 		],
@@ -4415,6 +4705,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W164",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4432,6 +4723,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W163",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4449,6 +4741,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W162",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4467,6 +4760,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W161",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4484,6 +4778,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q011",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4498,6 +4793,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T157",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4512,6 +4808,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T156",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4526,6 +4823,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T155",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4541,6 +4839,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C279",
+		gameId:1,
 		set: [
 			"72013wp"
 		],
@@ -4555,6 +4854,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E172",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4569,6 +4869,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C278",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4584,6 +4885,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C277",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4598,6 +4900,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W160",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4616,6 +4919,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T154",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4632,6 +4936,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T153",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4646,6 +4951,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q010",
+		gameId:1,
 		set: [
 			"72012wp"
 		],
@@ -4662,6 +4968,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E171",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4676,6 +4983,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C276",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4690,6 +4998,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C275",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4705,6 +5014,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C274",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4719,6 +5029,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T152",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4734,6 +5045,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T151",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4748,6 +5060,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T150",
+		gameId:1,
 		set: [
 			"72011wp"
 		],
@@ -4763,6 +5076,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C273",
+		gameId:1,
 		set: [
 			"72011wp",
 			"71801"
@@ -4778,6 +5092,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C272",
+		gameId:1,
 		set: [
 			"72301rp"
 		],
@@ -4793,6 +5108,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E170",
+		gameId:1,
 		set: [
 			"72300p"
 		],
@@ -4807,6 +5123,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T149",
+		gameId:1,
 		set: [
 			"72300p"
 		],
@@ -4821,6 +5138,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W159",
+		gameId:1,
 		set: [
 			"72300p"
 		],
@@ -4837,6 +5155,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C271",
+		gameId:1,
 		set: [
 			"72300p"
 		],
@@ -4851,6 +5170,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W158",
+		gameId:1,
 		set: [
 			"72290p"
 		],
@@ -4867,6 +5187,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C270",
+		gameId:1,
 		set: [
 			"72290p"
 		],
@@ -4881,6 +5202,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C269",
+		gameId:1,
 		set: [
 			"72290p"
 		],
@@ -4895,6 +5217,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C268",
+		gameId:1,
 		set: [
 			"72290p"
 		],
@@ -4909,6 +5232,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E169",
+		gameId:1,
 		set: [
 			"72293"
 		],
@@ -4923,6 +5247,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W157",
+		gameId:1,
 		set: [
 			"72293"
 		],
@@ -4939,6 +5264,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W156",
+		gameId:1,
 		set: [
 			"72293"
 		],
@@ -4955,6 +5281,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C267",
+		gameId:1,
 		set: [
 			"72293"
 		],
@@ -4969,6 +5296,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T148",
+		gameId:1,
 		set: [
 			"72293"
 		],
@@ -4983,6 +5311,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T147",
+		gameId:1,
 		set: [
 			"72293"
 		],
@@ -4997,6 +5326,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E168",
+		gameId:1,
 		set: [
 			"72284p"
 		],
@@ -5011,6 +5341,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T146",
+		gameId:1,
 		set: [
 			"72284p"
 		],
@@ -5025,6 +5356,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W155",
+		gameId:1,
 		set: [
 			"72284p"
 		],
@@ -5041,6 +5373,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C266",
+		gameId:1,
 		set: [
 			"72284p"
 		],
@@ -5055,6 +5388,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W154",
+		gameId:1,
 		set: [
 			"72281"
 		],
@@ -5071,6 +5405,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T145",
+		gameId:1,
 		set: [
 			"72281"
 		],
@@ -5085,6 +5420,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T144",
+		gameId:1,
 		set: [
 			"72281"
 		],
@@ -5099,6 +5435,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T143",
+		gameId:1,
 		set: [
 			"72281"
 		],
@@ -5113,6 +5450,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C265",
+		gameId:1,
 		set: [
 			"72281"
 		],
@@ -5127,6 +5465,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E167",
+		gameId:1,
 		set: [
 			"72281"
 		],
@@ -5141,6 +5480,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E166",
+		gameId:1,
 		set: [
 			"72282gp"
 		],
@@ -5155,6 +5495,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E165",
+		gameId:1,
 		set: [
 			"72282gp"
 		],
@@ -5169,6 +5510,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C264",
+		gameId:1,
 		set: [
 			"72282gp"
 		],
@@ -5183,6 +5525,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T142",
+		gameId:1,
 		set: [
 			"72282gp"
 		],
@@ -5197,6 +5540,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E164",
+		gameId:1,
 		set: [
 			"72282p"
 		],
@@ -5211,6 +5555,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E163",
+		gameId:1,
 		set: [
 			"72282p"
 		],
@@ -5225,6 +5570,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C263",
+		gameId:1,
 		set: [
 			"72282p"
 		],
@@ -5239,6 +5585,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T141",
+		gameId:1,
 		set: [
 			"72282p"
 		],
@@ -5253,6 +5600,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C262",
+		gameId:1,
 		set: [
 			"72282p"
 		],
@@ -5268,6 +5616,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C261",
+		gameId:1,
 		set: [
 			"72282p"
 		],
@@ -5283,6 +5632,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E162",
+		gameId:1,
 		set: [
 			"72281p"
 		],
@@ -5297,6 +5647,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C260",
+		gameId:1,
 		set: [
 			"72281p"
 		],
@@ -5311,6 +5662,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T140",
+		gameId:1,
 		set: [
 			"72281p"
 		],
@@ -5325,6 +5677,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q016",
+		gameId:1,
 		set: [
 			"72281p"
 		],
@@ -5339,6 +5692,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E161",
+		gameId:1,
 		set: [
 			"72273"
 		],
@@ -5353,6 +5707,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E160",
+		gameId:1,
 		set: [
 			"72273"
 		],
@@ -5367,6 +5722,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C259",
+		gameId:1,
 		set: [
 			"72273"
 		],
@@ -5381,6 +5737,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W153",
+		gameId:1,
 		set: [
 			"72273"
 		],
@@ -5397,6 +5754,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W152",
+		gameId:1,
 		set: [
 			"72273"
 		],
@@ -5413,6 +5771,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T139",
+		gameId:1,
 		set: [
 			"72273"
 		],
@@ -5427,6 +5786,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E159",
+		gameId:1,
 		set: [
 			"72280p"
 		],
@@ -5441,6 +5801,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E158",
+		gameId:1,
 		set: [
 			"72280p"
 		],
@@ -5455,6 +5816,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C258",
+		gameId:1,
 		set: [
 			"72280p"
 		],
@@ -5469,6 +5831,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T138",
+		gameId:1,
 		set: [
 			"72280p"
 		],
@@ -5483,6 +5846,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C257",
+		gameId:1,
 		set: [
 			"72263"
 		],
@@ -5497,6 +5861,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T137",
+		gameId:1,
 		set: [
 			"72263"
 		],
@@ -5512,6 +5877,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T136",
+		gameId:1,
 		set: [
 			"72263"
 		],
@@ -5526,6 +5892,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T135",
+		gameId:1,
 		set: [
 			"72263"
 		],
@@ -5540,6 +5907,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T134",
+		gameId:1,
 		set: [
 			"72263"
 		],
@@ -5554,6 +5922,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W151",
+		gameId:1,
 		set: [
 			"72263"
 		],
@@ -5570,6 +5939,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E157",
+		gameId:1,
 		set: [
 			"72270p"
 		],
@@ -5584,6 +5954,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C256",
+		gameId:1,
 		set: [
 			"72270p"
 		],
@@ -5598,6 +5969,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C255",
+		gameId:1,
 		set: [
 			"72270p"
 		],
@@ -5612,6 +5984,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C254",
+		gameId:1,
 		set: [
 			"72270p"
 		],
@@ -5626,6 +5999,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E156",
+		gameId:1,
 		set: [
 			"72262p"
 		],
@@ -5640,6 +6014,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T133",
+		gameId:1,
 		set: [
 			"72262p"
 		],
@@ -5654,6 +6029,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W150",
+		gameId:1,
 		set: [
 			"72262p"
 		],
@@ -5670,6 +6046,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C253",
+		gameId:1,
 		set: [
 			"72262p",
 			"72301rp"
@@ -5686,6 +6063,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E155",
+		gameId:1,
 		set: [
 			"72253"
 		],
@@ -5700,6 +6078,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W149",
+		gameId:1,
 		set: [
 			"72253"
 		],
@@ -5714,6 +6093,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T132",
+		gameId:1,
 		set: [
 			"72253"
 		],
@@ -5728,6 +6108,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T131",
+		gameId:1,
 		set: [
 			"72253"
 		],
@@ -5742,6 +6123,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q017",
+		gameId:1,
 		set: [
 			"72253"
 		],
@@ -5756,6 +6138,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E154",
+		gameId:1,
 		set: [
 			"72261p"
 		],
@@ -5770,6 +6153,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W147",
+		gameId:1,
 		set: [
 			"72261p"
 		],
@@ -5786,6 +6170,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T130",
+		gameId:1,
 		set: [
 			"72261p"
 		],
@@ -5800,6 +6185,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q009",
+		gameId:1,
 		set: [
 			"72261p"
 		],
@@ -5814,6 +6200,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C252",
+		gameId:1,
 		set: [
 			"72260p"
 		],
@@ -5828,6 +6215,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C251",
+		gameId:1,
 		set: [
 			"72260gp"
 		],
@@ -5842,6 +6230,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C250",
+		gameId:1,
 		set: [
 			"72260gp"
 		],
@@ -5856,6 +6245,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W146",
+		gameId:1,
 		set: [
 			"72260gp"
 		],
@@ -5870,6 +6260,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T129",
+		gameId:1,
 		set: [
 			"72260gp"
 		],
@@ -5884,6 +6275,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C249",
+		gameId:1,
 		set: [
 			"72260p"
 		],
@@ -5898,6 +6290,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C248",
+		gameId:1,
 		set: [
 			"72260p"
 		],
@@ -5912,6 +6305,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C247",
+		gameId:1,
 		set: [
 			"72260p"
 		],
@@ -5926,6 +6320,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E153",
+		gameId:1,
 		set: [
 			"72255"
 		],
@@ -5940,6 +6335,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T128",
+		gameId:1,
 		set: [
 			"72255"
 		],
@@ -5954,6 +6350,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B017",
+		gameId:1,
 		set: [
 			"72255"
 		],
@@ -5968,6 +6365,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q008",
+		gameId:1,
 		set: [
 			"72255"
 		],
@@ -5982,6 +6380,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E152",
+		gameId:1,
 		set: [
 			"72236p"
 		],
@@ -5996,6 +6395,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C246",
+		gameId:1,
 		set: [
 			"72236p"
 		],
@@ -6010,6 +6410,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C245",
+		gameId:1,
 		set: [
 			"72236p"
 		],
@@ -6024,6 +6425,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C244",
+		gameId:1,
 		set: [
 			"72236p"
 		],
@@ -6038,6 +6440,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E151",
+		gameId:1,
 		set: [
 			"72242"
 		],
@@ -6052,6 +6455,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E150",
+		gameId:1,
 		set: [
 			"72242"
 		],
@@ -6066,6 +6470,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C243",
+		gameId:1,
 		set: [
 			"72242"
 		],
@@ -6080,6 +6485,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W145",
+		gameId:1,
 		set: [
 			"71278"
 		],
@@ -6096,6 +6502,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T127",
+		gameId:1,
 		set: [
 			"72242"
 		],
@@ -6110,6 +6517,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E149",
+		gameId:1,
 		set: [
 			"72224gp"
 		],
@@ -6124,6 +6532,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C242",
+		gameId:1,
 		set: [
 			"72224gp"
 		],
@@ -6138,6 +6547,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T126",
+		gameId:1,
 		set: [
 			"72224gp"
 		],
@@ -6152,6 +6562,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q020",
+		gameId:1,
 		set: [
 			"72224gp"
 		],
@@ -6166,6 +6577,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E148",
+		gameId:1,
 		set: [
 			"72235p"
 		],
@@ -6180,6 +6592,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E147",
+		gameId:1,
 		set: [
 			"72235p"
 		],
@@ -6194,6 +6607,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C240",
+		gameId:1,
 		set: [
 			"72235p"
 		],
@@ -6208,6 +6622,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W143",
+		gameId:1,
 		set: [
 			"72235p"
 		],
@@ -6222,6 +6637,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E146",
+		gameId:1,
 		set: [
 			"72241"
 		],
@@ -6236,6 +6652,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T124",
+		gameId:1,
 		set: [
 			"72241"
 		],
@@ -6254,6 +6671,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T123",
+		gameId:1,
 		set: [
 			"72241"
 		],
@@ -6272,6 +6690,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C239",
+		gameId:1,
 		set: [
 			"72241"
 		],
@@ -6286,6 +6705,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W142",
+		gameId:1,
 		set: [
 			"72241"
 		],
@@ -6304,6 +6724,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E145",
+		gameId:1,
 		set: [
 			"72234p"
 		],
@@ -6318,6 +6739,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C238",
+		gameId:1,
 		set: [
 			"72234p"
 		],
@@ -6332,6 +6754,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q007",
+		gameId:1,
 		set: [
 			"72234p"
 		],
@@ -6346,6 +6769,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q006",
+		gameId:1,
 		set: [
 			"72234p"
 		],
@@ -6360,6 +6784,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E144",
+		gameId:1,
 		set: [
 			"72224p"
 		],
@@ -6374,6 +6799,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C237",
+		gameId:1,
 		set: [
 			"72224p"
 		],
@@ -6388,6 +6814,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W144",
+		gameId:1,
 		set: [
 			"72224p"
 		],
@@ -6404,6 +6831,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T122",
+		gameId:1,
 		set: [
 			"72224p"
 		],
@@ -6418,6 +6846,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E143",
+		gameId:1,
 		set: [
 			"72233"
 		],
@@ -6432,6 +6861,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C236",
+		gameId:1,
 		set: [
 			"72233"
 		],
@@ -6446,6 +6876,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C235",
+		gameId:1,
 		set: [
 			"72233"
 		],
@@ -6460,6 +6891,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W140",
+		gameId:1,
 		set: [
 			"72233"
 		],
@@ -6476,6 +6908,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T121",
+		gameId:1,
 		set: [
 			"72233"
 		],
@@ -6490,6 +6923,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C234",
+		gameId:1,
 		set: [
 			"72232"
 		],
@@ -6504,6 +6938,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C233",
+		gameId:1,
 		set: [
 			"72232"
 		],
@@ -6518,6 +6953,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C232",
+		gameId:1,
 		set: [
 			"72232"
 		],
@@ -6532,6 +6968,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W139",
+		gameId:1,
 		set: [
 			"72232"
 		],
@@ -6546,6 +6983,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C231",
+		gameId:1,
 		set: [
 			"72231"
 		],
@@ -6560,6 +6998,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W138",
+		gameId:1,
 		set: [
 			"72231"
 		],
@@ -6576,6 +7015,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W137",
+		gameId:1,
 		set: [
 			"72231",
 			"72011",
@@ -6597,6 +7037,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T119",
+		gameId:1,
 		set: [
 			"72231"
 		],
@@ -6611,6 +7052,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T118",
+		gameId:1,
 		set: [
 			"72231"
 		],
@@ -6625,6 +7067,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E142",
+		gameId:1,
 		set: [
 			"71225"
 		],
@@ -6639,6 +7082,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C230",
+		gameId:1,
 		set: [
 			"71225"
 		],
@@ -6653,6 +7097,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W136",
+		gameId:1,
 		set: [
 			"71225"
 		],
@@ -6669,6 +7114,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W135",
+		gameId:1,
 		set: [
 			"71225"
 		],
@@ -6685,6 +7131,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T117",
+		gameId:1,
 		set: [
 			"71225"
 		],
@@ -6700,6 +7147,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T116",
+		gameId:1,
 		set: [
 			"71225"
 		],
@@ -6714,6 +7162,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E141",
+		gameId:1,
 		set: [
 			"72221p"
 		],
@@ -6728,6 +7177,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C229",
+		gameId:1,
 		set: [
 			"72221p"
 		],
@@ -6742,6 +7192,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W134",
+		gameId:1,
 		set: [
 			"72221p"
 		],
@@ -6756,6 +7207,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T115",
+		gameId:1,
 		set: [
 			"72221p"
 		],
@@ -6770,6 +7222,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D025",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6784,6 +7237,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D024",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6798,6 +7252,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D023",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6812,6 +7267,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D022",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6826,6 +7282,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D021",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6842,6 +7299,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D020",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6856,6 +7314,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D019",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6870,6 +7329,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D018",
+		gameId:1,
 		set: [
 			"71203"
 		],
@@ -6884,6 +7344,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q005",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6898,6 +7359,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W133",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6914,6 +7376,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W132",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6930,6 +7393,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W131",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6946,6 +7410,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W130",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6962,6 +7427,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T113",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6976,6 +7442,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T112",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -6990,6 +7457,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T111",
+		gameId:1,
 		set: [
 			"71212"
 		],
@@ -7004,6 +7472,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C342",
+		gameId:1,
 		set: [
 			"71192"
 		],
@@ -7018,6 +7487,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C228",
+		gameId:1,
 		set: [
 			"71192"
 		],
@@ -7032,6 +7502,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W129",
+		gameId:1,
 		set: [
 			"71192"
 		],
@@ -7048,6 +7519,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W128",
+		gameId:1,
 		set: [
 			"71192"
 		],
@@ -7064,6 +7536,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W127",
+		gameId:1,
 		set: [
 			"71192"
 		],
@@ -7078,6 +7551,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q004",
+		gameId:1,
 		set: [
 			"71192"
 		],
@@ -7092,6 +7566,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E140",
+		gameId:1,
 		set: [
 			"71211"
 		],
@@ -7106,6 +7581,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E139",
+		gameId:1,
 		set: [
 			"71211"
 		],
@@ -7120,6 +7596,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E138",
+		gameId:1,
 		set: [
 			"71211"
 		],
@@ -7134,6 +7611,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T110",
+		gameId:1,
 		set: [
 			"71211"
 		],
@@ -7148,6 +7626,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T109",
+		gameId:1,
 		set: [
 			"71211"
 		],
@@ -7162,6 +7641,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T108",
+		gameId:1,
 		set: [
 			"71211"
 		],
@@ -7176,6 +7656,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E137",
+		gameId:1,
 		set: [
 			"71213"
 		],
@@ -7190,6 +7671,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C227",
+		gameId:1,
 		set: [
 			"71213"
 		],
@@ -7204,6 +7686,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C226",
+		gameId:1,
 		set: [
 			"71213"
 		],
@@ -7218,6 +7701,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C225",
+		gameId:1,
 		set: [
 			"71213"
 		],
@@ -7232,6 +7716,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C224",
+		gameId:1,
 		set: [
 			"71213"
 		],
@@ -7246,6 +7731,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C223",
+		gameId:1,
 		set: [
 			"71213"
 		],
@@ -7260,6 +7746,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E136",
+		gameId:1,
 		set: [
 			"71221"
 		],
@@ -7274,6 +7761,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C222",
+		gameId:1,
 		set: [
 			"71221"
 		],
@@ -7288,6 +7776,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C221",
+		gameId:1,
 		set: [
 			"71221"
 		],
@@ -7302,6 +7791,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C220",
+		gameId:1,
 		set: [
 			"71221"
 		],
@@ -7316,6 +7806,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C219",
+		gameId:1,
 		set: [
 			"71221"
 		],
@@ -7330,6 +7821,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E135",
+		gameId:1,
 		set: [
 			"71223"
 		],
@@ -7344,6 +7836,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C218",
+		gameId:1,
 		set: [
 			"71223"
 		],
@@ -7358,6 +7851,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W125",
+		gameId:1,
 		set: [
 			"71223"
 		],
@@ -7374,6 +7868,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W124",
+		gameId:1,
 		set: [
 			"71223"
 		],
@@ -7390,6 +7885,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T107",
+		gameId:1,
 		set: [
 			"71223"
 		],
@@ -7404,6 +7900,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T106",
+		gameId:1,
 		set: [
 			"71223"
 		],
@@ -7418,6 +7915,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E134",
+		gameId:1,
 		set: [
 			"71201"
 		],
@@ -7432,6 +7930,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C217",
+		gameId:1,
 		set: [
 			"71201"
 		],
@@ -7446,6 +7945,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C216",
+		gameId:1,
 		set: [
 			"71201"
 		],
@@ -7460,6 +7960,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C215",
+		gameId:1,
 		set: [
 			"71201"
 		],
@@ -7474,6 +7975,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T105",
+		gameId:1,
 		set: [
 			"71201"
 		],
@@ -7488,6 +7990,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T104",
+		gameId:1,
 		set: [
 			"71201"
 		],
@@ -7503,6 +8006,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E133",
+		gameId:1,
 		set: [
 			"71222"
 		],
@@ -7517,6 +8021,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C214",
+		gameId:1,
 		set: [
 			"71222"
 		],
@@ -7531,6 +8036,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C213",
+		gameId:1,
 		set: [
 			"71222"
 		],
@@ -7545,6 +8051,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T103",
+		gameId:1,
 		set: [
 			"71222"
 		],
@@ -7559,6 +8066,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T102",
+		gameId:1,
 		set: [
 			"71222"
 		],
@@ -7573,6 +8081,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E132",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7591,6 +8100,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C212",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7609,6 +8119,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T101",
+		gameId:1,
 		set: [
 			"71222"
 		],
@@ -7623,6 +8134,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C211",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7641,6 +8153,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C210",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7659,6 +8172,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C209",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7677,6 +8191,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W122",
+		gameId:1,
 		set: [
 			"71120",
 			"71268",
@@ -7700,6 +8215,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W121",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7718,6 +8234,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C208",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7736,6 +8253,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C207",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7754,6 +8272,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W120",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7772,6 +8291,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T100",
+		gameId:1,
 		set: [
 			"71120",
 			"71126",
@@ -7791,6 +8311,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T250",
+		gameId:1,
 		set: [
 			"71120",
 			"71273"
@@ -7809,6 +8330,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E131",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7827,6 +8349,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C206",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7845,6 +8368,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C205",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7863,6 +8387,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W119",
+		gameId:1,
 		set: [
 			"71120",
 			"71123",
@@ -7884,6 +8409,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T249",
+		gameId:1,
 		set: [
 			"71120"
 		],
@@ -7902,6 +8428,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E130",
+		gameId:1,
 		set: [
 			"71121"
 		],
@@ -7920,6 +8447,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E129",
+		gameId:1,
 		set: [
 			"71121"
 		],
@@ -7938,6 +8466,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C204",
+		gameId:1,
 		set: [
 			"71121"
 		],
@@ -7956,6 +8485,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C203",
+		gameId:1,
 		set: [
 			"71121"
 		],
@@ -7974,6 +8504,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C202",
+		gameId:1,
 		set: [
 			"71121"
 		],
@@ -7992,6 +8523,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C201",
+		gameId:1,
 		set: [
 			"71121"
 		],
@@ -8010,6 +8542,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W118",
+		gameId:1,
 		set: [
 			"71121",
 			"71122",
@@ -8032,6 +8565,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E128",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8051,6 +8585,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E127",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8070,6 +8605,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E126",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8089,6 +8625,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C200",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8108,6 +8645,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C199",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8127,6 +8665,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C198",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8146,6 +8685,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C197",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8165,6 +8705,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C196",
+		gameId:1,
 		set: [
 			"71122",
 			"72240"
@@ -8184,6 +8725,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E125",
+		gameId:1,
 		set: [
 			"71123"
 		],
@@ -8202,6 +8744,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C195",
+		gameId:1,
 		set: [
 			"71123"
 		],
@@ -8220,6 +8763,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W117",
+		gameId:1,
 		set: [
 			"71123"
 		],
@@ -8238,6 +8782,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C194",
+		gameId:1,
 		set: [
 			"71124"
 		],
@@ -8256,6 +8801,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C193",
+		gameId:1,
 		set: [
 			"71124"
 		],
@@ -8274,6 +8820,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T248",
+		gameId:1,
 		set: [
 			"71124",
 			"75001"
@@ -8289,6 +8836,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T247",
+		gameId:1,
 		set: [
 			"71124"
 		],
@@ -8309,6 +8857,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E124",
+		gameId:1,
 		set: [
 			"71125",
 			"72272"
@@ -8328,6 +8877,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C192",
+		gameId:1,
 		set: [
 			"71125",
 			"72272"
@@ -8347,6 +8897,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C191",
+		gameId:1,
 		set: [
 			"71125",
 			"72272"
@@ -8366,6 +8917,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W116",
+		gameId:1,
 		set: [
 			"71125",
 			"71448",
@@ -8386,6 +8938,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W115",
+		gameId:1,
 		set: [
 			"71125",
 			"72272"
@@ -8405,6 +8958,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T246",
+		gameId:1,
 		set: [
 			"71125",
 			"72272"
@@ -8424,6 +8978,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C190",
+		gameId:1,
 		set: [
 			"71126",
 			"72251"
@@ -8443,6 +8998,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E123",
+		gameId:1,
 		set: [
 			"71126",
 			"72251"
@@ -8462,6 +9018,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C189",
+		gameId:1,
 		set: [
 			"71126",
 			"72251"
@@ -8481,6 +9038,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W114",
+		gameId:1,
 		set: [
 			"71126",
 			"72251"
@@ -8500,6 +9058,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C188",
+		gameId:1,
 		set: [
 			"71127"
 		],
@@ -8518,6 +9077,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W113",
+		gameId:1,
 		set: [
 			"71127"
 		],
@@ -8536,6 +9096,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T245",
+		gameId:1,
 		set: [
 			"71127"
 		],
@@ -8554,6 +9115,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T244",
+		gameId:1,
 		set: [
 			"71127"
 		],
@@ -8572,6 +9134,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C187",
+		gameId:1,
 		set: [
 			"71128"
 		],
@@ -8590,6 +9153,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W112",
+		gameId:1,
 		set: [
 			"71128",
 			"71271"
@@ -8609,6 +9173,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W111",
+		gameId:1,
 		set: [
 			"71128",
 			"OP5Prize"
@@ -8628,6 +9193,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E122",
+		gameId:1,
 		set: [
 			"OP1Prize"
 		],
@@ -8646,6 +9212,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C186",
+		gameId:1,
 		set: [
 			"OP1Prize"
 		],
@@ -8664,6 +9231,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W110",
+		gameId:1,
 		set: [
 			"OP1Prize"
 		],
@@ -8682,6 +9250,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E121",
+		gameId:1,
 		set: [
 			"OP2Prize"
 		],
@@ -8700,6 +9269,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W109",
+		gameId:1,
 		set: [
 			"OP2Prize"
 		],
@@ -8718,6 +9288,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T242",
+		gameId:1,
 		set: [
 			"OP2Prize"
 		],
@@ -8736,6 +9307,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C185",
+		gameId:1,
 		set: [
 			"OP2Prize"
 		],
@@ -8754,6 +9326,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E120",
+		gameId:1,
 		set: [
 			"OP3Prize"
 		],
@@ -8772,6 +9345,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C184",
+		gameId:1,
 		set: [
 			"OP3Prize",
 			"72311p"
@@ -8791,6 +9365,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W108",
+		gameId:1,
 		set: [
 			"OP3Prize"
 		],
@@ -8809,6 +9384,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T241",
+		gameId:1,
 		set: [
 			"OP3Prize"
 		],
@@ -8827,6 +9403,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W107",
+		gameId:1,
 		set: [
 			"71268",
 			"72282",
@@ -8848,6 +9425,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T240",
+		gameId:1,
 		set: [
 			"71268",
 			"72282"
@@ -8867,6 +9445,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C183",
+		gameId:1,
 		set: [
 			"71268",
 			"72282"
@@ -8886,6 +9465,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E119",
+		gameId:1,
 		set: [
 			"71268",
 			"72282"
@@ -8905,6 +9485,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E118",
+		gameId:1,
 		set: [
 			"71268",
 			"72282"
@@ -8924,6 +9505,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C182",
+		gameId:1,
 		set: [
 			"71268",
 			"72282"
@@ -8943,6 +9525,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C181",
+		gameId:1,
 		set: [
 			"71268",
 			"72282"
@@ -8962,6 +9545,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E117",
+		gameId:1,
 		set: [
 			"71269"
 		],
@@ -8980,6 +9564,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W106",
+		gameId:1,
 		set: [
 			"71269"
 		],
@@ -8998,6 +9583,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W105",
+		gameId:1,
 		set: [
 			"71269",
 			"71273",
@@ -9020,6 +9606,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C180",
+		gameId:1,
 		set: [
 			"71269"
 		],
@@ -9038,6 +9625,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C179",
+		gameId:1,
 		set: [
 			"71269"
 		],
@@ -9056,6 +9644,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T239",
+		gameId:1,
 		set: [
 			"71270"
 		],
@@ -9074,6 +9663,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T238",
+		gameId:1,
 		set: [
 			"71270"
 		],
@@ -9092,6 +9682,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W104",
+		gameId:1,
 		set: [
 			"71270"
 		],
@@ -9110,6 +9701,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T237",
+		gameId:1,
 		set: [
 			"71271"
 		],
@@ -9128,6 +9720,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T236",
+		gameId:1,
 		set: [
 			"71271"
 		],
@@ -9146,6 +9739,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W103",
+		gameId:1,
 		set: [
 			"71271"
 		],
@@ -9164,6 +9758,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C178",
+		gameId:1,
 		set: [
 			"71271"
 		],
@@ -9182,6 +9777,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C177",
+		gameId:1,
 		set: [
 			"71271"
 		],
@@ -9200,6 +9796,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C176",
+		gameId:1,
 		set: [
 			"71271"
 		],
@@ -9218,6 +9815,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C175",
+		gameId:1,
 		set: [
 			"OP2Participation"
 		],
@@ -9236,6 +9834,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C174",
+		gameId:1,
 		set: [
 			"71273"
 		],
@@ -9254,6 +9853,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C173",
+		gameId:1,
 		set: [
 			"71273"
 		],
@@ -9272,6 +9872,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T235",
+		gameId:1,
 		set: [
 			"71273"
 		],
@@ -9290,6 +9891,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C172",
+		gameId:1,
 		set: [
 			"71275",
 			"72262"
@@ -9309,6 +9911,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W102",
+		gameId:1,
 		set: [
 			"71275",
 			"72262"
@@ -9328,6 +9931,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W101",
+		gameId:1,
 		set: [
 			"71275",
 			"72262"
@@ -9347,6 +9951,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T234",
+		gameId:1,
 		set: [
 			"71275",
 			"72262"
@@ -9366,6 +9971,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T233",
+		gameId:1,
 		set: [
 			"71275",
 			"72262"
@@ -9385,6 +9991,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E116",
+		gameId:1,
 		set: [
 			"71275",
 			"72262"
@@ -9404,6 +10011,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E115",
+		gameId:1,
 		set: [
 			"71272",
 			"72292"
@@ -9423,6 +10031,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C171",
+		gameId:1,
 		set: [
 			"71272",
 			"72292"
@@ -9442,6 +10051,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C170",
+		gameId:1,
 		set: [
 			"71272",
 			"72292"
@@ -9461,6 +10071,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C169",
+		gameId:1,
 		set: [
 			"71272",
 			"72292"
@@ -9480,6 +10091,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T232",
+		gameId:1,
 		set: [
 			"71272",
 			"72292"
@@ -9499,6 +10111,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T231",
+		gameId:1,
 		set: [
 			"71272",
 			"72292"
@@ -9518,6 +10131,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E114",
+		gameId:1,
 		set: [
 			"71274"
 		],
@@ -9536,6 +10150,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C168",
+		gameId:1,
 		set: [
 			"71274"
 		],
@@ -9554,6 +10169,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T230",
+		gameId:1,
 		set: [
 			"71274"
 		],
@@ -9572,6 +10188,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E113",
+		gameId:1,
 		set: [
 			"OP4Prize"
 		],
@@ -9590,6 +10207,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C167",
+		gameId:1,
 		set: [
 			"OP4Prize"
 		],
@@ -9608,6 +10226,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W100",
+		gameId:1,
 		set: [
 			"OP4Prize"
 		],
@@ -9626,6 +10245,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T229",
+		gameId:1,
 		set: [
 			"OP4Prize"
 		],
@@ -9644,6 +10264,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E112",
+		gameId:1,
 		set: [
 			"OP5Prize"
 		],
@@ -9662,6 +10283,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C166",
+		gameId:1,
 		set: [
 			"OP5Prize"
 		],
@@ -9680,6 +10302,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T228",
+		gameId:1,
 		set: [
 			"OP5Prize"
 		],
@@ -9698,6 +10321,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C165",
+		gameId:1,
 		set: [
 			"71276"
 		],
@@ -9716,6 +10340,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C164",
+		gameId:1,
 		set: [
 			"71276"
 		],
@@ -9734,6 +10359,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q024",
+		gameId:1,
 		set: [
 			"71276"
 		],
@@ -9753,6 +10379,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T226",
+		gameId:1,
 		set: [
 			"71276"
 		],
@@ -9771,6 +10398,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E111",
+		gameId:1,
 		set: [
 			"71448"
 		],
@@ -9789,6 +10417,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C162",
+		gameId:1,
 		set: [
 			"71448"
 		],
@@ -9807,6 +10436,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T225",
+		gameId:1,
 		set: [
 			"71448"
 		],
@@ -9825,6 +10455,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T224",
+		gameId:1,
 		set: [
 			"71448"
 		],
@@ -9843,6 +10474,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C161",
+		gameId:1,
 		set: [
 			"71278"
 		],
@@ -9861,6 +10493,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C160",
+		gameId:1,
 		set: [
 			"71278"
 		],
@@ -9879,6 +10512,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E110",
+		gameId:1,
 		set: [
 			"71278"
 		],
@@ -9897,6 +10531,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E109",
+		gameId:1,
 		set: [
 			"71278"
 		],
@@ -9915,6 +10550,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W098",
+		gameId:1,
 		set: [
 			"71278"
 		],
@@ -9933,6 +10569,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C159",
+		gameId:1,
 		set: [
 			"71279"
 		],
@@ -9951,6 +10588,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C158",
+		gameId:1,
 		set: [
 			"71279"
 		],
@@ -9969,6 +10607,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C157",
+		gameId:1,
 		set: [
 			"71279"
 		],
@@ -9987,6 +10626,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W097",
+		gameId:1,
 		set: [
 			"71279"
 		],
@@ -10005,6 +10645,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E108",
+		gameId:1,
 		set: [
 			"71279"
 		],
@@ -10023,6 +10664,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T223",
+		gameId:1,
 		set: [
 			"71279"
 		],
@@ -10041,6 +10683,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W096",
+		gameId:1,
 		set: [
 			"71279",
 			"71524"
@@ -10060,6 +10703,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E107",
+		gameId:1,
 		set: [
 			"OP6Prize"
 		],
@@ -10078,6 +10722,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E106",
+		gameId:1,
 		set: [
 			"OP6Prize"
 		],
@@ -10096,6 +10741,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C156",
+		gameId:1,
 		set: [
 			"OP6Prize"
 		],
@@ -10114,6 +10760,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C155",
+		gameId:1,
 		set: [
 			"OP6Prize"
 		],
@@ -10132,6 +10779,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T222",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10151,6 +10799,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C154",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10170,6 +10819,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T221",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10189,6 +10839,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T220",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10208,6 +10859,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B016",
+		gameId:1,
 		set: [
 			"71283",
 			"71444",
@@ -10228,6 +10880,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B015",
+		gameId:1,
 		set: [
 			"71283",
 			"71530",
@@ -10248,6 +10901,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B014",
+		gameId:1,
 		set: [
 			"71283",
 			"71444",
@@ -10269,6 +10923,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T219",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10288,6 +10943,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T218",
+		gameId:1,
 		set: [
 			"71283",
 			"72283"
@@ -10307,6 +10963,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C153",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10326,6 +10983,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C152",
+		gameId:1,
 		set: [
 			"71282"
 		],
@@ -10344,6 +11002,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T217",
+		gameId:1,
 		set: [
 			"71282"
 		],
@@ -10362,6 +11021,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T216",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10382,6 +11042,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E105",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10401,6 +11062,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C150",
+		gameId:1,
 		set: [
 			"71282"
 		],
@@ -10419,6 +11081,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C149",
+		gameId:1,
 		set: [
 			"71283",
 			"72283"
@@ -10438,6 +11101,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C148",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10458,6 +11122,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q025",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10478,6 +11143,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E104",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10497,6 +11163,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C146",
+		gameId:1,
 		set: [
 			"71282"
 		],
@@ -10515,6 +11182,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C145",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10534,6 +11202,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C144",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10553,6 +11222,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W095",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10572,6 +11242,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W094",
+		gameId:1,
 		set: [
 			"71283",
 			"71444",
@@ -10593,6 +11264,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W093",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10612,6 +11284,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W092",
+		gameId:1,
 		set: [
 			"71281",
 			"72291"
@@ -10631,6 +11304,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W091",
+		gameId:1,
 		set: [
 			"71282"
 		],
@@ -10649,6 +11323,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W090",
+		gameId:1,
 		set: [
 			"71280",
 			"72261"
@@ -10668,6 +11343,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E103",
+		gameId:1,
 		set: [
 			"OPWebPrize",
 			"71795"
@@ -10687,6 +11363,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W089",
+		gameId:1,
 		set: [
 			"OPWebPrize",
 			"71795"
@@ -10706,6 +11383,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W088",
+		gameId:1,
 		set: [
 			"OPWebPrize",
 			"71795"
@@ -10725,6 +11403,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E102",
+		gameId:1,
 		set: [
 			"OPWebParticipation"
 		],
@@ -10743,6 +11422,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C143",
+		gameId:1,
 		set: [
 			"71446"
 		],
@@ -10761,6 +11441,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C142",
+		gameId:1,
 		set: [
 			"71446"
 		],
@@ -10779,6 +11460,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T214",
+		gameId:1,
 		set: [
 			"71446"
 		],
@@ -10797,6 +11479,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T213",
+		gameId:1,
 		set: [
 			"71446"
 		],
@@ -10815,6 +11498,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E101",
+		gameId:1,
 		set: [
 			"71446"
 		],
@@ -10833,6 +11517,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C141",
+		gameId:1,
 		set: [
 			"71445"
 		],
@@ -10851,6 +11536,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C140",
+		gameId:1,
 		set: [
 			"71445"
 		],
@@ -10869,6 +11555,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T212",
+		gameId:1,
 		set: [
 			"71445"
 		],
@@ -10887,6 +11574,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T211",
+		gameId:1,
 		set: [
 			"71445"
 		],
@@ -10905,6 +11593,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E100",
+		gameId:1,
 		set: [
 			"71445"
 		],
@@ -10923,6 +11612,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C139",
+		gameId:1,
 		set: [
 			"71444"
 		],
@@ -10941,6 +11631,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B013",
+		gameId:1,
 		set: [
 			"71444",
 			"71525"
@@ -10960,6 +11651,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E099",
+		gameId:1,
 		set: [
 			"71444"
 		],
@@ -10978,6 +11670,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T210",
+		gameId:1,
 		set: [
 			"71444"
 		],
@@ -10996,6 +11689,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W087",
+		gameId:1,
 		set: [
 			"71446",
 			"71527"
@@ -11015,6 +11709,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W086",
+		gameId:1,
 		set: [
 			"71446"
 		],
@@ -11033,6 +11728,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W085",
+		gameId:1,
 		set: [
 			"71445"
 		],
@@ -11051,6 +11747,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W084",
+		gameId:1,
 		set: [
 			"71444"
 		],
@@ -11069,6 +11766,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W083",
+		gameId:1,
 		set: [
 			"71444",
 			"71513a"
@@ -11088,6 +11786,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T209",
+		gameId:1,
 		set: [
 			"OPArenaPrize",
 			"71797"
@@ -11107,6 +11806,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C138",
+		gameId:1,
 		set: [
 			"OPArenaPrize"
 		],
@@ -11125,6 +11825,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T208",
+		gameId:1,
 		set: [
 			"OPArenaPrize"
 		],
@@ -11143,6 +11844,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T207",
+		gameId:1,
 		set: [
 			"71797"
 		],
@@ -11161,6 +11863,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E098",
+		gameId:1,
 		set: [
 			"OPArenaPrize",
 			"71797"
@@ -11180,6 +11883,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E097",
+		gameId:1,
 		set: [
 			"OPArenaParticipation"
 		],
@@ -11198,6 +11902,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C137",
+		gameId:1,
 		set: [
 			"i_k_s_b_moth"
 		],
@@ -11216,6 +11921,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E096",
+		gameId:1,
 		set: [
 			"i_k_s_b_moth"
 		],
@@ -11234,6 +11940,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T206",
+		gameId:1,
 		set: [
 			"i_k_s_b_moth"
 		],
@@ -11252,6 +11959,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C136",
+		gameId:1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -11270,6 +11978,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T205",
+		gameId:1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -11288,6 +11997,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C135",
+		gameId:1,
 		set: [
 			"gavroche"
 		],
@@ -11306,6 +12016,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E095",
+		gameId:1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -11324,6 +12035,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C134",
+		gameId:1,
 		set: [
 			"gavroche",
 			"72321"
@@ -11343,6 +12055,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E094",
+		gameId:1,
 		set: [
 			"gavroche"
 		],
@@ -11361,6 +12074,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C133",
+		gameId:1,
 		set: [
 			"3rd_wing_attack_ship"
 		],
@@ -11379,6 +12093,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E093",
+		gameId:1,
 		set: [
 			"3rd_wing_attack_ship"
 		],
@@ -11397,6 +12112,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T204",
+		gameId:1,
 		set: [
 			"3rd_wing_attack_ship"
 		],
@@ -11415,6 +12131,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E092",
+		gameId:1,
 		set: [
 			"u_s_s_yaeger"
 		],
@@ -11433,6 +12150,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C132",
+		gameId:1,
 		set: [
 			"u_s_s_yaeger",
 			"72302p"
@@ -11448,6 +12166,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C131",
+		gameId:1,
 		set: [
 			"u_s_s_yaeger"
 		],
@@ -11466,6 +12185,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W082",
+		gameId:1,
 		set: [
 			"i_k_s_b_moth"
 		],
@@ -11484,6 +12204,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W081",
+		gameId:1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -11502,6 +12223,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W080",
+		gameId:1,
 		set: [
 			"gavroche"
 		],
@@ -11520,6 +12242,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W079",
+		gameId:1,
 		set: [
 			"3rd_wing_attack_ship"
 		],
@@ -11538,6 +12261,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W078",
+		gameId:1,
 		set: [
 			"u_s_s_yaeger",
 			"71523"
@@ -11557,6 +12281,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E091",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11575,6 +12300,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C130",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11593,6 +12319,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C129",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11611,6 +12338,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C128",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11629,6 +12357,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C127",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11647,6 +12376,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E090",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11665,6 +12395,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C126",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11683,6 +12414,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C125",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11701,6 +12433,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C124",
+		gameId:1,
 		set: [
 			"71523"
 		],
@@ -11719,6 +12452,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C123",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11738,6 +12472,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C122",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11757,6 +12492,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C121",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11776,6 +12512,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C120",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11795,6 +12532,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E089",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11813,6 +12551,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E088",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11831,6 +12570,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T203",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11849,6 +12589,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B012",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11868,6 +12609,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E087",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -11886,6 +12628,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C119",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -11904,6 +12647,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C118",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -11922,6 +12666,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C117",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -11940,6 +12685,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T202",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -11958,6 +12704,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W077",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11976,6 +12723,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W076",
+		gameId:1,
 		set: [
 			"71522"
 		],
@@ -11994,6 +12742,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W075",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -12012,6 +12761,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W074",
+		gameId:1,
 		set: [
 			"71524"
 		],
@@ -12030,6 +12780,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T201",
+		gameId:1,
 		set: [
 			"71508"
 		],
@@ -12048,6 +12799,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T200",
+		gameId:1,
 		set: [
 			"71508"
 		],
@@ -12066,6 +12818,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E086",
+		gameId:1,
 		set: [
 			"71508"
 		],
@@ -12084,6 +12837,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C116",
+		gameId:1,
 		set: [
 			"71508"
 		],
@@ -12102,6 +12856,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T099",
+		gameId:1,
 		set: [
 			"71509"
 		],
@@ -12120,6 +12875,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T098",
+		gameId:1,
 		set: [
 			"71509"
 		],
@@ -12138,6 +12894,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E085",
+		gameId:1,
 		set: [
 			"71509"
 		],
@@ -12156,6 +12913,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C115",
+		gameId:1,
 		set: [
 			"71509"
 		],
@@ -12174,6 +12932,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C114",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12193,6 +12952,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C113",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12212,6 +12972,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q019",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12232,6 +12993,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C111",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12251,6 +13013,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C110",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12270,6 +13033,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C109",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12289,6 +13053,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C108",
+		gameId:1,
 		set: [
 			"71786",
 			"71810"
@@ -12308,6 +13073,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T096",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12326,6 +13092,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C107",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12344,6 +13111,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C106",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12362,6 +13130,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C105",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12380,6 +13149,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C104",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12398,6 +13168,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C103",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12416,6 +13187,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C102",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12434,6 +13206,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E084",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12452,6 +13225,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C101",
+		gameId:1,
 		set: [
 			"71527"
 		],
@@ -12470,6 +13244,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T095",
+		gameId:1,
 		set: [
 			"71527"
 		],
@@ -12488,6 +13263,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T094",
+		gameId:1,
 		set: [
 			"71527"
 		],
@@ -12506,6 +13282,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E083",
+		gameId:1,
 		set: [
 			"71527"
 		],
@@ -12524,6 +13301,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C100",
+		gameId:1,
 		set: [
 			"71525"
 		],
@@ -12542,6 +13320,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C099",
+		gameId:1,
 		set: [
 			"71525"
 		],
@@ -12560,6 +13339,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C098",
+		gameId:1,
 		set: [
 			"71525"
 		],
@@ -12578,6 +13358,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T093",
+		gameId:1,
 		set: [
 			"71525"
 		],
@@ -12596,6 +13377,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T092",
+		gameId:1,
 		set: [
 			"71525"
 		],
@@ -12614,6 +13396,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B011",
+		gameId:1,
 		set: [
 			"71525"
 		],
@@ -12632,6 +13415,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W073",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12650,6 +13434,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W072",
+		gameId:1,
 		set: [
 			"71526"
 		],
@@ -12668,6 +13453,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W071",
+		gameId:1,
 		set: [
 			"71525",
 			"71513b"
@@ -12687,6 +13473,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T091",
+		gameId:1,
 		set: [
 			"71510"
 		],
@@ -12705,6 +13492,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C097",
+		gameId:1,
 		set: [
 			"71510"
 		],
@@ -12723,6 +13511,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E082",
+		gameId:1,
 		set: [
 			"71510"
 		],
@@ -12741,6 +13530,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B010",
+		gameId:1,
 		set: [
 			"71510b"
 		],
@@ -12760,6 +13550,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E081",
+		gameId:1,
 		set: [
 			"71510b"
 		],
@@ -12778,6 +13569,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C096",
+		gameId:1,
 		set: [
 			"71510b"
 		],
@@ -12796,6 +13588,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W070",
+		gameId:1,
 		set: [
 			"71510b"
 		],
@@ -12814,6 +13607,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W069",
+		gameId:1,
 		set: [
 			"71510b",
 			"71529"
@@ -12833,6 +13627,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W068",
+		gameId:1,
 		set: [
 			"71510b"
 		],
@@ -12852,6 +13647,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B009",
+		gameId:1,
 		set: [
 			"71510b"
 		],
@@ -12871,6 +13667,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T090",
+		gameId:1,
 		set: [
 			"71646a"
 		],
@@ -12889,6 +13686,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E080",
+		gameId:1,
 		set: [
 			"71646a"
 		],
@@ -12907,6 +13705,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C095",
+		gameId:1,
 		set: [
 			"71646a"
 		],
@@ -12925,6 +13724,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C094",
+		gameId:1,
 		set: [
 			"71646b"
 		],
@@ -12943,6 +13743,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T089",
+		gameId:1,
 		set: [
 			"71646b"
 		],
@@ -12961,6 +13762,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C093",
+		gameId:1,
 		set: [
 			"71646c"
 		],
@@ -12979,6 +13781,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T088",
+		gameId:1,
 		set: [
 			"71646c",
 			"71793"
@@ -12998,6 +13801,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T087",
+		gameId:1,
 		set: [
 			"71646d"
 		],
@@ -13016,6 +13820,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C092",
+		gameId:1,
 		set: [
 			"71646d"
 		],
@@ -13034,6 +13839,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B008",
+		gameId:1,
 		set: [
 			"71646d"
 		],
@@ -13052,6 +13858,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E079",
+		gameId:1,
 		set: [
 			"71646e"
 		],
@@ -13070,6 +13877,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C091",
+		gameId:1,
 		set: [
 			"71646e"
 		],
@@ -13088,6 +13896,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T086",
+		gameId:1,
 		set: [
 			"71646e"
 		],
@@ -13106,6 +13915,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W067",
+		gameId:1,
 		set: [
 			"71646a"
 		],
@@ -13124,6 +13934,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W066",
+		gameId:1,
 		set: [
 			"71646b"
 		],
@@ -13142,6 +13953,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W065",
+		gameId:1,
 		set: [
 			"71646b"
 		],
@@ -13160,6 +13972,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W064",
+		gameId:1,
 		set: [
 			"71646c",
 			"71793",
@@ -13180,6 +13993,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W063",
+		gameId:1,
 		set: [
 			"71646c"
 		],
@@ -13198,6 +14012,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W062",
+		gameId:1,
 		set: [
 			"71646d"
 		],
@@ -13216,6 +14031,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W061",
+		gameId:1,
 		set: [
 			"71646e"
 		],
@@ -13234,6 +14050,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B007",
+		gameId:1,
 		set: [
 			"71511"
 		],
@@ -13252,6 +14069,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C090",
+		gameId:1,
 		set: [
 			"71511"
 		],
@@ -13271,6 +14089,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E078",
+		gameId:1,
 		set: [
 			"71511"
 		],
@@ -13289,6 +14108,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T085",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13308,6 +14128,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E077",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13327,6 +14148,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E076",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13346,6 +14168,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C080",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13365,6 +14188,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C089",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13384,6 +14208,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C088",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13403,6 +14228,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C087",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13421,6 +14247,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C086",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13439,6 +14266,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C085",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13457,6 +14285,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E075",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13475,6 +14304,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E074",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13493,6 +14323,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B006",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13511,6 +14342,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B005",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13529,6 +14361,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T084",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13547,6 +14380,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C084",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13566,6 +14400,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C083",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13585,6 +14420,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C082",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13603,6 +14439,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C081",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13621,6 +14458,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E073",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13639,6 +14477,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E072",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13657,6 +14496,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W060",
+		gameId:1,
 		set: [
 			"71528"
 		],
@@ -13675,6 +14515,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W059",
+		gameId:1,
 		set: [
 			"71528",
 			"71808"
@@ -13694,6 +14535,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W058",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13713,6 +14555,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W057",
+		gameId:1,
 		set: [
 			"71531",
 			"72271"
@@ -13732,6 +14575,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W056",
+		gameId:1,
 		set: [
 			"71530"
 		],
@@ -13750,6 +14594,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B004",
+		gameId:1,
 		set: [
 			"71512"
 		],
@@ -13768,6 +14613,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T083",
+		gameId:1,
 		set: [
 			"71512"
 		],
@@ -13786,6 +14632,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E071",
+		gameId:1,
 		set: [
 			"71512"
 		],
@@ -13804,6 +14651,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E070",
+		gameId:1,
 		set: [
 			"71513a"
 		],
@@ -13822,6 +14670,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B003",
+		gameId:1,
 		set: [
 			"71513a"
 		],
@@ -13840,6 +14689,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B002",
+		gameId:1,
 		set: [
 			"71513a"
 		],
@@ -13858,6 +14708,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C341",
+		gameId:1,
 		set: [
 			"71513a"
 		],
@@ -13876,6 +14727,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T082",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -13894,6 +14746,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C079",
+		gameId:1,
 		set: [
 			"71532"
 		],
@@ -13912,6 +14765,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T081",
+		gameId:1,
 		set: [
 			"71532"
 		],
@@ -13930,6 +14784,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E069",
+		gameId:1,
 		set: [
 			"71532"
 		],
@@ -13948,6 +14803,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E068",
+		gameId:1,
 		set: [
 			"71532"
 		],
@@ -13966,6 +14822,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C078",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -13984,6 +14841,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C077",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14002,6 +14860,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C076",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14020,6 +14879,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E067",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14038,6 +14898,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E066",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14056,6 +14917,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C075",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14074,6 +14936,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C074",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14092,6 +14955,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C073",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14111,6 +14975,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E065",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14130,6 +14995,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E064",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14149,6 +15015,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E063",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14168,6 +15035,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E062",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14187,6 +15055,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T080",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14206,6 +15075,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T079",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14225,6 +15095,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W055",
+		gameId:1,
 		set: [
 			"71529"
 		],
@@ -14243,6 +15114,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W054",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14262,6 +15134,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W053",
+		gameId:1,
 		set: [
 			"71533",
 			"72252"
@@ -14281,6 +15154,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C072",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14299,6 +15173,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C071",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14317,6 +15192,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C070",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14335,6 +15211,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C069",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14353,6 +15230,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W052",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14371,6 +15249,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W051",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14389,6 +15268,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E061",
+		gameId:1,
 		set: [
 			"71534"
 		],
@@ -14407,6 +15287,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D017",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14425,6 +15306,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D016",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14443,6 +15325,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D015",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14461,6 +15344,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D014",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14479,6 +15363,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D013",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14497,6 +15382,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D012",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14515,6 +15401,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D011",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14533,6 +15420,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D010",
+		gameId:1,
 		set: [
 			"71754"
 		],
@@ -14551,6 +15439,7 @@ module.exports = [
 	{
 		type: "borg",
 		id: "B001",
+		gameId:1,
 		set: [
 			"71513b"
 		],
@@ -14569,6 +15458,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C068",
+		gameId:1,
 		set: [
 			"71513b"
 		],
@@ -14587,6 +15477,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E060",
+		gameId:1,
 		set: [
 			"71513b"
 		],
@@ -14605,6 +15496,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E059",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14623,6 +15515,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E058",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14641,6 +15534,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E057",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14659,6 +15553,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C067",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14677,6 +15572,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C066",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14695,6 +15591,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C065",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14713,6 +15610,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C064",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14731,6 +15629,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T078",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14749,6 +15648,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T077",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14767,6 +15667,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W050",
+		gameId:1,
 		set: [
 			"71535"
 		],
@@ -14785,6 +15686,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T076",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -14803,6 +15705,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T075",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -14821,6 +15724,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E056",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -14839,6 +15743,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E055",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -14857,6 +15762,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E054",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -14875,6 +15781,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W049",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -14893,6 +15800,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D009",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -14911,6 +15819,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D008",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -14929,6 +15838,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D006",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -14947,6 +15857,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D005",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -14965,6 +15876,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D004",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -14983,6 +15895,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D003",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -15001,6 +15914,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D002",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -15019,6 +15933,7 @@ module.exports = [
 	{
 		type: "squadron",
 		id: "D001",
+		gameId:1,
 		set: [
 			"71753"
 		],
@@ -15037,6 +15952,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T074",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15055,6 +15971,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T073",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15073,6 +15990,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E053",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15091,6 +16009,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T072",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15109,6 +16028,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T071",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15127,6 +16047,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W048",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15145,6 +16066,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T070",
+		gameId:1,
 		set: [
 			"71536"
 		],
@@ -15163,6 +16085,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E052",
+		gameId:1,
 		set: [
 			"71996"
 		],
@@ -15181,6 +16104,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C063",
+		gameId:1,
 		set: [
 			"71996"
 		],
@@ -15199,6 +16123,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T069",
+		gameId:1,
 		set: [
 			"71996"
 		],
@@ -15217,6 +16142,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W047",
+		gameId:1,
 		set: [
 			"71996"
 		],
@@ -15232,6 +16158,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C062",
+		gameId:1,
 		set: [
 			"71808"
 		],
@@ -15249,6 +16176,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E051",
+		gameId:1,
 		set: [
 			"71795"
 		],
@@ -15267,6 +16195,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C061",
+		gameId:1,
 		set: [
 			"71793"
 		],
@@ -15285,6 +16214,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C060",
+		gameId:1,
 		set: [
 			"71793"
 		],
@@ -15303,6 +16233,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q021",
+		gameId:1,
 		set: [
 			"71793"
 		],
@@ -15321,6 +16252,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W046",
+		gameId:1,
 		set: [
 			"71793"
 		],
@@ -15339,6 +16271,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C059",
+		gameId:1,
 		set: [
 			"71794"
 		],
@@ -15357,6 +16290,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C058",
+		gameId:1,
 		set: [
 			"71794"
 		],
@@ -15375,6 +16309,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E049",
+		gameId:1,
 		set: [
 			"71794"
 		],
@@ -15393,6 +16328,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C057",
+		gameId:1,
 		set: [
 			"71794"
 		],
@@ -15411,6 +16347,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W045",
+		gameId:1,
 		set: [
 			"71795"
 		],
@@ -15429,6 +16366,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W044",
+		gameId:1,
 		set: [
 			"71794"
 		],
@@ -15447,6 +16385,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W043",
+		gameId:1,
 		set: [
 			"71794"
 		],
@@ -15465,6 +16404,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E048",
+		gameId:1,
 		set: [
 			"71797"
 		],
@@ -15483,6 +16423,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C056",
+		gameId:1,
 		set: [
 			"71797"
 		],
@@ -15501,6 +16442,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T068",
+		gameId:1,
 		set: [
 			"71797"
 		],
@@ -15519,6 +16461,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W042",
+		gameId:1,
 		set: [
 			"71797"
 		],
@@ -15537,6 +16480,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C055",
+		gameId:1,
 		set: [
 			"71798"
 		],
@@ -15555,6 +16499,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C054",
+		gameId:1,
 		set: [
 			"71798"
 		],
@@ -15573,6 +16518,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T067",
+		gameId:1,
 		set: [
 			"71798"
 		],
@@ -15591,6 +16537,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E047",
+		gameId:1,
 		set: [
 			"71798"
 		],
@@ -15609,6 +16556,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E046",
+		gameId:1,
 		set: [
 			"71798"
 		],
@@ -15627,6 +16575,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W041",
+		gameId:1,
 		set: [
 			"71798"
 		],
@@ -15645,6 +16594,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C053",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15663,6 +16613,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C052",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15681,6 +16632,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C051",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15699,6 +16651,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E045",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15717,6 +16670,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T066",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15735,6 +16689,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W040",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15753,6 +16708,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W039",
+		gameId:1,
 		set: [
 			"71796"
 		],
@@ -15771,6 +16727,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C050",
+		gameId:1,
 		set: [
 			"71997p"
 		],
@@ -15789,6 +16746,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E044",
+		gameId:1,
 		set: [
 			"71997p"
 		],
@@ -15807,6 +16765,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T065",
+		gameId:1,
 		set: [
 			"71997p"
 		],
@@ -15825,6 +16784,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T064",
+		gameId:1,
 		set: [
 			"71997p"
 		],
@@ -15843,6 +16803,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E043",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15861,6 +16822,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C049",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15879,6 +16841,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C048",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15897,6 +16860,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T063",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15915,6 +16879,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T062",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15933,6 +16898,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W038",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15951,6 +16917,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W037",
+		gameId:1,
 		set: [
 			"71800"
 		],
@@ -15969,6 +16936,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E042",
+		gameId:1,
 		set: [
 			"71799"
 		],
@@ -15988,6 +16956,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T061",
+		gameId:1,
 		set: [
 			"71799"
 		],
@@ -16007,6 +16976,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T060",
+		gameId:1,
 		set: [
 			"71799"
 		],
@@ -16026,6 +16996,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T059",
+		gameId:1,
 		set: [
 			"71799"
 		],
@@ -16046,6 +17017,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T058",
+		gameId:1,
 		set: [
 			"71998p"
 		],
@@ -16064,6 +17036,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C047",
+		gameId:1,
 		set: [
 			"71998p"
 		],
@@ -16082,6 +17055,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T057",
+		gameId:1,
 		set: [
 			"71998p"
 		],
@@ -16100,6 +17074,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T056",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16118,6 +17093,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T055",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16136,6 +17112,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T054",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16154,6 +17131,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C046",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16172,6 +17150,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C045",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16190,6 +17169,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C044",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16208,6 +17188,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C043",
+		gameId:1,
 		set: [
 			"71801"
 		],
@@ -16226,6 +17207,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E041",
+		gameId:1,
 		set: [
 			"71803"
 		],
@@ -16244,6 +17226,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T053",
+		gameId:1,
 		set: [
 			"71803"
 		],
@@ -16262,6 +17245,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C042",
+		gameId:1,
 		set: [
 			"71803"
 		],
@@ -16280,6 +17264,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E040",
+		gameId:1,
 		set: [
 			"71803"
 		],
@@ -16298,6 +17283,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W036",
+		gameId:1,
 		set: [
 			"71799"
 		],
@@ -16317,6 +17303,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W035",
+		gameId:1,
 		set: [
 			"71799"
 		],
@@ -16336,6 +17323,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W034",
+		gameId:1,
 		set: [
 			"71998p"
 		],
@@ -16354,6 +17342,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C041",
+		gameId:1,
 		set: [
 			"71999p"
 		],
@@ -16372,6 +17361,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T052",
+		gameId:1,
 		set: [
 			"71999p",
 			"72241"
@@ -16391,6 +17381,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E039",
+		gameId:1,
 		set: [
 			"71999p"
 		],
@@ -16409,6 +17400,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W033",
+		gameId:1,
 		set: [
 			"71999p"
 		],
@@ -16427,6 +17419,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q026",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16446,6 +17439,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T050",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16464,6 +17458,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C039",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16482,6 +17477,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C038",
+		gameId:1,
 		set: [
 			"71804"
 		],
@@ -16500,6 +17496,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T049",
+		gameId:1,
 		set: [
 			"71804"
 		],
@@ -16518,6 +17515,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E038",
+		gameId:1,
 		set: [
 			"71804"
 		],
@@ -16536,6 +17534,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T048",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16554,6 +17553,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T047",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16572,6 +17572,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W032",
+		gameId:1,
 		set: [
 			"71804"
 		],
@@ -16590,6 +17591,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W031",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16608,6 +17610,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W030",
+		gameId:1,
 		set: [
 			"71802"
 		],
@@ -16626,6 +17629,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E037",
+		gameId:1,
 		set: [
 			"blind_aldara"
 		],
@@ -16640,6 +17644,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C037",
+		gameId:1,
 		set: [
 			"blind_aldara"
 		],
@@ -16654,6 +17659,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T046",
+		gameId:1,
 		set: [
 			"blind_aldara"
 		],
@@ -16668,6 +17674,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W029",
+		gameId:1,
 		set: [
 			"blind_aldara"
 		],
@@ -16684,6 +17691,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E036",
+		gameId:1,
 		set: [
 			"72004p"
 		],
@@ -16698,6 +17706,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C036",
+		gameId:1,
 		set: [
 			"72004p"
 		],
@@ -16712,6 +17721,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W028",
+		gameId:1,
 		set: [
 			"72004p"
 		],
@@ -16728,6 +17738,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T045",
+		gameId:1,
 		set: [
 			"72004p"
 		],
@@ -16742,6 +17753,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E035",
+		gameId:1,
 		set: [
 			"72002h"
 		],
@@ -16757,6 +17769,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C035",
+		gameId:1,
 		set: [
 			"72002h"
 		],
@@ -16772,6 +17785,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T044",
+		gameId:1,
 		set: [
 			"72002h"
 		],
@@ -16787,6 +17801,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W027",
+		gameId:1,
 		set: [
 			"72002h"
 		],
@@ -16802,6 +17817,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E034",
+		gameId:1,
 		set: [
 			"blind_belak"
 		],
@@ -16816,6 +17832,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C343",
+		gameId:1,
 		set: [
 			"blind_belak"
 		],
@@ -16830,6 +17847,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T043",
+		gameId:1,
 		set: [
 			"blind_belak"
 		],
@@ -16844,6 +17862,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W026",
+		gameId:1,
 		set: [
 			"blind_belak"
 		],
@@ -16860,6 +17879,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E033",
+		gameId:1,
 		set: [
 			"72001p"
 		],
@@ -16874,6 +17894,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C033",
+		gameId:1,
 		set: [
 			"72001p"
 		],
@@ -16888,6 +17909,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W025",
+		gameId:1,
 		set: [
 			"72001p"
 		],
@@ -16904,6 +17926,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T042",
+		gameId:1,
 		set: [
 			"72001p"
 		],
@@ -16918,6 +17941,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E032",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -16932,6 +17956,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W024",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -16948,6 +17973,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W023",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -16964,6 +17990,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T041",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -16978,6 +18005,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T040",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -16992,6 +18020,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T039",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -17006,6 +18035,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T038",
+		gameId:1,
 		set: [
 			"72012"
 		],
@@ -17021,6 +18051,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W022",
+		gameId:1,
 		set: [
 			"blind_bioship"
 		],
@@ -17035,6 +18066,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T037",
+		gameId:1,
 		set: [
 			"blind_bioship"
 		],
@@ -17049,6 +18081,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T036",
+		gameId:1,
 		set: [
 			"blind_bioship"
 		],
@@ -17063,6 +18096,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T035",
+		gameId:1,
 		set: [
 			"blind_bioship"
 		],
@@ -17077,6 +18111,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E031",
+		gameId:1,
 		set: [
 			"blind_buruk"
 		],
@@ -17091,6 +18126,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C032",
+		gameId:1,
 		set: [
 			"blind_buruk"
 		],
@@ -17105,6 +18141,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W021",
+		gameId:1,
 		set: [
 			"blind_buruk"
 		],
@@ -17119,6 +18156,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T034",
+		gameId:1,
 		set: [
 			"blind_buruk"
 		],
@@ -17133,6 +18171,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T033",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17151,6 +18190,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T032",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17170,6 +18210,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T031",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17188,6 +18229,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T030",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17206,6 +18248,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T029",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17224,6 +18267,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T028",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17242,6 +18286,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E030",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17260,6 +18305,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E029",
+		gameId:1,
 		set: [
 			"71805"
 		],
@@ -17278,6 +18324,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C031",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17292,6 +18339,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C030",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17306,6 +18354,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C029",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17320,6 +18369,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T027",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17334,6 +18384,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T026",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17348,6 +18399,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T025",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17362,6 +18414,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W020",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17378,6 +18431,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W195",
+		gameId:1,
 		set: [
 			"72014"
 		],
@@ -17394,6 +18448,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E028",
+		gameId:1,
 		set: [
 			"72003p"
 		],
@@ -17408,6 +18463,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C028",
+		gameId:1,
 		set: [
 			"72003p"
 		],
@@ -17422,6 +18478,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W019",
+		gameId:1,
 		set: [
 			"72003p"
 		],
@@ -17438,6 +18495,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T024",
+		gameId:1,
 		set: [
 			"72003p"
 		],
@@ -17452,6 +18510,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E027",
+		gameId:1,
 		set: [
 			"blind_interceptor8"
 		],
@@ -17466,6 +18525,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C027",
+		gameId:1,
 		set: [
 			"blind_interceptor8"
 		],
@@ -17480,6 +18540,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W018",
+		gameId:1,
 		set: [
 			"blind_interceptor8"
 		],
@@ -17496,6 +18557,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T023",
+		gameId:1,
 		set: [
 			"blind_interceptor8"
 		],
@@ -17510,6 +18572,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E026",
+		gameId:1,
 		set: [
 			"72002p"
 		],
@@ -17524,6 +18587,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C026",
+		gameId:1,
 		set: [
 			"72002p"
 		],
@@ -17538,6 +18602,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W017",
+		gameId:1,
 		set: [
 			"72002p"
 		],
@@ -17552,6 +18617,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q003",
+		gameId:1,
 		set: [
 			"72002p"
 		],
@@ -17566,6 +18632,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E025",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17584,6 +18651,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E024",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17602,6 +18670,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W016",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17622,6 +18691,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W015",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17642,6 +18712,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C025",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17660,6 +18731,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T022",
+		gameId:1,
 		set: [
 			"71806",
 			"OP1Prize"
@@ -17679,6 +18751,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T021",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17697,6 +18770,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T020",
+		gameId:1,
 		set: [
 			"71806"
 		],
@@ -17715,6 +18789,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E023",
+		gameId:1,
 		set: [
 			"blind_lakota"
 		],
@@ -17729,6 +18804,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C024",
+		gameId:1,
 		set: [
 			"blind_lakota"
 		],
@@ -17743,6 +18819,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T019",
+		gameId:1,
 		set: [
 			"blind_lakota"
 		],
@@ -17757,6 +18834,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W014",
+		gameId:1,
 		set: [
 			"blind_lakota"
 		],
@@ -17771,6 +18849,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E022",
+		gameId:1,
 		set: [
 			"blind_nistrim_culluh"
 		],
@@ -17785,6 +18864,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C023",
+		gameId:1,
 		set: [
 			"blind_nistrim_culluh"
 		],
@@ -17799,6 +18879,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T018",
+		gameId:1,
 		set: [
 			"blind_nistrim_culluh"
 		],
@@ -17813,6 +18894,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E021",
+		gameId:1,
 		set: [
 			"blind_nunks_marauder"
 		],
@@ -17827,6 +18909,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C022",
+		gameId:1,
 		set: [
 			"blind_nunks_marauder"
 		],
@@ -17841,6 +18924,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W013",
+		gameId:1,
 		set: [
 			"blind_nunks_marauder"
 		],
@@ -17857,6 +18941,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T017",
+		gameId:1,
 		set: [
 			"blind_nunks_marauder"
 		],
@@ -17871,6 +18956,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C021",
+		gameId:1,
 		set: [
 			"71807"
 		],
@@ -17889,6 +18975,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C020",
+		gameId:1,
 		set: [
 			"71807"
 		],
@@ -17907,6 +18994,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T016",
+		gameId:1,
 		set: [
 			"71807"
 		],
@@ -17925,6 +19013,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T015",
+		gameId:1,
 		set: [
 			"71807"
 		],
@@ -17943,6 +19032,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E020",
+		gameId:1,
 		set: [
 			"71807"
 		],
@@ -17961,6 +19051,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E019",
+		gameId:1,
 		set: [
 			"71807"
 		],
@@ -17979,6 +19070,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E018",
+		gameId:1,
 		set: [
 			"72011"
 		],
@@ -17993,6 +19085,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C019",
+		gameId:1,
 		set: [
 			"72011"
 		],
@@ -18007,6 +19100,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C018",
+		gameId:1,
 		set: [
 			"72011"
 		],
@@ -18021,6 +19115,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T014",
+		gameId:1,
 		set: [
 			"72011"
 		],
@@ -18035,6 +19130,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W012",
+		gameId:1,
 		set: [
 			"72011"
 		],
@@ -18049,6 +19145,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q002",
+		gameId:1,
 		set: [
 			"72011"
 		],
@@ -18064,6 +19161,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C017",
+		gameId:1,
 		set: [
 			"72000b"
 		],
@@ -18083,6 +19181,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E017",
+		gameId:1,
 		set: [
 			"72000b"
 		],
@@ -18102,6 +19201,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q001",
+		gameId:1,
 		set: [
 			"72000b"
 		],
@@ -18118,6 +19218,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E016",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18132,6 +19233,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E015",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18146,6 +19248,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C016",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18160,6 +19263,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C015",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18174,6 +19278,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C014",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18188,6 +19293,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T013",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18202,6 +19308,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T012",
+		gameId:1,
 		set: [
 			"72013"
 		],
@@ -18216,6 +19323,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E013",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18230,6 +19338,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E012",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18244,6 +19353,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E011",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18258,6 +19368,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C013",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18272,6 +19383,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C012",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18286,6 +19398,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C011",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18300,6 +19413,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C010",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18314,6 +19428,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C009",
+		gameId:1,
 		set: [
 			"72015"
 		],
@@ -18328,6 +19443,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E010",
+		gameId:1,
 		set: [
 			"blind_seleya"
 		],
@@ -18342,6 +19458,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C008",
+		gameId:1,
 		set: [
 			"blind_seleya"
 		],
@@ -18356,6 +19473,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W011",
+		gameId:1,
 		set: [
 			"blind_seleya"
 		],
@@ -18372,6 +19490,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T011",
+		gameId:1,
 		set: [
 			"blind_seleya"
 		],
@@ -18386,6 +19505,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E009",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18400,6 +19520,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T010",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18414,6 +19535,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T009",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18428,6 +19550,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T008",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18442,6 +19565,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T007",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18456,6 +19580,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T006",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18470,6 +19595,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T005",
+		gameId:1,
 		set: [
 			"72016"
 		],
@@ -18484,6 +19610,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E008",
+		gameId:1,
 		set: [
 			"72000p"
 		],
@@ -18502,6 +19629,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C007",
+		gameId:1,
 		set: [
 			"72000p"
 		],
@@ -18520,6 +19648,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T004",
+		gameId:1,
 		set: [
 			"72000p"
 		],
@@ -18538,6 +19667,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W010",
+		gameId:1,
 		set: [
 			"72000p"
 		],
@@ -18556,6 +19686,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E006",
+		gameId:1,
 		set: [
 			"72008"
 		],
@@ -18570,6 +19701,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E005",
+		gameId:1,
 		set: [
 			"72008"
 		],
@@ -18584,6 +19716,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E004",
+		gameId:1,
 		set: [
 			"72008"
 		],
@@ -18598,6 +19731,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W008",
+		gameId:1,
 		set: [
 			"72008",
 			"72011"
@@ -18615,6 +19749,7 @@ module.exports = [
 	{
 		type: "question",
 		id: "Q027",
+		gameId:1,
 		set: [
 			"72008"
 		],
@@ -18630,6 +19765,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E003",
+		gameId:1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -18644,6 +19780,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C005",
+		gameId:1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -18658,6 +19795,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W006",
+		gameId:1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -18674,6 +19812,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T002",
+		gameId:1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -18688,6 +19827,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E002",
+		gameId:1,
 		set: [
 			"72009"
 		],
@@ -18706,6 +19846,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C004",
+		gameId:1,
 		set: [
 			"72009"
 		],
@@ -18724,6 +19865,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C003",
+		gameId:1,
 		set: [
 			"72009"
 		],
@@ -18742,6 +19884,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W005",
+		gameId:1,
 		set: [
 			"72009"
 		],
@@ -18762,6 +19905,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W004",
+		gameId:1,
 		set: [
 			"72009",
 			"72015",
@@ -18784,6 +19928,7 @@ module.exports = [
 	{
 		type: "tech",
 		id: "T001",
+		gameId:1,
 		set: [
 			"72009"
 		],
@@ -18802,6 +19947,7 @@ module.exports = [
 	{
 		type: "talent",
 		id: "E001",
+		gameId:1,
 		set: [
 			"72010"
 		],
@@ -18816,6 +19962,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C002",
+		gameId:1,
 		set: [
 			"72010"
 		],
@@ -18830,6 +19977,7 @@ module.exports = [
 	{
 		type: "crew",
 		id: "C001",
+		gameId:1,
 		set: [
 			"72010"
 		],
@@ -18844,6 +19992,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W003",
+		gameId:1,
 		set: [
 			"72010"
 		],
@@ -18860,6 +20009,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W002",
+		gameId:1,
 		set: [
 			"72010"
 		],
@@ -18876,6 +20026,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W009",
+		gameId:1,
 		set: [
 			"72242"
 		],
@@ -18892,6 +20043,7 @@ module.exports = [
 	{
 		type: "weapon",
 		id: "W001",
+		gameId:1,
 		set: [
 			"72010"
 		],

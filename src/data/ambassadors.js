@@ -2,6 +2,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M008",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -16,6 +17,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M007",
+		gameId:1,
 		set: [
 			"75012"
 		],
@@ -30,6 +32,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M001",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -44,6 +47,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M002",
+		gameId:1,
 		set: [
 			"75008"
 		],
@@ -58,6 +62,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M003",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -72,6 +77,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M004",
+		gameId:1,
 		set: [
 			"75011"
 		],
@@ -87,6 +93,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M005",
+		gameId:1,
 		set: [
 			"75010"
 		],
@@ -101,6 +108,7 @@ module.exports = [
 	{
 		type: "ambassador",
 		id: "M006",
+		gameId:1,
 		set: [
 			"75010"
 		],
