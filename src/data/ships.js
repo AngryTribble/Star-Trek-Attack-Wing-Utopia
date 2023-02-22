@@ -246,7 +246,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 27,
-		text: "<b>WHEN ATTACKING WITH A <img src='../img/faction_fed.png' width='20' height='20';'> [weapon_text] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img src='../img/faction-dominion.png' width='20' height='20';'> ship, convert 1 [battlestations] into 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING WITH A <img src='img/faction_fed.png' width='20' height='20';'> [weapon_text] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img src='img/faction-dominion.png' width='20' height='20';'> ship, convert 1 [battlestations] into 1 [crit] instead.",
 		unique: true,
 		factions: [
 			"federation"
