@@ -112,7 +112,8 @@ module.exports = [
 		type: "weapon",
 		id: "W225",
 		set: [
-			"75013"
+			"75013",
+			"75011"
 		],
 		name: "Dorsal Torpedo Pod",
 		cost: 3,
@@ -360,9 +361,9 @@ module.exports = [
 		],
 		name: "Improved Cloaking",
 		cost: 3,
-		text: "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak]. \n\n <i>Reman Warbird Only</i>",
+		text: "<b>WHENEVER THIS SHIP WOULD PERFORM THE [cloak] ACTION:</b> \n\n You only have to disable 1 of your Active Shields to [cloak].",
 		OnePerShip: true,
-		shipLimit: true,
+		remanLimit: true,
 		factions: [
 			"romulan"
 		]
@@ -425,11 +426,11 @@ module.exports = [
 		],
 		name: "Thalaron Weapon",
 		cost: 5,
-		text: "<font size ='-1'><b>ATTACK:</b> Discard this card and target an opposing ship</font>. \n <font size='-1'>Your opponent must discard either their Captain, Admiral, [ambassador_text], or a [crew_text] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, [ambassador_text], or [crew_text] Upgrade equipped to the defending ship. \n\n<i> Reman Warbird Only </i></font>",
+		text: "<font size ='-1'><b>ATTACK:</b> Discard this card and target an opposing ship</font>. \n\n <font size='-1'>Your opponent must discard either their Captain, Admiral, [ambassador_text], or a [crew_text] Upgrade equipped to the defending ship. If you hit, cancel 1 [crit] to discard either the defending ship's Captain, Admiral, [ambassador_text], or [crew_text] Upgrade equipped to the defending ship.</font>",
 		range: "1 - 3",
 		unique: true,
 		FrontArc: true,
-		shipLimit: true,
+		remanLimit: true,
 		attack: "6",
 		factions: [
 			"romulan"
@@ -745,9 +746,9 @@ module.exports = [
 		],
 		name: "Ablative Armor",
 		cost: 2,
-		text: "<b>WHEN DEFENDING:</b> During the Roll Defense Dice Step:\n\nRoll +1 defense die.\n----------------------------------------\n<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step:\nConvert all [crit] to [hit].\n(</i>Defiant Class Only</i>)",
+		text: "<b>WHEN DEFENDING:</b> During the Roll Defense Dice Step:\n\nRoll +1 defense die.\n----------------------------------------\n<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step:\nConvert all [crit] to [hit].",
 		oneperShip: true,
-		shipLimit: true,
+		defiantLimit: true,
 		factions: [
 			"federation"
 		]
@@ -784,27 +785,12 @@ module.exports = [
 	},
 	{
 		type: "weapon",
-		id: "W214",
-		set: [
-			"75011"
-		],
-		name: "Dorsal Torpedo Pod",
-		text: "<b>WHEN ATTACKING WITH A <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> TORPEDO UPGRADE:</b>\n\nThis ship may target an opposing ship with that Torpedo Upgrade outside of its normal Firing Arcs.\n (<i>Akira Class Only</i>)",
-		cost: 3,
-		OnePerShip: true,
-		factions: [
-			"federation"
-		],
-		shipLimit: true
-	},
-	{
-		type: "weapon",
 		id: "W213",
 		set: [
 			"75011"
 		],
 		name: "Phaser Cannons",
-		text: "<b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship.\n----------------------------------------\n<b>AFTER ATTACKING WITH THIS [weapon_text] UPGRADE:</b> \nYou may make an attack with this ship's Primary Weapon.\n (<i>Defiant Class Only</i>)",
+		text: "<b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship.\n----------------------------------------\n<b>AFTER ATTACKING WITH THIS [weapon_text] UPGRADE:</b> \nYou may make an attack with this ship's Primary Weapon.",
 		cost: 3,
 		OnePerShip: true,
 		factions: [
@@ -813,7 +799,7 @@ module.exports = [
 		attack: 4,
 		range: "1 - 2",
 		Frontarc: true,
-		shipLimit: true
+		defiantLimit: true
 	},
 	{
 		type: "crew",
@@ -1481,7 +1467,7 @@ module.exports = [
 			"75008"
 		],
 		name: "T'Paal",
-		text: "Place the Stone of Gol [tech_text] Upgrade facedown under T'Paal for 0 SP.\n<b>EXECUTE MANEUVER STEP:</b> After this ship moves, discard this card and target an opposing ship. Discard 1 [tech_text] Upgrade equipped to the target ship.  Flip the Stone of Gol [tech_text] Upgrade under T'Paal face up and equip it to this ship, ignoring restrictions.",
+		text: "Place the Stone of Gol [tech_text] Upgrade facedown under T'Paal for 0 SP.\n---------------------------------\n<b>EXECUTE MANEUVER STEP:</b> After this ship moves, discard this card and target an opposing ship. Discard 1 [tech_text] Upgrade equipped to the target ship.  Flip the Stone of Gol [tech_text] Upgrade under T'Paal face up and equip it to this ship, ignoring restrictions.",
 		cost: 2,
 		unique: true,
 		range: "1 - 2",
@@ -1511,7 +1497,7 @@ module.exports = [
 			"75008"
 		],
 		name: "Chu'Lak",
-		text: "<b>FREE ACTION:</b> Place three [scan] Tokens beside this ship.\n\n<b>END PHASE:</b> If you used Chu'Lak's Free Action: \nYou must discard 1 [crew_text] Upgrade equipped to this ship.",
+		text: "<b>FREE ACTION:</b> Place three [scan] Tokens beside this ship.\n--------------------------------------\n<b>END PHASE:</b> If you used Chu'Lak's Free Action: \nYou must discard 1 [crew_text] Upgrade equipped to this ship.",
 		cost: 2,
 		unique: true,
 		factions: [
@@ -1608,7 +1594,7 @@ module.exports = [
 		],
 		name: "Katric Ark",
 		cost: 2,
-		text: "<b>WHEN A VULCAN [crew_text] UPGRADE EQUIPPED TO THIS SHIP IS DISCARDED:</b> Place that [crew_text] Upgrade beneath this card.\n<b>ACTION:</b> Remove this card from play.\nEquip one [crew_text] Upgrade beneath this card to this ship. Discard all other [crew_text] Upgrades beneath this card.",
+		text: "<b>WHEN A VULCAN [crew_text] UPGRADE EQUIPPED TO THIS SHIP IS DISCARDED:</b> Place that [crew_text] Upgrade beneath this card.\n------------------------------------------------\n<b>ACTION:</b> Remove this card from play.\n\nEquip one [crew_text] Upgrade beneath this card to this ship. Discard all other [crew_text] Upgrades beneath this card.",
 		shipVulcan: true,
 		unique: true,
 		factions: [
@@ -1623,8 +1609,9 @@ module.exports = [
 		],
 		name: "Stone of Gol",
 		cost: 3,
-		text: "<b>ACTION:</b>Place 3 [time] Tokens on this card and target a [crew_text] Upgrade equipped to an opposing ship.\nRoll a number of attack dice equal to the printed SP cost of the target [crew_text] Upgrade. If at least 1 [crit] is rolled, discard the target [crew_text] Upgrade. Otherwise, place 1 [time] Token on that [crew_text] Upgrade for each [hit]. (<i>Non-Vulcan ship costs +5 SP</i>)",
+		text: "<b>ACTION:</b>Place 3 [time] Tokens on this card and target a [crew_text] Upgrade equipped to an opposing ship.\n\nRoll a number of attack dice equal to the printed SP cost of the target [crew_text] Upgrade. If at least 1 [crit] is rolled, discard the target [crew_text] Upgrade. Otherwise, place 1 [time] Token on that [crew_text] Upgrade for each [hit]. (<i>Non-Vulcan ship costs +5 SP</i>)",
 		unique: true,
+		costVulcan: "+5",
 		range: "1",
 		factions: [
 			"vulcan"
@@ -1638,9 +1625,10 @@ module.exports = [
 		],
 		name: "Science Vessel Variant",
 		cost: 4,
-		text: "You may not equip the Combat Vessel Variant [tech_text] Upgrade to this ship.\n\nAdd 1 to this ship's Agility Value and Hull Value.\n\n(<i>D'kyr or Suurok class ships only</i>)",
+		text: "You may not equip the Combat Vessel Variant [tech_text] Upgrade to this ship.\n-----------------------------------------\nAdd 1 to this ship's Agility Value and Hull Value.",
 		OnePerShip: true,
-		shipLimit: true,
+		dkyrLimit: true,
+		suurokLimit: true,
 		factions: [
 			"vulcan"
 		]
@@ -1653,9 +1641,10 @@ module.exports = [
 		],
 		name: "Combat Vessel Variant",
 		cost: 2,
-		text: "You may not equip the Science Vessel Variant [tech_text] Upgrade to this ship.\n\nReplace this ship's Primary Weapon Value with its printed Primary Weapon Value +1.\n\n(<i>D'kyr or Suurok class ships only</i>)",
+		text: "You may not equip the Science Vessel Variant [tech_text] Upgrade to this ship.\n-----------------------------------------\nReplace this ship's Primary Weapon Value with its printed Primary Weapon Value +1.",
 		OnePerShip: true,
-		shipLimit: true,
+		dkyrLimit: true,
+		suurokLimit: true,
 		factions: [
 			"vulcan"
 		]
