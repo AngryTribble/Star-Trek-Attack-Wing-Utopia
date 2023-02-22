@@ -1037,13 +1037,13 @@
 
 /* placeholder for ship silhouette, icon added by angular style attribute binding*/
 .card-ship-silhouette-icon {
-	width: 1.75em;
+    width: 1.75em;
     height: 1.75em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-clip: border-box;
-	display: inline-block;
+	  display: inline-block;
 }
 
 .card-ship-upgrade-bar {
