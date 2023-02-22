@@ -2,6 +2,7 @@ module.exports = [
 	{
 		type: "starship_construction",
 		id: "Con001",
+		gameId:1,
 		set: [
 			"75013"
 		],
