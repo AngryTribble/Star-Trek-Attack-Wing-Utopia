@@ -264,6 +264,32 @@
 	content: "";
 }
 
+.card-defiantLimit-icon {
+	background: url("../img/restrictions/fedDefiant.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-dkyrLimit-icon {
+	background: url("../img/restrictions/vulDkyr.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
 .card-prometheusLimit-icon {
 	background: url("../img/restrictions/fedPrometheus.png") no-repeat;
 	background-size: 1em;
@@ -276,15 +302,28 @@
 	text-align: center;
 }
 
-.card-constitutionLimit-icon {
-	background: url("../img/restrictions/fedConstitution.png") no-repeat;
-	background: gray;
+.card-remanLimit-icon {
+	background: url("../img/restrictions/romReman.png") no-repeat;
+	background-size: 1em;
+	color: gray;
 	width: 1.2em;
 	position: relative;
 	left: 0em;
 	top: -0.1em;
 	z-index: 3;
-	text-align: center,
+	text-align: center;
+}
+
+.card-suurokLimit-icon {
+	background: url("../img/restrictions/vulSuurok.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
 }
 
 .card-faq-icon {

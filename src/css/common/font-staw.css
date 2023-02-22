@@ -344,7 +344,23 @@
   content: ".";
 }
 
+.fs-defiantLimit:before {
+  content: ".";
+}
+
+.fs-dkyrLimit:before {
+  content: ".";
+}
+
 .fs-prometheusLimit:before {
+  content: ".";
+}
+
+.fs-remanLimit:before {
+  content: ".";
+}
+
+.fs-suurokLimit:before {
   content: ".";
 }
 
