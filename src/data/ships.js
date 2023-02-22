@@ -2,7 +2,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S377",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -39,7 +39,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S375",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -76,7 +76,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S372",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -114,7 +114,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S370",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -152,7 +152,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S368",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -190,7 +190,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S366",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -228,7 +228,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S364",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -267,7 +267,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S363",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -305,7 +305,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S362",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -344,7 +344,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S360",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -381,7 +381,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S359",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -417,7 +417,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S358",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -454,7 +454,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S357",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -488,7 +488,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S356",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -524,7 +524,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S354",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -562,7 +562,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S353",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -599,7 +599,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S352",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -637,7 +637,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S351",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -674,7 +674,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S350",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -712,7 +712,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S340",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -745,7 +745,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S339",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -779,7 +779,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S342",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -813,7 +813,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S348",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -846,7 +846,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S341",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -880,7 +880,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S336",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -913,7 +913,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S347",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -947,7 +947,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S346",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -980,7 +980,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S345",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -1014,7 +1014,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S343",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -1048,7 +1048,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S349",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75010"
 		],
@@ -1081,7 +1081,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S329",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -1119,7 +1119,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S334",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -1155,7 +1155,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S332",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -1193,7 +1193,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S331",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -1231,7 +1231,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S333",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -1268,7 +1268,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S338",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -1305,7 +1305,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S330",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -1342,7 +1342,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S337",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -1380,7 +1380,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S335",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -1419,7 +1419,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S323",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -1451,7 +1451,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S322",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -1482,7 +1482,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S319",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -1514,7 +1514,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S318",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -1552,7 +1552,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S321",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -1589,7 +1589,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S325",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -1626,7 +1626,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S326",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -1665,7 +1665,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S324",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -1703,7 +1703,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S320",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -1741,7 +1741,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S317",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -1779,7 +1779,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S316",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -1816,7 +1816,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S315",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -1853,7 +1853,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S314",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -1886,7 +1886,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S313",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
@@ -1919,14 +1919,13 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S312",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75004"
 		],
 		name: "Maquis Starship",
 		class: "Maquis Raider",
 		classId: "maquis_raider_b",
-		gameId:1,
 		actions: [
 			"evade",
 			"target-lock",
@@ -1957,7 +1956,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S311",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -1992,7 +1991,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S310",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -2027,7 +2026,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S309",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -2061,7 +2060,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S308",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -2095,7 +2094,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S307",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -2129,7 +2128,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S306",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -2162,7 +2161,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S305",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73041"
 		],
@@ -2192,7 +2191,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S304",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73041"
 		],
@@ -2222,7 +2221,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S302",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73042"
 		],
@@ -2256,7 +2255,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S301",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73032"
 		],
@@ -2289,7 +2288,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S300",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73031"
 		],
@@ -2326,7 +2325,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S299",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73031"
 		],
@@ -2362,7 +2361,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S298",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -2400,7 +2399,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S297",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -2436,7 +2435,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S296",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -2472,7 +2471,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S295",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -2508,7 +2507,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S294",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -2538,7 +2537,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S293",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003",
 			"72013"
@@ -2568,7 +2567,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S292",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73002"
 		],
@@ -2606,7 +2605,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S291",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73002",
 			"71530"
@@ -2643,7 +2642,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S290",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"73001"
 		],
@@ -2679,7 +2678,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S289",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -2717,7 +2716,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S288",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -2754,7 +2753,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S287",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -2792,7 +2791,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S286",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002",
 			"71524"
@@ -2830,7 +2829,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S285",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -2863,7 +2862,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S284",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -2896,7 +2895,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S283",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002",
 			"73032",
@@ -2931,7 +2930,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S282",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -2969,7 +2968,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S281",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -3006,7 +3005,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S280",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -3043,7 +3042,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S279",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001",
 			"71123",
@@ -3081,7 +3080,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S278",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -3117,7 +3116,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S277",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001",
 			"71274"
@@ -3152,7 +3151,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S276",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -3187,7 +3186,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S275",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75001"
 		],
@@ -3221,7 +3220,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S274",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -3259,7 +3258,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S273",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core",
 			"80000"
@@ -3298,7 +3297,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S272",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -3336,7 +3335,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S271",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core",
 			"OP4Prize",
@@ -3377,7 +3376,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S344",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75008"
 		],
@@ -3415,7 +3414,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S270",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -3452,7 +3451,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S269",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core",
 			"71120",
@@ -3491,7 +3490,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S268",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -3528,7 +3527,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S267",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014wp"
 		],
@@ -3564,7 +3563,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S266",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014wp",
 			"71536"
@@ -3600,7 +3599,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S265",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013wp"
 		],
@@ -3632,7 +3631,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S264",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013wp",
 			"71212"
@@ -3664,7 +3663,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S263",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72012wp"
 		],
@@ -3699,7 +3698,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S262",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72012wp",
 			"71448"
@@ -3734,7 +3733,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S261",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011wp"
 		],
@@ -3770,7 +3769,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S260",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011wp",
 			"71801",
@@ -3808,7 +3807,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S259",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72300p"
 		],
@@ -3841,7 +3840,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S258",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72290p"
 		],
@@ -3875,7 +3874,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S257",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72293"
 		],
@@ -3908,7 +3907,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S256",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72284p"
 		],
@@ -3946,7 +3945,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S255",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72281"
 		],
@@ -3980,7 +3979,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S254",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282gp"
 		],
@@ -4014,7 +4013,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S253",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282p"
 		],
@@ -4051,7 +4050,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S252",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282p",
 			"72015"
@@ -4088,7 +4087,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S251",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72281p"
 		],
@@ -4121,7 +4120,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S250",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72273"
 		],
@@ -4152,7 +4151,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S249",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72280p"
 		],
@@ -4185,7 +4184,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S248",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72263"
 		],
@@ -4219,7 +4218,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S247",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72270p"
 		],
@@ -4252,7 +4251,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S246",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72262p"
 		],
@@ -4289,7 +4288,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S245",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72253"
 		],
@@ -4323,7 +4322,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S244",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72261p"
 		],
@@ -4357,7 +4356,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S243",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72260gp"
 		],
@@ -4391,7 +4390,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S242",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72260p"
 		],
@@ -4425,7 +4424,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S241",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72255"
 		],
@@ -4459,7 +4458,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S240",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72255"
 		],
@@ -4492,7 +4491,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S239",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72236p"
 		],
@@ -4529,7 +4528,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S238",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72242"
 		],
@@ -4561,7 +4560,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S237",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72242",
 			"75006"
@@ -4593,7 +4592,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S236",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72235p"
 		],
@@ -4630,7 +4629,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S235",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72241"
 		],
@@ -4667,7 +4666,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S234",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72234p"
 		],
@@ -4700,7 +4699,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S233",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72224p"
 		],
@@ -4733,7 +4732,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S232",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72224p",
 			"72293"
@@ -4766,7 +4765,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S231",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72233"
 		],
@@ -4797,7 +4796,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S230",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72232"
 		],
@@ -4830,7 +4829,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S229",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72231"
 		],
@@ -4863,7 +4862,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S227",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71225"
 		],
@@ -4897,7 +4896,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S226",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71225"
 		],
@@ -4929,7 +4928,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S225",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71203"
 		],
@@ -4960,7 +4959,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S224",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71203"
 		],
@@ -4990,7 +4989,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S223",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72221p"
 		],
@@ -5024,7 +5023,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S222",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72221p",
 			"OP3Prize",
@@ -5060,7 +5059,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S221",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71212"
 		],
@@ -5092,7 +5091,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S220",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71192"
 		],
@@ -5124,7 +5123,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S219",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71192",
 			"71282"
@@ -5156,7 +5155,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S218",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71211"
 		],
@@ -5185,7 +5184,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S217",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71211"
 		],
@@ -5213,7 +5212,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S216",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71213"
 		],
@@ -5246,7 +5245,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S215",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71221"
 		],
@@ -5280,7 +5279,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S213",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71223"
 		],
@@ -5313,7 +5312,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S212",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71223",
 			"75004"
@@ -5346,7 +5345,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S211",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71201"
 		],
@@ -5379,7 +5378,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S209",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71222"
 		],
@@ -5414,7 +5413,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S208",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71222"
 		],
@@ -5444,7 +5443,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S207",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -5482,7 +5481,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S206",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120",
 			"72253",
@@ -5524,7 +5523,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S205",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -5562,7 +5561,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S204",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120",
 			"blind_belak"
@@ -5600,7 +5599,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S203",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71120"
 		],
@@ -5637,7 +5636,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S202",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71121"
 		],
@@ -5673,7 +5672,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S201",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71121",
 			"72235p",
@@ -5712,7 +5711,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S200",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71122",
 			"72240"
@@ -5751,7 +5750,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S199",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72290p",
 			"71122",
@@ -5793,7 +5792,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S198",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71123"
 		],
@@ -5830,7 +5829,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S197",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71124"
 		],
@@ -5865,7 +5864,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S196",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71124",
 			"72016"
@@ -5900,7 +5899,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S195",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71125",
 			"72272"
@@ -5936,7 +5935,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S194",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71125",
 			"72270p",
@@ -5973,7 +5972,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S193",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71126",
 			"72251"
@@ -6011,7 +6010,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S192",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71126",
 			"72251"
@@ -6048,7 +6047,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S191",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71127"
 		],
@@ -6084,7 +6083,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S190",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71127",
 			"71513b",
@@ -6123,7 +6122,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S189",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71128"
 		],
@@ -6160,7 +6159,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S188",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71128"
 		],
@@ -6196,7 +6195,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S187",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP1Prize"
 		],
@@ -6232,7 +6231,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S186",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP1Prize",
 			"71646a",
@@ -6272,7 +6271,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S185",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP1Participation"
 		],
@@ -6311,7 +6310,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S184",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP1Participation"
 		],
@@ -6347,7 +6346,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S183",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP2Prize"
 		],
@@ -6384,7 +6383,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S182",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP2Prize",
 			"71512",
@@ -6422,7 +6421,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S181",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP3Prize"
 		],
@@ -6460,7 +6459,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S180",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71268",
 			"72282"
@@ -6499,7 +6498,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S179",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71268",
 			"72282",
@@ -6541,7 +6540,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S178",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71269"
 		],
@@ -6578,7 +6577,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S177",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71269",
 			"72232",
@@ -6617,7 +6616,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S176",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71270"
 		],
@@ -6653,7 +6652,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S175",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71270",
 			"72233"
@@ -6687,7 +6686,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S174",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71271"
 		],
@@ -6724,7 +6723,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S173",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71273"
 		],
@@ -6761,7 +6760,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S172",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core",
 			"71273",
@@ -6801,7 +6800,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S171",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71275",
 			"72262"
@@ -6840,7 +6839,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S170",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71275",
 			"72262",
@@ -6879,7 +6878,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S169",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71272",
 			"72292"
@@ -6918,7 +6917,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S168",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71272",
 			"72292",
@@ -6961,7 +6960,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S167",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71274"
 		],
@@ -6996,7 +6995,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S166",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP4Prize"
 		],
@@ -7034,7 +7033,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S165",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP5Prize"
 		],
@@ -7071,7 +7070,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S164",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP5Prize"
 		],
@@ -7107,7 +7106,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S163",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71276"
 		],
@@ -7144,7 +7143,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S162",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71276",
 			"80000"
@@ -7182,7 +7181,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S161",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71448"
 		],
@@ -7217,7 +7216,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S160",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71278"
 		],
@@ -7254,7 +7253,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S159",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71278",
 			"72262p"
@@ -7291,7 +7290,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S158",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71279"
 		],
@@ -7329,7 +7328,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S157",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP6Prize"
 		],
@@ -7364,7 +7363,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S156",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP6Prize",
 			"71803"
@@ -7399,7 +7398,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S155",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP6Participation"
 		],
@@ -7430,7 +7429,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S154",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OP5Participation"
 		],
@@ -7461,7 +7460,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S153",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71283",
 			"72283"
@@ -7499,7 +7498,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S152",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71283",
 			"72283"
@@ -7536,7 +7535,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S151",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72255",
 			"75007"
@@ -7573,7 +7572,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S150",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71280",
 			"72261"
@@ -7612,7 +7611,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S149",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71280",
 			"72261"
@@ -7650,7 +7649,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S148",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71282"
 		],
@@ -7686,7 +7685,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S146",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71281",
 			"72291"
@@ -7725,7 +7724,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S145",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71281",
 			"72291",
@@ -7765,7 +7764,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S144",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OPWebPrize",
 			"71795"
@@ -7800,7 +7799,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S143",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OPWebPrize",
 			"71795"
@@ -7834,7 +7833,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S142",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71446"
 		],
@@ -7871,7 +7870,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S140",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71445"
 		],
@@ -7907,7 +7906,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S139",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71444"
 		],
@@ -7945,7 +7944,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S138",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71444",
 			"71513a"
@@ -7983,7 +7982,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S137",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71445",
 			"blind_interceptor8"
@@ -8018,7 +8017,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S136",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71446",
 			"71646e",
@@ -8057,7 +8056,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S135",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OPArenaPrize"
 		],
@@ -8093,7 +8092,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S134",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"OPArenaPrize",
 			"71797"
@@ -8129,7 +8128,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S133",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"i_k_s_b_moth"
 		],
@@ -8166,7 +8165,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S132",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"i_k_s_b_moth",
 			"75010"
@@ -8203,14 +8202,13 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S131",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"gavroche"
 		],
 		name: "Gavroche",
 		class: "Maquis Raider",
 		classId: "maquis_raider",
-		gameId:1,
 		actions: [
 			"evade",
 			"target-lock",
@@ -8241,14 +8239,13 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S130",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"gavroche"
 		],
 		name: "Maquis Starship",
 		class: "Maquis Raider",
 		classId: "maquis_raider",
-		gameId:1,
 		actions: [
 			"evade",
 			"target-lock",
@@ -8278,7 +8275,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S129",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -8315,7 +8312,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S128",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"i_r_w_vorta_vor"
 		],
@@ -8351,7 +8348,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S127",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"3rd_wing_attack_ship"
 		],
@@ -8388,7 +8385,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S126",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"u_s_s_yaeger"
 		],
@@ -8425,7 +8422,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S125",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"u_s_s_yaeger",
 			"72231",
@@ -8464,7 +8461,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S124",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71523"
 		],
@@ -8502,7 +8499,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S123",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71523",
 			"72260gp"
@@ -8540,7 +8537,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S122",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71522"
 		],
@@ -8578,7 +8575,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S121",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71522"
 		],
@@ -8614,7 +8611,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S120",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71524"
 		],
@@ -8652,7 +8649,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S119",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71508"
 		],
@@ -8688,7 +8685,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S118",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71508",
 			"71527"
@@ -8724,7 +8721,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S117",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71509"
 		],
@@ -8758,7 +8755,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S116",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71509"
 		],
@@ -8791,7 +8788,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S115",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71526"
 		],
@@ -8828,7 +8825,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S114",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71527"
 		],
@@ -8864,7 +8861,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S113",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71525"
 		],
@@ -8901,7 +8898,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S112",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71526"
 		],
@@ -8936,7 +8933,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S328",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75007"
 		],
@@ -8972,7 +8969,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S111",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71525",
 			"71646d"
@@ -9009,7 +9006,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S110",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510"
 		],
@@ -9045,7 +9042,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S109",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510",
 			"71201"
@@ -9081,7 +9078,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S108",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b"
 		],
@@ -9119,7 +9116,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S107",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b"
 		],
@@ -9156,7 +9153,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S106",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b"
 		],
@@ -9195,7 +9192,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S105",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71510b"
 		],
@@ -9233,7 +9230,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S104",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646a"
 		],
@@ -9269,7 +9266,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S103",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646b"
 		],
@@ -9304,7 +9301,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S102",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646b"
 		],
@@ -9340,7 +9337,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S101",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646c",
 			"71793",
@@ -9379,7 +9376,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S100",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646c"
 		],
@@ -9417,7 +9414,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S099",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646d"
 		],
@@ -9454,7 +9451,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S098",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71646e"
 		],
@@ -9491,14 +9488,13 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S097",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71528"
 		],
 		name: "Val Jean",
 		class: "Maquis Raider",
 		classId: "maquis_raider_b",
-		gameId:1,
 		actions: [
 			"evade",
 			"target-lock",
@@ -9530,14 +9526,13 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S096",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71528"
 		],
 		name: "Maquis Starship",
 		class: "Maquis Raider",
 		classId: "maquis_raider_b",
-		gameId:1,
 		actions: [
 			"evade",
 			"target-lock",
@@ -9568,7 +9563,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S095",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71511"
 		],
@@ -9607,7 +9602,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S094",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71511"
 		],
@@ -9647,7 +9642,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S093",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71511"
 		],
@@ -9685,7 +9680,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S092",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71530"
 		],
@@ -9723,7 +9718,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S091",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71531",
 			"72271"
@@ -9762,7 +9757,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S090",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71531",
 			"72271",
@@ -9802,7 +9797,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S089",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71512"
 		],
@@ -9840,7 +9835,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S088",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71512"
 		],
@@ -9879,7 +9874,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S087",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71512"
 		],
@@ -9916,7 +9911,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S086",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513a"
 		],
@@ -9954,7 +9949,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S085",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71532"
 		],
@@ -9991,7 +9986,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S084",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71529"
 		],
@@ -10028,7 +10023,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S083",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71533",
 			"72252"
@@ -10067,7 +10062,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S082",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71533",
 			"72252"
@@ -10105,7 +10100,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S081",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71532"
 		],
@@ -10141,7 +10136,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S080",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71529"
 		],
@@ -10177,7 +10172,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S079",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71792"
 		],
@@ -10215,7 +10210,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S078",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71792"
 		],
@@ -10252,7 +10247,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S141",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72255"
 		],
@@ -10289,7 +10284,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S077",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71534"
 		],
@@ -10326,7 +10321,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S076",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71534",
 			"75004"
@@ -10363,7 +10358,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S075",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71810"
 		],
@@ -10401,7 +10396,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S073",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71810"
 		],
@@ -10440,7 +10435,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S072",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71754"
 		],
@@ -10474,7 +10469,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S071",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71754"
 		],
@@ -10507,7 +10502,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S070",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513b"
 		],
@@ -10543,7 +10538,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S069",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513b"
 		],
@@ -10582,7 +10577,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S068",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71513b"
 		],
@@ -10620,7 +10615,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S067",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71535"
 		],
@@ -10658,7 +10653,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S066",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71535"
 		],
@@ -10695,7 +10690,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S065",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71808"
 		],
@@ -10733,7 +10728,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S064",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71808",
 			"73042"
@@ -10771,7 +10766,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S063",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71753"
 		],
@@ -10805,7 +10800,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S062",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71753",
 			"73041"
@@ -10839,7 +10834,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S061",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71536"
 		],
@@ -10875,7 +10870,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S060",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71996"
 		],
@@ -10912,7 +10907,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S059",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71793"
 		],
@@ -10950,7 +10945,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S058",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71794"
 		],
@@ -10988,7 +10983,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S057",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71794"
 		],
@@ -11025,7 +11020,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S056",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71797"
 		],
@@ -11061,7 +11056,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S055",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71798"
 		],
@@ -11097,7 +11092,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S054",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71796"
 		],
@@ -11133,7 +11128,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S053",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71796"
 		],
@@ -11171,7 +11166,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S052",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71997p"
 		],
@@ -11203,7 +11198,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S051",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71997p"
 		],
@@ -11236,7 +11231,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S050",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -11273,7 +11268,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S049",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71799"
 		],
@@ -11310,7 +11305,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S048",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71998p"
 		],
@@ -11348,7 +11343,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S047",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71801"
 		],
@@ -11384,7 +11379,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S046",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -11419,7 +11414,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S045",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71799"
 		],
@@ -11455,7 +11450,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S044",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71803"
 		],
@@ -11490,7 +11485,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S043",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71999p"
 		],
@@ -11527,7 +11522,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S042",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71999p",
 			"71804"
@@ -11564,7 +11559,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S041",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71802",
 			"80000"
@@ -11604,7 +11599,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S040",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71804"
 		],
@@ -11641,7 +11636,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S039",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71802"
 		],
@@ -11680,7 +11675,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S038",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_aldara"
 		],
@@ -11712,7 +11707,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S037",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72004p"
 		],
@@ -11746,7 +11741,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S036",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72004p"
 		],
@@ -11779,7 +11774,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S035",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_belak"
 		],
@@ -11813,7 +11808,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S034",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72001p"
 		],
@@ -11847,7 +11842,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S033",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72001p",
 			"80000"
@@ -11882,7 +11877,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S032",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72012"
 		],
@@ -11916,7 +11911,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S031",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_bioship"
 		],
@@ -11950,7 +11945,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S030",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_buruk"
 		],
@@ -11983,7 +11978,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S029",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71805"
 		],
@@ -12020,7 +12015,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S028",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71805",
 			"75004"
@@ -12053,7 +12048,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S027",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014"
 		],
@@ -12085,7 +12080,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S026",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72014",
 			"72300p"
@@ -12117,7 +12112,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S025",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72003p"
 		],
@@ -12148,7 +12143,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S024",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72003p",
 			"72273"
@@ -12179,7 +12174,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S023",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_interceptor8"
 		],
@@ -12211,7 +12206,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S022",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72002p"
 		],
@@ -12244,7 +12239,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S021",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71806"
 		],
@@ -12280,7 +12275,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S020",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_lakota"
 		],
@@ -12314,7 +12309,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S019",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_nistrim_culluh"
 		],
@@ -12347,7 +12342,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S017",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_nunks_marauder"
 		],
@@ -12379,7 +12374,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S016",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71807"
 		],
@@ -12415,7 +12410,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S015",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71807"
 		],
@@ -12446,7 +12441,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S014",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011"
 		],
@@ -12480,7 +12475,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S013",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013"
 		],
@@ -12510,7 +12505,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S012",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72015"
 		],
@@ -12543,7 +12538,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S011",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_seleya"
 		],
@@ -12576,7 +12571,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S010",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72016"
 		],
@@ -12607,7 +12602,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S008",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72000p"
 		],
@@ -12645,7 +12640,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S007",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72000p"
 		],
@@ -12682,7 +12677,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S006",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72008"
 		],
@@ -12715,7 +12710,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S005",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72008",
 			"80001"
@@ -12749,7 +12744,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S004",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -12782,7 +12777,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S003",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"blind_tohkaht"
 		],
@@ -12814,7 +12809,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S002",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72009"
 		],
@@ -12851,7 +12846,7 @@ module.exports = [
 	{
 		type: "ship",
 		id: "S001",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72010"
 		],

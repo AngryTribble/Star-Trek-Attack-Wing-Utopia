@@ -2,7 +2,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A041",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -20,7 +20,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A040",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -38,7 +38,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A039",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75013"
 		],
@@ -56,7 +56,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A038",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75012"
 		],
@@ -73,7 +73,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A037",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75011"
 		],
@@ -91,7 +91,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A035",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75006"
 		],
@@ -108,7 +108,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A036",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75009"
 		],
@@ -125,7 +125,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A034",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75005"
 		],
@@ -143,7 +143,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A033",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75003"
 		],
@@ -160,7 +160,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A032",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"75002"
 		],
@@ -177,7 +177,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A031",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"2017core"
 		],
@@ -194,7 +194,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A030",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72282gp"
 		],
@@ -211,7 +211,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A029",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72281"
 		],
@@ -228,7 +228,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A028",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72242"
 		],
@@ -245,7 +245,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A027",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72241"
 		],
@@ -262,7 +262,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A026",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71523"
 		],
@@ -279,7 +279,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A025",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71524"
 		],
@@ -296,7 +296,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A024",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71526"
 		],
@@ -313,7 +313,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A023",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71527"
 		],
@@ -330,7 +330,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A022",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71530"
 		],
@@ -347,7 +347,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A021",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71531",
 			"72271"
@@ -365,7 +365,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A020",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71532"
 		],
@@ -382,7 +382,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A019",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71533",
 			"72252"
@@ -400,7 +400,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A018",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71535"
 		],
@@ -417,7 +417,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A017",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71794"
 		],
@@ -434,7 +434,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A016",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71798"
 		],
@@ -451,7 +451,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A015",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -468,7 +468,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A014",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71800"
 		],
@@ -485,7 +485,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A013",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71801"
 		],
@@ -502,7 +502,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A012",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71803"
 		],
@@ -519,7 +519,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A011",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71804"
 		],
@@ -536,7 +536,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A010",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72001p"
 		],
@@ -553,7 +553,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A009",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72002p"
 		],
@@ -570,7 +570,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A008",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"71807"
 		],
@@ -591,7 +591,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A007",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72011"
 		],
@@ -608,7 +608,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A006",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72000b"
 		],
@@ -630,7 +630,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A005",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72013"
 		],
@@ -647,7 +647,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A004",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72016"
 		],
@@ -664,7 +664,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A003",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72008"
 		],
@@ -681,7 +681,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A002",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72008"
 		],
@@ -698,7 +698,7 @@ module.exports = [
 	{
 		type: "admiral",
 		id: "A001",
-		gameId:1,
+		gameId: 1,
 		set: [
 			"72010"
 		],
