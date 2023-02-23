@@ -77,7 +77,7 @@ module.exports = [
 		],
 		name: "Lovok",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='https://i.imgur.com/SIfvr8Q.png' width='10' height='10'>, you may also add 1 [hit].",
+		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='15' height='15'>, you may also add 1 [hit].",
 		factions: [
 			"romulan"
 		],
@@ -94,7 +94,7 @@ module.exports = [
 		],
 		name: "Rekar",
 		unique: true,
-		text: "You do not pay faction penalty when equipping this card or any <img src='https://i.imgur.com/PPAyFME.png' width='20' height='20'> [crew_text] Upgrades to this <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon_text] UPGRADE:</b> \n You may re-roll up to 2 [blank] . If that Upgrade is a non-<img src='https://i.imgur.com/PPAyFME.png' width='20' height='20'> [weapon_text], roll +1 Attack die.",
+		text: "You do not pay faction penalty when equipping this card or any <img src='img/text/faction-romulan.png' width='20' height='20'> [crew_text] Upgrades to this <img src='img/text/faction-federation.png' width='20' height='20'> ship. \n----------------------------------------\n <b>WHEN ATTACKING WITH A [weapon_text] UPGRADE:</b> \n\n You may re-roll up to 2 [blank] . If that Upgrade is a non-<img src='img/text/faction-romulan.png' width='20' height='20'> [weapon_text], roll +1 Attack die.",
 		factions: [
 			"romulan"
 		],
@@ -128,7 +128,7 @@ module.exports = [
 		],
 		name: "Donatra",
 		unique: true,
-		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='https://i.imgur.com/NmMc0CX.png' width='10' height='10'> or a <img src='https://i.imgur.com/fEuOpVX.png' width='10' height='10'> it may also convert 1 [blank] into 1 [hit].",
+		text: "<font size='+.5'><b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='15' height='15'> or a <img src='img/Text/fed-sovereign.png' width='15' height='15'> it may also convert 1 [blank] into 1 [hit].</font>",
 		factions: [
 			"romulan"
 		],
