@@ -623,7 +623,7 @@ module.exports = [
 		hull: 6,
 		shields: 4,
 		cost: 28,
-		text: "<font size='-1'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ship, you may do both.</font>",
+		text: "<font size='-1' style='display: flex; justify-content: center; align-items: center;'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='img/text/faction-dominion.png' width='18' height='18'> ship, you may do both.</font>",
 		unique: true,
 		factions: [
 			"romulan"
