@@ -2,6 +2,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_starshipconstruction",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"75013"
@@ -12,6 +13,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_love_crysatal",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"75006"
@@ -22,6 +24,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_specialzation",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"71283",
@@ -35,6 +38,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_specialzation",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"75005"
@@ -45,6 +49,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_BMGT",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"75003"
@@ -55,6 +60,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_GPLT",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"73001",
@@ -66,6 +72,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_EWT",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"71795",
@@ -77,6 +84,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_ambassador",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"75008",
@@ -89,6 +97,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_muon_token",
+		gameId: 1,
 		set: [
 			"AdditionalRules"
 		],
@@ -98,6 +107,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_regenerate",
+		gameId: 1,
 		set: [
 			"AdditionalRules"
 		],
@@ -107,6 +117,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "grapple_tokens",
+		gameId: 1,
 		set: [
 			"71534",
 			"AdditionalRules"
@@ -117,6 +128,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "tribble_tokens",
+		gameId: 1,
 		set: [
 			"71125",
 			"72272",
@@ -128,6 +140,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "Multi-Vactor_Assault_Mode_tokens",
+		gameId: 1,
 		set: [
 			"71802",
 			"AdditionalRules"
@@ -138,6 +151,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "adaptation_tokens",
+		gameId: 1,
 		set: [
 			"71280",
 			"72261",
@@ -149,6 +163,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "Escape_Pod_Token",
+		gameId: 1,
 		set: [
 			"71801",
 			"AdditionalRules"
@@ -159,6 +174,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "Ablative_Generator_Token",
+		gameId: 1,
 		set: [
 			"71280",
 			"72261",
@@ -170,6 +186,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "engery_dampening_tokens",
+		gameId: 1,
 		set: [
 			"AdditionalRules",
 			"71128",
@@ -181,6 +198,7 @@ module.exports = [
 	{
 		type: "token",
 		id: "rule_drone_tokens",
+		gameId: 1,
 		set: [
 			"AdditionalRules"
 		],
@@ -190,6 +208,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010a",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -218,6 +237,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010b",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -246,6 +266,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010c",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -274,6 +295,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010d",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -302,6 +324,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010e",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -330,6 +353,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010f",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -358,6 +382,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010g",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -386,6 +411,7 @@ module.exports = [
 	{
 		type: "fleet-captain",
 		id: "R010h",
+		gameId: 1,
 		set: [
 			"CollectiveOP2"
 		],
@@ -414,6 +440,7 @@ module.exports = [
 	{
 		type: "officer",
 		id: "R011a",
+		gameId: 1,
 		set: [
 			"CollectiveOP3"
 		],
@@ -444,6 +471,7 @@ module.exports = [
 	{
 		type: "officer",
 		id: "R011b",
+		gameId: 1,
 		set: [
 			"CollectiveOP3"
 		],
@@ -474,6 +502,7 @@ module.exports = [
 	{
 		type: "officer",
 		id: "R011c",
+		gameId: 1,
 		set: [
 			"CollectiveOP3"
 		],
@@ -504,6 +533,7 @@ module.exports = [
 	{
 		type: "officer",
 		id: "R011d",
+		gameId: 1,
 		set: [
 			"CollectiveOP3"
 		],
@@ -534,6 +564,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004a",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -593,6 +624,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004f",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -652,6 +684,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004b",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -711,6 +744,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004g",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -770,6 +804,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004c",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -829,6 +864,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004h",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -888,6 +924,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004e",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -947,6 +984,7 @@ module.exports = [
 	{
 		type: "flagship",
 		id: "R004i",
+		gameId: 1,
 		set: [
 			"OP4Participation"
 		],
@@ -1006,6 +1044,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_federation",
+		gameId: 1,
 		showType: true,
 		name: "Federation",
 		factions: [
@@ -1024,6 +1063,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_klingon",
+		gameId: 1,
 		showType: true,
 		name: "Klingon",
 		factions: [
@@ -1042,6 +1082,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_romulan",
+		gameId: 1,
 		showType: true,
 		name: "Romulan",
 		factions: [
@@ -1060,6 +1101,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_dominion",
+		gameId: 1,
 		showType: true,
 		name: "Dominion",
 		factions: [
@@ -1078,6 +1120,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_borg",
+		gameId: 1,
 		showType: true,
 		name: "Borg",
 		factions: [
@@ -1096,6 +1139,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_species_8472",
+		gameId: 1,
 		showType: true,
 		name: "Species 8472",
 		factions: [
@@ -1114,6 +1158,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_kazon",
+		gameId: 1,
 		showType: true,
 		name: "Kazon",
 		factions: [
@@ -1132,6 +1177,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_xindi",
+		gameId: 1,
 		showType: true,
 		name: "Xindi",
 		factions: [
@@ -1150,6 +1196,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_bajoran",
+		gameId: 1,
 		showType: true,
 		name: "Bajoran",
 		factions: [
@@ -1168,6 +1215,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_ferengi",
+		gameId: 1,
 		showType: true,
 		name: "Ferengi",
 		factions: [
@@ -1186,6 +1234,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_vulcan",
+		gameId: 1,
 		showType: true,
 		name: "Vulcan",
 		factions: [
@@ -1204,6 +1253,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_independent",
+		gameId: 1,
 		showType: true,
 		name: "Independent",
 		factions: [
@@ -1222,6 +1272,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_mirror_universe",
+		gameId: 1,
 		showType: true,
 		name: "Mirror Universe",
 		factions: [
@@ -1240,6 +1291,7 @@ module.exports = [
 	{
 		type: "faction",
 		id: "faction_q_continuum",
+		gameId: 1,
 		showType: true,
 		name: "Q Continuum",
 		factions: [
@@ -1258,6 +1310,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "Rs01",
+		gameId: 1,
 		set: [
 			"72282gp"
 		],
@@ -1284,6 +1337,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "R036a",
+		gameId: 1,
 		set: [
 			"72284r"
 		],
@@ -1310,6 +1364,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "R033b",
+		gameId: 1,
 		set: [
 			"72280r"
 		],
@@ -1337,6 +1392,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "R033a",
+		gameId: 1,
 		set: [
 			"72280r"
 		],
@@ -1364,6 +1420,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "R039a",
+		gameId: 1,
 		set: [
 			"72301r"
 		],
@@ -1391,6 +1448,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "Rs40",
+		gameId: 1,
 		set: [
 			"72302r"
 		],
@@ -1434,6 +1492,7 @@ module.exports = [
 	{
 		type: "ship-resource",
 		id: "R042a",
+		gameId: 1,
 		set: [
 			"72321r"
 		],
