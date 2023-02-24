@@ -8,7 +8,7 @@ module.exports = [
 		],
 		name: "Alynna Nechayev",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank]. If the defending ship is either a <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ship or a <img src='https://i.imgur.com/tZbY5gi.png' width='20' height='20'> ship, roll +1 attack die.",
+		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank]. If the defending ship is either a <img src='img/text/faction-dominion.png' width='20' height='20'> ship or a <img src='img/text/faction-borg.png' width='20' height='20'> ship, roll +1 attack die.",
 		factions: [
 			"federation"
 		],
@@ -42,7 +42,7 @@ module.exports = [
 		],
 		name: "Strickler",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an <img class='centered' src='https://i.imgur.com/QhlAiYf.png' width='20' height='20'> ship or has an <img class='centered' src='https://i.imgur.com/QhlAiYf.png' width='20' height='20'> Captain equipped to it, add 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an <img class='centered' src='img/text/faction-indy.png' width='20' height='20'> ship or has an <img class='centered' src='img/text/faction-indy.png' width='20' height='20'> Captain equipped to it, add 1 [crit] instead.",
 		factions: [
 			"federation"
 		],
@@ -59,7 +59,7 @@ module.exports = [
 		],
 		name: "George Sanders",
 		unique: true,
-		text: "<b>AFTER A FRIENDLY <img src='../img/faction_fed.png' width='20' height='20'> SHIP WITHIN RANGE IS HIT:</b> \n\n You may perform a 1 [bank-left], 1 [straight], or a 1 [bank-right] Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 [turn-left] or 1 [turn-right] Maneuver instead.",
+		text: "<b>AFTER A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20'> SHIP WITHIN RANGE IS HIT:</b> \n\n You may perform a 1 [bank-left], 1 [straight], or a 1 [bank-right] Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 [turn-left] or 1 [turn-right] Maneuver instead.",
 		factions: [
 			"federation"
 		],
@@ -77,7 +77,7 @@ module.exports = [
 		],
 		name: "Lovok",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='15' height='15'>, you may also add 1 [hit].",
+		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18'>, you may also add 1 [hit].",
 		factions: [
 			"romulan"
 		],
@@ -128,7 +128,7 @@ module.exports = [
 		],
 		name: "Donatra",
 		unique: true,
-		text: "<font size='+.5'><b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='15' height='15'> or a <img src='img/Text/fed-sovereign.png' width='15' height='15'> it may also convert 1 [blank] into 1 [hit].</font>",
+		text: "<font size='+.5'><b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='18' height='18'> or a <img src='img/Text/fed-sovereign.png' width='18' height='18'> it may also convert 1 [blank] into 1 [hit].</font>",
 		factions: [
 			"romulan"
 		],
