@@ -128,7 +128,7 @@ module.exports = [
 		],
 		name: "Donatra",
 		unique: true,
-		text: "<font size='+.5'><b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='15' height='15'> or a <img src='img/Text/fed-sovereign.png' width='15' height='15'> it may also convert 1 [blank] into 1 [hit].</font>",
+		text: "<font size='+.5'><b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='15' height='15'> or a <img src='img/text/fed-sovereign.png' width='15' height='15'> it may also convert 1 [blank] into 1 [hit].</font>",
 		factions: [
 			"romulan"
 		],
