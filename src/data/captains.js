@@ -59,7 +59,7 @@ module.exports = [
 		],
 		name: "George Sanders",
 		unique: true,
-		text: "<b>AFTER A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20'> SHIP WITHIN RANGE IS HIT:</b> \n\n You may perform a 1 [bank-left], 1 [straight], or a 1 [bank-right] Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 [turn-left] or 1 [turn-right] Maneuver instead.",
+		text: "<b>AFTER A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20'> SHIP WITHIN RANGE IS HIT:</b> \n\n\n You may perform a 1 [bank-left], 1 [straight], or a 1 [bank-right] Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 [turn-left] or 1 [turn-right] Maneuver instead.",
 		factions: [
 			"federation"
 		],
@@ -128,7 +128,7 @@ module.exports = [
 		],
 		name: "Donatra",
 		unique: true,
-		text: "<font size='+.5'><b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='18' height='18'> or a <img src='img/Text/fed-sovereign.png' width='18' height='18'> it may also convert 1 [blank] into 1 [hit].</font>",
+		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='18' height='18'> or a <img src='img/Text/fed-sovereign.png' width='18' height='18'> it may also convert 1 [blank] into 1 [hit].",
 		factions: [
 			"romulan"
 		],
@@ -5984,7 +5984,7 @@ module.exports = [
 		],
 		name: "Jean-Luc Picard",
 		unique: true,
-		text: "Each round, you may perform one of the following actions as a free action: \n\n<font size=\"+2\">[evade] [target-lock] [scan] [battlestations] </font>\n\nYou may use this action even if your ship does not have it in the Action bar. ",
+		text: "Each round, you may perform one of the following actions as a free action: \n\n[evade] [target-lock] [scan] [battlestations] \n\nYou may use this action even if your ship does not have it in the Action bar. ",
 		factions: [
 			"federation"
 		],
