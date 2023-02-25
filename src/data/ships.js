@@ -25,7 +25,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 15,
-		text: "<font size ='-1'><b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon_text] Upgrade equipped to the target ship.</font>",
+		text: "<b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon_text] Upgrade equipped to the target ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -62,7 +62,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 16,
-		text: "<font size=\"-1\">This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n</font><font size ='-2'> <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .</font>",
+		text: "This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .",
 		unique: true,
 		factions: [
 			"federation"
@@ -100,7 +100,7 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<b>WHEN A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20'> SHIP WITHIN RANGE 1 IS ATTACKING:</b>\n<font size='-1'>That friendly ship may roll +1 attack die. If that friendly ship is a <img src='img/text/fed-sovereign.png' width='18' height='18';> it may also add 1 [hit]. If the defending ship is a <img src='img/text/faction-borg.png' width='20' height='20';> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].</font>",
+		text: "<b>WHEN A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20'> SHIP WITHIN RANGE 1 IS ATTACKING:</b>\n That friendly ship may roll +1 attack die. If that friendly ship is a <img src='img/text/fed-sovereign.png' width='18' height='18';> it may also add 1 [hit]. If the defending ship is a <img src='img/text/faction-borg.png' width='20' height='20';> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].",
 		unique: true,
 		factions: [
 			"federation"
@@ -138,7 +138,7 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<font size ='-2'>If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+		text: "If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
 		unique: true,
 		factions: [
 			"federation"
@@ -176,7 +176,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<font size='-1.5'><b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade].\n<b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
+		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade].\n<b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -214,7 +214,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<font size='-1'><b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n-----------------------------------\n <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.</font>",
+		text: "<b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n-----------------------------------\n <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -623,7 +623,7 @@ module.exports = [
 		hull: 6,
 		shields: 4,
 		cost: 28,
-		text: "<font size='-1' style='display: flex; justify-content: center; align-items: center;'><b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='img/text/faction-dominion.png' width='18' height='18'> ship, you may do both.</font>",
+		text: "<b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='img/text/faction-dominion.png' width='18' height='18'> ship, you may do both.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -1876,7 +1876,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "<b><font size=\"-1\">WHEN A FRIENDLY SHIP WITHIN RANGE 1 IS DEFENDING:</font></b> The friendly ship may roll +1 defense die. If that friendly ship is an <img src='https://i.imgur.com/gYAWL0N.png' width='10' height='10'>, it may also convert one [blank] result into one [evade] result. If the attacking ship is a <img src='https://i.imgur.com/89QK4SA.png' width='20' height='20'> Ship, that friendly ship may also add one [evade].",
+		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 IS DEFENDING:</b> The friendly ship may roll +1 defense die. If that friendly ship is an <img src='https://i.imgur.com/gYAWL0N.png' width='10' height='10'>, it may also convert one [blank] result into one [evade] result. If the attacking ship is a <img src='https://i.imgur.com/89QK4SA.png' width='20' height='20'> Ship, that friendly ship may also add one [evade].",
 		unique: true,
 		factions: [
 			"independent"
@@ -2384,7 +2384,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 18,
-		text: "<font size=\"-1\"><b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> ship with a <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> Captain equipped to it, target that friendly ship.  This ship attack first this game round and the target ship attacks second this game round.</font>",
+		text: "<b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> ship with a <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> Captain equipped to it, target that friendly ship.  This ship attack first this game round and the target ship attacks second this game round.",
 		unique: true,
 		factions: [
 			"ferengi",
