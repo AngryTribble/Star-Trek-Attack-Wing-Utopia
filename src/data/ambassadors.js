@@ -8,7 +8,7 @@ module.exports = [
 		],
 		name: "Kimara Cretak",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this Ship.' \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> All <img src='img/text/faction-romulan.png' width='20' height='20'> ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon_text] Upgrade equipped to this ship.'",
+		text: "<b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this Ship.' \n<hr> <b>NEGOTIATIONS DENIED:</b> All <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon_text] Upgrade equipped to this ship.'",
 		unique: true,
 		factions: [
 			"romulan"
@@ -23,7 +23,7 @@ module.exports = [
 		],
 		name: "Vreenak",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED:</b> Discard an Upgrade of the opponent's choice equipped to this ship, and an Upgrade of your choice equipped to the target ship. \n----------------------------------------\n <b>NEGOTIATIONS DENIED:</b> All <img src='img/text/faction-romulan.png' width='20' height='20'> ships (Friendly and opposing) gain +1 attack die <b>WHEN ATTACKING</b> with <img src='img/text/faction-romulan.png' width='20' height='20'> [weapon_text] Upgradess and their Primary Weapon for the rest of the game.",
+		text: "<b>NEGOTIATIONS ACCEPTED:</b> Discard an Upgrade of the opponent's choice equipped to this ship, and an Upgrade of your choice equipped to the target ship. \n<hr> <b>NEGOTIATIONS DENIED:</b> All <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ships (Friendly and opposing) gain +1 attack die <b>WHEN ATTACKING</b> with <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> [weapon_text] Upgradess and their Primary Weapon for the rest of the game.",
 		unique: true,
 		factions: [
 			"romulan"

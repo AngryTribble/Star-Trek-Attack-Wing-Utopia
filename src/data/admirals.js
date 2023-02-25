@@ -62,7 +62,7 @@ module.exports = [
 		],
 		name: "Shinzon",
 		unique: true,
-		text: "Add the [battlestations] Action to this ship's Action Bar. \n----------------------------------------\n <b>FLEET ACTION:</b>\n Remove all [time] Tokens and/or Disable Tokens from a [weapon_text] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
+		text: "Add the [battlestations] Action to this ship's Action Bar. \n<hr> <b>FLEET ACTION:</b>\n\n Remove all [time] Tokens and/or Disable Tokens from a [weapon_text] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
 		factions: [
 			"romulan"
 		],

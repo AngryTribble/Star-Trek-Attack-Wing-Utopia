@@ -339,7 +339,7 @@ module.exports = [
 		],
 		name: "Romulan Ale",
 		cost: 1,
-		text: "This upgrade can be equipped to a ship without requiring an Upgrade Slot\n <b>PLANNING PHASE: </b>\n You may exchange all disabled Tokens from the Captain and [crew_text] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] into 1 [blank]",
+		text: "This upgrade can be equipped to a ship without requiring an Upgrade Slot\n<hr> <b>PLANNING PHASE: </b>\n\n You may exchange all disabled Tokens from the Captain and [crew_text] Upgrades equipped to this ship, with 2 [time] Tokens on those cards instead.\n<hr> <b>ACTIVATION PHASE:</b> Place 3 [time] Tokens on this card. \n\n <b>CONTINUOUS EFFECT:</b> This ship and each opposing ship attacking this ship must convert 1 [hit] into 1 [blank]",
 		OnePerShip: true,
 		costRomulan: "+3",
 		factions: [
@@ -355,7 +355,7 @@ module.exports = [
 		],
 		name: "Romulan Cloaking Device",
 		cost: 2,
-		text: "Add the [cloak] Action to this ship's Action Bar. \n----------------------------------------\n This ship may use either the 1 [bank-left], 1 [bank-right], 2 [bank-left], or 2 [bank-right] template when performing a [sensor-echo] Action instead. \n----------------------------------------\n If equipped to a <img src='img/text/faction-romulan.png' width='20' height='20'> ship, this ship may perform the [sensor-echo] Action as a Free Action.",
+		text: "Add the [cloak] Action to this ship's Action Bar. \n<hr> This ship may use either the 1 [bank-left], 1 [bank-right], 2 [bank-left], or 2 [bank-right] template when performing a [sensor-echo] Action instead. \n<hr> If equipped to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship, this ship may perform the [sensor-echo] Action as a Free Action.",
 		OnePerShip: true,
 		costRomulan: "+2",
 		factions: [
@@ -401,7 +401,7 @@ module.exports = [
 		],
 		name: "Flanking Attack",
 		cost: 3,
-		text: "The Attack Value of this [weapon_text] is this ship's Primary Attack Value. \n----------------------------------------\n <b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship. \n If this is equipped to a <img src='img/text/rom-valdore.png' width='18' height='18'>, this ship rolls +2 Attack dice. If this ship is not in the <img src='img/text/forward-arc.png' width='18' height='18'> of the defending ship, the defending ship also rolls -2 defense dice.",
+		text: "The Attack Value of this [weapon_text] is this ship's Primary Attack Value. \n<hr> <b>ATTACK:</b> Place 3 [time] Tokens on this card and target an opposing ship. \n\n If this is equipped to a <img src='img/text/rom-valdore.png' width='18' height='18' title='Valdore Class'>, this ship rolls +2 Attack dice. \n<hr> If this ship is not in the <img src='img/text/forward-arc.png' width='18' height='18' title='Front Arc'> of the defending ship, the defending ship also rolls -2 defense dice.",
 		range: "2 - 3",
 		attack: "*",
 		FrontArc: true,
@@ -419,7 +419,7 @@ module.exports = [
 		],
 		name: "Disruptor Pulse",
 		cost: 3,
-		text: "<b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your <img src='img/text/forward-arc.png' width='18' height='18'> and in range. \n Perform a separate attack against each target with this attack.",
+		text: "<b>ATTACK:</b> Place 2 [time] Tokens on this card to perform this attack. \n\n <b>DECLARE TARGET STEP:</b> Target each opposing ship in your <img src='img/text/forward-arc.png' width='18' height='18' title='Front Arc'> and in range. \n\n Perform a separate attack against each target with this attack.",
 		range: "1 - 2",
 		costRomulan: "+3",
 		attack: "3",
@@ -436,7 +436,7 @@ module.exports = [
 		],
 		name: "Aft Disruptor Emitters",
 		cost: 2,
-		text: "<b>ATTACK:</b> Place 2 [time] Tokens on this card and target an opposing ship not in your <img src='img/text/forward-arc.png' width='18' height='18'>.",
+		text: "<b>ATTACK:</b> Place 2 [time] Tokens on this card and target an opposing ship not in your <img src='img/text/forward-arc.png' width='18' height='18' title='Front Arc'>.",
 		range: "1 - 3",
 		OnePerShip: true,
 		costRomulan: "+2",
@@ -473,7 +473,7 @@ module.exports = [
 		],
 		name: "Fire Everything!",
 		cost: 4,
-		text: "<b> WHENEVER ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a <img src='img/text/faction-romulan.png' width='20' height='20'> [weapon_text] Upgrade equipped to this ship against the same target.",
+		text: "<b> WHEN ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a <img src='img/text/faction-romulan.png' width='20' height='20' title:='Romulan'> [weapon_text] Upgrade equipped to this ship against the same target.",
 		unique: true,
 		captainRomulan: true,
 		shipRomulan: true,
@@ -505,7 +505,7 @@ module.exports = [
 		],
 		name: "Covert Research",
 		cost: 3,
-		text: "Add the [scan] Action to this ship's Action Bar. \n----------------------------------------\n <b> END PHASE:</b> \n Place 1 [scan] Token from beside this ship onto this card (max 3). \n----------------------------------------\n <b> ACTION:</b> Remove any number of [scan] Tokens on this card. \n Gain +1 attack dice for each [scan] Token removed this game round.",
+		text: "Add the [scan] Action to this ship's Action Bar. \n<hr> <b> END PHASE:</b> \n\n Place 1 [scan] Token from beside this ship onto this card (max 3). \n<hr> <b> ACTION:</b> Remove any number of [scan] Tokens on this card. \n\n Gain +1 attack dice for each [scan] Token removed this game round.",
 		unique: true,
 		captainRomulan: true,
 		factions: [
@@ -521,7 +521,7 @@ module.exports = [
 		],
 		name: "Nevala",
 		cost: 3,
-		text: "Increase the Captain Skill of the Captain equipped to this ship by 1 (By 3 for a <img src='img/text/faction-romulan.png' width='20' height='20'> Captain instead). \n---------------------------------------\n <b>WHEN DEFENDING:</b> Spend an [evade] Token beside this ship. \n\n Place a [battlestations] Token beside this ship.",
+		text: "Increase the Captain Skill of the Captain equipped to this ship by 1 (By 3 for a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> Captain instead). \n<hr> <b>WHEN DEFENDING:</b> Spend an [evade] Token beside this ship. \n\n Place a [battlestations] Token beside this ship.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -536,7 +536,7 @@ module.exports = [
 		],
 		name: "T'Rul",
 		cost: 2,
-		text: "You may equip the 'Romulan Cloaking Device' Upgrade to this ship for 0 SP even if it exceeds its restrictions. \n---------------------------------------\n <b>WHENEVER YOU WOULD PERFORM THE [cloak] ACTION:</b> \n\n Place an [evade] Token beside this ship. If equipped to a <img src='img/text/fed-defiant.png' width='18' height='18'>, you may place a [battlestations] Token instead.",
+		text: "You may equip the 'Romulan Cloaking Device' Upgrade to this ship for 0 SP even if it exceeds its restrictions. \n<hr> <b>WHENEVER YOU WOULD PERFORM THE [cloak] ACTION:</b> \n\n Place an [evade] Token beside this ship. If equipped to a <img src='img/text/fed-defiant.png' width='18' height='18' title='Defiant Class'>, you may place a [battlestations] Token instead.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -551,7 +551,7 @@ module.exports = [
 		],
 		name: "Reman Helmsman",
 		cost: 2,
-		text: "<b>REVEAL DIAL STEP:</b> Disable this card. \n\n Disregard your revealed Maneuver and perform a 1 red [reverse] Maneuver instead. If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18'> ship, treat this as a white Maneuver instead.",
+		text: "<b>REVEAL DIAL STEP:</b> Disable this card. \n\n Disregard your revealed Maneuver and perform a 1 red [reverse] Maneuver instead. If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18' title='\D'Deridx Class\'> ship, treat this as a white Maneuver instead.",
 		OnePerShip: true,
 		costRomulan: "+2",
 		factions: [
@@ -567,7 +567,7 @@ module.exports = [
 		],
 		name: "Viceroy",
 		cost: 3,
-		text: "<b>PLANNING PHASE:</b> If your ship is Cloaked: Target an opposing ship within Range. \n\n Place 2 [time] Tokens on a [crew_text] Upgrade equipped to the target ship. If equipped to a <img src='img/text/rom-reman.png' width='18' height='18'>, you may perform a [sensor-echo] Action as a Free Action.",
+		text: "<b>PLANNING PHASE:</b> If your ship is Cloaked: Target an opposing ship within Range. \n\n Place 2 [time] Tokens on a [crew_text] Upgrade equipped to the target ship. If equipped to a <img src='img/text/rom-reman.png' width='18' height='18' title='Reman Warbird'>, you may perform a [sensor-echo] Action as a Free Action.",
 		range: "1 - 2",
 		unique: true,
 		factions: [
@@ -583,7 +583,7 @@ module.exports = [
 		],
 		name: "B-4",
 		cost: 5,
-		text: "<b>ACTION:</b> Disable this card and target an opposing ship within Range. \n\n The target ship either executes a 1 [bank-left], 1 [bank-right], or 1 [straight] Maneuver of the opponent's choice. If the target ship is also a <img src='img/text/faction-federation.png' width='20' height='20'> ship, it rolls -1 attack die this game round. If the target ship also has 'Enterprise' in its name, place 2 [time] Tokens on the Captain equipped to that ship.",
+		text: "<b>ACTION:</b> Disable this card and target an opposing ship within Range. \n\n The target ship either executes a 1 [bank-left], 1 [bank-right], or 1 [straight] Maneuver of the opponent's choice. If the target ship is also a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ship, it rolls -1 attack die this game round. If the target ship also has 'Enterprise' in its name, place 2 [time] Tokens on the Captain equipped to that ship.",
 		range: "2 - 3",
 		unique: true,
 		factions: [
@@ -600,7 +600,7 @@ module.exports = [
 		],
 		name: "Varak",
 		cost: 3,
-		text: "Add 1 [crew_text] upgrade to this Ship's Upgrade Bar. \n----------------------------------------\n <b>ACTION:</b> Place 2 [time] Tokens on this card and target this ship or a friendly ship within Range. \n\n <b>CONTINUOUS EFFECT:</b> \n The Captain and other [crew_text] Upgrades equipped to the target ship cannot be affected by opposing cards. ",
+		text: "Add 1 [crew_text] upgrade to this Ship's Upgrade Bar. \n<hr> <b>ACTION:</b> Place 2 [time] Tokens on this card and target this ship or a friendly ship within Range. \n\n <b>CONTINUOUS EFFECT:</b> \n\n The Captain and other [crew_text] Upgrades equipped to the target ship cannot be affected by opposing cards. ",
 		range: "1 - 2",
 		unique: true,
 		factions: [
