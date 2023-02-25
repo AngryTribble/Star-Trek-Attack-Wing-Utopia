@@ -330,7 +330,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 28,
-		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='https://i.imgur.com/0QLkrIf.png' width='10' height='10'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='img/Text/faction-federation.png' width='18' height='18'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
 		unique: true,
 		factions: [
 			"federation"
