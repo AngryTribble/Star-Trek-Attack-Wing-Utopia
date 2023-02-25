@@ -910,8 +910,8 @@
 	font-size: 0.6em;
 	height: 7em;
 	text-align: center;
-	overflow-y: auto;
-	overflow-x: hidden;
+	overflow-y: scroll;
+	width: calc(100% - 1em);
 }
 
 .card-text img {
