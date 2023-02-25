@@ -473,7 +473,7 @@ module.exports = [
 		],
 		name: "Fire Everything!",
 		cost: 4,
-		text: "<b> WHEN ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan> [weapon_text] Upgrade equipped to this ship against the same target.",
+		text: "<b> WHEN ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> [weapon_text] Upgrade equipped to this ship against the same target.",
 		unique: true,
 		captainRomulan: true,
 		shipRomulan: true,
