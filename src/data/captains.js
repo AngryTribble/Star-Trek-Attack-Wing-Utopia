@@ -77,7 +77,7 @@ module.exports = [
 		],
 		name: "Lovok",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18'>, you may also add 1 [hit].",
+		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18' title='\D'Deridex Class\'>, you may also add 1 [hit].",
 		factions: [
 			"romulan"
 		],
