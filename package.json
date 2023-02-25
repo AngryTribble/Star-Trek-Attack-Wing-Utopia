@@ -26,6 +26,7 @@
     "build": "grunt",
     "watch": "grunt watch",
     "dev": "npm run start && npm run watch",
+    "serve": "npm run build && http-server -p 8000 staw-utopia",
     "data": "npm run lint-data && npm run generate-data",
     "generate-data": "node ./src/data/index.js",
     "lint-data": "eslint src/data/*.js --fix"
@@ -40,6 +41,7 @@
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
+    "http-server": "^14.1.1",
     "jquery-powertip": "^1.3.2"
   },
   "dependencies": {
