@@ -510,7 +510,7 @@ module.exports = [
 		hull: 2,
 		shields: 2,
 		cost: 12,
-		text: "<b>COMBAT PHASE:</b> Target an opposing ship and a friendly ship each within Range 1-2. \n You may discard a [battlestations], [evade], or [scan] Token beside the target opposing ship, then place a Token of the same type beside the target friendly ship.",
+		text: "<b>COMBAT PHASE:</b> Target an opposing ship and a friendly ship each within Range 1-2. \n\n You may discard a [battlestations], [evade], or [scan] Token beside the target opposing ship, then place a Token of the same type beside the target friendly ship.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -548,7 +548,7 @@ module.exports = [
 		hull: 6,
 		shields: 4,
 		cost: 27,
-		text: "<b>WHEN DEFENDING</b> \nYou may re-roll 1 of your defense dice. If this ship is cloaked, you may re-roll any of your defense dice.",
+		text: "<b>WHEN DEFENDING</b> \n\n You may re-roll 1 of your defense dice. If this ship is cloaked, you may re-roll any of your defense dice.",
 		unique: true,
 		factions: [
 			"romulan"
@@ -623,7 +623,7 @@ module.exports = [
 		hull: 6,
 		shields: 4,
 		cost: 28,
-		text: "<b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='img/text/faction-dominion.png' width='18' height='18'> ship, you may do both.",
+		text: "<b>AFTER AN OPPOSING SHIP WITHIN RANGE 1-3 PERFORMS AN ACTION:</b>\nIf this ship is cloaked.\n\n You may perform an additional [sensor-echo] Action as a Free Action this round or place a [battlestations] Token beside this ship. If that ship is a <img src='img/text/faction-dominion.png' width='18' height='18'> ship, you may do both.",
 		unique: true,
 		factions: [
 			"romulan"

@@ -171,6 +171,7 @@
 	top: -0.1em;
 	z-index: 4;
 	text-align: center;
+	title: "Front Arc Only";
 }
 
 .card-RearArc-icon {
@@ -312,6 +313,7 @@
 	top: -0.1em;
 	z-index: 3;
 	text-align: center;
+	title: "Reman Warbird Only";
 }
 
 .card-suurokLimit-icon {
@@ -399,6 +401,7 @@
 	z-index: 2;
 	text-align: center;
 }
+
 .card-captainKlingon-icon {
 	background: url("../img/restrictions/card-captainKlingon-icon.png")no-repeat;
 	background-size: 1em;
@@ -445,6 +448,7 @@
 	top: -0.1em;
 	z-index: 1;
 	text-align: center;
+	title: "Romulan Captain Only";
 }
 
 .card-shipRomulan-icon {
@@ -456,6 +460,7 @@
 	top: -0.1em;
 	z-index: 1;
 	text-align: center;
+	title: "Romulan Ship Only";
 }
 
 .card-costRomulan-icon {
@@ -473,6 +478,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	title: "Card costs extra SP when not equipped to a non-Romulan ship"
 }
 
 .card-captainDominion-icon {
