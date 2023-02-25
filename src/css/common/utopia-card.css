@@ -1322,6 +1322,7 @@
 	background: black;
 	position: relative;
 	top: -0.2em;
+	z-index: 1;
 }
 
 /* Dragdrop */
