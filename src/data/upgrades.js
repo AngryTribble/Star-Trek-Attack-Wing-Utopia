@@ -473,7 +473,7 @@ module.exports = [
 		],
 		name: "Fire Everything!",
 		cost: 4,
-		text: "<b> WHEN ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a <img src='img/text/faction-romulan.png' width='20' height='20' title:='Romulan'> [weapon_text] Upgrade equipped to this ship against the same target.",
+		text: "<b> WHEN ATTACKING:</b> If you dealt no damage or your attack was cancelled: Disable this card. \n\n You may perform an additional attack with a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> [weapon_text] Upgrade equipped to this ship against the same target.",
 		unique: true,
 		captainRomulan: true,
 		shipRomulan: true,
@@ -552,7 +552,7 @@ module.exports = [
 		name: "Reman Helmsman",
 		cost: 2,
 		text: "<b>REVEAL DIAL STEP:</b> Disable this card. \n\n Disregard your revealed Maneuver and perform a 1 red [reverse] Maneuver instead. If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18' title='DDeridx Class'> ship, treat this as a white Maneuver instead.",
-	OnePerShip: true,
+		OnePerShip: true,
 		costRomulan: "+2",
 		factions: [
 			"romulan"
