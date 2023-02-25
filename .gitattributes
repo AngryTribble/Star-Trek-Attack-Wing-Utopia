@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# git shouldn't be changing the line endings of binary files
+*.png binary
