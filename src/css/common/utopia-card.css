@@ -173,10 +173,6 @@
 	text-align: center;
 }
 
-<a title="Front Arc Only">
-	<dive class="card-FrontArc-icon"></div>
-</a>
-
 .card-RearArc-icon {
 	background: url("../img/restrictions/upgrade-rear-arc.png")no-repeat;
 	background-size: 1em;
@@ -188,10 +184,6 @@
 	z-index: 1;
 	text-align: center;
 }
-
-<a title="Secondary Arc Only">
-	<dive class="card-RearArc-icon"></div>
-</a>
 
 .card-360Arc-icon {
 	background: url("../img/restrictions/upgrade-360-arc.png")no-repeat;
@@ -321,10 +313,6 @@
 	z-index: 3;
 	text-align: center;
 }
-
-<a title="Reman Warbird Only">
-	<dive class="card-remanLimit-icon"></div>
-</a>
 
 .card-suurokLimit-icon {
 	background: url("../img/restrictions/vulSuurok.png") no-repeat;
@@ -460,10 +448,6 @@
 	text-align: center;
 }
 
-<a title="Romulan Captain Only">
-	<dive class="card-captainRomulan-icon"></div>
-</a>
-
 .card-shipRomulan-icon {
 	background: url("../img/restrictions/card-shipRomulan-icon.png") no-repeat;
 	background-size: 1em;
@@ -474,10 +458,6 @@
 	z-index: 1;
 	text-align: center;
 }
-
-<a title="Romulan Ship Only">
-	<dive class="card-shipRomulan-icon"></div>
-</a>
 
 .card-costRomulan-icon {
 	background: url("../img/restrictions/restrict-romulan.png") no-repeat;
@@ -495,10 +475,6 @@
 	align-items: center;
 	justify-content: center;
 }
-
-<a title="Penalty for non-Romulan Ships">
-	<dive class="card-costRomulan-icon"></div>
-</a>
 
 .card-captainDominion-icon {
 	background: url("../img/restrictions/card-captainDominion-icon.png") no-repeat;
