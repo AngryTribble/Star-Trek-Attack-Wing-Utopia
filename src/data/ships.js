@@ -62,7 +62,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 16,
-		text: "This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .",
+		text: "This ship and each other friendly ship within Range 1 gain the effect listed based on the number of friendly ships within Range 1 of this ship: <b>WHEN ATTACKING OR DEFENDING:</b> \n\n <b>1</b> - Re-roll 1 [blank] . \n <b>2</b> - Convert 1 [blank] into 1 [battlestations] . \n <b>3+</b> - Convert 1 [blank] into either 1 [hit] or 1 [evade] .",
 		unique: true,
 		factions: [
 			"federation"
@@ -138,7 +138,7 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
+		text: "If equipped with an Admiral - You may perform the equipped card's Fleet Action as a Free Action this round. \n<hr> If equipped with an [ambassador_text] - Once per game. <b>PLANNING PHASE:</b> You may cancel your active Negotiations. Activate your Negotiation Effect targetting a different opposing ship. \n<hr> If equipped with the 'Federation Prototype' [hook] - <b>WHEN DEFENDING:</b> Roll +1 defense die.",
 		unique: true,
 		factions: [
 			"federation"
@@ -176,7 +176,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade].\n<b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
+		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -214,7 +214,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n-----------------------------------\n <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.",
+		text: "<b>COMBAT PHASE:</b> \n You may move your Red [target-lock] Token to an opposing ship within Range 1-3 even if that ship is cloaked. \n<hr> <b>WHEN ATTACKING: DEAL DAMAGE STEP:</b> \n You may acquire a [target-lock] on the defending ship.",
 		unique: true,
 		factions: [
 			"federation"
