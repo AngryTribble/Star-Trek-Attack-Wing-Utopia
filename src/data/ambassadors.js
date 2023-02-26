@@ -68,7 +68,7 @@ module.exports = [
 		],
 		name: "Lwaxana Troi",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED</b>: At the start of the game target a Captain or [crew_text] Upgrade equipped to the target ship. Whenever this ship moves within Range 1 of target ship, disable the Captain equipped to this ship and the target Captain or [crew_text] Upgrade.\n----------------------------------------\n<b>NEGOTIATIONS DENIED</b>: Place 3 [time] Tokens and a Disable Token on the target Captain or [crew_text] Upgrade.",
+		text: "<b>NEGOTIATIONS ACCEPTED</b>: At the start of the game target a Captain or [crew_text] Upgrade equipped to the target ship. Whenever this ship moves within Range 1 of target ship, disable the Captain equipped to this ship and the target Captain or [crew_text] Upgrade.\n<hr> <b>NEGOTIATIONS DENIED</b>: Place 3 [time] Tokens and a Disable Token on the target Captain or [crew_text] Upgrade.",
 		unique: true,
 		factions: [
 			"federation"
@@ -83,7 +83,7 @@ module.exports = [
 		],
 		name: "Sarek",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED</b>: When this ship and the target ship are within Range 1-3 of each other, neither ship may target the other with an attack unless there are no other targets.\n----------------------------------------\n<b>NEGOTIATIONS DENIED</b>: Place 3 [time] Tokens on all [weapon_text] Upgrades equipped to the target ship.",
+		text: "<b>NEGOTIATIONS ACCEPTED</b>: When this ship and the target ship are within Range 1-3 of each other, neither ship may target the other with an attack unless there are no other targets.\n<hr> <b>NEGOTIATIONS DENIED</b>: Place 3 [time] Tokens on all [weapon_text] Upgrades equipped to the target ship.",
 		unique: true,
 		factions: [
 			"federation",
@@ -99,7 +99,7 @@ module.exports = [
 		],
 		name: "Korrd",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED</b>: The target ship must plan its maneuver face up during the Planning Phase.  When the target ship sustains damage to its Shields or Hull, this effect ends.\n<b>NEGOTIATIONS DENIED</b>: You may plan the target ship's maneuver during the next Planning Phase. The chosen maneuver must be on the target ship's maneuver dial and be a green or white maneuver.  The chosen maneuver may not cause the target ship to go outside of the play area.",
+		text: "<b>NEGOTIATIONS ACCEPTED</b>: The target ship must plan its maneuver face up during the Planning Phase.  When the target ship sustains damage to its Shields or Hull, this effect ends.\n<hr> <b>NEGOTIATIONS DENIED</b>: You may plan the target ship's maneuver during the next Planning Phase. The chosen maneuver must be on the target ship's maneuver dial and be a green or white maneuver.  The chosen maneuver may not cause the target ship to go outside of the play area.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -114,7 +114,7 @@ module.exports = [
 		],
 		name: "Kamarag",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED</b>: \nDuring the Combat Phase, this ship and the target ship must attack each other, if able. \n\n<b>NEGOTIATIONS DENIED</b>: \nThe next time the target ship attacks, it rolls -3 attack dice.",
+		text: "<b>NEGOTIATIONS ACCEPTED</b>: \n\n During the Combat Phase, this ship and the target ship must attack each other, if able. \n<hr> <b>NEGOTIATIONS DENIED</b>: \n\nThe next time the target ship attacks, it rolls -3 attack dice.",
 		unique: true,
 		factions: [
 			"klingon"
