@@ -8708,7 +8708,7 @@ intercept: {
 						cost: function(upgrade, ship, fleet, cost) {
 							// if starship_construction 'Federation Prototype' equipped then -2 SP for all 'prometheus restricted' upgrades
 							if( ship && ship.construction && ship.construction.id == "Con001"
-								&& (upgrade.text.includes('may only be purchased for a Prometheus Class ship') || upgrade.text.includes('Prometheus Class Only') ) )
+								&& (upgrade.text.includes('may only be purchased for a Prometheus Class ship') || upgrade.text.includes('Prometheus Class Only') || upgrade.id == "T277" || upgrade.id == "T278" || upgrade.id == "W227" ) )
 								return resolve(upgrade, ship, fleet, cost) - 2;
 							return cost;
 						}
