@@ -730,7 +730,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew_text] Upgrade equipped to this ship.\nThe target ship does not skip its Perform Action Step this game round.",
+		text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew_text] Upgrade equipped to this ship.\n\n The target ship does not skip its Perform Action Step this game round.",
 		attack: 2,
 		agility: 2,
 		hull: 3,
@@ -764,7 +764,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ships with a Hull Value of 3 or less within Range 1-2.\nThe target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
+		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ships with a Hull Value of 3 or less within Range 1-2.\n\n The target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
 		attack: 4,
 		agility: 1,
 		hull: 5,
@@ -798,7 +798,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "<img src='../img/faction_fed.png' width='20' height='20'> [weapon_text] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN ATTACKING WITH A PHOTON TORPEDOS UPGRADE, DURING THE MODIFY ATTACK DICE STEP:</b>\nDestroy 1 Active Shield on the defending ship.",
+		text: "<img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [weapon_text] Upgrades equipped to this ship cost -1 SP.\n<hr> <b>WHEN ATTACKING WITH A PHOTON TORPEDOS UPGRADE, DURING THE MODIFY ATTACK DICE STEP:</b>\n\n Destroy 1 Active Shield on the defending ship.",
 		attack: 4,
 		agility: 2,
 		hull: 5,
@@ -903,7 +903,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "You may equip a <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [tech_text] Upgrade with a printed cost of 4 SP or less to this ship for free, even if it exceeds this ship's retrictions.",
+		text: "You may equip a <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [tech_text] Upgrade with a printed cost of 4 SP or less to this ship for free, even if it exceeds this ship's retrictions.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -936,7 +936,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 16,
-		text: "<b>WHEN ATTACKING A SHIP WITH A HULL OF 4 OR GREATER:</b> Steal a [scan] Token, a [battlestations] Token, or an [evade] Token from beside the defending ship and place it beside this ship.\n<b>WHEN ATTACKING A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> SHIP OR A SHIP WITH A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> CAPTAIN EQUIPPED TO IT:</b> Add 1 [hit]. ",
+		text: "<b>WHEN ATTACKING A SHIP WITH A HULL OF 4 OR GREATER:</b> \n\n Steal a [scan] Token, a [battlestations] Token, or an [evade] Token from beside the defending ship and place it beside this ship.\n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> SHIP OR A SHIP WITH A <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> CAPTAIN EQUIPPED TO IT: \n\n </b> Add 1 [hit]. ",
 		unique: true,
 		factions: [
 			"klingon",
@@ -1004,7 +1004,7 @@ module.exports = [
 		hull: 6,
 		shields: 3,
 		cost: 28,
-		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, disable a <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [crew_text] Upgrade equipped to this ship\n\nDo not flip this ship's [cloak] Token to its red side and place a [battlestations] Token beside this ship.",
+		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, disable a <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [crew_text] Upgrade equipped to this ship \n\n Do not flip this ship's [cloak] Token to its red side and place a [battlestations] Token beside this ship.",
 		unique: true,
 		factions: [
 			"klingon"

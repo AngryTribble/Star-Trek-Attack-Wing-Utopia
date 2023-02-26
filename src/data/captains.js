@@ -163,7 +163,7 @@ module.exports = [
 		],
 		name: "Leyton",
 		unique: true,
-		text: "ACTION:</b> Target a ship and place 2 [time] Tokens on this card.\n\nThe target ship attacks last this turn.",
+		text: "ACTION:</b> Target a ship and place 2 [time] Tokens on this card.\n\n The target ship attacks last this turn.",
 		factions: [
 			"federation"
 		],
@@ -181,7 +181,7 @@ module.exports = [
 		],
 		name: "Worf",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, spend a [battlestations] Token beside this ship.\n\nConvert all [blank] to [hit].",
+		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, spend a [battlestations] Token beside this ship.\n\n Convert all [blank] to [hit].",
 		factions: [
 			"federation",
 			"klingon"
@@ -199,7 +199,7 @@ module.exports = [
 		],
 		name: "Jadzia Dax",
 		unique: true,
-		text: "You do not pay a faction penalty when equipping <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> [talent_text] Upgrade to this card.\n----------------------------------------\n<b>ACTIVATION PHASE:</b> \n\nThis ship may perform a white 1 [bank-left] or white 1 [bank-right].",
+		text: "You do not pay a faction penalty when equipping <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [talent_text] Upgrade to this card.\n<hr> <b>ACTIVATION PHASE:</b> \n\nThis ship may perform a white 1 [bank-left] or white 1 [bank-right].",
 		factions: [
 			"federation"
 		],
@@ -216,7 +216,7 @@ module.exports = [
 		],
 		name: "Keogh",
 		unique: true,
-		text: "<b>MODIFY ATTACK DICE STEP:</b> When a friendly <img src='https://i.imgur.com/OwcsZi0.png' width='20' height='20'> ship in range is defending and the attacking ship is in this ship's <img src='https://i.imgur.com/5JGmN4o.png' width='10' height='10'> and in range:\n\nConvert 1 [hit] into [blank].",
+		text: "<b>MODIFY ATTACK DICE STEP:</b> When a friendly <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ship in range is defending and the attacking ship is in this ship's <img src='img/text/forward-arc.png' width='18' height='18' title='Front Arc'> and in range:\n\n Convert 1 [hit] into [blank].",
 		factions: [
 			"federation"
 		],
@@ -234,7 +234,7 @@ module.exports = [
 		],
 		name: "Benjamin Sisko",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a <img src='https://i.imgur.com/l7seIMt.png' width='20' height='20'> ship or has a <img src='https://i.imgur.com/l7seIMt.png' width='20' height='20'> Captain equipped to it:\nAdd 1 [crit]\n----------------------------------------\n<b>END PHASE:</b>\nRemove one [aux] Token beside this ship.",
+		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ship or has a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> Captain equipped to it:\n\n Add 1 [crit] \n<hr> <b>END PHASE:</b> \n\nRemove one [aux] Token beside this ship.",
 		factions: [
 			"federation"
 		],
@@ -251,7 +251,7 @@ module.exports = [
 		],
 		name: "The Albino",
 		unique: true,
-		text: "<b>WHEN ATTACKING A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> SHIP OR A SHIP WITH A <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> CAPTAIN EQUIPPED TO IT:</b>\nRoll +1 attack die.\n----------------------------------------\n<b>WHEN ATTACKING:</b> Once per game, if this attack hits:\nDiscard 1 [crew_text] Upgrade equipped to the defending ship.\n----------------------------------------\n<b>ACTIVIATION PHASE:</b> Once per game:\nThis ship may activate last.",
+		text: "<b>WHEN ATTACKING A <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> SHIP OR A SHIP WITH A <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> CAPTAIN EQUIPPED TO IT:</b> \n\n Roll +1 attack die.\n<hr> <b>WHEN ATTACKING:</b> Once per game, if this attack hits:\n\n Discard 1 [crew_text] Upgrade equipped to the defending ship.\n<hr> <b>ACTIVIATION PHASE:</b> Once per game: \n\n This ship may activate last.",
 		factions: [
 			"klingon",
 			"independent"
@@ -269,7 +269,7 @@ module.exports = [
 		],
 		name: "Kor",
 		unique: true,
-		text: "You may equip the Dahar Master [talent_text] Upgrade to this card for 0 SP.\n----------------------------------------\n<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='https://i.imgur.com/2lM4cv0.png' width='20' height='20'> ships.\n\nRemove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
+		text: "You may equip the Dahar Master [talent_text] Upgrade to this card for 0 SP. \n<hr> <b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> ships.\n\n Remove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
 		factions: [
 			"klingon"
 		],
@@ -287,7 +287,7 @@ module.exports = [
 		],
 		name: "Koloth",
 		unique: true,
-		text: "<b>WHEN AN OPPOSING SHIP WITHIN RANGE PERFORMS A MANEUVER:</b> Place 2 [time] Tokens on this card.\n\nPerform a maneuver on this ship's dial with a speed of 2.",
+		text: "<b>WHEN AN OPPOSING SHIP WITHIN RANGE PERFORMS A MANEUVER:</b> Place 2 [time] Tokens on this card.\n\n Perform a maneuver on this ship's dial with a speed of 2.",
 		factions: [
 			"klingon"
 		],
@@ -305,7 +305,7 @@ module.exports = [
 		],
 		name: "Kang",
 		unique: true,
-		text: "<b>START OF THE GAME:</b> Target a Captain equipped to an opposing ship.\n----------------------------------------\n<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the target captain is equipped to the defending ship, discard this card.\nAdd two [crit] results.",
+		text: "<b>START OF THE GAME:</b> Target a Captain equipped to an opposing ship.\n<hr> <b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the target captain is equipped to the defending ship, discard this card.\n\n Add two [crit] results.",
 		factions: [
 			"klingon"
 		],
@@ -322,7 +322,7 @@ module.exports = [
 		],
 		name: "Kang",
 		unique: true,
-		text: "<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step, spend this ship's [target-lock] Token.\n\nThe attacking ship must re-roll all of its attack dice.",
+		text: "<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step, spend this ship's [target-lock] Token.\n\n The attacking ship must re-roll all of its attack dice.",
 		factions: [
 			"klingon"
 		],
