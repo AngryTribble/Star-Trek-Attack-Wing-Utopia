@@ -1104,7 +1104,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 17,
-		text: "<b>COMBAT PHASE:</b> If this ship is cloaked:\nPlace a [battlestations],[scan],OR [evade] Token beside this ship OR increase the Captain Skill of the Captain equipped to this ship by 3 this Combat Phase",
+		text: "<b>COMBAT PHASE:</b> If this ship is cloaked:\n\n Place a [battlestations],[scan],OR [evade] Token beside this ship OR increase the Captain Skill of the Captain equipped to this ship by 3 this Combat Phase",
 		unique: true,
 		factions: [
 			"dominion",
@@ -1141,7 +1141,7 @@ module.exports = [
 		hull: 4,
 		shields: 4,
 		cost: 22,
-		text: "<b>ACTION:</b> \nAll other friendly <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ships within Range 1-2 may perform an Action on their Action Bar as a Free Action.",
+		text: "<b>ACTION:</b> \n\n All other friendly <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ships within Range 1-2 may perform an Action on their Action Bar as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1179,7 +1179,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 22,
-		text: "If there are only <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> and/or <img src='https://i.imgur.com/BpbvTHt.png' width='20' height='20'> cards equipped to this ship, add the [cloak] and [sensor-echo] Actions to this ship's Action Bar.\n<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 PERFORMS THE CLOAK ACTION:</b> This ship may perform the [cloak] Action as a Free Action.",
+		text: "If there are only <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> and/or <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> cards equipped to this ship, add the [cloak] and [sensor-echo] Actions to this ship's Action Bar.\n<hr> <b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 PERFORMS THE CLOAK ACTION:</b> \n\n This ship may perform the [cloak] Action as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1217,7 +1217,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 24,
-		text: "All friendly <img src='https://i.imgur.com/QKqthve.png' width='20' height='20'> ships within Range 1 roll +1 attack die.",
+		text: "All friendly <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ships within Range 1 roll +1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -1291,7 +1291,7 @@ module.exports = [
 		hull: 5,
 		shields: 4,
 		cost: 24,
-		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if there is a [scan] Token beside this ship.\n\nConvert up to 2 [battlestations] into 1 [hit] each.",
+		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if there is a [scan] Token beside this ship.\n\n Convert up to 2 [battlestations] into 1 [hit] each.",
 		unique: true,
 		factions: [
 			"vulcan"
@@ -1328,7 +1328,7 @@ module.exports = [
 		hull: 5,
 		shields: 4,
 		cost: 25,
-		text: "<b>COMBAT PHASE:</b> Spend a [scan] Token from beside this ship.\nThe next attack this ship makes with its Primary Weapon this game round ignores the defending ship's Shields.",
+		text: "<b>COMBAT PHASE:</b> Spend a [scan] Token from beside this ship.\n\n The next attack this ship makes with its Primary Weapon this game round ignores the defending ship's Shields.",
 		unique: true,
 		factions: [
 			"vulcan"
@@ -1365,7 +1365,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 20,
-		text: "<b>FREE ACTION:</b>\nPlace an [aux] Token beside this ship and target a friendly ship within Range 1-2.\n\nPlace a [scan] Token and an [evade] Token beside this ship and target ship.",
+		text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target a friendly ship within Range 1-2.\n\nPlace a [scan] Token and an [evade] Token beside this ship and target ship.",
 		unique: true,
 		factions: [
 			"federation",
@@ -1404,7 +1404,7 @@ module.exports = [
 		hull: 4,
 		shields: 4,
 		cost: 22,
-		text: "All <img src='https://i.imgur.com/Bz5pgGG.png' width='20' height='20'> Captains, Admirals, and [crew_text] Upgrades equipped to this ship cost -1 SP.\n<b>WHEN THIS SHIP PERFORMS A [scan] ACTION:</b> \nPlace an additional [scan] Token beside this ship.",
+		text: "All <img src='img/text/faction-vulcan.png' width='20' height='20' title='Vulcan'> Captains, Admirals, and [crew_text] Upgrades equipped to this ship cost -1 SP.\n<hr> <b>WHEN THIS SHIP PERFORMS A [scan] ACTION:</b> \n\nPlace an additional [scan] Token beside this ship.",
 		unique: true,
 		factions: [
 			"federation",
@@ -1441,7 +1441,7 @@ module.exports = [
 		hull: 3,
 		shields: 2,
 		cost: 16,
-		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked:  This ship rolls +1 attack die this attack.\n-----------------------------------\n<b>WHEN ATTACKING: </b> If this ship is not within the Primary Firing Arc of the defending ship.  Convert 1 [battlestations] into 1 [crit] and all other [battlestations] into [hit].",
+		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked:  This ship rolls +1 attack die this attack.\n<hr> <b>WHEN ATTACKING: </b> If this ship is not within the Primary Firing Arc of the defending ship.  \n\n Convert 1 [battlestations] into 1 [crit] and all other [battlestations] into [hit].",
 		unique: true,
 		factions: [
 			"klingon"
@@ -1538,7 +1538,7 @@ module.exports = [
 		hull: 5,
 		shields: 4,
 		cost: 30,
-		text: "You do not pay a faction penalty for cards equipped to this ship.\n-----------------------------------\nAll [tech_text] Upgrades equipped to this ship cost -1 SP.",
+		text: "You do not pay a faction penalty for cards equipped to this ship.\n<hr> All [tech_text] Upgrades equipped to this ship cost -1 SP.",
 		unique: true,
 		factions: [
 			"borg"
@@ -1802,7 +1802,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 23,
-		text: "You may equip a [crew_text] Upgrade as the Captain of this ship. If you do, it counts as a Captain instead of a [crew_text] Upgrade and its Captain Skill is its Printed SP Cost +3.\n----------------------------------\nYou may not equip an Admiral Card to this ship.",
+		text: "You may equip a [crew_text] Upgrade as the Captain of this ship. If you do, it counts as a Captain instead of a [crew_text] Upgrade and its Captain Skill is its Printed SP Cost +3.\n<hr> You may not equip an Admiral Card to this ship.",
 		unique: true,
 		factions: [
 			"independent"
@@ -1876,7 +1876,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 IS DEFENDING:</b> The friendly ship may roll +1 defense die. If that friendly ship is an <img src='https://i.imgur.com/gYAWL0N.png' width='10' height='10'>, it may also convert one [blank] result into one [evade] result. If the attacking ship is a <img src='https://i.imgur.com/89QK4SA.png' width='20' height='20'> Ship, that friendly ship may also add one [evade].",
+		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE 1 IS DEFENDING:</b> \n\n The friendly ship may roll +1 defense die. If that friendly ship is an <img src='img/text/ind-andorian.png' width='18' height='18' title='Andorian Battle Crusier'>, it may also convert one [blank] result into one [evade] result. If the attacking ship is a <img src='img/text/faction-vulcan.png' width='20' height='20' title='Vulcan'> Ship, that friendly ship may also add one [evade].",
 		unique: true,
 		factions: [
 			"independent"
@@ -1909,7 +1909,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 18,
-		text: "You may equip the Inertial Compensators Upgrade to this ship for free and without requiring an Upgrade Slot.\n<b>WHEN ATTACKING:</b> If the defending ship is hit: Place an [aux] token beside the defending ship.",
+		text: "You may equip the Inertial Compensators Upgrade to this ship for free and without requiring an Upgrade Slot.\n<hr> <b>WHEN ATTACKING:</b> If the defending ship is hit: \n\n Place an [aux] token beside the defending ship.",
 		unique: true,
 		factions: [
 			"independent"
@@ -2245,7 +2245,7 @@ module.exports = [
 		hull: 3,
 		shields: 4,
 		cost: 22,
-		text: "<b>AFTER THIS SHIP DEALS NO DAMAGE WITH AN ATTACK:</b> Target the defending ship. \nPlace a [battlestations] Token beside this ship and perform a  [target-lock] Action as a free Action on the target ship.",
+		text: "<b>AFTER THIS SHIP DEALS NO DAMAGE WITH AN ATTACK:</b> Target the defending ship. \n\nPlace a [battlestations] Token beside this ship and perform a  [target-lock] Action as a free Action on the target ship.",
 		unique: true,
 		factions: [
 			"independent"
@@ -2278,7 +2278,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 16,
-		text: "<b>AFTER THIS SHIP PERFORMS A   [target-lock] ACTION:</b> Target a friendly Jem'Hadar Attack Ship within Range 1.\n\nThe target ship may perform a   [target-lock] Action as a Free Action.",
+		text: "<b>AFTER THIS SHIP PERFORMS A   </b>[target-lock]<b> ACTION:</b> Target a friendly Jem'Hadar Attack Ship within Range 1.\n\nThe target ship may perform a   [target-lock] Action as a Free Action.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -2384,7 +2384,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 18,
-		text: "<b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> ship with a <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> Captain equipped to it, target that friendly ship.  This ship attack first this game round and the target ship attacks second this game round.",
+		text: "<b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> ship with a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Captain equipped to it, target that friendly ship.  \n\nThis ship attack first this game round and the target ship attacks second this game round.",
 		unique: true,
 		factions: [
 			"ferengi",
@@ -2457,7 +2457,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 21,
-		text: "<b>ACTION:</b> Target a [tech_text] or [weapon_text] Upgrade equipped to an opposing ship within Range 1-2.\nEach player rolls 5 attack dice. If you roll more [battlestations] than the controller of the target Upgrade, steal the target Upgrade even if it exceeds this ships restrictions.",
+		text: "<b>ACTION:</b> Target a [tech_text] or [weapon_text] Upgrade equipped to an opposing ship within Range 1-2.\n\nEach player rolls 5 attack dice. If you roll more [battlestations] than the controller of the target Upgrade, steal the target Upgrade even if it exceeds this ships restrictions.",
 		unique: true,
 		factions: [
 			"ferengi"
@@ -2664,7 +2664,7 @@ module.exports = [
 		hull: 4,
 		shields: 3,
 		cost: 20,
-		text: "<b>ACTIVATION PHASE:</b> After this ship executes a Green Maneuver, place 2 [time] Tokens on this card.\nRemove a Disable Token from 1 Upgrade equipped to this ship or equip a <img src='https://i.imgur.com/nmga8GG.png' width='20' height='20'> Upgrade that was discarded from this ship to this ship.",
+		text: "<b>ACTIVATION PHASE:</b> After this ship executes a Green Maneuver, place 2 [time] Tokens on this card.\n\n Remove a Disable Token from 1 Upgrade equipped to this ship or equip a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Upgrade that was discarded from this ship to this ship.",
 		unique: true,
 		factions: [
 			"ferengi"
@@ -3102,7 +3102,7 @@ module.exports = [
 		hull: 2,
 		shields: 2,
 		cost: 12,
-		text: "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target a friendly Romulan ship within Range 1.\n\nThe target ship may perform an Action as a Free Action.",
+		text: "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target a friendly <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship within Range 1.\n\nThe target ship may perform an Action as a Free Action.",
 		unique: true,
 		factions: [
 			"romulan"

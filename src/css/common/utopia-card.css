@@ -215,7 +215,7 @@
 	background: url("../img/restrictions/upgrade-attack-limit.png")no-repeat;
 	font-size: 0.5em;
 	background-size: 2em;
-	color: gray;
+	color: white;
 	padding: 0.5em;
 	position: relative;
 	left: 0em;
@@ -264,6 +264,58 @@
 	content: "";
 }
 
+.card-andorianLimit-icon {
+	background: url("../img/restrictions/indAndorian.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-battleshipLimit-icon {
+	background: url("../img/restrictions/domBattleship.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-dauntlessLimit-icon {
+	background: url("../img/restrictions/indDauntless.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-dderidexLimit-icon {
+	background: url("../img/restrictions/romDderidex.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
 .card-defiantLimit-icon {
 	background: url("../img/restrictions/fedDefiant.png")no-repeat;
 	background-size: 1em;
@@ -290,8 +342,84 @@
 	content: "";
 }
 
+.card-attackshipLimit-icon {
+	background: url("../img/restrictions/domAttackShip.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-gornLimit-icon {
+	background: url("../img/restrictions/indGorn.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-hirogenLimit-icon {
+	background: url("../img/restrictions/indHirogen.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
+.card-maquisraiderLimit-icon {
+	background: url("../img/restrictions/indMaquisRaider.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	content: "";
+}
+
 .card-prometheusLimit-icon {
 	background: url("../img/restrictions/fedPrometheus.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-constitutionkLimit-icon {
+	background: url("../img/restrictions/fedConstitutionK.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-warbirdLimit-icon {
+	background: url("../img/restrictions/kliWarbird.png") no-repeat;
 	background-size: 1em;
 	color: gray;
 	width: 1.2em;
@@ -314,8 +442,44 @@
 	text-align: center;
 }
 
+.card-galorLimit-icon {
+	background: url("../img/restrictions/domGalor.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-keldonLimit-icon {
+	background: url("../img/restrictions/domKeldon.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
 .card-suurokLimit-icon {
 	background: url("../img/restrictions/vulSuurok.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-vidiianLimit-icon {
+	background: url("../img/restrictions/indVidiian.png") no-repeat;
 	background-size: 1em;
 	color: gray;
 	width: 1.2em;
@@ -461,6 +625,23 @@
 
 .card-costRomulan-icon {
 	background: url("../img/restrictions/restrict-romulan.png") no-repeat;
+	font-size: 0.5em;
+	font-weight: bold;
+	background-size: 2em;
+	color: white;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-costHirogen-icon {
+	background: url("../img/restrictions/restrict-hirogen.png") no-repeat;
 	font-size: 0.5em;
 	font-weight: bold;
 	background-size: 2em;
@@ -789,10 +970,10 @@
 }
 
 .card-costVulcan-icon {
-	background: url("../img/restrictions/card-factionVulcan-icon.png")no-repeat;
+	background: url("../img/restrictions/restrict-vulcan.png")no-repeat;
 	font-size: 0.5em;
 	background-size: 2em;
-	color: red;
+	color: white;
 	padding: 0.5em;
 	position: relative;
 	left: 0em;
