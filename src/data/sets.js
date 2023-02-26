@@ -19,7 +19,7 @@ module.exports = [
 		type: "set",
 		id: "80000",
 		gameId: 1,
-		name: "Alliance Building Tools",
+		name: "Alliance Tools",
 		releaseDate: "2020-01-31",
 		parentSet: "Tools"
 	},
