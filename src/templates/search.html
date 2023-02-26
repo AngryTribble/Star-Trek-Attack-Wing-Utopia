@@ -75,7 +75,7 @@
 			</div>
 		</search-filter-group>
 
-		<search-filter-group title="Alliance <img src='img/restrictions/alliance.png'>">
+		<search-filter-group title="<img src='img/restrictions/alliance-color-logo.png'> Alliance">
 			<div class="u-search-filter-comment">
 				This section is to be used to help you build a fleet using the rules from the Alliance sets!
 			</div>
@@ -86,12 +86,12 @@
 			<button ng-click="checkAllSets()">Check all sets</button>
 			<button ng-click="exportSets()">Export Sets</button>
 			<div class="u-search-filter-comment">Import Sets...</div>
-			<input type="file" multiple onchanage="angular.element(this).scope().importSets(this)">
+			<input type="file" multiple onchange="angular.element(this).scope().importSets(this)">
 			<div ng-repeat="set in setlist | filter:{name:'Alliance Tools'}" class="u-search-set">
 				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search=false"> {{set.parentSet}}: {{set.name}}</label>
 			</div>
 		</search-filter-group>
-				
+
 	</div>
 
 </div>
