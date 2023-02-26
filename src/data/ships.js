@@ -100,7 +100,7 @@ module.exports = [
 		hull: 5,
 		shields: 5,
 		cost: 29,
-		text: "<b>WHEN A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20'> SHIP WITHIN RANGE 1 IS ATTACKING:</b>\n That friendly ship may roll +1 attack die. If that friendly ship is a <img src='img/text/fed-sovereign.png' width='18' height='18';> it may also add 1 [hit]. If the defending ship is a <img src='img/text/faction-borg.png' width='20' height='20';> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].",
+		text: "<b>WHEN A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP WITHIN RANGE 1 IS ATTACKING:</b>\n That friendly ship may roll +1 attack die. If that friendly ship is a <img src='img/text/fed-sovereign.png' width='18' height='18' title='Sovereign Class'> it may also add 1 [hit]. If the defending ship is a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg'> ship, that friendly ship may also convert either 1 [blank] or [battlestations] into 1 [crit].",
 		unique: true,
 		factions: [
 			"federation"
@@ -176,7 +176,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
+		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -253,7 +253,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 27,
-		text: "<b>WHEN ATTACKING WITH A <img src='img/text/faction-federation.png' width='20' height='20';'> [weapon_text] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img src='img/text/faction-dominion.png' width='20' height='20';'> ship, convert 1 [battlestations] into 1 [crit] instead.",
+		text: "<b>WHEN ATTACKING WITH A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [weapon_text] UPGRADE:</b> \n\n Convert 1 [battlestations] into 1 [hit]. If the defending ship is a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ship, convert 1 [battlestations] into 1 [crit] instead.",
 		unique: true,
 		factions: [
 			"federation"
@@ -330,7 +330,7 @@ module.exports = [
 		hull: 4,
 		shields: 5,
 		cost: 28,
-		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='img/text/fed-prometheus.png' width='18' height='18'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
+		text: "If this ship is equipped with the 'Federation Prototype' [hook], <img src='img/text/fed-prometheus.png' width='18' height='18' title='Prometheus Class'> Restricted Upgrades equipped to this ship cost -2 SP and cannot be affected by opposing Upgrades.",
 		unique: true,
 		factions: [
 			"federation"
