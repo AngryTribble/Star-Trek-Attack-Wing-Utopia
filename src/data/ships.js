@@ -1,6 +1,80 @@
 module.exports = [
 	{
 		type: "ship",
+		id: "S379",
+		gameId: 2,
+		set: [
+			"80002"
+		],
+		name: "Klingon Starship",
+		class: "Vor'cha Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 5,
+		agility: 1,
+		hull: 5,
+		shields: 2,
+		cost: 22,
+		text: "",
+		unique: false,
+		alliance: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S378",
+		gameId: 2,
+		set: [
+			"80002"
+		],
+		name: "Klingon Starship",
+		class: "K'Vort Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 2,
+		cost: 20,
+		text: "",
+		unique: false,
+		alliance: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
 		id: "S377",
 		gameId: 1,
 		set: [

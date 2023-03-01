@@ -25,6 +25,13 @@ module.exports = [
 	},
 	{
 		type: "set",
+		id: "80002",
+		name: "Part II",
+		releaseDate: "2023-03-01",
+		parentSet: "Alliance"
+	},
+	{
+		type: "set",
 		id: "80001",
 		gameId: 1,
 		name: "Part I",

@@ -304,6 +304,191 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			}
 		},
 
+//Alliance Part II
+
+		//Evasive Maneuvers
+		"talent:E219":{
+			canEquip: function(upgrade,ship,fleet) {
+				return ship.class.indexOf("K'Vort Class") >= 0 && onePerShip("Evasive Maneuvers");
+			}
+		},
+
+		//Strafing Run
+		"talent:E222":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Strafing Run") && (ship.class == "K'Vort Class" || ship.class == "B'Rel Class");
+			}
+		},
+
+		//Fight With Honor
+		"talent:E221":{
+			canEquipFaction: function(upgrade,ship,fleet) {
+				return hasFaction(ship,"klingon",ship,fleet);
+			}
+		},
+
+		//Eye For An Eye
+		"talent:E223":{
+			canEquipFaction: function(upgrade,ship,fleet) {
+				return hasFaction(ship,"klingon",ship,fleet);
+			}
+		},
+
+		//Forward Battery
+		"weapon:W228":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Forward Battery") && (ship.class == "Vor'cha Class" || ship.class == "Negh'Var Class");
+			}
+		},
+
+		//Disruptor Overcharge
+		"weapon:W229":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Disruptor Overcharge") && (ship.class == "Vor'cha Class");
+			}
+		},
+
+		//Converging Fire
+		"weapon:W232":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Converging Fire") && (ship.class == "Vor'cha Class" || ship.class == "Negh'var Class");
+			}
+		},
+
+		//Torpedo Fusillade
+		"weapon:W231":{
+			attack: 0,
+			intercept: {
+				self: {
+					// Attack is same as ship primary weapon
+					attack: function(upgrade,ship,fleet,attack) {
+						if( ship )
+							return valueOf(ship,"attack",ship,fleet);
+						return attack;
+					},
+					// Cost is primary weapon
+					cost: function(upgrade,ship,fleet,cost) {
+						if( ship )
+							return resolve(upgrade,ship,fleet,cost) + valueOf(ship,"attack",ship,fleet);
+						return cost;
+					}
+				}
+			}
+		},
+
+		//Photon Torpedoes
+		"weapon:W230":{
+			attack: 0,
+			intercept: {
+				self: {
+					// Attack is same as ship primary + 1
+					attack: function(upgrade,ship,fleet,attack) {
+						if( ship )
+							return valueOf(ship,"attack",ship,fleet) + 1;
+						return attack;
+					}
+				}
+			}
+		},
+
+		//Enhanced Thrusters
+		"tech:T288":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Enhanced Thrusters") && (ship.class == "K'Vort Class" || ship.class == "B'Rel Class");
+			}
+		},
+
+		//Reactor Vent
+		"tech:T283":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Reactor Vent");
+			}
+		},
+
+		//Secondary Cloaking Coil
+		"tech:T285":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Secondary Cloaking Coil");
+			}
+		},
+
+		//Extend Shields
+		"tech:T281":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Extend Shields");
+			}
+		},
+
+		//Passive Sensors
+		"tech:T287":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Passive Sensors");
+			}
+		},
+
+		//Reinforced Hull
+		"tech:T286":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Reinforced Hull") && ship.hull >=4;
+			}
+		},
+
+		//Secondary Relays
+		"tech:T282":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Secondary Relays");
+			}
+		},
+
+		//First Officer
+		"crew:C397":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("First Officer");
+			}
+		},
+
+		//Weapons Officer
+		"crew:C396":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Weapons Officer");
+			}
+		},
+
+		//Operations Officer
+		"crew:C395":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Operations Officer");
+			}
+		},
+
+		//Science Officer
+		"crew:C392":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Science Officer");
+			}
+		},
+
+		//Engineering Officer
+		"crew:C391":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Engineering Officer");
+			}
+		},
+
+		//Tactical Officer
+		"crew:C394":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Tactical Officer");
+			}
+		},
+
+		//Helmsman
+		"crew:C393":{
+			canEquip: function(upgrade,ship,fleet) {
+				return onePerShip("Helmsman");
+			}
+		},
+
 //Ships of the Line
 
 //Fleet Coordination

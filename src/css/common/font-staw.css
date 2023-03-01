@@ -360,6 +360,22 @@
   content: ".";
 }
 
+.fs-kvortLimit:before {
+  content: ".";
+}
+
+.fs-brelLimit:before {
+  content: ".";
+}
+
+.fs-vorchaLimit:before {
+  content: ".";
+}
+
+.fs-neghvarLimit:before {
+  content: ".";
+}
+
 .fs-galorLimit:before {
   content: ".";
 }
