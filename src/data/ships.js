@@ -1,6 +1,80 @@
 module.exports = [
 	{
 		type: "ship",
+		id: "S381",
+		gameId: 2,
+		set: [
+			"80002"
+		],
+		name: "Dominion Starship",
+		class: "Jem'Hadar Battle Cruiser",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 5,
+		agility: 1,
+		hull: 6,
+		shields: 4,
+		cost: 27,
+		text: "",
+		unique: false,
+		alliance: true,
+		factions: [
+			"dominion"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S380",
+		gameId: 2,
+		set: [
+			"80002"
+		],
+		name: "Dominion Starship",
+		class: "Galor Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 3,
+		cost: 17,
+		text: "",
+		unique: false,
+		alliance: true,
+		factions: [
+			"dominion"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
 		id: "S379",
 		gameId: 2,
 		set: [
@@ -2888,7 +2962,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 27,
 		text: "",
 		unique: false,
 		factions: [
