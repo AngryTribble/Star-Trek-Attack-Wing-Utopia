@@ -431,6 +431,54 @@
 	text-align: center;
 }
 
+.card-kvortLimit-icon {
+	background: url("../img/restrictions/kliKvort.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-brelLimit-icon {
+	background: url("../img/restrictions/kliBrel.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-vorchaLimit-icon {
+	background: url("../img/restrictions/kliVorcha.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
+.card-neghvarLimit-icon {
+	background: url("../img/restrictions/kliNeghvar.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 3;
+	text-align: center;
+}
+
 .card-galorLimit-icon {
 	background: url("../img/restrictions/domGalor.png") no-repeat;
 	background-size: 1em;
