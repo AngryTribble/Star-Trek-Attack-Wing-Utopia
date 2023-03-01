@@ -430,7 +430,16 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		"tech:T286":{
 			canEquip: function(upgrade,ship,fleet) {
 				return onePerShip("Reinforced Hull") && ship.hull >=4;
-			}
+			},
+			intercept: {
+				ship: {
+					hull: function(card,ship,fleet,hull) {
+						if( card == ship )
+							return resolve(card,ship,fleet,hull) + 2;
+						return hull;
+					}
+				}
+			},
 		},
 
 		//Secondary Relays

@@ -27,7 +27,7 @@ module.exports = [
 		text: "The cost and Attack Value of this [weapon] are equal to this ship's Primary Weapon Value. \n--------------\n <b>ATTACK:</b> Remove this card from the game and target all opposing ships. \n\n Make a separate attack roll against each target ship.",
 		unique: true,
 		FrontArc: true,
-		range: "2-3",
+		range: "2 - 3",
 		alliance: true,
 		factions: [
 			"klingon"
@@ -61,7 +61,7 @@ module.exports = [
 		text: "<b>WHEN ATTACKING WITH THIS SHIP'S PRIMARY WEAPON: ROLL ATTACK DICE STEP:</b> If you rolled at least 1 [crit] result. \n\n Add 1 [hit] result to the total.",
 		OnePerShip: true,
 		vorchaLimit: true,
-		range: "1-2",
+		range: "1 - 2",
 		alliance: true,
 		factions: [
 			"klingon"
@@ -266,7 +266,7 @@ module.exports = [
 		name: "Reactor Vent",
 		cost: 4,
 		text: "<b>COMBAT PHASE:</b> If there is an opposing ship within range, you may spend 1 [aux] Token from beside this ship to roll 1 attack die. \n\n On a [hit] or [crit] result, discard 1 Shield Token from the opposing ship.",
-		Range: "1",
+		range: "1",
 		OnePerShip: true,
 		alliance: true,
 		factions: [
@@ -387,7 +387,7 @@ module.exports = [
 		name: "Extend Shields",
 		cost: 3,
 		text: "<b>END PHASE:</b> If you have 1 or more Active Shields, place 3 [time] Tokens on this card and place 1 [aux] Token beside this ship to target a friendly ship within Range. \n\n The target ship Repairs 1 Shield.",
-		Range: "1",
+		range: "1",
 		OnePerShip: true,
 		alliance: true,
 		factions: [
