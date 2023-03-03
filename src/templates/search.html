@@ -83,13 +83,9 @@
 		    <label class="u-label"><input type="checkbox" ng-model="search.alliancePart1"> Alliance: Part I</label>
 			<label class="u-label"><input type="checkbox" ng-model="search.ignoreSetsFilter"> Alliance: Part II</label>
 		  </div>
-		  <div ng-repeat="set in setlist | filter:{name:'Alliance Tools'}" class="u-search-set">
-		    <label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search=false"> Alliance Tools</label>
-		  </div>
-
-		  <div ng-repeat="card in cards | filter: {set: {parentSet: 'Alliance'}}" ng-if="search.alliancePart1">
-		    {{card.name}}
-		  </div>
+		  <div ng-repeat="set in setlist | filter:{name:'Part I'}" class="u-search-set" ng-hide="search.ignoreSetsFilter">
+				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search"> {{set.parentSet}}: {{set.name}}</label>
+			</div>
 		</search-filter-group>
 
 	</div>
