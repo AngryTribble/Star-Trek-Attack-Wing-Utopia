@@ -2,7 +2,7 @@ module.exports = [
 	{
 		type: "captain",
 		id: "Cap020",
-		gameId: 2,
+		gameId: 1,
 		set: [
 			"80002"
 		],
