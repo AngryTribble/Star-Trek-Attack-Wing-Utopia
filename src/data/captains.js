@@ -1,6 +1,23 @@
 module.exports = [
 	{
 		type: "captain",
+		id: "Cap020",
+		gameId: 1,
+		set: [
+			"80002"
+		],
+		name: "Vorta",
+		unique: false,
+		text: "",
+		factions: [
+			"dominion"
+		],
+		cost: 0,
+		skill: 1,
+		talents: 0
+	},
+	{
+		type: "captain",
 		id: "Cap019",
 		gameId: 1,
 		set: [
