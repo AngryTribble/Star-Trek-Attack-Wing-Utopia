@@ -20509,79 +20509,15 @@ module.exports = [
 	// Alliance Builder
 	{
 		type: "question",
-		id: "STAQ006",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Weapon Upgrade Slot",
-		cost: 0,
-		OnePerShip: true,
-		text: "\n Adds +2 [weapon] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation",
-			"klngon"
-		]
-	},
-	{
-		type: "question",
-		id: "STAQ004",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Tech Upgrade Slot",
-		cost: 0,
-		OnePerShip: true,
-		text: "\n Adds +2 [tech] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation",
-			"klingon"
-		]
-	},
-	{
-		type: "question",
 		id: "STAQ002",
 		gameId: 1,
 		set: [
 			"80000"
 		],
-		name: "Crew Upgrade Slot",
+		name: "Upgrade Slots",
 		cost: 0,
 		OnePerShip: true,
-		text: "\n Adds +2 [crew] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation",
-			"klingon"
-		]
-	},
-	{
-		type: "question",
-		id: "STAQ003",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Tech Upgrade Slot",
-		cost: 0,
-		OnePerShip: true,
-		text: "\n Adds +1 [tech] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation",
-			"klingon"
-		]
-	},
-	{
-		type: "question",
-		id: "STAQ005",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Weapon Upgrade Slot",
-		cost: 0,
-		OnePerShip: true,
-		text: "\n Adds +1 [weapon] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		text: "\n Adds +2 [crew], [weapon] or [tech] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
 		factions: [
 			"federation",
 			"klingon"
@@ -20594,10 +20530,10 @@ module.exports = [
 		set: [
 			"80000"
 		],
-		name: "Crew Upgrade Slot",
+		name: "Upgrade Slot",
 		cost: 0,
 		OnePerShip: true,
-		text: "\n Adds +1 [crew] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		text: "\n Adds +1 [crew], [weapon] or [tech] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
 		factions: [
 			"federation",
 			"klingon"
