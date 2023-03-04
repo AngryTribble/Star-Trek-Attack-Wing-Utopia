@@ -8953,114 +8953,30 @@ intercept: {
 		}
 	},
 	"admiral:STAA001": {
-		canEquip: function(upgrade,ship,fleet) {
-			return $factions.hasFaction(ship,"federation",ship,fleet);
-		}
+		canEquipAdmiral: function(card,ship,fleet) {
+			return hasFaction(ship,"federation", ship, fleet);
+		},
 	},
 	"admiral:STAA002": {
-		canEquip: function(upgrade,ship,fleet) {
-			return $factions.hasFaction(ship,"federation",ship,fleet);
-		}
+		canEquipAdmiral: function(card,ship,fleet) {
+			return hasFaction(ship,"federation", ship, fleet);
+		},
 	},
 	"admiral:STAA003": {
-		canEquip: function(upgrade,ship,fleet) {
-			return $factions.hasFaction(ship,"federation",ship,fleet);
-		}
+		canEquipAdmiral: function(card,ship,fleet) {
+			return hasFaction(ship,"federation", ship, fleet);
+		},
 	},
 
-		"question:STAQ001": {
-			canEquip: onePerShip("Crew Slot"),
-			isSlotCompatible: function(slotTypes) {
-				return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
-			},
-			upgradeSlots: [
-				{
-					type: ["crew"],
-					rules: "+1 Crew Upgrade Slot"
-				},
-				{
-				rules: "Replacement Slot",
-				type: function(upgrade,ship) {
-					return getSlotType(upgrade,ship);
-				}
-			}
-		],
-	},
-
-	"question:STAQ002": {
-		canEquip: onePerShip("Crew Slot"),
-		isSlotCompatible: function(slotTypes) {
-			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
-		},
-		upgradeSlots: [
-			{
-				type: ["crew"],
-				rules: "+1 Crew Upgrade Slot"
-			},
-			{
-				type: ["crew"],
-				rules: "+1 Crew Upgrade Slot"
-			},
-			{
-			rules: "Replacement Slot",
-			type: function(upgrade,ship) {
-				return getSlotType(upgrade,ship);
-			}
-		}
-	],
-},
-
-"question:STAQ003": {
-	canEquip: onePerShip("Tech Slot"),
-	isSlotCompatible: function(slotTypes) {
-		return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
-	},
-	upgradeSlots: [
-		{
-			type: ["tech"],
-			rules: "+1 Tech Upgrade Slot"
-		},
-		{
-		rules: "Replacement Slot",
-		type: function(upgrade,ship) {
-			return getSlotType(upgrade,ship);
-		}
-	}
-],
-},
-
-"question:STAQ004": {
-	canEquip: onePerShip("Tech Slot"),
-	isSlotCompatible: function(slotTypes) {
-		return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
-	},
-	upgradeSlots: [
-		{
-			type: ["tech"],
-			rules: "+1 Tech Upgrade Slot"
-		},
-		{
-			type: ["tech"],
-			rules: "+1 Tech Upgrade Slot"
-		},
-		{
-		rules: "Replacement Slot",
-		type: function(upgrade,ship) {
-			return getSlotType(upgrade,ship);
-		}
-	}
-],
-},
-
-"question:STAQ005": {
+"question:STAQ001": {
 	canEquip: onePerShip("Weapon Slot"),
 	isSlotCompatible: function(slotTypes) {
 		return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
 	},
 	upgradeSlots: [
 		{
-			type: ["weapon"],
-			rules: "+1 Weapon Upgrade Slot"
+			type: ["crew", "weapon", "tech"],
+			rules: "+1 Upgrade Slot"
 		},
 		{
 		rules: "Replacement Slot",
@@ -9071,19 +8987,19 @@ intercept: {
 ],
 },
 
-"question:STAQ004": {
+"question:STAQ002": {
 	canEquip: onePerShip("Weapon Slot"),
 	isSlotCompatible: function(slotTypes) {
 		return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
 	},
 	upgradeSlots: [
 		{
-			type: ["weapon"],
-			rules: "+1 Weapon Upgrade Slot"
+			type: ["crew", "weapon", "tech"],
+			rules: "+1 Upgrade Slot"
 		},
 		{
-			type: ["weapon"],
-			rules: "+1 Weapon Upgrade Slot"
+			type: ["crew", "weapon", "tech"],
+			rules: "+1 Upgrade Slot"
 		},
 		{
 		rules: "Replacement Slot",
@@ -9419,18 +9335,18 @@ intercept: {
 		},
 
 		"admiral:STAA004": {
-			canEquip: function(upgrade,ship,fleet) {
-				return $factions.hasFaction(ship,"klingon",ship,fleet);
+			canEquipAdmiral: function(card,ship,fleet) {
+				return hasFaction(ship,"klingon", ship, fleet);
 			}
 		},
 		"admiral:STAA005": {
-			canEquip: function(upgrade,ship,fleet) {
-				return $factions.hasFaction(ship,"klingon",ship,fleet);
+			canEquipAdmiral: function(card,ship,fleet) {
+				return hasFaction(ship,"klingon", ship, fleet);
 			}
 		},
 		"admiral:STAA006": {
-			canEquip: function(upgrade,ship,fleet) {
-				return $factions.hasFaction(ship,"klingon",ship,fleet);
+			canEquipAdmiral: function(card,ship,fleet) {
+				return hasFaction(ship,"klingon", ship, fleet);
 			}
 		},
 
