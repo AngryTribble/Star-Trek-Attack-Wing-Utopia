@@ -71,20 +71,7 @@
 			<div class="u-search-filter-comment">Import Sets...</div>
 			<input type="file" multiple onchange="angular.element(this).scope().importSets(this)">
 			<div ng-repeat="set in setList | orderBy:'-releaseDate'" class="u-search-set" ng-hide="search.ignoreSetsFilter">
-				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search"> {{set.parentSet}}: {{set.name}}</label>
-			</div>
-		</search-filter-group>
-
-		<search-filter-group title="Alliance">
-		  <div class="u-search-filter-comment">
-		    This section is to be used to help you build a fleet using the rules from the Alliance sets!
-		  </div>
-		  <div class="u-search-filter-comment">
-		    <label class="u-label"><input type="checkbox" ng-model="search.alliancePart1"> Alliance: Part I</label>
-			<label class="u-label"><input type="checkbox" ng-model="search.ignoreSetsFilter"> Alliance: Part II</label>
-		  </div>
-		  <div ng-repeat="set in setlist | filter:{name:'Part I'}" class="u-search-set" ng-hide="search.ignoreSetsFilter">
-				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search"> {{set.parentSet}}: {{set.name}}</label>
+				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search = search.sets[set.id].searched || (set.name === 'Builder') ? false : true"> {{set.parentSet}}: {{set.name}}</label>
 			</div>
 		</search-filter-group>
 

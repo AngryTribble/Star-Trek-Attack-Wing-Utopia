@@ -67,6 +67,10 @@
 	top: -0.3em;
 }
 
+.card-alliancelogo .card-corner-top-left .card-corner-inner {
+	top: -0.3em;
+}
+
 .card-OnePerShip .card-corner-top-left .card-corner-inner {
 	top: -0.3em;
 }
@@ -159,6 +163,21 @@
 	top: -0.1em;
 	z-index: 1;
 	text-align: center;
+}
+
+.card-alliancelogo-icon {
+	font-size: 1.3em;
+	border: 0.05em solid #a8b6bf;
+	border-radius: 1em;
+	background: black url("../img/restrictions/alliance-color-logo.png") no-repeat center center;
+	background-size: 125%;
+	color: #e1a825;
+	position: relative;
+	left: 0.1em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+	position: relative;
 }
 
 .card-FrontArc-icon {

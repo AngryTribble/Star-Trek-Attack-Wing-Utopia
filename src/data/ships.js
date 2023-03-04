@@ -1013,8 +1013,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 2+).",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 2,
 		hull: 5,
@@ -2832,7 +2831,7 @@ module.exports = [
 			"75002"
 		],
 		name: "2nd Division Battleship",
-		class: "Jem'Hadar Battleship ",
+		class: "Jem'Hadar Battleship",
 		actions: [
 			"target-lock",
 			"scan",
@@ -2870,7 +2869,7 @@ module.exports = [
 			"75002"
 		],
 		name: "Jem'Hadar Battleship",
-		class: "Jem'Hadar Battleship ",
+		class: "Jem'Hadar Battleship",
 		actions: [
 			"target-lock",
 			"scan",
@@ -3409,8 +3408,7 @@ module.exports = [
 		id: "S273",
 		gameId: 1,
 		set: [
-			"2017core",
-			"80000"
+			"2017core"
 		],
 		name: "Federation Starship",
 		class: "Galaxy Class",
@@ -3426,8 +3424,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 5+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 1,
 		hull: 5,
@@ -3488,8 +3485,7 @@ module.exports = [
 		set: [
 			"2017core",
 			"OP4Prize",
-			"72011",
-			"80000"
+			"72011"
 		],
 		name: "Federation Starship",
 		class: "Nebula Class",
@@ -3505,8 +3501,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 5+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 1,
 		hull: 4,
@@ -3543,8 +3538,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 5+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 1,
 		hull: 4,
@@ -3921,8 +3915,7 @@ module.exports = [
 		gameId: 1,
 		set: [
 			"72011wp",
-			"71801",
-			"80000"
+			"71801"
 		],
 		name: "Federation Starship",
 		class: "Oberth Class",
@@ -3936,8 +3929,7 @@ module.exports = [
 			"tech",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 2+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 2,
 		agility: 3,
 		hull: 3,
@@ -5635,7 +5627,6 @@ module.exports = [
 			"71120",
 			"72253",
 			"72284p",
-			"80000",
 			"75011"
 		],
 		name: "Federation Starship",
@@ -5652,8 +5643,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 5+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 1,
 		hull: 5,
@@ -5825,7 +5815,6 @@ module.exports = [
 		set: [
 			"71121",
 			"72235p",
-			"80000",
 			"75011"
 		],
 		name: "Federation Starship",
@@ -5840,8 +5829,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 2+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 2,
 		agility: 2,
 		hull: 3,
@@ -6652,7 +6640,6 @@ module.exports = [
 			"71268",
 			"72282",
 			"71221",
-			"80000",
 			"75011"
 		],
 		name: "Federation Starship",
@@ -6669,8 +6656,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 4+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 3,
 		agility: 2,
 		hull: 3,
@@ -7089,14 +7075,13 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 2+).",
+		text: "",
 		attack: 3,
 		agility: 1,
 		hull: 5,
 		shields: 3,
 		cost: 20,
 		unique: false,
-		alliance: true,
 		factions: [
 			"federation"
 		],
@@ -7294,8 +7279,7 @@ module.exports = [
 		id: "S162",
 		gameId: 1,
 		set: [
-			"71276",
-			"80000"
+			"71276"
 		],
 		name: "Federation Starship",
 		class: "Nova Class",
@@ -7310,8 +7294,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 2+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 2,
 		agility: 2,
 		hull: 3,
@@ -8574,8 +8557,7 @@ module.exports = [
 		gameId: 1,
 		set: [
 			"u_s_s_yaeger",
-			"72231",
-			"80000"
+			"72231"
 		],
 		name: "Federation Starship",
 		class: "Saber Class",
@@ -8590,8 +8572,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 4+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 3,
 		agility: 2,
 		hull: 3,
@@ -9909,8 +9890,7 @@ module.exports = [
 		gameId: 1,
 		set: [
 			"71531",
-			"72271",
-			"80000"
+			"72271"
 		],
 		name: "Federation Starship",
 		class: "Sovereign Class",
@@ -9926,8 +9906,7 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 8+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 5,
 		agility: 1,
 		hull: 5,
@@ -11710,8 +11689,7 @@ module.exports = [
 		id: "S041",
 		gameId: 1,
 		set: [
-			"71802",
-			"80000"
+			"71802"
 		],
 		name: "Federation Starship",
 		class: "Prometheus Class",
@@ -11728,8 +11706,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 8+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 5,
 		agility: 1,
 		hull: 4,
@@ -11993,8 +11970,7 @@ module.exports = [
 		id: "S033",
 		gameId: 1,
 		set: [
-			"72001p",
-			"80000"
+			"72001p"
 		],
 		name: "Federation Starship",
 		class: "Intrepid Class",
@@ -12010,8 +11986,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 5+).\n\nCard and model did not come with Star Trek Alliance.",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 2,
 		hull: 4,
@@ -12877,8 +12852,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "Usable in Star Trek Alliance.\n(Captain Skill 2+).",
-		alliance: true,
+		text: "",
 		attack: 4,
 		agility: 2,
 		hull: 5,
@@ -13024,5 +12998,990 @@ module.exports = [
 			"romulan"
 		],
 		squadron: false
+	},
+
+	// Alliance Builder Tools
+	{
+		type: "ship",
+		id: "STA001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Akira Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 4,
+		agility: 2,
+		hull: 5,
+		shields: 2,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Akira Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 4,
+		agility: 2,
+		hull: 5,
+		shields: 2,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Excelsior Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		text: "",
+		attack: 3,
+		agility: 1,
+		hull: 5,
+		shields: 3,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Miranda Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 2,
+		agility: 2,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Oberth Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"crew"
+		],
+		text: "",
+		attack: 2,
+		agility: 3,
+		hull: 3,
+		shields: 1,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA006",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Nova Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 2,
+		agility: 2,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA007",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Defiant Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 3,
+		agility: 2,
+		hull: 3,
+		shields: 3,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA008",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Saber Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 3,
+		agility: 2,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA009",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Intrepid Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 4,
+		shields: 4,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA010",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Intrepid Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 4,
+		shields: 4,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA011",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Galaxy Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		text: "",
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 3,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA012",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Galaxy Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"crew",
+			"crew",
+			"crew"
+		],
+		text: "",
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 3,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA013",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Nebula Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		text: "",
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 3,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA014",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Nebula Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 3,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA015",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Class",
+		class: "Prometheus Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 5,
+		agility: 1,
+		hull: 4,
+		shields: 4,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA016",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Prometheus Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		text: "",
+		attack: 5,
+		agility: 1,
+		hull: 4,
+		shields: 4,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+
+	{
+		type: "ship",
+		id: "STA017",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Federation Starship",
+		class: "Sovereign Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		text: "",
+		attack: 5,
+		agility: 1,
+		hull: 5,
+		shields: 4,
+		cost: 0,
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA018",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "Vor'cha Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 5,
+		agility: 1,
+		hull: 5,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA019",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "K'Vort Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA020",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "B'Rel Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA021",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "B'Rel Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA022",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "B'Rel Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA023",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "K'T'Inga Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA024",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "K'T'Inga Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA025",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "Negh'var Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 5,
+		agility: 1,
+		hull: 6,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "STA026",
+		gameId: 2,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "Negh'var Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 5,
+		agility: 1,
+		hull: 6,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
 	}
+
 ];

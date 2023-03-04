@@ -55,6 +55,10 @@
   content: "4";
 }
 
+.fs-alliancelogo:before {
+  content: ".";
+}
+
 .fs-battlestations:before {
   content: "B";
 }

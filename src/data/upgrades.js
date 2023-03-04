@@ -20504,5 +20504,924 @@ module.exports = [
 		factions: [
 			"romulan"
 		]
+	},
+
+	// Alliance Builder
+	{
+		type: "question",
+		id: "STAQ006",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Weapon Upgrade Slot",
+		cost: 0,
+		OnePerShip: true,
+		text: "\n Adds +2 [weapon] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation",
+			"klngon"
+		]
+	},
+	{
+		type: "question",
+		id: "STAQ004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Tech Upgrade Slot",
+		cost: 0,
+		OnePerShip: true,
+		text: "\n Adds +2 [tech] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation",
+			"klingon"
+		]
+	},
+	{
+		type: "question",
+		id: "STAQ002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Crew Upgrade Slot",
+		cost: 0,
+		OnePerShip: true,
+		text: "\n Adds +2 [crew] Upgrade slots \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation",
+			"klingon"
+		]
+	},
+	{
+		type: "question",
+		id: "STAQ003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Tech Upgrade Slot",
+		cost: 0,
+		OnePerShip: true,
+		text: "\n Adds +1 [tech] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation",
+			"klingon"
+		]
+	},
+	{
+		type: "question",
+		id: "STAQ005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Weapon Upgrade Slot",
+		cost: 0,
+		OnePerShip: true,
+		text: "\n Adds +1 [weapon] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation",
+			"klingon"
+		]
+	},
+	{
+		type: "question",
+		id: "STAQ001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Crew Upgrade Slot",
+		cost: 0,
+		OnePerShip: true,
+		text: "\n Adds +1 [crew] Upgrade slot \n\n Adds replacement Upgrade slot that this card occupies \n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation",
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Subspace Field",
+		cost: 4,
+		text: "<b>ACTION:</b> Discard this card.\n\nRemove all [aux] Tokens beside all ships.",
+		range: " 1 ",
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Improved Hull Plating",
+		cost: 2,
+		text: "<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step:\n\nConvert 1 [crit] into 1 [hit].",
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "EMH",
+		cost: 4,
+		text: "<b>PLANNING PHASE:</b> Place 2 [time] Tokens on this card.\n\nRemove 1 Disabled Token on a [crew_text] Upgrade equipped to this ship.",
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Impulse Efficiency",
+		cost: 2,
+		text: "<b>EXECUTE MANEUVER STEP:</b> If this ship performs a white maneuver, place 2 [time] Tokens on this card.\n\nRemove 1 [aux] Token beside this ship.",
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Enhanced Targeting",
+		text: "<b>WHEN ATTACKING:</b>\n\nThis ship may re-roll 1 attack die.",
+		cost: 4,
+		OnePerShip: true,
+		factions: [
+			"federation"
+		],
+		alliance: true
+	},
+	{
+		type: "weapon",
+		id: "STAW002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Overcharged Phasers",
+		text: "<b>WHEN ATTACKING WITH THIS SHIP'S PRIMARY WEAPON:</b>\n\nRoll +1 Attack die.",
+		cost: 3,
+		range: " 2 ",
+		OnePerShip: true,
+		factions: [
+			"federation"
+		],
+		alliance: true
+	},
+	{
+		type: "weapon",
+		id: "STAW003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Photon Torpedoes",
+		text: "The Attack Value of this [weapon_text] is this ship's Primary Weapon Value +1.\n<hr> <b>ATTACK:</b> Spend this ship's  [target-lock] Token, disable this card and target an opposing ship.\n\nThis ship may convert all [blank]  into [battlestations].",
+		FrontArc: true,
+		RearArc: true,
+		cost: 2,
+		range: "2 - 3",
+		factions: [
+			"federation"
+		],
+		alliance: true
+	},
+	{
+		type: "crew",
+		id: "STAC001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Commander",
+		OnePerShip: true,
+		text: "<b>ACTION:</b>\n\nPlace 1 [battlestations] Token and 1 [evade] Token beside this ship.",
+		factions: [
+			"federation"
+		],
+		cost: 5,
+		alliance: true
+	},
+	{
+		type: "crew",
+		id: "STAC002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Helmsman",
+		OnePerShip: true,
+		text: "<b>ACTIVATION PHASE:</b> When this ship's maneuver is revealed, disable this card.\n\nIncrease or decrease the maneuver's speed by 1, even if this results in a maneuver that does not appear on this ship's Maneuver Dial.",
+		factions: [
+			"federation"
+		],
+		cost: 3,
+		alliance: true
+	},
+	{
+		type: "crew",
+		id: "STAC003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Tactical Officer",
+		OnePerShip: true,
+		text: "<b>WHEN ATTACKING:</b> Disable this card.\n\nRe-roll any number of attack dice.",
+		factions: [
+			"federation"
+		],
+		cost: 4,
+		alliance: true
+	},
+	{
+		type: "crew",
+		id: "STAC004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Operations Officer",
+		OnePerShip: true,
+		text: "<b>END PHASE:</b> Spend an [evade] Token beside this ship.\n\nRepair 1 Shield on this ship.",
+		factions: [
+			"federation"
+		],
+		cost: 2,
+		alliance: true
+	},
+	{
+		type: "talent",
+		id: "STAE001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Wing Leader",
+		cost: 3,
+		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING OR DEFENDING:</b>\n\nThat ship may re-roll 1 [battlestations].",
+		alliance: true,
+		range: " 1 ",
+		unique: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Battle-Hardened",
+		cost: 4,
+		text: "<b>WHEN THIS SHIP SPENDS A [battlestations] TOKEN:</b> Place 1 [time] Token on this card.\n\nPlace a [battlestations] Token beside this ship.",
+		alliance: true,
+		OnePerShip: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Evasive Pattern Delta",
+		cost: 3,
+		text: "<b>COMBAT PHASE:</b> Spend an [evade] Token beside this ship and discard this card.\n\nPerform a maneuver with a speed of 2 on this ship's maneuver dial.",
+		alliance: true,
+		unique: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Calculating",
+		cost: 1,
+		text: "<b>ACTIVATION PHASE:</b> Discard this card.\n\nThis game round, the Captain Skill of the Captain equipped to this ship is 10.",
+		alliance: true,
+		OnePerShip: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Dorsal Phaser Array",
+		OnePerShip: true,
+		text: "<b>ATTACK:</b> Target an opposing ship.\n\nThis ship may fire this [weapon_text] in any direction.",
+		factions: [
+			"federation"
+		],
+		cost: 3,
+		attack: 3,
+		range: "1 - 2",
+		alliance: true
+	},
+	{
+		type: "weapon",
+		id: "STAW005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Quantum Torpedoes",
+		unique: false,
+		text: "<b>ATTACK:</b> Spend this ship's     [target-lock] Token, disable this card, and target an opposing ship.  \n\nIf the defending ship is hit, add 1 [hit].",
+		factions: [
+			"federation"
+		],
+		cost: 6,
+		skill: 0,
+		RearArc: true,
+		FrontArc: true,
+		attack: 5,
+		range: "2 - 3",
+		alliance: true
+	},
+	{
+		type: "crew",
+		id: "STAC005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Science Officer",
+		OnePerShip: true,
+		text: "<b>ACTION:</b>\n\nPlace 2 [scan] Tokens beside this ship.",
+		factions: [
+			"federation"
+		],
+		cost: 3,
+		alliance: true
+	},
+	{
+		type: "tech",
+		id: "STAT005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Detection Grid",
+		cost: 3,
+		text: "<b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship:\n\nOpposing ships that are both in range and in this ship's primary firing arc roll 1 fewer defense dice when defending against another friendly ship.",
+		alliance: true,
+		range: "1 - 3",
+		OnePerShip: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Inspiring",
+		cost: 2,
+		text: "<b>PLANNING PHASE:</b> Target a friendly ship.\n\nRemove 1 [aux] token beside the target ship.",
+		alliance: true,
+		range: "1",
+		unique: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT006",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Impulse Upgrade",
+		cost: 1,
+		text: "Treat this ship's 2 [bank-left], 2 [straight], and 2 [bank-right] maneuvers as green.",
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT007",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Reinforced Shielding",
+		cost: 3,
+		text: "Add +2 to this ship's Shield Value.",
+		alliance: true,
+		OnePerShip: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW006",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Full Spread",
+		cost: 5,
+		text: "<b>AFTER ATTACKING WITH A TORPEDO UPGRADE:</b> Discard this card and the Torpedo Upgrade used.\n\nMake another attack with the same Torpedo Upgrade against a different target (even if the Torpedo is disabled, has a time token, or you no longer have a   [target-lock] Token to spend).",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+
+	// Klingon Alliance Upgrades
+	{
+		type: "weapon",
+		id: "STAW010",
+		set: [
+			"80000"
+		],
+		name: "Converging Fire",
+		cost: 2,
+		text: "<b>COMBAT PHASE:</b> Friendly ships may treat your [target-lock] Tokens as their own. \n\n\n <i>Vor'cha Class and Negh'var Class Only",
+		OnePerShip: true,
+		vorchaLimit: true,
+		neghvarLimit: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW011",
+		set: [
+			"80000"
+		],
+		name: "Torpedo Fusillade",
+		cost: 0,
+		text: "The cost and Attack Value of this [weapon] are equal to this ship's Primary Weapon Value. \n<hr> <b>ATTACK:</b> Remove this card from the game and target all opposing ships. \n\n Make a separate attack roll against each target ship.",
+		unique: true,
+		FrontArc: true,
+		range: "2 - 3",
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW008",
+		set: [
+			"80000"
+		],
+		name: "Photon Torpedoes",
+		cost: 3,
+		text: "The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n<hr> <b>ATTACK:</b> Spend this ship's [target-lock] Token, disable this card, and target an opposing ship. \n\n This ship may convert 1 [blank] into a [crit] result.",
+		FrontArc: true,
+		RearArc: true,
+		range: "2 - 3",
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW009",
+		set: [
+			"80000"
+		],
+		name: "Disruptor Overcharge",
+		cost: 3,
+		text: "<b>WHEN ATTACKING WITH THIS SHIP'S PRIMARY WEAPON: ROLL ATTACK DICE STEP:</b> If you rolled at least 1 [crit] result. \n\n Add 1 [hit] result to the total.",
+		OnePerShip: true,
+		vorchaLimit: true,
+		range: "1 - 2",
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "weapon",
+		id: "STAW007",
+		set: [
+			"80000"
+		],
+		name: "Forward Battery",
+		cost: 5,
+		text: "<b>WHEN DEFENDING: DECLARE TARGET STEP:</b> If the attacking ship is in your Primary Firing Arc. \n\n Roll 1 Attack die. On a [hit] or [crit] result, deal 1 damage to the attacking ship before it attacks.",
+		OnePerShip: true,
+		vorchaLimit: true,
+		neghvarLimit: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE015",
+		set: [
+			"80000"
+		],
+		name: "Eye For An Eye",
+		cost: 2,
+		text: "<b>WHEN DEFENDING: DEAL DAMAGE STEP:</b> If this ship suffers a face-up damage card and the attacking ship is in your Primary Firing Arc. \n\n Discard this card to deal the attacking ship 1 face-up damage card (even if it has active shields).",
+		OnePerShip: true,
+		shipKlingon: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE013",
+		set: [
+			"80000"
+		],
+		name: "Strafing Run",
+		cost: 3,
+		text: "<b>EXECUTE MANEUVER STEP:</b> If your ship's base or maneuver template overlapped an opposing ship: \n\n Roll 1 attack die. On a [hit] or [crit] result, the opposing ship suffers 1 damage.",
+		OnePerShip: true,
+		kvortLimit: true,
+		brelLimit: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE014",
+		set: [
+			"80000"
+		],
+		name: "Fight With Honor",
+		cost: 3,
+		text: "<b>WHEN ATTACKING A SHIP WITH AN EQUAL OR HIGHER CAPTAIN SKILL NUMBER THAN THIS SHIP:</b> \n\n Convert 1 [battlestations] into 1 [crit].",
+		OnePerShip: true,
+		shipKlingon: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE016",
+		set: [
+			"80000"
+		],
+		name: "Glory To The Empire!",
+		cost: 2,
+		text: "<b>WHEN ATTACKING OR DEFENDING:</b> Discard this card. \n\n Reroll all your dice.",
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE011",
+		set: [
+			"80000"
+		],
+		name: "Evasive Maneuvers",
+		cost: 4,
+		text: "<b>WHEN THIS SHIP SPENDS A [evade] TOKEN:</b> Place 1 [time] Token on this card. \n\n Place 1 [evade] Token beside this ship.",
+		OnePerShip: true,
+		kvortLimit: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE012",
+		set: [
+			"80000"
+		],
+		name: "Reckless Assault",
+		cost: 4,
+		text: "<b>WHEN ATTACKING WITH THIS SHIP'S PRIMARY WEAPON:</b> If you are within the target's Primary Firing Arc. \n\n Roll +1 Attack die.",
+		OnePerShip: true,
+		range: "1",
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT009",
+		set: [
+			"80000"
+		],
+		name: "Enhanced Thrusters",
+		cost: 5,
+		text: "<b>EXECUTE MANEUVER STEP:</b> When this ship performs a [bank-left] or [bank-right] maneuver of speed 2 or 3: \n\n You may treat that maneuver as red to rotate this ship 180°.",
+		OnePerShip: true,
+		kvortLimit: true,
+		brelLimit: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT013",
+		set: [
+			"80000"
+		],
+		name: "Passive Sensors",
+		cost: 2,
+		text: "<b>END PHASE:</b> If you did not attack this round, place 1 [scan] Token on this card (max 1). \n\n <b>FREE ACTION:</b> Place 1 [scan] Token from this card beside this ship.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT014",
+		set: [
+			"80000"
+		],
+		name: "Reinforced Hull",
+		cost: 2,
+		text: "Add +2 to this ship's Hull Value.",
+		OnePerShip: true,
+		hullConstraint: "4+",
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT012",
+		set: [
+			"80000"
+		],
+		name: "Secondary Cloaking Coil",
+		cost: 3,
+		text: "<b>ACTION:</b> Discard this card. \n\n Repair 1 Shield Token. If you have the [cloak] action on this ship's action bar, you may [cloak] as a free action.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT010",
+		set: [
+			"80000"
+		],
+		name: "Targeting Array",
+		cost: 4,
+		text: "You can have two Blue [target-lock] Tokens. \n<hr> <b>WHEN YOU PERFORM A [target-lock] ACTION:</b> \n\n You may perform an additional [target-lock] Action against a different opposing ship within Range.",
+		unique: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT011",
+		set: [
+			"80000"
+		],
+		name: "Reactor Vent",
+		cost: 4,
+		text: "<b>COMBAT PHASE:</b> If there is an opposing ship within range, you may spend 1 [aux] Token from beside this ship to roll 1 attack die. \n\n On a [hit] or [crit] result, discard 1 Shield Token from the opposing ship.",
+		range: "1",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT015",
+		set: [
+			"80000"
+		],
+		name: "Secondary Relays",
+		cost: 2,
+		text: "<b>WHEN THIS SHIP WOULD DISABLE A [weapon] UPGRADE:</b> \n If you do not have any [aux] Tokens beside this ship: \n\n You may place an [aux] Token beside this ship instead.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC018",
+		set: [
+			"80000"
+		],
+		name: "First Officer",
+		cost: 4,
+		text: "<b>WHEN ATTACKING OR DEFENDING:</b> \n Place 1 [time] Token on this card. \n\n Convert 1 [battlestations] into 1 [hit] or 1 [evade].",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC019",
+		set: [
+			"80000"
+		],
+		name: "Weapons Officer",
+		cost: 4,
+		text: "<b>WHEN ATTACKING:</b> Disable this card. \n\n Convert 1 of your [battlestations] results into a [crit] result and all of your other [battlestations] results into [hit] results.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC020",
+		set: [
+			"80000"
+		],
+		name: "Operations Officer",
+		cost: 4,
+		text: "If equipped to a <img src='img/text/kli-kvort.png' width='20' height='20' title='K'Vort Class'>, add +1 to this ship's Agility Value. \n<hr> <b>WHEN DEFENDING:</b> You may convert 1 [battlestations] result into 1 [evade] result.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC022",
+		set: [
+			"80000"
+		],
+		name: "Tactical Officer",
+		cost: 2,
+		text: "<b>WHEN ATTACKING:</b> If you have a Red [target-lock] on the target ship: \n\n You may spend it as if it were a [battlestations] Token.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC023",
+		set: [
+			"80000"
+		],
+		name: "Helmsman",
+		cost: 2,
+		text: "<b>EXECUTE MANEUVER STEP:</b> If this ship performed a Non-Red Maneuver that did not overlap any ships or obstacles. Disable this card. \n\n Perform any Maneuver with a Speed of 1 on this ship's Maneuver Dial.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC021",
+		set: [
+			"80000"
+		],
+		name: "Science Officer",
+		cost: 3,
+		text: "<b>ACTION:</b> Place 1 [scan] Token beside this ship. \n\n You may remove 1 Red  [target-lock] Token from beside this ship (and the corresponding Blue  [target-lock] Token).",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"klingon"
+		]
+	},
+	{
+		type: "tech",
+		id: "STAT008",
+		set: [
+			"80000"
+		],
+		name: "Extend Shields",
+		cost: 3,
+		text: "<b>END PHASE:</b> If you have 1 or more Active Shields, place 3 [time] Tokens on this card and place 1 [aux] Token beside this ship to target a friendly ship within Range. \n\n The target ship Repairs 1 Shield.",
+		range: "1",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "crew",
+		id: "STAC017",
+		set: [
+			"80000"
+		],
+		name: "Engineering Officer",
+		cost: 3,
+		text: "<b>PERFORM ACTION STEP:</b> Disable this card. \n\n This ship may perform 1 Action while having any [aux] Tokens beside it.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE010",
+		set: [
+			"80000"
+		],
+		name: "Battle Plan",
+		cost: 4,
+		text: "<b>WHEN ATTACKING:\n </b> If the target is within Range of both this ship and at least 1 other friendly ship. \n\n Add 1 [battlestations] result to this ship's attack roll.",
+		unique: true,
+		range: "1",
+		alliance: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "talent",
+		id: "STAE009",
+		set: [
+			"80000"
+		],
+		name: "Coordinated Assault",
+		cost: 5,
+		text: "<b>AFTER ATTACKING OR DEFENDING:\n </b> Target a friendly ship within Range and spend a [battlestations], [evade], or [scan] Token from beside this ship. \n\n Place a copy of that Token beside the target ship.",
+		unique: true,
+		range: "1",
+		alliance: true,
+		factions: [
+			"federation"
+		]
 	}
 ];
