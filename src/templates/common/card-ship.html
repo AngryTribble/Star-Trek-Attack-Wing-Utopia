@@ -3,6 +3,7 @@
 	<div class="card-image"></div>
 
 	<div class="card-corner-top-left pull-left"><i ng-if="ship.unique" class="card-unique-icon fs fs-unique pull-left"></i>
+	<div class="card-corner-top-left pull-left"><i ng-if="ship.alliancelogo" class="card-alliancelogo-icon fs fs-alliancelogo pull-left"></i></div>
 		<div class="card-corner-inner pull-right"></div>
 	</div>
 	<div class="card-corner-top-right pull-right"><i ng-repeat="faction in ship|valueOf:'factions':ship:fleet" class="card-ship-faction card-faction-{{faction}} card-faction-{{$index}} fs fs-empty" ng-class="{'card-factions-multiple': (ship|valueOf:'factions':ship:fleet).length > 1}"></i>

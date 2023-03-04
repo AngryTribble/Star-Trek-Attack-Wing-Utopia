@@ -349,204 +349,6 @@ module.exports = [
 	},
 	{
 		type: "captain",
-		id: "Cap128",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (14 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n14 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 9,
-		alliance: true,
-		talents: 3
-	},
-	{
-		type: "captain",
-		id: "Cap127",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (13 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n13 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 8,
-		alliance: true,
-		talents: 3
-	},
-	{
-		type: "captain",
-		id: "Cap126",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (12 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n12 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 8,
-		alliance: true,
-		talents: 2
-	},
-	{
-		type: "captain",
-		id: "Cap125",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (10 or 11 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n10 or 11 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 7,
-		alliance: true,
-		talents: 2
-	},
-	{
-		type: "captain",
-		id: "Cap124",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (8 or 9 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n8 or 9 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 6,
-		alliance: true,
-		talents: 2
-	},
-	{
-		type: "captain",
-		id: "Cap123",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (6 or 7 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n6 or 7 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 5,
-		alliance: true,
-		talents: 2
-	},
-	{
-		type: "captain",
-		id: "Cap122",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (4 or 5 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n4 or 5 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 4,
-		alliance: true,
-		talents: 1
-	},
-	{
-		type: "captain",
-		id: "Cap121",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (3 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n3 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 3,
-		alliance: true,
-		talents: 1
-	},
-	{
-		type: "captain",
-		id: "Cap120",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (2 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n2 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 3,
-		alliance: true,
-		talents: 1
-	},
-	{
-		type: "captain",
-		id: "Cap119",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (1 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n1 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 2,
-		alliance: true,
-		talents: 1
-	},
-	{
-		type: "captain",
-		id: "Cap118",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "STA Fed (0 XP)",
-		unique: false,
-		text: "For Star Trek Alliance Building ONLY.  \n\nAdd as 'Captain' to remove ship cost.  \n\n0 XP spent on Captain Skill.\n\nNot a physical card, used internally on Utopia.",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 2,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
 		id: "Cap117",
 		gameId: 1,
 		set: [
@@ -6095,5 +5897,298 @@ module.exports = [
 		cost: 7,
 		skill: "*",
 		talents: 1
+	},
+
+	// Alliance Builder
+	{
+		type: "captain",
+		id: "STAC008",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 9,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC007",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 8,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC006",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 7,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 6,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 5,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 4,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 3,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC001",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 2,
+		alliance: true,
+		talents: 0
+	},
+
+	// Klingons
+	{
+		type: "captain",
+		id: "STAC016",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 9,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC015",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 8,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC014",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 7,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC013",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 6,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC012",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 5,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC011",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 4,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC010",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 3,
+		alliance: true,
+		talents: 0
+	},
+	{
+		type: "captain",
+		id: "STAC009",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 2,
+		alliance: true,
+		talents: 0
 	}
+
 ];
