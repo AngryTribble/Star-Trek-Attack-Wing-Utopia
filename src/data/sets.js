@@ -1459,7 +1459,7 @@ module.exports = [
 		type: "set",
 		id: "71525",
 		gameId: 1,
-		name: "Scout Cube",
+		name: "Scout 608",
 		releaseDate: "2014-09-03",
 		parentSet: "Wave 7"
 	},
