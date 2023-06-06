@@ -56,9 +56,7 @@ module.exports = function(grunt) {
 					"staw-utopia/js/utopia.min.js": [ "src/js/*.js", "src/js/common/*.js", "<%= ngtemplates.utopia.dest %>" ]
 				},
 				options: {
-					sourceMap: {
-						includeSources: true
-					}
+					sourceMap: true,
 				}
 			}
 		},
