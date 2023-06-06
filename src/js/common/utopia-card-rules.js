@@ -257,6 +257,17 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return returnValue;
 	}
 
+	var getOccupiedSlot = function(upgrade, ship){
+		var id = upgrade.id;
+		for ( var i = 0; i < ship.upgrades.length; i++) {
+			var slotUpgrade = ship.upgrades[i];
+			if (slotUpgrade?.occupant?.id == id) {
+				return slotUpgrade.type[0];
+			}
+		}
+		return null;
+	}
+
 	// the following return object represents a massive lookup table to resolve special card rules by a key of "cardType:cardId"
 	return {
 
@@ -2115,7 +2126,7 @@ intercept: {
 				ship: {
 					// All Vulcan/Federation tech is -2 SP
 					cost: function(upgrade, ship, fleet, cost) {
-					if( ( $factions.hasFaction(upgrade,"federation", ship, fleet) || $factions.hasFaction(upgrade,"bajoran", ship, fleet) || $factions.hasFaction(upgrade,"vulcan", ship, fleet) ) && upgrade.type == "tech" )
+					if( ( $factions.hasFaction(upgrade,"federation", ship, fleet) || $factions.hasFaction(upgrade,"bajoran", ship, fleet) || $factions.hasFaction(upgrade,"vulcan", ship, fleet) ) && getOccupiedSlot(upgrade, ship) == "tech" )
 							return resolve(upgrade, ship, fleet, cost) - 2;
 						return cost;
 					},
