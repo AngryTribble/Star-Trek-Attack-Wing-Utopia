@@ -5011,6 +5011,18 @@ intercept: {
 	//Robinson :71213
 
 	//Dreadnought(old) :71212
+		"ship:S221": {
+			intercept: {
+				ship: {
+					canEquipCaptain: function (captain, ship, fleet) {
+						return false;
+					},
+					canEquipAdmiral: function (captain, ship, fleet) {
+						return false;
+					}
+				}
+			}
+		},
 		// Counter Measures - one per ship only, +5 SP on any ship except ATR-4107
 		"tech:T112": {
 			canEquip: function(upgrade,ship,fleet) {
@@ -6367,6 +6379,18 @@ intercept: {
 
 
 	//Dreadnought :72013wp
+		"ship:S265": {
+			intercept: {
+				ship: {
+					canEquipCaptain: function (captain, ship, fleet) {
+						return false;
+					},
+					canEquipAdmiral: function (captain, ship, fleet) {
+						return false;
+					}
+				}
+			}
+		},
 		//Captured
 		"question:Q011": {
 			isSlotCompatible: function(slotTypes) {
