@@ -257,6 +257,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		return returnValue;
 	}
 
+
 	var getOccupiedSlot = function(upgrade, ship){
 		var id = upgrade.id;
 		for ( var i = 0; i < ship.upgrades.length; i++) {
@@ -266,6 +267,18 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			}
 		}
 		return null;
+
+	var hasDaharMaster = function(card){
+		var foundDaharMasterTalent = false;
+		card.upgradeSlots.forEach(element => {
+			if (element.occupant) {
+				if (element.occupant.name === "Dahar Master") {
+					foundDaharMasterTalent = true;
+				}
+			}
+		});
+		return foundDaharMasterTalent
+
 	}
 
 	// the following return object represents a massive lookup table to resolve special card rules by a key of "cardType:cardId"
@@ -882,7 +895,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		fleet: {
 			// Add Skill to Kor, Koloth and Kang
 			skill: function(card,ship,fleet,skill) {
-				if( card == ship.captain && ((card.name == "Kor") || (card.name == "Kang") || (card.name == "Koloth")))
+				if( card == ship.captain && ((card.name == "Kor") || (card.name == "Kang") || (card.name == "Koloth")) && hasDaharMaster(card))
 					return resolve(card,ship,fleet,skill) +1;
 				return skill;
 			}
