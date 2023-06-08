@@ -107,6 +107,9 @@ module.factory( "$factions", [ "$filter", function($filter) {
 	            let isConsideredInFaction = factions.includes(faction) || primeFactions.includes(faction);
 	            return isConsideredInFaction;
 	        },
+			hasAnyFaction: function(card, factions, ship, fleet) {
+				return factions.some(f => this.hasFaction(card, f, ship, fleet));
+			},		
 	        match: function(card, other, ship, fleet) {
 	            var match = false;
 	            $.each( valueOf(card,"factions",ship,fleet), function(i, cardFaction) {
@@ -263,10 +266,11 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		for ( var i = 0; i < ship.upgrades.length; i++) {
 			var slotUpgrade = ship.upgrades[i];
 			if (slotUpgrade?.occupant?.id == id) {
-				return slotUpgrade.type[0];
+				return slotUpgrade;
 			}
 		}
 		return null;
+	}
 
 	var hasDaharMaster = function(card){
 		var foundDaharMasterTalent = false;
@@ -2139,7 +2143,7 @@ intercept: {
 				ship: {
 					// All Vulcan/Federation tech is -2 SP
 					cost: function(upgrade, ship, fleet, cost) {
-					if( ( $factions.hasFaction(upgrade,"federation", ship, fleet) || $factions.hasFaction(upgrade,"bajoran", ship, fleet) || $factions.hasFaction(upgrade,"vulcan", ship, fleet) ) && getOccupiedSlot(upgrade, ship) == "tech" )
+					if ( $factions.hasAnyFaction(upgrade,["federation","bajoran", "vulcan"], ship, fleet) && (upgrade.type == "tech" || getOccupiedSlot(upgrade, ship)?.type?.includes("tech") ))
 							return resolve(upgrade, ship, fleet, cost) - 2;
 						return cost;
 					},
