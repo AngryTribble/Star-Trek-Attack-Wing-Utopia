@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 				options: { reload: true },
 			},
 			js: {
-				files: ["src/js/*.js", "src/js/common/*.js"],
+				files: ["src/js/*.js", "src/js/common/**/*.js"],
 				tasks: ["build-js"],
 			},
 			templates: {
@@ -53,12 +53,12 @@ module.exports = function(grunt) {
 		uglify: {
 			js: {
 				files: {
-					"staw-utopia/js/utopia.min.js": [ "src/js/*.js", "src/js/common/*.js", "<%= ngtemplates.utopia.dest %>" ]
+					"staw-utopia/js/utopia.min.js": [ "src/js/*.js", "src/js/common/**/*.js", "<%= ngtemplates.utopia.dest %>" ]
 				},
 				options: {
 					sourceMap: {
 						includeSources: true
-					}
+					},
 				}
 			}
 		},
