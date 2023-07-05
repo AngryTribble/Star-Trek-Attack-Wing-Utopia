@@ -5900,295 +5900,444 @@ module.exports = [
 	},
 
 	// Alliance Builder
+
 	{
 		type: "captain",
-		id: "STAC008",
+		id: "AC0001",
 		gameId: 1,
 		set: [
 			"80000"
 		],
 		name: "Player Captain",
 		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 9,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC007",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 8,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC006",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 7,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC005",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 6,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC004",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 5,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC003",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 4,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC002",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"federation"
-		],
-		cost: 0,
-		skill: 3,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC001",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
 		factions: [
 			"federation"
 		],
 		cost: 0,
 		skill: 2,
 		alliance: true,
-		talents: 0
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0002",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 3,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0003",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 4,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0004",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 5,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0005",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 6,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0006",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 7,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0007",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 8,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0008",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"federation"
+		],
+		cost: 0,
+		skill: 9,
+		alliance: true,
+		talents: 1
 	},
 
-	// Klingons
+	// Klingon //
+
 	{
 		type: "captain",
-		id: "STAC016",
+		id: "AC0009",
 		gameId: 1,
 		set: [
 			"80000"
 		],
 		name: "Player Captain",
 		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 9,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC015",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 8,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC014",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 7,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC013",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 6,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC012",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 5,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC011",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 4,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC010",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
-		factions: [
-			"klingon"
-		],
-		cost: 0,
-		skill: 3,
-		alliance: true,
-		talents: 0
-	},
-	{
-		type: "captain",
-		id: "STAC009",
-		gameId: 1,
-		set: [
-			"80000"
-		],
-		name: "Player Captain",
-		unique: false,
-		text: "\n\n\n\n\n\n <i>(For use with Alliance Builder only)</i>",
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
 		factions: [
 			"klingon"
 		],
 		cost: 0,
 		skill: 2,
 		alliance: true,
-		talents: 0
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0010",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 3,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0011",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 4,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0012",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 5,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0013",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 6,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0014",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 7,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0015",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 8,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0016",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"klingon"
+		],
+		cost: 0,
+		skill: 9,
+		alliance: true,
+		talents: 1
+	},
+
+	// Romulan //
+
+	{
+		type: "captain",
+		id: "AC0017",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 2,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0018",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 3,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0019",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 4,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0020",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 5,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0021",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 6,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0022",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 7,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0023",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 8,
+		alliance: true,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "AC0024",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Player Captain",
+		unique: false,
+		text: "<i>(For use with Alliance Builder only)</i> \n\n <b>Talent Slots:</b> To add a talent slot search for 'Talent Slot' and equip it. \n\n <b>Upgrade Slots:</b> To add an upgrade slot click the 'Reset' button and search for 'Upgrade Slots'",
+		factions: [
+			"romulan"
+		],
+		cost: 0,
+		skill: 9,
+		alliance: true,
+		talents: 1
 	}
 
 ];

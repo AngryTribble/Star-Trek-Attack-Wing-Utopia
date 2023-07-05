@@ -59,27 +59,28 @@
 		</search-filter-group>
 
 		<search-filter-group title="Owned Expansions">
-			<div class="u-search-filter-comment">
-				Expansion filter settings are stored in your browser for future sessions. Uncheck the expansions you don't own. New expansions are automatically checked. These settings are not affected by the "Reset" button.
-			</div>
-			<div class="u-search-filter-comment">
-				<label class="u-label"><input type="checkbox" ng-model="search.ignoreSetsFilter"> Temporarily show all cards</label>
-			</div>
-			<button ng-click="uncheckAllSets()">Uncheck all sets</button>
-			<button ng-click="checkAllSets()">Check all sets</button>
-			<button ng-click="exportSets()">Export Sets</button>
-			<div class="u-search-filter-comment">Import Sets...</div>
-			<input type="file" multiple onchange="angular.element(this).scope().importSets(this)">
-			<div ng-repeat="set in setList | orderBy:'-releaseDate'" class="u-search-set" ng-hide="search.ignoreSetsFilter">
-				<label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search = search.sets[set.id].searched || (set.name === 'Builder') ? false : true"> {{set.parentSet}}: {{set.name}}</label>
-			</div>
+		  <div class="u-search-filter-comment">
+		    Expansion filter settings are stored in your browser for future sessions. Uncheck the expansions you don't own. New expansions are automatically checked. These settings are not affected by the "Reset" button.
+		  </div>
+		  <div class="u-search-filter-comment">
+		    <label class="u-label"><input type="checkbox" ng-model="search.ignoreSetsFilter"> Temporarily show all cards</label>
+		  </div>
+		  <button ng-click="uncheckAllSets()">Uncheck all sets</button>
+		  <button ng-click="checkAllSets()">Check all sets</button>
+		  <button ng-click="exportSets()">Export Sets</button>
+		  <div class="u-search-filter-comment">Import Sets...</div>
+		  <input type="file" multiple onchange="angular.element(this).scope().importSets(this)">
+		  <div ng-repeat="set in setList | orderBy:'-releaseDate'" class="u-search-set" ng-hide="search.ignoreSetsFilter">
+		    <label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search = (set.name === 'Builder') ? false : true"> {{set.parentSet}}: {{set.name}}</label>
+		  </div>
 		</search-filter-group>
+
 
 	</div>
 
 </div>
 
-<div ng-init="resultLimit = 10">
+<div ng-init="resultLimit = 10>
 
 	<div class="u-loading" ng-show="loading">Loading cards...</div>
 
