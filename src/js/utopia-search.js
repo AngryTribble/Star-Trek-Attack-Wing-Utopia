@@ -448,6 +448,7 @@ module.directive( "search", function() {
 					set.search = true;
 				} );
 			};
+
 		}]
 	};
 

@@ -1,6 +1,43 @@
 module.exports = [
 	{
 		type: "ship",
+		id: "S382",
+		gameId: 2,
+		set: [
+			"80003"
+		],
+		name: "Dominion Starship",
+		class: "Breen Battle Cruiser",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 4,
+		shields: 3,
+		cost: 16,
+		text: "",
+		unique: false,
+		alliance: true,
+		factions: [
+			"dominion"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
 		id: "S381",
 		gameId: 2,
 		set: [
@@ -713,7 +750,8 @@ module.exports = [
 		id: "S353",
 		gameId: 1,
 		set: [
-			"75012"
+			"75012",
+			"80003"
 		],
 		name: "Romulan Starship",
 		class: "D'deridex Class",
@@ -2866,7 +2904,8 @@ module.exports = [
 		id: "S288",
 		gameId: 1,
 		set: [
-			"75002"
+			"75002",
+			"80003"
 		],
 		name: "Jem'Hadar Battleship",
 		class: "Jem'Hadar Battleship",
@@ -6317,7 +6356,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 3,
-		cost: 24,
+		cost: 16,
 		text: "\r\n      ",
 		unique: false,
 		factions: [
@@ -7225,7 +7264,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 3,
-		cost: 24,
+		cost: 16,
 		text: "",
 		unique: false,
 		factions: [
@@ -13003,7 +13042,7 @@ module.exports = [
 	// Alliance Builder Tools
 	{
 		type: "ship",
-		id: "STA001",
+		id: "AS0001",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13034,10 +13073,9 @@ module.exports = [
 		],
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA002",
+		id: "AS0002",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13069,10 +13107,9 @@ module.exports = [
 		],
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA003",
+		id: "AS0003",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13108,10 +13145,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA004",
+		id: "AS0004",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13145,10 +13181,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA005",
+		id: "AS0005",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13182,10 +13217,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA006",
+		id: "AS0006",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13220,10 +13254,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA007",
+		id: "AS0007",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13259,10 +13292,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA008",
+		id: "AS0008",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13297,10 +13329,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA009",
+		id: "AS0009",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13336,10 +13367,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA010",
+		id: "AS0010",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13358,27 +13388,22 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
+		text: "",
 		attack: 4,
 		agility: 2,
 		hull: 4,
 		shields: 4,
 		cost: 0,
-		text: "",
 		unique: false,
 		alliancelogo: true,
 		factions: [
 			"federation"
 		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA011",
+		id: "AS0011",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13414,10 +13439,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA012",
+		id: "AS0012",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13453,10 +13477,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA013",
+		id: "AS0013",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13494,7 +13517,7 @@ module.exports = [
 	},
 	{
 		type: "ship",
-		id: "STA014",
+		id: "AS0014",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13530,10 +13553,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA015",
+		id: "AS0015",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13570,10 +13592,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA016",
+		id: "AS0016",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13610,10 +13631,9 @@ module.exports = [
 		},
 		squadron: false
 	},
-
 	{
 		type: "ship",
-		id: "STA017",
+		id: "AS0017",
 		gameId: 1,
 		set: [
 			"80000"
@@ -13651,7 +13671,229 @@ module.exports = [
 	},
 	{
 		type: "ship",
-		id: "STA018",
+		id: "AS0018",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "B'Rel Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0019",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "B'Rel Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		text: "\r\n      ",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0020",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "B'Rel Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 3,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0021",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "K'T'Inga Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0022",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "K'T'Inga Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 4,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0023",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Klingon Starship",
+		class: "K'Vort Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"klingon"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0024",
 		gameId: 2,
 		set: [
 			"80000"
@@ -13688,13 +13930,13 @@ module.exports = [
 	},
 	{
 		type: "ship",
-		id: "STA019",
-		gameId: 2,
+		id: "AS0025",
+		gameId: 1,
 		set: [
 			"80000"
 		],
 		name: "Klingon Starship",
-		class: "K'Vort Class",
+		class: "Negh'var Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -13703,49 +13945,13 @@ module.exports = [
 		],
 		upgrades: [
 			"tech",
-			"weapon",
-			"crew"
-		],
-		attack: 4,
-		agility: 1,
-		hull: 5,
-		shields: 2,
-		cost: 0,
-		text: "",
-		unique: false,
-		alliancelogo: true,
-		factions: [
-			"klingon"
-		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
-		squadron: false
-	},
-	{
-		type: "ship",
-		id: "STA020",
-		gameId: 2,
-		set: [
-			"80000"
-		],
-		name: "Klingon Starship",
-		class: "B'Rel Class",
-		actions: [
-			"evade",
-			"target-lock",
-			"cloak",
-			"sensor-echo"
-		],
-		upgrades: [
 			"weapon",
 			"crew",
 			"crew"
 		],
-		attack: 4,
+		attack: 5,
 		agility: 1,
-		hull: 3,
+		hull: 6,
 		shields: 2,
 		cost: 0,
 		text: "",
@@ -13754,164 +13960,12 @@ module.exports = [
 		factions: [
 			"klingon"
 		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
 		squadron: false
 	},
 	{
 		type: "ship",
-		id: "STA021",
-		gameId: 2,
-		set: [
-			"80000"
-		],
-		name: "Klingon Starship",
-		class: "B'Rel Class",
-		actions: [
-			"evade",
-			"target-lock",
-			"cloak",
-			"sensor-echo"
-		],
-		upgrades: [
-			"tech",
-			"weapon",
-			"crew"
-		],
-		attack: 4,
-		agility: 1,
-		hull: 3,
-		shields: 2,
-		cost: 0,
-		text: "",
-		unique: false,
-		alliancelogo: true,
-		factions: [
-			"klingon"
-		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
-		squadron: false
-	},
-	{
-		type: "ship",
-		id: "STA022",
-		gameId: 2,
-		set: [
-			"80000"
-		],
-		name: "Klingon Starship",
-		class: "B'Rel Class",
-		actions: [
-			"evade",
-			"target-lock",
-			"cloak",
-			"sensor-echo"
-		],
-		upgrades: [
-			"weapon",
-			"weapon",
-			"crew"
-		],
-		attack: 4,
-		agility: 1,
-		hull: 3,
-		shields: 2,
-		cost: 0,
-		text: "",
-		unique: false,
-		alliancelogo: true,
-		factions: [
-			"klingon"
-		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
-		squadron: false
-	},
-	{
-		type: "ship",
-		id: "STA023",
-		gameId: 2,
-		set: [
-			"80000"
-		],
-		name: "Klingon Starship",
-		class: "K'T'Inga Class",
-		actions: [
-			"evade",
-			"target-lock",
-			"cloak",
-			"sensor-echo"
-		],
-		upgrades: [
-			"weapon",
-			"weapon",
-			"crew"
-		],
-		attack: 4,
-		agility: 1,
-		hull: 4,
-		shields: 2,
-		cost: 0,
-		text: "",
-		unique: false,
-		alliancelogo: true,
-		factions: [
-			"klingon"
-		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
-		squadron: false
-	},
-	{
-		type: "ship",
-		id: "STA024",
-		gameId: 2,
-		set: [
-			"80000"
-		],
-		name: "Klingon Starship",
-		class: "K'T'Inga Class",
-		actions: [
-			"evade",
-			"target-lock",
-			"cloak",
-			"sensor-echo"
-		],
-		upgrades: [
-			"tech",
-			"weapon",
-			"crew"
-		],
-		attack: 4,
-		agility: 1,
-		hull: 4,
-		shields: 2,
-		cost: 0,
-		text: "",
-		unique: false,
-		alliancelogo: true,
-		factions: [
-			"klingon"
-		],
-		intercept: {
-			ship: {},
-			fleet: {}
-		},
-		squadron: false
-	},
-	{
-		type: "ship",
-		id: "STA025",
-		gameId: 2,
+		id: "AS0026",
+		gameId: 1,
 		set: [
 			"80000"
 		],
@@ -13947,13 +14001,161 @@ module.exports = [
 	},
 	{
 		type: "ship",
-		id: "STA026",
-		gameId: 2,
+		id: "AS0027",
+		gameId: 1,
 		set: [
 			"80000"
 		],
-		name: "Klingon Starship",
-		class: "Negh'var Class",
+		name: "Romulan Starship",
+		class: "Romulan Bird-of-Prey",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 2,
+		agility: 2,
+		hull: 3,
+		shields: 1,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0028",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Bird-of-Prey",
+		class: "Romulan Bird-of-Prey",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 2,
+		agility: 2,
+		hull: 3,
+		shields: 1,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0029",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Starship",
+		class: "Valdore Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 6,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0030",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Starship",
+		class: "Valdore Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 6,
+		shields: 2,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0031",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Starship",
+		class: "D'deridex Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -13966,16 +14168,202 @@ module.exports = [
 			"crew",
 			"crew"
 		],
-		attack: 5,
-		agility: 1,
+		attack: 3,
+		agility: 2,
 		hull: 6,
-		shields: 2,
+		shields: 3,
 		cost: 0,
 		text: "",
 		unique: false,
 		alliancelogo: true,
 		factions: [
-			"klingon"
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0032",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Starship",
+		class: "D'deridex Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 6,
+		shields: 3,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0033",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Starship",
+		class: "D'deridex Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 6,
+		shields: 3,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0034",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Romulan Starship",
+		class: "D'deridex Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 6,
+		shields: 3,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0035",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Reman Starship",
+		class: "Reman Warbird",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 6,
+		agility: 2,
+		hull: 7,
+		shields: 3,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "AS0036",
+		gameId: 1,
+		set: [
+			"80000"
+		],
+		name: "Reman Starship",
+		class: "Reman Warbird",
+		actions: [
+			"evade",
+			"target-lock",
+			"cloak",
+			"sensor-echo"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 6,
+		agility: 2,
+		hull: 7,
+		shields: 3,
+		cost: 0,
+		text: "",
+		unique: false,
+		alliancelogo: true,
+		factions: [
+			"romulan"
 		],
 		intercept: {
 			ship: {},

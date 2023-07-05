@@ -20,7 +20,14 @@ module.exports = [
 		id: "80000",
 		gameId: 1,
 		name: "Builder",
-		releaseDate: "1800-01-31",
+		releaseDate: "2599-01-31",
+		parentSet: "Alliance"
+	},
+	{
+		type: "set",
+		id: "80003",
+		name: "Part III",
+		releaseDate: "2023-07-05",
 		parentSet: "Alliance"
 	},
 	{
