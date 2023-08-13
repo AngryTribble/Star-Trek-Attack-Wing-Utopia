@@ -92,6 +92,21 @@ module.exports = [
 	},
 	{
 		type: "crew",
+		id: "C404",
+		set: [
+			"80003"
+		],
+		name: "Tactical Officer",
+		cost: 4,
+		text: "<b>WHEN ATTACKING:</b>  \n If you are outside the target's Primary Firing Arc. \n\n Add 1 [hit] result.",
+		OnePerShip: true,
+		alliance: true,
+		factions: [
+			"romulan"
+		]
+	},
+	{
+		type: "crew",
 		id: "C403",
 		set: [
 			"80003"
@@ -21923,6 +21938,21 @@ module.exports = [
 		name: "Anticipation",
 		cost: 2,
 		text: "<b>REVEAL DIAL STEP:</b> Discard this card. \n\n Change this ship's revealed maneuver to any green or white maneuver instead.",
+		alliance: true,
+		factions: [
+			"romulan"
+		]
+	},
+	{
+		type: "crew",
+		id: "AP3014",
+		set: [
+			"80000"
+		],
+		name: "Tactical Officer",
+		cost: 4,
+		text: "<b>WHEN ATTACKING:</b>  \n If you are outside the target's Primary Firing Arc. \n\n Add 1 [hit] result.",
+		OnePerShip: true,
 		alliance: true,
 		factions: [
 			"romulan"
