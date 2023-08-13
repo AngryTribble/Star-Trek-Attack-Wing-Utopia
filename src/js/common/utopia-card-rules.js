@@ -242,6 +242,13 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		}
 	},
 
+	//Tactical Officer
+	"crew:C404":{
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Tactical Officer");
+		}
+	},
+
 	//Ops Officer
 	"crew:C402":{
 		canEquip: function(upgrade,ship,fleet) {
@@ -9905,6 +9912,13 @@ intercept: {
 "crew:AP3010":{
 	canEquip: function(upgrade,ship,fleet) {
 		return onePerShip("Sub-Commander");
+	}
+},
+
+//Tactical Officer
+"crew:AP3014":{
+	canEquip: function(upgrade,ship,fleet) {
+		return onePerShip("Tactical Officer");
 	}
 },
 
