@@ -671,12 +671,14 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 					if( card == ship)
 					return resolve(card,ship,fleet,shields) +1;
 					return shields;
+					}
 				},
+			self: {
 				cost: function(card,ship,fleet,cost) {
 					if( ship && (!hasFaction(ship,"federation",ship,fleet) && !hasFaction(ship,"bajoran",ship,fleet) && !hasFaction(ship,"vulcan",ship,fleet) ) )
 						return resolve(card,ship,fleet,cost) + 1;
 					return cost;
-				}
+				}	
 			}
 		}
 	},
@@ -1847,7 +1849,7 @@ intercept: {
 							//Upgrades cost 3 SP
 							cost: function(card,ship,fleet,cost) {
 							if( !$factions.match( card, ship, ship, fleet ) )
-								return 4;
+								return 9;
 							else if( $factions.match( card, ship, ship, fleet ) )
 								return 3;
 							return cost;
