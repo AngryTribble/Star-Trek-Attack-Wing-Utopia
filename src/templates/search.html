@@ -71,7 +71,7 @@
 		  <div class="u-search-filter-comment">Import Sets...</div>
 		  <input type="file" multiple onchange="angular.element(this).scope().importSets(this)">
 		  <div ng-repeat="set in setList | orderBy:'-releaseDate'" class="u-search-set" ng-hide="search.ignoreSetsFilter">
-		    <label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search = (set.name === 'Builder') ? false : true"> {{set.parentSet}}: {{set.name}}</label>
+		    <label class="u-label"><input type="checkbox" ng-model="search.sets[set.id].search" ng-init="search.sets[set.id].search === (set.name === 'Builder') ? false : true"> {{set.parentSet}}: {{set.name}}</label>
 		  </div>
 		</search-filter-group>
 
@@ -80,7 +80,7 @@
 
 </div>
 
-<div ng-init="resultLimit = 10>
+<div ng-init="resultLimit = 10">
 
 	<div class="u-loading" ng-show="loading">Loading cards...</div>
 
