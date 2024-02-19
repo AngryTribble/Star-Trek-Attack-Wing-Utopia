@@ -10344,6 +10344,7 @@ module.exports = [
 			"71792"
 		],
 		name: "Cube 112",
+		image: "https://placekitten.com/288/120",
 		class: "Borg Cube",
 		actions: [
 			"target-lock",
