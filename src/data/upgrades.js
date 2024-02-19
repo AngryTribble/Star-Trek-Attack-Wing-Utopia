@@ -11755,6 +11755,7 @@ module.exports = [
 			"72283"
 		],
 		name: "Borg Ablative Hull Armor",
+		image: "https://placekitten.com/288/180",
 		unique: false,
 		text: "When defending, convert all of your opponents' [crit] results into [hit] results and place all the damage cards that your ship receives beneath this card. Once there are 4 damage cards beneath this card, discard this Upgrade and all damage cards beneath it. All excess damage affects the ship as normal.",
 		factions: [
