@@ -351,7 +351,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	]
 	},
 	
-
 	//Tactical Superiority Commander
 	"talent:E231":{
 		canEquip: function(upgrade,ship,fleet) {
