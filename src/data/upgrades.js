@@ -220,6 +220,21 @@ module.exports = [
 	},
 	{
 		type: "crew",
+		id: "C426",
+		set: [
+			"75014"
+		],
+		name: "Lower Decks",
+		cost: 0,
+		text: "Equip this card to a crew slot to utilize the Lower Decks keyword functionality. \n\n\n\n <b>NOT A REAL CARD \n\nFOR UTOPIA USE ONLY</b>",
+		alliance: false,
+		factions: [
+			"federation"
+		]
+	},
+
+	{
+		type: "crew",
 		id: "C425",
 		set: [
 			"75014"
