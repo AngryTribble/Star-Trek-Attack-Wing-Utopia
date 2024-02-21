@@ -184,6 +184,365 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			}
 		},
 
+//Lost in the Delta Quadrant
+
+
+	//Rudolph Ransom
+	"captain:Cap022":{
+		//Creates a new crew slot
+		upgradeSlots: [{},
+			{
+				type: ["crew"]
+			}
+		],
+	},
+
+	//Magnus Hansen
+	"captain:Cap023" :{
+		//Can only be equipped to ships with a Hull of 3 or less
+		canEquipCaptain: function(upgrade,ship,fleet) {
+			return ship.hull <= 3;
+		}
+	},
+
+	//Chakotay - Captain
+	"captain:Cap024":{
+		//Creates a new crew slot
+		upgradeSlots: [{},
+			{
+				type: ["crew"]
+			}
+		]
+	},
+
+	//Chakotay - Crew
+	"crew:C405": {
+		//Creates a new crew slot
+		upgradeSlots: [
+			{
+				type: ["crew"]
+			}
+		]
+	},
+	
+	//Tom Paris
+	"captain:Cap025":{
+		//Can only be equipped to ships with a Hull of 3 of less
+		canEquipCaptain: function(upgrade,ship,fleet) {
+			return ship.hull <= 3;
+		}
+	},
+
+	// The Doctor - Captain
+	"captain:Cap028": {
+    	// Creates two new Captain slots
+    	upgradeSlots: [{},{
+            	type: ["captain"],
+            	rules: "Captain to place under The Doctor \n Both cards must combine for a total cost of 6 SP",
+            	intercept: {
+                	ship: {
+                    	cost: function() {
+                        	return 0;
+                    	},
+						canEquip: function(card,ship,fleet,canEquip) {
+							if( !$factions.hasFaction( card, "federation", ship, fleet ) )
+								return false;
+							return canEquip;
+						}
+                	}
+            	}
+        	},
+        	{
+            	type: ["captain"],
+            	rules: "Captain to place under The Doctor \n Both cards must combine for a total cost of 6 SP",
+            	intercept: {
+                	ship: {
+                    	cost: function() {
+                        	return 0;
+                    	},
+						canEquip: function(card,ship,fleet,canEquip) {
+							if( !$factions.hasFaction( card, "federation", ship, fleet ) )
+								return false;
+							return canEquip;
+						}
+                	}
+            	}
+        	}
+    	]
+	},
+
+	//The Doctor - Question
+	"question:Q028":{
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray("tech", slotTypes) >= 0 || $.inArray("crew", slotTypes) >=0;
+		}
+	},
+
+	//Marla Gilmore
+	"crew:C410":{
+		//Creates a new tech slot
+		upgradeSlots: [
+			{
+				type: ["tech"]
+			}
+		]
+	},
+
+	//Erin Hansen
+	"crew:C413":{
+		//Can only be equipped to a Aerie Class
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Aerie Class"
+		}
+	},
+
+	//Timothy Lang
+	"crew:C418":{
+		intercept: {
+			ship: {
+				//Gives the Captain a +1 Skill boost
+				skill: function(upgrade,ship,fleet,skill) {
+					if( upgrade == ship.captain )
+						return resolve(upgrade,ship,fleet,skill) +1;
+					return skill;
+				}
+			}
+		}
+	},
+
+	//Seven of Nine
+	"crew:C422":{
+		//Creates a new Tech or Borg slot
+		upgradeSlots: [
+			{
+				type: ["tech", "borg"]
+			}
+		]
+	},
+
+	//Aaron Cavit
+	"crew:C423":{
+		//Creates a new Crew slot
+		upgradeSlots: [
+			{
+				type: ["crew"]
+			}
+		]
+	},
+
+	//Tactical Superiority Commander
+	"talent:E231":{
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.captain.skill >= 8;
+		}
+	},
+
+	//Transphasic Torpedoes
+	"weapon:W240": {
+		canEquip: onePerShip("Transphasic Torpedoes"),
+		attack: 0,
+		intercept: {
+			self: {
+				//Attack is the same as ships printed Hull Value +1
+				attack: function(upgrade,ship,fleet,attack) {
+					if( ship )
+						return valueOf(ship,"hull",ship,fleet) +1;
+					return attack;
+				}
+			}
+		}
+	},
+
+
+
+	//Gravimetric Torpedoes
+	"weapon:W241": {
+		//Only one can be equipped to a ship with a hull of 4 or greater
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.hull >= 4 && onePerShip("Gravimetric Torpedoes")(upgrade,ship,fleet);
+		}
+	},
+	
+	//Photonic Missles
+	"weapon:W242":{
+		//Can only be equipped to a Delta Flyer Class
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Delta Flyer Class" && onePerShip("Photonic Missles")(upgrade,ship,fleet);
+		}
+	},
+
+	//Temporal Shielding
+	"tech:T296":{
+		canEquip: onePerShip("Temporal Shielding"),
+		intercept: {
+			ship: {
+				shields: function(card,ship,fleet,shields) {
+					if( card == ship )
+					return resolve(card,ship,fleet,shields) +1;
+				return shields;
+				}
+			}
+		}
+	},
+
+	//Multi-Adaptive Shields
+	"tech:T297":{
+		//Only one can be equipped to a Federation ship
+		canEquip: onePerShip("Multi-Adaptive Shields"),
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship, "federation", ship, fleet) || hasFaction(ship, "bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
+		},
+		intercept: {
+			ship: {
+				shields: function(card,ship,fleet,shields) {
+					if( card == ship )
+					return resolve(card,ship,fleet,shields) +1;
+				return shields;
+				}
+			}
+		}
+	},
+	
+
+	//Bio-Neural Circitry
+	"tech:T298":{
+		canEquip: onePerShip("Bio-Neural Circuitry"),
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship, "federation", ship, fleet) || hasFaction(ship, "bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
+		},
+		intercept: {
+			self: {
+				cost: function(upgrade,ship,fleet,cost) {
+					if( ship.class == "Intrepid Class" || ship.class == "Sovereign Class" || ship.class == "Luna Class") {
+					return resolve(upgrade,ship,fleet,cost) +0;
+				} else {
+					return resolve(upgrade,ship,fleet,cost) +3;
+					}
+				}
+			}
+		}
+		
+	},
+
+	//Variable Geometry Pylons
+	"tech:T299":{
+		//Can only have one equipped to an Intrepid Class
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Intrepid Class" && onePerShip("Variable Geometry Pylons")(upgrade,ship,fleet);
+		}
+	},
+
+
+	//Astrometrics Lab
+	"tech:T300":{
+		upgradeSlots: [
+			{
+				type: ["tech"]
+			}
+		],
+		canEquip: onePerShip("Astrometrics Lab"),
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return ship && ( $factions.hasFaction(ship,"federation", ship, fleet) || $factions.hasFaction(ship,"bajoran", ship, fleet) || $factions.hasFaction(ship,"vulcan", ship, fleet) ) && ship.hull >= 4;
+		},
+		intercept: {
+			self: {
+				cost: function(upgrade,ship,fleet,cost) {
+					if( ship.class == "Intrepid Class" || ship.class == "Sovereign Class" || ship.class == "Luna Class") {
+					return resolve(upgrade,ship,fleet,cost) +0;
+				} else {
+					return resolve(upgrade,ship,fleet,cost) +2;
+					}
+				}
+			}
+		}
+
+	},
+
+	//Re-Chargeable Shield Emitters
+	"tech:T301":{
+		//Can only have one equipped to a Nova Class
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class =="Nova Class" && onePerShip("Re-Chargeable Shield Emitters")(upgrade,ship,fleet);
+		},
+		intercept: {
+			ship: {
+				shields: function(card,ship,fleet,shields) {
+					if( card == ship )
+					return resolve(card,ship,fleet,shields) +1;
+				return shields;
+				}
+			}
+		}
+	},
+
+	//Coffee, Black
+	"question:Q029":{
+		//Can only have one equipped to a Federation Captain
+		canEquip: onePerShip("Coffee, Black"),
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		},
+		//Can be equipped to any slot
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0;
+		},
+		//Clone slot it takes
+		upgradeSlots: [
+			{
+				type: function(upgrade,ship) {
+					return getSlotType(upgrade,ship);
+				}
+			}
+		]
+	},
+
+
+	//U.S.S. Voyager (Year of Hell)
+	"question:Q030": {
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return (ship.id == "S385");
+		},
+		//Can be equipped to any slot
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0 || $.inArray( "crew", slotTypes ) >= 0 || $.inArray( "borg", slotTypes ) >= 0;
+		},		
+		//Clone slot it takes
+		upgradeSlots: [
+			{
+				type: ["tech", "weapon", "crew", "borg"],
+				rules: "Costs -2 SP. Only equip Upgrade cards for slot that was replaced.",
+				intercept: {
+					ship: {
+						cost: function(card,ship,fleet,cost) {
+							return resolve(card,ship,fleet,cost) -2;
+						}
+					}
+				}
+			}
+		]	
+	},
+
+	//Ablative Generator
+	"starship_construction:Con002": {
+		canEquip: onePerShip("Ablative Generator"),
+		canEquipConstruction: function(upgrade,ship,fleet) {
+			return ship.hull >= 4 && ship.shields >= 3;
+		},
+		cost: 0,
+		intercept: {
+			self: {
+				//Cost is the same as ships printed Hull Value +2
+				cost: function(upgrade,ship,fleet,cost) {
+					if( ship )
+						return valueOf(ship,"hull",ship,fleet) +2;
+					return cost;
+				}
+			}
+		}
+},
+
+
+
 //Alliance Part III
 
 	//Engineer

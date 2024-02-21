@@ -2,8 +2,6 @@
 
 	<div class="card-image"></div>
 
-
-
 	<div class="card-corner-top-left pull-left">
 		<i ng-if="upgrade.unique" class="card-unique-icon fs fs-unique pull-left"></i>
 		<i ng-if="upgrade.OnePerShip" class="card-OnePerShip-icon fs fs-OnePerShip pull-left"></i>
@@ -66,6 +64,8 @@
 
 		<i ng-if="upgrade.attackConstraint" class="card-attackConstraint-icon">{{upgrade|valueOf:'attackConstraint':ship:fleet}}</i>
 		<i ng-if="upgrade.hullConstraint" class="card-hullConstraint-icon">{{upgrade|valueOf:'hullConstraint':ship:fleet}}</i>
+		<i ng-if="upgrade.shieldConstraint" class="card-shieldConstraint-icon">{{upgrade|valueOf:'shieldConstraint':ship:fleet}}</i>
+		<i ng-if="upgrade.csConstraint" class="card-csConstraint-icon">{{upgrade|valueOf:'csConstraint':ship:fleet}}</i>
 		<i ng-if="upgrade.FrontArc" class="card-FrontArc-icon fs fs-FrontArc"></i>
 		<i ng-if="upgrade.RearArc" class="card-RearArc-icon fs fs-RearArc"></i>
 		<i ng-if="upgrade.arc360" class="card-360Arc-icon fs fs-360Arc"></i>
@@ -83,6 +83,14 @@
 		<i ng-if="upgrade.hirogenLimit" class="card-hirogenLimit-icon fs fs-hirogenLimit"></i>
 		<i ng-if="upgrade.maquisraiderLimit" class="card-maquisraiderLimit-icon fs fs-maquisraiderLimit"></i>
 		<i ng-if="upgrade.prometheusLimit" class="card-prometheusLimit-icon fs fs-prometheusLimit"></i>
+		<i ng-if="upgrade.excelsiorLimit" class="card-excelsiorLimit-icon fs fs-excelsiorLimit"></i>
+		<i ng-if="upgrade.nxLimit" class="card-nxLimit-icon fs fs-nxLimit"></i>
+		<i ng-if="upgrade.deltaflyerLimit" class="card-deltaflyerLimit-icon fs fs-deltaflyerLimit"></i>
+		<i ng-if="upgrade.intrepidLimit" class="card-intrepidLimit-icon fs fs-intrepidLimit"></i>
+		<i ng-if="upgrade.aerieLimit" class="card-aerieLimit-icon fs fs-aerieLimit"></i>
+		<i ng-if="upgrade.numiriLimit" class="card-numiriLimit-icon fs fs-numiriLimit"></i>
+		<i ng-if="upgrade.neradaLimit" class="card-neradaLimit-icon fs fs-neradaLimit"></i>
+		<i ng-if="upgrade.sovereignLimit" class="card-sovereignLimit-icon fs fs-sovereignLimit"></i>
 		<i ng-if="upgrade.constitutionkLimit" class="card-constitutionkLimit-icon fs fs-constitutionkLimit"></i>
 		<i ng-if="upgrade.remanLimit" class="card-remanLimit-icon fs fs-remanLimit"></i>
 		<i ng-if="upgrade.kvortLimit" class="card-kvortLimit-icon fs fs-kvortLimit"></i>

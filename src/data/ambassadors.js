@@ -1,6 +1,22 @@
 module.exports = [
 	{
 		type: "ambassador",
+		id: "M013",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "Neelix",
+		cost: 3,
+		text: "<b>NEGOTIATIONS ACCEPTED:</b> \n\n For the rest of the game, if this ship moves within Range 1 of the target ship or the target ship moves within Range 1 of this ship. Place either a [battlestations] or [evade] Token beside the ship that moved. <hr> <b>NEGOTIATIONS DENIED:</b> This ship gains the following ability: \n\n <b>END PHASE:</b> Select either a [battlestations], [evade], or [scan] Token beside this ship. \n\n That token does not get removed this End Phase.",
+		unique: true,
+		factions: [
+			"federation",
+			"independent"
+		]
+	},
+	{
+		type: "ambassador",
 		id: "M008",
 		gameId: 1,
 		set: [

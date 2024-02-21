@@ -258,6 +258,34 @@
 	text-align: center;
 }
 
+.card-shieldConstraint-icon {
+	background: url("../img/restrictions/shield-limit.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: white;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
+.card-csConstraint-icon {
+	background: url("../img/restrictions/upgrade-captain-skill.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: yellow;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
 .card-shipLimit-icon {
 	background: url("../img/restrictions/upgrade-ship-limit.png")no-repeat;
 	background-size: 1em;
@@ -404,6 +432,103 @@
 
 .card-prometheusLimit-icon {
 	background: url("../img/restrictions/fedPrometheus.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-excelsiorLimit-icon {
+	background: url("../img/restrictions/fedExcelsior.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-nxLimit-icon {
+	background: url("../img/restrictions/fedNX.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-deltaflyerLimit-icon {
+	background: url("../img/restrictions/fedDeltaFlyer.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-intrepidLimit-icon {
+	background: url("../img/restrictions/fedIntrepid.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-aerieLimit-icon {
+	background: url("../img/restrictions/fedAerie.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+
+.card-numiriLimit-icon {
+	background: url("../img/restrictions/indNumiri.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-neradaLimit-icon {
+	background: url("../img/restrictions/indNerada.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
+.card-sovereignLimit-icon {
+	background: url("../img/restrictions/fedSovereign.png") no-repeat;
 	background-size: 1em;
 	color: gray;
 	width: 1.2em;

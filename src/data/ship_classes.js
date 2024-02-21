@@ -1,6 +1,34 @@
 module.exports = [
 	{
 		type: "ship-class",
+		id: "delta_flyer_class",
+		gameId: 1,
+		name: "Delta Flyer Class",
+		frontArc: "90",
+		rearArc: "90",
+		maneuvers: {
+			1: {
+				straight: "green",
+				bank: "green",
+				turn: "white",
+				about: "white"
+			},
+			2: {
+				straight: "green",
+				bank: "green",
+				turn: "white",
+				about: "white"
+			},
+			3: {
+				straight: "white",
+				bank: "white"
+			},
+			min: 1,
+			max: 3
+		}
+	},
+	{
+		type: "ship-class",
 		id: "kelvin_constitution_class",
 		gameId: 1,
 		name: "Constitution Class (Kelvin)",

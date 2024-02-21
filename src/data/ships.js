@@ -1,6 +1,430 @@
 module.exports = [
 	{
 		type: "ship",
+		id: "S393",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "Delta Flyer II",
+		image: "",
+		class: "Delta Flyer Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 2,
+		shields: 3,
+		cost: 12,
+		text: "<b>WHEN THIS SHIP PERFORMS A</b> [target-lock] <b>OR</b> [evade] <b>ACTION:</b> \n\n You may perform a [sensor-echo] Action as a Free Action even if this ship is not cloaked, then place a [battlestations] Token beside this ship.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S392",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "Federation Starship",
+		image: "",
+		class: "Delta Flyer Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 2,
+		shields: 2,
+		cost: 11,
+		text: "",
+		unique: false,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S391",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "Delta Flyer",
+		image: "",
+		class: "Delta Flyer Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 2,
+		shields: 3,
+		cost: 12,
+		text: "<b> WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n\n You may fire out of your <img src='img/text/rear-arc.png' width='20' height='20'> at -1 attack dice.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S390",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "Federation Starship",
+		image: "",
+		class: "Aerie Class",
+		actions: [
+			"evade",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"crew"
+		],
+		attack: 1,
+		agility: 2,
+		hull: 2,
+		shields: 2,
+		cost: 7,
+		text: "",
+		unique: false,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S389",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Raven",
+		image: "",
+		class: "Aerie Class",
+		actions: [
+			"evade",
+			"scan"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"crew"
+		],
+		attack: 1,
+		agility: 2,
+		hull: 2,
+		shields: 3,
+		cost: 10,
+		text: "<b> COMBAT PHASE:</b> Target an opposing ship within Range 1. \n\n The target ship cannot attack this ship this game round. If the target ship is the only opposing ship in play, then it rolls -3 attack dice against this ship this game round instead.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S388",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Nova",
+		image: "",
+		class: "Nova Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 2,
+		agility: 2,
+		hull: 3,
+		shields: 3,
+		cost: 13,
+		text: "This ship does not skip it's Perform Action Step when overlapping an Obstacle. <hr> <b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target each friendly ship within Range 1. \n\n Place a [scan] Token beside this ship and each target ship.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S387",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Equinox",
+		image: "",
+		class: "Nova Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 2,
+		agility: 2,
+		hull: 3,
+		shields: 3,
+		cost: 13,
+		text: "This ship does not skip it's Perform Action Step when overlapping an Obstacle. <hr> <b>REVEAL DIAL STEP:</b> Target another Ship within Range 1. \n\n You may discard a [crew_text] Upgrade equipped to the target ship. If you do, increase the speed of this ship's revealed Maneuver by 2 and this ship suffers 1 damage.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S386",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Intrepid NCC-74600",
+		image: "",
+		class: "Intrepid Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 4,
+		shields: 5,
+		cost: 25,
+		text: "The 'Bio-Neural Circuitry' and 'Variable Geometry Pylons' [tech_text] Upgrades equipped to this ship cost -1 SP. <hr> <b>PLANNING PHASE:</b> Target a cloaked opposing ship within Range 1-2, if that ship is <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> you may choose one additional target. \n\n The Target(s) can only use a 1 [straight] Template when performing a [sensor-echo] Action this game round.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S385",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Voyager",
+		image: "",
+		class: "Intrepid Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 4,
+		shields: 5,
+		cost: 25,
+		text: "<b>FLEET CONSTRUCTION:</b> You may reduce the cost of any number of Upgrades equipped to this ship by -2 SP. For each Upgrade reduced this way, suffer 1 damage at the start of the game (to either Shields or Hull, players choice).",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation",
+			"mirror-universe"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S384",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Voyager",
+		image: "",
+		class: "Intrepid Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 4,
+		shields: 5,
+		cost: 26,
+		text: "<b>DECLARE TARGET STEP:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n You may attack a target with this ship's Primary Weapon outside of your <img src='img/text/forward-arc.png' width='20' height='20'> at Range 1-2.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S383",
+		gameId: 1,
+		set: [
+			"75014"
+		],
+		name: "U.S.S. Voyager",
+		image: "",
+		class: "Intrepid Class",
+		actions: [
+			"evade",
+			"target-lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 4,
+		shields: 5,
+		cost: 25,
+		text: "<b>ACTION:</b> \n Increase this ship's Agility Value by 1 this game round and repair 1 Hull or Shield on this ship. If there are no friendly ships within Range 1-2, this is a Free Action instead.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"federation"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
 		id: "S382",
 		gameId: 2,
 		set: [
@@ -7318,7 +7742,8 @@ module.exports = [
 		id: "S162",
 		gameId: 1,
 		set: [
-			"71276"
+			"71276",
+			"75014"
 		],
 		name: "Federation Starship",
 		class: "Nova Class",
@@ -7333,7 +7758,7 @@ module.exports = [
 			"weapon",
 			"crew"
 		],
-		text: "",
+		text: "This ship does not skip it's Perform Action Step when overlapping an Obstacle",
 		attack: 2,
 		agility: 2,
 		hull: 3,
@@ -7785,7 +8210,8 @@ module.exports = [
 		gameId: 1,
 		set: [
 			"71280",
-			"72261"
+			"72261",
+			"75014"
 		],
 		name: "Federation Starship",
 		class: "Intrepid Class",
@@ -7805,7 +8231,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 4,
-		cost: 28,
+		cost: 23,
 		text: "",
 		unique: false,
 		factions: [
@@ -8942,7 +9368,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 14,
+		cost: 7,
 		text: "",
 		unique: false,
 		factions: [
@@ -12030,7 +12456,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 4,
-		cost: 28,
+		cost: 23,
 		unique: false,
 		factions: [
 			"federation"
@@ -12264,7 +12690,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 18,
+		cost: 11,
 		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.",
 		unique: false,
 		factions: [
