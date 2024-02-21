@@ -1,10 +1,18 @@
 module.exports = [
 	{
 		type: "set",
+		id: "75016",
+		gameId: 1,
+		name: "These Are The Voyages",
+		releaseDate: "2024-02-21",
+		parentSet: "Faction Pack"
+	},
+	{
+		type: "set",
 		id: "75015",
 		gameId: 1,
 		name: "Adversaries of the Delta Quadrant",
-		releaseDate: "2024",
+		releaseDate: "2024-02-21",
 		parentSet: "Faction Pack"
 	},
 	{
