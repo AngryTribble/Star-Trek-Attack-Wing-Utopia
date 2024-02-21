@@ -330,6 +330,27 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		]
 	},
 
+	//Lower Decks
+	"crew:C426": {
+		//Adds 2 crew slots for Lower Deck keyworded crew
+		upgradeSlots: [{
+			type: ["crew"],
+			rules: "Lower Decks Crew",
+			//Can only equip crew cards with Lower Deck keyword.
+			canEquip: function(upgrade) {
+				return upgrade.id == "C414" || upgrade.id == "C415" || upgrade.id == "C416" || upgrade.id == "C417" || upgrade.id == "C418" || upgrade.id == "C419";
+			}
+		},
+		{	type: ["crew"],
+			rules: "Lower Decks Crew",
+			//Can only equip crew cards with Lower Deck keyword.
+			canEquip: function(upgrade) {
+				return upgrade.id == "C414" || upgrade.id == "C415" || upgrade.id == "C416" || upgrade.id == "C417" || upgrade.id == "C418" || upgrade.id == "C419";
+		}
+	}
+	]
+	},
+	
 	//Tactical Superiority Commander
 	"talent:E231":{
 		canEquip: function(upgrade,ship,fleet) {
