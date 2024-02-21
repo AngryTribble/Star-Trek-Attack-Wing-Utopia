@@ -30,7 +30,9 @@ module.factory( "cardLoader", [ "$http", "$filter", "cardRules", "$factions", fu
 			}
 
 			// Set mirror flag
+			if (ship.id !== "S385") {
 			ship.mirror = $factions.hasFaction(ship, "mirror-universe");
+			}
 
 			// Expand shorthand upgrade slots
 			for( var i = 0; i < ship.upgrades.length; i++ )

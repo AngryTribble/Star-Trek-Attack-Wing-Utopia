@@ -340,6 +340,14 @@
   content: ".";
 }
 
+.fs-shieldConstraint:before {
+  content: ".";
+}
+
+.fs-csConstraint:before {
+  content: ".";
+}
+
 .fs-shipLimit:before {
   content: ".";
 }
@@ -358,6 +366,38 @@
 
 .fs-prometheusLimit:before {
   content: ".";
+}
+
+.fs-excelsiorLimit:before {
+  content: ".";
+}
+
+.fs-nxLimit:before {
+  content: ".";
+}
+
+.fs-deltaflyerLimit:before {
+  content: ".";
+}
+
+.fs-intrepidLimit:before {
+  content: ".";
+}
+
+.fs-aerieLimit:before {
+  content: ".";
+}
+
+.fs-numiriLimit:before {
+  content: ".";
+}
+
+.fs-neradaLimit:before {
+  content: ".";
+}
+
+.fs-sovereignLimit:before {
+  content: "."
 }
 
 .fs-remanLimit:before {
