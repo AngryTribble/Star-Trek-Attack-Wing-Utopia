@@ -1,6 +1,21 @@
 module.exports = [
 	{
 		type: "ambassador",
+		id: "M014",
+		gameId: 1,
+		set: [
+			"75016"
+		],
+		name: "St. John Talbot",
+		cost: 3,
+		text: "<b>NEGOTIATIONS ACCEPTED:</b> This ship and target ship gain the following ability: \n\n <b>END PHASE:</b> If this ship is within Range 1 of a Non-Minefield Obstacle select either an [evade] or [scan] Token beside this ship. \n\n That Token does not get removed this End Phase. <hr> <b>NEGOTIATIONS DENIED:</b> For the rest of the game: \n\n The target ship must place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside it after ending a Maneuver within Range 1 of a Non-Minefield Obstacle.",
+		unique: true,
+		factions: [
+			"federation"
+		]
+	},
+	{
+		type: "ambassador",
 		id: "M013",
 		gameId: 1,
 		set: [

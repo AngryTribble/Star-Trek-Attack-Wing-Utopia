@@ -184,6 +184,485 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			}
 		},
 
+//These Are The Voyages
+	
+	//Enterprise NX-01
+	"ship:S404":{
+		upgradeSlots: [ {
+			type: ["starship_construction"],
+			rules: "May equip Federation Prototype"
+		}]
+	},	
+
+	//Jonathan Archer
+	"captain:Cap039":{
+		//Adds 1 crew upgrade slot and 1 slot for Porthos (the best boy)
+		upgradeSlots: [ { 
+			type: ["crew"]
+		},
+		{	type: ["crew"],
+			rules: "Porthos Only",
+			canEquip: function(upgrade) {
+				return upgrade.id == "C441";
+			}
+		} ]
+	},
+
+	//Erika Hernandez
+	"captain:Cap042":{
+		//Adds 1 crew upgrade slot
+		upgradeSlots: [{
+			type: ["crew"]
+		}],
+		//Can only be equipped to a Federation NX Class
+		canEquipCaptain: function(upgrade,ship,fleet) {
+			return ship.class == "Federation NX Class"
+		}
+	},
+
+	//Edward Jellico
+	"captain:Cap050":{
+		canEquipCaptain: function(captain,ship,fleet) {
+			return ship.hull >= 5;
+		}
+	},
+
+	//James T. Kirk (Admiral)
+	"admiral:A044": {
+		upgradeSlots: [
+			{
+				type: ["crew"]
+			},
+			{
+				type: ["crew"]
+			}
+		]
+	},
+
+	//T'Pol
+	"crew:C436":{
+		upgradeSlots: [
+			{
+				type: ["crew"]
+			}
+		]
+	},
+
+	//William T. Riker
+	"crew:C440":{
+		upgradeSlots: [
+			{
+				type: ["crew"]
+			}
+		]
+	},
+
+	//Malcolm Reed
+	"crew:C444": {
+		upgradeSlots: [ {
+			type: ["weapon"],
+			rules: "May equip Phase Cannons for free",
+			CanEquip: function(upgrade) {
+				return upgrade.name == "Phase Cannons";
+			},
+			intercept: {
+				ship: {
+					cost: function(card,ship,fleet,cost) {
+						if (!$factions.match(card,ship,ship,fleet) )
+						return 1;
+					else if( $factions.match(card,ship,ship,fleet) )
+					return 0;
+				return cost;
+					}
+				}
+			}
+		}]
+
+	},
+
+	//Charles Tucker III
+	"crew:C445" :{
+		//Can only be equipped to ships with a Hull of 3 or less
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return ship.hull <= 3;
+		}
+	},
+	
+	//J. Hayes
+	"crew:C446":{
+		intercept: {
+			ship: {
+				skill: function(upgrade,ship,fleet,skill) {
+					if( upgrade == ship.captain )
+						return resolve(upgrade,ship,fleet,skill) +1;
+					return skill;
+				}
+			}
+		}
+	},
+
+	//Porthos
+	"crew:C447":{
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		}
+	},
+
+	//Reginald Barclay
+	"crew:C463": {
+		upgradeSlots: [
+			{
+				type: ["tech"],
+				rules: "You may only equip ? upgrades in this slot"
+			}
+		],
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship, "federation", ship, fleet) || hasFaction(ship, "bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
+		},
+	},
+
+	//Katherine Pulaski
+	"crew:C465": {
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		}
+	},
+
+	//Padraig Daniels
+	"crew:C468":{
+		//Can only be equipped to a Federation Ship
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship, "federation", ship, fleet) || hasFaction(ship, "bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
+		}
+	},
+
+	//Sito Jaxa
+	"crew:C472": {
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		}
+	},
+
+	//Tasha Yar
+	"crew:C476":{
+		upgradeSlots: [
+			{
+				type: ["weapon"]
+			}
+		]
+	},
+
+	//Miles O'Brien
+	"crew:C477": {
+		upgradeSlots: [
+			{
+				type: ["tech"],
+				rules: "May equip Transporter Room Upgrade",
+				canEquip: function(upgrade) {
+					return upgrade.id == "T308";
+				}
+			}
+		]
+	},
+
+	//Leah Brahms
+	"crew:C478": {
+		//Can only be equipped to a Federation Ship
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship, "federation", ship, fleet) || hasFaction(ship, "bajoran", ship, fleet) || hasFaction(ship, "vulcan", ship, fleet);
+		}
+	},
+
+	//These Are The Voayages...
+	"talent:E233": {
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		}
+	},
+
+	//Explore Strange New Worlds...
+	"talent:E234": {
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		}
+	},
+
+	//To Boldly Go...
+	"talent:E235": {
+		//Can only be equipped to a Federation Captain
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		}
+	},
+
+	//Fly Her Apart Then!
+	"talent:E236": {
+		//Can only be equipped to a Federation Captain and an Excelsior Class ship
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.captain && ( $factions.hasFaction(ship.captain,"federation", ship, fleet) || $factions.hasFaction(ship.captain,"bajoran", ship, fleet) || $factions.hasFaction(ship.captain,"vulcan", ship, fleet) ) && ship.class == "Excelsior Class";
+		}
+	},
+	
+	//It Won't Be Installed Until Tuesday
+	"talent:E237": {
+		//Can only be equipped to a Federation Captain and an Excelsior Class ship
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.captain && ( $factions.hasFaction(ship.captain,"federation", ship, fleet) || $factions.hasFaction(ship.captain,"bajoran", ship, fleet) || $factions.hasFaction(ship.captain,"vulcan", ship, fleet) ) && ship.captain.skill <= 5;
+		}		
+	},
+
+	//Tuesday (Crew)
+	"crew:C483": {
+		upgradeSlots: [
+			{
+				type: ["crew"]
+			}
+		],
+		intercept: {
+			ship: {
+				cost: {
+					priority: 100,
+					fn: function(upgrade,ship,fleet,cost) {
+						if( checkUpgrade("crew", upgrade, ship) ) {
+							cost = resolve(upgrade,ship,fleet,cost);
+							cost -=2;
+						}
+						return cost;
+					}
+				}
+			}
+		}
+	},
+
+	//Tuesday (Weapon)
+	"weapon:W251": {
+		upgradeSlots: [
+			{
+				type: ["weapon"]
+			}
+		],
+		intercept: {
+			ship: {
+				cost: {
+					priority: 100,
+					fn: function(upgrade,ship,fleet,cost) {
+						if( checkUpgrade("weapon", upgrade, ship) ) {
+							cost = resolve(upgrade,ship,fleet,cost);
+							cost -=2;
+						}
+						return cost;
+					}
+				}
+			}
+		}
+	},
+
+	//Tuesday (Tech)
+	"tech:T312": {
+		upgradeSlots: [
+			{
+				type: ["tech"]
+			}
+		],
+		intercept: {
+			ship: {
+				cost: {
+					priority: 100,
+					fn: function(upgrade,ship,fleet,cost) {
+						if( checkUpgrade("tech", upgrade, ship) ) {
+							cost = resolve(upgrade,ship,fleet,cost);
+							cost -=2;
+						}
+						return cost;
+					}
+				}
+			}
+		}
+	},
+
+	//Phase Cannons
+	"weapon:W247": {
+		//Can only equip one and to a Federation NX Class only
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Federation NX Class" && onePerShip("Phase Cannons")(upgrade,ship,fleet);
+		}
+	},
+
+	//Type 8 Phaser Array
+	"weapon:W249": {
+		canEquip: function(upgrade,ship,fleet) {
+			if( ship.attack <= 3 )
+				return true;
+			return false;
+		}
+	},
+
+	//Transporter Room
+	"tech:T308": {
+		//Can only equip one
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Transporter Room")(upgrade,ship,fleet);
+		}
+	},
+
+	//Enhanced Tractor Emitters
+	"tech:T309": {
+		//Can only equip one
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Enhanced Tractor Emitters")(upgrade,ship,fleet);
+		}
+	},
+
+	//Navigational Deflector
+	"tech:T311": {
+		//Can only equip one
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Navigational Deflector")(upgrade,ship,fleet);
+		}
+	},
+
+	//Tea, Earl Grey, Hot
+	"question:Q034": {
+		canEquip: function(upgrade,ship,fleet) {
+			return onePerShip("Tea, Earl Grey, Hot")(upgrade,ship,fleet);
+		},
+
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >=0 || $.inArray( "crew", slotTypes ) >= 0;
+		},
+
+		//All non-Federation ships pay +1 SP to equip
+		intercept: {
+			self: {
+				cost: function(upgrade,ship,fleet,cost) {
+					if( ship && !$factions.hasFaction(ship, "federation", ship, fleet) || $factions.hasFaction(ship, "bajoran", ship, fleet) || $factions.hasFaction(ship, "vulcan", ship, fleet))
+					return resolve(upgrade,ship,fleet,cost) +1;
+				return cost;
+				}
+			}
+		},
+		upgradeSlots: [
+			{
+				type: function(upgrade,ship) {
+					return getSlotType(upgrade,ship);
+				}
+			}
+		],
+	},
+
+	//Tactical Data Link
+	"question:Q035": {
+		type: "question",
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >=0;
+		},
+		//Can only equip one and to a Sovereign Class
+		canEquip: function(upgrade,ship,fleet) {
+			return ship.class == "Sovereign Class" && onePerShip("Tactical Data Link");
+		}
+	},
+	
+
+	//Systems Upgrade
+	"question:Q036": {
+		type: "question",
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray( "tech", slotTypes ) >= 0 || $.inArray( "weapon", slotTypes ) >= 0;
+		},
+		upgradeSlots: [
+			{
+				type: ["tech"]
+			}
+		],
+		intercept: {
+			ship: {
+				shields: function(card,ship,fleet,shields) {
+					if( card == ship )
+						return resolve(card,ship,fleet,shields) + 1;
+					return shields;
+				}
+			}
+		},
+		canEquip: onePerShip("Systems Upgrade"),
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return ($factions.hasFaction(ship,"federation", ship, fleet) || $factions.hasFaction(ship,"bajoran", ship, fleet) || $factions.hasFaction(ship,"vulcan", ship, fleet));
+		}
+	},
+
+	//James T. Kirk Admiral Slot
+	"question:Q037":{
+		canEquipFaction: function(upgrade,ship,fleet) {
+			return hasFaction(ship.captain, "federation", ship, fleet) || hasFaction(ship.captain, "bajoran", ship, fleet) || hasFaction(ship.captain, "vulcan", ship, fleet);
+		},
+		type: "question",
+		isSlotCompatible: function(slotTypes) {
+			return $.inArray("tech", slotTypes) >=0 || $.inArray( "weapon", slotTypes ) >=0 || $.inArray( "crew", slotTypes) >= 0;
+		},
+		upgradeSlots: [
+			{
+				type: ["admiral"],
+				rules: "May equip Federation Admiral with a cost of 4 SP or less."
+			},
+			{
+				type: function(upgrade,ship) {
+					return getSlotType(upgrade,ship);
+				}
+			}
+		],
+	},
+
+	//Enhanced Hull Plating
+	"starship_construction:Con003": {
+		//Can only equip one and to a Federation NX Class
+		canEquipConstruction: function(upgrade,ship,fleet) {
+			return ship.class == "Federation NX Class" && onePerShip("Enhanced Hull Plating")(upgrade,ship,fleet);
+		}
+	},
+
+	//Dominion War Retrofit
+	"starship_construction:Con004": {
+		//Creates a new tech, weapon, or crew slot
+		upgradeSlots: [
+			{
+				type: ["tech", "weapon", "crew"]
+			}
+		],
+		intercept: {
+			ship: {
+				//Adds +1 Shield to the stat bar when equipped to a ship
+				shields: function(card, ship, fleet, shields) {
+					if( card == ship) {
+						return resolve(card, ship, fleet, shields) +1;
+					}
+					return shields;
+				},
+				//Adds +1 Hull stat to the Miranda, Excelsior, and Galaxy Classes
+				hull: function(card, ship, fleet, hull) {
+					if (ship.class == "Miranda Class" || ship.class == "Excelsior Class" || ship.class == "Galaxy Class") {
+						return resolve(card,ship,fleet,hull) +1;
+					}
+					return hull;
+				},
+				//Adds +1 Attack to the primary weapon stats of a D'deridex Class
+				attack: function(card, ship, fleet, attack) {
+					if (ship.class == "D'deridex Class") {
+						return resolve(card,ship,fleet,attack) +1;
+					}
+					return attack;
+				}
+			}
+		},
+		//Can only be equipped to a Federation, Klingon, or Romulan ship.
+		canEquipConstruction: function(upgrade,ship,fleet) {
+			return ship && ( $factions.hasFaction(ship,"federation", ship, fleet) || $factions.hasFaction(ship,"bajoran", ship, fleet) || $factions.hasFaction(ship,"vulcan", ship, fleet) || $factions.hasFaction(ship,"klingon", ship, fleet) || $factions.hasFaction(ship,"romulan", ship,fleet) );
+		}
+	},
 
 //Adversaires of the Delta Quadrant
 
