@@ -1,6 +1,25 @@
 module.exports = [
 	{
 		type: "admiral",
+		id: "A042",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Karr",
+		unique: true,
+		text: "<b>FLEET ACTION:</b> Target an opposing ship within Range. \n\n Place 1 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token on the target ship's Ship Card. <hr> <b>WHENEVER A FRIENDLY SHIP WITHIN RANGE ATTACKS AN OPPOSING SHIP WITH ANY <img src='img/stuff/effect_time_token.png' width='20' height='16'> TOKENS ON IT'S SHIP CARD: </b> \n\n That ship may re-roll 1 [blank] or [battlestations]. If that ship is a <img src='img/text/ind-hirogen.png' width='20' height='20'>, it may re-roll 1 [blank] or [battlestations] up to two times instead.",
+		factions: [
+			"independent"
+		],
+		cost: 6,
+		skill: 2,
+		talents: 2,
+		range: "1"
+	},
+
+	{
+		type: "admiral",
 		id: "A041",
 		gameId: 1,
 		set: [

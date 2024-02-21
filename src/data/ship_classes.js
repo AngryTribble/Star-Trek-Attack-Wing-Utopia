@@ -1,6 +1,69 @@
 module.exports = [
 	{
 		type: "ship-class",
+		id: "nerada_type",
+		gameId: 1,
+		name: "Nerada-Type",
+		frontArc: "180",
+		rearArc: "",
+		maneuvers: {
+			1: {
+				turn: "white",
+				straight: "green",
+				bank: "green"
+			},
+			2: {
+				straight: "green",
+				bank: "white",
+				turn: "white",
+				about: "red"
+			},
+			3: {
+				straight: "white",
+				bank: "white"
+			},
+			4: {
+				straight: "white"
+			},
+			min: 1,
+			max: 4
+		}
+	},
+	{
+		type: "ship-class",
+		id: "numiri_partol_ship",
+		gameId: 1,
+		name: "Numiri Patrol Ship",
+		frontArc: "90",
+		rearArc: "",
+		maneuvers: {
+			1: {
+				straight: "green",
+				bank: "green"
+			},
+			2: {
+				straight: "green",
+				bank: "white",
+				turn: "white"
+			},
+			3: {
+				straight: "white",
+				bank: "white"
+			},
+			4: {
+				straight: "white",
+				about: "red"
+			},
+			5: {
+				straight: "white",
+				about: "red"
+			},
+			min: 1,
+			max: 5
+		}
+	},
+	{
+		type: "ship-class",
 		id: "delta_flyer_class",
 		gameId: 1,
 		name: "Delta Flyer Class",

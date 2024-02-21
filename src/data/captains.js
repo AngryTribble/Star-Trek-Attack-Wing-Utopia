@@ -1,6 +1,178 @@
 module.exports = [
 	{
 		type: "captain",
+		id: "Cap038",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Nadirum",
+		unique: true,
+		text: "<b>ACTION:</b> If equipped to a <img src='img/text/ind-vidiian.png' width='20' height='20'>, this is a Free Action instead: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship within Range. \n\n Discard 1 [crew_text] Upgrade equipped to the target ship.",
+		factions: [
+			"independent"
+		],
+		cost: 3,
+		skill: 5,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap037",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Iden",
+		unique: true,
+		text: "You cannot have an Admiral and/or Ambassador equipped to this ship. <hr> This card costs -1 SP for each <img src='img/text/faction-indy.png' width='20' height='20'> <b>?</b> Upgrade equipped to this ship. <hr> <b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship is an <img src='img/text/faction-indy.png' width='20' height='20'> ship or has any <b>?</b> Upgrades equipped to it \n\n Add 1 [crit].",
+		factions: [
+			"independent"
+		],
+		cost: 10,
+		skill: 10,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap036",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Turanj",
+		unique: true,
+		text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If your Captain Skill is less than the defending ship's Captain Skill. \n\n Add 1 [crit].",
+		factions: [
+			"independent"
+		],
+		cost: 4,
+		skill: 7,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap035",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Karr",
+		unique: true,
+		text: "<b>WHEN ATTACKING: ROLL ATTACK DICE STEP:</b> If your Captain Skill is greater than the defending ship's Captain Skill. \n\n Roll +1 attack die. <hr> <b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> \n\n You may re-roll 1 of your attack dice up to two times.",
+		factions: [
+			"independent"
+		],
+		cost: 6,
+		skill: 8,
+		talents: 2
+	},
+	{
+		type: "captain",
+		id: "Cap034",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Nadirum",
+		unique: true,
+		text: "<b>ACTION:</b> If equipped to a <img src='img/text/ind-vidiian.png' width='20' height='20'>, this is a Free Action instead: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship within Range. \n\n Discard 1 [crew_text] Upgrade equipped to the target ship.",
+		factions: [
+			"independent"
+		],
+		cost: 3,
+		skill: 5,
+		range: "1",
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap033",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Dereth",
+		unique: true,
+		text: "<b>FREE ACTION:</b> If you performed a Speed 3 or greater Maneuver this round: Target an opposing ship within Range. \n\n Disable 1 [crew_text] Upgrade equipped to the target ship.",
+		factions: [
+			"independent"
+		],
+		cost: 2,
+		skill: 3,
+		range: "1",
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap032",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Y'Sek",
+		unique: true,
+		text: "<b>SETUP:</b> Target an opposing ship. \n\n Place a Bountty Permanent Effect Token beside the target ship. <hr> <b>PERMANENT EFFECT:</b> for the rest of the game, each ship in play converts eihter 1 [blank] or 1 [battlestations] into 1 [hit] each time they attack a ship with a Bounty Permanent Effect Token beside it.",
+		factions: [
+			"independent"
+		],
+		cost: 3,
+		skill: 7,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap031",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Dala",
+		unique: true,
+		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>SETUP:</b> Target an opposing ship. \n\n Place a Reputation Permanent Effect Token  beside the target ship. <hr> <b>PERMANENT EFFECT:</b> For the rest of the game, each other ships treats the ship with a Reputation Permanet Effect Token beside it as an opposing ship for all game effects. That ship is still part of its original owner's Fleet.",
+		factions: [
+			"independent"
+		],
+		cost: 3,
+		skill: 4,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap030",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Gaul",
+		unique: true,
+		text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship performed [sensor-echo] Action or an additional manuver this game round: \n\n Add 1 [crit].",
+		factions: [
+			"independent"
+		],
+		cost: 4,
+		skill: 8,
+		talents: 1
+	},
+	{
+		type: "captain",
+		id: "Cap029",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Alben",
+		unique: true,
+		text: "<b>WHEN THIS SHIP OR A FRIENDLY SHIP WITHIN RANGE 1-2 ATTACKS: ROLL ATTACK DICE STEP:</b> If the Captain and/or any [crew_text] Upgrades equipped to the defending ship have any Tokens on their card: \n\n The attacking ship rolls +1 attack die. If this ship or that friendly ship is a <img src='img/text/ind-nerada.png' width='20' height='20'>, that ship may re-roll 1 [blank].",
+		factions: [
+			"independent"
+		],
+		cost: 3,
+		skill: 5,
+		talents: 1
+	},
+	{
+		type: "captain",
 		id: "Cap028",
 		gameId: 1,
 		set: [

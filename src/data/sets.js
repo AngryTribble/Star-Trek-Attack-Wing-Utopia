@@ -1,6 +1,14 @@
 module.exports = [
 	{
 		type: "set",
+		id: "75015",
+		gameId: 1,
+		name: "Adversaries of the Delta Quadrant",
+		releaseDate: "2024",
+		parentSet: "Faction Pack"
+	},
+	{
+		type: "set",
 		id: "75014",
 		gameId: 1,
 		name: "Lost In The Delta Quadrant",

@@ -1,6 +1,385 @@
 module.exports = [
 	{
 		type: "ship",
+		id: "S403",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Hirogen Starship",
+		image: "",
+		class: "Hirogen Warship",
+		actions: [
+			"evade",
+			"target lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 3,
+		shields: 3,
+		cost: 18,
+		text: "",
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S402",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Alpha Hunter",
+		image: "",
+		class: "Hirogen Warship",
+		actions: [
+			"evade",
+			"target lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 3,
+		shields: 4,
+		cost: 23,
+		text: "<b>AFTER MOVING:</b> \n\n This ship may perform a [sensor-echo] Action as a Free Action.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S401",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Relic Stalker",
+		image: "",
+		class: "Hirogen Warship",
+		actions: [
+			"evade",
+			"target lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 4,
+		agility: 2,
+		hull: 3,
+		shields: 4,
+		cost: 23,
+		text: "<b>AFTER MOVING:</b> If you are within Range 1-3 of an opposing ship: \n\n You may place a [battlestations] Token beside this ship.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S400",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Vidiian Starship",
+		image: "",
+		class: "Vidiian Battle Cruiser",
+		actions: [
+			"evade",
+			"target lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 5,
+		shields: 2,
+		cost: 21,
+		text: "",
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S399",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Fina Prime",
+		image: "",
+		class: "Vidiian Battle Cruiser",
+		actions: [
+			"evade",
+			"target lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 5,
+		shields: 3,
+		cost: 23,
+		text: "<b>ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target an opposing ship within range 1 - 2. \n\n Destroy 1 Shield on the target ship.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S398",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Honatta Prime",
+		image: "",
+		class: "Vidiian Battle Cruiser",
+		actions: [
+			"evade",
+			"target lock",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"weapon",
+			"weapon",
+			"crew",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 5,
+		shields: 3,
+		cost: 23,
+		text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> \n\n You may convert 1 [blank] into 1 [hit] for each [crew_text] Upgrade equipped to the defending ship.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S397",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Nasari Starship",
+		image: "",
+		class: "Nerada-Type",
+		actions: [
+			"evade",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 3,
+		shields: 2,
+		cost: 14,
+		text: "",
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S396",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Nerada",
+		image: "",
+		class: "Nerada-Type",
+		actions: [
+			"evade",
+			"scan",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 3,
+		agility: 2,
+		hull: 3,
+		shields: 3,
+		cost: 18,
+		text: "<b>WHEN ATTACKING: MODIGY ATTACK DICE STEP:</b> If the defending ship is in the <img src='img/text/forward-arc.png' width='20' height='20'> of a Friendly ship that is within Range 1 of this ship: \n\n Add 1 [hit].",
+		unique: true,
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S395",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Numiri Starship",
+		image: "",
+		class: "Numiri Patrol Ship",
+		actions: [
+			"evade",
+			"target-lock",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 2,
+		cost: 22,
+		text: "",
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
+		id: "S394",
+		gameId: 1,
+		set: [
+			"75015"
+		],
+		name: "Antares Shadow",
+		image: "",
+		class: "Numiri Patrol Ship",
+		actions: [
+			"evade",
+			"target-lock",
+			"battlestations"
+		],
+		upgrades: [
+			"tech",
+			"tech",
+			"weapon",
+			"crew"
+		],
+		attack: 4,
+		agility: 1,
+		hull: 5,
+		shields: 3,
+		cost: 24,
+		text: "<b>WHEN ATTACKING: ROLL ATTACK DICE STEP:</b> If the defending ship has a Hull Value less than this ship: \n\n Roll +1 attack die.",
+		unique: true,
+		alliance: false,
+		factions: [
+			"independent"
+		],
+		intercept: {
+			ship: {},
+			fleet: {}
+		},
+		squadron: false
+	},
+	{
+		type: "ship",
 		id: "S393",
 		gameId: 1,
 		set: [
@@ -10917,7 +11296,8 @@ module.exports = [
 		gameId: 1,
 		set: [
 			"71534",
-			"75004"
+			"75004",
+			"75015"
 		],
 		name: "Vidiian Starship",
 		class: "Vidiian Battle Cruiser",
@@ -11324,7 +11704,8 @@ module.exports = [
 		gameId: 1,
 		set: [
 			"71808",
-			"73042"
+			"73042",
+			"75015"
 		],
 		name: "Hirogen Starship",
 		class: "Hirogen Warship",
