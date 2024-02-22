@@ -830,6 +830,7 @@ module.exports = [
 		cost: 4,
 		text: "<b>COMBAT PHASE:</b> Disable this card and target each opposing ship within Range that have any of the following Tokens beside them: [battlestations], [scan], or [evade]. \n\n Discard all of the listed Tokens beside the target ship(s) until only 1 Token remains beside each ship.",
 		unique: true,
+		range: "1",
 		alliance: false,
 		factions: [
 			"federation"
