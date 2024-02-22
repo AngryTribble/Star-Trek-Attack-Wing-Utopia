@@ -1056,7 +1056,7 @@ module.exports = [
 		],
 		name: "T'Pol",
 		cost: 3,
-		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>ACTION:</b> \n\n Increase the Captain Skill Number of the Captain equipped to this ship by 2 and then palce a [scan] Token beside this ship. <hr> <b>(First Officer) IF THE CAPTAIN EQUIPPED TO THIS SHIP IS DISCARDED:</b> \n\n Flip this card over and equip this card as the Captain.",
+		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>ACTION:</b> \n\n Increase the Captain Skill Number of the Captain equipped to this ship by 2 and then place a [scan] Token beside this ship. <hr> <b>(First Officer) IF THE CAPTAIN EQUIPPED TO THIS SHIP IS DISCARDED:</b> \n\n Flip this card over and equip this card as the Captain.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1814,7 +1814,7 @@ module.exports = [
 		],
 		name: "William Telfer",
 		cost: 1,
-		text: "<b>WHENEVER YOU WOULD PLACE 3 OR MORE <img src='img/stuff/effect_time_token.png' width='20' height='16'> TOKENS ON A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] UPGRADE:</b> \n\n You may palce those <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card instead. \n\n <b>(Lower Decks)</b>",
+		text: "<b>WHENEVER YOU WOULD PLACE 3 OR MORE <img src='img/stuff/effect_time_token.png' width='20' height='16'> TOKENS ON A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] UPGRADE:</b> \n\n You may place those <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card instead. \n\n <b>(Lower Decks)</b>",
 		unique: true,
 		alliance: false,
 		factions: [
