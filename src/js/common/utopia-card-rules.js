@@ -1063,14 +1063,14 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 			rules: "Lower Decks Crew",
 			//Can only equip crew cards with Lower Deck keyword.
 			canEquip: function(upgrade) {
-				return upgrade.id == "C414" || upgrade.id == "C415" || upgrade.id == "C416" || upgrade.id == "C417" || upgrade.id == "C418" || upgrade.id == "C419";
+				return upgrade.id == "C414" || upgrade.id == "C415" || upgrade.id == "C416" || upgrade.id == "C417" || upgrade.id == "C418" || upgrade.id == "C419" || upgrade.id == "C460" || upgrade.id == "C461" || upgrade.id == "C470" || upgrade.id == "C471" || upgrade.id == "C472" || upgrade.id == "C473" || upgrade.id == "C474" || upgrade.id == "C480" || upgrade.id == "C481" || upgrade.id == "C482";
 			}
 		},
 		{	type: ["crew"],
 			rules: "Lower Decks Crew",
 			//Can only equip crew cards with Lower Deck keyword.
 			canEquip: function(upgrade) {
-				return upgrade.id == "C414" || upgrade.id == "C415" || upgrade.id == "C416" || upgrade.id == "C417" || upgrade.id == "C418" || upgrade.id == "C419";
+				return upgrade.id == "C414" || upgrade.id == "C415" || upgrade.id == "C416" || upgrade.id == "C417" || upgrade.id == "C418" || upgrade.id == "C419" || upgrade.id == "C460" || upgrade.id == "C461" || upgrade.id == "C470" || upgrade.id == "C471" || upgrade.id == "C472" || upgrade.id == "C473" || upgrade.id == "C474" || upgrade.id == "C480" || upgrade.id == "C481" || upgrade.id == "C482";
 		}
 	}
 	]
