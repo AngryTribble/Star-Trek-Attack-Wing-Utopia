@@ -490,6 +490,18 @@
 	text-align: center;
 }
 
+.card-novaLimit-icon {
+	background: url("../img/restrictions/fedNova.png") no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 999;
+	text-align: center;
+}
+
 .card-aerieLimit-icon {
 	background: url("../img/restrictions/fedAerie.png") no-repeat;
 	background-size: 1em;

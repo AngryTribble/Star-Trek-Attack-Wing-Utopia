@@ -384,6 +384,10 @@
   content: ".";
 }
 
+.fs-novaLimit:before {
+  content: ".";
+}
+
 .fs-aerieLimit:before {
   content: ".";
 }
