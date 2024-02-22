@@ -304,6 +304,23 @@ module.exports = [
 	},
 	{
 		type: "crew",
+		id: "C484",
+		set: [
+			"75016"
+		],
+		name: "Hoshi Sato",
+		cost: 3,
+		text: "<b>ACTIVATION PHASE:</b> Disable this card and target a ship within Range. \n\n Decrease the Range of all Upgrades equipped to the target ship by 1 this game round. (Min Range 1)",
+		unique: true,
+		range: "1 - 3",
+		alliance: false,
+		factions: [
+			"federation"
+		]
+	},
+
+	{
+		type: "crew",
 		id: "C483",
 		set: [
 			"75016"
