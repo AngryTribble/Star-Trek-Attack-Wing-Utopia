@@ -790,7 +790,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	},
 
 	//Regenerative Shielding
-	"tech:T303": {
+	"tech:T302": {
 		canEquip: onePerShip("Regenerative Shielding"),
 		canEquipFaction: function(upgrade,ship,fleet) {
 			return (ship.class == "Numiri Patrol Ship")
@@ -807,9 +807,9 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	},
 
 	//Refractive Shielding
-	"tech:T305": {
+	"tech:T303": {
 		canEquip: function(upgrade,ship,fleet) {
-			return onePerShip("Refractive Shielding")
+			return onePerShip("Refractive Shielding")(upgrade,ship,fleet)
 		},
 		intercept: {
 			ship: {
@@ -911,6 +911,18 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 //Lost in the Delta Quadrant
 
+	//U.S.S. Intrepid NCC-74600
+	"ship:S386": {
+		intercept:{
+			ship: {
+				cost: function(upgrade, ship, fleet, cost) {
+					if( upgrade.name == "Variable Geometry Pylons" || upgrade.name == "Bio-Neural Circuitry")
+						return resolve(upgrade,ship,fleet,cost) -1;
+					return cost;
+				}
+			}
+		}
+	},
 
 	//Rudolph Ransom
 	"captain:Cap022":{
@@ -1080,22 +1092,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	"talent:E231":{
 		canEquip: function(upgrade,ship,fleet) {
 			return ship.captain.skill >= 8;
-		}
-	},
-
-	//Transphasic Torpedoes
-	"weapon:W240": {
-		canEquip: onePerShip("Transphasic Torpedoes"),
-		attack: 0,
-		intercept: {
-			self: {
-				//Attack is the same as ships printed Hull Value +1
-				attack: function(upgrade,ship,fleet,attack) {
-					if( ship )
-						return valueOf(ship,"hull",ship,fleet) +1;
-					return attack;
-				}
-			}
 		}
 	},
 
@@ -1797,10 +1793,11 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
   },
 },
 
+
 //Federation Prototype
  "starship_construction:Con001":{
  	canEquipConstruction: function(upgrade,ship,fleet) {
-		return ship.id == "S413" || ship.name.startsWith("U.S.S. ") && (ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,""))
+		return ship.id == "S404" || ship.name.startsWith("U.S.S. ") && (ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,""))
  	},
 
  	upgradeSlots: [

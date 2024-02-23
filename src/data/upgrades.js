@@ -1644,7 +1644,7 @@ module.exports = [
 		cost: 5,
 		text: "The Attack Value of this [weapon_text] is equal to the Defending ship's Printed Hull Value +1. <hr> <b>ATTACK:</b> Discard this card and target an opposing ship. \n\n <b>MODIFY ATTACK DICE STEP:</b> Re-roll up to a number of [blank] equal to this ship's Primary Weapon Value. \n\n <b>DEAL DAMAGE STEP:</b> Uncanceled [crit] from this attack ignore the defending ship's Shields.",
 		OnePerShip: true,
-		attack: "0",
+		attack: "*",
 		range: "2 - 3",
 		FrontArc: true,
 		RearArc: true,
@@ -1664,7 +1664,7 @@ module.exports = [
 		cost: 2,
 		text: "<b>WHEN ATTACKING:</b> If there are no Friendly ships within Range that have an equal or higher Primary Weapon Value: \n\n Roll +1 attack die.",
 		unique: true,
-		range: "1 - 1",
+		range: "1 - 2",
 		csConstraint: "8+",
 		alliance: false,
 		factions: [
