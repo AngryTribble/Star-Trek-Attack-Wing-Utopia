@@ -651,7 +651,7 @@ module.exports = [
 		],
 		name: "George Sanders",
 		unique: true,
-		text: "<b>AFTER A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP WITHIN RANGE IS HIT:</b> \n\n\n You may perform a 1 [bank-left], 1 [straight], or a 1 [bank-right] Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 [turn-left] or 1 [turn-right] Maneuver instead.",
+		text: "<b>AFTER A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP WITHIN RANGE IS HIT:</b> \n\n\n You may perform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'>, 1 <img src='img/stuff/maneuver_straight_white.png' width='20' height='20'>, or a 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'> Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 <img src='img/stuff/maneuver_turn_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_turn_right_white.png' width='20' height='20'> Maneuver instead.",
 		factions: [
 			"federation"
 		],
@@ -669,7 +669,7 @@ module.exports = [
 		],
 		name: "Lovok",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> Place an [aux] Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18' title='DDeridex Class'>, you may also add 1 [hit].",
+		text: "<b>WHEN ATTACKING:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18' title='DDeridex Class'>, you may also add 1 [hit].",
 		factions: [
 			"romulan"
 		],
@@ -703,7 +703,7 @@ module.exports = [
 		],
 		name: "Koval",
 		unique: true,
-		text: "<b>WHEN ATTACKING: DECLARE TARGET STEP:</b>\n If this ship is Cloaked. \n\n Place 2 [time] Tokens on a [crew_text] Upgrade equipped to the defending ship.",
+		text: "<b>WHEN ATTACKING: DECLARE TARGET STEP:</b>\n If this ship is Cloaked. \n\n Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on a [crew_text] Upgrade equipped to the defending ship.",
 		factions: [
 			"romulan"
 		],
@@ -755,7 +755,7 @@ module.exports = [
 		],
 		name: "Leyton",
 		unique: true,
-		text: "ACTION:</b> Target a ship and place 2 [time] Tokens on this card.\n\n The target ship attacks last this turn.",
+		text: "ACTION:</b> Target a ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n The target ship attacks last this turn.",
 		factions: [
 			"federation"
 		],
@@ -791,7 +791,7 @@ module.exports = [
 		],
 		name: "Jadzia Dax",
 		unique: true,
-		text: "You do not pay a faction penalty when equipping <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [talent_text] Upgrade to this card.\n<hr> <b>ACTIVATION PHASE:</b> \n\nThis ship may perform a white 1 [bank-left] or white 1 [bank-right].",
+		text: "You do not pay a faction penalty when equipping <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [talent_text] Upgrade to this card.\n<hr> <b>ACTIVATION PHASE:</b> \n\nThis ship may perform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'>.",
 		factions: [
 			"federation"
 		],
@@ -826,7 +826,7 @@ module.exports = [
 		],
 		name: "Benjamin Sisko",
 		unique: true,
-		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ship or has a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> Captain equipped to it:\n\n Add 1 [crit] \n<hr> <b>END PHASE:</b> \n\nRemove one [aux] Token beside this ship.",
+		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ship or has a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> Captain equipped to it:\n\n Add 1 [crit] \n<hr> <b>END PHASE:</b> \n\nRemove one <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship.",
 		factions: [
 			"federation"
 		],
@@ -861,7 +861,7 @@ module.exports = [
 		],
 		name: "Kor",
 		unique: true,
-		text: "You may equip the Dahar Master [talent_text] Upgrade to this card for 0 SP. \n<hr> <b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> ships.\n\n Remove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
+		text: "You may equip the Dahar Master [talent_text] Upgrade to this card for 0 SP. \n<hr> <b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target all friendly <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> ships.\n\n Remove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
 		factions: [
 			"klingon"
 		],
@@ -879,7 +879,7 @@ module.exports = [
 		],
 		name: "Koloth",
 		unique: true,
-		text: "<b>WHEN AN OPPOSING SHIP WITHIN RANGE PERFORMS A MANEUVER:</b> Place 2 [time] Tokens on this card.\n\n Perform a maneuver on this ship's dial with a speed of 2.",
+		text: "<b>WHEN AN OPPOSING SHIP WITHIN RANGE PERFORMS A MANEUVER:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Perform a maneuver on this ship's dial with a speed of 2.",
 		factions: [
 			"klingon"
 		],
@@ -5802,7 +5802,7 @@ module.exports = [
 		name: "Gul Evek",
 		cost: 2,
 		skill: 4,
-		text: "<b>COMBAT PHASE:</b> Target all friendly ships.\n\nPlace all [aux] Tokens beside all target ships beside this ship.",
+		text: "<b>COMBAT PHASE:</b> Target all friendly ships.\n\nPlace all <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Tokens beside all target ships beside this ship.",
 		range: "1",
 		unique: true,
 		factions: [
@@ -5838,7 +5838,7 @@ module.exports = [
 		cost: 5,
 		skill: 8,
 		talents: 1,
-		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship.\n<hr> <b>FREE ACTION:</b> Discard 1 <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> [crew_text] Upgrade equipped to this ship and place 2 [time] Tokens on this card.\n\n Perform an attack with this ship's Primary Weapon with -1 attack die.",
+		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship.\n<hr> <b>FREE ACTION:</b> Discard 1 <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> [crew_text] Upgrade equipped to this ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Perform an attack with this ship's Primary Weapon with -1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"

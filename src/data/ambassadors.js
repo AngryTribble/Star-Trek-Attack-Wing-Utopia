@@ -39,7 +39,7 @@ module.exports = [
 		],
 		name: "Kimara Cretak",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this Ship.' \n<hr> <b>NEGOTIATIONS DENIED:</b> All <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 [time] Token from each [weapon_text] Upgrade equipped to this ship.'",
+		text: "<b>NEGOTIATIONS ACCEPTED:</b> \n This ship and the target ship gain the following <b>'FREE ACTION:</b> If this ship is within Range 1 of an Obstacle. Repair either 1 Hull or Shield on this Ship.' \n<hr> <b>NEGOTIATIONS DENIED:</b> All <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ships (Friendly and opposing) gain the following for the rest of the game <b>'END PHASE:</b> If within Range 1 of an Obstacle: Remove 1 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token from each [weapon_text] Upgrade equipped to this ship.'",
 		unique: true,
 		factions: [
 			"romulan"
@@ -99,7 +99,7 @@ module.exports = [
 		],
 		name: "Lwaxana Troi",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED</b>: At the start of the game target a Captain or [crew_text] Upgrade equipped to the target ship. Whenever this ship moves within Range 1 of target ship, disable the Captain equipped to this ship and the target Captain or [crew_text] Upgrade.\n<hr> <b>NEGOTIATIONS DENIED</b>: Place 3 [time] Tokens and a Disable Token on the target Captain or [crew_text] Upgrade.",
+		text: "<b>NEGOTIATIONS ACCEPTED</b>: At the start of the game target a Captain or [crew_text] Upgrade equipped to the target ship. Whenever this ship moves within Range 1 of target ship, disable the Captain equipped to this ship and the target Captain or [crew_text] Upgrade.\n<hr> <b>NEGOTIATIONS DENIED</b>: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens and a Disable Token on the target Captain or [crew_text] Upgrade.",
 		unique: true,
 		factions: [
 			"federation"
@@ -114,7 +114,7 @@ module.exports = [
 		],
 		name: "Sarek",
 		cost: 3,
-		text: "<b>NEGOTIATIONS ACCEPTED</b>: When this ship and the target ship are within Range 1-3 of each other, neither ship may target the other with an attack unless there are no other targets.\n<hr> <b>NEGOTIATIONS DENIED</b>: Place 3 [time] Tokens on all [weapon_text] Upgrades equipped to the target ship.",
+		text: "<b>NEGOTIATIONS ACCEPTED</b>: When this ship and the target ship are within Range 1-3 of each other, neither ship may target the other with an attack unless there are no other targets.\n<hr> <b>NEGOTIATIONS DENIED</b>: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on all [weapon_text] Upgrades equipped to the target ship.",
 		unique: true,
 		factions: [
 			"federation",

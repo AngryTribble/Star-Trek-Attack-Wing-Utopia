@@ -1489,7 +1489,7 @@ module.exports = [{
 	hull: 3,
 	shields: 3,
 	cost: 15,
-	text: "<b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 [time] Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon_text] Upgrade equipped to the target ship.",
+	text: "<b>COMBAT PHASE:</b> If there is a [scan] Token beside this ship: Target an opposing ship within Range 1-2. \n\n Place 1 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token on the target's ship card. You may spend that [scan] Token beside this ship and disable 1 [weapon_text] Upgrade equipped to the target ship.",
 	unique: true,
 	factions: [
 		"federation"
@@ -1640,7 +1640,7 @@ module.exports = [{
 	hull: 5,
 	shields: 3,
 	cost: 23,
-	text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 [aux] Token beside the defending ship.",
+	text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the defending ship.",
 	unique: true,
 	factions: [
 		"federation"
@@ -2163,7 +2163,7 @@ module.exports = [{
 	hull: 7,
 	shields: 4,
 	cost: 34,
-	text: "<b>WHEN ATTACKING</b>: If this ship is cloaked: Place an [aux] Token beside this ship. \n\nDo not flip your [cloak] Token to its red side.",
+	text: "<b>WHEN ATTACKING</b>: If this ship is cloaked: Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\nDo not flip your [cloak] Token to its red side.",
 	unique: true,
 	factions: [
 		"romulan"
@@ -2195,7 +2195,7 @@ module.exports = [{
 		"crew",
 		"crew"
 	],
-	text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an [aux] Token beside it and place 2 [time] Tokens on a [crew_text] Upgrade equipped to this ship.\n\n The target ship does not skip its Perform Action Step this game round.",
+	text: "<b>ACTIVATION PHASE:</b> Target a friendly ship within Range 1-2 that has an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside it and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on a [crew_text] Upgrade equipped to this ship.\n\n The target ship does not skip its Perform Action Step this game round.",
 	attack: 2,
 	agility: 2,
 	hull: 3,
@@ -2229,7 +2229,7 @@ module.exports = [{
 		"crew",
 		"crew"
 	],
-	text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target all friendly <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ships with a Hull Value of 3 or less within Range 1-2.\n\n The target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
+	text: "<b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target all friendly <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ships with a Hull Value of 3 or less within Range 1-2.\n\n The target ships roll +2 defense dice and may convert 1 [blank] into 1 [battlestations] the next time they defend this game round.",
 	attack: 4,
 	agility: 1,
 	hull: 5,
@@ -2829,7 +2829,7 @@ module.exports = [{
 	hull: 4,
 	shields: 3,
 	cost: 20,
-	text: "<b>FREE ACTION:</b> Place an [aux] Token beside this ship and target a friendly ship within Range 1-2.\n\nPlace a [scan] Token and an [evade] Token beside this ship and target ship.",
+	text: "<b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target a friendly ship within Range 1-2.\n\nPlace a [scan] Token and an [evade] Token beside this ship and target ship.",
 	unique: true,
 	factions: [
 		"federation",
