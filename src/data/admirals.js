@@ -96,7 +96,7 @@ module.exports = [
 		],
 		name: "Strickler",
 		unique: true,
-		text: "<b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Target ship performs either a 1 [bank-left] or 1 [bank-right] Maneuver. If the target ship has the 'Federation Prototype' [hook], you may remove an [aux] Token from beside that ship.",
+		text: "<b>FLEET ACTION:</b> Target this ship or a friendly ship within Range. \n\n Target ship performs either a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'> Maneuver. If the target ship has the 'Federation Prototype' [hook], you may remove an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token from beside that ship.",
 		range: "1 - 2",
 		factions: [
 			"federation"
@@ -114,7 +114,7 @@ module.exports = [
 		],
 		name: "Shinzon",
 		unique: true,
-		text: "Add the [battlestations] Action to this ship's Action Bar. \n<hr> <b>FLEET ACTION:</b>\n\n Remove all [time] Tokens and/or Disable Tokens from a [weapon_text] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
+		text: "Add the [battlestations] Action to this ship's Action Bar. \n<hr> <b>FLEET ACTION:</b>\n\n Remove all <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens and/or Disable Tokens from a [weapon_text] Upgrade equipped to this ship, then you may perform an Action on your Action Bar as a Free Action.",
 		factions: [
 			"romulan"
 		],
@@ -131,7 +131,7 @@ module.exports = [
 		],
 		name: "Leyton",
 		unique: true,
-		text: "<b>FLEET ACTION:</b> Target a ship and place 2 [time] Tokens on this card.\n\nThe target ship attacks last this turn.",
+		text: "<b>FLEET ACTION:</b> Target a ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nThe target ship attacks last this turn.",
 		factions: [
 			"federation"
 		],
@@ -168,7 +168,7 @@ module.exports = [
 		cost: 5,
 		skill: 2,
 		talents: 1,
-		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship.\n<hr> <b>FREE ACTION:</b> Discard 1 <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> [crew_text] Upgrade equipped to this ship and place 2 [time] Tokens on this card.\n\n Perform an attack with this ship's Primary Weapon with -1 attack die.",
+		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship.\n<hr> <b>FREE ACTION:</b> Discard 1 <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> [crew_text] Upgrade equipped to this ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Perform an attack with this ship's Primary Weapon with -1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"
