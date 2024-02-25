@@ -30,7 +30,7 @@ module.factory( "cardLoader", [ "$http", "$filter", "cardRules", "$factions", fu
 			}
 
 			// Set mirror flag
-			if (ship.id !== "S385") {
+			if (ship.id !== "S385" && ship.id !== "S318") {
 			ship.mirror = $factions.hasFaction(ship, "mirror-universe");
 			}
 

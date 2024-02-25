@@ -2968,7 +2968,7 @@ module.exports = [{
 	hull: 3,
 	shields: 2,
 	cost: 14,
-	text: "<b>BEFORE THIS SHIP REVEALS ITS MANEUVER DIAL:</b> If this ship is Cloaked: \n\nPerform a white 1 [bank-left], 1 [straight], 1 [bank-right], OR perform a [sensor-echo] Action as a Free Action.",
+	text: "<b>BEFORE THIS SHIP REVEALS ITS MANEUVER DIAL:</b> If this ship is Cloaked: \n\nPerform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'>, 1 <img src='img/stuff/maneuver_straight_white.png' width='20' height='20'>, 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'>, OR perform a [sensor-echo] Action as a Free Action.",
 	unique: true,
 	factions: [
 		"romulan"
@@ -3005,7 +3005,8 @@ module.exports = [{
 	text: "You do not pay a faction penalty for cards equipped to this ship.\n<hr> All [tech_text] Upgrades equipped to this ship cost -1 SP.",
 	unique: true,
 	factions: [
-		"borg"
+		"borg",
+		"mirror-universe"
 	],
 	intercept: {
 		ship: {},
@@ -3373,7 +3374,7 @@ module.exports = [{
 	hull: 3,
 	shields: 3,
 	cost: 18,
-	text: "You may equip the Inertial Compensators Upgrade to this ship for free and without requiring an Upgrade Slot.\n<hr> <b>WHEN ATTACKING:</b> If the defending ship is hit: \n\n Place an [aux] token beside the defending ship.",
+	text: "You may equip the Inertial Compensators Upgrade to this ship for free and without requiring an Upgrade Slot.\n<hr> <b>WHEN ATTACKING:</b> If the defending ship is hit: \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> token beside the defending ship.",
 	unique: true,
 	factions: [
 		"independent"
@@ -3645,7 +3646,7 @@ module.exports = [{
 	hull: 1,
 	shields: 1,
 	cost: 24,
-	text: "ATTACK SQUADRON TOKENS: 5\r\n<b>ACTION:</b> Place 3 [time] Tokens on this card.\n\nEquip a [squadron_text] Upgrade that was discarded from this Attack Squadron to this Attack Squadron.",
+	text: "ATTACK SQUADRON TOKENS: 5\r\n<b>ACTION:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nEquip a [squadron_text] Upgrade that was discarded from this Attack Squadron to this Attack Squadron.",
 	unique: true,
 	factions: [
 		"federation"
@@ -3675,7 +3676,7 @@ module.exports = [{
 	hull: 1,
 	shields: 1,
 	cost: 24,
-	text: "ATTACK SQUADRON TOKENS: 5\r\n<b>ACTION:</b> Place 2 [time] Tokens on this card.\nPerform an [sensor-echo] action using a 1 [straight] Maneuver Template as a Free Action, even if this Attack Squadron is not Cloaked.",
+	text: "ATTACK SQUADRON TOKENS: 5\r\n<b>ACTION:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\nPerform an [sensor-echo] action using a 1 [straight] Maneuver Template as a Free Action, even if this Attack Squadron is not Cloaked.",
 	unique: true,
 	factions: [
 		"federation"
@@ -4128,7 +4129,7 @@ module.exports = [{
 	hull: 4,
 	shields: 3,
 	cost: 20,
-	text: "<b>ACTIVATION PHASE:</b> After this ship executes a Green Maneuver, place 2 [time] Tokens on this card.\n\n Remove a Disable Token from 1 Upgrade equipped to this ship or equip a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Upgrade that was discarded from this ship to this ship.",
+	text: "<b>ACTIVATION PHASE:</b> After this ship executes a Green Maneuver, place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Remove a Disable Token from 1 Upgrade equipped to this ship or equip a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Upgrade that was discarded from this ship to this ship.",
 	unique: true,
 	factions: [
 		"ferengi"
@@ -4419,7 +4420,7 @@ module.exports = [{
 	hull: 6,
 	shields: 4,
 	cost: 29,
-	text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, place an [aux] Token beside it.\n\nDisable up to 2 Shields on the defending ship.",
+	text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked, place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside it.\n\nDisable up to 2 Shields on the defending ship.",
 	unique: true,
 	factions: [
 		"romulan"
@@ -4493,7 +4494,7 @@ module.exports = [{
 	hull: 6,
 	shields: 3,
 	cost: 28,
-	text: "<b>COMBAT PHASE:</b> After this ship attacks:\n\nThis ship may perform a Green 2 [bank-left] or Green 2 [bank-right] Maneuver.",
+	text: "<b>COMBAT PHASE:</b> After this ship attacks:\n\nThis ship may perform a 2 <img src='img/stuff/maneuver_bank_left_green.png' width='20' height='20'> or 2 <img src='img/stuff/maneuver_bank_right_green.png' width='20' height='20'> Maneuver.",
 	unique: true,
 	factions: [
 		"romulan"
@@ -4567,7 +4568,7 @@ module.exports = [{
 	hull: 2,
 	shields: 2,
 	cost: 12,
-	text: "<b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card and target a friendly <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship within Range 1.\n\nThe target ship may perform an Action as a Free Action.",
+	text: "<b>ACTIVATION PHASE:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target a friendly <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship within Range 1.\n\nThe target ship may perform an Action as a Free Action.",
 	unique: true,
 	factions: [
 		"romulan"

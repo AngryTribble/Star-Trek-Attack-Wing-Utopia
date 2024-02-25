@@ -286,6 +286,20 @@
 	text-align: center;
 }
 
+.card-errata-icon {
+	background: url("../img/restrictions/errata.png")no-repeat;
+	font-size: 0.5em;
+	background-size: 2em;
+	color: white;
+	padding: 0.5em;
+	position: relative;
+	left: 0em;
+	margin-top:0.5em;
+	top: -0.1em;
+	z-index: 2;
+	text-align: center;
+}
+
 .card-shipLimit-icon {
 	background: url("../img/restrictions/upgrade-ship-limit.png")no-repeat;
 	background-size: 1em;

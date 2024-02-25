@@ -19,7 +19,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Love Crystal Token",
-		text: "When a [crew_text] Upgrade with a Love Crystal Token becomes disabled the player who placed that Love Crystal Token on that [crew_text] Upgrade chooses and disables another [crew_text] Upgrade with a Love Crystal Token equipped to the same ship.\n\nWhen a [crew_text] Upgrade with a Love Crystal Token is discarded the player who placed that Love Crystal Token on that [crew_text] Upgrade chooses and discards another [crew_text] Upgrade with a Love Crystal Token equipped to the same ship.\n\nWhen a [crew_text] Upgrade with a Love Crystal Token has one or more [time] Tokens placed on it, the player who placed that Love Crystal Token on that [crew_text] Upgrade choses another [crew_text] Upgrade with a Love Crystal Token equipped to the same ship and places the same amount of [time] Tokens on it."
+		text: "When a [crew_text] Upgrade with a Love Crystal Token becomes disabled the player who placed that Love Crystal Token on that [crew_text] Upgrade chooses and disables another [crew_text] Upgrade with a Love Crystal Token equipped to the same ship.\n\nWhen a [crew_text] Upgrade with a Love Crystal Token is discarded the player who placed that Love Crystal Token on that [crew_text] Upgrade chooses and discards another [crew_text] Upgrade with a Love Crystal Token equipped to the same ship.\n\nWhen a [crew_text] Upgrade with a Love Crystal Token has one or more <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens placed on it, the player who placed that Love Crystal Token on that [crew_text] Upgrade choses another [crew_text] Upgrade with a Love Crystal Token equipped to the same ship and places the same amount of <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on it."
 	},
 	{
 		type: "token",
@@ -55,7 +55,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Bio-Mimetic Gel Rules",
-		text: "While an Upgrade has a Bio-Mimetic Gel Token (BMGT) on it, it gains the following text based on its upgrade type:\n\n[crew_text]: The ship that placed the BMGT on this [crew_text] Upgrade may spend the BMGT to use the ability of this [crew_text] Upgrade.\n\n[weapon_text]: When this [weapon_text] Upgrade deals damage to an opposing ship’s Hull, the ship that placed the BMGT on this [weapon_text] Upgrade may spend the BMGT to discard 1 [crew_text] Upgrade of their choice equipped to the defending ship.\n\n[tech_text]: When the ability of this [tech_text] Upgrade is used, the ship that placed the BMGT on this [tech_text] Upgrade may spend the BMGT to place 2 [time] Tokens on each [crew_text] Upgrade equipped to this ship.\n-----------------------------------\nWhen a BMGT is spent, roll 1 attack die. If a [battlestations] result is rolled, discard both the “Bio-mimetic Gel” Upgrade Card and the target Upgrade the BMGT was on."
+		text: "While an Upgrade has a Bio-Mimetic Gel Token (BMGT) on it, it gains the following text based on its upgrade type:\n\n[crew_text]: The ship that placed the BMGT on this [crew_text] Upgrade may spend the BMGT to use the ability of this [crew_text] Upgrade.\n\n[weapon_text]: When this [weapon_text] Upgrade deals damage to an opposing ship’s Hull, the ship that placed the BMGT on this [weapon_text] Upgrade may spend the BMGT to discard 1 [crew_text] Upgrade of their choice equipped to the defending ship.\n\n[tech_text]: When the ability of this [tech_text] Upgrade is used, the ship that placed the BMGT on this [tech_text] Upgrade may spend the BMGT to place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on each [crew_text] Upgrade equipped to this ship.\n-----------------------------------\nWhen a BMGT is spent, roll 1 attack die. If a [battlestations] result is rolled, discard both the “Bio-mimetic Gel” Upgrade Card and the target Upgrade the BMGT was on."
 	},
 	{
 		type: "token",
@@ -67,7 +67,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Gold-Pressed Latinum Token",
-		text: "Once per game round per ship, a Captain may spend their Gold-Pressed Latinum Token(s) (GPLT) to activate one of the following abilities:\n-----------------------------------\n<b>PLANING PHASE:</b> Spend 1 GPLT\nRemove an [aux] Token beside this ship.\n-----------------------------------\n<b>ACTIVATION PHASE:</b>Once per game, spend any of GPLT.\n\nEquip a [crew_text], [tech_text], or [weapon_text] Upgrade with a cost equal to the amount of GPLT spent that was discarded from this ship.\n-----------------------------------\n<b>COMBAT PHASE:</b> Spend 1 GPLT.\nPlace a [battlestations], [evade] or [scan] Token beside this ship."
+		text: "Once per game round per ship, a Captain may spend their Gold-Pressed Latinum Token(s) (GPLT) to activate one of the following abilities:\n-----------------------------------\n<b>PLANING PHASE:</b> Spend 1 GPLT\nRemove an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship.\n-----------------------------------\n<b>ACTIVATION PHASE:</b>Once per game, spend any of GPLT.\n\nEquip a [crew_text], [tech_text], or [weapon_text] Upgrade with a cost equal to the amount of GPLT spent that was discarded from this ship.\n-----------------------------------\n<b>COMBAT PHASE:</b> Spend 1 GPLT.\nPlace a [battlestations], [evade] or [scan] Token beside this ship."
 	},
 	{
 		type: "token",
