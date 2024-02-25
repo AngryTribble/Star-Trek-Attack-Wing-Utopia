@@ -480,6 +480,10 @@
   content: ".";
 }
 
+.fs-errata:before {
+  content: ".";
+}
+
 .fs-faq:before {
   content: ".";
 }

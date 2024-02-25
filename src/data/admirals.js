@@ -151,7 +151,7 @@ module.exports = [
 		cost: 4,
 		skill: 2,
 		talents: 1,
-		text: "<b>FLEET ACTION:</b> Target a [crew_text] Upgrade equipped to this ship.\n\nMove all [time] Tokens from this target [crew_text] Upgrade to this card.  If that [crew_text] Upgrade has an Action you may perform that Action as a Free Action.",
+		text: "<b>FLEET ACTION:</b> Target a [crew_text] Upgrade equipped to this ship.\n\nMove all <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens from this target [crew_text] Upgrade to this card.  If that [crew_text] Upgrade has an Action you may perform that Action as a Free Action.",
 		unique: true,
 		factions: [
 			"federation"

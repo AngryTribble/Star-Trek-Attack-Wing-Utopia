@@ -1739,7 +1739,7 @@ module.exports = [
 		cost: 2,
 		skill: 3,
 		talents: 1,
-		text: "Idrin counts as a Hirogen Captain.\n<hr> <b>ACTIVATION PHASE:</b> Place 2 [time] Tokens on this card.\n\nRemove 1 Disable Token or up to 2 [time] Tokens from a [tech_text] or [weapon_text]  Upgrade equipped to this ship.",
+		text: "Idrin counts as a Hirogen Captain.\n<hr> <b>ACTIVATION PHASE:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nRemove 1 Disable Token or up to 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens from a [tech_text] or [weapon_text]  Upgrade equipped to this ship.",
 		unique: true,
 		factions: [
 			"independent"
@@ -2472,7 +2472,7 @@ module.exports = [
 		cost: 3,
 		skill: 4,
 		talents: 0,
-		text: "At the beginning of the game round, you may flip this card.\n<br> <b>WHEN ATTACKING:</b> If this ship is Cloaked:\n\nThis ship rolls +1 attack die.",
+		text: "At the beginning of the game round, you may flip this card. <hr> <b>WHEN ATTACKING:</b> If this ship is Cloaked:\n\nThis ship rolls +1 attack die.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -2489,7 +2489,7 @@ module.exports = [
 		cost: 3,
 		skill: 4,
 		talents: 0,
-		text: "At the beginning of the game round, you may flip this card.\n<hr> <b>WHEN DEFENDING:</b> If this ship is Cloaked:\n\nThis ship rolls +2 defense die.",
+		text: "At the beginning of the game round, you may flip this card. <hr> <b>WHEN DEFENDING:</b> If this ship is Cloaked:\n\nThis ship rolls +2 defense die.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -2524,7 +2524,7 @@ module.exports = [
 		cost: 2,
 		skill: 4,
 		talents: 1,
-		text: "\n<b>WHEN A </b>[tech_text]<b> UPGRADE EQUIPPED TO THIS SHIP WOULD BE DISABLED:</b> \n\nYou may place 2 [time] Tokens on it instead.",
+		text: "\n<b>WHEN A </b>[tech_text]<b> UPGRADE EQUIPPED TO THIS SHIP WOULD BE DISABLED:</b> \n\nYou may place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on it instead.",
 		unique: true,
 		factions: [
 			"dominion"
@@ -3471,7 +3471,7 @@ module.exports = [
 		],
 		name: "Daimon Goss",
 		unique: true,
-		text: "<b>SETUP:</b>\n\n Place 3 Gold-Pressed Latinum Tokens on this card.\n<hr> <b>PLANNING PHASE:</b> Target an Obstacle, spend 3 GPLT and place 2 [time] Tokens on this card.\n\n<b>Continuous Effect:</b> While this ship is within Range of the target Obstacle, this ship rolls +3 defense dice.",
+		text: "<b>SETUP:</b>\n\n Place 3 Gold-Pressed Latinum Tokens on this card.\n<hr> <b>PLANNING PHASE:</b> Target an Obstacle, spend 3 GPLT and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n<b>Continuous Effect:</b> While this ship is within Range of the target Obstacle, this ship rolls +3 defense dice.",
 		factions: [
 			"ferengi"
 		],
@@ -3994,7 +3994,7 @@ module.exports = [
 		cost: 3,
 		skill: 5,
 		talents: 0,
-		text: "<b>ACTION:</b>\n\nPerform a 1 [bank-left] or 1 [bank-right] Maneuver and place 1 [evade] Token beside this ship.",
+		text: "<b>ACTION:</b>\n\nPerform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'> Maneuver and place 1 [evade] Token beside this ship.",
 		unique: true,
 		specialization: true,
 		factions: [
@@ -4046,7 +4046,7 @@ module.exports = [
 		],
 		name: "Operations Drone",
 		unique: false,
-		text: "<b>Setup:</b>\n\nPlace 6 Drone Tokens on this card.\n<hr> <b>PLANNING PHASE:</b> Spend 1 Drone Token on this card and target an opposing ship.\n\nPlace an [aux] Token beside the target ship.",
+		text: "<b>Setup:</b>\n\nPlace 6 Drone Tokens on this card.\n<hr> <b>PLANNING PHASE:</b> Spend 1 Drone Token on this card and target an opposing ship.\n\nPlace an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the target ship.",
 		factions: [
 			"borg"
 		],
@@ -4063,7 +4063,7 @@ module.exports = [
 		],
 		name: "'First'",
 		unique: true,
-		text: "<b>SETUP:</b>\n\nPlace 6 Drone Tokens on this card.\n<hr> <b>ACTIVATION PHASE:</b> Spend 1 Drone Token.\n\nRemove 2 [time] Tokens or 1 Disabled Token from an Upgrade equipped to this ship.",
+		text: "<b>SETUP:</b>\n\nPlace 6 Drone Tokens on this card.\n<hr> <b>ACTIVATION PHASE:</b> Spend 1 Drone Token.\n\nRemove 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens or 1 <img src='img/stuff/effect_disable.png' width='20' height='16'> from an Upgrade equipped to this ship.",
 		factions: [
 			"borg"
 		],
@@ -4184,7 +4184,7 @@ module.exports = [
 		],
 		name: "Alidar Jarok",
 		unique: true,
-		text: "<b>ACTIVATION PHASE:</b> After an opposing ship moves but before its Perform Action Step, target that ship and place 2 [time] Tokens on this card.\nChoose an Action on the target ships Action Bar other then [regenerate]. This target ship must perfrom the chosen Action during its Perform Action Step.",
+		text: "<b>ACTIVATION PHASE:</b> After an opposing ship moves but before its Perform Action Step, target that ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\nChoose an Action on the target ships Action Bar other then [regenerate]. This target ship must perfrom the chosen Action during its Perform Action Step.",
 		factions: [
 			"romulan"
 		],
@@ -4837,7 +4837,7 @@ module.exports = [
 		],
 		name: "Kor",
 		unique: true,
-		text: "<b>ACTION:</b> If this ship is not cloaked, target all enemy ships.\n\nAll target ships must attack this ship this round, if possible. When defending against each of these attacks, roll +2 defense dice.\n\n<b>( ERRATA )</b>",
+		text: "<b>ACTION:</b> If this ship is not cloaked, target all enemy ships.\n\n All target ships must attack this ship this round, if possible. When defending against each of these attacks, roll +2 defense dice.\n\n<b>( ERRATA )</b>",
 		factions: [
 			"klingon"
 		],
@@ -4942,7 +4942,7 @@ module.exports = [
 		cost: 4,
 		skill: 6,
 		talents: 1,
-		text: "You may not equip an Admiral to this ship.\n<hr> <b>SETUP:</b> Select a Captain Card with a printed cost of 4 SP or less.\n\nArturis has the ability of that Captain Card this game.\n(<i>Dauntless Class Only</i>)",
+		text: "You may not equip an Admiral to this ship.\n<hr> <b>SETUP:</b> Select a Captain Card with a printed cost of 4 SP or less.\n\nArturis has the ability of that Captain Card this game.",
 		unique: true,
 		dauntlessLimit: true,
 		factions: [
@@ -5107,7 +5107,7 @@ module.exports = [
 		cost: 4,
 		skill: 7,
 		talents: 1,
-		text: "<b>WHEN ATTACKING:</b> Place 2 [time] Tokens on this card.\n\nThe defending player must disable a Captain or [crew_text] Upgrade equipped to the defending ship. If they can't place an [aux] Token beside the defending ship.",
+		text: "<b>WHEN ATTACKING:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nThe defending player must disable a Captain or [crew_text] Upgrade equipped to the defending ship. If they can't place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the defending ship.",
 		unique: true,
 		factions: [
 			"klingon"
@@ -5159,7 +5159,7 @@ module.exports = [
 		cost: 4,
 		skill: 7,
 		talents: 1,
-		text: "<b>ACTIVATION PHASE:</b> Disable this card.\n\nRemove 1 [time] Token from all [crew_text] Upgrade equipped to this ship.",
+		text: "<b>ACTIVATION PHASE:</b> Disable this card.\n\nRemove 1 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token from all [crew_text] Upgrade equipped to this ship.",
 		unique: true,
 		specialization: true,
 		factions: [
@@ -5195,7 +5195,7 @@ module.exports = [
 		cost: 5,
 		skill: 7,
 		talents: 1,
-		text: "<b>AFTER THIS SHIP PERFORMS A MANEUVER:</b> Place 2 [time] Tokens on this card and target up to two friendly Jem'Hadar Attack Ships.\n\nPlace an [evade] Token beside this ship. The target ships may perform an Action on their Action Bar as a Free Action.",
+		text: "<b>AFTER THIS SHIP PERFORMS A MANEUVER:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target up to two friendly Jem'Hadar Attack Ships.\n\nPlace an [evade] Token beside this ship. The target ships may perform an Action on their Action Bar as a Free Action.",
 		unique: true,
 		range: "1 - 2",
 		factions: [
@@ -5732,7 +5732,7 @@ module.exports = [
 		skill: "*",
 		talents: 1,
 		range: "1 - 2",
-		text: "<b>SETUP:</b> Place 8 Drone Tokens on this card.\n<hr> <b>EACH TIME AN OPPOSING SHIP WITHIN RANGE PERFORMS AN [evade] , [scan] , OR [battlestations] ACTION:</b> Spend 1 Drone Token on this card and target that opposing ship.\n\n Perform the same Action as a Free Action and Place an [aux] Token beside the target ship.",
+		text: "<b>SETUP:</b> Place 8 Drone Tokens on this card.\n<hr> <b>EACH TIME AN OPPOSING SHIP WITHIN RANGE PERFORMS AN [evade] , [scan] , OR [battlestations] ACTION:</b> Spend 1 Drone Token on this card and target that opposing ship.\n\n Perform the same Action as a Free Action and Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the target ship.",
 		unique: true,
 		factions: [
 			"federation",
@@ -5873,7 +5873,7 @@ module.exports = [
 		cost: 5,
 		skill: 8,
 		talents: 1,
-		text: "If this card is equipped ot a Constitution Class ship, add 1 to this Captain's Captain Skill.\n<hr> <b>ACTION:</b> Target a [crew_text] Upgrade equipped to this ship.\n\n Move all [time] Tokens from this target [crew_text] Upgrade to this card.  If that [crew_text] Upgrade has an Action, you may perform that Action as a Free Action.",
+		text: "If this card is equipped ot a Constitution Class ship, add 1 to this Captain's Captain Skill.\n<hr> <b>ACTION:</b> Target a [crew_text] Upgrade equipped to this ship.\n\n Move all <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens from this target [crew_text] Upgrade to this card.  If that [crew_text] Upgrade has an Action, you may perform that Action as a Free Action.",
 		unique: true,
 		factions: [
 			"federation"
@@ -5890,7 +5890,7 @@ module.exports = [
 		cost: 5,
 		skill: 8,
 		talents: 1,
-		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked place 2 [time] Tokens on this card.\n\nThis ship rolls +1 attack die this attack, and this ship's [cloak] Token dose not flip this attack. If this card is equipped to a <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> ship, also add 1 [hit].",
+		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nThis ship rolls +1 attack die this attack, and this ship's [cloak] Token dose not flip this attack. If this card is equipped to a <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> ship, also add 1 [hit].",
 		unique: true,
 		factions: [
 			"klingon"
@@ -5977,7 +5977,7 @@ module.exports = [
 		cost: 6,
 		skill: 8,
 		talents: 2,
-		text: "<b>ACTION:</b> Place 2 [time] Tokens on this card and target all friendly ships.\n\nPlace a [battlestations] Token beside this ship and all target ships.",
+		text: "<b>ACTION:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target all friendly ships.\n\nPlace a [battlestations] Token beside this ship and all target ships.",
 		unique: true,
 		range: "1 - 2",
 		factions: [
