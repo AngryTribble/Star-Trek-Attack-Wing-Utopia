@@ -890,7 +890,7 @@ module.exports = [
 		],
 		name: "Phlox",
 		cost: 2,
-		text: "<b>FREEE ACTION:</b> Disable this card. \n\n Remove all <img src='img/stuff/effect_disable.png' width='20' height='16'> Tokens from each of your other [crew_text] Upgrades equipped to this sihp.",
+		text: "<b>FREE ACTION:</b> Disable this card. \n\n Remove all <img src='img/stuff/effect_disable.png' width='20' height='16'> Tokens from each of your other [crew_text] Upgrades equipped to this sihp.",
 		unique: true,
 		alliance: false,
 		factions: [
