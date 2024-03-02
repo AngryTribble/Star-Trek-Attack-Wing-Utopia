@@ -14,6 +14,7 @@ module.exports = [
 		],
 		cost: 5,
 		skill: 0,
+		talents: 1,
 		range: "1 - 2"
 	},
 	{

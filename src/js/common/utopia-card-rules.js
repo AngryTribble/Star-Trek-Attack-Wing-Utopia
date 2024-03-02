@@ -137,6 +137,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 	}
 
+	
 	// the following return object represents a massive lookup table to resolve special card rules by a key of "cardType:cardId"
 	return {
 
@@ -233,7 +234,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 
 	//James T. Kirk (Admiral)
 	"admiral:A044": {
-		upgradeSlots: [
+		upgradeSlots: [ {},
 			{
 				type: ["crew"]
 			},
@@ -2138,6 +2139,7 @@ intercept: {
 	)
 },
 
+
 // Experimental Torpedo Bay
 "weapon:W215": {
     // Upgrade slot for torpedo only of printed cost 5 or less
@@ -2154,20 +2156,20 @@ intercept: {
                 canEquip: function(upgrade, ship, fleet) {
                     var cost = valueOf(upgrade, "cost", ship, fleet);
                     return cost <= 6;
-                }
-            },
-            free: function() {
-                return true;
-            },
-            factionPenalty: function(upgrade, ship, fleet) {
-                const factions = ["federation", "klingon", "romulan", "bajoran", "vulcan", "dominion", "borg", "independent", "ferengi", "xindi", "kazon", "mirror-universe", "species-8472"];
-                for (let faction of factions) {
-                    if ($factions.hasFaction(ship, faction, ship, fleet)) {
-                        return 0;
-                    }
-                }
-                return 1;
-            }
+                },
+            	free: function() {
+                	return true;
+            	},
+            	factionPenalty: function(upgrade, ship, fleet) {
+                	const factions = ["federation", "klingon", "romulan", "bajoran", "vulcan", "dominion", "borg", "independent", "ferengi", "xindi", "kazon", "mirror-universe", "species-8472"];
+                	for (let faction of factions) {
+                    	if ($factions.hasFaction(ship, faction, ship, fleet)) {
+                        	return 0;
+                    	}
+                	}
+                	return 1;
+            	}
+			}
         }
     }]
 },
