@@ -164,31 +164,40 @@ module.filter( "valueOf", [ "$filter", function($filter) {
 
 	return function( card, field, ship, fleet, upgradeSlot, options ) {
 
-		data = card[field];
+		// for future reference use let instead of var 
+		// var is function scoped meaning it is available anywhere inside the function and 'hoisted' to the top of the function
+		// let is block scoped meaning it is only available within the block it is defined in( think '{' and '}' pairs) and is not hoisted to the top of the function
+		// let is also not reassignable, meaning you can't redefine it in the same block
+		// let is also not hoisted to the top of the function, so it is only available after it is defined
+		// const is block scoped and not reassignable, but it is also not hoisted to the top of the function and is only available after it is defined
+		// so I think it would be better to use let or const instead of var in most cases, var has some weird behavior that can lead to bugs
+		let data = card[field];
 
 		data = data instanceof Function ? data(card, ship, fleet) : data;
 
-		var modifiers = [ { source: "Printed Value", value: data } ];
+		let modifiers = [ { source: "Printed Value", value: data } ];
 
 		if( ship ) {
 
-			var interceptors = interceptorsFilter( card, ship, fleet, field, upgradeSlot );
+			let interceptors = interceptorsFilter( card, ship, fleet, field, upgradeSlot );
 
 			interceptors.sort( function(a,b) {
 				return a.priority > b.priority ? 1 : -1;
 			});
 
-			$.each( interceptors, function(i, interceptor) {
-				var dataBefore = data;
-				data = interceptor.fn( card, ship, fleet, data );
-				if( data != dataBefore && !interceptor.hidden ) {
+			// Replace $.each with a standard for loop - minor improvement
+			for (let i = 0; i < interceptors.length; i++) {
+				let interceptor = interceptors[i];
+				let dataBefore = data;
+				data = interceptor.fn(card, ship, fleet, data);
+				if (data != dataBefore && !interceptor.hidden) {
 					data = data instanceof Function ? data(card, ship, fleet) : data;
 					dataBefore = dataBefore instanceof Function ? dataBefore(card, ship, fleet) : dataBefore;
-					if( data != dataBefore ) {
-						modifiers.push( { source: interceptor.source, value: (data - dataBefore) } );
+					if (data != dataBefore) {
+						modifiers.push({ source: interceptor.source, value: (data - dataBefore) });
 					}
 				}
-			});
+			}
 
 		}
 
