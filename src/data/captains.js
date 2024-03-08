@@ -206,7 +206,8 @@ module.exports = [
 		cost: 3,
 		skill: 5,
 		talents: 1,
-		range: "1"
+		range: "1",
+		nxLimit: true
 	},
 	{
 		type: "captain",
@@ -476,7 +477,7 @@ module.exports = [
 		],
 		name: "Harry Kim",
 		unique: true,
-		text: "<b>(Night Shift)</b> Treat your Captain Skill as 5. <hr> <b>AFTER YOU REMOVE AN <img src='img/stuff/effect_auxilary.png' width='18' height='16'> TOKEN FROM BESIDE THIS SHIP:</b> \n\n Place an [evade] Token beside this ship. <b>(Night Shift)</b> In addition place a [battlestations] Token beside this ship.",
+		text: "<b>(Night Shift)</b> Treat your Captain's Skill Number as 5. <hr> <b>AFTER YOU REMOVE AN <img src='img/stuff/effect_auxilary.png' width='18' height='16'> TOKEN FROM BESIDE THIS SHIP:</b> \n\n Place an [evade] Token beside this ship. <b>(Night Shift)</b> In Addition, place a [battlestations] Token beside this ship.",
 		factions: [
 			"federation"
 		],

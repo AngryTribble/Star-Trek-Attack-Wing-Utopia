@@ -43,7 +43,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Ablative Generator",
-		cost: 0,
+		cost: "*",
 		text: "This card can only be equipped to a <img src='img/text/unique.png' width='20' height='20' title='Unique'>/<img src='img/text/unique_mirror.png' width='20' height='20' title='Mirror Unique'> ship and the SP cost of this card is equal to this ship's printed Hull Value +2. <hr> <b>COMBAT PHASE:</b> Disbale your remaining Shields an remove any [cloak] Token from beside your ship. \n\n This ship cannot attack with its Primary Weapon and may reduce damage dealt to it by up to 5 this game round. For each point of damage reduced this way, you must place a [crit] Token on this card (Max 5). Discard this card once it has 5 [crit] Tokens on it.",
 		OnePerShip: true,
 		hullConstraint: "4+",
