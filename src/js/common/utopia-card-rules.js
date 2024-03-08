@@ -1833,7 +1833,7 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 	canEquip: true, 
 	canEquipFaction: true, 
  	canEquipConstruction: function(upgrade,ship,fleet) {
-		return ship.id == "S404" || ship.name.startsWith("U.S.S. ") && (ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,""))
+		return ship.id == "S404" || ship.id == "S386" || ship.name.startsWith("U.S.S. ") && (ship.name.replace("U.S.S. ", "") == ship.class.replace(/ [Cc]lass/,""))
  	},
 
  	upgradeSlots: [
