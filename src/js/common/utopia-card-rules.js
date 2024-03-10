@@ -657,13 +657,6 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 					}
 					return hull;
 				},
-				//Adds +1 Attack to the primary weapon stats of a D'deridex Class
-				attack: function(card, ship, fleet, attack) {
-					if (ship.class == "D'deridex Class") {
-						return resolve(card,ship,fleet,attack) +1;
-					}
-					return attack;
-				}
 			}
 		},
 		//Can only be equipped to a Federation, Klingon, or Romulan ship.
