@@ -444,6 +444,30 @@
 	text-align: center;
 }
 
+.card-droneLimit-icon {
+	background: url("../img/restrictions/romDrone.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
+.card-dreadnaughtLimit-icon {
+	background: url("../img/restrictions/domDreadnaught.png")no-repeat;
+	background-size: 1em;
+	color: gray;
+	width: 1.2em;
+	position: relative;
+	left: 0em;
+	top: -0.1em;
+	z-index: 1;
+	text-align: center;
+}
+
 .card-prometheusLimit-icon {
 	background: url("../img/restrictions/fedPrometheus.png") no-repeat;
 	background-size: 1em;

@@ -194,7 +194,7 @@ module.exports = [
 		],
 		name: "Photonic Torpedoes",
 		cost: 2,
-		text: "<b>ATTACK:</b> If this ship has a [target-lock] Token on the defending ship, place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on the card and target that opposing ship: \n\n If equipped to an <img src='img/text/fed-nx.png' width='20' height='20'>, you may convert 1 [battlestations] into 1 [hit].",
+		text: "<b>ATTACK:</b> If this ship has a [target-lock] Token on the defending ship, place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on the card and target that opposing ship: \n\n If equipped to an <img src='img/text/fed-nx.png' width='20' height='20' title='Federation NX Class'>, you may convert 1 [battlestations] into 1 [hit].",
 		attack: "4",
 		range: "2 - 3",
 		alliance: false,
@@ -403,7 +403,7 @@ module.exports = [
 		],
 		name: "Leah Brahms",
 		cost: 4,
-		text: "<b>WHENEVER THIS SHIP WOULD EXECUTE A RED MANEUVER:</b> Disable this card. \n\n Treat this Maneuver as a White Maneuver instead. If this card is equipped to a <img src='img/text/fed-galaxy.png' width='20' height='20'> ship, You may increase or decrease the Speed of that Maneuver by 1 (Min 1).",
+		text: "<b>WHENEVER THIS SHIP WOULD EXECUTE A RED MANEUVER:</b> Disable this card. \n\n Treat this Maneuver as a White Maneuver instead. If this card is equipped to a <img src='img/text/fed-galaxy.png' width='20' height='20' title='Galaxy Class'> ship, You may increase or decrease the Speed of that Maneuver by 1 (Min 1).",
 		unique: true,
 		shipFederation: true,
 		alliance: false,
@@ -672,7 +672,7 @@ module.exports = [
 		],
 		name: "Tuvok",
 		cost: 2,
-		text: "<b>PLANNING PHASE:</b> \n\n Place a [scan] Token beside this ship. \n\n\n <b>(Lower Decks)</b>",
+		text: "<b>PLANNING PHASE:</b> Disable this card. \n\n Place a [scan] Token beside this ship. \n\n\n <b>(Lower Decks)</b>",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1043,7 +1043,7 @@ module.exports = [
 		],
 		name: "Pavel Chekov",
 		cost: 3,
-		text: "<b>CHECK FOR POWER STRAIN STEP:</b> If this ship performed a White Maneuver. \n\n Remove an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token from beside this ship. If equipped to a <img src='img/text/fed-miranda.png' width='20' height='20'>, place a [scan] Token beside this ship. <hr> <b>(First Officer) IF THE CAPTAIN EQUIPPED TO THIS SHIP IS DISCARDED: \n\n Flip this card over and equip this card as the Captain.",
+		text: "<b>CHECK FOR POWER STRAIN STEP:</b> If this ship performed a White Maneuver. \n\n Remove an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token from beside this ship. If equipped to a <img src='img/text/fed-miranda.png' width='20' height='20' title='Miranda Class'>, place a [scan] Token beside this ship. <hr> <b>(First Officer) IF THE CAPTAIN EQUIPPED TO THIS SHIP IS DISCARDED: \n\n Flip this card over and equip this card as the Captain.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1090,7 +1090,7 @@ module.exports = [
 		],
 		name: "Photonic Field Generator",
 		cost: 2,
-		text: "This card counts as a [weapon_text] Upgrade for a [tech_text] Upgrade. <hr> You may perform Actions listed on <b>?</b> Upgrades equipped to this ship even if you have any <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Tokens beside this ship. <hr> Opposing ships within Range cannot Discard or Disable other <img src='img/text/faction-indy.png' width='20' height='20'> <b>?</b> Upgrades equipped to this ship.",
+		text: "This card counts as a [weapon_text] Upgrade for a [tech_text] Upgrade. <hr> You may perform Actions listed on <b>?</b> Upgrades equipped to this ship even if you have any <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Tokens beside this ship. <hr> Opposing ships within Range cannot Discard or Disable other <img src='img/text/faction-indy.png' width='20' height='20' title='Independent Faction'> <b>?</b> Upgrades equipped to this ship.",
 		range: "1 - 2",
 		unique: true,
 		alliance: false,
@@ -1248,7 +1248,7 @@ module.exports = [
 		],
 		name: "Targeted Phaser Strike",
 		cost: 2,
-		text: "<b>ATTACK:</b> If this ship has a [target-lock] Token on the defending ship, place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target that opposing ship. \n\n <b>DEAL DAMAGE STEP:</b> Apply the effect based on which of the defending ship's arcs you are in: \n * <img src='img/text/forward-arc.png' width='20' height='20'>: Discard 1 [crew_text] Upgrade equipped to the defending ship. \n * <img src='img/text/rear-arc.png' width='20' height='20'>: Discard 1 [weapon_text] Upgrade equipped to the defending ship. \n * Non-<img src='img/text/forward-arc.png' width='20' height='20'> and Non-<img src='img/text/rear-arc.png' width='20' height='20'>: Place an [aux] Token beside the defending ship.",
+		text: "<b>ATTACK:</b> If this ship has a [target-lock] Token on the defending ship, place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target that opposing ship. \n\n <b>DEAL DAMAGE STEP:</b> Apply the effect based on which of the defending ship's arcs you are in: \n * <img src='img/text/forward-arc.png' width='20' height='20' title='Forward Firing Arc'>: Discard 1 [crew_text] Upgrade equipped to the defending ship. \n * <img src='img/text/rear-arc.png' width='20' height='20' title='Secondary Firing Arc'>: Discard 1 [weapon_text] Upgrade equipped to the defending ship. \n * Non-<img src='img/text/forward-arc.png' width='20' height='20' title='Forward Firing Arc'> and Non-<img src='img/text/rear-arc.png' width='20' height='20' title='Secondary Firing Arc'>: Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside the defending ship.",
 		OnePerShip: true,
 		attack: "4",
 		range: "1 - 2",
@@ -1318,7 +1318,7 @@ module.exports = [
 		],
 		name: "Donik",
 		cost: 2,
-		text: "This ship cannot be targeted by [weapon_text] Upgrades fired through a <img src='img/text/rear-arc.png' width='20' height='20'>. <hr> <b>WHEN DEFENDING:</b> If the attacking ship has any [question_text] Upgrades equipped to their ship. \n\n Roll +1 defense die.",
+		text: "This ship cannot be targeted by [weapon_text] Upgrades fired through a <img src='img/text/rear-arc.png' width='20' height='20' title='Secondary Firing Arc'>. <hr> <b>WHEN DEFENDING:</b> If the attacking ship has any [question_text] Upgrades equipped to their ship. \n\n Roll +1 defense die.",
 		unique: true,
 		hirogenLimit: true,
 		alliance: false,
@@ -1505,7 +1505,7 @@ module.exports = [
 		],
 		name: "Re-Chargeable Shield Emitters",
 		cost: 3,
-		text: "Increase this ship's Shield Value by 1. <hr> <b>ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Repair up to 2 Shields on this ship.",
+		text: "Increase this ship's Shield Value by 1. <hr> <b>ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside this ship. \n\n Repair up to 2 Shields on this ship.",
 		OnePerShip: true,
 		novaLimit: true,
 		alliance: false,
@@ -1521,7 +1521,7 @@ module.exports = [
 		],
 		name: "Astrometrics Lab",
 		cost: 1,
-		text: "Add 1 [tech_text] to this ship's Upgrade Bar. <hr> <b>WHENEVER YOU PERFORM A </b> [scan] <b>ACTION:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card. \n\n You may perform a [sensor-echo] Action using the 1 [straight] as a Free Action even if this ship is not cloaked. <hr> This Upgrade costs +2 SP if not equipped to either a <img src='img/text/fed-intrepid.png' width='20' height='20'>, <img src='img/text/fed-sovereign.png' width='20' height='20'>, or <img src='img/text/fed-luna.png' width='20' height='20'> ship.",
+		text: "Add 1 [tech_text] to this ship's Upgrade Bar. <hr> <b>WHENEVER YOU PERFORM A </b> [scan] <b>ACTION:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Tokens on this card. \n\n You may perform a [sensor-echo] Action using the 1 [straight] as a Free Action even if this ship is not cloaked. <hr> This Upgrade costs +2 SP if not equipped to either a <img src='img/text/fed-intrepid.png' width='20' height='20' title='Intrepid Class'>, <img src='img/text/fed-sovereign.png' width='20' height='20' title='Sovereign Class'>, or <img src='img/text/fed-luna.png' width='20' height='20' title='?? Class'> ship.",
 		OnePerShip: true,
 		shipFederation: true,
 		hullConstraint: "4+",
@@ -1538,7 +1538,7 @@ module.exports = [
 		],
 		name: "Variable Geometry Pylons",
 		cost: 2,
-		text: "<b>REVEAL DIAL STEP:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card. \n\n You may increase or decrease the speed of your Revealed Maneuver by 1 (Treat this Maneuver as the same color as the revealed Maneuver).",
+		text: "<b>REVEAL DIAL STEP:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Tokens on this card. \n\n You may increase or decrease the speed of your Revealed Maneuver by 1 (Treat this Maneuver as the same color as the revealed Maneuver).",
 		OnePerShip: true,
 		intrepidLimit: true,
 		alliance: false,
@@ -1554,7 +1554,7 @@ module.exports = [
 		],
 		name: "Bio-Neural Circuitry",
 		cost: 2,
-		text: "<b>AFTER THIS SHIP EXECUTES A MANEUVER:</b> Disable this card. \n\n You may perform an Action on this ship's Action Bar or Ship card as a Free Action. <hr> <b>PERFORM ACTION STEP:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card. \n\n This ship may perform Actions on its Action Bar or Ship card even if there is an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. <hr> This upgrade costs +3 SP if not equipped to either a <img src='img/text/fed-intrepid.png' width='20' height='20'>, <img src='img/text/fed-sovereign.png' width='20' height='20'>, or <img src='img/text/fed-luna.png' width='20' height='20'> ship.",
+		text: "<b>AFTER THIS SHIP EXECUTES A MANEUVER:</b> Disable this card. \n\n You may perform an Action on this ship's Action Bar or Ship card as a Free Action. <hr> <b>PERFORM ACTION STEP:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Tokens on this card. \n\n This ship may perform Actions on its Action Bar or Ship card even if there is an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. <hr> This upgrade costs +3 SP if not equipped to either a <img src='img/text/fed-intrepid.png' width='20' height='20'>, <img src='img/text/fed-sovereign.png' width='20' height='20'>, or <img src='img/text/fed-luna.png' width='20' height='20'> ship.",
 		OnePerShip: true,
 		shipFederation: true,
 		alliance: false,
@@ -1586,7 +1586,7 @@ module.exports = [
 		],
 		name: "Temporal Shielding",
 		cost: 5,
-		text: "Increase this ship's Shield Value by 1. \n\n This ship's Shields cannot be ignored by attacks made with [weapon_text] Upgrades. <hr> <b>END PHASE:</b> If this ship has any Active Shields: \n\n Remove 1 additional <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token from any 1 card equipped to this ship (including the ship card.)",
+		text: "Increase this ship's Shield Value by 1. \n\n This ship's Shields cannot be ignored by attacks made with [weapon_text] Upgrades. <hr> <b>END PHASE:</b> If this ship has any Active Shields: \n\n Remove 1 additional <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Token from any 1 card equipped to this ship (including the ship card.)",
 		OnePerShip: true,
 		alliance: false,
 		factions: [
@@ -1602,7 +1602,7 @@ module.exports = [
 		],
 		name: "Photonic Missles",
 		cost: 3,
-		text: "<b>ATTACK:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship. \n\n <b>DECLARE TARGET STEP:</b> Destroy 1 Active Shield on the Defending Ship. \n\n <b>DEAL DAMAGE STEP:</b> If the Defending Ship has no Active Shields, Place 1 <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside it.",
+		text: "<b>ATTACK:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Tokens on this card and target an opposing ship. \n\n <b>DECLARE TARGET STEP:</b> Destroy 1 Active Shield on the Defending Ship. \n\n <b>DEAL DAMAGE STEP:</b> If the Defending Ship has no Active Shields, Place 1 <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside it.",
 		OnePerShip: true,
 		attack: "4",
 		range: "1 - 2",
@@ -1622,7 +1622,7 @@ module.exports = [
 		],
 		name: "Gravimetric Torpedoes",
 		cost: 4,
-		text: "<b>ATTACK:</b> Spend this ship's [target-lock] Token, discard this card, and target an opposing ship. \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the target and each ship within Range 1 of the target. <hr> <b>ACTION:</b> Target a Non-Planet Obstacle or a Minefield Obstacle within Range and remove this card from the game. \n\n Deal 1 [hit] to each ship within Range 1 of that Obstacle. Then remove that Obstacle from play.",
+		text: "<b>ATTACK:</b> Spend this ship's [target-lock] Token, discard this card, and target an opposing ship. \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside the target and each ship within Range 1 of the target. <hr> <b>ACTION:</b> Target a Non-Planet Obstacle or a Minefield Obstacle within Range and remove this card from the game. \n\n Deal 1 [hit] to each ship within Range 1 of that Obstacle. Then remove that Obstacle from play.",
 		OnePerShip: true,
 		attack: "6",
 		range: "2 - 3",
@@ -1708,7 +1708,7 @@ module.exports = [
 		],
 		name: "Veronica Stadi",
 		cost: 3,
-		text: "<b>ACTION:</b> Discard this card and place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Perform a Maneuver with a Speed of 5 or greater on your Maneuver Dial. If this ship has the 'Federation Prototype' [hook] equipped, you may choose any Maneuver on this ship's Maneuver Dial instead.",
+		text: "<b>ACTION:</b> Discard this card and place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside this ship. \n\n Perform a Maneuver with a Speed of 5 or greater on your Maneuver Dial. If this ship has the 'Federation Prototype' [hook] equipped, you may choose any Maneuver on this ship's Maneuver Dial instead.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1723,7 +1723,7 @@ module.exports = [
 		],
 		name: "Aaron Cavit",
 		cost: 3,
-		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>AFTER EXECUTING A MANEUVER WITH A SPEED OF 5 OR GREATER:</b> Discard this card and place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Place 1 of each [battlestations], [evade], and [scan] Tokens beside this ship.",
+		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>AFTER EXECUTING A MANEUVER WITH A SPEED OF 5 OR GREATER:</b> Discard this card and place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside this ship. \n\n Place 1 of each [battlestations], [evade], and [scan] Tokens beside this ship.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1738,7 +1738,7 @@ module.exports = [
 		],
 		name: "Seven Of Nine",
 		cost: 3,
-		text: "Add either 1 [tech_text] or 1 [borg_text] to this ship's Upgrade bar. <hr> <b>ACTION:</b> \n\n Perform the [scan] Action as a Free Action. In addition if equipped to an <img src='img/text/fed-intrepid.png' width='20' height='20'>, place either a [scan] or [evade] Token beside this ship. In addition if equipped to a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg'> ship, place a [battlestations] Token beside this ship.",
+		text: "Add either 1 [tech_text] or 1 [borg_text] to this ship's Upgrade bar. <hr> <b>ACTION:</b> \n\n Perform the [scan] Action as a Free Action. In addition if equipped to an <img src='img/text/fed-intrepid.png' width='20' height='20' title='Intrepid Class'>, place either a [scan] or [evade] Token beside this ship. In addition if equipped to a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg Faction'> ship, place a [battlestations] Token beside this ship.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1770,7 +1770,7 @@ module.exports = [
 		],
 		name: "B'Elanna Torres",
 		cost: 3,
-		text: "<b>END PHASE:</b> Disable this card. \n\n Remove 1 <img src='img/stuff/effect_time_token.png' width='20' height='16'> from each [tech_text] Upgrade equipped to this ship. <hr> <b>AT ANYTIME, ONCE PER GAME:</b> Discard a [tech_text] Upgrade equipped to this ship. \n\n Repair a number of Hull or Shields on this ship equal to half of the printed SP of the discard [tech_text] Upgrade (rounded up).",
+		text: "<b>END PHASE:</b> Disable this card. \n\n Remove 1 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> from each [tech_text] Upgrade equipped to this ship. <hr> <b>AT ANYTIME, ONCE PER GAME:</b> Discard a [tech_text] Upgrade equipped to this ship. \n\n Repair a number of Hull or Shields on this ship equal to half of the printed SP of the discard [tech_text] Upgrade (rounded up).",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1910,7 +1910,7 @@ module.exports = [
 		],
 		name: "Noah Lessing",
 		cost: 3,
-		text: "<b>PLANNING PHASE:</b> Spend 1 of this ship's Shield Tokens. \n\n Choose 1 of the following: \n * Remove an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token from beside this ship. If equipped to a <img src='img/text/fed-nova.png' width='20' height='20'>, also place a [scan] Token beside this ship. \n * Target opposing ship within Range cannot perform the [scan] Action or place [scan] Tokens beside their ship this game round.",
+		text: "<b>PLANNING PHASE:</b> Spend 1 of this ship's Shield Tokens. \n\n Choose 1 of the following: \n * Remove an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token from beside this ship. If equipped to a <img src='img/text/fed-nova.png' width='20' height='20' title='Nova Class'>, also place a [scan] Token beside this ship. \n * Target opposing ship within Range cannot perform the [scan] Action or place [scan] Tokens beside their ship this game round.",
 		unique: true,
 		alliance: false,
 		range: "1 - 2",
@@ -1941,7 +1941,7 @@ module.exports = [
 		],
 		name: "Maxwell Burke",
 		cost: 3,
-		text: "<b>ACTION:</b> Discard this card and target an opposing ship within Range. \n\n Steal either 1 <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [tech_text] or <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to the target ship and equip it to this ship, ignoring this ship's restrictions.",
+		text: "<b>ACTION:</b> Discard this card and target an opposing ship within Range. \n\n Steal either 1 <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> [tech_text] or <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> [crew_text] Upgrade equipped to the target ship and equip it to this ship, ignoring this ship's restrictions.",
 		unique: true,
 		alliance: false,
 		range: "1",
@@ -1972,7 +1972,7 @@ module.exports = [
 		],
 		name: "Tuvok",
 		cost: 4,
-		text: "<b>ACTION:</b> Disable this card. \n\n Perform either a [target-lock] or a [battlestations] Action as a Free Action. Then perform the Action listed on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to this ship as a Free Action.",
+		text: "<b>ACTION:</b> Disable this card. \n\n Perform either a [target-lock] or a [battlestations] Action as a Free Action. Then perform the Action listed on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> [crew_text] Upgrade equipped to this ship as a Free Action.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -1988,7 +1988,7 @@ module.exports = [
 		],
 		name: "Harry Kim",
 		cost: 3,
-		text: "<b>EACH TIME A</b> [scan] <b>TOKEN IS PLACED BESIDE THIS SHIP:</b> \n\n Remove a <img src='img/stuff/effect_disable.png' width='20' height='16'> Token from either a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] or <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [tech_text] Upgrade equipped to this ship.",
+		text: "<b>EACH TIME A</b> [scan] <b>TOKEN IS PLACED BESIDE THIS SHIP:</b> \n\n Remove a <img src='img/stuff/effect_disable.png' width='20' height='16' title='Disabled Token'> Token from either a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> [crew_text] or <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> [tech_text] Upgrade equipped to this ship.",
 		unique: true,
 		alliance: false,
 		factions: [
@@ -5746,7 +5746,6 @@ module.exports = [
 		unique: false,
 		constitutionkLimit: true,
 		range: "2 - 3",
-		shipLimit: true,
 		factions: [
 			"mirror-universe",
 			"federation"
@@ -7568,7 +7567,7 @@ module.exports = [
 		cost: 4,
 		text: "<b>END PHASE:</b> Place 3 [time] Tokens on this card.\n\nRepair 1 damage to this ship's Shields or Hull.\n<i>(Romulan Drone Ship Only)</i>",
 		OnePerShip: true,
-		shipLimit: true,
+		droneLimit: true,
 		factions: [
 			"romulan"
 		]
@@ -7601,7 +7600,7 @@ module.exports = [
 		cost: 3,
 		text: "<b>COMBAT PHASE:</b> If this ship is in the Primary or Secondary Firing Arc of an opposing ship, place 3 [time] Tokens on this card.\n\nPerform a [sensor-echo] Action as a Free Action. If this ship does, also remove an opposing  [target-lock] Token from this ship.\n<i>(Romulan Drone Ship Only)</i>",
 		OnePerShip: true,
-		shipLimit: true,
+		droneLimit: true,
 		factions: [
 			"romulan"
 		]
@@ -7617,7 +7616,7 @@ module.exports = [
 		cost: 4,
 		text: "<b>WHEN DEFENDING:</b> Place 3 [time] Tokens on this card.\n\nThe attacking ship rolls -2 attack dice.\n<i>(Romulan Drone Ship Only)</i>",
 		OnePerShip: true,
-		shipLimit: true,
+		droneLimit: true,
 		factions: [
 			"romulan"
 		]
@@ -7635,7 +7634,7 @@ module.exports = [
 		range: "1 -3",
 		text: "<b>ATTACK:</b> Discard this card.\n\nThis ship may re-roll any number of attack dice.\n\n(<i>Cardassian ATR-4107</i>)",
 		unique: false,
-		shipLimit: true,
+		dreadnaughtLimit: true,
 		factions: [
 			"dominion"
 		]
@@ -7653,7 +7652,7 @@ module.exports = [
 		range: "1",
 		text: "<b>ATTACK:</b> Place 2 [time] Tokens on this card and target all opposing ships. \n\n\n(<i>Cardassian ATR-4107</i>)",
 		unique: true,
-		shipLimit: true,
+		dreadnaughtLimit: true,
 		factions: [
 			"dominion"
 		]
