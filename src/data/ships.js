@@ -186,7 +186,7 @@ module.exports = [{
 	hull: 5,
 	shields: 4,
 	cost: 26,
-	text: "<b>DECLARE TARGET STEP:</b> \n\n You may attack a target with this ship's Primary Weapon at -1 attack dice outside of your <img src='img/text/forward-arc.png' width='18' height='18' title='Front Arc'> at Range 1-2.",
+	text: "<b>DECLARE TARGET STEP:</b> \n\n You may attack a target with this ship's Primary Weapon at -1 attack dice outside of your <img src='img/text/forward-arc.png' width='18' height='18' title='Forward Firing Arc'> at Range 1-2.",
 	unique: true,
 	alliance: false,
 	factions: [
@@ -656,7 +656,7 @@ module.exports = [{
 	hull: 5,
 	shields: 3,
 	cost: 23,
-	text: "<b>ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target an opposing ship within range 1 - 2. \n\n Destroy 1 Shield on the target ship.",
+	text: "<b>ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside this ship and target an opposing ship within range 1 - 2. \n\n Destroy 1 Shield on the target ship.",
 	unique: true,
 	alliance: false,
 	factions: [
@@ -767,7 +767,7 @@ module.exports = [{
 	hull: 3,
 	shields: 3,
 	cost: 18,
-	text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship is in the <img src='img/text/forward-arc.png' width='20' height='20'> of a Friendly ship that is within Range 1 of this ship: \n\n Add 1 [hit].",
+	text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship is in the <img src='img/text/forward-arc.png' width='20' height='20' title='Forward Firing Arc'> of a Friendly ship that is within Range 1 of this ship: \n\n Add 1 [hit].",
 	unique: true,
 	alliance: false,
 	factions: [
@@ -955,7 +955,7 @@ module.exports = [{
 	hull: 2,
 	shields: 3,
 	cost: 12,
-	text: "<b> WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n\n You may fire out of your <img src='img/text/rear-arc.png' width='20' height='20'> at -1 attack dice.",
+	text: "<b> WHEN ATTACKING WITH YOUR PRIMARY WEAPON:</b> \n\n You may fire out of your <img src='img/text/rear-arc.png' width='20' height='20' title='Secondary Firing Arc'> at -1 attack dice.",
 	unique: true,
 	alliance: false,
 	factions: [
@@ -1065,7 +1065,7 @@ module.exports = [{
 	hull: 3,
 	shields: 3,
 	cost: 13,
-	text: "This ship does not skip it's Perform Action Step when overlapping an Obstacle. <hr> <b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target each friendly ship within Range 1. \n\n Place a [scan] Token beside this ship and each target ship.",
+	text: "This ship does not skip it's Perform Action Step when overlapping an Obstacle. <hr> <b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside this ship and target each friendly ship within Range 1. \n\n Place a [scan] Token beside this ship and each target ship.",
 	unique: true,
 	alliance: false,
 	factions: [
@@ -1144,7 +1144,7 @@ module.exports = [{
 	hull: 4,
 	shields: 5,
 	cost: 25,
-	text: "The 'Bio-Neural Circuitry' and 'Variable Geometry Pylons' [tech_text] Upgrades equipped to this ship cost -1 SP. <hr> <b>PLANNING PHASE:</b> Target a cloaked opposing ship within Range 1-2, if that ship is <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> you may choose one additional target. \n\n The Target(s) can only use a 1 [straight] Template when performing a [sensor-echo] Action this game round.",
+	text: "The 'Bio-Neural Circuitry' and 'Variable Geometry Pylons' [tech_text] Upgrades equipped to this ship cost -1 SP. <hr> <b>PLANNING PHASE:</b> Target a cloaked opposing ship within Range 1-2, if that ship is <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan Faction'> you may choose one additional target. \n\n The Target(s) can only use a 1 [straight] Template when performing a [sensor-echo] Action this game round.",
 	unique: true,
 	alliance: false,
 	factions: [
@@ -1225,7 +1225,7 @@ module.exports = [{
 	hull: 4,
 	shields: 5,
 	cost: 26,
-	text: "<b>DECLARE TARGET STEP:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n You may attack a target with this ship's Primary Weapon outside of your <img src='img/text/forward-arc.png' width='20' height='20'> at Range 1-2.",
+	text: "<b>DECLARE TARGET STEP:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'  title='AUX Power Token'> Token beside this ship. \n\n You may attack a target with this ship's Primary Weapon outside of your <img src='img/text/forward-arc.png' width='20' height='20'  title='Forward Firing Arc'> at Range 1-2.",
 	unique: true,
 	alliance: false,
 	factions: [

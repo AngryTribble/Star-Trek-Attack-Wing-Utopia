@@ -235,7 +235,7 @@ module.exports = [
 		],
 		name: "T'Pol",
 		unique: true,
-		text: "<b>ACTION:</b> \n\n Perform a 1 <img src='img/stuff/impulse-roll.png' width='20' height='20'> Maneuver. In addition, if equipped to a <img src='img/text/faction-vulcan.png' width='20' height='20' title='Vulcan'> ship, place 2 [scan] Tokens beside this ship. In addition, if equipped to an <img src='img/text/fed-nx.png' width='20' height='20'>, you may perform the Action listed on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to this ship as a Free Action.",
+		text: "<b>ACTION:</b> \n\n Perform a 1 <img src='img/stuff/impulse-roll.png' width='20' height='20' title='Impulse Roll Maneuver'> Maneuver. In addition, if equipped to a <img src='img/text/faction-vulcan.png' width='20' height='20' title='Vulcan'> ship, place 2 [scan] Tokens beside this ship. In addition, if equipped to an <img src='img/text/fed-nx.png' width='20' height='20' title='Federation NX Class'>, you may perform the Action listed on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to this ship as a Free Action.",
 		factions: [
 			"federation",
 			"vulcan"
@@ -263,23 +263,6 @@ module.exports = [
 	},
 	{
 		type: "captain",
-		id: "Cap038",
-		gameId: 1,
-		set: [
-			"75015"
-		],
-		name: "Nadirum",
-		unique: true,
-		text: "<b>ACTION:</b> If equipped to a <img src='img/text/ind-vidiian.png' width='20' height='20'>, this is a Free Action instead: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship within Range. \n\n Discard 1 [crew_text] Upgrade equipped to the target ship.",
-		factions: [
-			"independent"
-		],
-		cost: 3,
-		skill: 5,
-		talents: 1
-	},
-	{
-		type: "captain",
 		id: "Cap037",
 		gameId: 1,
 		set: [
@@ -287,7 +270,7 @@ module.exports = [
 		],
 		name: "Iden",
 		unique: true,
-		text: "You cannot have an Admiral and/or Ambassador equipped to this ship. <hr> This card costs -1 SP for each <img src='img/text/faction-indy.png' width='20' height='20'> <b>?</b> Upgrade equipped to this ship. <hr> <b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship is an <img src='img/text/faction-indy.png' width='20' height='20'> ship or has any <b>?</b> Upgrades equipped to it \n\n Add 1 [crit].",
+		text: "You cannot have an Admiral and/or Ambassador equipped to this ship. <hr> This card costs -1 SP for each <img src='img/text/faction-indy.png' width='20' height='20' title='Independent Faction'> <b>?</b> Upgrade equipped to this ship. <hr> <b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship is an <img src='img/text/faction-indy.png' width='20' height='20' title='Independent Faction'> ship or has any <b>?</b> Upgrades equipped to it \n\n Add 1 [crit].",
 		factions: [
 			"independent"
 		],
@@ -338,7 +321,7 @@ module.exports = [
 		],
 		name: "Nadirum",
 		unique: true,
-		text: "<b>ACTION:</b> If equipped to a <img src='img/text/ind-vidiian.png' width='20' height='20'>, this is a Free Action instead: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship within Range. \n\n Discard 1 [crew_text] Upgrade equipped to the target ship.",
+		text: "<b>ACTION:</b> If equipped to a <img src='img/text/ind-vidiian.png' width='20' height='20' title='Vidiian Battle Cruiser'>, this is a Free Action instead: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship within Range. \n\n Discard 1 [crew_text] Upgrade equipped to the target ship.",
 		factions: [
 			"independent"
 		],
@@ -425,7 +408,7 @@ module.exports = [
 		],
 		name: "Alben",
 		unique: true,
-		text: "<b>WHEN THIS SHIP OR A FRIENDLY SHIP WITHIN RANGE 1-2 ATTACKS: ROLL ATTACK DICE STEP:</b> If the Captain and/or any [crew_text] Upgrades equipped to the defending ship have any Tokens on their card: \n\n The attacking ship rolls +1 attack die. If this ship or that friendly ship is a <img src='img/text/ind-nerada.png' width='20' height='20'>, that ship may re-roll 1 [blank].",
+		text: "<b>WHEN THIS SHIP OR A FRIENDLY SHIP WITHIN RANGE 1-2 ATTACKS: ROLL ATTACK DICE STEP:</b> If the Captain and/or any [crew_text] Upgrades equipped to the defending ship have any Tokens on their card: \n\n The attacking ship rolls +1 attack die. If this ship or that friendly ship is a <img src='img/text/ind-nerada.png' width='20' height='20' title='Nerada-Type'>, that ship may re-roll 1 [blank].",
 		factions: [
 			"independent"
 		],
@@ -442,7 +425,7 @@ module.exports = [
 		],
 		name: "The Doctor",
 		unique: true,
-		text: "<b>FLEET CONSTRUCTION:</b> Place 2 <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> Captains with a total cost of 6 SP that are not already in your fleet face-up under this card \n\n This Captain has all text and restrictions from each of the Captains placed under it.",
+		text: "<b>FLEET CONSTRUCTION:</b> Place 2 <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> Captains with a total cost of 6 SP that are not already in your fleet face-up under this card \n\n This Captain has all text and restrictions from each of the Captains placed under it.",
 		factions: [
 			"federation"
 		],
@@ -477,7 +460,7 @@ module.exports = [
 		],
 		name: "Harry Kim",
 		unique: true,
-		text: "<b>(Night Shift)</b> Treat your Captain's Skill Number as 5. <hr> <b>AFTER YOU REMOVE AN <img src='img/stuff/effect_auxilary.png' width='18' height='16'> TOKEN FROM BESIDE THIS SHIP:</b> \n\n Place an [evade] Token beside this ship. <b>(Night Shift)</b> In Addition, place a [battlestations] Token beside this ship.",
+		text: "<b>(Night Shift)</b> Treat your Captain's Skill Number as 5. <hr> <b>AFTER YOU REMOVE AN <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> TOKEN FROM BESIDE THIS SHIP:</b> \n\n Place an [evade] Token beside this ship. <b>(Night Shift)</b> In Addition, place a [battlestations] Token beside this ship.",
 		factions: [
 			"federation"
 		],
@@ -494,7 +477,7 @@ module.exports = [
 		],
 		name: "Tom Paris",
 		unique: true,
-		text: "<b>REVEAL DIAL STEP:</b> \n\n You may disregard your revealed Maneuver and either perform a 1 <img src='img/stuff/impulse-roll.png' width='20' height='20'> Maneuver or a 5 <img src='img/stuff/maneuver_straight_red.png' width='20' height='20'> Maneuver. In addition if equipped to a <img src='img/text/fed-delta-flyer.png' width='20' height='20'>, place an [evade] Token beside this ship.",
+		text: "<b>REVEAL DIAL STEP:</b> \n\n You may disregard your revealed Maneuver and either perform a 1 <img src='img/stuff/impulse-roll.png' width='20' height='20'  title='Impulse Roll Maneuver'> Maneuver or a 5 <img src='img/stuff/maneuver_straight_red.png' width='20' height='20'> Maneuver. In addition if equipped to a <img src='img/text/fed-delta-flyer.png' width='20' height='20' title='Delta Flyer Class'>, place an [evade] Token beside this ship.",
 		factions: [
 			"federation"
 		],
@@ -530,7 +513,7 @@ module.exports = [
 		],
 		name: "Magnus Hansen",
 		unique: true,
-		text: "<b>PLANNING PHASE:</b> Target an opposing ship within Range. \n\n This ship activates as though it has a Captain Skill Number equal to the target ship's Captain Skill +1 until the end of Activation Phase. If the target ship is <img src='img/text/faction-borg.png' width='20' height='20' title='Borg'> or has a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg'> Captain equipped to it, place 1 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token on an Upgrade equipped to that ship.",
+		text: "<b>PLANNING PHASE:</b> Target an opposing ship within Range. \n\n This ship activates as though it has a Captain Skill Number equal to the target ship's Captain Skill +1 until the end of Activation Phase. If the target ship is <img src='img/text/faction-borg.png' width='20' height='20' title='Borg Faction'> or has a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg Faction'> Captain equipped to it, place 1 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Token on an Upgrade equipped to that ship.",
 		factions: [
 			"federation"
 		],
@@ -549,7 +532,7 @@ module.exports = [
 		],
 		name: "Rudolph Ransom",
 		unique: true,
-		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>WHEN DEFENDING:</b> If there is an Obstacle within Range: \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the attacking ship. If this card is equipped to a <img src='img/text/fed-nova.png' width='20' height='20'>, the attacking ship also rolls -1 attack die.",
+		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>WHEN DEFENDING:</b> If there is an Obstacle within Range: \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside the attacking ship. If this card is equipped to a <img src='img/text/fed-nova.png' width='20' height='20' title='Nova Class'>, the attacking ship also rolls -1 attack die.",
 		factions: [
 			"federation"
 		],
@@ -567,7 +550,7 @@ module.exports = [
 		],
 		name: "Kathryn Janeway",
 		unique: true,
-		text: "<b>EACH TIME AN OPPOSING EFFECT WOULD DISCARD, STEAL OR PLACE ANY <img src='img/stuff/effect_time_token.png' width='20' height='16'> / <img src='img/stuff/effect_disable.png' width='20' height='16'> TOKENS ON A </b> [crew_text] <b>UPGRADE EQUIPPED TO THIS SHIP:</b> Target that ship. \n\n You may perform a Free Attack with this ship's Primary Weapon against the target ship, if able. If this card is equipped to the U.S.S. Voyager, this attack may be in any direction.",
+		text: "<b>EACH TIME AN OPPOSING EFFECT WOULD DISCARD, STEAL OR PLACE ANY <img src='img/stuff/effect_time_token.png' width='20' height='16'  title='Time Token'> / <img src='img/stuff/effect_disable.png' width='20' height='16'  title='Disabled Token'> TOKENS ON A </b> [crew_text] <b>UPGRADE EQUIPPED TO THIS SHIP:</b> Target that ship. \n\n You may perform a Free Attack with this ship's Primary Weapon against the target ship, if able. If this card is equipped to the U.S.S. Voyager, this attack may be in any direction.",
 		factions: [
 			"federation"
 		],
