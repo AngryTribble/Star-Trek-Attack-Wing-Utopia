@@ -1,7 +1,7 @@
 <div class="card-outer card-ship font-staw" ng-class="{ 'card-unique': ship.unique, 'card-mirror': ship.mirror, 'dragging': ship == dragStore.item }" draggable drag-item="ship" drag-store="dragStore" drag-source="dragSource">
 
 	<div class="card-image">
-			<img ng-if="ship.image" ng-src="{{ship.image}}" style="width: 100%; height: 100%; object-fit: cover;" />
+			<img ng-if="ship.image" ng-src="{{ship.image}}" style="width: 90%; height: 90%; object-fit: cover; border-radius: 10px;" />
 	</div>
 
 	<div class="card-corner-top-left pull-left"><i ng-if="ship.unique" class="card-unique-icon fs fs-unique pull-left"></i>
