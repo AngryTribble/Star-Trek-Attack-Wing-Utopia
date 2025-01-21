@@ -15,6 +15,122 @@
         <script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
         <script type="text/javascript" src="js/utopia.min.js"></script>
 
+        <style>
+            @font-face {
+                font-family: 'Star Trek';
+                src: url('https://fonts.cdnfonts.com/css/star-trek-enterprise-future') format('woff2');
+            }
+            
+            .lcars-button {
+                background-color: #FF9966; /* LCARS orange */
+                color: black;
+                padding: 12px 25px;
+                border: none;
+                border-top-left-radius: 35px;
+                border-bottom-left-radius: 35px;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 18px;
+                font-family: 'Star Trek', sans-serif;
+                display: inline-block;
+                transition: all 0.3s;
+                width: 180px;
+                text-align: left;
+                position: relative;
+                margin: 10px 25px 10px 0;
+            }
+            
+            .lcars-button::after {
+                content: '';
+                position: absolute;
+                right: -25px;
+                top: 0;
+                width: 25px;
+                height: 100%;
+                background-color: #CC6699; /* LCARS pink */
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            
+            .lcars-button:hover {
+                background-color: #CC6699;
+                color: white;
+            }
+
+            .lcars-button:hover::after {
+                background-color: #FF9966;
+            }
+
+            .button-divider {
+                height: 8px;
+                background-color: #9999CC; /* LCARS blue */
+                width: 205px;
+                margin: 5px auto;
+                border-radius: 4px;
+            }
+
+            .lcars-header {
+                background: linear-gradient(90deg, #9999CC, #CC6699);
+                padding: 30px;
+                border-radius: 0 0 50px 50px;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                margin-bottom: 40px;
+            }
+
+            .lcars-header h1 {
+                font-family: 'Star Trek', sans-serif;
+                font-size: 48px;
+                color: #000;
+                margin: 0;
+                text-align: center;
+                letter-spacing: 12px;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            }
+
+            .lcars-header h2 {
+                font-family: 'Star Trek', sans-serif;
+                font-size: 24px;
+                color: #000;
+                margin: 10px 0 0 0;
+                text-align: center;
+                letter-spacing: 4px;
+            }
+
+            body {
+                background-color: #eeeeee;
+                margin: 0;
+                padding: 0;
+            }
+
+            .disclaimer-modal {
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #fff;
+                padding: 40px;
+                border-radius: 15px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.4);
+                z-index: 1000;
+                max-width: 1000px;
+                width: 90%;
+                line-height: 1.8;
+                font-size: 20px;
+            }
+
+            .close-button {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                cursor: pointer;
+                font-size: 28px;
+            }
+
+        </style>
+
     </head>
     <body ng-keypress="keypress($event)">
 
@@ -22,12 +138,20 @@
 
 			<div class="u-search-results text-center u-search-cols-{{search.columns}}">
 
-        <div class="u-title"><i class="fs fs-unique"></i><b>Utopia</b><i class="fs fs-unique"></i></div><br>
+        <header class="lcars-header">
+            <h1>UTOPIA</h1>
+            <h2>Fleet Builder</h2>
+        </header>
 
-        <div class="text-center">Browse All Sets With The <a href="./set-viewer.html">Utopia Set Viewer</a></div><br>
-          <div class="text-center">Browse All Missions With The <a href="./mission_viewer.html">Utopia Mission Viewer</a></div><br>
-          <div class="text-center">Attack Wing <a href="./FAQ.html">FAQ</a></div><br>
-          <div class="text-center">Find a Bug? <a href="mailto:antaresshipyard@gmail.com" > Alert Security Here</a></div><br>
+        <div class="text-center"><a href="./set-viewer.html" class="lcars-button">Set Viewer</a></div>
+        <div class="button-divider"></div>
+		<div class="text-center"><a href="./mission_viewer.html" class="lcars-button">Mission Viewer</a></div>
+        <div class="button-divider"></div>
+		<div class="text-center"><a href="./FAQ.html" class="lcars-button">FAQ</a></div>
+        <div class="button-divider"></div>
+		<div class="text-center"><a href="mailto:antaresshipyard@gmail.com" class="lcars-button">Bug Report</a></div>
+        <div class="button-divider"></div>
+        <div class="text-center"><button onclick="openDisclaimer()" class="lcars-button"><i class="fa fa-info-circle"></i> Disclaimer </i></button></div><br>
 
 				<search cards="cards" sets="sets" set-list="setList" drag-store="drag" search-options="search" defaults="defaults"></search>
 
@@ -42,6 +166,21 @@
 			</div>
 
 		</div>
+
+        <div id="disclaimerModal" class="disclaimer-modal">
+            <span class="close-button" onclick="closeDisclaimer()">&times;</span>
+            <p>Star Trek: Attack Wing and all related trademarks and images are the property of CBS Studios Inc., WizKids, and other respective rights holders. This website is a fan-made resource for informational and entertainment purposes only, and is not affiliated with, endorsed by, or sponsored by CBS Studios Inc. or WizKids. All images, card art, and trademarks remain the property of their respective owners. No copyright infringement is intended.</p>
+        </div>
+
+        <script>
+            function openDisclaimer() {
+                document.getElementById('disclaimerModal').style.display = 'block';
+            }
+
+            function closeDisclaimer() {
+                document.getElementById('disclaimerModal').style.display = 'none';
+            }
+        </script>
 
 		<!--<script src="js/analytics.js"></script>-->
 
