@@ -1,6 +1,8 @@
 <div class="card-outer card-upgrade font-staw" ng-class="{ 'card-unique': upgrade.unique, 'card-OnePerShip': upgrade.OnePerShip, 'card-factionFederation': upgrade.factionFederation, 'card-FrontArc': upgrade.FrontArc, 'card-RearArc': upgrade.RearArc, 'card-Hull': upgrade.Hull, 'card-mirror': upgrade.mirror, 'dragging': upgrade == dragStore.item }" draggable drag-item="upgrade" drag-store="dragStore" drag-source="dragSource">
 
-	<div class="card-image"></div>
+	<div class="card-image">
+		<img ng-if="upgrade.image" ng-src="{{upgrade.image}}" />
+	</div>
 
 	<div class="card-corner-top-left pull-left">
 		<i ng-if="upgrade.unique" class="card-unique-icon fs fs-unique pull-left"></i>
