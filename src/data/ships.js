@@ -6,7 +6,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Atlas",
-	image: "",
+	image: "https://i.imgur.com/w2HBtk3.png",
 	class: "Sovereign Class",
 	actions: [
 		"evade",
@@ -46,7 +46,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Enterprise NCC-1701-E",
-	image: "",
+	image: "https://i.imgur.com/nIaiEuA.png",
 	class: "Sovereign Class",
 	actions: [
 		"evade",
@@ -86,7 +86,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Enterprise NCC-1701-E",
-	image: "",
+	image: "https://i.imgur.com/uPXW7Km.png",
 	class: "Sovereign Class",
 	actions: [
 		"evade",
@@ -126,7 +126,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Galaxy",
-	image: "",
+	image: "https://i.imgur.com/7xeztav.png",
 	class: "Galaxy Class",
 	actions: [
 		"evade",
@@ -166,7 +166,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Enterprise-D",
-	image: "",
+	image: "https://i.imgur.com/kfJAuP3.png",
 	class: "Galaxy Class",
 	actions: [
 		"evade",
@@ -206,7 +206,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Enterprise-B",
-	image: "",
+	image: "https://i.imgur.com/xOSU8Lg.png",
 	class: "Excelsior Class",
 	actions: [
 		"evade",
@@ -246,7 +246,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Excelsior",
-	image: "",
+	image: "https://i.imgur.com/fWS3xTj.png",
 	class: "Excelsior Class",
 	actions: [
 		"evade",
@@ -286,7 +286,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Enterprise-A",
-	image: "",
+	image: "https://i.imgur.com/eLou19b.png",
 	class: "Constitution Refit Class",
 	actions: [
 		"evade",
@@ -326,7 +326,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "Federation Starship",
-	image: "",
+	image: "https://i.imgur.com/ogcTJCi.png",
 	class: "Constitution Refit Class",
 	actions: [
 		"evade",
@@ -365,7 +365,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "U.S.S. Enterprise",
-	image: "",
+	image: "https://i.imgur.com/AEAZk2p.png",
 	class: "Constitution Refit Class",
 	actions: [
 		"evade",
@@ -405,7 +405,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "Columbia NX-02",
-	image: "",
+	image: "https://i.imgur.com/6Ni5CUL.png",
 	class: "Federation NX Class",
 	actions: [
 		"evade",
@@ -444,6 +444,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "Enterprise NX-01",
+	image: "https://i.imgur.com/Rn2gJnL.png",
 	class: "Federation NX Class",
 	actions: [
 		"evade",
@@ -482,7 +483,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Hirogen Starship",
-	image: "",
+	image: "https://i.imgur.com/fnuw3RG.png",
 	class: "Hirogen Warship",
 	actions: [
 		"evade",
@@ -520,7 +521,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Alpha Hunter",
-	image: "",
+	image: "https://i.imgur.com/MFiNmvr.png",
 	class: "Hirogen Warship",
 	actions: [
 		"evade",
@@ -560,7 +561,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Relic Stalker",
-	image: "",
+	image: "https://i.imgur.com/vmBDSb9.png",
 	class: "Hirogen Warship",
 	actions: [
 		"evade",
@@ -600,7 +601,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Vidiian Starship",
-	image: "",
+	image: "https://i.imgur.com/G5omlHB.png",
 	class: "Vidiian Battle Cruiser",
 	actions: [
 		"evade",
@@ -637,7 +638,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Fina Prime",
-	image: "",
+	image: "https://i.imgur.com/5XRe70R.png",
 	class: "Vidiian Battle Cruiser",
 	actions: [
 		"evade",
@@ -676,7 +677,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Honatta Prime",
-	image: "",
+	image: "https://i.imgur.com/NoiYRgH.png",
 	class: "Vidiian Battle Cruiser",
 	actions: [
 		"evade",
@@ -715,7 +716,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Nasari Starship",
-	image: "",
+	image: "https://i.imgur.com/GDuJYqO.png",
 	class: "Nerada-Type",
 	actions: [
 		"evade",
@@ -750,7 +751,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Nerada",
-	image: "",
+	image: "https://i.imgur.com/VB7wdTN.png",
 	class: "Nerada-Type",
 	actions: [
 		"evade",
@@ -787,7 +788,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Numiri Starship",
-	image: "",
+	image: "https://i.imgur.com/SoOv5Xz.png",
 	class: "Numiri Patrol Ship",
 	actions: [
 		"evade",
@@ -823,7 +824,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Antares Shadow",
-	image: "",
+	image: "https://i.imgur.com/xocJwxx.png",
 	class: "Numiri Patrol Ship",
 	actions: [
 		"evade",
@@ -975,7 +976,7 @@ module.exports = [{
 		"75014"
 	],
 	name: "Federation Starship",
-	image: "",
+	image: "https://i.imgur.com/FOsDRQn.png",
 	class: "Aerie Class",
 	actions: [
 		"evade",
@@ -1285,6 +1286,7 @@ module.exports = [{
 		"80003"
 	],
 	name: "Dominion Starship",
+	image: "https://i.imgur.com/2FNi35z.jpg",
 	class: "Breen Battle Cruiser",
 	actions: [
 		"evade",
@@ -1322,6 +1324,7 @@ module.exports = [{
 		"80002"
 	],
 	name: "Dominion Starship",
+	image: "https://i.imgur.com/1CatRst.png",
 	class: "Jem'Hadar Battle Cruiser",
 	actions: [
 		"evade",
@@ -1360,6 +1363,7 @@ module.exports = [{
 		"80002"
 	],
 	name: "Dominion Starship",
+	image: "https://i.imgur.com/LN9WIVV.png",
 	class: "Cardassian Galor Class",
 
 	actions: [
@@ -1434,6 +1438,7 @@ module.exports = [{
 		"80002"
 	],
 	name: "Klingon Starship",
+	image: "https://i.imgur.com/HiqU2RV.png",
 	class: "K'Vort Class",
 	actions: [
 		"evade",
@@ -1471,6 +1476,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Da Vinci",
+	image: "https://i.imgur.com/hzJJ3mt.png",
 	class: "Saber Class",
 	actions: [
 		"evade",
@@ -1508,6 +1514,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Saber",
+	image: "https://i.imgur.com/7Gubh8H.png",
 	class: "Saber Class",
 	actions: [
 		"evade",
@@ -1545,6 +1552,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Musashi",
+	image: "https://i.imgur.com/OkBzfHN.png",
 	class: "Sovereign Class",
 	actions: [
 		"evade",
@@ -1583,6 +1591,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Sovereign",
+	image: "https://i.imgur.com/LlwBF8E.png",
 	class: "Sovereign Class",
 	actions: [
 		"evade",
@@ -1621,6 +1630,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Geronimo",
+	image: "https://i.imgur.com/yUiLT8K.png",
 	class: "Akira Class",
 	actions: [
 		"evade",
@@ -1659,6 +1669,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Akira",
+	image: "https://i.imgur.com/xBNN5sR.png",
 	class: "Akira Class",
 	actions: [
 		"evade",
@@ -1697,6 +1708,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Cerberus",
+	image: "https://i.imgur.com/IkFcUoq.png",
 	class: "Prometheus Class",
 	actions: [
 		"evade",
@@ -1736,6 +1748,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "Federation Class",
+	image: "https://i.imgur.com/LckS2NG.png",
 	class: "Prometheus Class",
 	actions: [
 		"evade",
@@ -1774,6 +1787,7 @@ module.exports = [{
 		"75013"
 	],
 	name: "U.S.S. Prometheus",
+	image: "https://i.imgur.com/G6F8x0q.png",
 	class: "Prometheus Class",
 	actions: [
 		"evade",
@@ -1813,6 +1827,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "I.R.W. Valdore",
+	image: "https://i.imgur.com/YZCjANG.png",
 	class: "Valdore Class",
 	actions: [
 		"evade",
@@ -1850,6 +1865,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "Romulan Starship",
+	image: "https://i.imgur.com/xpbHAVg.png",
 	class: "Valdore Class",
 	actions: [
 		"evade",
@@ -1886,6 +1902,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "I.R.W. Soterus",
+	image: "https://i.imgur.com/Pxumlx4.png",
 	class: "Valdore Class",
 	actions: [
 		"evade",
@@ -1924,6 +1941,7 @@ module.exports = [{
 	],
 	name: "Romulan Starship",
 	class: "Romulan Scout Vessel",
+	image: "https://i.imgur.com/fp2wciP.png",
 	actions: [
 		"evade",
 		"target-lock",
@@ -1957,6 +1975,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "Tal Shair Scout",
+	image: "https://i.imgur.com/9CTd49F.png",
 	class: "Romulan Scout Vessel",
 	actions: [
 		"evade",
@@ -1993,6 +2012,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "I.R.W. Belak",
+	image: "https://i.imgur.com/ObpwEor.png",
 	class: "D'deridex Class",
 	actions: [
 		"evade",
@@ -2032,6 +2052,7 @@ module.exports = [{
 		"80003"
 	],
 	name: "Romulan Starship",
+	image: "https://i.imgur.com/uolfK2a.png",
 	class: "D'deridex Class",
 	actions: [
 		"evade",
@@ -2070,6 +2091,7 @@ module.exports = [{
 	],
 	name: "Twilight's Wrath",
 	class: "D'deridex Class",
+	image: "https://i.imgur.com/2b4IXyY.png",
 	actions: [
 		"evade",
 		"target-lock",
@@ -2107,6 +2129,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "Reman Starship",
+	image: "https://i.imgur.com/LrW9TgK.png",
 	class: "Reman Warbird",
 	actions: [
 		"evade",
@@ -2144,6 +2167,7 @@ module.exports = [{
 		"75012"
 	],
 	name: "Scimitar",
+	image: "https://i.imgur.com/3yWHzKQ.png",
 	class: "Reman Warbird",
 	actions: [
 		"evade",
@@ -2182,6 +2206,7 @@ module.exports = [{
 		"75011"
 	],
 	name: "U.S.S. Tian An Men",
+	image: "https://i.imgur.com/YDaaEzi.png",
 	class: "Miranda Class",
 	actions: [
 		"evade",
@@ -2215,6 +2240,7 @@ module.exports = [{
 		"75011"
 	],
 	name: "U.S.S. Odyssey",
+	image: "https://i.imgur.com/R1t8t3T.png",
 	class: "Galaxy Class",
 	actions: [
 		"evade",
@@ -2249,6 +2275,7 @@ module.exports = [{
 		"75011"
 	],
 	name: "U.S.S. Spector",
+	image: "https://i.imgur.com/acFczGD.png",
 	class: "Akira Class",
 	actions: [
 		"evade",
@@ -2283,6 +2310,7 @@ module.exports = [{
 		"75010"
 	],
 	name: "Klingon Starship",
+	image: "https://i.imgur.com/CcnvMGR.png",
 	class: "Negh'var Class",
 	actions: [
 		"evade",
@@ -2349,6 +2377,7 @@ module.exports = [{
 		"75010"
 	],
 	name: "I.K.S. K'Tanco",
+	image: "https://i.imgur.com/b1ys7km.png",
 	class: "K'T'Inga Class",
 	actions: [
 		"evade",
@@ -2382,6 +2411,7 @@ module.exports = [{
 		"75010"
 	],
 	name: "I.K.S. Kos'Karii",
+	image: "https://i.imgur.com/FN8Jytz.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -2416,6 +2446,7 @@ module.exports = [{
 		"75010"
 	],
 	name: "Klingon/Independent Starship",
+	image: "https://i.imgur.com/bYe5lqL.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -2449,6 +2480,7 @@ module.exports = [{
 		"75010"
 	],
 	name: "I.K.S. Devwl",
+	image: "https://i.imgur.com/VAm2t0O.png",
 	class: "Negh'var Class",
 	actions: [
 		"evade",
@@ -2483,6 +2515,7 @@ module.exports = [{
 		"75011"
 	],
 	name: "U.S.S. Sao Paulo",
+	image: "https://i.imgur.com/wlWWvxD.png",
 	class: "Defiant Class",
 	actions: [
 		"evade",
@@ -2517,6 +2550,7 @@ module.exports = [{
 		"75010"
 	],
 	name: "I.K.S. T'Acog",
+	image: "https://i.imgur.com/alJ4LJQ.png",
 	class: "K'T'Inga Class",
 	actions: [
 		"evade",
@@ -2550,6 +2584,7 @@ module.exports = [{
 		"75009"
 	],
 	name: "Dukat's Bird-of-Prey",
+	image: "https://i.imgur.com/YbnuNBv.png",
 	class: "Klingon Bird-of-Prey",
 	actions: [
 		"evade",
@@ -2588,6 +2623,7 @@ module.exports = [{
 		"75009"
 	],
 	name: "Vetar",
+	image: "https://i.imgur.com/MTJm2bX.png",
 	class: "Cardassian Galor Class",
 	actions: [
 		"evade",
@@ -2624,6 +2660,7 @@ module.exports = [{
 		"75009"
 	],
 	name: "Orias",
+	image: "https://i.imgur.com/6tfWdU4.png",
 	class: "Cardassian Keldon Class",
 	actions: [
 		"evade",
@@ -2662,6 +2699,7 @@ module.exports = [{
 		"75009"
 	],
 	name: "Preloc",
+	image: "https://i.imgur.com/uDMmCh8.png",
 	class: "Cardassian Keldon Class",
 	actions: [
 		"evade",
@@ -2700,6 +2738,7 @@ module.exports = [{
 		"75009"
 	],
 	name: "Dominion/Klingon Starship",
+	image: "https://i.imgur.com/WwcewLV.png",
 	class: "Klingon Bird-of-Prey",
 	actions: [
 		"evade",
@@ -2737,6 +2776,7 @@ module.exports = [{
 		"75008"
 	],
 	name: "Kir'Shara",
+	image: "https://i.imgur.com/plrTehK.png",
 	class: "D'Kyr Class",
 	actions: [
 		"evade",
@@ -2774,6 +2814,7 @@ module.exports = [{
 		"75008"
 	],
 	name: "V'Shar",
+	image: "https://i.imgur.com/0Zn9OI0.png",
 	class: "D'Kyr Class",
 	actions: [
 		"evade",
@@ -2811,6 +2852,7 @@ module.exports = [{
 		"75008"
 	],
 	name: "U.S.S. Intrepid",
+	image: "https://i.imgur.com/WFht5uv.png",
 	class: "Constitution Class",
 	actions: [
 		"evade",
@@ -2849,6 +2891,7 @@ module.exports = [{
 		"75008"
 	],
 	name: "U.S.S. T'Kumbra",
+	image: "https://i.imgur.com/CDC98WP.png",
 	class: "Nebula Class",
 	actions: [
 		"evade",
@@ -2888,6 +2931,7 @@ module.exports = [{
 		"75006"
 	],
 	name: "I.K.S. Klothos",
+	image: "https://i.imgur.com/pjRNaHW.png",
 	class: "D7 Class",
 	actions: [
 		"evade",
@@ -2920,6 +2964,7 @@ module.exports = [{
 		"75006"
 	],
 	name: "I.K.S. Devisor",
+	image: "https://i.imgur.com/YOeK9ch.png",
 	class: "D7 Class",
 	actions: [
 		"evade",
@@ -2951,6 +2996,7 @@ module.exports = [{
 		"75006"
 	],
 	name: "I.R.W. Talon",
+	image: "https://i.imgur.com/NxunlKv.png",
 	class: "D7 Class",
 	actions: [
 		"evade",
@@ -2983,6 +3029,7 @@ module.exports = [{
 		"75007"
 	],
 	name: "Assimilation Target Prime",
+	image: "https://i.imgur.com/jpM7JjD.png",
 	class: "Galaxy Class",
 	actions: [
 		"evade",
@@ -3022,6 +3069,7 @@ module.exports = [{
 		"75007"
 	],
 	name: "Sphere 634",
+	image: "https://i.imgur.com/48ZfmOY.png",
 	class: "Borg Sphere",
 	actions: [
 		"target-lock",
@@ -3059,6 +3107,7 @@ module.exports = [{
 		"75007"
 	],
 	name: "Scout 609",
+	image: "https://i.imgur.com/XU2atpz.png",
 	class: "Borg Scout Cube",
 	actions: [
 		"evade",
@@ -3096,6 +3145,7 @@ module.exports = [{
 		"75007"
 	],
 	name: "U.S.S. Voyager",
+	image: "https://i.imgur.com/2wANriO.png",
 	class: "Intrepid Class",
 	actions: [
 		"evade",
@@ -3135,6 +3185,7 @@ module.exports = [{
 		"75007"
 	],
 	name: "Federation/Borg Starship",
+	image: "https://i.imgur.com/Bmtwp6t.png",
 	class: "Intrepid Class",
 	actions: [
 		"evade",
@@ -3173,6 +3224,7 @@ module.exports = [{
 		"75007"
 	],
 	name: "Federation/Borg Starship",
+	image: "https://i.imgur.com/dEGGuCR.png",
 	class: "Galaxy Class",
 	actions: [
 		"evade",
@@ -3211,6 +3263,7 @@ module.exports = [{
 		"75006"
 	],
 	name: "U.S.S. Enterprise",
+	image: "https://i.imgur.com/rz4t7lH.png",
 	class: "Constitution Class",
 	actions: [
 		"evade",
@@ -7217,6 +7270,7 @@ module.exports = [{
 		"75008"
 	],
 	name: "Federation Starship",
+	image: "https://i.imgur.com/o6VbAgw.png",
 	class: "Constitution Class",
 	actions: [
 		"evade",
