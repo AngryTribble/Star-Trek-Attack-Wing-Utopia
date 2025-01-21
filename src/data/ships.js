@@ -1205,7 +1205,7 @@ module.exports = [{
 		"75014"
 	],
 	name: "U.S.S. Voyager",
-	image: "",
+	image: "https://i.imgur.com/IvmlLyD.png",
 	class: "Intrepid Class",
 	actions: [
 		"evade",
