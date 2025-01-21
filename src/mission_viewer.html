@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
+
+<html ng-app="utopia" ng-controller="UtopiaCtrl">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/jquery.powertip.min.css">
 <link rel="stylesheet" type="text/css" href="css/utopia.min.css">
@@ -15,53 +15,197 @@
 <script type="text/javascript" src="js/lib/angular-sanitize.js"></script>
 <script type="text/javascript" src="js/utopia.min.js"></script>
 <style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 2px;
-  width: 100%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+  @font-face {
+      font-family: 'Star Trek';
+      src: url('https://fonts.cdnfonts.com/css/star-trek-enterprise-future') format('woff2');
+  }
+  
+  .lcars-button {
+      background-color: #FF9966; /* LCARS orange */
+      color: black;
+      padding: 12px 25px;
+      border: none;
+      border-top-left-radius: 35px;
+      border-bottom-left-radius: 35px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: 'Star Trek', sans-serif;
+      display: inline-block;
+      transition: all 0.3s;
+      width: 180px;
+      text-align: left;
+      position: relative;
+      margin: 10px 25px 10px 0;
+  }
+  
+  .lcars-button::after {
+      content: '';
+      position: absolute;
+      right: -25px;
+      top: 0;
+      width: 25px;
+      height: 100%;
+      background-color: #CC6699; /* LCARS pink */
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+  }
+  
+  .lcars-button:hover {
+      background-color: #CC6699;
+      color: white;
+  }
 
-.active, .collapsible:hover {
-  background-color: #555;
-}
+  .lcars-button:hover::after {
+      background-color: #FF9966;
+  }
 
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
+  .button-divider {
+      height: 8px;
+      background-color: #9999CC; /* LCARS blue */
+      width: 205px;
+      margin: 5px auto;
+      border-radius: 4px;
+  }
 
-.active:after {
-  content: "\2212";
-}
+  .lcars-header {
+      background: linear-gradient(90deg, #9999CC, #CC6699);
+      padding: 30px;
+      border-radius: 0 0 50px 50px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      margin-bottom: 40px;
+      border-left: 15px solid #FF9966;
+      border-right: 15px solid #FF9966;
+  }
 
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
+  .lcars-header h1 {
+      font-family: 'Star Trek', sans-serif;
+      font-size: 48px;
+      color: #000;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 12px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .lcars-header h2 {
+      font-family: 'Star Trek', sans-serif;
+      font-size: 24px;
+      color: #000;
+      margin: 10px 0 0 0;
+      text-align: center;
+      letter-spacing: 4px;
+  }
+
+  body {
+      background-color: #eeeeee;
+      margin: 0;
+      padding: 0;
+  }
+
+  .disclaimer-modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      z-index: 1000;
+      max-width: 1000px;
+      width: 90%;
+      line-height: 1.8;
+      font-size: 20px;
+      border: 3px solid #FF9966;
+  }
+
+  .close-button {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      cursor: pointer;
+      font-size: 28px;
+      color: #CC6699;
+  }
+
+  .collapsible {
+      background-color: #FF9966; /* LCARS orange */
+      color: black;
+      cursor: pointer;
+      padding: 12px 25px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 18px;
+      font-family: 'Star Trek', sans-serif;
+      border-top-left-radius: 35px;
+      border-bottom-left-radius: 35px;
+      position: relative;
+      margin: 10px 0;
+      transition: all 0.3s;
+      border-right: 15px solid #9999CC;
+  }
+
+  .collapsible::after {
+      content: '\002B';
+      color: black;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+      position: absolute;
+      right: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .active::after {
+      content: "\2212";
+  }
+
+  .active, .collapsible:hover {
+      background-color: #CC6699; /* LCARS pink */
+      color: white;
+      border-right: 15px solid #FF9966;
+  }
+
+  .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+      background-color: #f1f1f1;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      margin-bottom: 10px;
+      border-left: 15px solid #9999CC;
+      border-right: 15px solid #9999CC;
+      border-bottom: 15px solid #9999CC;
+  }
 </style>
 </head>
-<body>
 
-<div class="u-title"><i class="fs fs-unique"></i><b>Utopia Mission Viewer<i class="fs fs-unique"></i></b></div><br>
-<h1><b><mark><center><font size="+5">UNDERGOING REFIT</font></center></mark></b></h1>
-<center><i><b><font size="+2">"It won't be installed until Tuesday" - Captain John Harriman</font></b></i></center>
-<p>Build Your Fleet With <a href="./index.html">Utopia</a><br>
-   Browse All Sets With The <a href="./set-viewer.html">Utopia Set Viewer</a><br>
-   Find a Bug? <a href="mailto:antaresshipyard@gmail.com" > Alert Security Here</a></p>
+<body ng-keypress="keypress($event)">
+
+      <header class="lcars-header">
+          <h1>UTOPIA</h1>
+          <h2>Mission Viewer</h2>
+      </header>
+
+      <div class="text-center"><a href="./index.html" class="lcars-button">Fleet Builder</a></div>
+      <div class="button-divider"></div>
+      <div class="text-center"><a href="./set-viewer.html" class="lcars-button">Set Viewer</a></div>
+      <div class="button-divider"></div>
+      <div class="text-center"><a href="./FAQ.html" class="lcars-button">FAQ</a></div>
+      <div class="button-divider"></div>
+      <div class="text-center"><a href="mailto:antaresshipyard@gmail.com" class="lcars-button">Bug Report</a></div>
+      <div class="button-divider"></div>
+      <div class="text-center"><button onclick="openDisclaimer()" class="lcars-button"><i class="fa fa-info-circle"></i> Disclaimer </i></button></div><br>
+
 
 <h2><font size="+2">Missions:</font></h2>
 
@@ -7957,6 +8101,22 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
+
+<div id="disclaimerModal" class="disclaimer-modal">
+  <span class="close-button" onclick="closeDisclaimer()">&times;</span>
+  <p>Star Trek: Attack Wing and all related trademarks and images are the property of CBS Studios Inc., WizKids, and other respective rights holders. This website is a fan-made resource for informational and entertainment purposes only, and is not affiliated with, endorsed by, or sponsored by CBS Studios Inc. or WizKids. All images, card art, and trademarks remain the property of their respective owners. No copyright infringement is intended.</p>
+</div>
+
+<script>
+  function openDisclaimer() {
+      document.getElementById('disclaimerModal').style.display = 'block';
+  }
+
+  function closeDisclaimer() {
+      document.getElementById('disclaimerModal').style.display = 'none';
+  }
+</script>
+
 
 </body>
 </html>
