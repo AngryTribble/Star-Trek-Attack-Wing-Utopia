@@ -3302,6 +3302,7 @@ module.exports = [{
 		"75004"
 	],
 	name: "U.S.S. Dauntless",
+	image: "https://i.imgur.com/5G43FEB.png",
 	class: "Dauntless Class",
 	actions: [
 		"evade",
@@ -3339,6 +3340,7 @@ module.exports = [{
 		"75004"
 	],
 	name: "Harvester Prime",
+	image: "https://i.imgur.com/n7e94Ty.png",
 	class: "Vidiian Battle Cruiser",
 	actions: [
 		"evade",
@@ -3376,6 +3378,7 @@ module.exports = [{
 		"75004"
 	],
 	name: "Telev's Battle Cruiser",
+	image: "https://i.imgur.com/1PWbvIK.png",
 	class: "Andorian Battle Cruiser",
 	actions: [
 		"evade",
@@ -3409,6 +3412,7 @@ module.exports = [{
 		"75004"
 	],
 	name: "Guingouin",
+	image: "https://i.imgur.com/1OyzXC1.png",
 	class: "Maquis Raider",
 	actions: [
 		"evade",
@@ -3479,6 +3483,7 @@ module.exports = [{
 		"75005"
 	],
 	name: "U.S.S. Enterprise",
+	image: "https://i.imgur.com/V6vkdx2.png",
 	class: "Constitution Class (Kelvin)",
 	actions: [
 		"evade",
@@ -3514,6 +3519,7 @@ module.exports = [{
 		"75005"
 	],
 	name: "U.S.S. Enterprise-A",
+	image: "https://i.imgur.com/8etNnVQ.png",
 	class: "Constitution Class (Kelvin)",
 	actions: [
 		"evade",
@@ -3549,6 +3555,7 @@ module.exports = [{
 		"75005"
 	],
 	name: "Federation Starship",
+	image: "https://i.imgur.com/5n7f5Qp.png",
 	class: "Constitution Class (Kelvin)",
 	actions: [
 		"evade",
@@ -3583,6 +3590,7 @@ module.exports = [{
 		"75005"
 	],
 	name: "I.K.S. Amar",
+	image: "https://i.imgur.com/lARFOL1.png",
 	class: "Warbird Class",
 	actions: [
 		"target-lock",
@@ -3617,6 +3625,7 @@ module.exports = [{
 		"75005"
 	],
 	name: "I.K.S. Suvwl",
+	image: "https://i.imgur.com/V6ve46v.png",
 	class: "Warbird Class",
 	actions: [
 		"target-lock",
@@ -3651,6 +3660,7 @@ module.exports = [{
 		"75005"
 	],
 	name: "Klingon Starship",
+	image: "https://i.imgur.com/vqoyys6.png",
 	class: "Warbird Class",
 	actions: [
 		"target-lock",
@@ -3684,6 +3694,7 @@ module.exports = [{
 		"73041"
 	],
 	name: "Fighter Squadron 1",
+	image: "https://i.imgur.com/BPfxVFz.png",
 	class: "Federation Attack Squadron",
 	actions: [
 		"evade",
@@ -3714,6 +3725,7 @@ module.exports = [{
 		"73041"
 	],
 	name: "Fighter Squadron 3",
+	image: "https://i.imgur.com/RxjxSiq.png",
 	class: "Federation Attack Squadron",
 	actions: [
 		"evade",
@@ -3744,6 +3756,7 @@ module.exports = [{
 		"73042"
 	],
 	name: "Hirogen Hunting Vessel",
+	image: "https://i.imgur.com/zhH1NsB.png",
 	class: "Hirogen Warship",
 	actions: [
 		"evade",
@@ -3778,6 +3791,7 @@ module.exports = [{
 		"73032"
 	],
 	name: "4th Wing Patrol Ship",
+	image: "https://i.imgur.com/NTbHqiN.png",
 	class: "Jem'Hadar Attack Ship",
 	actions: [
 		"evade",
@@ -3811,6 +3825,7 @@ module.exports = [{
 		"73031"
 	],
 	name: "Gress'sril",
+	image: "https://i.imgur.com/zDtwGOO.png",
 	class: "Gorn Raider",
 	actions: [
 		"evade",
@@ -3884,6 +3899,7 @@ module.exports = [{
 		"75003"
 	],
 	name: "Lurin's Bird-of-Prey",
+	image: "https://i.imgur.com/QdCp367.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -3958,6 +3974,7 @@ module.exports = [{
 		"75003"
 	],
 	name: "Prak's Marauder",
+	image: "https://i.imgur.com/4MerFZL.png",
 	class: "D'Kora Class",
 	actions: [
 		"evade",
@@ -3994,6 +4011,7 @@ module.exports = [{
 		"75003"
 	],
 	name: "Solok's Marauder",
+	image: "https://i.imgur.com/zE4CHWC.png",
 	class: "D'Kora Class",
 	actions: [
 		"evade",
@@ -4030,6 +4048,7 @@ module.exports = [{
 		"75003"
 	],
 	name: "Goss' Shuttle",
+	image: "https://i.imgur.com/HUAjF19.png",
 	class: "Ferengi Shuttle",
 	actions: [
 		"evade",
@@ -4090,6 +4109,7 @@ module.exports = [{
 		"73002"
 	],
 	name: "Queen Vessel Prime",
+	image: "https://i.imgur.com/HpB7YCA.png",
 	class: "Borg Octahedron",
 	actions: [
 		"target-lock",
@@ -4165,6 +4185,7 @@ module.exports = [{
 		"73001"
 	],
 	name: "Goss' Marauder",
+	image: "https://i.imgur.com/HpB7YCA.png",
 	class: "D'Kora Class",
 	actions: [
 		"evade",
@@ -4201,6 +4222,7 @@ module.exports = [{
 		"75002"
 	],
 	name: "2nd Division Battleship",
+	image: "https://i.imgur.com/4XrDGUg.png",
 	class: "Jem'Hadar Battleship",
 	actions: [
 		"target-lock",
@@ -4277,6 +4299,7 @@ module.exports = [{
 		"75002"
 	],
 	name: "3rd Division Battle Cruiser",
+	image: "https://i.imgur.com/pERNymu.png",
 	class: "Jem'Hadar Battle Cruiser",
 	actions: [
 		"evade",
@@ -4353,6 +4376,7 @@ module.exports = [{
 		"75002"
 	],
 	name: "2nd Wing Patrol Ship",
+	image: "https://i.imgur.com/TaLPIbD.png",
 	class: "Jem'Hadar Attack Ship",
 	actions: [
 		"evade",
@@ -4386,6 +4410,7 @@ module.exports = [{
 		"75002"
 	],
 	name: "6th Wing Patrol Ship",
+	image: "https://i.imgur.com/aTyvE77.png",
 	class: "Jem'Hadar Attack Ship",
 	actions: [
 		"evade",
@@ -4454,6 +4479,7 @@ module.exports = [{
 		"75001"
 	],
 	name: "P.W.B. Tomal",
+	image: "https://i.imgur.com/ylP6tKR.png",
 	class: "D'deridex Class",
 	actions: [
 		"evade",
@@ -4529,6 +4555,7 @@ module.exports = [{
 		"75001"
 	],
 	name: "I.R.W. Suran",
+	image: "https://i.imgur.com/NYnshHm.png",
 	class: "Valdore Class",
 	actions: [
 		"evade",
@@ -4604,6 +4631,7 @@ module.exports = [{
 		"75001"
 	],
 	name: "Jarok's Scout Vessel",
+	image: "https://i.imgur.com/rGhZi1j.png",
 	class: "Romulan Scout Vessel",
 	actions: [
 		"evade",
@@ -4675,6 +4703,7 @@ module.exports = [{
 		"75001"
 	],
 	name: "Mirok's Science Vessel",
+	image: "https://i.imgur.com/miZ7k7Q.png",
 	class: "Romulan Science Vessel",
 	actions: [
 		"evade",
@@ -4744,6 +4773,7 @@ module.exports = [{
 		"2017core"
 	],
 	name: "U.S.S. Enterprise-D",
+	image: "https://i.imgur.com/kTVtiid.png",
 	class: "Galaxy Class",
 	actions: [
 		"evade",
@@ -4820,6 +4850,7 @@ module.exports = [{
 		"2017core"
 	],
 	name: "U.S.S. Sutherland",
+	image: "https://i.imgur.com/cmAmiia.png",
 	class: "Nebula Class",
 	actions: [
 		"evade",
@@ -4934,6 +4965,7 @@ module.exports = [{
 		"2017core"
 	],
 	name: "K'mpec's Attack Cruiser",
+	imgae: "https://i.imgur.com/lfGBnBV.png",
 	class: "Vor'cha Class",
 	actions: [
 		"evade",
@@ -5010,6 +5042,7 @@ module.exports = [{
 		"2017core"
 	],
 	name: "I.K.S. Vorn",
+	image: "https://i.imgur.com/I0b7Jy2.png",
 	class: "K'Vort Class ",
 	actions: [
 		"evade",
@@ -5047,6 +5080,7 @@ module.exports = [{
 		"72014wp"
 	],
 	name: "Prototype 02",
+	image: "https://i.imgur.com/tlyYWIM.png",
 	class: "Romulan Drone Ship",
 	actions: [
 		"evade",
@@ -5119,6 +5153,7 @@ module.exports = [{
 		"72013wp"
 	],
 	name: "Dreadnought",
+	image: "https://i.imgur.com/JtSh2rQ.png",
 	class: "Cardassian ATR-4107",
 	actions: [
 		"evade",
@@ -5183,6 +5218,7 @@ module.exports = [{
 		"72012wp"
 	],
 	name: "I.K.S. Ves Batlh",
+	image: "https://i.imgur.com/id8Z0nS.png",
 	class: "Raptor Class",
 	actions: [
 		"evade",
@@ -5531,6 +5567,7 @@ module.exports = [{
 		"72282p"
 	],
 	name: "I.K.S. Toral",
+	image: "https://i.imgur.com/35B6a31.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -5605,6 +5642,7 @@ module.exports = [{
 		"72281p"
 	],
 	name: "I.K.S. Hegh'ta",
+	image: "https://i.imgur.com/WvSOP7b.png",
 	class: "K'Vort Class",
 	actions: [
 		"evade",
@@ -5669,6 +5707,7 @@ module.exports = [{
 		"72280p"
 	],
 	name: "I.K.S. Bortas",
+	image: "https://i.imgur.com/KzSbQoh.png",
 	class: "Vor'cha Class",
 	actions: [
 		"evade",
@@ -5736,6 +5775,7 @@ module.exports = [{
 		"72270p"
 	],
 	name: "Kohlars Battle Cruiser",
+	image: "https://i.imgur.com/Xk8r6ML.png",
 	class: "D7 Class",
 	actions: [
 		"evade",
@@ -6009,6 +6049,7 @@ module.exports = [{
 		"72236p"
 	],
 	name: "Kruge's Bird-of-Prey",
+	image: "https://i.imgur.com/J8r2gfT.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -6147,6 +6188,7 @@ module.exports = [{
 		"72241"
 	],
 	name: "I.K.S. Drovana",
+	image: "https://i.imgur.com/BWGb4EI.png",
 	class: "Vor'cha Class",
 	actions: [
 		"evade",
@@ -6314,6 +6356,7 @@ module.exports = [{
 		"72232"
 	],
 	name: "I.K.S. Amar",
+	image: "https://i.imgur.com/SvWzcGh.png",
 	class: "K'T'Inga Class",
 	actions: [
 		"evade",
@@ -7115,6 +7158,7 @@ module.exports = [{
 		"71120"
 	],
 	name: "I.K.S. Maht-H'A",
+	image: "https://i.imgur.com/XvnxvhD.png",
 	class: "Vor'cha Class",
 	actions: [
 		"evade",
@@ -7415,6 +7459,7 @@ module.exports = [{
 		"72272"
 	],
 	name: "I.K.S. Gr'oth",
+	image: "https://i.imgur.com/RDtD7eF.png",
 	class: "D7 Class",
 	actions: [
 		"evade",
@@ -7488,6 +7533,7 @@ module.exports = [{
 		"72251"
 	],
 	name: "I.K.S. Negh'var",
+	image: "https://i.imgur.com/GgIsEE4.png",
 	class: "Negh'var Class",
 	actions: [
 		"evade",
@@ -7861,6 +7907,7 @@ module.exports = [{
 		"OP2Prize"
 	],
 	name: "I.K.S. Ch'tang",
+	image: "https://i.imgur.com/aosIQIx.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -8053,6 +8100,7 @@ module.exports = [{
 		"71269"
 	],
 	name: "I.K.S. Kronos One",
+	image: "https://i.imgur.com/OKN0ReA.png",
 	class: "K'T'Inga Class",
 	actions: [
 		"evade",
@@ -8236,6 +8284,7 @@ module.exports = [{
 		"71273"
 	],
 	name: "I.K.S. Koraga",
+	image: "https://i.imgur.com/TJddYWc.png",
 	class: "K'Vort Class",
 	actions: [
 		"evade",
@@ -8694,6 +8743,7 @@ module.exports = [{
 		"71448"
 	],
 	name: "I.K.S. Somraw",
+	image: "https://i.imgur.com/4LaYP18.png",
 	class: "Raptor Class",
 	actions: [
 		"evade",
@@ -9643,6 +9693,7 @@ module.exports = [{
 		"i_k_s_b_moth"
 	],
 	name: "I.K.S. B'Moth",
+	image: "https://i.imgur.com/ckweUDd.png",
 	class: "K'T'Inga Class",
 	actions: [
 		"evade",
@@ -10413,6 +10464,7 @@ module.exports = [{
 		"75016"
 	],
 	name: "Federation Starship",
+	image: "https://i.imgur.com/VawBZrX.jpg",
 	class: "Federation NX Class",
 	actions: [
 		"evade",
@@ -11349,6 +11401,7 @@ module.exports = [{
 		"71512"
 	],
 	name: "Assimilated Vessel 80279",
+	image: "https://i.imgur.com/mgTFrHw.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -11388,6 +11441,7 @@ module.exports = [{
 		"71512"
 	],
 	name: "Korok's Bird-of-Prey",
+	image: "https://i.imgur.com/2MXaU5e.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -11463,6 +11517,7 @@ module.exports = [{
 		"71532"
 	],
 	name: "Chang's Bird-of-Prey",
+	image: "https://i.imgur.com/mlU5ofb.png",
 	class: "Klingon Bird-of-Prey",
 	actions: [
 		"evade",
@@ -11837,6 +11892,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Vidiian Starship",
+	image: "https://i.imgur.com/G5omlHB.png",
 	class: "Vidiian Battle Cruiser",
 	actions: [
 		"evade",
@@ -12245,6 +12301,7 @@ module.exports = [{
 		"75015"
 	],
 	name: "Hirogen Starship",
+	image: "https://i.imgur.com/fnuw3RG.png",
 	class: "Hirogen Warship",
 	actions: [
 		"evade",
@@ -12386,6 +12443,7 @@ module.exports = [{
 		"71996"
 	],
 	name: "I.K.S. Pagh",
+	image: "https://i.imgur.com/gBdHQBd.png",
 	class: "K'Vort Class",
 	actions: [
 		"evade",
@@ -13001,6 +13059,7 @@ module.exports = [{
 		"71999p"
 	],
 	name: "I.K.S. Korinar",
+	image: "https://i.imgur.com/RosghTn.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -13113,6 +13172,7 @@ module.exports = [{
 		"71804"
 	],
 	name: "I.K.S. Ning'tao",
+	image: "https://i.imgur.com/sb000DA.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -13457,6 +13517,7 @@ module.exports = [{
 		"blind_buruk"
 	],
 	name: "I.K.S. Buruk",
+	image: "https://i.imgur.com/J22BWjC.png",
 	class: "K'Vort Class",
 	actions: [
 		"evade",
@@ -14017,6 +14078,7 @@ module.exports = [{
 		"72015"
 	],
 	name: "I.K.S. Rotarran",
+	image: "https://i.imgur.com/fHzXOdB.png",
 	class: "B'Rel Class",
 	actions: [
 		"evade",
@@ -14320,6 +14382,7 @@ module.exports = [{
 		"72009"
 	],
 	name: "I.K.S. T'Ong",
+	image: "https://i.imgur.com/HFC4fSa.png",
 	class: "K'T'Inga Class",
 	actions: [
 		"evade",
