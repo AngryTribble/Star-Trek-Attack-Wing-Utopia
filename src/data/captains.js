@@ -2470,6 +2470,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "B'Etor",
+		image: "https://i.imgur.com/f3KwkDM.png",
 		cost: 3,
 		skill: 4,
 		talents: 0,
