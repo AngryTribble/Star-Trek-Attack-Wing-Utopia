@@ -2557,6 +2557,7 @@ module.exports = [
 			"72282p"
 		],
 		name: "B'Etor",
+		image: "https://i.imgur.com/wbXbzBQ.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
