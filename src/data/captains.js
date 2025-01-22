@@ -826,6 +826,7 @@ module.exports = [
 			"75010"
 		],
 		name: "The Albino",
+		image: "https://i.imgur.com/l7Hlsst.jpg",
 		unique: true,
 		text: "<b>WHEN ATTACKING A <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> SHIP OR A SHIP WITH A <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> CAPTAIN EQUIPPED TO IT:</b> \n\n Roll +1 attack die.\n<hr> <b>WHEN ATTACKING:</b> Once per game, if this attack hits:\n\n Discard 1 [crew_text] Upgrade equipped to the defending ship.\n<hr> <b>ACTIVIATION PHASE:</b> Once per game: \n\n This ship may activate last.",
 		factions: [
@@ -844,6 +845,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Kor",
+		image: "https://i.imgur.com/r9Jq3dh.jpg",
 		unique: true,
 		text: "You may equip the Dahar Master [talent_text] Upgrade to this card for 0 SP. \n<hr> <b>FREE ACTION:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and target all friendly <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> ships.\n\n Remove all Red    [target-lock] Tokens beside the target ships and place them beside this ship.",
 		factions: [
@@ -862,6 +864,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Koloth",
+		image: "https://i.imgur.com/Xf03F0d.jpg",
 		unique: true,
 		text: "<b>WHEN AN OPPOSING SHIP WITHIN RANGE PERFORMS A MANEUVER:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Perform a maneuver on this ship's dial with a speed of 2.",
 		factions: [
@@ -880,6 +883,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Kang",
+		image: "https://i.imgur.com/k3BbpaN.jpg",
 		unique: true,
 		text: "<b>START OF THE GAME:</b> Target a Captain equipped to an opposing ship.\n<hr> <b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the target captain is equipped to the defending ship, discard this card.\n\n Add two [crit] results.",
 		factions: [
@@ -897,6 +901,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Kang",
+		image: "https://i.imgur.com/ATE9IKc.jpg",
 		unique: true,
 		text: "<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step, spend this ship's [target-lock] Token.\n\n The attacking ship must re-roll all of its attack dice.",
 		factions: [
@@ -1340,6 +1345,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Klaang",
+		image: "https://i.imgur.com/lrAh626.png",
 		cost: 2,
 		skill: 2,
 		talents: 1,
@@ -1825,6 +1831,7 @@ module.exports = [
 			"72270p"
 		],
 		name: "Kohlar",
+		image: "https://i.imgur.com/0zllwxc.png",
 		cost: 2,
 		skill: 3,
 		talents: 1,
@@ -1876,6 +1883,7 @@ module.exports = [
 			"72232"
 		],
 		name: "Barak",
+		image: "https://i.imgur.com/eNEYZ1g.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1979,6 +1987,7 @@ module.exports = [
 			"71273"
 		],
 		name: "Kurn",
+		image: "https://i.imgur.com/HioxyuY.png",
 		unique: true,
 		text: "<b>ACTION:</b> When attacking this round, gain +1 attack die. Place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -2150,6 +2159,7 @@ module.exports = [
 			"71532"
 		],
 		name: "Kerla",
+		image: "https://i.imgur.com/Y07y9em.png",
 		unique: true,
 		text: "Each time you defend, during the Roll Defense Dice step of the Combat Phase, you may choose to roll 2 less defense dice to add 1 [evade] result to your roll.",
 		factions: [
@@ -2379,6 +2389,7 @@ module.exports = [
 			"72009"
 		],
 		name: "Morag",
+		image: "https://i.imgur.com/IkN6fNg.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -2453,6 +2464,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Lursa",
+		image: "https://i.imgur.com/7fb11sA.png",
 		cost: 3,
 		skill: 4,
 		talents: 0,
@@ -2575,6 +2587,7 @@ module.exports = [
 			"72282p"
 		],
 		name: "Lursa",
+		image: "https://i.imgur.com/IEJwrYV.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -2678,6 +2691,7 @@ module.exports = [
 			"72272"
 		],
 		name: "Krell",
+		image: "https://i.imgur.com/8Y4VMZS.png",
 		unique: true,
 		text: "When attacking, you may re-roll 1 of your [battlestations] results. ",
 		factions: [
@@ -2920,6 +2934,7 @@ module.exports = [
 			"71532"
 		],
 		name: "Gorkon",
+		image: "https://i.imgur.com/RpsOmim.png",
 		unique: true,
 		text: "<b>ACTION:</b> Roll 3 defense dice. For each [evade] result, place 1 [evade] Token beside your ship. You cannot perform an [evade] Action as a free Action this round.",
 		factions: [
@@ -3057,6 +3072,7 @@ module.exports = [
 			"71999p"
 		],
 		name: "Kurn",
+		image: "https://i.imgur.com/Pq2JtjW.png",
 		unique: true,
 		text: "You do not pay a faction penalty when assigning Kurn to any ship. \n\nKurn may field the \"Mauk-to'Vor\" [talent_text] Upgrade at a cost of 3 SP.",
 		factions: [
@@ -3074,6 +3090,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Worf",
+		image: "https://i.imgur.com/3kEp1YW.png",
 		unique: true,
 		text: "When defending, during the Roll Defense Dice step, you may roll up to 2 additional defense dice. If you do so, place 1 Auxiliary Power Token beside your ship for each extra die you rolled.",
 		factions: [
@@ -3269,6 +3286,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "K'Mpec",
+		image: "https://i.imgur.com/ZaWcBjz.png",
 		cost: 4,
 		skill: 5,
 		talents: 1,
@@ -3303,6 +3321,7 @@ module.exports = [
 			"72280p"
 		],
 		name: "Gowron",
+		image: "https://i.imgur.com/viq0jUF.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3337,6 +3356,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Kurn",
+		image: "https://i.imgur.com/S51hs9o.png",
 		unique: true,
 		text: "During the Combat Phase, each time you defend, you may re-roll 1 of your [battlestations] results. If this card is assigned to a Klingon ship, you may re-roll up to 2 of your [battlestations] results.\n\nKurn may field 1 Klingon [talent_text] Upgrade.",
 		factions: [
@@ -3354,6 +3374,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Gowron",
+		image: "https://i.imgur.com/TLQzRWf.png",
 		unique: true,
 		text: "<b>ACTION:</b> If there is not already a [battlestations] Token beside your ship, place 1 [battlestations] Token beside your ship. In addition, if your ship is a Klingon ship with a Klingon Captain assigned to it, you may immediately perform an additional Action from your Action Bar as a free Action.",
 		factions: [
@@ -3422,6 +3443,7 @@ module.exports = [
 			"71120"
 		],
 		name: "Nu'Daq",
+		image: "https://i.imgur.com/0cbsHNA.png",
 		unique: true,
 		text: "When attacking, you may convert 1 [battlestations] result into 1 [hit] result. ",
 		factions: [
@@ -3491,6 +3513,7 @@ module.exports = [
 			"71269"
 		],
 		name: "Gorkon",
+		image: "https://i.imgur.com/0hHpaoe.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable Gorkon to perform this Action. Your ship and every ship that attacks you this round rolls 2 less attack dice.",
 		factions: [
@@ -3525,6 +3548,7 @@ module.exports = [
 			"71273"
 		],
 		name: "Worf",
+		image: "https://i.imgur.com/awUSmmD.png",
 		unique: true,
 		text: "When attacking, you may re-roll all of your blank results one time.",
 		factions: [
@@ -3542,6 +3566,7 @@ module.exports = [
 			"71448"
 		],
 		name: "Somraw Commander",
+		image: "https://i.imgur.com/PepYV3i.png",
 		unique: true,
 		text: "Each time you attack at Range 3, if you do not have an Auxiliary Power Token beside your ship, you may add +1 attack die. If you add the attack die, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -3939,6 +3964,7 @@ module.exports = [
 			"72009"
 		],
 		name: "K'Temoc",
+		image: "https://i.imgur.com/qCkDQHg.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -4116,6 +4142,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Duras",
+		image: "https://i.imgur.com/VGXGNWa.png",
 		unique: true,
 		text: "<img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> [talent_text] and <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [talent_text] Upgrades equipped to this Captain cost 3 SP.\n<hr> [talent_text] Upgrades equipped to this Captain start the game face down. Flip a face down [talent_text] Upgrade equipped to this Captain face up the first time it is used.",
 		factions: [
@@ -4205,6 +4232,7 @@ module.exports = [
 			"72281p"
 		],
 		name: "Kurn",
+		image: "https://i.imgur.com/uqLmlOc.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4222,6 +4250,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Duras, Son of Toral",
+		image: "https://i.imgur.com/4xpHazo.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4361,6 +4390,7 @@ module.exports = [
 			"72251"
 		],
 		name: "Gowron",
+		image: "https://i.imgur.com/VZzoSoJ.png",
 		unique: true,
 		text: "<b>ACTION:</b>  All other friendly Klingon ships within Range 1-2 of your ship gain +1 attack die this round. ",
 		factions: [
@@ -4430,6 +4460,7 @@ module.exports = [
 			"71269"
 		],
 		name: "Chang",
+		image: "https://i.imgur.com/M2fTAle.png",
 		unique: true,
 		text: "<b>ACTION:</b> Spend your target lock to perform this Action. Disable the Captain Card on the ship that was target locked.",
 		factions: [
@@ -4652,6 +4683,7 @@ module.exports = [
 			"71512"
 		],
 		name: "Korok",
+		image: "https://i.imgur.com/tcQKQjp.png",
 		unique: true,
 		text: "When you initiate an attack against a ship at Range 1, at the start of the Deal Damage step of the Combat Phase, disable 1 Active Shield on the target ship (if possible).",
 		factions: [
@@ -4737,6 +4769,7 @@ module.exports = [
 			"71996"
 		],
 		name: "Kargan",
+		image: "https://i.imgur.com/tsEEr2n.png",
 		unique: true,
 		text: "During the Activation Phase, after you move, if you perform an Action listed on one of your Upgrades, you may immediately perform a  [target-lock] Action as a free Action, if possible. If you do this, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -4822,6 +4855,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Kor",
+		image: "https://i.imgur.com/nqJPn2m.png",
 		unique: true,
 		text: "<b>ACTION:</b> If this ship is not cloaked, target all enemy ships.\n\n All target ships must attack this ship this round, if possible. When defending against each of these attacks, roll +2 defense dice.\n\n<b>( ERRATA )</b>",
 		factions: [
@@ -4857,6 +4891,7 @@ module.exports = [
 			"blind_buruk"
 		],
 		name: "Duras",
+		image: "https://i.imgur.com/mYWYdfx.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5036,6 +5071,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Kang",
+		image: "https://i.imgur.com/pDwxLPZ.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5090,6 +5126,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Koloth",
+		image: "https://i.imgur.com/7rBpE2g.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5124,6 +5161,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Kor",
+		image: "https://i.imgur.com/MW0DLp3.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5247,6 +5285,7 @@ module.exports = [
 			"72236p"
 		],
 		name: "Kruge",
+		image: "https://i.imgur.com/INjddON.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5333,6 +5372,7 @@ module.exports = [
 			"72272"
 		],
 		name: "Koloth",
+		image: "https://i.imgur.com/unWiXSd.png",
 		unique: true,
 		text: "Each time an enemy ship attacks you, you may force that ship to re-roll 1 attack die of your choice. ",
 		factions: [
@@ -5488,6 +5528,7 @@ module.exports = [
 			"i_k_s_b_moth"
 		],
 		name: "K'Nera",
+		image: "https://i.imgur.com/B68FBlU.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a ship at Range 1-2. The target ship may choose to disable one of its [crew_text] Upgrades (of its choice). If the target ship chooses not to disable 1 of its [crew_text] Upgrades or if it has no [crew_text] Upgrades that are not already disabled, you gain +1 attack die to all of your attacks against that ship this round.",
 		factions: [
@@ -5591,6 +5632,7 @@ module.exports = [
 			"71532"
 		],
 		name: "Chang",
+		image: "https://i.imgur.com/5aXKuXj.png",
 		unique: true,
 		text: "During the Activation Phase, if your ship is Cloaked, before you move you may perform an additional [sensor-echo] Action (with a 1 [forward] Maneuver Template) as a free Action. If you do so, you may still perform a normal [sensor-echo] Action after you move, during the Perform Actions step.",
 		factions: [
@@ -5659,6 +5701,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Martok",
+		image: "https://i.imgur.com/zZAdkSX.png",
 		unique: true,
 		text: "<b>ACTION:</b> When attacking with your Primary Weapon, gain +1 attack die and roll -2 defense dice this round. You may convert 1 of your [hit] results into a [crit] result.",
 		factions: [
@@ -5697,6 +5740,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Martok",
+		image: "https://i.imgur.com/fWxz9pj.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5873,6 +5917,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Kor",
+		image: "https://i.imgur.com/vJ3fGFy.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -6047,6 +6092,7 @@ module.exports = [
 			"72251"
 		],
 		name: "Martok",
+		image: "https://i.imgur.com/3AKFn7q.png",
 		unique: true,
 		text: "After you move, choose 1 friendly ship within Range 1-2 whose Captain has a lower Skill than Martok's. The chosen ship may immediately perform 1 free Action. ",
 		factions: [
@@ -6203,6 +6249,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Kor",
+		image: "https://i.imgur.com/oq1lKKh.png",
 		unique: true,
 		text: "Add 1 [crew_text] Upgrade Slot to your Upgrade Bar. \nEach time you attack, during the Modify Attack Dice step, you may select any number of attack dice (up to the number of non-disabled [crew_text] Upgrades assigned to your ship) and re-roll those dice once.",
 		factions: [
@@ -6398,6 +6445,7 @@ module.exports = [
 			"OP2Prize"
 		],
 		name: "Martok",
+		image: "https://i.imgur.com/GzhLGVX.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target all friendly ships within Range 1 of your ship whose Captains have a lower Skill than Martok's. The target ships gain +1 attack die and may re-roll 1 of their attack dice this round.\r\n      ",
 		factions: [
