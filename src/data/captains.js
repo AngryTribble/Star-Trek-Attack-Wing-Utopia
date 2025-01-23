@@ -3566,7 +3566,7 @@ module.exports = [
 			"71448"
 		],
 		name: "Somraw Commander",
-		image: "https://i.imgur.com/PepYV3i.png",
+		image: "https://i.imgur.com/Bd3Nz4u.png",
 		unique: true,
 		text: "Each time you attack at Range 3, if you do not have an Auxiliary Power Token beside your ship, you may add +1 attack die. If you add the attack die, place an Auxiliary Power Token beside your ship.",
 		factions: [

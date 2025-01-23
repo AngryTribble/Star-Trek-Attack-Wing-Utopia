@@ -235,6 +235,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "K'Mpec",
+		image: "https://i.imgur.com/zotP76Y.png",
 		cost: 4,
 		skill: 1,
 		talents: 1,
@@ -303,6 +304,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Gowron",
+		image: "https://i.imgur.com/sogUC6Z.png",
 		unique: true,
 		text: "<b>FLEET ACTION:</b> If there is not already a [battlestations] Token beside your ship, place 1 [battlestations] Token beside your ship. In addition, if your ship is a Klingon ship with a Klingon Captain assigned to it, you may immediately perform an additional Action from your Action Bar as a free Action.",
 		factions: [
@@ -423,6 +425,7 @@ module.exports = [
 			"71532"
 		],
 		name: "Gorkon",
+		image: "https://i.imgur.com/5QQCG8c.png",
 		unique: true,
 		text: "<b>FLEET ACTION:</b> Roll 3 defense dice. For each [evade] result, place 1 [evade] Token beside your ship. You cannot perform an [evade] Action as a free Action this round.",
 		factions: [
@@ -577,6 +580,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Martok",
+		image: "https://i.imgur.com/lIElQW2.png",
 		unique: true,
 		text: "<b>FLEET ACTION:</b> When attacking with your Primary Weapon, gain +1 attack die and roll -2 defense dice this round. You may convert 1 of your [hit] results into 1 [crit] result.",
 		factions: [
