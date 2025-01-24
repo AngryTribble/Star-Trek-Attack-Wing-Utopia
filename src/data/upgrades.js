@@ -2493,6 +2493,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Torpedo Fusillade",
+		image: "https://i.imgur.com/a4D3EpM.png",
 		cost: 0,
 		text: "The cost and Attack Value of this [weapon] are equal to this ship's Primary Weapon Value. \n<hr> <b>ATTACK:</b> Remove this card from the game and target all opposing ships. \n\n Make a separate attack roll against each target ship.",
 		unique: true,
@@ -2510,6 +2511,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/5Eh1HOJ.png",
 		cost: 3,
 		text: "The Attack Value of this [weapon] is this ship's Primary Weapon Value +1. \n<hr> <b>ATTACK:</b> Spend this ship's [target-lock] Token, disable this card, and target an opposing ship. \n\n This ship may convert 1 [blank] into a [crit] result.",
 		FrontArc: true,
@@ -2594,6 +2596,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Fight With Honor",
+		image: "https://i.imgur.com/50iKz2r.png",
 		cost: 3,
 		text: "<b>WHEN ATTACKING A SHIP WITH AN EQUAL OR HIGHER CAPTAIN SKILL NUMBER THAN THIS SHIP:</b> \n\n Convert 1 [battlestations] into 1 [crit].",
 		OnePerShip: true,
@@ -2610,6 +2613,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Glory To The Empire!",
+		image: "https://i.imgur.com/97qWkpM.png",
 		cost: 2,
 		text: "<b>WHEN ATTACKING OR DEFENDING:</b> Discard this card. \n\n Reroll all your dice.",
 		alliance: true,
@@ -2750,6 +2754,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Secondary Relays",
+		image: "https://i.imgur.com/bPLwCcC.png",
 		cost: 2,
 		text: "<b>WHEN THIS SHIP WOULD DISABLE A [weapon] UPGRADE:</b> \n If you do not have any [aux] Tokens beside this ship: \n\n You may place an [aux] Token beside this ship instead.",
 		OnePerShip: true,
@@ -2765,6 +2770,7 @@ module.exports = [
 			"80002"
 		],
 		name: "First Officer",
+		image: "https://i.imgur.com/H1uuB7N.png",
 		cost: 4,
 		text: "<b>WHEN ATTACKING OR DEFENDING:</b> \n Place 1 [time] Token on this card. \n\n Convert 1 [battlestations] into 1 [hit] or 1 [evade].",
 		OnePerShip: true,
@@ -2780,6 +2786,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Weapons Officer",
+		image: "https://i.imgur.com/5gYHnnO.png",
 		cost: 4,
 		text: "<b>WHEN ATTACKING:</b> Disable this card. \n\n Convert 1 of your [battlestations] results into a [crit] result and all of your other [battlestations] results into [hit] results.",
 		OnePerShip: true,
@@ -2795,6 +2802,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Operations Officer",
+		image: "https://i.imgur.com/vw1o40s.png",
 		cost: 4,
 		text: "If equipped to a <img src='img/text/kli-kvort.png' width='20' height='20' title='K'Vort Class'>, add +1 to this ship's Agility Value. \n<hr> <b>WHEN DEFENDING:</b> You may convert 1 [battlestations] result into 1 [evade] result.",
 		OnePerShip: true,
@@ -2810,6 +2818,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Tactical Officer",
+		image: "https://i.imgur.com/skqLAUj.png",
 		cost: 2,
 		text: "<b>WHEN ATTACKING:</b> If you have a Red [target-lock] on the target ship: \n\n You may spend it as if it were a [battlestations] Token.",
 		OnePerShip: true,
@@ -2825,6 +2834,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Helmsman",
+		image: "https://i.imgur.com/vjoBjwp.png",
 		cost: 2,
 		text: "<b>EXECUTE MANEUVER STEP:</b> If this ship performed a Non-Red Maneuver that did not overlap any ships or obstacles. Disable this card. \n\n Perform any Maneuver with a Speed of 1 on this ship's Maneuver Dial.",
 		OnePerShip: true,
@@ -2840,6 +2850,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Science Officer",
+		image: "https://i.imgur.com/D3UszXi.png",
 		cost: 3,
 		text: "<b>ACTION:</b> Place 1 [scan] Token beside this ship. \n\n You may remove 1 Red  [target-lock] Token from beside this ship (and the corresponding Blue  [target-lock] Token).",
 		OnePerShip: true,
@@ -3528,6 +3539,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Waylay",
+		image: "https://i.imgur.com/tB7Y5tR.jpg",
 		cost: 2,
 		text: "The Attack Value of this [weapon_text] is this ship's Primary Weapon Value.\n<hr> <b>ATTACK:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship\n\n If this card is equipped to a B'rel Class ship, place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the defending ship.\n<hr> After making this attack, this ship may perform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'> and place an [evade] Token beside this ship.",
 		range: "1 - 2",
@@ -3546,6 +3558,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Concussive Charges",
+		image: "https://i.imgur.com/6aFKpg8.jpg",
 		cost: 2,
 		text: "The Attack Value of this [weapon_text] is the ship's Primary Weapon Value.\n<hr> <b>ATTACK:</b> Spend this ship's [cloak] Token, raise its Shields, place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card, and target an opposing ship.\n\n If this card is equipped to a K't'inga Class Ship, it rolls +1 attack die. For each uncancelled [hit] or [crit], remove up to 1 Token of your choice beside the defending ship.",
 		oneperShip: true,
@@ -3566,6 +3579,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Science Station",
+		image: "https://i.imgur.com/Vs4hO8L.jpg",
 		cost: 4,
 		text: "Add 1 [tech_text] to this ship's Upgrade Bar.\n<hr> <b>FREE ACTION:</b> If this ship is Cloaked, place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Place 1 [scan] Token beside this ship. If an opposing ship is within this ship's Primary Firing Arc, this ship may perform a [target-lock] Action targeting that opposing ship as a Free Action.",
 		OnePerShip: true,
@@ -3582,6 +3596,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Klingon Gunner",
+		image: "https://i.imgur.com/oKoE7RT.jpg",
 		cost: 2,
 		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, discard this card.\n\n Add 1 [hit].",
 		OnePerShip: true,
@@ -3597,6 +3612,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Mara",
+		image: "https://i.imgur.com/nueRAXd.jpg",
 		cost: 2,
 		text: "Add the [scan] Action to this ship's Action Bar.\n<hr> <b>WHEN THE CAPTAIN OF THIS SHIP WOULD BE DISABLED OR DISCARDED:</b>\n\n Discard this card instead.",
 		unique: true,
@@ -3612,6 +3628,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Kolana",
+		image: "https://i.imgur.com/oQpUYvc.jpg",
 		cost: 2,
 		text: "<b>WHEN ONE OR MORE <img src='img/stuff/effect_time_token.png' width='20' height='16'> TOKENS WOULD BE PLACED ON A [weapon_text] UPGRADE EQUIPPED TO THIS SHIP:</b> \n\n Place 1 fewer <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens. If this ship is Cloaked and it is a <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [weapon_text] Upgrade, place 2 fewer <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens instead.",
 		unique: true,
@@ -3627,6 +3644,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Ch'Targh",
+		image: "https://i.imgur.com/ZfJKrAA.jpg",
 		cost: 3,
 		text: "<b>END PHASE:</b> Remove an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship.\n\n Flip this ship's [cloak] Token to its Green side.",
 		unique: true,
@@ -3642,6 +3660,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Yeto",
+		image: "https://i.imgur.com/Er1k0ly.jpg",
 		cost: 4,
 		text: "<b>ACTION:</b> Discard this card and target an opposing ship that has no Active Shields.\n\n Disable 1 [crew_text] Upgrade on the target ship and/or steal 1 [crew_text] Upgrade from the target ship, ignoring this ship's restrictions.",
 		unique: true,
@@ -3659,6 +3678,7 @@ module.exports = [
 			"75010"
 		],
 		name: "A Death Worthy of Sto-Vo-Kor",
+		image: "https://i.imgur.com/VsOHQDW.jpg",
 		cost: 4,
 		text: "<b>ACTION:</b> Discard this card and a [crew_text] Upgrade equipped to this ship and target an opposing ship.\n\n Discard an Upgrade equipped to the target ship. If that Upgrade has a printed SP cost higher than the printed SP ost of the [crew_text] Upgrade you discarded, this ship rolls +1 attack die for all attacks this game round.",
 		unique: true,
@@ -3676,6 +3696,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Dahar Master",
+		image: "https://i.imgur.com/dtWkCzp.jpg",
 		cost: 2,
 		text: "Can only be equipped to a Captain name Kang, Koloth, or Kor.\n<hr> Increase the Captain Skill of this Captain by 1 for each copy of Dahar Master in your fleet, including this one.\n<hr> <b>ACTIVIATION PHASE:</b> This ship may perform a [cloak] Action or [target-lock] Action as a Free Action.",
 		OnePerShip: true,
@@ -4330,6 +4351,7 @@ module.exports = [
 			"75009"
 		],
 		name: "Interrogation",
+		image: "https://i.imgur.com/CrYOqHd.png",
 		text: "<b>PLANNING PHASE:</b> Discard this card and target a [crew_text] Upgrade equipped to an oppsoing ship.\n\nPlace 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on the target [crew_text] Upgrade.",
 		cost: 2,
 		unique: true,
@@ -4961,6 +4983,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Worthy Opponent",
+		image: "https://i.imgur.com/dEYBl6H.png",
 		cost: 3,
 		OnePerShip: true,
 		captainKlingon: true,
@@ -4996,6 +5019,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Disruptor Blast",
+		image: "https://i.imgur.com/jGKovJU.png",
 		cost: 3,
 		range: "1 - 2",
 		attack: 3,
@@ -5033,6 +5057,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Magnetic Pulse",
+		image: "https://i.imgur.com/uW2ZFvl.png",
 		cost: 5,
 		range: "2 - 3",
 		attack: "*",
@@ -5126,6 +5151,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Kali",
+		image: "https://i.imgur.com/CfILHjC.png",
 		cost: 3,
 		range: "1",
 		unique: true,
@@ -5143,6 +5169,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Kaz",
+		image: "https://i.imgur.com/f9SZi6E.png",
 		cost: 2,
 		range: "1",
 		unique: true,
@@ -5608,6 +5635,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Overwhelm",
+		image: "https://i.imgur.com/bKPDrqU.png",
 		cost: 4,
 		text: "<b>WHEN ATTACKING:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card. \n\nThis game round, for each other friendly ship that attacked the defending ship this game round, this ship rolls +1 attack die and may convert 1 [blank] into 1 [battlestations].",
 		unique: true,
@@ -5656,6 +5684,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Klingon Cloaking Device",
+		image: "https://i.imgur.com/emVUqhx.png",
 		cost: 2,
 		text: "<b>WHEN DEFENDING:</b> If this ship is Cloaked:\n\nConvert 1 [blank] into 1 [evade].\n<hr> <b>END PHASE:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nFlip this ship's [cloak] Token to its green side.",
 		OnePerShip: true,
@@ -5673,6 +5702,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Klingon Guard",
+		image: "https://i.imgur.com/eycbHeQ.png",
 		cost: 2,
 		text: "<b>COMBAT PHASE:</b> Discard this card.\n\nPlace 1 [evade] Token beside this ship.",
 		shipKlingon: true,
@@ -5689,6 +5719,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Klingon Patrol",
+		image: "https://i.imgur.com/J7PUW4v.png",
 		cost: 2,
 		text: "<b>END PHASE:</b> If this ship is not in the Primary Firing Arc of an opposing ship within Range:\n\nFlip this ship's [cloak] Token to its green side.",
 		shipKlingon: true,
@@ -5706,6 +5737,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Klingon First Officer",
+		image: "https://i.imgur.com/XtzfJgJ.png",
 		cost: 4,
 		text: "<b>END PHASE:</b> Once per game, discard the Captain equipped to this ship.\n\nPerfrom an attack with this ship's Primary Weapon. This card becomes this ship's Captain with a Captain Skill of 4.",
 		shipKlingon: true,
@@ -5723,6 +5755,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Koth",
+		image: "https://i.imgur.com/pXNBAOR.png",
 		cost: 2,
 		text: "<b>SETUP:</b> Place 1 Disabled Token on 1 [crew_text] upgrade equipped to each opposing ship.",
 		unique: true,
@@ -5759,6 +5792,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/rYD5Irn.png",
 		cost: 3,
 		text: "The Attack Value of this [weapon_text] is this ship’s Primary Weapon Value +1.\n<hr> <b>ATTACK:</b> Spend this ship’s   [target-lock] Token, place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card, and target an opposing ship.\n\nIf the defending ship has no Active Shields and is not Cloaked, convert all [battlestations] into [crit].",
 		attack: 0,
@@ -5777,6 +5811,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Disruptor Volley",
+		image: "https://i.imgur.com/7rYVUHE.png",
 		cost: 3,
 		text: "<b>ATTACK</b>:Disable this card and Target an opposing ship.\n\nThis attack deals no damage. If this attack his place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the defending ship. If the defending ship is an Attack Squadron, discard 1 Attack Squadron Token (AST) for each uncancelled [hit] or [crit].</b>\n(<i>Warbird Class Only</i>)",
 		warbirdLimit: true,
@@ -6504,6 +6539,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Grilka",
+		image: "https://i.imgur.com/FG6dKk8.png",
 		cost: 1,
 		text: "You do not pay a Faction Penalty when equipping this card to a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Ship.\n<hr>Opposing effects that cost one or more GPLT cost +1 GPLT.",
 		unique: true,
@@ -6841,6 +6877,7 @@ module.exports = [
 			"75002"
 		],
 		name: "Disruptor Cannon",
+		image: "https://i.imgur.com/N0uPSpr.png",
 		cost: 3,
 		range: "1 - 2",
 		attack: 6,
@@ -7240,6 +7277,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Reinforced Bulkheads",
+		image: "https://i.imgur.com/xeANmR1.png",
 		cost: 3,
 		text: "<b>WHEN DEFENDING:</b> When this ship receives a face up Damage Card:\n\nTurn that Damage Card face down unless it is a \"Warp Core Breach\".",
 		factions: [
@@ -7301,6 +7339,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Torpedo Fusillade",
+		image: "https://i.imgur.com/a4D3EpM.png",
 		cost: 0,
 		text: "The cost and Attack Value of this [weapon_text] are equal to this ship's Primary Weapon Value.\n<hr><b>ATTACK:</b> Remove this card from the game and target all opposing ships.\n\nMake a separate attack roll against each target ship.",
 		unique: true,
@@ -7318,6 +7357,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Worf",
+		image: "https://i.imgur.com/mwgFdQi.png",
 		cost: 5,
 		text: "<b>WHEN ATTACKING:</b> If this ship is Cloaked:\n\nConvert all [blank] to [hit].",
 		unique: true,
@@ -7334,6 +7374,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Kurn",
+		image: "https://i.imgur.com/mSNzZGn.png",
 		cost: 4,
 		text: "<b>ACTION:</b> Discard this card.\n\nEquip a [weapon_text] Upgrade with a cost of 5 SP or less that was discarded from this ship to this ship.",
 		unique: true,
@@ -7349,6 +7390,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Klingon Helmsman",
+		image: "https://i.imgur.com/N5Q1tYR.png",
 		cost: 3,
 		text: "<b>ACTIVATION PHASE:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\nPerform a [scan] Action as a Free Action.",
 		factions: [
@@ -7363,6 +7405,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Toral",
+		image: "https://i.imgur.com/fU76e0I.png",
 		cost: 2,
 		unique: true,
 		text: "<b>WHEN DEFENDING:</b>\n\nThis ship may convert 1 [battlestations] into 1 [evade].",
@@ -7378,6 +7421,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Klingon Bekk",
+		image: "https://i.imgur.com/o7D4yn6.png",
 		cost: 1,
 		text: "<b>WHEN ATTACKING:</b> Discard this card.\n\nConvert 1 [hit] into 1 [crit].",
 		factions: [
@@ -7468,6 +7512,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Blood Oath",
+		image: "https://i.imgur.com/KBzIuzI.png",
 		cost: 3,
 		text: "<b>ACTION:</b> Discard this card, target a Captain equipped to an opposing ship, and target the Captain equipped to this ship.\n\nThe controllers of the target Captains both roll 5 attack dice. Whoever rolls the most [battlestations], re-rolling ties, adds +2 to their target Captain's Captain Skill for the rest of the game. The other player must discard their target Captain.",
 		unique: true,
@@ -7485,6 +7530,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Today Is A Good Day To Die",
+		image: "https://i.imgur.com/ZEZCzna.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Discard this card.\n\nAll ships may convert all [hit] into [crit] this game round.",
 		unique: true,
@@ -7778,6 +7824,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "DNA Encoded Message",
+		image: "https://i.imgur.com/YRSfArs.png",
 		cost: 5,
 		text: "<b>SETUP:</b> Place 3 Klingon [talent_text] Upgrades face down beneath this card.\n<b>ACTIVATION PHASE:</b> Discard this card.\nFlip 1 of the Klingon [talent_text] Upgrades beneath this card face up and equip it to the Captain equipped to this ship, even if it exceeds this ship's restrictions. Remove the other 2 face down Klingon [talent_text] Upgrades from the game.\n<b>( ERRATA )</b>",
 		unique: true,
@@ -7793,6 +7840,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Goroth",
+		image: "https://i.imgur.com/DTNrsWY.png",
 		cost: 2,
 		range: "1 - 2",
 		text: "Add 1 [crew_text] to this ships Upgrade Bar.\n\n<b>ACTION:</b> Discard this card and discard 1 [crew_text] Upgrade, and target an opposing ship.\n\nDisable the Captain equipped to the target ship. ",
@@ -7809,6 +7857,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Kolos",
+		image: "https://i.imgur.com/sNVjvHL.png",
 		cost: 3,
 		text: "<b>IF THE CAPTAIN EQUIPPED TO THIS SHIP WOULD BE DISABLED OR DISCARDED:</b>\n\nDiscard this card instead. ",
 		unique: true,
@@ -7824,6 +7873,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/94xhV6e.png",
 		cost: 2,
 		attack: 4,
 		range: "2 - 3",
@@ -7843,6 +7893,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Dispersive Armor",
+		image: "https://i.imgur.com/JMLAYHK.png",
 		cost: 4,
 		text: "<b>WHEN DEFENDING:</b> Disable this card.\n\nThis game round, replace the attacking ship's Primary Weapon Value with 4. For the remainder of the game round, the attacking ship's Primary Weapon Value can not be replaced or modified.",
 		unique: false,
@@ -7860,6 +7911,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Reactor Pit",
+		image: "https://i.imgur.com/Ecu4s99.png",
 		cost: 3,
 		text: "<b>PLANNING PHASE:</b> Disable this card.\n\nRemove an [aux] Token from beside this ship. ",
 		unique: false,
@@ -7875,6 +7927,7 @@ module.exports = [
 			"72012wp"
 		],
 		name: "Photon Detonation",
+		image: "https://i.imgur.com/EKsP9pr.png",
 		cost: 3,
 		range: "1 - 2",
 		text: "This card counts as either a [tech_text] Upgrade or a [weapon_text] Upgrade.\n\n<b>ACTION:</b> Disable this card, place 3 [time] Tokens on a Photon Torpedoes Upgrade equipped to the ship, and target a Minefield Token\n\nRemove the Minefield Token from play. ",
@@ -8479,6 +8532,7 @@ module.exports = [
 			"72282p"
 		],
 		name: "Enemy Of The Empire",
+		image: "https://i.imgur.com/xk7evs3.png",
 		cost: 5,
 		text: "When attacking, during the Roll Attack Dice step, you may discard this card to gain +1 attack die. If the defending ship is a Klingon ship or a ship with a Klingon Captain or Upgrade assigned to it, disable his card instead of discarding it.",
 		unique: true,
@@ -8494,6 +8548,7 @@ module.exports = [
 			"72282p"
 		],
 		name: "Kulge",
+		image: "https://i.imgur.com/3Ngj7c3.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Discard this card to disable your Captain Card and place a [battlestations] Token beside your ship.\n\nWhile your Captain Card is disabled your Captain Skill is \"0\" and your ship may perform the [battlestations] Action as if it were on your Action Bar.",
 		unique: true,
@@ -8509,6 +8564,7 @@ module.exports = [
 			"72282p"
 		],
 		name: "Aft Shields",
+		image: "https://i.imgur.com/ebHyZUF.png",
 		cost: 4,
 		text: "If you are not Cloaked and defending against an attack from a ship that is not in your forward firing arc, during the Compare Results step, you may discard this card to cancel up to 2 of attacking ship's [hit] or [crit] results. If you do so, place an Auxiliary Power Token beside your ship.\n\nNo ship may be equipped with more than one \"Aft Shields\" Upgrade.",
 		unique: false,
@@ -8556,6 +8612,7 @@ module.exports = [
 			"72281p"
 		],
 		name: "On My Command",
+		image: "https://i.imgur.com/Kts7X5N.png",
 		cost: 5,
 		text: "During the Combat Phase, when it is your turn to attack, you may discard this card to delay your attack until after all other ships have completed their attacks, if you do so, roll +2 attack dice for your first attack during the round you use this ability.",
 		unique: true,
@@ -8571,6 +8628,7 @@ module.exports = [
 			"72281p"
 		],
 		name: "Toral",
+		image: "https://i.imgur.com/nXCgjPw.png",
 		cost: 4,
 		text: "During the Modify Defense Dice step, you may discard this card to re-roll up to 2 of your defense dice.\n\nIf this card is deployed to a Klingon Ship, you may disable it instead of discarding it.",
 		unique: true,
@@ -8586,6 +8644,7 @@ module.exports = [
 			"72281p"
 		],
 		name: "Auxiliary Power to Shields",
+		image: "https://i.imgur.com/ebHyZUF.png",
 		cost: 4,
 		text: "When defending, during the Deal Damage step, you may discard this card to immediately repair up to 2 of your Shields that were destroyed with that attack. Place 1 Auxiliary Power Token beside your ship for each Shield Token you repaired with this ability.\n\nNo ship may be equipped with more than one \"Auxiliary Power to Shields\" Upgrade.",
 		unique: true,
@@ -8601,6 +8660,7 @@ module.exports = [
 			"72281p"
 		],
 		name: "Course Change",
+		image: "https://i.imgur.com/B22NdEj.png",
 		cost: 4,
 		text: "This card may fill a [crew_text], [talent_text], [tech_text], or [weapon_text] Upgrade slot. During the Activation Phase, when you reveal your maneuver, you may discard this card to change your maneuver to any maneuver on your Maneuver Dial.\n\nNo ship may be equipped with more than one 'Course Change' Upgrade.",
 		unique: false,
@@ -8710,6 +8770,7 @@ module.exports = [
 			"72280p"
 		],
 		name: "Cry of the Warrior",
+		image: "https://i.imgur.com/2zjVUKI.png",
 		cost: 5,
 		text: "When attacking, during the Roll Attack Dice step, you may discard this card to gain +1 attack die for each opposing ship that has your ship in its forward firing arc (max +3). The next time your ship rolls defense dice roll -1 defense die for each additional attack die you gained with this ability.",
 		unique: true,
@@ -8725,6 +8786,7 @@ module.exports = [
 			"72280p"
 		],
 		name: "Aim and Fire!",
+		image: "https://i.imgur.com/h1pdptJ.png",
 		cost: 5,
 		text: "When attacking with your Primary Weapon, you may discard this card to target a ship at Range 1-2. The target ship cannot re-roll any of its defense dice against that attack.",
 		unique: true,
@@ -8740,6 +8802,7 @@ module.exports = [
 			"72280p"
 		],
 		name: "Worf",
+		image: "https://i.imgur.com/D6iWwJg.png",
 		cost: 3,
 		text: "When attacking a ship with no Active Shields, you may disable this card to gain +1 attack die. Your ship cannot roll any defense dice during the round in which you use this ability.",
 		unique: true,
@@ -8755,6 +8818,7 @@ module.exports = [
 			"72280p"
 		],
 		name: "Emergency Override",
+		image: "https://i.imgur.com/PISXPjD.png",
 		cost: 2,
 		text: "<b>ACTION:</b> If you executed a green maneuver this round, disable this card to repair 1 of your Shields.",
 		unique: true,
@@ -8863,6 +8927,7 @@ module.exports = [
 			"72270p"
 		],
 		name: "Kuvah'Magh",
+		image: "https://i.imgur.com/kgi1db0.png",
 		cost: 5,
 		text: "When attacking with your Primary Weapon, during the Roll Attack Dice step, you may discard this card to gain +1 attack die for that attack for every Klingon [crew_text] Upgrade deployed to your ship (max+3) Then suffer 1 critical damage to your Hull.",
 		unique: true,
@@ -8878,6 +8943,7 @@ module.exports = [
 			"72270p"
 		],
 		name: "Morak",
+		image: "https://i.imgur.com/AkpjFxj.png",
 		cost: 5,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, disable this card to repair 1 of your Shield Tokens\nOR\n<b>ACTION:</b> Discard this card to flip up to 3 of your Disabled Shields over to their Active sides. If you do this while you ship is Cloaked, flip your [cloak] Token to its red side.",
 		unique: true,
@@ -8893,6 +8959,7 @@ module.exports = [
 			"72270p"
 		],
 		name: "T'Greth",
+		image: "https://i.imgur.com/hiNM1tF.png",
 		cost: 4,
 		text: "<b>ACTION:</b> Place a [battlestations] Token beside your ship. Then place and Auxiliary Power Token beside your ship. You cannot perform a [battlestations] Action this round.",
 		unique: true,
@@ -8908,6 +8975,7 @@ module.exports = [
 			"72270p"
 		],
 		name: "Ch’rega",
+		image: "https://i.imgur.com/9zNpxRd.png",
 		cost: 2,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Disable this card and any 2 [crew_text] Upgrades of your choice on the target ship.",
 		unique: true,
@@ -9304,6 +9372,7 @@ module.exports = [
 			"72236p"
 		],
 		name: "Retaliatory Strike",
+		image: "https://i.imgur.com/oqBGIaA.png",
 		cost: 5,
 		text: "If your ship was just damaged and the attacking ship is in your forward firing arc and within Range 2-3 of your ship, you may discard this card to immediately perform an attack against the attacking ship with one of your Photon Torpedoes Upgrades. You must discard the Photon Torpedoes Upgrade when your attack is completed. This attack is in addition to your normal attack for the round.",
 		unique: true,
@@ -9319,6 +9388,7 @@ module.exports = [
 			"72236p"
 		],
 		name: "Valkris",
+		image: "https://i.imgur.com/lIuwjEY.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Target a ship at Range 1-3. Discard this card and disable 1 Upgrade on the target ship ([crew_text], [tech_text], or [weapon_text]). You may immediately use the Action listed on the Upgrade you disabled with this Action as if it were assigned to your ship.",
 		unique: true,
@@ -9334,6 +9404,7 @@ module.exports = [
 			"72236p"
 		],
 		name: "Torg",
+		image: "https://i.imgur.com/clFRdnZ.png",
 		cost: 6,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard this card and disable all Upgrades on the target ship. The target ship rolls -1 attack die and -1 defense die while any of its Upgrades remain disabled. Once there are no disabled Upgrades on the target ship, remove Torg's Continuous Effect Token from beside the target ship.",
 		unique: true,
@@ -9349,6 +9420,7 @@ module.exports = [
 			"72236p"
 		],
 		name: "Maltz",
+		image: "https://i.imgur.com/pZ9TqJk.png",
 		cost: 5,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, discard this card to target a friendly ship within Range 1-2 of your ship. Take up to 3 [crew_text] Upgrades from that ship and deploy them to your ship, even if it exceeds your ship's restrictions, OR take up to 3 [crew_text] Upgrades from your ship and deploy them to the target ship, even if it exceeds that ship's restrictions.",
 		unique: true,
@@ -9561,6 +9633,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Detonation Codes",
+		image: "https://i.imgur.com/7T51dug.png",
 		cost: 4,
 		text: "<b>ACTION:</b> Discard this card to target a Minefield Token within Range 1-3. Roll the number of attack dice listed on the mine's Upgrade Card minus 1. All ships within Range 1 of that Minefield Token suffer damage as normal from any [hit] or [crit] results. The affected ships do not roll any defense dice. Remove the Minefield Token after it is detonated.",
 		unique: true,
@@ -9576,6 +9649,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Emergency Power",
+		image: "https://i.imgur.com/7sCkxWb.png",
 		unique: false,
 		text: "During the Activation Phase, if there is an Auxiliary Power Token beside your ship, you may disable this card to either perform a Red Manveuer or perform an Action.\n\nNo ship may be equipped with more than 1 \"Emergency Power\" Upgrade.",
 		factions: [
@@ -9595,6 +9669,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Security Sensors",
+		image: "https://i.imgur.com/6tg05Vl.png",
 		unique: false,
 		text: "If an enemy Upgrade or Captain targets your ship, immediately place an [evade] Token beside your ship, even if there is already one there.",
 		factions: [
@@ -9614,6 +9689,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Bo'Rak",
+		image: "https://i.imgur.com/BX1iQMo.png",
 		cost: 5,
 		text: "When attacking, during he Modify Defense Dice step, you may disable this card to force the defending ship to re-roll 1 of its defense dice of your choice.\n\nWhen defending, you may roll your full defense dice in spite of the presence of an opposing ship's [scan] Token.",
 		unique: true,
@@ -9629,14 +9705,13 @@ module.exports = [
 			"72241"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/e9lbe7r.png",
 		unique: false,
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and place 3 Time Tokens on this card to perform this attack. \n\nIf fired from a Vor'cha class ship add +1 attack die. ",
 		factions: [
 			"klingon"
 		],
 		cost: 5,
-		skill: 0,
-		talents: 0,
 		attack: 5,
 		range: "2 - 3"
 	},
@@ -9847,6 +9922,7 @@ module.exports = [
 			"72232"
 		],
 		name: "Klingon Helmsman",
+		image: "https://i.imgur.com/1qmMZOg.png",
 		cost: 3,
 		text: "<b>ACTION:</b> Discard this card to immediately perform an additional 1[come-about] or 2[come-about] Maneuver. Treat this as a red maneuver. \n\nThis card costs +5 SP for any non-Klingon ship and cannot be deployed to a ship the does not have a [come-about] Maneuver on its Maneuver Dial.",
 		unique: false,
@@ -9862,6 +9938,7 @@ module.exports = [
 			"72232"
 		],
 		name: "Klingon Navigator",
+		image: "https://i.imgur.com/XcgVGat.png",
 		cost: 2,
 		text: "During the Activation Phase, before you move, you may discard this card to disregard your chosen maneuver and perform any maneuver on your Maneuver Dial with a speed of 3 or less. Treat this maneuver as a red maneuver. \n\nNo ship may be equipped with more than on \"Klingon Navigator\" Upgrade.",
 		unique: false,
@@ -9877,6 +9954,7 @@ module.exports = [
 			"72232"
 		],
 		name: "Klingon Tactical Officer",
+		image: "https://i.imgur.com/x2j1LD0.png",
 		cost: 3,
 		text: "When attacking with your Primary Weapon, during the Modify Attack Dice step, you may disable this card to spend your [evade] Token to convert 1 of your [battlestations] results into a [hit] result.",
 		unique: false,
@@ -9892,6 +9970,7 @@ module.exports = [
 			"72232"
 		],
 		name: "Stand By Torpedoes",
+		image: "https://i.imgur.com/LNSEeRN.png",
 		cost: 3,
 		text: "You may disable this card instead of spending your Target lock when attacking with Photon Torpedoes. \n\nNo ship may be equipped with more than one \"Stand By Torpedoes\" Upgrade.",
 		unique: false,
@@ -11158,16 +11237,13 @@ module.exports = [
 			"71120"
 		],
 		name: "Konmel",
+		image: "https://i.imgur.com/5BhqToy.png",
 		unique: true,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, you may repair 1 Shield Token. ",
 		factions: [
 			"klingon"
 		],
-		cost: 4,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 4
 	},
 	{
 		type: "crew",
@@ -11177,16 +11253,13 @@ module.exports = [
 			"71120"
 		],
 		name: "Klag",
+		image: "https://i.imgur.com/IvA6maU.png",
 		unique: true,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, disable all your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard Klag and one [crew_text] Upgrade of your choice on the target ship. ",
 		factions: [
 			"klingon"
 		],
-		cost: 1,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 1
 	},
 	{
 		type: "weapon",
@@ -11217,6 +11290,7 @@ module.exports = [
 			"72251"
 		],
 		name: "Tractor Beam",
+		image: "https://i.imgur.com/akqSCiO.png",
 		unique: false,
 		text: "<b>ACTION:</b> Target a ship at Range 1 and roll 2 attack dice. For every [hit] result, that ship rolls 1 less defense die against your next attack. ",
 		factions: [
@@ -11236,6 +11310,7 @@ module.exports = [
 			"71273"
 		],
 		name: "Advanced Weapon System",
+		image: "https://i.imgur.com/pOSdEsk.png",
 		unique: false,
 		text: "When attacking, you may disable this Upgrade before rolling any dice to keep your [cloak] token from flipping to its red side. ",
 		factions: [
@@ -11782,6 +11857,7 @@ module.exports = [
 			"72272"
 		],
 		name: "Sabotage",
+		image: "https://i.imgur.com/RVVOlyw.png",
 		unique: false,
 		text: "<b>ACTION:</b> Discard this Upgrade to target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard 1 [weapon_text] or [tech_text] Upgrade on the target ship. ",
 		factions: [
@@ -11802,16 +11878,13 @@ module.exports = [
 			"72272"
 		],
 		name: "Korax",
+		image: "https://i.imgur.com/hDUCqMz.png",
 		unique: true,
 		text: "<b>ACTION:</b> If your ship is not cloaked, disable all your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard Korax and any 2 [crew_text] Upgrades of your choice on the target ship. ",
 		factions: [
 			"klingon"
 		],
-		cost: 3,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 3
 	},
 	{
 		type: "crew",
@@ -11828,8 +11901,6 @@ module.exports = [
 			"independent"
 		],
 		cost: 3,
-		skill: 0,
-		talents: 0,
 		attack: 0,
 		range: ""
 	},
@@ -11843,14 +11914,13 @@ module.exports = [
 			"72272"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/YQYNsxQ.png",
 		unique: false,
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and disable this card to perform this attack. \nYou may convert 1 [battlestations] result into 1 [crit] result. \nYou may fire this weapon from your forward or rear firing arcs. ",
 		factions: [
 			"klingon"
 		],
 		cost: 3,
-		skill: 0,
-		talents: 0,
 		attack: 4,
 		range: "2 - 3"
 	},
@@ -11863,14 +11933,13 @@ module.exports = [
 			"72272"
 		],
 		name: "Magnetic Pulse",
+		image: "https://i.imgur.com/ElWzbIQ.png",
 		unique: false,
 		text: "<b>ATTACK: </b> Disable this card and 1 Active Shield to perform this attack. \n\nEach [crit] that would damage on the opponent's Shields instead inflicts 1 [hit] on the opponent's Hull. ",
 		factions: [
 			"klingon"
 		],
 		cost: 4,
-		skill: 0,
-		talents: 0,
 		attack: 4,
 		range: "2 - 3"
 	},
@@ -11883,14 +11952,13 @@ module.exports = [
 			"72272"
 		],
 		name: "Projected Stasis Field",
+		image: "https://i.imgur.com/wBUsEvE.png",
 		unique: false,
 		text: "<b>ACTION:</b> If your ship is not cloaked, disable all of your remaining Shields and discard this Upgrade to target a ship at Range 1-2. That ship must disable all of its remaining Shields and cannot attack this round. Your ship rolls 2 less attack dice this round. ",
 		factions: [
 			"klingon"
 		],
 		cost: 5,
-		skill: 0,
-		talents: 0,
 		attack: 0,
 		range: ""
 	},
@@ -11903,16 +11971,13 @@ module.exports = [
 			"72251"
 		],
 		name: "Klingon Boarding Party",
+		image: "https://i.imgur.com/StrWjBD.png",
 		unique: false,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, disable all your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Discard this card to disable all Upgrades and remove all [battlestations] Tokens on the target ship. ",
 		factions: [
 			"klingon"
 		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 5
 	},
 	{
 		type: "talent",
@@ -11923,16 +11988,13 @@ module.exports = [
 			"72251"
 		],
 		name: "In'cha",
+		image: "https://i.imgur.com/WADhGRw.png",
 		unique: false,
 		text: "<b>ACTION:</b> Discard this card to perform one additional Maneuver of your choice this round. ",
 		factions: [
 			"klingon"
 		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 5
 	},
 	{
 		type: "crew",
@@ -11943,16 +12005,13 @@ module.exports = [
 			"72251"
 		],
 		name: "Drex",
+		image: "https://i.imgur.com/Eta60S3.png",
 		unique: true,
 		text: "<b>ACTION:</b> When attacking this round, you may convert 1 [battlestations] result into 1 [crit] result and all of your other [battlestations] results into [hit] results. ",
 		factions: [
 			"klingon"
 		],
-		cost: 4,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 4
 	},
 	{
 		type: "weapon",
@@ -11963,14 +12022,13 @@ module.exports = [
 			"72251"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/I58XSZs.png",
 		unique: false,
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and disable this card to perform this attack. \n\nIf fired from a Negh'Var class ship add +1 attack die.",
 		factions: [
 			"klingon"
 		],
 		cost: 5,
-		skill: 0,
-		talents: 0,
 		attack: 5,
 		range: "2 - 3"
 	},
@@ -12174,6 +12232,7 @@ module.exports = [
 			"OP2Prize"
 		],
 		name: "Defense Condition One",
+		image: "https://i.imgur.com/tGSXe1w.png",
 		unique: false,
 		text: "<b>ACTION:</b> Discard this card to place a [battlestations] Token beside your ship and all friendly ships within Range 1-2 of your ship (even if there is already one there).",
 		factions: [
@@ -12193,6 +12252,7 @@ module.exports = [
 			"OP2Prize"
 		],
 		name: "Barrage of Fire",
+		image: "https://i.imgur.com/tHPTdpu.png",
 		unique: false,
 		text: "<b>ATTACK: </b>Discard this card to perform this attack. Target 1 friendly ship within Range 1 of your ship. Target ship may not make a normal attack this round. Instead, add the Primary Weapon value of that ship to your attack roll for this attack. Both ships must have the enemy ship within their forward firing arcs. Place an Auxiliary Power Token beside both ships.",
 		factions: [
@@ -12212,6 +12272,7 @@ module.exports = [
 			"OP2Prize"
 		],
 		name: "Secondary Shield Emitters",
+		image: "https://i.imgur.com/O90P8es.png",
 		unique: false,
 		text: "<b>ACTION:</b> Disable this card to repair 1 Shield Token. If you attack this round, roll 1 less attack die.",
 		factions: [
@@ -12231,16 +12292,13 @@ module.exports = [
 			"OP2Prize"
 		],
 		name: "Synon",
+		image: "https://i.imgur.com/F31o051.png",
 		unique: true,
 		text: "When performing a [sensor-echo] Action, you may use a [forward]1, [forward]2 or [forward]3 maneuver template.",
 		factions: [
 			"klingon"
 		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 5
 	},
 	{
 		type: "talent",
@@ -12469,6 +12527,7 @@ module.exports = [
 			"71269"
 		],
 		name: "Once More Unto The Breach",
+		image: "https://i.imgur.com/qt5kpcO.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard this card to allow your Primary Weapon to make a total of 2 attacks this round at -1 attack die each. \n\nYou may not roll any defense dice this round.",
 		factions: [
@@ -12488,6 +12547,7 @@ module.exports = [
 			"71269"
 		],
 		name: "Concussive Charges",
+		image: "https://i.imgur.com/IMtKarN.png",
 		unique: false,
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and disable this card to perform this attack. \nFor every uncancelled [hit] or [crit] result, the target ship loses 1 token of your choice that has been placed beside it in the play area. \nYou may fire this weapon from your forward or rear firing arcs.",
 		factions: [
@@ -12511,14 +12571,13 @@ module.exports = [
 			"71804"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/xmkytze.png",
 		unique: false,
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and disable this card to perform this attack. \nYou may convert 1 of your [battlestations] results into a [crit] result. \nYou may fire this weapon from your forward or rear firing arcs. ",
 		factions: [
 			"klingon"
 		],
 		cost: 5,
-		skill: 0,
-		talents: 0,
 		attack: 5,
 		range: "2 - 3"
 	},
@@ -12530,6 +12589,7 @@ module.exports = [
 			"71269"
 		],
 		name: "Kerla",
+		image: "https://i.imgur.com/4gB0wE8.png",
 		unique: true,
 		text: "When defending against a ship at Range 1, you may convert 1 of your [battlestations] results into 1 [evade] result.",
 		factions: [
@@ -12549,16 +12609,13 @@ module.exports = [
 			"71269"
 		],
 		name: "Stex",
+		image: "https://i.imgur.com/SvWPC6X.png",
 		unique: true,
 		text: "If a [crew_text] Upgrade on an enemy ship would cause your ship to discard or disable any of your Upgrades, roll 2 defense dice. If you roll at least 1 [evade] result, ignore the effects of the enemy Upgrade. ",
 		factions: [
 			"klingon"
 		],
-		cost: 2,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 2
 	},
 	{
 		type: "tech",
@@ -12758,16 +12815,13 @@ module.exports = [
 			"71273"
 		],
 		name: "N'Garen",
+		image: "https://i.imgur.com/rP585Cl.png",
 		unique: true,
 		text: "<b>ACTION:</b> When attacking this round, you may convert 1 of your [battlestations] results into a [crit] result and all of your other [battlestations] results into [hit] results.",
 		factions: [
 			"klingon"
 		],
-		cost: 4,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 4
 	},
 	{
 		type: "crew",
@@ -12777,6 +12831,7 @@ module.exports = [
 			"71273"
 		],
 		name: "Alexander",
+		image: "https://i.imgur.com/flzdLQL.png",
 		unique: true,
 		text: "Each time your ship is hit for at least 1 damage, place 1 [battlestations] Token on this card. \n\nDuring the Activation Phase, you may take 1 [battlestations] Token off this card and place it beside your ship.",
 		factions: [
@@ -12796,6 +12851,7 @@ module.exports = [
 			"71273"
 		],
 		name: "EM Pulse",
+		image: "https://i.imgur.com/DYjfbyk.png",
 		unique: false,
 		text: "<b>ACTION:</b> Disable this card to target a ship at Range 1-2. The target ship rolls 1 less attack die and 1 less defense die this round. ",
 		factions: [
@@ -13322,6 +13378,7 @@ module.exports = [
 			"71448"
 		],
 		name: "Klingon Honor",
+		image: "https://i.imgur.com/yFkxJOx.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable this card to add +1 attack die and convert 1 [hit] result into 1 [crit] result during any one attack you initiate this round. You cannot roll any defense dice this round. \n\nThis Upgrade may only be purchased for a Klingon Captain.",
 		factions: [
@@ -13341,16 +13398,13 @@ module.exports = [
 			"71448"
 		],
 		name: "Bu'Kah",
+		image: "https://i.imgur.com/kUBp0sq.png",
 		unique: true,
 		text: "If you performed a Green Maneuver this round, discard this card to repair up to 2 damage to your Hull.",
 		factions: [
 			"klingon"
 		],
-		cost: 4,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 4
 	},
 	{
 		type: "tech",
@@ -13360,6 +13414,7 @@ module.exports = [
 			"71448"
 		],
 		name: "Shockwave",
+		image: "https://i.imgur.com/pdu2OLT.png",
 		unique: false,
 		text: "Instead of moving normally during the Activation Phase, you may discard this card and disable 1 of your Torpedoes to disregard your chosen Maneuver and perform a Red 1 [reverse] Full Astern Maneuver instead. \n\nThis upgrade may only be purchased for a Raptor Class ship.",
 		factions: [
@@ -13379,6 +13434,7 @@ module.exports = [
 			"71448"
 		],
 		name: "Tactical Sensors",
+		image: "https://i.imgur.com/U90t3PQ.png",
 		unique: false,
 		text: "<b>ACTION:</b> Disable this card to place a [battlestations] Token and a [scan] Token beside your ship. \n\nThis upgrade may only be purchased for a Raptor class ship.",
 		factions: [
@@ -14826,16 +14882,13 @@ module.exports = [
 			"i_k_s_b_moth"
 		],
 		name: "Kunivas",
+		image: "https://i.imgur.com/cwpWo1k.png",
 		unique: true,
 		text: "During the Modify Attack Dice step of the Combat Phase, you may discard this card to add 1 additional [hit] result.",
 		factions: [
 			"klingon"
 		],
-		cost: 2,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 2
 	},
 	{
 		type: "talent",
@@ -14845,6 +14898,7 @@ module.exports = [
 			"i_k_s_b_moth"
 		],
 		name: "Qapla'",
+		image: "https://i.imgur.com/aFlncrb.png",
 		unique: true,
 		text: "During the Roll Attack Dice step of the Combat Phase, before rolling any of your attack dice, you may discard this card to select one of your attack dice and set it on the side of your choice. That die cannot be rolled or re-rolled during the round in which you use this Upgrade.",
 		factions: [
@@ -14864,6 +14918,7 @@ module.exports = [
 			"i_k_s_b_moth"
 		],
 		name: "Tritium Intermix",
+		image: "https://i.imgur.com/1nHoJSd.png",
 		unique: false,
 		text: "<b>ACTION:</b> Discard this card to flip all of your critical damage cards face down and then repair 1 damage to your ship's Hull. You may perform an [evade] Action as a free Action this round.",
 		factions: [
@@ -15109,14 +15164,13 @@ module.exports = [
 			"i_k_s_b_moth"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/nYRZ703.png",
 		unique: false,
 		text: "<b>ATTACK: (Target Lock)</b> Spend your target lock and disable this card to perform this attack. \n\nYou may fire this weapon from your forward or rear firing arcs.",
 		factions: [
 			"klingon"
 		],
 		cost: 4,
-		skill: 0,
-		talents: 0,
 		attack: 5,
 		range: "2 - 3"
 	},
@@ -15918,16 +15972,13 @@ module.exports = [
 			"71810"
 		],
 		name: "T'Kar",
+		image: "https://i.imgur.com/OYUvA7X.png",
 		unique: true,
 		text: "<b>ACTION:</b> If your ship is not cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not cloaked and has no Active Shields. Discards this card and 1 [crew_text] Upgrade of your choice on the target ship. Then disable the Captain Card and all remaining [crew_text] upgrades on the target ship. While the Captain Card is disabled, the target ship has a Skill of \"1\".",
 		factions: [
 			"klingon"
 		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 5
 	},
 	{
 		type: "crew",
@@ -17556,6 +17607,7 @@ module.exports = [
 			"71512"
 		],
 		name: "Warrior Spirit",
+		image: "https://i.imgur.com/Q4yDkc3.png",
 		unique: true,
 		text: "When attacking, at the end of the Deal Damage step, you may discard this card to roll 2 attack dice. Each [hit] or [crit] result damage the defending ship as normal. For each blank or [battlestations] result, your ship suffers 1 normal damage to its Hull. This roll cannot be modified and the defending ship does not roll defense dice against this damage. This Upgrade may only be purchased for a Klingon Captain.",
 		factions: [
@@ -17670,16 +17722,13 @@ module.exports = [
 			"71532"
 		],
 		name: "Azetbur",
+		image: "https://i.imgur.com/1VTxrvr.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard this card to target a ship at Range 1-3. Disable your Captain Card and the Captain Card on the target ship. Neither of your ships may attack each other this round.",
 		factions: [
 			"klingon"
 		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 5
 	},
 	{
 		type: "tech",
@@ -17689,6 +17738,7 @@ module.exports = [
 			"71532"
 		],
 		name: "Prototype Cloaking Device",
+		image: "https://i.imgur.com/0Z41ZXl.png",
 		unique: false,
 		text: "When attacking while Cloaked, you may disable this card before rolling any dice to keep your [cloak] Token from flipping to its red side. If you do this, during the Modify Attack Dice step of the Combat Phase, you may place an Auxiliary Power Token beside your ship to choose any number of your attack dice and re-roll them. This Upgrade may only be purchased for a Klingon Bird-of-Prey class ship.",
 		factions: [
@@ -17708,6 +17758,7 @@ module.exports = [
 			"71532"
 		],
 		name: "The Game's Afoot",
+		image: "https://i.imgur.com/CwF7SC7.png",
 		unique: true,
 		text: "If you initiate an attack, while Cloaked, against a ship that does not have your ship in its forward or rear firing arcs, during the Roll Attack Dice step of the Combat Phase, you may discard this card to gain +1 attack die against that ship for that attack. If you do this, after you complete your attack, you may immediately perform a [sensor-echo] Action as a free Action.",
 		factions: [
@@ -17727,6 +17778,7 @@ module.exports = [
 			"71532"
 		],
 		name: "Cry Havoc",
+		image: "https://i.imgur.com/oNs6N0J.png",
 		unique: true,
 		text: "<b>ACTION:</b> If you are Cloaked, discard this card to remove your [cloak] Token and flip all of your Shields back to their Active sides. You are no longer considered to be Cloaked. During the Roll Attack Dice step of the Combat Phase, gain +2 attack dice this round. You cannot roll defense dice this round. \nThis Upgrade may only be purchased for a Klingon Captain.",
 		factions: [
@@ -19009,6 +19061,7 @@ module.exports = [
 			"71996"
 		],
 		name: "Surrender As Ordered",
+		image: "https://i.imgur.com/ezV7QtX.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard this card to target one enemy ship at Range 1 that is in your forward firing arc. The target ship may choose to not attack this round and disable all of its [weapon_text] Upgrades. If it does this, then your ship cannot attack that ship this round. If the target ship chooses not to do this (or if it has no [weapon_text] Upgrades that are not already disabled), you gain +1 attack dice against that ship this round.",
 		factions: [
@@ -19066,6 +19119,7 @@ module.exports = [
 			"71996"
 		],
 		name: "Phaser Array Retrofit",
+		image: "https://i.imgur.com/g5brIzF.png",
 		unique: false,
 		text: "When attacking with your Primary Weapon at Range 3, you gain +1 attack die and your opponent rolls 1 less defense die. \n\nThis Upgrade may only be purchased for a Klingon Ship. No ship may be equipped with more than 1 \"Phaser Array Retrofit\" Upgrade.",
 		factions: [
@@ -20266,16 +20320,13 @@ module.exports = [
 			"71999p"
 		],
 		name: "Klingon Stealth Team",
+		image: "https://i.imgur.com/KNbvfMG.png",
 		unique: false,
 		text: "<b>ACTION:</b> Discard this card to target a ship at Range 2-3 that is not Cloaked. Disable 1 [tech_text] or [weapon_text] Upgrade of your choice on target ship and then discard 1 [crew_text] Upgrade of your choice on that ship, if possible. \nThis Upgrade may only be purchased for a Klingon ship and no ship may be equipped with more than one Klingon Stealth Team Upgrade.",
 		factions: [
 			"klingon"
 		],
-		cost: 5,
-		skill: 0,
-		talents: 0,
-		attack: 0,
-		range: ""
+		cost: 5
 	},
 	{
 		type: "tech",
@@ -20286,6 +20337,7 @@ module.exports = [
 			"72241"
 		],
 		name: "Cloaked Mines",
+		image: "https://i.imgur.com/j69G1hW.png",
 		unique: false,
 		text: "During the Planning Phase, you may discard this card to place a Minefield Token within Range 1 of your ship (in any direction), but not within Range 3 of an enemy ship. If an enemy ship passes within Range 1 of the token, roll 3 attack dice (-1 if the target ship immediately performs a [scan] Action). Any [hit] or [crit] damage the target ship as normal. The affected ship does not roll any defense dice.",
 		factions: [
@@ -20305,6 +20357,7 @@ module.exports = [
 			"71999p"
 		],
 		name: "Mauk-to'Vor",
+		image: "https://i.imgur.com/iHdon1B.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard this card and your Captain Card to gain a number of attack dice for your first attack this round equal to 1/2 of that Captain's Skill number, rounded down (max +3). Place an Auxiliary Power Token beside your ship. You cannot perform any free Actions this round. \nThis Upgrade may only be purchased for a Klingon Captain assigned to a Klingon ship.",
 		factions: [
@@ -20324,6 +20377,7 @@ module.exports = [
 			"71999p"
 		],
 		name: "Ambush Attack",
+		image: "https://i.imgur.com/uPuWHry.png",
 		unique: false,
 		text: "<b>ATTACK: </b>Discard this card to perform this attack. \nIf your ship is cloaked, gain +1 attack die for this attack. If your ship is not in the target ship's forward or rear firing arcs, you may convert all of your [battlestations] results into [hit] results. No ship may be equipped with more than one Ambush Attack Upgrade.",
 		factions: [
@@ -20401,6 +20455,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Darok",
+		image: "https://i.imgur.com/BE5l4bt.png",
 		unique: true,
 		text: "After your ship moves, you may discard Darok to perform an additional Action as a free Action this round. This Upgrade may only be purchased for a Klingon ship.",
 		factions: [
@@ -20420,6 +20475,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Inverse Graviton Burst",
+		image: "https://i.imgur.com/b2mhi1a.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard this card to target every ship at Range 1-3. Place 1 Auxiliary Power Token beside your ship and each of the targeted ships. \n\nThis Upgrade costs +5 SP if purchased for a non-Klingon ship.",
 		factions: [
@@ -20439,6 +20495,7 @@ module.exports = [
 			"71804"
 		],
 		name: "Long Live the Empire!",
+		image: "https://i.imgur.com/kIgaFmI.png",
 		unique: true,
 		text: "When attacking with your Primary Weapon, during the Roll Attack Dice step, you may discard this card to add up to 3 attack die to your attack. If you do so, immediately after you complete the attack, your ship suffers 1 damage to your Hull or Shields (your choice) for each additional die you added with this ability. This Upgrade may only be purchased for a Klingon Captain assigned to a Klingon ship.",
 		factions: [
@@ -20496,14 +20553,13 @@ module.exports = [
 			"71804"
 		],
 		name: "Strafing Attack",
+		image: "https://i.imgur.com/e6G3Uap.png",
 		unique: false,
 		text: "<b>ATTACK: </b>Discard this card to perform this attack. After completing this attack, you may immediately target up to 2 other ships within Range 1 of your ship and make an additional 3 dice attack against each of those ships. The additional target ships do not need to be in your forward firing arc. You cannot perform this attack the if you performed a Full Astern Maneuver this round.",
 		factions: [
 			"klingon"
 		],
 		cost: 6,
-		skill: 0,
-		talents: 0,
 		attack: 3,
 		range: "1"
 	},
@@ -21035,6 +21091,7 @@ module.exports = [
 			"blind_buruk"
 		],
 		name: "Dishonorable Tactics",
+		image: "https://i.imgur.com/0BVU6YH.png",
 		cost: 3,
 		text: "When attacking with your Primary Weapon, during the Modify Attack Dice step, you may discard this card to target a friendly ship within Range 1-3 of your ship. Disable 1 Upgrade on the target ship to re-roll any number of your attack dice. You may discard that Upgrade to re-roll any of those dice a 2nd time.",
 		unique: true,
@@ -21050,6 +21107,7 @@ module.exports = [
 			"blind_buruk"
 		],
 		name: "Kurak",
+		image: "https://i.imgur.com/orv3btB.png",
 		cost: 3,
 		text: "When defending, during the Deal Damage step, you may discard this card to disable up to 2 of your Shield Tokens instead of losing them.\n\nThis card costs +5 SP if purchased for a non-Klingon ship.",
 		unique: true,
@@ -21065,6 +21123,7 @@ module.exports = [
 			"blind_buruk"
 		],
 		name: "Ambush Attack",
+		image: "https://i.imgur.com/TayIXjG.png",
 		cost: 5,
 		text: "At the start of the Combat Phase, if your ship is cloaked, you may discard this card to perform your attack before every other ship. This attack must be made with your Primary Weapon. If this attack hits an attack squadron, disable 1 (squadron) Upgrade on the defending attack squadron, if possible.",
 		unique: true,
@@ -21080,6 +21139,7 @@ module.exports = [
 			"blind_buruk"
 		],
 		name: "Targeting Systems",
+		image: "https://i.imgur.com/7afHf6N.png",
 		cost: 4,
 		text: "During the Activation Phase, you may discard this card to perform the  [target-lock] Action as a free Action.\n\nNo ship may be equipped with more than 1 \"Targeting Systems\" Upgrade.",
 		unique: false,
@@ -22247,6 +22307,7 @@ module.exports = [
 			"72015"
 		],
 		name: "The Day is Ours!",
+		image: "https://i.imgur.com/OsyA1EY.png",
 		cost: 4,
 		text: "During the Roll Attack Dice step, you may discard this card to add 1 [crit] result to your roll.\n\nThis card may only be purchased for a Klingon Captain assigned to a Klingon ship.",
 		unique: true,
@@ -22262,6 +22323,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Alert Status One",
+		image: "https://i.imgur.com/cNkzZRU.png",
 		cost: 3,
 		text: "<b>ACTION:</b> Discard this card to place a [battlestations] Token beside your ship. You cannot perform a [battlestations] Action as a free Action this round.",
 		unique: true,
@@ -22277,6 +22339,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Supreme Commander",
+		image: "https://i.imgur.com/Q4ZIF0L.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Discard this card to target 1 friendly ship within Range 1-3. The target ship immediately performs a free Action from its Action Bar. If the target ship is a Klingon ship, it may perform any Action as a free Action.",
 		unique: true,
@@ -22292,6 +22355,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Worf",
+		image: "https://i.imgur.com/WdQJLCp.png",
 		cost: 2,
 		text: "Increase your Captain's Skill by +1 (+3 for a Klingon Captain). This ability cannot be used on this card.\n\nIf your Captain is disabled, discarded, or affected by a critical damage card, treat this card as your Captain Card with a Skill of 5. If your Captain becomes non-disabled or unaffected by the critical damage card, that Captain Card is restored.",
 		unique: true,
@@ -22322,6 +22386,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Leskit",
+		image: "https://i.imgur.com/3N4Rpsi.png",
 		cost: 3,
 		text: "After you reveal a red maneuver, before you move, you may discard this card to treat the maneuver as a green maneuver. If your ship is cloaked when you do this, you may immediately perform a [sensor-echo] Action as a free Action.",
 		unique: true,
@@ -22337,6 +22402,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Tavana",
+		image: "https://i.imgur.com/lTb9KuW.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Disable this card to repair 1 Shield Token. In addition, if your ship is cloaked, you may repair 1 damage to your Hull. You roll -2 attack dice on all of your attacks this round.",
 		unique: true,
@@ -22352,6 +22418,7 @@ module.exports = [
 			"72015"
 		],
 		name: "Kornan",
+		image: "https://i.imgur.com/UVYGGlZ.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Discard this card to acquire a target lock on a ship within Range 1-3 of your ship and then perform an Action from your Action Bar (not [target-lock]) as a free Action.",
 		unique: true,
@@ -22751,6 +22818,7 @@ module.exports = [
 			"72009"
 		],
 		name: "Devotion to Duty",
+		image: "https://i.imgur.com/BU6A43U.png",
 		cost: 4,
 		text: "<b>ACTION:</b> When attacking with your Primary Weapon this round, during the Roll Attack Dice step, you may discard this card to gain +1 attack die for every damage card assigned to your ship (max +2).\n\nThis Upgrade may only be purchased for a Klingon Captain assigned to a Klingon ship.",
 		unique: true,
@@ -22770,6 +22838,7 @@ module.exports = [
 			"72009"
 		],
 		name: "Tactical Officer",
+		image: "https://i.imgur.com/8o5gRG9.png",
 		cost: 2,
 		text: "If your ship is not Cloaked, during the Modify Attack Dice step, you may disable this card to re-roll all of your blank results once.\n\nThis Upgrade costs +3 SP for any non-Klingon ship and no ship may be equipped with more than 1 Tactical Officer Upgrade.",
 		unique: false,
@@ -22789,6 +22858,7 @@ module.exports = [
 			"72009"
 		],
 		name: "K'Ehleyr",
+		image: "https://i.imgur.com/HQnuXXe.png",
 		cost: 5,
 		text: "<b>ACTION:</b> Discard this card to target a ship at Range 1. Your ship cannot attack the target ship and the target ship cannot attack your ship this round.",
 		unique: true,
@@ -22831,6 +22901,7 @@ module.exports = [
 			"72232"
 		],
 		name: "Photon Torpedoes",
+		image: "https://i.imgur.com/zz1Cem6.png",
 		cost: 5,
 		attack: 5,
 		range: "2 - 3",
@@ -22852,6 +22923,7 @@ module.exports = [
 			"72009"
 		],
 		name: "Cryogenic Stasis",
+		image: "https://i.imgur.com/Vcfj7JB.png",
 		cost: 5,
 		text: "At the start of the game, place 2 non-Borg [crew_text] Upgrades with a cost of 5 or less face down beneath this card.\n<b>ACTION:</b> Flip one of the Upgrades that is beneath this card face up (your choice) and deploy it to your ship, even if it exceeds your ship's restrictions. Then place 2 Time Tokens on that Upgrade.\nDiscard this card when there are no more Upgrades beneath it.",
 		unique: true,
@@ -23518,6 +23590,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Reckless Assault",
+		image: "https://i.imgur.com/Vb60BsQ.png",
 		cost: 4,
 		text: "<b>WHEN ATTACKING WITH THIS SHIP'S PRIMARY WEAPON:</b> If you are within the target's Primary Firing Arc. \n\n Roll +1 Attack die.",
 		OnePerShip: true,
@@ -23534,6 +23607,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Evasive Maneuvers",
+		image: "https://i.imgur.com/SpyiWWm.png",
 		cost: 4,
 		text: "<b>WHEN THIS SHIP SPENDS A [evade] TOKEN:</b> Place 1 [time] Token on this card. \n\n Place 1 [evade] Token beside this ship.",
 		OnePerShip: true,
@@ -23580,6 +23654,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Strafing Run",
+		image: "https://i.imgur.com/8B789FL.png",
 		cost: 3,
 		text: "<b>EXECUTE MANEUVER STEP:</b> If your ship's base or maneuver template overlapped an opposing ship: \n\n Roll 1 attack die. On a [hit] or [crit] result, the opposing ship suffers 1 damage.",
 		OnePerShip: true,
@@ -23597,6 +23672,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Eye For An Eye",
+		image: "https://i.imgur.com/mmyEoc8.png",
 		cost: 2,
 		text: "<b>WHEN DEFENDING: DEAL DAMAGE STEP:</b> If this ship suffers a face-up damage card and the attacking ship is in your Primary Firing Arc. \n\n Discard this card to deal the attacking ship 1 face-up damage card (even if it has active shields).",
 		OnePerShip: true,
@@ -23613,6 +23689,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Forward Battery",
+		image: "https://i.imgur.com/tRgSIOK.png",
 		cost: 5,
 		text: "<b>WHEN DEFENDING: DECLARE TARGET STEP:</b> If the attacking ship is in your Primary Firing Arc. \n\n Roll 1 Attack die. On a [hit] or [crit] result, deal 1 damage to the attacking ship before it attacks.",
 		OnePerShip: true,
@@ -23630,6 +23707,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Disruptor Overcharge",
+		image: "https://i.imgur.com/fMTaN02.png",
 		cost: 3,
 		text: "<b>WHEN ATTACKING WITH THIS SHIP'S PRIMARY WEAPON: ROLL ATTACK DICE STEP:</b> If you rolled at least 1 [crit] result. \n\n Add 1 [hit] result to the total.",
 		OnePerShip: true,
@@ -23681,6 +23759,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Converging Fire",
+		image: "https://i.imgur.com/9SJzmdV.png",
 		cost: 2,
 		text: "<b>COMBAT PHASE:</b> Friendly ships may treat your [target-lock] Tokens as their own.",
 		OnePerShip: true,
@@ -23713,6 +23792,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Reactor Vent",
+		image: "https://i.imgur.com/csDvXdZ.png",
 		cost: 4,
 		text: "<b>COMBAT PHASE:</b> If there is an opposing ship within range, you may spend 1 <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token from beside this ship to roll 1 attack die. \n\n On a [hit] or [crit] result, discard 1 Shield Token from the opposing ship.",
 		range: "1",
@@ -23729,6 +23809,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Targeting Array",
+		image: "https://i.imgur.com/Ezz9mjq.png",
 		cost: 4,
 		text: "You can have two Blue [target-lock] Tokens. \n<hr> <b>WHEN YOU PERFORM A [target-lock] ACTION:</b> \n\n You may perform an additional [target-lock] Action against a different opposing ship within Range.",
 		unique: true,
@@ -23744,6 +23825,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Secondary Cloaking Coil",
+		image: "https://i.imgur.com/lpgUjGD.png",
 		cost: 3,
 		text: "<b>ACTION:</b> Discard this card. \n\n Repair 1 Shield Token. If you have the [cloak] action on this ship's action bar, you may [cloak] as a free action.",
 		OnePerShip: true,
@@ -23759,6 +23841,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Reinforced Hull",
+		image: "https://i.imgur.com/mddIpxx.png",
 		cost: 2,
 		text: "Add +2 to this ship's Hull Value.",
 		OnePerShip: true,
@@ -23775,6 +23858,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Passive Sensors",
+		imagee: "https://i.imgur.com/hSGtb2j.png",
 		cost: 2,
 		text: "<b>END PHASE:</b> If you did not attack this round, place 1 [scan] Token on this card (max 1). \n\n <b>FREE ACTION:</b> Place 1 [scan] Token from this card beside this ship.",
 		OnePerShip: true,
@@ -23790,6 +23874,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Enhanced Thrusters",
+		image: "https://i.imgur.com/diPRSF3.png",
 		cost: 5,
 		text: "<b>EXECUTE MANEUVER STEP:</b> When this ship performs a [bank-left] or [bank-right] maneuver of speed 2 or 3: \n\n You may treat that maneuver as red to rotate this ship 180°.",
 		OnePerShip: true,
@@ -23809,6 +23894,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Engineer",
+		image: "https://i.imgur.com/iPptBol.jpg",
 		cost: 4,
 		text: "<b>END PHASE:</b> If you do not have a [aux] Token, you may gain 1 [aux] Token to choose on of the following effects: \n\n *Repair 1 hull damage. \n\n *Flip one face-up damage card face-down.",
 		OnePerShip: true,
@@ -23824,6 +23910,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Cunning",
+		image: "https://i.imgur.com/V6go5Aw.jpg",
 		cost: 5,
 		text: "<b>WHEN ATTACK:</b> If this ship has no active shields. \n\n You may convert 1 [blank] into 1 [hit] result. \n<hr> <b>WHEN DEFENDING:</b> If this ship has no active shields. \n\n You may reroll 1 [blank] result.",
 		OnePerShip: true,
@@ -23839,6 +23926,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Disruptor Sweep",
+		image: "https://i.imgur.com/D9R6I8W.jpg",
 		cost: 4,
 		text: "The Attack Value of this [weapon] is this ship's Primary Weapn Value -1. \n<hr> <b>ATTACK:</b> Disable this card and target all opposing ships. \n\n Make a separate attack roll against each target ship.",
 		attack: "*",
@@ -23857,6 +23945,7 @@ module.exports = [
 			"80000"
 		],
 		name: "Thruster Efficiency",
+		image: "https://i.imgur.com/i2JvMJO.jpg",
 		cost: 5,
 		text: "<b>EXECUTE MANEUVER STEP:</b> Place 3 [time] Tokens on this card. \n\n Treat a red maneuver as white, or a white maneuver as green.",
 		OnePerShip: true,

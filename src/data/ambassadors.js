@@ -129,6 +129,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Korrd",
+		image: "https://i.imgur.com/cbKyJKw.jpg",
 		cost: 3,
 		text: "<b>NEGOTIATIONS ACCEPTED</b>: The target ship must plan its maneuver face up during the Planning Phase.  When the target ship sustains damage to its Shields or Hull, this effect ends.\n<hr> <b>NEGOTIATIONS DENIED</b>: You may plan the target ship's maneuver during the next Planning Phase. The chosen maneuver must be on the target ship's maneuver dial and be a green or white maneuver.  The chosen maneuver may not cause the target ship to go outside of the play area.",
 		unique: true,
@@ -144,6 +145,7 @@ module.exports = [
 			"75010"
 		],
 		name: "Kamarag",
+		image: "https://i.imgur.com/8RmSf8b.jpg",
 		cost: 3,
 		text: "<b>NEGOTIATIONS ACCEPTED</b>: \n\n During the Combat Phase, this ship and the target ship must attack each other, if able. \n<hr> <b>NEGOTIATIONS DENIED</b>: \n\nThe next time the target ship attacks, it rolls -3 attack dice.",
 		unique: true,
