@@ -4965,7 +4965,7 @@ module.exports = [{
 		"2017core"
 	],
 	name: "K'mpec's Attack Cruiser",
-	imgae: "https://i.imgur.com/lfGBnBV.png",
+	image: "https://i.imgur.com/lfGBnBV.png",
 	class: "Vor'cha Class",
 	actions: [
 		"evade",
