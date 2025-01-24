@@ -11,7 +11,7 @@
 		<div class="card-corner-inner pull-right"></div>
 	</div>
 
-	<div class="card-title-container text-left">
+	<div class="card-title-container text-left" style="width: 90%;">
 		<span ng-if="upgrade.showType" class="card-captain pull-right">{{upgrade.type|uppercase|removeDashes}}</span>
 		<span ng-if="upgrade|valueOf:'attack':ship:fleet" class="card-weapon-attack pull-right" style="margin-right: 5px; position: relative; z-index: 1;" tooltip-show="ship" tooltip="upgrade|valueOf:'attack':ship:fleet:false:{modifiers:true}">{{upgrade|valueOf:'attack':ship:fleet}}</span>
 		<span class="card-title"
