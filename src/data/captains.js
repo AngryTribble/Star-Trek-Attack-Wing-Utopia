@@ -7,6 +7,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Geordi La Forge",
+		image: "https://i.imgur.com/yEmYCA3.jpg",
 		unique: true,
 		text: "<b>WHENEVER THIS SHIP WOULD OVERLAP AN OBSTACLE:</b> \n Disable 1 Shield on this ship. \n\n This ship does not skip the Perform Action Step and does not suffer damage from that Obstacle. <hr> <b>(Night Shift) ACTION:</b> Target a Cloaked ship within Range and place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the target ship and discard their [cloak] Token (The target may raise it's Shields).",
 		factions: [
@@ -24,6 +25,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Data",
+		image: "https://i.imgur.com/qSLxDAT.jpg",
 		unique: true,
 		text: "<b>(Night Shift)</b> Treat your Captain's Skill Number as 5. <hr> <b>AFTER THIS SHIP EXECUTES A</b> [reverse] <b>MANEUVER:(Night Shift) ANY RED MANEUVER INSTEAD:</b> \n\n Place a [battlestations] Token beside this ship.",
 		factions: [
@@ -40,6 +42,7 @@ module.exports = [
 			"75016"
 		],
 		name: "William T. Riker",
+		image: "https://i.imgur.com/4IBjdo4.png",
 		unique: true,
 		text: "<b> PLANNING PHASE:</b> Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and place a NIGHT SHIFT Token on up to 2 [crew_text] Upgrades equipped to this ship. \n\n <b>Continuous Effect:</b> [crew_text] Upgrades with a NIGHT SHIFT Token on them gain the following ability: \n\n <b>(Night Shift)</b> Spend a NIGHT SHIFT Token on this card to perform its Action as a Free Action.",
 		factions: [
@@ -57,6 +60,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Edward Jellico",
+		image: "https://i.imgur.com/BKJVPzw.jpg",
 		unique: true,
 		text: "<b>ACTION:</b> Place a <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to this ship and target an opposing ship within Range. \n\n The Captain equipped to the target ship cannot use its printed ability text or any [talet_text] Upgrades equipped to it this game round.",
 		factions: [
@@ -76,6 +80,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Jean-Luc Picard",
+		image: "https://i.imgur.com/jDXSyy0.jpg",
 		unique: true,
 		text: "<b>EACH TIME AN OPPOSING EFFECT WOULD DISCARD, STEAL, OR PLACE ANY  <img src='img/stuff/effect_disable.png' width='20' height='16'> / <img src='img/stuff/effect_time_token.png' width='20' height='16'> ON A [crew_text] UPGRADE EQUIPPED TO THIS SHIP:</b> \n\n You may have a [weapon_text] Upgrade equipped to this ship become the target instead. <hr> <b>FREE ACTION:</b> If this card is equipped to a  <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ship: \n\n Place either a [battlestations] or an [evade] Token beside this ship.",
 		factions: [
@@ -93,6 +98,7 @@ module.exports = [
 			"75016"
 		],
 		name: "John Harriman",
+		image: "https://i.imgur.com/4YV9ZY2.png",
 		unique: true,
 		text: "<b>FREE ACTION:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card. \n\n Perform the Action on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to this ship as a Free Action.",
 		factions: [
@@ -110,6 +116,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Styles",
+		image: "https://i.imgur.com/zO9uDc5.png",
 		unique: true,
 		text: "<b>ACTIVATION PHASE:</b> Target another ship within Range and choose 1 of the following effect: \n\n * The Captain equipped to the target ship reduces its Captain Skill Number by 3 this game round. \n\n * The Admiral equipped to the target ship cannot use its printed ability text or have its <b>FLEET ACTION</b> be used this game round.",
 		factions: [
@@ -128,6 +135,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Hikaru Sulu",
+		image: "https://i.imgur.com/9bDrxdw.jpg",
 		unique: true,
 		text: "<b>OBSTRUCT: 1 <hr> EACH TIME A FRIENDLY SHIP WITHIN RANGE SUFFERS DAMAGE: </b> \n\n This ship may either perform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'> Maneuver.",
 		factions: [
@@ -146,6 +154,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Pavel Chekov",
+		image: "https://i.imgur.com/XXCAvBn.png",
 		unique: true,
 		text: "<b>CHECK FOR POWER STRAIN STEP:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship and apply the corresponding effect based on the difficulty of this ship's Maneuver: \n\n <b>GREEN:</b> Repair 1 Hull on this ship. \n\n <b>WHITE:</b> Repair 1 Shield on this ship. \n\n <b>RED:</b> Place an [evade] Token beside this ship.",
 		factions: [
@@ -163,6 +172,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Mr. Spock",
+		image: "https://i.imgur.com/9tCepnZ.png",
 		unique: true,
 		text: "<b>PLANNING PHASE:</b> Once per game, you may cancel any Active Negotiations in play. The controlling player(s) may activate their Negotiation Effect targeting a different ship. <hr> <b>FREE ACTION:</b> \n\n Perform either the [target-lock] Action or [scan] Action as a Free Action.",
 		factions: [
@@ -181,6 +191,7 @@ module.exports = [
 			"75016"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/x8vhsHg.jpg",
 		unique: true,
 		text: "<b>REVEAL DIAL STEP:</b> Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card \n\n Rotate this ship's Maneuver Dial to a different Maneuver.",
 		factions: [
@@ -198,6 +209,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Erika Hernandez",
+		image: "https://i.imgur.com/tylfd5c.jpg",
 		unique: true,
 		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> Friendly <img src='img/text/fed-nx.png' width='18' height='18' title='Federation NX Class'> ships within Range may use the effect of <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrades equipped to this ship as though they are equipped to their ship instead. If they do, place 1 additional <img src='img/stuff/effect_time_token.png' width='20' height='16'> Token on that Upgrade.",
 		factions: [
@@ -217,6 +229,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Maxwell Forrest",
+		image: "https://i.imgur.com/v7t8oMs.png",
 		unique: true,
 		text: "<b>AFTER THIS SHIP EXECUTES A MANEUVER:</b> \n Target a friendly <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> or <img src='img/text/faction-vulcan.png' width='20' height='20' title='Vulcan'> ship within Range that has a Captain equipped with a Captain Skill Number greater than this Captain. \n\n The target ship may either perform a 1 <img src='img/stuff/maneuver_straight_white.png' width='20' height='20'> Maneuver or the Captain equipped to the target ship can perform it's listed Action as a Free Action.",
 		factions: [
@@ -234,6 +247,7 @@ module.exports = [
 			"75016"
 		],
 		name: "T'Pol",
+		image: "https://i.imgur.com/sfXVmoi.png",
 		unique: true,
 		text: "<b>ACTION:</b> \n\n Perform a 1 <img src='img/stuff/impulse-roll.png' width='20' height='20' title='Impulse Roll Maneuver'> Maneuver. In addition, if equipped to a <img src='img/text/faction-vulcan.png' width='20' height='20' title='Vulcan'> ship, place 2 [scan] Tokens beside this ship. In addition, if equipped to an <img src='img/text/fed-nx.png' width='20' height='20' title='Federation NX Class'>, you may perform the Action listed on a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrade equipped to this ship as a Free Action.",
 		factions: [
@@ -252,6 +266,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Jonathan Archer",
+		image: "https://i.imgur.com/RrNG6uH.png",
 		unique: true,
 		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>ACTION:</b> \n\n Perform the Action listed on up to 2 <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [crew_text] Upgrades equipped to this ship as Free Actions. Place a <img src='img/stuff/effect_disable.png' width='20' height='18' title='Federation'> Token on each of those Upgrades. ",
 		factions: [
@@ -269,6 +284,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Iden",
+		image: "https://i.imgur.com/fvz8UQr.png",
 		unique: true,
 		text: "You cannot have an Admiral and/or Ambassador equipped to this ship. <hr> This card costs -1 SP for each <img src='img/text/faction-indy.png' width='20' height='20' title='Independent Faction'> <b>?</b> Upgrade equipped to this ship. <hr> <b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship is an <img src='img/text/faction-indy.png' width='20' height='20' title='Independent Faction'> ship or has any <b>?</b> Upgrades equipped to it \n\n Add 1 [crit].",
 		factions: [
@@ -286,6 +302,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Turanj",
+		image: "https://i.imgur.com/We9zUfj.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If your Captain Skill is less than the defending ship's Captain Skill. \n\n Add 1 [crit].",
 		factions: [
@@ -303,6 +320,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Karr",
+		image: "https://i.imgur.com/DavxYe7.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING: ROLL ATTACK DICE STEP:</b> If your Captain Skill is greater than the defending ship's Captain Skill. \n\n Roll +1 attack die. <hr> <b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> \n\n You may re-roll 1 of your attack dice up to two times.",
 		factions: [
@@ -320,6 +338,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Nadirum",
+		image: "https://i.imgur.com/SfSgcOf.png",
 		unique: true,
 		text: "<b>ACTION:</b> If equipped to a <img src='img/text/ind-vidiian.png' width='20' height='20' title='Vidiian Battle Cruiser'>, this is a Free Action instead: Place 3 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card and target an opposing ship within Range. \n\n Discard 1 [crew_text] Upgrade equipped to the target ship.",
 		factions: [
@@ -338,6 +357,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Dereth",
+		image: "https://i.imgur.com/kwtTLSI.png",
 		unique: true,
 		text: "<b>FREE ACTION:</b> If you performed a Speed 3 or greater Maneuver this round: Target an opposing ship within Range. \n\n Disable 1 [crew_text] Upgrade equipped to the target ship.",
 		factions: [
@@ -356,6 +376,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Y'Sek",
+		image: "https://i.imgur.com/sat1bLn.png",
 		unique: true,
 		text: "<b>SETUP:</b> Target an opposing ship. \n\n Place a Bountty Permanent Effect Token beside the target ship. <hr> <b>PERMANENT EFFECT:</b> for the rest of the game, each ship in play converts eihter 1 [blank] or 1 [battlestations] into 1 [hit] each time they attack a ship with a Bounty Permanent Effect Token beside it.",
 		factions: [
@@ -373,6 +394,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Dala",
+		image: "https://i.imgur.com/F4ZJRfg.png",
 		unique: true,
 		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>SETUP:</b> Target an opposing ship. \n\n Place a Reputation Permanent Effect Token  beside the target ship. <hr> <b>PERMANENT EFFECT:</b> For the rest of the game, each other ships treats the ship with a Reputation Permanet Effect Token beside it as an opposing ship for all game effects. That ship is still part of its original owner's Fleet.",
 		factions: [
@@ -390,6 +412,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Gaul",
+		image: "https://i.imgur.com/i4IYMJt.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING: MODIFY ATTACK DICE STEP:</b> If the defending ship performed [sensor-echo] Action or an additional manuver this game round: \n\n Add 1 [crit].",
 		factions: [
@@ -407,6 +430,7 @@ module.exports = [
 			"75015"
 		],
 		name: "Alben",
+		image: "https://i.imgur.com/lKqklWF.png",
 		unique: true,
 		text: "<b>WHEN THIS SHIP OR A FRIENDLY SHIP WITHIN RANGE 1-2 ATTACKS: ROLL ATTACK DICE STEP:</b> If the Captain and/or any [crew_text] Upgrades equipped to the defending ship have any Tokens on their card: \n\n The attacking ship rolls +1 attack die. If this ship or that friendly ship is a <img src='img/text/ind-nerada.png' width='20' height='20' title='Nerada-Type'>, that ship may re-roll 1 [blank].",
 		factions: [
@@ -424,6 +448,7 @@ module.exports = [
 			"75014"
 		],
 		name: "The Doctor",
+		image: "https://i.imgur.com/LCbmDc0.png",
 		unique: true,
 		text: "<b>FLEET CONSTRUCTION:</b> Place 2 <img src='img/text/faction-federation.png' width='20' height='20' title='Federation Faction'> Captains with a total cost of 6 SP that are not already in your fleet face-up under this card \n\n This Captain has all text and restrictions from each of the Captains placed under it.",
 		factions: [
@@ -441,6 +466,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Tuvok",
+		image: "https://i.imgur.com/RMgmjXy.png",
 		unique: true,
 		text: "<b>WHEN DEFENDING: COMPARE RESULTS STEP:</b> Spend either a [scan] and 1 of this ship's Shield Tokens or disable 2 of this ship's Active Shields. \n\n Cancel 1 [hit] or [crit].",
 		factions: [
@@ -459,6 +485,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Harry Kim",
+		image: "https://i.imgur.com/vSvpsiu.jpg",
 		unique: true,
 		text: "<b>(Night Shift)</b> Treat your Captain's Skill Number as 5. <hr> <b>AFTER YOU REMOVE AN <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> TOKEN FROM BESIDE THIS SHIP:</b> \n\n Place an [evade] Token beside this ship. <b>(Night Shift)</b> In Addition, place a [battlestations] Token beside this ship.",
 		factions: [
@@ -476,6 +503,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Tom Paris",
+		image: "https://i.imgur.com/KllSJxB.png",
 		unique: true,
 		text: "<b>REVEAL DIAL STEP:</b> \n\n You may disregard your revealed Maneuver and either perform a 1 <img src='img/stuff/impulse-roll.png' width='20' height='20'  title='Impulse Roll Maneuver'> Maneuver or a 5 <img src='img/stuff/maneuver_straight_red.png' width='20' height='20'> Maneuver. In addition if equipped to a <img src='img/text/fed-delta-flyer.png' width='20' height='20' title='Delta Flyer Class'>, place an [evade] Token beside this ship.",
 		factions: [
@@ -494,6 +522,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Chakotay",
+		image: "https://i.imgur.com/hXzT9wW.jpg",
 		unique: true,
 		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>WHEN ATTACKING:</b> If there is a [scan] Token beside this ship. \n\n 1 [hit] or [crit] cannot be Canceled.",
 		factions: [
@@ -512,6 +541,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Magnus Hansen",
+		image: "https://i.imgur.com/Cebfn6y.png",
 		unique: true,
 		text: "<b>PLANNING PHASE:</b> Target an opposing ship within Range. \n\n This ship activates as though it has a Captain Skill Number equal to the target ship's Captain Skill +1 until the end of Activation Phase. If the target ship is <img src='img/text/faction-borg.png' width='20' height='20' title='Borg Faction'> or has a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg Faction'> Captain equipped to it, place 1 <img src='img/stuff/effect_time_token.png' width='20' height='16' title='Time Token'> Token on an Upgrade equipped to that ship.",
 		factions: [
@@ -531,6 +561,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Rudolph Ransom",
+		image: "https://i.imgur.com/0VU9uHB.png",
 		unique: true,
 		text: "Add 1 [crew_text] to this ship's Upgrade Bar. <hr> <b>WHEN DEFENDING:</b> If there is an Obstacle within Range: \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside the attacking ship. If this card is equipped to a <img src='img/text/fed-nova.png' width='20' height='20' title='Nova Class'>, the attacking ship also rolls -1 attack die.",
 		factions: [
@@ -549,6 +580,7 @@ module.exports = [
 			"75014"
 		],
 		name: "Kathryn Janeway",
+		image: "https://i.imgur.com/tGgbl6i.png",
 		unique: true,
 		text: "<b>EACH TIME AN OPPOSING EFFECT WOULD DISCARD, STEAL OR PLACE ANY <img src='img/stuff/effect_time_token.png' width='20' height='16'  title='Time Token'> / <img src='img/stuff/effect_disable.png' width='20' height='16'  title='Disabled Token'> TOKENS ON A </b> [crew_text] <b>UPGRADE EQUIPPED TO THIS SHIP:</b> Target that ship. \n\n You may perform a Free Attack with this ship's Primary Weapon against the target ship, if able. If this card is equipped to the U.S.S. Voyager, this attack may be in any direction.",
 		factions: [
@@ -566,6 +598,7 @@ module.exports = [
 			"80002"
 		],
 		name: "Vorta",
+		image: "https://i.imgur.com/kYRu7KI.png",
 		unique: false,
 		text: "",
 		factions: [
@@ -583,6 +616,7 @@ module.exports = [
 			"75013"
 		],
 		name: "Alynna Nechayev",
+		image: "https://i.imgur.com/tFW4LHu.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING:</b> \n\n You may re-roll all [blank]. If the defending ship is either a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ship or a <img src='img/text/faction-borg.png' width='20' height='20' title='Borg'> ship, roll +1 attack die.",
 		factions: [
@@ -600,6 +634,7 @@ module.exports = [
 			"75013"
 		],
 		name: "Theoderich Patterson",
+		image: "https://i.imgur.com/BDm0g8k.png",
 		unique: true,
 		text: "<b>WHEN DEFENDING:</b> If there is a [scan] Token beside this ship: \n\n Roll +1 defense die and you may re-roll up to 2 [blank] .",
 		factions: [
@@ -617,6 +652,7 @@ module.exports = [
 			"75013"
 		],
 		name: "Strickler",
+		image: "https://i.imgur.com/toBRheV.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING:</b> If the defending ship has a Hull Value of 3 or less. \n\n Add 1 [hit]. If the defending ship is an <img class='centered' src='img/text/faction-indy.png' width='20' height='20' title='Independent'> ship or has an <img class='centered' src='img/text/faction-indy.png' width='20' height='20' title='Independent'> Captain equipped to it, add 1 [crit] instead.",
 		factions: [
@@ -634,6 +670,7 @@ module.exports = [
 			"75013"
 		],
 		name: "George Sanders",
+		image: "https://i.imgur.com/VNtdzA4.png",
 		unique: true,
 		text: "<b>AFTER A FRIENDLY <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP WITHIN RANGE IS HIT:</b> \n\n\n You may perform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'>, 1 <img src='img/stuff/maneuver_straight_white.png' width='20' height='20'>, or a 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'> Maneuver. If this ship has the 'Federation Prototype' [hook] equipped, you may perform a 1 <img src='img/stuff/maneuver_turn_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_turn_right_white.png' width='20' height='20'> Maneuver instead.",
 		factions: [
@@ -669,6 +706,7 @@ module.exports = [
 			"75012"
 		],
 		name: "Rekar",
+		image: "https://i.imgur.com/WEgDbVm.png",
 		unique: true,
 		text: "You do not pay faction penalty when equipping this card or any <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> [crew_text] Upgrades to this <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ship. \n<hr> <b>WHEN ATTACKING WITH A [weapon_text] UPGRADE:</b> \n\n You may re-roll up to 2 [blank] . If that Upgrade is a non-<img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> [weapon_text], roll +1 Attack die.",
 		factions: [
@@ -703,6 +741,7 @@ module.exports = [
 			"75012"
 		],
 		name: "Donatra",
+		image: "https://i.imgur.com/fK2PsMo.png",
 		unique: true,
 		text: "<b>WHEN A FRIENDLY SHIP WITHIN RANGE IS ATTACKING:</b>\n\n That friendly ship may roll +1 attack die. If that friendly ship is either a <img src='img/text/rom-valdore.png' width='18' height='18' title='Valdore Class'> or a <img src='img/text/fed-sovereign.png' width='18' height='18' title='Sovereign Class'> it may also convert 1 [blank] into 1 [hit].",
 		factions: [
@@ -721,6 +760,7 @@ module.exports = [
 			"75012"
 		],
 		name: "Shinzon",
+		image: "https://i.imgur.com/4ju3rI6.png",
 		unique: true,
 		text: "Add the [battlestations] Action to this ship's Action Bar. \n<hr> <b>FREE ACTION:</b> If this ship is cloaked. \n\n Perform an Action on this ship's Action Bar as a Free Action.",
 		factions: [
@@ -738,6 +778,7 @@ module.exports = [
 			"75011"
 		],
 		name: "Leyton",
+		image: "https://i.imgur.com/do2dLgw.png",
 		unique: true,
 		text: "ACTION:</b> Target a ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n The target ship attacks last this turn.",
 		factions: [
@@ -756,6 +797,7 @@ module.exports = [
 			"75011"
 		],
 		name: "Worf",
+		image: "https://i.imgur.com/aqMCNkU.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, spend a [battlestations] Token beside this ship.\n\n Convert all [blank] to [hit].",
 		factions: [
@@ -774,6 +816,7 @@ module.exports = [
 			"75011"
 		],
 		name: "Jadzia Dax",
+		image: "https://i.imgur.com/SL7HbCc.jpg",
 		unique: true,
 		text: "You do not pay a faction penalty when equipping <img src='img/text/faction-klingon.png' width='20' height='20' title='Klingon'> [talent_text] Upgrade to this card.\n<hr> <b>ACTIVATION PHASE:</b> \n\nThis ship may perform a 1 <img src='img/stuff/maneuver_bank_left_white.png' width='20' height='20'> or 1 <img src='img/stuff/maneuver_bank_right_white.png' width='20' height='20'>.",
 		factions: [
@@ -791,6 +834,7 @@ module.exports = [
 			"75011"
 		],
 		name: "Keogh",
+		image: "https://i.imgur.com/myTYkZK.png",
 		unique: true,
 		text: "<b>MODIFY ATTACK DICE STEP:</b> When a friendly <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ship in range is defending and the attacking ship is in this ship's <img src='img/text/forward-arc.png' width='18' height='18' title='Front Arc'> and in range:\n\n Convert 1 [hit] into [blank].",
 		factions: [
@@ -809,6 +853,7 @@ module.exports = [
 			"75011"
 		],
 		name: "Benjamin Sisko",
+		image: "https://i.imgur.com/B8LMIrB.jpg",
 		unique: true,
 		text: "<b>WHEN ATTACKING:</b> During the Modify Attack Dice Step, if the defending ship is a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> ship or has a <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> Captain equipped to it:\n\n Add 1 [crit] \n<hr> <b>END PHASE:</b> \n\nRemove one <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship.",
 		factions: [
@@ -921,6 +966,7 @@ module.exports = [
 			"72012"
 		],
 		name: "Species 8472",
+		image: "https://i.imgur.com/ySnIjc6.png",
 		unique: false,
 		text: "",
 		factions: [
@@ -1177,6 +1223,7 @@ module.exports = [
 			"71536"
 		],
 		name: "Gareb",
+		image: "https://i.imgur.com/lLU0F1R.png",
 		unique: true,
 		text: "At the start of the game, after set up, place a Captain Card under this card so that the Skill Number is visible. This is the Captain Skill of this Card. The cost of this card is the cost of the Captain Card at -3 SP (Min 0). Gareb can field 1 [talent_text] Upgrade for each [talent_text] icon on the Captain Card. This card cannot be affected by anything that affects Captain Cards and may only be purchased for a Romulan Drone Ship.",
 		factions: [
@@ -1195,6 +1242,7 @@ module.exports = [
 			"72014wp"
 		],
 		name: "Romulan Drone Pilot",
+		image: "https://i.imgur.com/SHSyj0s.png",
 		unique: false,
 		text: "This card cannot be affected by anything that affects Captain Cards and may only be assigned to a Romulan Drone Ship",
 		factions: [
@@ -1328,6 +1376,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Gint",
+		image: "https://i.imgur.com/FRQB9Zi.png",
 		cost: 3,
 		skill: 2,
 		talents: 0,
@@ -1363,6 +1412,7 @@ module.exports = [
 			"72281"
 		],
 		name: "Aquatic Councilor",
+		image: "https://i.imgur.com/KygKT0o.png",
 		cost: 1,
 		skill: 2,
 		talents: 0,
@@ -1380,6 +1430,7 @@ module.exports = [
 			"72263"
 		],
 		name: "John Harriman",
+		image: "https://i.imgur.com/amFEBGE.png",
 		cost: 1,
 		skill: 2,
 		talents: 0,
@@ -1397,6 +1448,7 @@ module.exports = [
 			"71211"
 		],
 		name: "AKOREM LAAN",
+		image: "https://i.imgur.com/AXMMKdI.png",
 		cost: 1,
 		skill: 2,
 		talents: 0,
@@ -1414,6 +1466,7 @@ module.exports = [
 			"71222"
 		],
 		name: "Bochra",
+		image: "https://i.imgur.com/BYKlVKG.png",
 		cost: 1,
 		skill: 2,
 		talents: 0,
@@ -1431,6 +1484,7 @@ module.exports = [
 			"71121"
 		],
 		name: "Clark Terrell",
+		image: "https://i.imgur.com/LzNUXCp.png",
 		unique: true,
 		text: "Any friendly ship within Range 1 of your ship gains +1 defense die.",
 		factions: [
@@ -1448,6 +1502,7 @@ module.exports = [
 			"71128"
 		],
 		name: "Sar",
+		image: "https://i.imgur.com/m7BT4VD.png",
 		unique: true,
 		text: "When defending, your ship rolls 1 extra defense die. ",
 		factions: [
@@ -1465,6 +1520,7 @@ module.exports = [
 			"71276"
 		],
 		name: "Maxwell Burke",
+		image: "https://i.imgur.com/zt4bxkF.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard this card to gain +2 attack dice this round.",
 		factions: [
@@ -1482,6 +1538,7 @@ module.exports = [
 			"71282"
 		],
 		name: "Rettik",
+		image: "https://i.imgur.com/AwsBeEb.png",
 		unique: true,
 		text: "Each time you defend, you may re-roll 1 of your blank results one time.",
 		factions: [
@@ -1499,6 +1556,7 @@ module.exports = [
 			"71525"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/DC76ejg.png",
 		unique: true,
 		text: "At the start of the game, place 2 Drone Tokens on this card. \n\nEach time you defend, during the Roll Defense Dice step of the Combat Phase, you may spend 1 Drone Token to roll 1 attack die. A [hit] or [crit] result damages the attacking ship as normal. The attacking ship does not roll any defense dice against this.",
 		factions: [
@@ -1516,6 +1574,7 @@ module.exports = [
 			"71646d"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/WAOcHyd.png",
 		unique: false,
 		text: "At the start of the game, place 2 Drone Tokens on this card. \n\nDuring the Activation Phase, before you move, you may spend 1 Drone Token to remove 1 Auxiliary Power Token from beside your ship.",
 		factions: [
@@ -1534,6 +1593,7 @@ module.exports = [
 			"72252"
 		],
 		name: "Hiren",
+		image: "https://i.imgur.com/OnbKdFx.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable 1 of your [crew_text] Upgrades to gain +1 attack die this round.",
 		factions: [
@@ -1551,6 +1611,7 @@ module.exports = [
 			"71795"
 		],
 		name: "Tholian Pilot",
+		image: "https://i.imgur.com/7FmlNQg.png",
 		unique: false,
 		text: "<b>ACTION:</b> If you performed a Green Maneuver this round, repair 1 Shield Token.\r\n\r\nYou may only use this Action if this card is equipped to a Tholian ship.",
 		factions: [
@@ -1568,6 +1629,7 @@ module.exports = [
 			"71794"
 		],
 		name: "Centurion",
+		image: "https://i.imgur.com/Wo6flBd.png",
 		unique: true,
 		text: "When attacking, you may re-roll one of your [battlestations] results.",
 		factions: [
@@ -1585,6 +1647,7 @@ module.exports = [
 			"71801"
 		],
 		name: "Ronald Moore",
+		image: "https://i.imgur.com/ZC5vmSG.png",
 		unique: true,
 		text: "If your ship has a Hull Value of 3 or less, during the Activation Phase, you may disable this card to place a [battlestations] Token beside your ship.",
 		factions: [
@@ -1602,6 +1665,7 @@ module.exports = [
 			"71803"
 		],
 		name: "Jaro Essa",
+		image: "https://i.imgur.com/MwLAtdH.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard 1 of your Bajoran [crew_text] Upgrades to perform this Action. Each time you defend this round, during the Roll Defense Dice step, roll 2 additional dice. \n\nThis card may only be purchased for a Bajoran ship.",
 		factions: [
@@ -1619,6 +1683,7 @@ module.exports = [
 			"71802"
 		],
 		name: "The Doctor",
+		image: "https://i.imgur.com/6s9Zf6o.png",
 		unique: true,
 		text: "At the start of the Combat Phase, you may attempt to increase your Skill Number. If you do so, roll 1 attack die. If you roll a [hit] or [crit] result, your Captain Skill is a 10 until the End Phase. Otherwise, your Captain Skill is a 0 until the End Phase. Either way, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -1636,6 +1701,7 @@ module.exports = [
 			"blind_bioship"
 		],
 		name: "Bioship Omega Pilot",
+		image: "https://i.imgur.com/zarBZ6Q.png",
 		cost: 1,
 		skill: 2,
 		talents: 0,
@@ -1653,6 +1719,7 @@ module.exports = [
 			"72002p"
 		],
 		name: "Matt Decker",
+		image: "https://i.imgur.com/KRETskD.png",
 		cost: 1,
 		skill: 2,
 		talents: 1,
@@ -1670,6 +1737,7 @@ module.exports = [
 			"72011"
 		],
 		name: "Haden",
+		image: "https://i.imgur.com/YDbIbV4.png",
 		cost: 1,
 		skill: 2,
 		talents: 0,
@@ -1687,6 +1755,7 @@ module.exports = [
 			"72000b"
 		],
 		name: "Q",
+		image: " https://i.imgur.com/4UudY4u.png",
 		cost: 1,
 		skill: 2,
 		talents: 1,
@@ -1709,6 +1778,7 @@ module.exports = [
 			"72013"
 		],
 		name: "Zek",
+		image: "https://i.imgur.com/lQRgDF9.png",
 		cost: 1,
 		skill: 2,
 		talents: 1,
@@ -1726,6 +1796,7 @@ module.exports = [
 			"73042"
 		],
 		name: "Idrin",
+		image: "https://i.imgur.com/3CWWmIO.png",
 		cost: 2,
 		skill: 3,
 		talents: 1,
@@ -1743,6 +1814,7 @@ module.exports = [
 			"75001"
 		],
 		name: "Romulan Captain",
+		image: "https://i.imgur.com/HUREpJ2.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1760,6 +1832,7 @@ module.exports = [
 			"75001"
 		],
 		name: "Mirok",
+		image: "https://i.imgur.com/1dlbteD.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1777,6 +1850,7 @@ module.exports = [
 			"72014wp"
 		],
 		name: "Jhamel",
+		image: "https://i.imgur.com/3iIl1Fv.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1797,6 +1871,7 @@ module.exports = [
 			"72011wp"
 		],
 		name: "J.T. Esteban",
+		image: "https://i.imgur.com/2reaDrM.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1814,6 +1889,7 @@ module.exports = [
 			"72242"
 		],
 		name: "Tal",
+		image: "https://i.imgur.com/9WG1iuq.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1849,6 +1925,7 @@ module.exports = [
 			"72234p"
 		],
 		name: "Matt Decker",
+		image: "https://i.imgur.com/8KV4hKz.png",
 		cost: 2,
 		skill: 3,
 		talents: 1,
@@ -1866,6 +1943,7 @@ module.exports = [
 			"72233"
 		],
 		name: "Vrax",
+		image: "https://i.imgur.com/hS9IqxU.png",
 		cost: 2,
 		skill: 3,
 		talents: 1,
@@ -1901,6 +1979,7 @@ module.exports = [
 			"72221p"
 		],
 		name: "TEBOK",
+		image: "https://i.imgur.com/UCsuoYm.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -1918,6 +1997,7 @@ module.exports = [
 			"71123"
 		],
 		name: "Tomalak",
+		image: "https://i.imgur.com/K6dexq7.png",
 		unique: true,
 		text: "When firing at Range 3, the opposing ship does not roll an extra defense die.",
 		factions: [
@@ -1935,6 +2015,7 @@ module.exports = [
 			"71127"
 		],
 		name: "Gul Danar",
+		image: "https://i.imgur.com/aLchzrA.png",
 		unique: true,
 		text: "When attacking, you may re-roll 1 blank result. ",
 		factions: [
@@ -1953,6 +2034,7 @@ module.exports = [
 			"72282"
 		],
 		name: "Kira Nerys",
+		image: "https://i.imgur.com/bFx54Y7.png",
 		unique: true,
 		text: "If a [crew_text] Upgrade on an enemy ship would cause your ship to discard or disable any of your Upgrades, roll 2 defense dice. If you roll at least 1 [evade] result, ignore the effects of the enemy Upgrade. \nYou do not pay a Faction penalty when assigning Kira Nerys to a Federation ship.",
 		factions: [
@@ -1970,6 +2052,7 @@ module.exports = [
 			"71271"
 		],
 		name: "Luaran",
+		image: "https://i.imgur.com/HqPQdLQ.png",
 		unique: true,
 		text: "One of your Dominion Upgrades costs -2 Squadron Points.",
 		factions: [
@@ -2006,6 +2089,7 @@ module.exports = [
 			"72292"
 		],
 		name: "Styles",
+		image: "https://i.imgur.com/hXkZa2D.png",
 		unique: true,
 		text: "Add 1 additional [tech_text] icon to your ship's Upgrade Bar.",
 		factions: [
@@ -2023,6 +2107,7 @@ module.exports = [
 			"71446"
 		],
 		name: "Tavek",
+		image: "https://i.imgur.com/TqsNDm1.png",
 		unique: true,
 		text: "Add 1 [crew_text] Upgrade slot to your Upgrade Bar.",
 		factions: [
@@ -2040,6 +2125,7 @@ module.exports = [
 			"71445"
 		],
 		name: "Lenaris Holem",
+		image: "https://i.imgur.com/UELkkyQ.png",
 		unique: true,
 		text: "Each time you are attacked, if you have an [evade] Token beside your ship, you may re-roll 1 of your defense dice.",
 		factions: [
@@ -2057,6 +2143,7 @@ module.exports = [
 			"71523"
 		],
 		name: "Will Decker",
+		image: "https://i.imgur.com/H2RL5s2.png",
 		unique: true,
 		text: "During the Modify Attack Dice step of the Combat Phase, you may destroy one of your Active Shields to add 1 additional [crit] result to your attack roll.",
 		factions: [
@@ -2074,6 +2161,7 @@ module.exports = [
 			"71509"
 		],
 		name: "Magnus Hansen",
+		image: "https://i.imgur.com/O3tS8gZ.png",
 		unique: true,
 		text: "During the Modify Defense Dice step of the Combat Phase, you may spend 1 [scan] token to add 1 additional [evade] result to your defense roll. \n\nYou do not pay a Faction penalty when assigning Magnus Hansen to a Federation ship.",
 		factions: [
@@ -2091,6 +2179,7 @@ module.exports = [
 			"71526"
 		],
 		name: "J. Hayes",
+		image: "https://i.imgur.com/SDOZEjW.png",
 		unique: true,
 		text: "<b>ACTION:</b> Gain +1 attack die this round. At the end of the Combat Phase, suffer 1 normal damage to your Hull.",
 		factions: [
@@ -2108,6 +2197,7 @@ module.exports = [
 			"71525"
 		],
 		name: "Third of Five",
+		image: "https://i.imgur.com/sHFYcLa.png",
 		unique: true,
 		text: "At the start of the game, place 3 Drone Tokens on this card. \nDuring the Roll Defense Dice step of the Combat Phase, you may spend 1 Drone Token to roll +1 defense die. \nYou cannot assign this card to the same ship or fleet as \"Hugh\".",
 		factions: [
@@ -2125,6 +2215,7 @@ module.exports = [
 			"71646b"
 		],
 		name: "Elim Garak",
+		image: "https://i.imgur.com/ts5EqdQ.png",
 		unique: true,
 		text: "During the Roll Attack Dice step of the Combat Phase, you may discard 1 of your [crew_text] Upgrades to roll +1 attack die.",
 		factions: [
@@ -2142,6 +2233,7 @@ module.exports = [
 			"71646c"
 		],
 		name: "Haron",
+		image: "https://i.imgur.com/NFKGbGu.png",
 		unique: true,
 		text: "Add 1 [weapon_text] Upgrade slot to your Upgrade Bar. \n\nAll of your Kazon [weapon_text] Upgrades cost -1 SP.",
 		factions: [
@@ -2194,6 +2286,7 @@ module.exports = [
 			"71797"
 		],
 		name: "Slar",
+		image: "https://i.imgur.com/T4F4TNE.png",
 		unique: true,
 		text: "You may field the \"Salvage\" [talent_text] Upgrade.",
 		factions: [
@@ -2211,6 +2304,7 @@ module.exports = [
 			"71798"
 		],
 		name: "Gul Ocett",
+		image: "https://i.imgur.com/9dRzNth.png",
 		unique: true,
 		text: "If you damage an opponent's Hull with a [crit], you may search the Damage Deck for a \"Power Disruption\" or a \"Minor Explosion\" card instead of drawing a random Damage Card. Re-shuffle the Damage Deck when you are done.",
 		factions: [
@@ -2228,6 +2322,7 @@ module.exports = [
 			"71997p"
 		],
 		name: "Data",
+		image: "https://i.imgur.com/A2sNrxK.png",
 		unique: true,
 		text: "At the start of the game, place 1 [evade], 1 [scan], and 1 [battlestations] Token on this card. During the Activation Phase, you may take 1 of these Tokens off this card and place it beside your ship, even if there is already one there.",
 		factions: [
@@ -2245,6 +2340,7 @@ module.exports = [
 			"71800"
 		],
 		name: "Gardner",
+		image: "https://i.imgur.com/H7RviwA.png",
 		unique: true,
 		text: "<b>ACTION:</b> When attacking with your Primary Weapon, during the Roll Attack Dice step, gain +1 attack die this round. Each time you defend this round, during the Roll Defense Dice step, roll -1 defense die. You cannot perform free Actions this round.",
 		factions: [
@@ -2262,6 +2358,7 @@ module.exports = [
 			"71801"
 		],
 		name: "Erik Pressman",
+		image: "https://i.imgur.com/i5BKQcX.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable 1 of your [tech_text] Upgrade to gain +1 attack die with your Primary Weapon this round.\n\nOR\n\n<b>ACTION:</b> Discard 1 of your [tech_text] Upgrades to gain +2 attack dice with your Primary Weapon this round.",
 		factions: [
@@ -2279,6 +2376,7 @@ module.exports = [
 			"blind_belak"
 		],
 		name: "Lovok",
+		image: "https://i.imgur.com/x6mcOBQ.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -2296,6 +2394,7 @@ module.exports = [
 			"71805"
 		],
 		name: "Arturis",
+		image: "https://i.imgur.com/NJCyHtC.png",
 		cost: 5,
 		skill: 3,
 		talents: 1,
@@ -2317,6 +2416,7 @@ module.exports = [
 			"71806"
 		],
 		name: "Tarr",
+		image: "https://i.imgur.com/kLVaZqt.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -2338,6 +2438,7 @@ module.exports = [
 			"72013"
 		],
 		name: "Quark",
+		image: "https://i.imgur.com/LvkIjGz.png",
 		cost: 2,
 		skill: 3,
 		talents: 1,
@@ -2355,6 +2456,7 @@ module.exports = [
 			"72016"
 		],
 		name: "Telek R'Mor",
+		image: "https://i.imgur.com/jEwgUYS.png",
 		cost: 2,
 		skill: 3,
 		talents: 0,
@@ -2372,6 +2474,7 @@ module.exports = [
 			"blind_tohkaht"
 		],
 		name: "Kaybok",
+		image: "https://i.imgur.com/aPtnGdb.png",
 		cost: 2,
 		skill: 3,
 		talents: 1,
@@ -2411,6 +2514,7 @@ module.exports = [
 			"75004"
 		],
 		name: "Vidiian Captain",
+		image: "https://i.imgur.com/f1ByO92.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -2429,6 +2533,7 @@ module.exports = [
 			"73031"
 		],
 		name: "Gorn Captain",
+		image: "https://i.imgur.com/EZxzqEH.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -2447,6 +2552,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Daimon Solok",
+		image: "https://i.imgur.com/w14CscT.png",
 		cost: 2,
 		skill: 4,
 		talents: 1,
@@ -2500,6 +2606,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Data",
+		image: "https://i.imgur.com/znAjgKg.png",
 		cost: 3,
 		skill: 4,
 		talents: 0,
@@ -2518,6 +2625,7 @@ module.exports = [
 			"75002"
 		],
 		name: "Kilana",
+		image: "https://i.imgur.com/Pm5cF8p.png",
 		cost: 2,
 		skill: 4,
 		talents: 1,
@@ -2535,6 +2643,7 @@ module.exports = [
 			"72293"
 		],
 		name: "Degra",
+		image: "https://i.imgur.com/uChjJlU.png",
 		cost: 3,
 		skill: 4,
 		talents: 0,
@@ -2605,6 +2714,7 @@ module.exports = [
 			"72262p"
 		],
 		name: "Tal",
+		image: "https://i.imgur.com/Eh5AiQD.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -2622,6 +2732,7 @@ module.exports = [
 			"72253"
 		],
 		name: "Donald Varley",
+		image: "https://i.imgur.com/VPpVjaI.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -2656,6 +2767,7 @@ module.exports = [
 			"71221"
 		],
 		name: "Tim Watters",
+		image: "https://i.imgur.com/8nDudhS.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -2673,6 +2785,7 @@ module.exports = [
 			"71124"
 		],
 		name: "Mirok",
+		image: "https://i.imgur.com/mdoimfz.png",
 		unique: true,
 		text: "After you move, if at least one friendly ship is within Range 1 of your ship, repair 1 damage to your Hull or Shields. ",
 		factions: [
@@ -2710,6 +2823,7 @@ module.exports = [
 			"72262"
 		],
 		name: "Gul Evek",
+		image: "https://i.imgur.com/ZqqGTuo.png",
 		unique: true,
 		text: "Each time you defend, you may re-roll all of your blank results one time.",
 		factions: [
@@ -2727,6 +2841,7 @@ module.exports = [
 			"OP4Prize"
 		],
 		name: "Data",
+		image: "https://i.imgur.com/G8u5VEs.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable 1 of your [crew_text] upgrades and 1 of your [weapon_text] upgrades to target all Cloaked ship at range 1-3 of your ship. Target ships immediately flip their [cloak] tokens to their red sides. ",
 		factions: [
@@ -2744,6 +2859,7 @@ module.exports = [
 			"71276"
 		],
 		name: "Rudolph Ransom",
+		image: "https://i.imgur.com/B4rbBSI.png",
 		unique: true,
 		text: "When defending, if there is an [evade] token beside your ship, roll +2 defense dice.",
 		factions: [
@@ -2762,6 +2878,7 @@ module.exports = [
 			"72283"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/sH47ZxZ.png",
 		unique: false,
 		text: "At the start of the game, place 4 Drone Tokens on this card. \n\nWhen attacking, you may spend 1 Drone Token to choose any number of your attack dice and re-roll them once.",
 		factions: [
@@ -2779,6 +2896,7 @@ module.exports = [
 			"71282"
 		],
 		name: "Culluh",
+		image: "https://i.imgur.com/6l8oVam.png",
 		unique: true,
 		text: "After you move, you may discard 1 of your [crew_text] Upgrades to perform one of the Actions listed on your Action Bar as a free Action this round.",
 		factions: [
@@ -2797,6 +2915,7 @@ module.exports = [
 			"71795"
 		],
 		name: "Loskene",
+		image: "https://i.imgur.com/GxhJxvq.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target 1 friendly ship that is not within Range 1-3 of your ship and whose Captain has a lower Skill than Loskene's. Target ship may immediately perform an additional 1 or 2 Maneuver (straight, bank or turn). The additional Maneuver must be on the target ship's Maneuver Dial.",
 		factions: [
@@ -2814,6 +2933,7 @@ module.exports = [
 			"OPArenaPrize"
 		],
 		name: "Gorn Commander",
+		image: "https://i.imgur.com/fslPCTW.png",
 		unique: true,
 		text: "When attacking, you may convert 1 blank result into 1 [hit] result.",
 		factions: [
@@ -2831,6 +2951,7 @@ module.exports = [
 			"71522"
 		],
 		name: "Hugh",
+		image: "https://i.imgur.com/07vuI6a.png",
 		unique: true,
 		text: "All of your [crew_text] Upgrades cost -1 SP.\n\nYou do not pay a Faction penalty when assigning any Borg Upgrades to your ship.",
 		factions: [
@@ -2848,6 +2969,7 @@ module.exports = [
 			"71524"
 		],
 		name: "Keevan",
+		image: "https://i.imgur.com/OMQgpzy.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target 1 enemy ship at Range 1-2 in your forward firing arc.  Your ship cannot attack any other ship this round and must attack that ship, if possible.  During the Combat Phase, if your ship attacks with its Primary Weapon, it resolves its attack immediately before the target ship, as if it had a higher Captain Skill than that ship.  If the target ship attacks  your ship this round, it gains +4 attack dice.",
 		factions: [
@@ -2865,6 +2987,7 @@ module.exports = [
 			"71526"
 		],
 		name: "Maxwell Forrest",
+		image: "https://i.imgur.com/FPDy3YZ.png",
 		unique: true,
 		text: "<b>ACTION:</b> Perform an additional 1 Maneuver (straight, bank or turn).",
 		factions: [
@@ -2882,6 +3005,7 @@ module.exports = [
 			"71527"
 		],
 		name: "Kuvak",
+		image: "https://i.imgur.com/z9hZDDL.png",
 		unique: true,
 		text: "After you move, if you perform an [evade] Action, you may place 2 [evade] Tokens beside your ship instead of 1 if your ship is not in the forward firing arc of any enemy ships.\n\n<b>( ERRATA )</b>",
 		factions: [
@@ -2900,6 +3024,7 @@ module.exports = [
 			"72271"
 		],
 		name: "Matthew Dougherty",
+		image: "https://i.imgur.com/dVaI9kW.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable 1 of your Upgrades to perform this Action. Each time you defend this round, during the Roll Defense Dice step of the Combat Phase, roll +1 defense die.",
 		factions: [
@@ -2917,6 +3042,7 @@ module.exports = [
 			"71529"
 		],
 		name: "Benjamin Sisko",
+		image: "https://i.imgur.com/qXGSSHi.png",
 		unique: true,
 		text: "During the Roll Attack Dice step of the Combat Phase, you may discard up to 2 of your Upgrades ([crew_text], [tech_text] or [weapon_text]). If you do so, gain +1 attack die to that attack for each Upgrade you discarded with this card.",
 		factions: [
@@ -2952,6 +3078,7 @@ module.exports = [
 			"71535"
 		],
 		name: "Kira Nerys",
+		image: "https://i.imgur.com/jvz7yfx.png",
 		unique: true,
 		text: "When a [crew_text] Upgrade on an enemy ship within Range 1-2 of your ship performs an Action that would affect your ship, you may disable this card to prevent that Action from taking effect. If you do this, the enemy ship cannot take another Action that round. If the enemy [crew_text] Upgrade was disabled to perform the Action, it remains disabled. If the enemy [crew_text] Upgrade was discarded to perform the Action, disable it instead.",
 		factions: [
@@ -2969,6 +3096,7 @@ module.exports = [
 			"71798"
 		],
 		name: "Gul Lemec",
+		image: "https://i.imgur.com/18WQtRB.png",
 		unique: true,
 		text: "When attacking a ship whose Captain has a lower Skill number than Gul Lemec's, gain +1 attack die against that ship.",
 		factions: [
@@ -2986,6 +3114,7 @@ module.exports = [
 			"71800"
 		],
 		name: "Soval",
+		image: "https://i.imgur.com/GmfLbHu.png",
 		unique: true,
 		text: "You do not pay a faction penalty when deploying any Upgrades to your ship.",
 		factions: [
@@ -3003,6 +3132,7 @@ module.exports = [
 			"71800"
 		],
 		name: "Black",
+		image: "https://i.imgur.com/lRzK4rE.png",
 		unique: true,
 		text: "<b>ACTION:</b> Perform a [sensor-echo] Action with a 1 [forward] Maneuver Template, even if your ship is not cloaked or does not have the [sensor-echo] icon on its Action Bar. Each time you defend this round, during the Modify Defense Dice step, you may re-roll one of your blank results. Place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -3020,6 +3150,7 @@ module.exports = [
 			"71799"
 		],
 		name: "Obrist",
+		image: "https://i.imgur.com/TLME4TS.png",
 		unique: true,
 		text: "At the start of the game, place 1 Mission Token on this card.\n\n<b>ACTION:</b> If you performed a Green Maneuver this round, discard the Mission Token from this card and 1 of your [weapon_text] Upgrade to target a ship at Range 1-3. You cannot attack or be attacked by that ship this round. You cannot perform any free Actions this round.",
 		factions: [
@@ -3038,6 +3169,7 @@ module.exports = [
 			"71998p"
 		],
 		name: "Robert DeSoto",
+		image: "https://i.imgur.com/g0EwaAr.png",
 		unique: true,
 		text: "Each time you defend, you may re-roll a number of your defense dice equal to the number of [crew_text] Upgrades assigned to your ship (max 3 dice).",
 		factions: [
@@ -3055,6 +3187,7 @@ module.exports = [
 			"71803"
 		],
 		name: "Day Kannu",
+		image: "https://i.imgur.com/k2ewowL.png",
 		unique: true,
 		text: "When attacking with your Primary Weapon, during the Roll Attack Dice step, you may set one of your attack dice on the result of your choice. If you do so, place an Auxiliary Power Token beside your ship. This die cannot be rolled or re-rolled during the round you use this ability.",
 		factions: [
@@ -3108,6 +3241,7 @@ module.exports = [
 			"72300p"
 		],
 		name: "Tom Paris",
+		image: "https://i.imgur.com/7xrV7lJ.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -3125,6 +3259,7 @@ module.exports = [
 			"72014"
 		],
 		name: "Tom Paris",
+		image: "https://i.imgur.com/jXNGwv9.png",
 		cost: 2,
 		skill: 4,
 		talents: 0,
@@ -3142,6 +3277,7 @@ module.exports = [
 			"71806"
 		],
 		name: "Bractor",
+		image: "https://i.imgur.com/G8XG9ib.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -3163,6 +3299,7 @@ module.exports = [
 			"blind_lakota"
 		],
 		name: "Erika Benteen",
+		image: "https://i.imgur.com/JGK1sEy.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -3180,6 +3317,7 @@ module.exports = [
 			"72013"
 		],
 		name: "Brunt",
+		image: "https://i.imgur.com/QUmjpaW.png",
 		cost: 3,
 		skill: 4,
 		talents: 0,
@@ -3197,6 +3335,7 @@ module.exports = [
 			"blind_seleya"
 		],
 		name: "Tavin",
+		image: "https://i.imgur.com/vIQKoLt.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -3214,6 +3353,7 @@ module.exports = [
 			"72000p"
 		],
 		name: "Tomalak",
+		image: "https://i.imgur.com/YbmM8Gg.png",
 		cost: 3,
 		skill: 4,
 		talents: 1,
@@ -3235,6 +3375,7 @@ module.exports = [
 			"72008"
 		],
 		name: "Shanthi",
+		image: "https://i.imgur.com/z0LNi5t.png",
 		cost: 2,
 		skill: 4,
 		talents: 1,
@@ -3252,6 +3393,7 @@ module.exports = [
 			"73042"
 		],
 		name: "Hirogen Hunter",
+		image: "https://i.imgur.com/Axpj6F0.png",
 		cost: 4,
 		skill: 5,
 		talents: 1,
@@ -3269,6 +3411,7 @@ module.exports = [
 			"73032"
 		],
 		name: "Vorta Commander",
+		image: "https://i.imgur.com/OFR2QiV.png",
 		cost: 3,
 		skill: 5,
 		talents: 0,
@@ -3304,6 +3447,7 @@ module.exports = [
 			"72282gp"
 		],
 		name: "Movar",
+		image: "https://i.imgur.com/iiFA3ui.png",
 		cost: 3,
 		skill: 5,
 		talents: 0,
@@ -3339,6 +3483,7 @@ module.exports = [
 			"72242"
 		],
 		name: "Liviana Charvanek",
+		image: "https://i.imgur.com/F9MJQtb.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3392,6 +3537,7 @@ module.exports = [
 			"72224p"
 		],
 		name: "Kolo",
+		image: "https://i.imgur.com/c31vDA6.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3409,6 +3555,7 @@ module.exports = [
 			"72231"
 		],
 		name: "Orfil Quinteros",
+		image: "https://i.imgur.com/R0owfPz.png",
 		cost: 3,
 		skill: 5,
 		talents: 0,
@@ -3426,6 +3573,7 @@ module.exports = [
 			"71192"
 		],
 		name: "Surat",
+		image: "https://i.imgur.com/Ft2ue8D.png",
 		cost: 3,
 		skill: 5,
 		talents: 0,
@@ -3461,6 +3609,7 @@ module.exports = [
 			"71127"
 		],
 		name: "Gul Ranor",
+		image: "https://i.imgur.com/Aj9Skjr.png",
 		unique: true,
 		text: "<b>ACTION:</b> Perform an additional 1 [forward] or 2 [forward] Maneuver. Place an Auxiliary Power Token beside your ship. ",
 		factions: [
@@ -3478,6 +3627,7 @@ module.exports = [
 			"73001"
 		],
 		name: "Daimon Goss",
+		image: "https://i.imgur.com/CkwQlIM.png",
 		unique: true,
 		text: "<b>SETUP:</b>\n\n Place 3 Gold-Pressed Latinum Tokens on this card.\n<hr> <b>PLANNING PHASE:</b> Target an Obstacle, spend 3 GPLT and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n<b>Continuous Effect:</b> While this ship is within Range of the target Obstacle, this ship rolls +3 defense dice.",
 		factions: [
@@ -3496,6 +3646,7 @@ module.exports = [
 			"OP1Prize"
 		],
 		name: "Daimon Tog",
+		image: "https://i.imgur.com/HVNQm0q.png",
 		unique: true,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, disable all of your remaining Shields and target a ship at Range 1-2 that is not Cloaked and has no Active Shields. Disable 1 of your non-disabled [crew_text] Upgrades and then disable 1 [crew_text] Upgrade of your choice on the target ship.",
 		factions: [
@@ -3531,6 +3682,7 @@ module.exports = [
 			"71270"
 		],
 		name: "Valdore",
+		image: "https://i.imgur.com/sI71Nu8.png",
 		unique: true,
 		text: "When attacking, if your ship is not in the target ship's forward firing arc, add +1 attack die.",
 		factions: [
@@ -3584,6 +3736,7 @@ module.exports = [
 			"71279"
 		],
 		name: "Gelnon",
+		image: "https://i.imgur.com/LyKet3m.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target an enemy ship in your forward firing arc within Range 1 and immediately roll 2 attack dice. The target ship does not roll any defense dice against this attack and sustains damage as normal for each [hit] or [crit]. If you roll at least 1 [battlestations] result, place a [battlestations] Token beside your ship.",
 		factions: [
@@ -3601,6 +3754,7 @@ module.exports = [
 			"OP6Prize"
 		],
 		name: "Kira Nerys",
+		image: "https://i.imgur.com/7pN5SHJ.png",
 		unique: true,
 		text: "<b>ACTION:</b> All other friendly ships within Range 1-2 of your ship may immediately perform a  [target-lock] Action as a free Action, if possible.",
 		factions: [
@@ -3618,6 +3772,7 @@ module.exports = [
 			"OP6Prize"
 		],
 		name: "Tahna Los",
+		image: "https://i.imgur.com/2zli5Ql.png",
 		unique: true,
 		text: "Add 1 additional [tech_text] icon to your ship's Upgrade Bar. One of the [tech_text] upgrades you purchase for Tahna Los's ship costs exactly 3 Squadron Points and is placed face down beside his card; this Upgrade cannot refer to a specific ship or class of ship. This Upgrade remains face down until you decide to use it, and then it is turned face up for the rest of the game.",
 		factions: [
@@ -3636,6 +3791,7 @@ module.exports = [
 			"72261"
 		],
 		name: "Chakotay",
+		image: "https://i.imgur.com/2KG5YHE.png",
 		unique: true,
 		text: "Instead of performing a normal Action, you may disable Chakotay to allow two different crew Upgrades to perform their Actions during the same Round.",
 		factions: [
@@ -3653,6 +3809,7 @@ module.exports = [
 			"71508"
 		],
 		name: "Vanik",
+		image: "https://i.imgur.com/3hmGox1.png",
 		unique: true,
 		text: "All of your Vulcan and Federation [tech_text] Upgrades cost -2 SP.",
 		factions: [
@@ -3670,6 +3827,7 @@ module.exports = [
 			"71526"
 		],
 		name: "Jonathan Archer",
+		image: "https://i.imgur.com/Y4RccHc.png",
 		unique: true,
 		text: "Add 1 [crew_text] Upgrade slot to your Upgrade Bar.\n\n<b>ACTION:</b> Disable up to 2 of your [crew_text] Upgrades. For each [crew_text] Upgrade you disabled with this Action, gain +1 attack die when attacking with your Primary Weapon AND increase your Skill Number by +1 until the End Phase.",
 		factions: [
@@ -3687,6 +3845,7 @@ module.exports = [
 			"71527"
 		],
 		name: "V'Las",
+		image: "https://i.imgur.com/DFiX124.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a ship at Range 1-2. Disable 1 [crew_text] Upgrade of your choice on the target ship.",
 		factions: [
@@ -3704,6 +3863,7 @@ module.exports = [
 			"71511"
 		],
 		name: "Salatrel",
+		image: "https://i.imgur.com/Qvl2gdR.png",
 		unique: true,
 		text: "At the start of the game, after Setup, choose 1 Faction. For the rest of the game, during each Combat Phase, if a ship of that Faction is in your forward firing arc, treat your Captain Skill Number as if it were a 10 until the End Phase of that round.",
 		factions: [
@@ -3721,6 +3881,7 @@ module.exports = [
 			"71528"
 		],
 		name: "Calvin Hudson",
+		image: "https://i.imgur.com/lCsH3Xz.png",
 		unique: true,
 		text: "Add 1 [tech_text], [weapon_text] or [crew_text] Upgrade to your Upgrade Bar (your choice). \n\nIf this card is assigned to an Independent ship, all of your Upgrades cost -1 SP.",
 		factions: [
@@ -3738,6 +3899,7 @@ module.exports = [
 			"71530"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/iIeeezD.png",
 		unique: false,
 		text: "At the start of the game, place 5 Drone Tokens on this card. \n\nDuring the Roll Defense Dice step of the Combat Phase, you may spend 1 of your Drone Tokens to force your opponent to roll 1 less defense die.",
 		factions: [
@@ -3755,6 +3917,7 @@ module.exports = [
 			"71529"
 		],
 		name: "Miles O'Brien",
+		image: "https://i.imgur.com/vuFTEPZ.png",
 		unique: true,
 		text: "Add 1 [tech_text] Upgrade to your Upgrade Bar.\n\n<b>ACTION:</b> Repair 1 Damage to your Hull or Shields.",
 		factions: [
@@ -3773,6 +3936,7 @@ module.exports = [
 			"72252"
 		],
 		name: "Viceroy",
+		image: "https://i.imgur.com/UAUnrUf.png",
 		unique: true,
 		text: "At the start of the game, place 2 Mission Tokens on this card. \nDuring the Planning Phase, after all other ships have chosen their Maneuvers, you may discard 1 of the Mission Tokens from this card to target a ship at Range 1, look at that ship's Maneuver dial, and then select your Maneuver. The target ship cannot change its chosen Maneuver after you look at it.",
 		factions: [
@@ -3790,6 +3954,7 @@ module.exports = [
 			"71513b"
 		],
 		name: "Gul Macet",
+		image: "https://i.imgur.com/Y3fIyST.png",
 		unique: true,
 		text: "When attacking, during the Roll Attack Dice step, you may add +1 attack die to your roll. If you do so, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -3807,6 +3972,7 @@ module.exports = [
 			"71793"
 		],
 		name: "Jabin",
+		image: "https://i.imgur.com/6MRMKim.png",
 		unique: true,
 		text: "When defending, your ship rolls +1 defense die.",
 		factions: [
@@ -3824,6 +3990,7 @@ module.exports = [
 			"71794"
 		],
 		name: "Taris",
+		image: "https://i.imgur.com/FTcLv9A.png",
 		unique: true,
 		text: "When attacking with your Primary Weapon, during the Declare Target step, you may discard one of your [crew_text] Upgrades to target a ship that is not in your forward firing arc.",
 		factions: [
@@ -3841,6 +4008,7 @@ module.exports = [
 			"71797"
 		],
 		name: "S'Sesslak",
+		image: "https://i.imgur.com/Bd3AGiZ.png",
 		unique: true,
 		text: "When attacking, during the Modify Attack Dice step, you may convert 1 blank result into 1 [battlestations] result OR 1 [battlestations] result into 1 [hit] result.",
 		factions: [
@@ -3858,6 +4026,7 @@ module.exports = [
 			"71802"
 		],
 		name: "Rekar",
+		image: "https://i.imgur.com/AgJlg3I.png",
 		unique: true,
 		text: "When attacking with a Secondary Weapon, you may add +1 attack die to the attack. If you do so, discard that [weapon_text] Upgrade after the attack is completed.",
 		factions: [
@@ -3875,6 +4044,7 @@ module.exports = [
 			"blind_aldara"
 		],
 		name: "Gul Jasad",
+		image: "https://i.imgur.com/r2FpV5Q.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3892,6 +4062,7 @@ module.exports = [
 			"72004p"
 		],
 		name: "Kiaphet Amman'sor",
+		image: "https://i.imgur.com/JzTgJuV.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3909,6 +4080,7 @@ module.exports = [
 			"72014"
 		],
 		name: "Tuvok",
+		image: "https://i.imgur.com/3waXW2G.png",
 		cost: 3,
 		skill: 5,
 		talents: 0,
@@ -3926,6 +4098,7 @@ module.exports = [
 			"71807"
 		],
 		name: "Beverly Crusher",
+		image: "https://i.imgur.com/ib6Wr7n.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3947,6 +4120,7 @@ module.exports = [
 			"72008"
 		],
 		name: "Hayes",
+		image: "https://i.imgur.com/LxHNoUq.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -3986,6 +4160,7 @@ module.exports = [
 			"72010"
 		],
 		name: "Velal",
+		image: "https://i.imgur.com/5YYIs68.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -4003,6 +4178,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Hikaru Sulu",
+		image: "https://i.imgur.com/7ymhJIu.png",
 		cost: 3,
 		skill: 5,
 		talents: 0,
@@ -4022,6 +4198,7 @@ module.exports = [
 			"75004"
 		],
 		name: "Telev",
+		image: "https://i.imgur.com/yGVWecC.png",
 		cost: 3,
 		skill: 5,
 		talents: 1,
@@ -4040,6 +4217,7 @@ module.exports = [
 			"75008"
 		],
 		name: "T'Pol",
+		image: "https://i.imgur.com/EWv0Y1D.png",
 		unique: true,
 		text: "<b>COMBAT PHASE:</b> Choose [evade] or [battlestations] Tokens\n\n You may spend [scan] Tokens as though they were the chosen type of Token this Combat Phase.",
 		cost: 4,
@@ -4057,6 +4235,7 @@ module.exports = [
 			"75007"
 		],
 		name: "Operations Drone",
+		image: "https://i.imgur.com/vnB5QGv.png",
 		unique: false,
 		text: "<b>Setup:</b>\n\nPlace 6 Drone Tokens on this card.\n<hr> <b>PLANNING PHASE:</b> Spend 1 Drone Token on this card and target an opposing ship.\n\nPlace an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the target ship.",
 		factions: [
@@ -4074,6 +4253,7 @@ module.exports = [
 			"73002"
 		],
 		name: "'First'",
+		image: "https://i.imgur.com/MKqOqRj.png",
 		unique: true,
 		text: "<b>SETUP:</b>\n\nPlace 6 Drone Tokens on this card.\n<hr> <b>ACTIVATION PHASE:</b> Spend 1 Drone Token.\n\nRemove 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens or 1 <img src='img/stuff/effect_disable.png' width='20' height='16'> from an Upgrade equipped to this ship.",
 		factions: [
@@ -4090,6 +4270,7 @@ module.exports = [
 			"73002"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/cvaj7qy.png",
 		unique: false,
 		text: "<b>Setup:</b>\nPlace 6 Drone Tokens on this card.\n<hr> <b>COMBAT PHASE:</b> If an opposing ship is within range, spend 1 Drone Token.\n\nPlace a [battlestations] Token beside this ship.",
 		factions: [
@@ -4107,6 +4288,7 @@ module.exports = [
 			"75004"
 		],
 		name: "Thomas Riker",
+		image: "https://i.imgur.com/2pYrMVU.png",
 		unique: true,
 		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> ship.\n<hr> <b>END PHASE:\n\n</b> This ship may perform a maneuver on its dial with a speed of 2 or less.",
 		factions: [
@@ -4124,6 +4306,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Prak",
+		image: "https://i.imgur.com/LfXF39c.png",
 		unique: true,
 		text: "<b>SETUP:</b> Place 2 Gold-Pressed Latinum Tokens (GPLT) on this card.\n<hr> <b>ACTIVATION PHASE:</b> Spend 1 GPLT and target an opposing ship. \n\n The controller of the target ship chooses 1 of the following:\n* Repair 1 damage to this ships Hull or Shields.\n* The target ship cannot perform Actions this game round.",
 		range: "1 - 2",
@@ -4160,6 +4343,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "William T. Riker",
+		image: "https://i.imgur.com/pvtA8dD.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target this ship or a friendly ship.\n\n[crew_text] Upgrades equipped to the target ship cannot be affected by opposing effects this game round.",
 		factions: [
@@ -4178,6 +4362,7 @@ module.exports = [
 			"75002"
 		],
 		name: "Yelgrun",
+		image: "https://i.imgur.com/Vbt7LAC.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target an opposing ship whose Captain has a higher Captain Skill than the Captain of this ship.\n\nThis game round, the Captain Skill of the Captain on the target ship is decreased by 1 and that Captain cannot use its ability.",
 		factions: [
@@ -4196,6 +4381,7 @@ module.exports = [
 			"75001"
 		],
 		name: "Alidar Jarok",
+		image: "https://i.imgur.com/cd5w4qL.png",
 		unique: true,
 		text: "<b>ACTIVATION PHASE:</b> After an opposing ship moves but before its Perform Action Step, target that ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\nChoose an Action on the target ships Action Bar other then [regenerate]. This target ship must perfrom the chosen Action during its Perform Action Step.",
 		factions: [
@@ -4214,6 +4400,7 @@ module.exports = [
 			"75002"
 		],
 		name: "Deyos",
+		image: "https://i.imgur.com/AqueKyF.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a friendly ship.\n\nEquip a [crew_text] Upgrade that was discarded from the target ship to the target ship. The target ship cannot attack this game round.",
 		factions: [
@@ -4269,6 +4456,7 @@ module.exports = [
 			"72261p"
 		],
 		name: "Edward Jellico",
+		image: "https://i.imgur.com/6Xss5J4.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4286,6 +4474,7 @@ module.exports = [
 			"72255"
 		],
 		name: "Borg Queen",
+		image: "https://i.imgur.com/ObvD3UU.png",
 		cost: 4,
 		skill: "*",
 		talents: 1,
@@ -4303,6 +4492,7 @@ module.exports = [
 			"71223"
 		],
 		name: "Thy'Lek Shran",
+		image: "https://i.imgur.com/iWwYWeF.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4320,6 +4510,7 @@ module.exports = [
 			"71120"
 		],
 		name: "William T. Riker",
+		image: "https://i.imgur.com/BbTvt6b.png",
 		unique: true,
 		text: "<b>ACTION:</b> If you are attacked this round at Range 1, Roll 2 attack dice. Any [hit] or [crit] result damages the attacking ship as normal, even if your ship is destroyed by their attack. The attacking ship does not roll any defense dice. ",
 		factions: [
@@ -4337,6 +4528,7 @@ module.exports = [
 			"GenCon2013Promo"
 		],
 		name: "Khan Singh",
+		image: "https://i.imgur.com/PFBlyLI.png",
 		unique: true,
 		text: "(Gen-Con Promo) You do not pay a Faction penalty when assigning Khan or any [talent_text] Upgrade to your ship. If any Captain in play has a higher Skill Number than Khan, Khan's Skill Number equals that Captain's Skill Number.",
 		factions: [
@@ -4355,6 +4547,7 @@ module.exports = [
 			"72240"
 		],
 		name: "Christopher Pike",
+		image: "https://i.imgur.com/ka5yxFL.png",
 		unique: true,
 		text: "All of your [crew_text] Upgrades cost -1 Squadron Point. ",
 		factions: [
@@ -4408,6 +4601,7 @@ module.exports = [
 			"71128"
 		],
 		name: "Thot Gor",
+		image: "https://i.imgur.com/lkzVrMX.png",
 		unique: true,
 		text: "All of your [weapon_text] Upgrades cost -1 Squadron Point. ",
 		factions: [
@@ -4425,6 +4619,7 @@ module.exports = [
 			"OP3Prize"
 		],
 		name: "Letant",
+		image: "https://i.imgur.com/GRSK6kG.png",
 		unique: true,
 		text: "Each round, when defending, you may force one opponent to re-roll one of their [crit] results.",
 		factions: [
@@ -4443,6 +4638,7 @@ module.exports = [
 			"72282"
 		],
 		name: "Benjamin Sisko",
+		image: "https://i.imgur.com/CvKTYN8.png",
 		unique: true,
 		text: "Once per round, you may re-roll any one of your attack or defense dice.",
 		factions: [
@@ -4478,6 +4674,7 @@ module.exports = [
 			"71271"
 		],
 		name: "Weyoun",
+		image: "https://i.imgur.com/SjXNGQK.png",
 		unique: true,
 		text: "Disable Weyoun to prevent 1 of your [crew_text] Upgrades from being disabled or discarded this round.",
 		factions: [
@@ -4496,6 +4693,7 @@ module.exports = [
 			"72292"
 		],
 		name: "Hikaru Sulu",
+		image: "https://i.imgur.com/Nyv1Ayq.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable one of your [crew_text] Upgrades to remove an opponent's  [target-lock] Token from your ship. Remove the corresponding token from the opponent's ship as well.",
 		factions: [
@@ -4513,6 +4711,7 @@ module.exports = [
 			"71444"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/XPORxOP.jpg",
 		unique: false,
 		text: "At the start of the game, place 6 Drone Tokens on this card. \n\nAfter you spend a  [target-lock] Token to re-roll your dice, you may spend 3 Drone Tokens to maintain your Target Lock on the target ship (i.e., do not remove the  [target-lock] Tokens from beside either ship).",
 		factions: [
@@ -4530,6 +4729,7 @@ module.exports = [
 			"i_r_w_vorta_vor"
 		],
 		name: "Liviana Charvanek",
+		image: "https://i.imgur.com/wJaquW1.png",
 		unique: true,
 		text: "Whenever one of your [crew_text] Upgrades is supposed to be disabled, roll 1 defense die. If you roll a [battlestations] result, that Upgrade is not disabled. If you are disabling the [crew_text] Upgrade to perform its Action or ability, that Action or ability is still performed even if the Upgrade does not disable.",
 		factions: [
@@ -4547,6 +4747,7 @@ module.exports = [
 			"gavroche"
 		],
 		name: "Michael Eddington",
+		image: "https://i.imgur.com/m035XeA.png",
 		unique: true,
 		text: "At the start of the game, place 3 Mission Tokens on this card. \n\n<b>ACTION:</b> Target a ship a Range 1-3 and discard 1 Mission Token from this card. Target ship rolls -2 attack dice against your ship for each of its attacks this round.",
 		factions: [
@@ -4564,6 +4765,7 @@ module.exports = [
 			"3rd_wing_attack_ship"
 		],
 		name: "Gul Damar",
+		image: "https://i.imgur.com/a0gBb1x.png",
 		unique: true,
 		text: "All attacks made against your ship with Secondary Weapons are at -1 attack die. \n\nAll attacks made against your ship with Minefields are at -2 attack dice.",
 		factions: [
@@ -4581,6 +4783,7 @@ module.exports = [
 			"71523"
 		],
 		name: "Mr. Spock",
+		image: "https://i.imgur.com/5bPAy4A.png",
 		unique: true,
 		text: "Your ship may perform a    [target-lock] or [scan] Action as a free Action each round.",
 		factions: [
@@ -4598,6 +4801,7 @@ module.exports = [
 			"71527"
 		],
 		name: "Sopek",
+		image: "https://i.imgur.com/hlaUdRh.png",
 		unique: true,
 		text: "Add 1 [crew_text] Upgrade slot to your Upgrade Bar.\n\n<b>ACTION:</b> Choose 1 of your [crew_text] Upgrades that was discarded from your ship on a previous round. Re-deploy that [crew_text] Upgrade to your ship and place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -4615,6 +4819,7 @@ module.exports = [
 			"71510"
 		],
 		name: "Jean-Luc Picard",
+		image: "https://i.imgur.com/fCDWYe2.png",
 		unique: true,
 		text: "Add 1 [crew_text] slot to your Upgrade Bar. \n\n<b>ACTION:</b> Disable all of your remaining Shields and immediately perform an additional green or white maneuver.",
 		factions: [
@@ -4632,6 +4837,7 @@ module.exports = [
 			"71646a"
 		],
 		name: "Bok",
+		image: "https://i.imgur.com/YtLzFtJ.png",
 		unique: true,
 		text: "<b>ACTION:</b> Gain +1 attack die to each of your attacks and roll -1 defense die each time you defend this round.",
 		factions: [
@@ -4649,6 +4855,7 @@ module.exports = [
 			"71646e"
 		],
 		name: "Solok",
+		image: "https://i.imgur.com/7YUOwcy.png",
 		unique: true,
 		text: "You may perform an [evade] or a [scan] Action as a free Action each round.  If you do so, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -4666,6 +4873,7 @@ module.exports = [
 			"71528"
 		],
 		name: "Chakotay",
+		image: "https://i.imgur.com/78f54sq.png",
 		unique: true,
 		text: "Add 1 [weapon_text] or [crew_text] Upgrade to your Upgrade bar (your choice).\n\n<b>ACTION:</b> Perform a 2nd Maneuver on your Maneuver Dial with a number of 3 or less. Place an Auxiliary Power Token beside your ship. If the extra Maneuver is a Red Maneuver, place a 2nd Auxiliary Power Token beside your ship.",
 		factions: [
@@ -4701,6 +4909,7 @@ module.exports = [
 			"71512"
 		],
 		name: "Korok",
+		image: "https://i.imgur.com/dc22pKX.png",
 		unique: true,
 		text: "At the start of the game, place 6 Drone Tokens on this card. \n\nWhen you inflict damage to an opponent's Hull, during the Deal Damage step, you may spend 1 Drone Token to convert 1 Normal Damage into 1 Critical Damage.",
 		factions: [
@@ -4718,6 +4927,7 @@ module.exports = [
 			"71513b"
 		],
 		name: "Tactical Drone",
+		image: "https://i.imgur.com/mBFHnXP.png",
 		unique: false,
 		text: "At the start of the game, place 6 Drone Tokens on this card.\r\n        \r\n        When a friendly ship within Range 1 of your ship is defending, during the Roll Defence Dice step, you may spend 1 Drone Token to add +1 defence die to that ship's roll for that attack.",
 		factions: [
@@ -4735,6 +4945,7 @@ module.exports = [
 			"71808"
 		],
 		name: "Alpha Hirogen",
+		image: "https://i.imgur.com/LAjqOrj.png",
 		unique: false,
 		text: "When attacking with your Primary Weapon, you may convert 1 of your blank results into a [hit] result.",
 		factions: [
@@ -4752,6 +4963,7 @@ module.exports = [
 			"71536"
 		],
 		name: "Valdore",
+		image: "https://i.imgur.com/raUlmcZ.png",
 		unique: true,
 		text: "Add 1 [tech_text] Upgrade slot to your Upgrade Bar. \n\nWhen attacking, you may discard 1 of your [tech_text] Upgrades to gain +1 attack die.",
 		factions: [
@@ -4787,6 +4999,7 @@ module.exports = [
 			"71793"
 		],
 		name: "Razik",
+		image: "https://i.imgur.com/DrJO516.png",
 		unique: true,
 		text: "Disable 1 of your [crew_text] Upgrades to re-roll one of your attack or defense dice. \n\nOR \n\nDiscard 1 of your [crew_text] Upgrades to re-roll any number of your attack or defense dice.",
 		factions: [
@@ -4804,6 +5017,7 @@ module.exports = [
 			"71794"
 		],
 		name: "Mendak",
+		image: "https://i.imgur.com/EHxJXR0.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a friendly ship at Range 1-2 (including your own) that has no [battlestations] Token(s) beside it and place a [battlestations] Token beside that ship. The target ship cannot perform a [battlestations] Action this round. \n\nThis card may only be purchased for a Romulan ship.",
 		factions: [
@@ -4821,6 +5035,7 @@ module.exports = [
 			"71796"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/lf524Yn.png",
 		unique: true,
 		text: "<b>ACTION:</b> Disable up to 3 of your Upgrades (your choice) to gain +1 attack die on your next attack for each Upgrade you disabled with this Action.",
 		factions: [
@@ -4838,6 +5053,7 @@ module.exports = [
 			"71803"
 		],
 		name: "Krim",
+		image: "https://i.imgur.com/nP6A3aK.png",
 		unique: true,
 		text: "Add 1 [crew_text] Upgrade slot to your Upgrade Bar. \n\nWhen defending, during the Modify Defense Dice step, you may re-roll 1 of your defense dice for every damage card assigned to your ship (max 3 dice).",
 		factions: [
@@ -4874,6 +5090,7 @@ module.exports = [
 			"72001p"
 		],
 		name: "William Ross",
+		image: "https://i.imgur.com/XpAzEfn.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4909,6 +5126,7 @@ module.exports = [
 			"72003p"
 		],
 		name: "Insectoid Commander",
+		image: "https://i.imgur.com/C5wXDL5.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4926,6 +5144,7 @@ module.exports = [
 			"blind_interceptor8"
 		],
 		name: "Shakaar Edon",
+		image: "https://i.imgur.com/VRgfUwX.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4943,6 +5162,7 @@ module.exports = [
 			"blind_nistrim_culluh"
 		],
 		name: "Culluh",
+		image: "https://i.imgur.com/fzBSbbE.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4960,6 +5180,7 @@ module.exports = [
 			"75004"
 		],
 		name: "Arturis",
+		image: "https://i.imgur.com/EI7MGa8.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4978,6 +5199,7 @@ module.exports = [
 			"blind_nunks_marauder"
 		],
 		name: "Nunk",
+		image: "https://i.imgur.com/ICDMnEL.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -4995,6 +5217,7 @@ module.exports = [
 			"72290p"
 		],
 		name: "Jonathan Archer",
+		image: "https://i.imgur.com/yI8jM4e.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5037,6 +5260,7 @@ module.exports = [
 			"72011"
 		],
 		name: "Benjamin Maxwell",
+		image: "https://i.imgur.com/GgTLCMA.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5054,6 +5278,7 @@ module.exports = [
 			"72016"
 		],
 		name: "Alidar Jarok",
+		image: "https://i.imgur.com/bDGGwS6.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5090,6 +5315,7 @@ module.exports = [
 			"72010"
 		],
 		name: "Suran",
+		image: "https://i.imgur.com/YREB4rO.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5107,6 +5333,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Mr. Spock",
+		image: "https://i.imgur.com/mpO4g34.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5144,6 +5371,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Larus",
+		image: "https://i.imgur.com/eYJe4zQ.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5180,6 +5408,7 @@ module.exports = [
 			"75005"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/scQC9Tk.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5199,6 +5428,7 @@ module.exports = [
 			"73031"
 		],
 		name: "Lahr",
+		image: "https://i.imgur.com/C3WTXLN.png",
 		cost: 5,
 		skill: 7,
 		talents: 1,
@@ -5216,6 +5446,7 @@ module.exports = [
 			"73032"
 		],
 		name: "Gul Damar",
+		image: "https://i.imgur.com/0GIC9U1.png",
 		cost: 5,
 		skill: 7,
 		talents: 1,
@@ -5234,6 +5465,7 @@ module.exports = [
 			"73001"
 		],
 		name: "Lurin",
+		image: "https://i.imgur.com/IJXzm3x.png",
 		cost: 5,
 		skill: 7,
 		talents: 1,
@@ -5251,6 +5483,7 @@ module.exports = [
 			"72282gp"
 		],
 		name: "Sela",
+		image: "https://i.imgur.com/fWHSfhC.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5268,6 +5501,7 @@ module.exports = [
 			"72273"
 		],
 		name: "Insectoid Councilor",
+		image: "https://i.imgur.com/U48g25x.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5303,6 +5537,7 @@ module.exports = [
 			"72224gp"
 		],
 		name: "Vosk",
+		image: "https://i.imgur.com/bXvuFsr.png",
 		unique: true,
 		text: "Vosk does not pay a faction penalty when fielding an [talent_text] Upgrade.\n\nOnce per game, when an opposing Upgrade causes one of your Upgrades to be discarded, you may place 3 Time Tokens on that card instead.",
 		factions: [
@@ -5320,6 +5555,7 @@ module.exports = [
 			"72235p"
 		],
 		name: "Khan Singh",
+		image: "https://i.imgur.com/DSzZDKb.png",
 		unique: true,
 		text: "You may use any Upgrades without paying a Faction penalty. Up to 3 of the Upgrades you purchase for your ship cost exactly 4 SP each and are placed face down beside your Ship Card. Each Upgrade remains face down until you decide to use it, and then it is turned face up for the rest of the game. The printed cost on those Upgrades cannot be greater than 6.",
 		factions: [
@@ -5337,6 +5573,7 @@ module.exports = [
 			"71201"
 		],
 		name: "William T. Riker",
+		image: "https://i.imgur.com/yD4WKhP.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5354,6 +5591,7 @@ module.exports = [
 			"71120"
 		],
 		name: "Toreth",
+		image: "https://i.imgur.com/6A9ESu3.png",
 		unique: true,
 		text: "When attacking, you may convert \n1 [hit] result \ninto \n1 [crit] result. ",
 		factions: [
@@ -5391,6 +5629,7 @@ module.exports = [
 			"72262"
 		],
 		name: "Gul Dukat",
+		image: "https://i.imgur.com/p9TBx2w.png",
 		unique: true,
 		text: "Your ship may perform an [evade] or a [battlestations] Action as a free Action each round.",
 		factions: [
@@ -5408,6 +5647,7 @@ module.exports = [
 			"71274"
 		],
 		name: "Alidar Jarok",
+		image: "https://i.imgur.com/ucUoXeu.png",
 		unique: true,
 		text: "<b>ACTION:</b> Discard your [talent_text] upgrade to target 1 ship at Range 1-2. Neither of your ships may attack each other this round.",
 		factions: [
@@ -5425,6 +5665,7 @@ module.exports = [
 			"OP5Prize"
 		],
 		name: "Thot Pran",
+		image: "https://i.imgur.com/P9T7zXE.png",
 		unique: true,
 		text: "When Attacking with an Energy Dissipator, you may re-roll 1 of your blank results one time.",
 		factions: [
@@ -5442,6 +5683,7 @@ module.exports = [
 			"71278"
 		],
 		name: "Romulan Commander",
+		image: "https://i.imgur.com/HkShGDm.png",
 		unique: true,
 		text: "<b>ACTION:</b> During the Combat Phase this round, your ship attacks before every other ship. Place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -5459,6 +5701,7 @@ module.exports = [
 			"71279"
 		],
 		name: "Weyoun",
+		image: "https://i.imgur.com/eAINFCA.png",
 		unique: true,
 		text: "Add up to 2 additional [crew_text] Upgrade slots to you ship's Upgrade Bar. The cost of these Upgrades is -1 SP each if they are Dominion [crew_text] Upgrades.",
 		factions: [
@@ -5477,6 +5720,7 @@ module.exports = [
 			"72291"
 		],
 		name: "Bioship Alpha Pilot",
+		image: "https://i.imgur.com/noE4m2J.png",
 		unique: true,
 		text: "Each round during the Planning Phase, after all other players have chosen their Maneuvers, target a ship within Range 1 of your ship, look at that ship's chosen Maneuver, and then choose your Maneuver. the target ship's player cannot change the chosen Maneuver after you have looked at it. You may not perform any Actions the round you use this ability.",
 		factions: [
@@ -5494,6 +5738,7 @@ module.exports = [
 			"71446"
 		],
 		name: "Soval",
+		image: "https://i.imgur.com/GhMrlIK.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a ship within Range 1-2. Remove 1 [scan] or [battlestations] Token from beside the target ship. Place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -5511,6 +5756,7 @@ module.exports = [
 			"71445"
 		],
 		name: "Hazar",
+		image: "https://i.imgur.com/jeH5shr.png",
 		unique: true,
 		text: "If your ship is within Range 1 of a Planet Token or an Obstacle, all attacks made against your ship are at -1 attack die.",
 		factions: [
@@ -5546,6 +5792,7 @@ module.exports = [
 			"u_s_s_yaeger"
 		],
 		name: "Benjamin Maxwell",
+		image: "https://i.imgur.com/JaREBtc.png",
 		unique: true,
 		text: "Immediately before you move, you may change your Maneuver. If you do so, discard this card during the End Phase.",
 		factions: [
@@ -5563,6 +5810,7 @@ module.exports = [
 			"71522"
 		],
 		name: "Lore",
+		image: "https://i.imgur.com/15Kq4ey.png",
 		unique: true,
 		text: "Add 1 [crew_text] Upgrade slot to your Upgrade Bar.\nDuring the Roll Attack Dice step of the Combat Phase, you may discard 1 of your [crew_text] Upgrades to gain +1 attack die for that attack.\nYou may assign any [talent_text] Upgrade to your ship, regardless of Faction restriction, and you do not pay a Faction penalty when assigning any [talent_text] Upgrade to your ship.",
 		factions: [
@@ -5581,6 +5829,7 @@ module.exports = [
 			"71810"
 		],
 		name: "Benjamin Sisko",
+		image: "https://i.imgur.com/Gq9FLjS.png",
 		unique: true,
 		text: "During the Roll Defense Dice step of the Combat Phase, if your ship is in the forward firing arc of 2 or more ships, roll 1 extra defense die against all attacks from those ships. Each time your ship receives a Damage Card (normal or critical), increase your Captain Skill by +1 for the rest of the game (max +2). The bonus Skill remains even if the damage is later repaired.",
 		factions: [
@@ -5598,6 +5847,7 @@ module.exports = [
 			"71510b"
 		],
 		name: "William T. Riker",
+		image: "https://i.imgur.com/x1TQPYz.png",
 		unique: true,
 		text: "Each time you perform a [battlestations], an [evade], or a  [target-lock] Action, place 1 additional Token of the appropriate type ([battlestations], [evade], or  [target-lock]) on this card.  During the Activation Phase,  you may spend 1 Token from this card and perform the corresponding Action as a free Action.",
 		factions: [
@@ -5615,6 +5865,7 @@ module.exports = [
 			"71530"
 		],
 		name: "Borg Queen",
+		image: "https://i.imgur.com/lV4FXhn.png",
 		unique: true,
 		text: "At the start of the game or if this card replaces another Captain, remove all Drone Tokens from that Captain Card and place 7 Drone Tokens on this card.\n<b>ACTION:</b> Target a friendly ship at Range 1-2. Choose 1 Upgrade on that ship and perform that Upgrade's Action as a free Action this round. If that Action requires spending Drone Tokens, spend 1 less Drone Token than required.",
 		factions: [
@@ -5650,6 +5901,7 @@ module.exports = [
 			"71534"
 		],
 		name: "Vidiian Commander",
+		image: "https://i.imgur.com/hCc0K9f.png",
 		unique: true,
 		text: "You may add +1 attack die when you initiate an attack with the Grappler or Hypothetic Charge [weapon_text] Upgrades or when performing the Action listed on the Vidiian Boarding Party [crew_text] Upgrade.",
 		factions: [
@@ -5667,6 +5919,7 @@ module.exports = [
 			"71798"
 		],
 		name: "Gul Madred",
+		image: "https://i.imgur.com/gH0uw8r.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a ship at Range 1-3. If the Captain on the target ship has a lower Skill number than Gul Madred, discard that ship's Captain and Gul Madred. If the Captain on the target ship has a Skill number equal to or greater than Gul Madred, that Captain rolls 2 defense dice. If at least 1 [battlestations] result is rolled, do not discard that ship's Captain or Gul Madred.",
 		factions: [
@@ -5684,6 +5937,7 @@ module.exports = [
 			"71796"
 		],
 		name: "Mr. Spock",
+		image: "https://i.imgur.com/dvWqIXP.png",
 		unique: true,
 		text: "During the Activation Phase, you may perform one of the Actions listed on any of your Upgrades as a free Action. If you do so, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -5719,6 +5973,7 @@ module.exports = [
 			"71807"
 		],
 		name: "William T. Riker",
+		image: "https://i.imgur.com/TNpANQi.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5758,6 +6013,7 @@ module.exports = [
 			"75007"
 		],
 		name: "Kathryn Janeway",
+		image: "https://i.imgur.com/0lmALnC.png",
 		cost: 5,
 		skill: "*",
 		talents: 1,
@@ -5777,6 +6033,7 @@ module.exports = [
 			"75008"
 		],
 		name: "Muroc",
+		image: "https://i.imgur.com/TFbO5Xa.png",
 		cost: 3,
 		skill: 7,
 		talents: 1,
@@ -5794,6 +6051,7 @@ module.exports = [
 			"75008"
 		],
 		name: "T'Pau",
+		image: "https://i.imgur.com/3mj4vRT.png",
 		cost: 4,
 		skill: 5,
 		talents: 1,
@@ -5811,6 +6069,7 @@ module.exports = [
 			"75008"
 		],
 		name: "Solok",
+		image: "https://i.imgur.com/MSQ8y8v.png",
 		cost: 4,
 		skill: 7,
 		talents: 1,
@@ -5830,6 +6089,7 @@ module.exports = [
 			"75009"
 		],
 		name: "Gul Evek",
+		image: "https://i.imgur.com/J2s0e1b.png",
 		cost: 2,
 		skill: 4,
 		text: "<b>COMBAT PHASE:</b> Target all friendly ships.\n\nPlace all <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Tokens beside all target ships beside this ship.",
@@ -5847,6 +6107,7 @@ module.exports = [
 			"75009"
 		],
 		name: "Gul Toran",
+		image: "https://i.imgur.com/xviGp3v.png",
 		cost: 4,
 		skill: 6,
 		talents: 1,
@@ -5865,6 +6126,7 @@ module.exports = [
 			"75009"
 		],
 		name: "Enabran Tain",
+		image: "https://i.imgur.com/tUs5K3G.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -5882,6 +6144,7 @@ module.exports = [
 			"75009"
 		],
 		name: "Gul Dukat",
+		image: "https://i.imgur.com/EFNVtG9.png",
 		cost: 5,
 		skill: 8,
 		talents: 2,
@@ -5900,6 +6163,7 @@ module.exports = [
 			"75006"
 		],
 		name: "Robert April",
+		image: "https://i.imgur.com/OxEkgdq.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -5935,6 +6199,7 @@ module.exports = [
 			"75006"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/NyN5aRz.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -5952,6 +6217,7 @@ module.exports = [
 			"72260p"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/oxKPCxK.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -5969,6 +6235,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Christopher Pike",
+		image: "https://i.imgur.com/IMfEtwD.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -5987,6 +6254,7 @@ module.exports = [
 			"75003"
 		],
 		name: "Birta",
+		image: "https://i.imgur.com/vESLoVA.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -6005,6 +6273,7 @@ module.exports = [
 			"2017core"
 		],
 		name: "Jean-Luc Picard",
+		image: "https://i.imgur.com/OXjAIMj.png",
 		cost: 6,
 		skill: 8,
 		talents: 2,
@@ -6023,6 +6292,7 @@ module.exports = [
 			"75001"
 		],
 		name: "Tomalak",
+		image: "https://i.imgur.com/YPyoBpK.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -6040,6 +6310,7 @@ module.exports = [
 			"71225"
 		],
 		name: "Dolim",
+		image: "https://i.imgur.com/Eyo5e8J.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -6057,6 +6328,7 @@ module.exports = [
 			"71213"
 		],
 		name: "Benjamin Sisko",
+		image: "https://i.imgur.com/Pl1uLpY.png",
 		cost: 5,
 		skill: 8,
 		talents: 1,
@@ -6074,6 +6346,7 @@ module.exports = [
 			"71121"
 		],
 		name: "Khan Singh",
+		image: "https://i.imgur.com/xBq3EMt.png",
 		unique: true,
 		text: "You may use any Upgrades without paying a Faction penalty. During an attack, if you spend a [battlestations] Token, each of your [battlestations] results becomes a [crit] instead of a [hit]. ",
 		factions: [
@@ -6111,6 +6384,7 @@ module.exports = [
 			"72261"
 		],
 		name: "Kathryn Janeway",
+		image: "https://i.imgur.com/smapJzT.png",
 		unique: true,
 		text: "When your ship performs an [evade], [scan], or [battlestations] Action, you may place an additional token of the appropriate type beside your ship. If you do so, place an Auxiliary Power Token beside your ship.",
 		factions: [
@@ -6128,6 +6402,7 @@ module.exports = [
 			"71444"
 		],
 		name: "Borg Queen",
+		image: "https://i.imgur.com/rrAMpYw.png",
 		unique: true,
 		text: "At the start of the game, place 8 Drone Tokens on this card. Once per round, you may discard 1 Drone Token to perform 1 Action from your ship's Action Bar as a free Action. If another Borg ship is in your fleet when your ship is destroyed, you may replace that ship's Captain Card with this card. If you do so, discard that Captain Card and all Drone Tokens from both cards. Then place 8 Drone Tokens on this card.",
 		factions: [
@@ -6145,6 +6420,7 @@ module.exports = [
 			"71524"
 		],
 		name: "Weyoun",
+		image: "https://i.imgur.com/9xnhv51.png",
 		unique: true,
 		text: "At the start of the game, place 2 Mission Tokens on this card.\n\n<b>ACTION:</b> Spend 1 Mission Token from this card to target a ship within Range 1-3 of your ship.  Target ship cannot attack your ship this round.  You cannot attack this round.",
 		factions: [
@@ -6162,6 +6438,7 @@ module.exports = [
 			"71523"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/YDpCJkW.png",
 		unique: true,
 		text: "<b>ACTION:</b> Target a ship at Range 1.  Disable one Upgrade of your choice on the target ship.",
 		factions: [
@@ -6179,6 +6456,7 @@ module.exports = [
 			"71524"
 		],
 		name: "Gul Dukat",
+		image: "https://i.imgur.com/DW78Xpa.png",
 		unique: true,
 		text: "<b>ACTION:</b> When attacking with your Primary Weapon this round, gain +1 attack die.",
 		factions: [
@@ -6197,6 +6475,7 @@ module.exports = [
 			"72271"
 		],
 		name: "Jean-Luc Picard",
+		image: "https://i.imgur.com/QseK8k7.png",
 		unique: true,
 		text: "Add 1 [crew_text], [tech_text], [weapon_text] or [talent_text] Upgrade to your Upgrade Bar (your choice). At the start of the game, after Setup, choose 1 Faction. Whenever you attack a ship of that Faction, you may roll 1 less attack die to add 1 [crit] result to your roll. Each time you defend against a ship of that Faction, roll +1 defense die.",
 		factions: [
@@ -6231,6 +6510,7 @@ module.exports = [
 			"71799"
 		],
 		name: "Annorax",
+		image: "https://i.imgur.com/345c3yw.png",
 		unique: true,
 		text: "Add 1 [tech_text] Upgrade slot to your Upgrade Bar. \n\nIf Annorax is assigned to a Krenim weapon ship, any time you roll dice, for any reason, you may disable 1 of your Upgrades to choose one of those dice and re-roll it.",
 		factions: [
@@ -6267,6 +6547,7 @@ module.exports = [
 			"72284p"
 		],
 		name: "Jean-Luc Picard",
+		image: "https://i.imgur.com/5whAeit.png",
 		unique: true,
 		text: "Your ship costs -2SP and each Upgrade assigned to your ship costs -1SP.\n(max -5SP total)",
 		cost: 5,
@@ -6284,6 +6565,7 @@ module.exports = [
 			"72012"
 		],
 		name: "Bioship Beta Pilot",
+		image: "https://i.imgur.com/7W89U0Q.png",
 		cost: 6,
 		skill: 8,
 		talents: 1,
@@ -6301,6 +6583,7 @@ module.exports = [
 			"72293"
 		],
 		name: "Dolim",
+		image: "https://i.imgur.com/C5wXDL5.png",
 		text: "During the Gather Forces step, you may treat any of the [crew_text] or [tech_text] Upgrade slots on your Upgrade Bar as [weapon_text] Upgrade slots\n\nAll of your [weapon_text] Upgrades cost -1SP, -5 Max",
 		cost: 5,
 		skill: 8,
@@ -6318,6 +6601,7 @@ module.exports = [
 			"72000b"
 		],
 		name: "Q (Female)",
+		image: "https://i.imgur.com/GsuBOQt.png",
 		cost: 7,
 		skill: 10,
 		talents: 1,
@@ -6340,6 +6624,7 @@ module.exports = [
 			"75007"
 		],
 		name: "Borg Queen",
+		image: "https://i.imgur.com/NJ4Kt4W.png",
 		cost: 5,
 		skill: 9,
 		talents: 1,
@@ -6358,6 +6643,7 @@ module.exports = [
 			"75007"
 		],
 		name: "Locutus",
+		image: "https://i.imgur.com/yJGGVgq.png",
 		cost: 4,
 		skill: 9,
 		talents: 1,
@@ -6376,6 +6662,7 @@ module.exports = [
 			"75002"
 		],
 		name: "Female Changeling",
+		image: "https://i.imgur.com/OKBby7J.png",
 		cost: 6,
 		skill: 9,
 		talents: 1,
@@ -6393,6 +6680,7 @@ module.exports = [
 			"72260gp"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/fhlfyiE.png",
 		cost: 6,
 		skill: 9,
 		talents: 1,
@@ -6410,6 +6698,7 @@ module.exports = [
 			"71120"
 		],
 		name: "Jean-Luc Picard",
+		image: "https://i.imgur.com/lMdKG7X.png",
 		unique: true,
 		text: "Each round, you may perform one of the following actions as a free action: \n\n[evade] [target-lock] [scan] [battlestations] \n\nYou may use this action even if your ship does not have it in the Action bar. ",
 		factions: [
@@ -6428,6 +6717,7 @@ module.exports = [
 			"72240"
 		],
 		name: "James T. Kirk",
+		image: "https://i.imgur.com/mYOd6bv.png",
 		unique: true,
 		text: "Any Federation [talent_text] Upgrades you purchase for Kirk cost exactly 3 Squadron Points and are placed face down beside his card. Each Upgrade remains face down until you decide to use it, and then it is turned face up for the rest of the game. ",
 		factions: [
@@ -6464,6 +6754,7 @@ module.exports = [
 			"72252"
 		],
 		name: "Shinzon",
+		image: "https://i.imgur.com/aKYUfkx.png",
 		unique: true,
 		text: "During the Gather Forces step of Setup, instead of purchasing an [talent_text] Upgrade as normal for Shinzon, you may spend 4 SP to place up to 4 Romulan [talent_text] Upgrades face down beside this card. These cards remain face down until you decide to use one of them. When you do so, select the one you want to use and turn it face up for the rest of the game. Then discard the other 3.",
 		factions: [
@@ -6481,6 +6772,7 @@ module.exports = [
 			"71513a"
 		],
 		name: "Borg Queen",
+		image: "https://i.imgur.com/snFu3eq.png",
 		unique: true,
 		text: "At the start of the game, place 9 Drone Tokens on this card. \nAdd 1 [borg_text] Upgrade slot to your Upgrade Bar. \n\n<b>ACTION:</b> Target a ship at Range 1 and spend 6 Drone Tokens. Disable 2 Upgrades of your choice on the target ship.",
 		factions: [
@@ -6498,6 +6790,7 @@ module.exports = [
 			"71792"
 		],
 		name: "Locutus",
+		image: "https://i.imgur.com/JPICEmv.png",
 		unique: true,
 		text: "At the start of the game, place 9 Drone Tokens on this card.\n\n<b>ACTION:</b> Target a ship within Range 1-3 and spend up to 2 of your Drone Tokens. Disable 1 Active Shield on the target ship for each Drone Token you spent with this Action. You cannot deploy this card to the same ship or fleet as \"Jean-Luc Picard.\" ",
 		factions: [
