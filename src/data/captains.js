@@ -7,7 +7,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Geordi La Forge",
-		image: "https://i.imgur.com/yEmYCA3.jpg",
+		image: "https://i.imgur.com/cd2AXBc.png",
 		unique: true,
 		text: "<b>WHENEVER THIS SHIP WOULD OVERLAP AN OBSTACLE:</b> \n Disable 1 Shield on this ship. \n\n This ship does not skip the Perform Action Step and does not suffer damage from that Obstacle. <hr> <b>(Night Shift) ACTION:</b> Target a Cloaked ship within Range and place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the target ship and discard their [cloak] Token (The target may raise it's Shields).",
 		factions: [
@@ -689,6 +689,7 @@ module.exports = [
 			"75012"
 		],
 		name: "Lovok",
+		image: "https://i.imgur.com/cDGxbXc.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING:</b> Place an <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside this ship. \n\n Re-roll each of your [blank] . If equipped to a <img src='img/text/rom-dderidex.png' width='18' height='18' title='DDeridex Class'>, you may also add 1 [hit].",
 		factions: [
@@ -724,6 +725,7 @@ module.exports = [
 			"75012"
 		],
 		name: "Koval",
+		image: "https://i.imgur.com/XQYFbZp.png",
 		unique: true,
 		text: "<b>WHEN ATTACKING: DECLARE TARGET STEP:</b>\n If this ship is Cloaked. \n\n Place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on a [crew_text] Upgrade equipped to the defending ship.",
 		factions: [
@@ -4565,6 +4567,7 @@ module.exports = [
 			"71123"
 		],
 		name: "Donatra",
+		image: "https://i.imgur.com/wZutDiS.png",
 		unique: true,
 		text: "All other friendly ships within Range 1 of your ship gains +1 attack die. ",
 		factions: [

@@ -8343,10 +8343,33 @@ intercept: {
 		},
 		//Arturis
 		"captain:Cap609":{
-			canEquipCaptain: function(upgrade,ship,fleet) {
-				return ship.class == "Dauntless Class";
-			}
+			//Create captain slot
+			upgradeSlots: [
+				{},
+				{
+					type: ["captain"],
+					rules: "Captain to place under Arturis. \n Captain Card must have a printed cost of 4 SP or less",
+					intercept: {
+						ship: {
+							free: function() {
+								return true;
+							},
+							canEquip: function(card, ship, fleet) {
+								var cost = valueOf(card, "cost", card,ship,fleet);
+								return cost <= 4;
+							},
+							canEquipCaptain: function(upgrade,ship,fleet) {
+								return ship.class == "Dauntless Class";
+							},
+							canEquipAdmiral: function(captain,ship,fleet) {
+								return false;
+							},
+						}
+					}
+				}
+			]
 		},
+
 		//Jhamel
 		"captain:Cap336":{
 			// Equip only on a Romulan Drone Ship

@@ -91,6 +91,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Tuesday (Tech)",
+		image: "https://i.imgur.com/QMYruv3.png",
 		cost: 0,
 		text: "<b>HOW TO USE:</b> Utilize this card to give discount to [tech_text] upgrade for It Won't Be Installed Until Tuesday [talent_text] Upgrade.",
 		unique: true,
@@ -219,6 +220,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Tuesday (Weapon)",
+		image: "https://i.imgur.com/QMYruv3.png",
 		cost: 0,
 		text: "<b>HOW TO USE:</b> Utilize this card to give discount to [weapon_text] upgrade for It Won't Be Installed Until Tuesday [talent_text] Upgrade.",
 		unique: true,
@@ -428,6 +430,7 @@ module.exports = [
 			"75016"
 		],
 		name: "Tuesday (Crew)",
+		image: "https://i.imgur.com/QMYruv3.png",
 		cost: 0,
 		text: "<b>HOW TO USE:</b> Utilize this card to give discount to [crew_text] upgrade for It Won't Be Installed Until Tuesday [talent_text] Upgrade.",
 		unique: true,
@@ -4191,7 +4194,7 @@ module.exports = [
 			"80001"
 		],
 		name: "Improved Hull Plating",
-		imaage: "https://i.imgur.com/Uyrc1tg.png",
+		image: "https://i.imgur.com/Uyrc1tg.png",
 		cost: 2,
 		text: "<b>WHEN DEFENDING:</b> During the Modify Attack Dice Step:\n\nConvert 1 [crit] into 1 [hit].",
 		alliance: true,
@@ -4451,6 +4454,7 @@ module.exports = [
 			"80001"
 		],
 		name: "Quantum Torpedoes",
+		image: "https://i.imgur.com/a1SwP5K.jpg",
 		unique: false,
 		text: "<b>ATTACK:</b> Spend this ship's     [target-lock] Token, disable this card, and target an opposing ship.  \n\nIf the defending ship is hit, add 1 [hit].",
 		factions: [
@@ -13138,6 +13142,7 @@ module.exports = [
 			"72282"
 		],
 		name: "Cloaking Device",
+		image: "https://i.imgur.com/9ZaOBv7.png",
 		unique: false,
 		text: "Instead of performing a normal Action, you may disable this card to perform the [cloak] Action. While you have a [cloak] token beside your ship, you may perform the [sensor-echo] Action even if this card is disabled. \n\nThis Upgrade costs +5 Squadron Points for any ship other than the U.S.S. Defiant.",
 		factions: [

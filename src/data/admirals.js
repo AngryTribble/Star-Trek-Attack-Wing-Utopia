@@ -63,6 +63,7 @@ module.exports = [
 			"75013"
 		],
 		name: "Alynna Nechayev",
+		image: "https://i.imgur.com/RJMgXiu.png",
 		unique: true,
 		text: "<font size ='-.5'><b>FLEET ACTION:</b> Target this ship and each other friendly ship within Range that has a Captain equipped with a printed Captain Skill number of 5 or less. \n\n Increase the Captain Skill of each target ship by up to 3 (You may choose a different value for each ship) until the end of the round. </font>",
 		factions: [
@@ -192,6 +193,7 @@ module.exports = [
 			"75005"
 		],
 		name: "Christopher Pike",
+		image: "https://i.imgur.com/9myOfzI.png",
 		cost: 5,
 		skill: 2,
 		talents: 1,

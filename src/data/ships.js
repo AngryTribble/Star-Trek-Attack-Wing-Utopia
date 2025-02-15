@@ -213,7 +213,7 @@ module.exports = [
 		],
 		name: "U.S.S. Enterprise-A",
 		image: "https://i.imgur.com/eLou19b.png",
-		class: "Constitution Refit Class",
+		class: "Constitution Class (Refit)",
 		actions: [
 			"evade",
 			"target-lock",
@@ -231,7 +231,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 22,
+		cost: 24,
 		text: "<b>WHEN ATTACKING:</b> If there is a [scan] Token beside your ship. \n\n Roll +1 Attack die (+2 if the defending ship is Cloaked) <hr> <b>Planning Phase:</b> If the Captain equipped to this ship has a <img src='img/text/unique.png' width='20' height='20' title='Unique'> <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [talent_text] Upgrade equipped to it: You may discard that Upgrade. \n\n Equip 1 other <img src='img/text/unique.png' width='20' height='20' title='Unique'> <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> [talent_text] Upgrade with a cost of 4 or less that is not already in your fleet to the Captain and place any Tokens that were on the discarded Upgrade on the new Upgrade.",
 		unique: true,
 		alliance: false,
@@ -253,7 +253,7 @@ module.exports = [
 		],
 		name: "Federation Starship",
 		image: "https://i.imgur.com/ogcTJCi.png",
-		class: "Constitution Refit Class",
+		class: "Constitution Class (Refit)",
 		actions: [
 			"evade",
 			"target-lock",
@@ -292,7 +292,7 @@ module.exports = [
 		],
 		name: "U.S.S. Enterprise",
 		image: "https://i.imgur.com/AEAZk2p.png",
-		class: "Constitution Refit Class",
+		class: "Constitution Class (Refit)",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1817,7 +1817,8 @@ module.exports = [
 		id: "S353",
 		gameId: 1,
 		set: [
-			"75012"
+			"75012",
+			"80003"
 		],
 		name: "Romulan Starship",
 		class: "D'deridex Class",
@@ -5109,7 +5110,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 3,
-		cost: 17,
+		cost: 20,
 		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may place an Auxiliary Power Token next to your ship to perform an [battlestations] Action.",
 		unique: true,
 		factions: [
@@ -5143,7 +5144,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "When attacking, if your ship is not in the target ship's forward firing arc, during the Modify Attack Dice step, you may re-roll all of your blank results.",
 		unique: true,
 		factions: [
@@ -5178,7 +5179,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 2,
-		cost: 17,
+		cost: 22,
 		text: "When attacking, during the Modify Attack Dice step, you may disable one of your Active Shields to re-roll up to 2 of your attack dice.",
 		unique: true,
 		factions: [
@@ -5213,8 +5214,8 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 26,
-		text: "During the Roll Attack Dice or Roll Defence Dice step of the Combat Phase, you may switch and [evade], [scan], or  [target-lock] Token that is beside your ship for a [battlestations] Token.",
+		cost: 28,
+		text: "During the Roll Attack Dice or Roll Defence Dice step of the Combat Phase, you may switch an [evade], [scan], or  [target-lock] Token that is beside your ship for a [battlestations] Token.",
 		unique: true,
 		factions: [
 			"federation"
@@ -5252,7 +5253,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "When defending, during the Modify Defense Dice step, you may discard a blue  [target-lock] Token from beside your ship to re-roll all of your defense dice.",
 		unique: true,
 		factions: [
@@ -5287,7 +5288,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "During the Activation Phase, if your ship is Cloaked and performs the [sensor-echo] Action, you may flip your [cloak] Token over to its red side and immediately perform an additional [sensor-echo] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -5321,7 +5322,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "When defending, during the Roll Defence Dice step, if your ship is not Cloaked, you may roll +2 defence dice. If you do so place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -5396,7 +5397,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 26,
 		text: "If your ship is within Range 1 of a friendly ship, each time it defends, it rolls +1 defense die. This ability may only be used for 1 friendly ship per round.",
 		unique: true,
 		factions: [
@@ -5428,7 +5429,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 20,
 		text: "When attacking, during the Modify Attack Dice step, you may spend your [battlestations] Token to convert one of your [hit] results into a [crit] result.",
 		unique: true,
 		factions: [
@@ -5462,7 +5463,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "When defending, During the Modify Defense dice step, you may re-roll one of your defense dice. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -5497,7 +5498,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "During the Combat Phase, you may replace 1 [battlestations], [scan] or blue  [target-lock] Token that is beside your ship with an [evade] Token.",
 		unique: true,
 		factions: [
@@ -5531,7 +5532,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 15,
+		cost: 20,
 		text: "During the End Phase, if your [cloak] Token is on its red side, you may flip it back to its green side. If you do so place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -5565,7 +5566,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "When defending, if your ship is Cloaked, you may re-roll up to 2 of your defense dice.",
 		unique: true,
 		factions: [
@@ -5591,7 +5592,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 26,
+		cost: 28,
 		text: "If you attack a ship that is in the forward firing arc of another friendly ship, you gain +1 attack die.",
 		unique: true,
 		factions: ["federation"],
@@ -5624,7 +5625,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "When defending, if there is an Auxiliary Power Token beside your ship, during the Roll Defense Dice step, roll +1 defense die.",
 		unique: true,
 		factions: [
@@ -5641,7 +5642,7 @@ module.exports = [
 		],
 		name: "U.S.S. Enterprise-A",
 		image: "https://i.imgur.com/7OqNVbp.png",
-		class: "Constitution Refit Class",
+		class: "Constitution Class (Refit)",
 		actions: [
 			"evade",
 			"target-lock",
@@ -5659,8 +5660,8 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 22,
-		text: "When attacking during the Roll Attack Dice step, if there is a [scan] Token beside your ship gain +1 attack die (+2 if the defending ship is Cloaked).",
+		cost: 24,
+		text: "When attacking, during the Roll Attack Dice step, if there is a [scan] Token beside your ship gain +1 attack die (+2 if the defending ship is Cloaked).",
 		unique: true,
 		factions: [
 			"federation"
@@ -5694,7 +5695,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "If there are only Federation cards assigned to this ship, add the [scan] and [battlestations] icons to the Action Bar. \n\nThis ship cannot be in the same fleet as Kruge's Bird-of-Prey.",
 		unique: true,
 		factions: [
@@ -5797,7 +5798,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "<b>ACTION:</b> Once this round, if you inflict a critical damage on an enemy ship's Hull, you may search the Damaage Deck for a \"Direct Hit\" damage card and place it beside the enemy's Ship Card. Shuffle the Damage Deck when you are done.",
 		unique: true,
 		factions: [
@@ -5834,7 +5835,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "When attacking with your Primary Weapon, if your ship is not Cloaked, during the Declare Target step, you may perform a 1 [straight] Maneuver before choosing an enemy ship to attack.",
 		unique: true,
 		factions: [
@@ -5889,7 +5890,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 13,
+		cost: 20,
 		text: "When attacking with your Primary Weapon, during the Modify Attack Dice step, you may disable any number of your Active Shields to re-roll a number of your attack dice equal to the number of Shields you disabled.",
 		unique: true,
 		factions: ["independent"],
@@ -5925,7 +5926,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "When defending, during the Compare Results step, you may discard 1 of your non-disabled Upgrades to cancel 1 [hit] or [crit] result.",
 		unique: true,
 		factions: [
@@ -5963,7 +5964,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "If all of your Shields have been destroyed, when attacking with your Primary Weapon, you may gain +2 attack dice. If you do so, place an Auxiliary Power Token beside your ship. You cannot roll any defence dice during a round in which you use this ability.",
 		unique: true,
 		factions: [
@@ -5997,7 +5998,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 2,
-		cost: 17,
+		cost: 22,
 		text: "When firing a Photon Torpedo Upgrade, place 1 less Time Token on that Upgrade.",
 		unique: true,
 		factions: [
@@ -6030,7 +6031,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 1,
-		cost: 15,
+		cost: 20,
 		text: "",
 		unique: false,
 		factions: [
@@ -6062,7 +6063,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 0,
-		cost: 12,
+		cost: 14,
 		text: "While there is a [scan] Token beside your ship, you cannot be targeted by any [talent_text] Upgrades and you roll +1 defense die against all attacks made with [weapon_text] Upgrades.",
 		unique: true,
 		factions: [
@@ -6096,7 +6097,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 21,
+		cost: 24,
 		text: "When attacking if you do not hit the defending ship, place an [evade] Token beside your ship.",
 		unique: true,
 		factions: [
@@ -6118,7 +6119,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 16,
+		cost: 22,
 		text: "If your ship has an opposing ship target locked, during the Activation Phase, you may switch the target lock to a different ship within Range 1-3 as a free Action.",
 		unique: true,
 		factions: ["federation"],
@@ -6151,7 +6152,7 @@ module.exports = [
 		agility: 0,
 		hull: 8,
 		shields: 0,
-		cost: 29,
+		cost: 30,
 		text: "When defending, during the Roll Defence Dice step, you may roll 1 defence die for each [hit] or [crit] result rolled by the attacking ship. If you do so, Place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -6184,7 +6185,7 @@ module.exports = [
 		agility: 0,
 		hull: 8,
 		shields: 0,
-		cost: 26,
+		cost: 28,
 		text: "",
 		unique: false,
 		factions: [
@@ -6282,7 +6283,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "<b>ACTION:</b> If your ship is not Cloaked, when attacking with your Primary Weapon at Range 1 this round, gain +1 attack die and roll -1 defence die.",
 		unique: true,
 		factions: [
@@ -6352,7 +6353,7 @@ module.exports = [
 		agility: 0,
 		hull: 4,
 		shields: 5,
-		cost: 27,
+		cost: 30,
 		text: "You cannot assign a Captain or an Admiral to this ship. \nWhen defending, during the Compare Results step, you may discard up to 2 of your Upgrades to cancel an equal number of attacking ship's dice.",
 		unique: true,
 		factions: [
@@ -6385,7 +6386,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 15,
+		cost: 20,
 		text: "When defending during the Roll Defense Dice step, you may disable one of your Active Shields to gain +2 defence dice for that attack.",
 		unique: true,
 		factions: [
@@ -6417,7 +6418,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 12,
+		cost: 18,
 		text: "",
 		unique: false,
 		factions: [
@@ -6447,7 +6448,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 0,
-		cost: 8,
+		cost: 12,
 		text: "When Defending during the Compare Results step, you may place an Auxiliary Power Token beside your ship to cancel 1 [hit] result.",
 		unique: true,
 		factions: [
@@ -6475,7 +6476,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 0,
-		cost: 6,
+		cost: 12,
 		text: "",
 		unique: false,
 		factions: [
@@ -6509,7 +6510,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 16,
+		cost: 22,
 		text: "When defending if you are hit and you don't already have a \"Warp Core Breach\" critical damage card assigned to your ship, you may chose to ignore up to 3 damage being inflicted to your ship and suffer a \"Warp Core Breach\" critical damage instead.",
 		unique: true,
 		factions: [
@@ -6531,7 +6532,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 4,
-		cost: 19,
+		cost: 24,
 		text: "When attacking with Photon Torpedoes during the Roll Attack Dice step, you may discard the Photon Torpedoes Upgrade to gain 1 additional attack die.",
 		unique: true,
 		factions: ["federation"],
@@ -6563,7 +6564,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "You may perform an [evade] or a [scan] Action while there is an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -6630,7 +6631,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "During the Activation Phase, you may perform a second Action from your Action Bar as a free Action. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -6662,7 +6663,7 @@ module.exports = [
 		agility: 3,
 		hull: 2,
 		shields: 2,
-		cost: 12,
+		cost: 16,
 		text: "During the Activation Phase you may perform a [scan] Action as a free Action. If you do so place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -6731,7 +6732,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 26,
+		cost: 28,
 		text: "Instead of making a normal attack with your primary weapon, you may fire in any direction at Range 1-2 with 3 attack dice.",
 		unique: true,
 		factions: [
@@ -6812,7 +6813,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "If you initiate an attack while cloaked, add +1 attack die.",
 		unique: true,
 		factions: [
@@ -6889,7 +6890,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "Any ship attacking you at Range 1 rolls 1 less attack die.",
 		unique: true,
 		factions: [
@@ -6915,7 +6916,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 14,
+		cost: 20,
 		text: "You gain +1 attack die when firing at Range 1.",
 		unique: true,
 		factions: ["federation"],
@@ -6992,8 +6993,8 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
-		text: "The U.S.S. Enterprise can perform an Action listed on its Action Bar while it has an Auxiliary Power Token.",
+		cost: 22,
+		text: "The <i>U.S.S. Enterprise</i> can perform an Action listed on its Action Bar while it has an Auxiliary Power Token.",
 		unique: true,
 		factions: [
 			"federation"
@@ -7073,7 +7074,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 3,
-		cost: 27,
+		cost: 30,
 		text: "If you perform a Green Maneuver, add +1 attack die for the remainder of this round.",
 		unique: true,
 		factions: [
@@ -7109,7 +7110,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 10,
+		cost: 14,
 		text: "<b>ACTION (once/game):</b> Every ship at Range 1 sustains 1 damage (including this ship). During the Planning Phase, this ship must choose a \"1\" Maneuver (forward, bank or turn) for the rest of the game.",
 		unique: true,
 		factions: [
@@ -7182,7 +7183,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "Each time you defend against a ship at Range 1, roll 1 extra defense die.",
 		unique: true,
 		factions: [
@@ -7204,7 +7205,7 @@ module.exports = [
 			"72272",
 			"75006"
 		],
-		name: "Klingon Battlecruiser",
+		name: "Klingon Starship",
 		class: "D7 Class",
 		image: "https://i.imgur.com/EvecWbX.png",
 		actions: [
@@ -7259,7 +7260,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 3,
-		cost: 28,
+		cost: 30,
 		text: "<b>ACTION:</b> Target a ship within your firing arc at Range 1-2 and roll 3 attack dice. For each [hit] result disable 1 of that ship's Shields. If possible, you may play Klingon Boarding Party as a free action this turn. ",
 		unique: true,
 		factions: [
@@ -7334,7 +7335,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 21,
+		cost: 26,
 		text: "Whenever a friendly ship within Range 1 of your ship receives damage you may transfer any amount of that damage to your own Shields, if possible.",
 		unique: true,
 		factions: [
@@ -7412,7 +7413,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "Although you must be Target Locked on a ship to fire a Torpedo at it, you do not need to discard your Target Lock when doing so.",
 		unique: true,
 		factions: [
@@ -7485,7 +7486,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "<b>ACTION:</b> Disable 1 of your Active Shields to gain +1 attack die this round. You may re-roll all of your blank results once.",
 		unique: true,
 		factions: [
@@ -7509,7 +7510,7 @@ module.exports = [
 			"75003",
 			"73001"
 		],
-		name: "Ferengi Marauder",
+		name: "Ferengi Starship",
 		class: "D'Kora Class",
 		actions: [
 			"evade",
@@ -7564,7 +7565,7 @@ module.exports = [
 		agility: 0,
 		hull: 8,
 		shields: 8,
-		cost: 43,
+		cost: 44,
 		text: "When firing any torpedoes, do not disable the torpedoes.",
 		unique: true,
 		factions: [
@@ -7602,7 +7603,7 @@ module.exports = [
 		agility: 0,
 		hull: 8,
 		shields: 7,
-		cost: 41,
+		cost: 42,
 		text: "\r\n      ",
 		unique: false,
 		factions: [
@@ -7640,7 +7641,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "If you initiate an attack while cloaked, you may choose any number of your attack dice and re-roll them once.",
 		unique: true,
 		factions: [
@@ -7717,7 +7718,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "Each time you attack, you may re-roll 1 of your attack dice for every damage card assigned to your ship.",
 		unique: true,
 		factions: [
@@ -7757,7 +7758,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 4,
-		cost: 19,
+		cost: 24,
 		text: "When defending, convert all of your opponent's [crit] results into [hit] results.\r\n      ",
 		unique: true,
 		factions: [
@@ -7837,7 +7838,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 21,
+		cost: 24,
 		text: "Any ship attacking you at Range 3 rolls 1 less attack die.",
 		unique: true,
 		factions: [
@@ -7898,7 +7899,7 @@ module.exports = [
 		],
 		name: "I.R.W. Praetus",
 		image: "https://i.imgur.com/9wZo6ue.png",
-		class: "Romulan Bird-of-Prey",
+		class: "Romulan Bird-of-Prey Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -7914,7 +7915,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 0,
-		cost: 12,
+		cost: 14,
 		text: "You may use the [cloak] Action even if you have no Active Shields. Whenever you choose the [cloak] Action, roll 1 attack die. On a [battlestations] result, your Hull sustains 1 Damage.",
 		unique: true,
 		factions: [
@@ -7935,7 +7936,7 @@ module.exports = [
 			"72233"
 		],
 		name: "Romulan Starship",
-		class: "Romulan Bird-of-Prey",
+		class: "Romulan Bird-of-Prey Class",
 		actions: [
 			"evade",
 			"target-lock"
@@ -7948,7 +7949,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 0,
-		cost: 9,
+		cost: 14,
 		text: "",
 		unique: false,
 		factions: [
@@ -7986,7 +7987,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 16,
+		cost: 22,
 		text: "<b>ACTION:</b> When attacking this round, gain +1 attack die. When defending this round, roll one less defense die.",
 		unique: true,
 		factions: [
@@ -8024,7 +8025,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 26,
 		text: "Each time you defend while Cloaked, roll +1 defense die.",
 		unique: true,
 		factions: [
@@ -8104,7 +8105,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 23,
+		cost: 26,
 		text: "Instead of making a normal attack, you may spend a [scan] Token to attack 2 different ships with your Primary Weapon at -2 attack dice each.",
 		unique: true,
 		factions: [
@@ -8184,7 +8185,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "After you move, if no enemy ships are within Range 1 of your ship, you may perform a [scan] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -8264,7 +8265,7 @@ module.exports = [
 		agility: 3,
 		hull: 2,
 		shields: 2,
-		cost: 12,
+		cost: 16,
 		text: "After you move, you may perform an [evade] Action as a free Action. If you do so, you cannot attack during this round.",
 		unique: true,
 		factions: [
@@ -8290,7 +8291,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "When you initiate an attack at range 3, you may choose any number of your attack dice and re-roll them once.",
 		unique: true,
 		factions: ["federation"],
@@ -8326,7 +8327,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 4,
-		cost: 21,
+		cost: 26,
 		text: "<b>ACTION:</b> Perform a [sensor-echo] Action even if this ship is not Cloaked. You may only use the 1 [forward] Maneuver Template for this Action.",
 		unique: true,
 		factions: [
@@ -8343,7 +8344,8 @@ module.exports = [
 		id: "S164",
 		gameId: 1,
 		set: [
-			"OP5Prize"
+			"OP5Prize",
+			"80003"
 		],
 		name: "Dominion Starship",
 		class: "Breen Battle Cruiser",
@@ -8400,7 +8402,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 16,
+		cost: 20,
 		text: "<b>ACTION:</b> Disable 1 of your Active Shields. During the End Phase this round, repair all of your damaged Shields.",
 		unique: true,
 		factions: [
@@ -8473,7 +8475,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 2,
-		cost: 13,
+		cost: 18,
 		text: "Each time you defend, you may convert up to 2 of your [battlestations] results into [evade] results.",
 		unique: true,
 		factions: [
@@ -8511,7 +8513,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "When initiating an attack while Cloaked, you may fire Plasma Torpedoes without needing a Target Lock.",
 		unique: true,
 		factions: [
@@ -8548,7 +8550,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 1,
-		cost: 11,
+		cost: 16,
 		text: "",
 		unique: false,
 		factions: [
@@ -8587,7 +8589,7 @@ module.exports = [
 		agility: 0,
 		hull: 7,
 		shields: 5,
-		cost: 35,
+		cost: 36,
 		text: "Each round, one other friendly Jem'Hadar ship within Range 1-2 of your ship may perform an Action on their Action Bar as a free Action.",
 		unique: true,
 		factions: [
@@ -8623,7 +8625,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "Each time you defend, if there is an [evade] Token beside your ship, you may re-roll all of your defense dice once. You must keep the outcome of the 2nd roll.",
 		unique: true,
 		factions: [
@@ -8658,7 +8660,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 1,
-		cost: 10,
+		cost: 16,
 		text: "",
 		unique: false,
 		factions: [
@@ -8861,7 +8863,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 5,
-		cost: 28,
+		cost: 30,
 		text: "Instead of making a normal attack with your Primary Weapon, you may fire in any direction at Range 1-2 with 4 attack dice. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: ["federation"],
@@ -8919,7 +8921,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 15,
+		cost: 20,
 		text: "When attacking a ship with a Scan token beside it with your Primary Weapon, roll an additional +2 attack dice.",
 		unique: true,
 		factions: [
@@ -8959,7 +8961,7 @@ module.exports = [
 		agility: 2,
 		hull: 5,
 		shields: 6,
-		cost: 34,
+		cost: 38,
 		text: "When you attack with your Primary Weapon, if you inflict at least 3 damage, place an Auxiliary Power Token beside the target ship.",
 		unique: true,
 		factions: [
@@ -9000,7 +9002,7 @@ module.exports = [
 		agility: 2,
 		hull: 5,
 		shields: 5,
-		cost: 32,
+		cost: 36,
 		text: "",
 		unique: false,
 		factions: [
@@ -9036,7 +9038,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 10,
+		cost: 16,
 		text: "You may perform the Action listed on the \"Energy Web\" Upgrade card as a free Action.",
 		unique: true,
 		factions: [
@@ -9070,7 +9072,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 1,
-		cost: 7,
+		cost: 14,
 		text: "",
 		unique: false,
 		factions: [
@@ -9108,7 +9110,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 24,
+		cost: 26,
 		text: "Whenever you initiate an attack against an enemy ship at Range 3, gain +1 attack die.",
 		unique: true,
 		factions: [
@@ -9145,7 +9147,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 0,
-		cost: 12,
+		cost: 16,
 		text: "You do not lose your \"Perform Actions\" step or take damage when you overlap a planet, obstacle or ship base. You may roll defense dice against any minefield.",
 		unique: true,
 		factions: [
@@ -9242,7 +9244,7 @@ module.exports = [
 			"71445",
 			"blind_interceptor8"
 		],
-		name: "Bajoran Interceptor",
+		name: "Bajoran Starship",
 		class: "Bajoran Interceptor",
 		actions: [
 			"evade",
@@ -9257,7 +9259,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 0,
-		cost: 10,
+		cost: 16,
 		text: "",
 		unique: false,
 		factions: [
@@ -9334,7 +9336,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 4,
-		cost: 18,
+		cost: 22,
 		text: "When attacking with your Primary Weapon, if you inflict at least 1 Critical Damage to the enemy ship's hull, that ship must also discard 1 [crew_text] Upgrade (of its choice).",
 		unique: true,
 		factions: [
@@ -9409,7 +9411,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 21,
+		cost: 24,
 		text: "You can perform a Red Maneuver while there is an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -9485,7 +9487,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "<b>ACTION:</b> Disable up to 2 of your [crew_text] Upgrades and add +1 attack die to each of your attacks this round for each [crew_text] Upgrade you disabled with this Action.",
 		unique: true,
 		factions: [
@@ -9559,7 +9561,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "While you are Cloaked, after you perform a Green Maneuver, you may perform a [sensor-echo] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -9578,7 +9580,7 @@ module.exports = [
 		set: [
 			"i_r_w_vorta_vor"
 		],
-		name: "Romulan Bird-of-Prey",
+		name: "Romulan Starship",
 		class: "Romulan Bird-of-Prey",
 		actions: [
 			"evade",
@@ -9595,7 +9597,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 1,
-		cost: 11,
+		cost: 16,
 		text: "",
 		unique: false,
 		factions: [
@@ -9633,7 +9635,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 16,
+		cost: 22,
 		text: "When attacking with your Primary Weapon, during the Roll Attack Dice step of the Combat Phase you may disable one of your [crew_text] Upgrades to add +1 attack die to your attack.",
 		unique: true,
 		factions: [
@@ -9659,7 +9661,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 16,
+		cost: 22,
 		text: "When attacking with Photon Torpedoes, you do not need to disable the Photon Torpedoes.",
 		unique: true,
 		factions: ["federation"],
@@ -9703,7 +9705,7 @@ module.exports = [
 		],
 		name: "U.S.S. Enterprise",
 		image: "https://i.imgur.com/4W6YYc6.png",
-		class: "Constitution Refit Class",
+		class: "Constitution Class (Refit)",
 		actions: [
 			"evade",
 			"target-lock",
@@ -9721,7 +9723,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 22,
+		cost: 24,
 		text: "<b>ACTION:</b> Disable up to 2 of your Active Shields.  For each Shield you disabled with this Action, gain +1 attack die for all of your attacks with your Primary Weapon this round.",
 		unique: true,
 		factions: [
@@ -9742,7 +9744,7 @@ module.exports = [
 			"72260gp"
 		],
 		name: "Federation Starship",
-		class: "Constitution Refit Class",
+		class: "Constitution Class (Refit)",
 		actions: [
 			"evade",
 			"target-lock",
@@ -9797,7 +9799,7 @@ module.exports = [
 		agility: 1,
 		hull: 7,
 		shields: 5,
-		cost: 35,
+		cost: 38,
 		text: "After performing a 5 [forward] Maneuver, if there are no enemy ships in your forward firing arc, you may perform an [evade] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -9834,7 +9836,7 @@ module.exports = [
 		agility: 1,
 		hull: 7,
 		shields: 4,
-		cost: 31,
+		cost: 36,
 		text: "",
 		unique: false,
 		factions: [
@@ -9873,7 +9875,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 5,
-		cost: 33,
+		cost: 34,
 		text: "Each time you defend, if you are within Range 1-2 of at least one friendly Jem'Hadar Attack Ship, roll 1 extra defense die.",
 		unique: true,
 		factions: [
@@ -9910,7 +9912,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 16,
+		cost: 20,
 		text: "Whenever you initiate an attack, you may disable one of your non-disabled [tech_text] Upgrades to add +1 attack die.",
 		unique: true,
 		factions: [
@@ -9946,7 +9948,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "",
 		unique: false,
 		factions: [
@@ -9972,7 +9974,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 3,
-		cost: 11,
+		cost: 16,
 		text: "Each time you attack or defend, if there is a [scan] token beside your ship, your range combat bonuses are doubled.",
 		unique: true,
 		factions: ["federation"],
@@ -10041,7 +10043,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 0,
-		cost: 14,
+		cost: 16,
 		text: "You may equip the Enhanced Hull Plating [tech_text] Upgrade to your ship for free even if it exceeds your ship's restrictions.",
 		unique: true,
 		factions: [
@@ -10078,7 +10080,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 16,
+		cost: 20,
 		text: "Whenever you attack an enemy ship at Range 3 with your Primary Weapon, if there is a [scan] Token beside your ship, you gain +1 attack die for that attack.",
 		unique: true,
 		factions: [
@@ -10116,7 +10118,7 @@ module.exports = [
 		agility: 3,
 		hull: 2,
 		shields: 4,
-		cost: 22,
+		cost: 24,
 		text: "After you move, you may discard one of your Upgrades to perform an additional Green or White Maneuver.  You cannot deploy a [borg_text] Upgrade with a cost greater than 5 to this ship.",
 		unique: true,
 		factions: [
@@ -10252,7 +10254,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 19,
+		cost: 22,
 		text: "During the Activation Phase, you may disable 1 of your Active Shields to remove 1 Auxiliary Power Token from beside your ship.",
 		unique: true,
 		factions: ["federation"],
@@ -10286,7 +10288,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 2,
-		cost: 15,
+		cost: 20,
 		text: "",
 		unique: false,
 		factions: [
@@ -10325,7 +10327,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 26,
+		cost: 28,
 		text: "During the Roll Attack Dice step of the Combat Phase, you may disable 1 of your Active Shields to gain +1 attack die.",
 		unique: true,
 		factions: [
@@ -10345,7 +10347,7 @@ module.exports = [
 			"71510b"
 		],
 		name: "Mirror Universe Starship",
-		class: "Galaxy Class (MU)",
+		class: "Galaxy Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -10362,7 +10364,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 2,
-		cost: 22,
+		cost: 26,
 		text: "",
 		unique: false,
 		factions: [
@@ -10401,7 +10403,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "<b>ACTION:</b> Spend 1 Drone Token to repair 1 damage to your Hull or Shields.",
 		unique: true,
 		factions: [
@@ -10439,7 +10441,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "",
 		unique: false,
 		factions: [
@@ -10477,7 +10479,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "If you performed a Maneuver of 3 or higher this round, during the Roll Attack Dice step of the Combat Phase, you may add +1 attack die.  If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -10549,7 +10551,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 21,
+		cost: 26,
 		text: "After you move, if you are within Range 1 of a friendly ship, you may immediately perform one of the Actions listed on your Action Bar as a free Action.",
 		unique: true,
 		factions: [
@@ -10589,7 +10591,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 2,
-		cost: 19,
+		cost: 24,
 		text: "",
 		unique: false,
 		factions: [
@@ -10628,7 +10630,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 23,
+		cost: 26,
 		text: "If you performed a Green Maneuver this round, during the Roll Attack Dice step of the Combat Phase, roll +1 attack die.",
 		unique: true,
 		factions: [
@@ -10666,7 +10668,7 @@ module.exports = [
 		agility: 3,
 		hull: 2,
 		shields: 4,
-		cost: 21,
+		cost: 24,
 		text: "If there is a [scan] Token beside your ship during the Modify Defense Dice step of the Combat Phase, roll +1 defense die. \nYou cannot deploy a [borg_text] Upgrade with a cost greater than 5 to this ship.",
 		unique: true,
 		factions: [
@@ -10704,7 +10706,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 24,
+		cost: 26,
 		text: "Each time you defend, during the Modify Defense Dice step of the Combat Phase, you may add 1 [evade] result to your roll.  If you do so, place 1 Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -10743,7 +10745,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "During the Modify Defense Dice step of the Combat Phase, you may disable up to 3 of your Upgrades to add 1 [evade] result to your roll for each Upgrade you disabled with this card.",
 		unique: true,
 		factions: [
@@ -10819,7 +10821,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 28,
+		cost: 32,
 		text: "",
 		unique: false,
 		factions: [
@@ -10860,7 +10862,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 5,
-		cost: 32,
+		cost: 34,
 		text: "When you perform a [cloak] Action, you may immediately perform a [regenerate] Action as a free Action. \nIf you do so, you cannot attack that round.",
 		unique: true,
 		factions: [
@@ -10900,7 +10902,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "During the Roll Attack Dice step of the Combat Phase, you may roll +1 attack die.  If you do so, suffer 1 damage to your Hull.",
 		unique: true,
 		factions: [
@@ -10959,7 +10961,7 @@ module.exports = [
 			"71531",
 			"72271"
 		],
-		name: "U.S.S. Enterprise-E",
+		name: "U.S.S. Enterprise NCC-1701-E",
 		image: "https://i.imgur.com/j0nFb6t.png",
 		class: "Sovereign Class",
 		actions: [
@@ -10979,7 +10981,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 5,
-		cost: 29,
+		cost: 32,
 		text: "You may fire a Torpedo at an enemy ship without needing a Target Lock.  If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -11055,7 +11057,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 20,
+		cost: 24,
 		text: "",
 		unique: false,
 		factions: [
@@ -11095,7 +11097,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 4,
-		cost: 24,
+		cost: 26,
 		text: "When attacking, during the Modify Attack Dice step, you may spend 3 Drone Tokens to choose any number of your attack dice and re-roll them (even if they have already been re-rolled).",
 		unique: true,
 		factions: [
@@ -11134,7 +11136,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "When you initiate an attack at Range 1, while Cloaked, your opponent rolls -1 defense die. \n\nYou cannot deploy this card to the same fleet as \"Assimilated Vessel 80279.\"",
 		unique: true,
 		factions: [
@@ -11211,7 +11213,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "If you attack with Torpedoes while Cloaked, you do not flip your [cloak] Token over to its red side.",
 		unique: true,
 		factions: [
@@ -11232,7 +11234,7 @@ module.exports = [
 		],
 		name: "I.S.S. Defiant",
 		image: "https://i.imgur.com/QlDwe1k.png",
-		class: "Defiant Class (Mirror)",
+		class: "Defiant Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -11249,7 +11251,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 3,
-		cost: 21,
+		cost: 24,
 		text: "Each time you suffer damage from an attack, you may place an Auxiliary Power Token beside your ship to reduce the amount of damage from that attack by 1.",
 		unique: true,
 		factions: [
@@ -11383,7 +11385,7 @@ module.exports = [
 			"71529"
 		],
 		name: "Mirror Universe Starship",
-		class: "Defiant Class (Mirror)",
+		class: "Defiant Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -11399,7 +11401,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 16,
+		cost: 22,
 		text: "<b>( ERRATA )</b>",
 		unique: false,
 		factions: [
@@ -11438,7 +11440,7 @@ module.exports = [
 		agility: 0,
 		hull: 10,
 		shields: 10,
-		cost: 52,
+		cost: 82,
 		text: "Instead of making a normal attack with your Primary Weapon, you may fire at up to 4 different ships at Range 1-2 with 4 attack dice against each ship. If you do this, spend 1 Drone Token for each of these attacks after the first.",
 		unique: true,
 		factions: [
@@ -11550,7 +11552,7 @@ module.exports = [
 		agility: 2,
 		hull: 5,
 		shields: 3,
-		cost: 23,
+		cost: 26,
 		text: "<b>ACTION:</b> Target a ship at Range 1 and force that ship to discard 1 of its Active Shield Tokens.  Place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -11626,7 +11628,7 @@ module.exports = [
 		agility: 0,
 		hull: 8,
 		shields: 8,
-		cost: 43,
+		cost: 44,
 		text: "Instead of making a normal attack with your Primary Weapon, you may fire in any direction at Range 1-3 with 4 attack dice.",
 		unique: true,
 		factions: [
@@ -11665,7 +11667,7 @@ module.exports = [
 		agility: 0,
 		hull: 8,
 		shields: 8,
-		cost: 43,
+		cost: 44,
 		text: "Each time you defend, during the Roll Defense Dice step, you may roll up to 2 additional defense dice.  If you do, disable 1 of your Active Shields for each additional die you roll.",
 		unique: true,
 		factions: [
@@ -11771,7 +11773,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 21,
+		cost: 26,
 		text: "During the Compare Results step, you may disable 1 of your Shields to cancel 1 [hit] or [crit] result. \n\nYou cannot deploy this card to the same fleet as \"Assimilated Vessel 64758.\"",
 		unique: true,
 		factions: [
@@ -11810,7 +11812,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 5,
-		cost: 28,
+		cost: 30,
 		text: "When defending, during the Declare Target step, you may spend 1 Drone Token to set 1 of your defense dice on any side that you want.  This die cannot be rolled or re-rolled during that attack.",
 		unique: true,
 		factions: [
@@ -11848,7 +11850,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 24,
+		cost: 28,
 		text: "",
 		unique: false,
 		factions: [
@@ -11870,7 +11872,7 @@ module.exports = [
 		],
 		name: "Regent's Flagship",
 		image: "https://i.imgur.com/FqRBJQG.png",
-		class: "Negh'var Class (Mirror)",
+		class: "Negh'var Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -11888,7 +11890,7 @@ module.exports = [
 		agility: 1,
 		hull: 7,
 		shields: 3,
-		cost: 31,
+		cost: 32,
 		text: "Instead of making a normal attack with your Primary Weapon,  you may fire in any direction at up to 2 enemy ships at Range 1 with 4 attack dice against each ship.",
 		unique: true,
 		factions: [
@@ -11908,7 +11910,7 @@ module.exports = [
 			"71535"
 		],
 		name: "Mirror Universe Starship",
-		class: "Negh'var Class (Mirror)",
+		class: "Negh'var Class",
 		actions: [
 			"evade",
 			"target-lock",
@@ -11925,7 +11927,7 @@ module.exports = [
 		agility: 1,
 		hull: 7,
 		shields: 2,
-		cost: 28,
+		cost: 30,
 		text: "",
 		unique: false,
 		factions: [
@@ -11964,7 +11966,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 4,
-		cost: 23,
+		cost: 26,
 		text: "After you move, you may perform a [sensor-echo] Action with the 1 [forward] Maneuver as a free Action, even if you are not Cloaked.",
 		unique: true,
 		factions: [
@@ -12109,7 +12111,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 3,
-		cost: 19,
+		cost: 24,
 		text: "During the End Phase of each round, repair 1 damage to your Hull or Shields (your choice).  This ship may only be assigned Gareb or a Romulan Drone Pilot as its Captain.",
 		unique: true,
 		factions: [
@@ -12147,7 +12149,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 26,
 		text: "When attacking, you may convert 1 of your [crit] results into a [hit] result.  If you do so, you may then convert 1 of your blank results into a [hit] result.",
 		unique: true,
 		factions: [
@@ -12186,7 +12188,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 23,
+		cost: 26,
 		text: "All friendly Kazon ships with a Hull value of 4 or less within Range 1-2 of this ship gain +1 defense die.",
 		unique: true,
 		factions: [
@@ -12225,7 +12227,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "When attacking with your Primary Weapon while cloaked, gain +1 attack die for every other Romulan Ship in your fleet (max +4).",
 		unique: true,
 		factions: [
@@ -12300,7 +12302,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 4,
-		cost: 18,
+		cost: 22,
 		text: "When attacking with your Primary Weapon, if you inflict a Critical Damage to an enemy ship's hull, you may search the Damage Deck for a \"Structural Damage\" or a \"Weapons Malfunction\" card instead of drawing a random Damage Card.  Reshuffle the deck when you are done.",
 		unique: true,
 		factions: [
@@ -12337,7 +12339,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 21,
+		cost: 26,
 		text: "<b>ACTION:</b> Place a [battlestations] Token beside your ship.  Each time you defend this round, roll +1 defense die.",
 		unique: true,
 		factions: [
@@ -12412,7 +12414,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "When attacking a ship that you already have target locked, during the Roll Attack Dice step, gain +1 attack die.",
 		unique: true,
 		factions: [
@@ -12444,7 +12446,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 1,
-		cost: 8,
+		cost: 12,
 		text: "",
 		unique: false,
 		factions: [
@@ -12478,7 +12480,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 12,
+		cost: 14,
 		text: "At the start of the game, during the Gather Forces Step, you may purchase 1 additional [crew_text] or [tech_text] Upgrade for this ship.  This Upgrade may exceed the ship's restrictions and cost -2 SP (min 0).",
 		unique: true,
 		factions: [
@@ -12516,7 +12518,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 0,
-		cost: 12,
+		cost: 16,
 		text: "During the Roll Attack Dice step, if there is an Auxiliary Power Token beside your ship, gain +2 attack dice when attacking with your Primary Weapon.",
 		unique: true,
 		factions: [
@@ -12553,7 +12555,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 4,
-		cost: 26,
+		cost: 30,
 		text: "<b>ACTION:</b> Roll 3 defense dice.  For every [evade] result, place 1 [evade] Token beside your ship.",
 		unique: true,
 		factions: [
@@ -12593,7 +12595,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "When you initiate an attack against a cloaked ship, roll +1 attack die.",
 		unique: true,
 		factions: [
@@ -12619,7 +12621,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 20,
 		text: "All of your [tech_text] Upgrades cost -1 SP.",
 		unique: true,
 		factions: ["federation"],
@@ -12652,7 +12654,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 0,
-		cost: 9,
+		cost: 16,
 		text: "",
 		unique: false,
 		factions: [
@@ -12687,7 +12689,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 3,
-		cost: 23,
+		cost: 28,
 		text: "",
 		unique: false,
 		factions: [
@@ -12724,7 +12726,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 18,
 		text: "After you move, if your ship is within Range 1 of a friendly ship you may perform a [battlestations] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -12762,7 +12764,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "While you are cloaked, if you initiate an attack at Range 1 with your Primary Weapon, gain +1 attack die for that attack.",
 		unique: true,
 		factions: [
@@ -12861,7 +12863,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "After performing a [sensor-echo] Action, you may Come About (reverse direction).  If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -12887,7 +12889,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 5,
-		cost: 28,
+		cost: 30,
 		text: "<b>ACTION:</b> If you performed a [forward] Maneuver this round, immediately perform an additional 1 [forward] or 2 [forward] Maneuver.",
 		unique: true,
 		factions: ["federation"],
@@ -12922,7 +12924,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 21,
+		cost: 26,
 		text: "When a ship that started the Activation Phase in your forward firing arc moves, if you have not yet moved, you may immediately change your maneuver. You may only use this ability once per round.",
 		unique: true,
 		factions: [
@@ -12957,7 +12959,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "When defending, during the Roll Attack Dice step, you may discard a Token from beside your ship ( [evade], [scan], or [battlestations] ) to force the attacking ship to roll 1 less attack die.",
 		unique: true,
 		factions: [
@@ -12990,7 +12992,7 @@ module.exports = [
 		agility: 1,
 		hull: 6,
 		shields: 2,
-		cost: 22,
+		cost: 26,
 		text: "",
 		unique: false,
 		factions: [
@@ -13025,7 +13027,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "When defending, you may re-roll 1 of your [battlestations] results. If your ship is cloaked, you may re-roll all of your [battlestations] results.",
 		unique: true,
 		factions: [
@@ -13047,7 +13049,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 5,
-		cost: 27,
+		cost: 30,
 		text: "When defending, during the Compare Results step, you may disable 2 of your Active Shields to cancel 1 of the attacking ship's [hit] results.",
 		unique: true,
 		factions: ["federation"],
@@ -13114,7 +13116,7 @@ module.exports = [
 		agility: 2,
 		hull: 5,
 		shields: 6,
-		cost: 35,
+		cost: 38,
 		text: "When defending, during the Compare Results step, you may cancel 1 [hit] result. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -13149,7 +13151,7 @@ module.exports = [
 		agility: 2,
 		hull: 5,
 		shields: 6,
-		cost: 34,
+		cost: 38,
 		text: "During the Deal Damage step, if you inflict 2 critical damage to an enemy ship's hull, you may immediately flip those damage cards face down and rotate the damaged ship's facing by 90 degrees (right or left).",
 		unique: true,
 		factions: [
@@ -13183,7 +13185,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 26,
 		text: "When defending, if your ship is not cloaked and there is a friendly ship within Range 1-2 of your ship, you may roll +1 defense die. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -13217,7 +13219,7 @@ module.exports = [
 		agility: 2,
 		hull: 4,
 		shields: 5,
-		cost: 23,
+		cost: 26,
 		text: "Each time you perform an Action or use an ability on any of your [tech_text] Upgrades, place 1 Mission Token on this card. During the Roll Attack Dice step, you may spend up to 2 of these tokens to gain +1 attack die for that attack for each token spent.",
 		unique: true,
 		factions: [
@@ -13237,7 +13239,7 @@ module.exports = [
 			"71805",
 			"75004"
 		],
-		name: "Independent Starship",
+		name: "Species 116 Starship",
 		class: "Dauntless Class",
 		actions: [
 			"evade",
@@ -13287,7 +13289,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 3,
-		cost: 17,
+		cost: 20,
 		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.\n\nYou may fire your Primary Weapon from your rear firing arc at -1 attack die.",
 		unique: true,
 		factions: [
@@ -13319,7 +13321,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 12,
+		cost: 18,
 		text: "You may deploy [weapon_text] Upgrades with a cost of 4 SP or less to this ship.",
 		unique: false,
 		factions: [
@@ -13351,7 +13353,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 2,
-		cost: 14,
+		cost: 20,
 		text: "During the Roll Attack Dice step, if there is a [battlestations] Token beside your ship, you may discard that Token to re-roll all of your attack dice.",
 		unique: true,
 		factions: [
@@ -13382,7 +13384,7 @@ module.exports = [
 		agility: 2,
 		hull: 3,
 		shields: 1,
-		cost: 12,
+		cost: 18,
 		text: "",
 		unique: false,
 		factions: [
@@ -13415,7 +13417,7 @@ module.exports = [
 		agility: 3,
 		hull: 3,
 		shields: 0,
-		cost: 12,
+		cost: 16,
 		text: "When attacking, if your ship is not in the target ship's forward firing arc, add +1 attack die.",
 		unique: true,
 		factions: [
@@ -13449,7 +13451,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "When attacking a ship at Range 3, if there is a [scan] Token beside your ship, the defending ship rolls -2 defense dice instead of -1.",
 		unique: true,
 		factions: [
@@ -13482,7 +13484,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "When attacking a ship that has damaged Shields, during the Modify Attack Dice step, you may re-roll a number of your Attack dice up to the number of the defending ship's damaged Shields.",
 		unique: true,
 		factions: [
@@ -13508,7 +13510,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "When attacking, during the Modify Attack Dice step, you may convert 1 of your [hit] results into 1 [crit] result. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: ["federation"],
@@ -13540,7 +13542,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 23,
+		cost: 26,
 		text: "When attacking a ship at Range 3, during the Roll Attack Dice step, gain +1 attack die for every friendly ship within Range 1 of your ship (max +2).",
 		unique: true,
 		factions: [
@@ -13573,7 +13575,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 20,
+		cost: 22,
 		text: "During the Activation Phase, you may perform a [scan] Action as a free Action. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -13606,7 +13608,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 19,
+		cost: 22,
 		text: "After you perform a maneuver with a speed of 5 or greater, you may immediately perform an [evade] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -13663,7 +13665,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 4,
-		cost: 22,
+		cost: 26,
 		text: "Before you move, you may change your maneuver to another maneuver on your Maneuver Dial with the same speed. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: ["federation"],
@@ -13692,7 +13694,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 14,
+		cost: 16,
 		text: "You do not pay a faction penalty when assigning any [crew_text] or [tech_text] Upgrades to this ship.\nYou do not place an Auxiliary Power Token beside your ship when using the \"Docking\" or \"Launching\" Actions.",
 		unique: true,
 		factions: [
@@ -13726,7 +13728,7 @@ module.exports = [
 		agility: 1,
 		hull: 3,
 		shields: 3,
-		cost: 18,
+		cost: 22,
 		text: "<b>ACTION:</b> Perform a 2nd maneuver on your maneuver dial with a speed of 1 or 2. Place an Auxiliary Power Token beside your ship. You cannot attack this round.",
 		unique: true,
 		factions: [
@@ -13760,7 +13762,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 4,
-		cost: 24,
+		cost: 26,
 		text: "When defending, if you have a [scan] Token beside your ship, roll +1 defense die.",
 		unique: true,
 		factions: [
@@ -13792,7 +13794,7 @@ module.exports = [
 		agility: 2,
 		hull: 2,
 		shields: 2,
-		cost: 10,
+		cost: 14,
 		text: "<b>ACTION:</b> If you are within Range 1-3 of at least 1 enemy ship, roll 3 defense dice. For every [evade] result, place 1 [evade] Token beside your ship. You cannot perform any free Actions this round.",
 		unique: true,
 		factions: [
@@ -13827,7 +13829,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 4,
-		cost: 29,
+		cost: 30,
 		text: "After you perform a Green Maneuver, you may immediately perform a [scan] Action as a free Action.",
 		unique: true,
 		factions: [
@@ -13890,7 +13892,7 @@ module.exports = [
 		agility: 2,
 		hull: 5,
 		shields: 3,
-		cost: 23,
+		cost: 28,
 		text: "Each time you defend, if you take no damage from an attack, you may immediately roll 1 attack die. A [hit] or [crit] result damages the attacking ship.",
 		unique: true,
 		factions: ["federation"],
@@ -13957,7 +13959,7 @@ module.exports = [
 		agility: 1,
 		hull: 5,
 		shields: 3,
-		cost: 24,
+		cost: 28,
 		text: "<b>ACTION:</b> Place a [scan] Token and an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
@@ -14023,7 +14025,7 @@ module.exports = [
 		agility: 1,
 		hull: 4,
 		shields: 3,
-		cost: 21,
+		cost: 24,
 		text: "When attacking a ship with your Primary Weapon that has a larger Hull value and/or Primary Weapon value than your ship, gain +1 attack die.",
 		unique: true,
 		factions: [
@@ -14061,7 +14063,7 @@ module.exports = [
 		agility: 2,
 		hull: 6,
 		shields: 3,
-		cost: 27,
+		cost: 30,
 		text: "If you reveal a 4 [forward] maneuver, immediately before you move, you may change it to a 4 Bank maneuver. Treat this as a Red Maneuver.",
 		unique: true,
 		factions: [
