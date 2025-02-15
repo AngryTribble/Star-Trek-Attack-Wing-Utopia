@@ -5464,6 +5464,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 28,
+
 		text: "When defending, During the Modify Defense dice step, you may re-roll one of your defense dice. If you do so, place an Auxiliary Power Token beside your ship.",
 		unique: true,
 		factions: [
