@@ -1611,7 +1611,7 @@ module.exports = [
 		type: "ship-class",
 		id: "constitution_refit_class",
 		gameId: 1,
-		name: "Constitution Refit Class",
+		name: "Constitution Class (Refit)",
 		frontArc: "180",
 		rearArc: "",
 		maneuvers: {
