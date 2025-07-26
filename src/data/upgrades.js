@@ -2018,6 +2018,7 @@ module.exports = [
 		cost: 1,
 		text: "<b>COMBAT PHASE:</b> Spend a [scan] Token from beside this ship and target another ship within Range. \n\n Remove a [battlestations], [scan], [evade], or <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token from beside the target ship. \n\n\n <b>(Lower Decks)</b>",
 		unique: true,
+		range: "1 - 2",
 		alliance: false,
 		factions: [
 			"federation"

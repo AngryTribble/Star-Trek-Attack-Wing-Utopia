@@ -179,7 +179,7 @@ module.exports = [
 		cost: 5,
 		skill: 2,
 		talents: 1,
-		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship.\n<hr> <b>FREE ACTION:</b> Discard 1 <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> [crew_text] Upgrade equipped to this ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Perform an attack with this ship's Primary Weapon with -1 attack die.",
+		text: "You do not pay a faction penalty when equipping this card to a <img src='img/text/faction-romulan.png' width='20' height='20' title='Romulan'> ship.\n<hr> <b>FREE FLEET ACTION:</b> Discard 1 <img src='img/text/faction-dominion.png' width='20' height='20' title='Dominion'> [crew_text] Upgrade equipped to this ship and place 2 <img src='img/stuff/effect_time_token.png' width='20' height='16'> Tokens on this card.\n\n Perform an attack with this ship's Primary Weapon with -1 attack die.",
 		unique: true,
 		factions: [
 			"dominion"

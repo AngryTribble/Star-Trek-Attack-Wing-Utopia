@@ -1466,7 +1466,7 @@ module.exports = [
 		hull: 5,
 		shields: 3,
 		cost: 23,
-		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP:</b>\nRoll -2 attack dice.\nPlace 1 <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the defending ship.",
+		text: "<b>WHEN DEFENDING:</b>\n You may re-roll 1 [blank]. If the attacking ship is a Capital Ship, you may also add an [evade]. \n<hr> <b>WHEN ATTACKING A <img src='img/text/faction-federation.png' width='20' height='20' title='Federation'> SHIP:</b>\nYou may roll -2 attack dice.\nPlace 1 <img src='img/stuff/effect_auxilary.png' width='18' height='16'> Token beside the defending ship.",
 		unique: true,
 		factions: [
 			"federation"
@@ -1597,7 +1597,6 @@ module.exports = [
 		],
 		name: "I.R.W. Valdore",
 		class: "Valdore Class",
-		image: "https://i.imgur.com/YZCjANG.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1635,7 +1634,6 @@ module.exports = [
 		],
 		name: "Romulan Starship",
 		class: "Valdore Class",
-		image: "https://i.imgur.com/xpbHAVg.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1672,7 +1670,6 @@ module.exports = [
 		],
 		name: "I.R.W. Soterus",
 		class: "Valdore Class",
-		image: "https://i.imgur.com/Pxumlx4.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1710,7 +1707,6 @@ module.exports = [
 		],
 		name: "Romulan Starship",
 		class: "Romulan Scout Vessel",
-		image: "https://i.imgur.com/fp2wciP.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1745,7 +1741,6 @@ module.exports = [
 		],
 		name: "Tal Shair Scout",
 		class: "Romulan Scout Vessel",
-		image: "https://i.imgur.com/9CTd49F.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1822,7 +1817,6 @@ module.exports = [
 		],
 		name: "Romulan Starship",
 		class: "D'deridex Class",
-		image: "https://i.imgur.com/uolfK2a.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1860,7 +1854,6 @@ module.exports = [
 		],
 		name: "Twilight's Wrath",
 		class: "D'deridex Class",
-		image: "https://i.imgur.com/2b4IXyY.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -1899,7 +1892,6 @@ module.exports = [
 		],
 		name: "Reman Starship",
 		class: "Reman Warbird",
-		image: "https://i.imgur.com/LrW9TgK.png",
 		actions: [
 			"evade",
 			"target-lock",
@@ -3657,7 +3649,7 @@ module.exports = [
 		hull: 3,
 		shields: 3,
 		cost: 18,
-		text: "<b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> ship with a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Captain equipped to it, target that friendly ship.  \n\nThis ship attack first this game round and the target ship attacks second this game round.",
+		text: "<b>COMBAT PHASE:</b> If there is an opposing ship in the Primary Firing Arc of this ship and the Primary Firing Arc of another friendly <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> ship with a <img src='img/text/faction-ferengi.png' width='20' height='20' title='Ferengi'> Captain equipped to it, target that friendly ship.  \n\nThis ship attack first this game round and the target ship attacks second this game round.",
 		unique: true,
 		factions: [
 			"ferengi",
@@ -5035,7 +5027,7 @@ module.exports = [
 		hull: 3,
 		shields: 2,
 		cost: 14,
-		text: "<b>WHEN THIS SHIP WOULD BE DESTROYED:</b> \n\nThe attacking ship must discard one [crew_text] Upgrade. If it can't, place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside this ship.",
+		text: "<b>WHEN THIS SHIP WOULD BE DESTROYED:</b> \n\nThe attacking ship must discard one [crew_text] Upgrade. If it can't, place an <img src='img/stuff/effect_auxilary.png' width='18' height='16' title='AUX Power Token'> Token beside it.",
 		unique: true,
 		factions: [
 			"federation"

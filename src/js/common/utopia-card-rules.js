@@ -19,6 +19,20 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		};
 	};
 
+	var ShipRestriction = function(allowedClasses) {
+		return function(upgrade, ship, fleet) {
+			return allowedClasses.includes(ship.class);
+		};
+	};
+
+	var nonFederationPenalty = function(ship, fleet) {
+		return !(
+			$factions.hasFaction(ship, "federation", ship, fleet) ||
+			$factions.hasFaction(ship, "bajoran", ship, fleet) ||
+			$factions.hasFaction(ship, "vulcan", ship, fleet)
+		);
+	};
+
 	var upgradeTypes = ["crew","weapon","tech","talent","question","borg"];
 
 	var isUpgrade = function(card) {
@@ -548,9 +562,10 @@ module.factory( "cardRules", [ "$filter", "$factions", function($filter, $factio
 		//All non-Federation ships pay +1 SP to equip
 		intercept: {
 			self: {
-				cost: function(upgrade,ship,fleet,cost) {
-					if( ship && !$factions.hasFaction(ship, "federation", ship, fleet) || $factions.hasFaction(ship, "bajoran", ship, fleet) || $factions.hasFaction(ship, "vulcan", ship, fleet))
-					return resolve(upgrade,ship,fleet,cost) +1;
+				cost: function(upgrade, ship, fleet, cost) {
+					if (ship && nonFederationPenalty(ship, fleet)) {
+						return resolve(upgrade, ship, fleet, cost) + 1;
+				}
 				return cost;
 				}
 			}
@@ -7595,6 +7610,17 @@ intercept: {
 			}
 		},
 
+		//Thoron Shock Emitter
+		"weapon:W164":{
+			canEquip: ShipRestriction(["Cardassian ATR-4107"])
+		},
+
+		//Thoron Shock Emitter
+		"weapon:W131":{
+			canEquip: ShipRestriction(["Cardassian ATR-4107"])
+		},
+
+
 	//Prototype 02 :72014wp
 		"ship:S267": {
 			intercept: {
@@ -9343,6 +9369,19 @@ intercept: {
 			}
 		},
 
+		"resource:R039a":{
+			canEquip: function(upgrade,ship,fleet) {
+				return !ship.captain || (ship.captain.skill >= 5);
+			},
+
+			intercept: {
+				ship: {
+					canEquipCaptain: function(captain,ship,fleet) {
+						return typeof captain.skill == "number" && captain.skill >= 5;
+					},
+				},
+			},
+		},
 
 		"resource:R033": {
 			slotType: "ship-resource",
