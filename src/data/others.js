@@ -1432,7 +1432,7 @@ module.exports = [
 			"dominion",
 			"independent"
 		],
-		text: "Ship with Captain skill 5+\n\nAfter performing an Green or White Maneuver, remove a Disable Token from a Upgrade equipped to this ship.",
+		text: "This card can only be assigned to a ship that has a Captain with a printed Captain Skill of 5 or higher. \n\n <b>ACTIVATION PHASE:</b> Once per game round, after this ship executes a Non-Red Maneuver: \n\n Remove a <img src='img/stuff/effect_disable.png' width='20' height='16'> from 1 of the cards equipped to this ship.",
 		cost: 3,
 		showType: true,
 		canEquip: true,
